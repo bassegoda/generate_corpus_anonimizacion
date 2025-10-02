@@ -134,7 +134,6 @@ Las contribuciones son bienvenidas. Por favor:
 
 ## 📞 Contacto
 
-- **Autor:** Ramses Stein
 - **GitHub:** [@ramsestein](https://github.com/ramsestein)
 - **Proyecto:** [generate_corpus_anonimizacion](https://github.com/ramsestein/generate_corpus_anonimizacion)
 
