@@ -1,0 +1,15 @@
+{
+  "pipeline_step": 3,
+  "process": "final_document_anonymization",
+  "annotations_source": "examples/jsonl_data/medical_annotations.jsonl",
+  "total_documents": 0,
+  "successful_documents": 0,
+  "failed_documents": 0,
+  "total_entities_processed": 0,
+  "total_replacements_made": 0,
+  "total_entities_not_found": 0,
+  "average_anonymization_success_rate": 0,
+  "total_original_length": 0,
+  "total_anonymized_length": 0,
+  "documents": []
+}

@@ -1,0 +1,65 @@
+{
+  "document_id": "c02a0fe8-a27e-496d-bc42-ab279d56a916",
+  "success": true,
+  "anonymized_text": "A continuación se presenta el informe de valoración integral correspondiente a la paciente XXX, quien fue atendida en nuestras instalaciones para evaluación especializada. La documentación asociada a este episodio asistencial queda registrada bajo el código XXX. La exploración física actual revela un estado general conservado, con presión arterial de 125/80 mmHg y frecuencia cardíaca de 72 lpm. En la auscultación cardíaca se identifica un ritmo regular sin soplos añadidos, mientras que la auscultación pulmonar presenta murmullo vesicular conservado bilateralmente sin ruidos sobreañadidos. El abdomen es blando y depresible, no doloroso a la palpación superficial y profunda. Respecto a las pruebas complementarias realizadas, el hemograma muestra una discreta leucocitosis con fórmula dentro de rangos normales, y la bioquímica sanguínea no evidencia alteraciones significativas en iones ni en función renal. El estudio de imagen mediante ecografía abdominal fue informado como normal, sin evidencia de patología orgánica específica. Cabe destacar que el vehículo particular vinculado al traslado de la paciente, identificado con la placa XXX, no se vio involucrado en incidente alguno que guarde relación con el cuadro clínico actual. El contacto asistencial principal para cualquier gestión relacionada con este proceso queda establecido bajo la referencia XXX. Todo el proceso diagnóstico y terapéutico se ha desarrollado dentro del marco asistencial del XXX, centro de referencia en nuestra área que mantiene los más altos estándares de calidad. La paciente, cuya residencia se sitúa en la XXX, cuenta con todos los recursos sanitarios necesarios para su adecuado seguimiento. La coordinación dentro del sistema sanitario de XXX garantiza la continuidad asistencial requerida para este tipo de procesos médicos.",
+  "text_length": 1822,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "filtered_x_entities": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "xxxxxx_detections": [],
+    "other_detections": [],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "xxxxxx_detections": 0,
+    "other_detections": 0
+  }
+}

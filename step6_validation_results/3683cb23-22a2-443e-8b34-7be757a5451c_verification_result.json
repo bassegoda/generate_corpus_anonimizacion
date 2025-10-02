@@ -1,0 +1,65 @@
+{
+  "document_id": "3683cb23-22a2-443e-8b34-7be757a5451c",
+  "success": true,
+  "anonymized_text": "Informe de Interconsulta Se remite a la atención del XXX del departamento de referencia para evaluación y manejo quirúrgico de la paciente de XXX bajo mi cuidado en el XXX. La paciente presenta un cuadro clínico complejo que requiere del criterio especializado de un XXX para determinar la indicación de intervención. Tras la revisión de la documentación clínica y los estudios complementarios realizados, se considera que la situación de la paciente podría beneficiarse de una valoración quirúrgica exhaustiva. Los hallazgos ecocardiográficos muestran datos significativos que justifican esta derivación. Para cualquier comunicación adicional relacionada con este caso, puede contactarme a través de XXX. Quedo a la espera de su valoración y recomendaciones terapéuticas. Reciba un cordial saludo, XXX Profesional con XXX Ejercicio profesional regulado por el XXX XXX",
+  "text_length": 868,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "filtered_x_entities": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "xxxxxx_detections": [],
+    "other_detections": [],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "xxxxxx_detections": 0,
+    "other_detections": 0
+  }
+}

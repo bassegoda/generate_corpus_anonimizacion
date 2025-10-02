@@ -1,0 +1,65 @@
+{
+  "document_id": "07db891f-bd44-44c6-ade2-c850b11be3ea",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE CARDIOLOGÍA** Se remite a la consulta de cardiología del XXX a la paciente XXX para valoración y seguimiento tras su intervención quirúrgica. La paciente fue intervenida el XXX en el XXX por el XXX. El procedimiento se registró bajo el número de referencia XXX. En la actualidad, la paciente refiere una notable mejoría de su capacidad funcional, sin angina ni disnea de esfuerzo. La exploración física actual muestra ruidos cardíacos rítmicos, sin soplos, y campos pulmonares libres. Los resultados de la analítica reciente son satisfactorios, con un perfil lipídico dentro de objetivos. La ecocardiografía de control realizada muestra una buena función ventricular y correcto funcionamiento del dispositivo implantado, cuyo número de serie es XXX. El informe completo de dicha prueba se encuentra archivado en su historia clínica principal con el identificador XXX. Se recomienda continuar con el plan terapéutico establecido y se coordinará el seguimiento periódico con su XXX, ubicado en la XXX. Para cualquier gestión o aclaración, queda a disposición el XXX del XXX responsable. Se considera que la evolución postoperatoria es favorable.",
+  "text_length": 1176,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "filtered_x_entities": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "xxxxxx_detections": [],
+    "other_detections": [],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "xxxxxx_detections": 0,
+    "other_detections": 0
+  }
+}

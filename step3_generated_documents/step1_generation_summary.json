@@ -1,0 +1,172 @@
+{
+  "pipeline_step": 1,
+  "process": "direct_document_generation",
+  "total_documents": 20,
+  "successful_documents": 20,
+  "failed_documents": 0,
+  "total_entities_processed": 197,
+  "average_entities_per_doc": 9.85,
+  "average_document_length": 1544.75,
+  "documents": [
+    {
+      "document_id": "04be0223-87d7-4313-b9ed-a45c73a8c73d",
+      "success": true,
+      "output_file": "step3_generated_documents\\04be0223-87d7-4313-b9ed-a45c73a8c73d.txt",
+      "metadata_file": "step3_generated_documents\\04be0223-87d7-4313-b9ed-a45c73a8c73d_metadata.json",
+      "entities_count": 5,
+      "document_length": 1252
+    },
+    {
+      "document_id": "534ae565-9a27-4a9b-bb5f-6e267233b442",
+      "success": true,
+      "output_file": "step3_generated_documents\\534ae565-9a27-4a9b-bb5f-6e267233b442.txt",
+      "metadata_file": "step3_generated_documents\\534ae565-9a27-4a9b-bb5f-6e267233b442_metadata.json",
+      "entities_count": 9,
+      "document_length": 1584
+    },
+    {
+      "document_id": "c02a0fe8-a27e-496d-bc42-ab279d56a916",
+      "success": true,
+      "output_file": "step3_generated_documents\\c02a0fe8-a27e-496d-bc42-ab279d56a916.txt",
+      "metadata_file": "step3_generated_documents\\c02a0fe8-a27e-496d-bc42-ab279d56a916_metadata.json",
+      "entities_count": 7,
+      "document_length": 1911
+    },
+    {
+      "document_id": "ad20499d-4363-4f89-9180-12428ca81295",
+      "success": true,
+      "output_file": "step3_generated_documents\\ad20499d-4363-4f89-9180-12428ca81295.txt",
+      "metadata_file": "step3_generated_documents\\ad20499d-4363-4f89-9180-12428ca81295_metadata.json",
+      "entities_count": 12,
+      "document_length": 1520
+    },
+    {
+      "document_id": "cbd06252-3314-4208-a171-9f0c0f4c15d5",
+      "success": true,
+      "output_file": "step3_generated_documents\\cbd06252-3314-4208-a171-9f0c0f4c15d5.txt",
+      "metadata_file": "step3_generated_documents\\cbd06252-3314-4208-a171-9f0c0f4c15d5_metadata.json",
+      "entities_count": 11,
+      "document_length": 1837
+    },
+    {
+      "document_id": "e93222e5-44e9-4f37-ab94-4e5df9fd6bec",
+      "success": true,
+      "output_file": "step3_generated_documents\\e93222e5-44e9-4f37-ab94-4e5df9fd6bec.txt",
+      "metadata_file": "step3_generated_documents\\e93222e5-44e9-4f37-ab94-4e5df9fd6bec_metadata.json",
+      "entities_count": 12,
+      "document_length": 1516
+    },
+    {
+      "document_id": "df4e5778-3064-4cd0-ad25-50a10b2b5493",
+      "success": true,
+      "output_file": "step3_generated_documents\\df4e5778-3064-4cd0-ad25-50a10b2b5493.txt",
+      "metadata_file": "step3_generated_documents\\df4e5778-3064-4cd0-ad25-50a10b2b5493_metadata.json",
+      "entities_count": 10,
+      "document_length": 1318
+    },
+    {
+      "document_id": "8d1090df-34c8-40ec-8bb9-944716ef1a89",
+      "success": true,
+      "output_file": "step3_generated_documents\\8d1090df-34c8-40ec-8bb9-944716ef1a89.txt",
+      "metadata_file": "step3_generated_documents\\8d1090df-34c8-40ec-8bb9-944716ef1a89_metadata.json",
+      "entities_count": 6,
+      "document_length": 1489
+    },
+    {
+      "document_id": "736b19b8-52d0-4c96-93c3-80a0532a264e",
+      "success": true,
+      "output_file": "step3_generated_documents\\736b19b8-52d0-4c96-93c3-80a0532a264e.txt",
+      "metadata_file": "step3_generated_documents\\736b19b8-52d0-4c96-93c3-80a0532a264e_metadata.json",
+      "entities_count": 15,
+      "document_length": 1743
+    },
+    {
+      "document_id": "c04aa6ca-e44c-45b2-97c2-c9431ac68d8e",
+      "success": true,
+      "output_file": "step3_generated_documents\\c04aa6ca-e44c-45b2-97c2-c9431ac68d8e.txt",
+      "metadata_file": "step3_generated_documents\\c04aa6ca-e44c-45b2-97c2-c9431ac68d8e_metadata.json",
+      "entities_count": 9,
+      "document_length": 1812
+    },
+    {
+      "document_id": "f7764ea0-e190-45ca-ac87-5d342abc7200",
+      "success": true,
+      "output_file": "step3_generated_documents\\f7764ea0-e190-45ca-ac87-5d342abc7200.txt",
+      "metadata_file": "step3_generated_documents\\f7764ea0-e190-45ca-ac87-5d342abc7200_metadata.json",
+      "entities_count": 14,
+      "document_length": 2011
+    },
+    {
+      "document_id": "07db891f-bd44-44c6-ade2-c850b11be3ea",
+      "success": true,
+      "output_file": "step3_generated_documents\\07db891f-bd44-44c6-ade2-c850b11be3ea.txt",
+      "metadata_file": "step3_generated_documents\\07db891f-bd44-44c6-ade2-c850b11be3ea_metadata.json",
+      "entities_count": 12,
+      "document_length": 1537
+    },
+    {
+      "document_id": "b7a6cc61-85f2-4210-ae6f-54c44db9197d",
+      "success": true,
+      "output_file": "step3_generated_documents\\b7a6cc61-85f2-4210-ae6f-54c44db9197d.txt",
+      "metadata_file": "step3_generated_documents\\b7a6cc61-85f2-4210-ae6f-54c44db9197d_metadata.json",
+      "entities_count": 7,
+      "document_length": 1152
+    },
+    {
+      "document_id": "979ad272-4a4d-4046-a15f-660dd3be9683",
+      "success": true,
+      "output_file": "step3_generated_documents\\979ad272-4a4d-4046-a15f-660dd3be9683.txt",
+      "metadata_file": "step3_generated_documents\\979ad272-4a4d-4046-a15f-660dd3be9683_metadata.json",
+      "entities_count": 4,
+      "document_length": 1290
+    },
+    {
+      "document_id": "e46e4260-e886-41d9-b2e5-8b7220df5504",
+      "success": true,
+      "output_file": "step3_generated_documents\\e46e4260-e886-41d9-b2e5-8b7220df5504.txt",
+      "metadata_file": "step3_generated_documents\\e46e4260-e886-41d9-b2e5-8b7220df5504_metadata.json",
+      "entities_count": 9,
+      "document_length": 1474
+    },
+    {
+      "document_id": "3683cb23-22a2-443e-8b34-7be757a5451c",
+      "success": true,
+      "output_file": "step3_generated_documents\\3683cb23-22a2-443e-8b34-7be757a5451c.txt",
+      "metadata_file": "step3_generated_documents\\3683cb23-22a2-443e-8b34-7be757a5451c_metadata.json",
+      "entities_count": 9,
+      "document_length": 1008
+    },
+    {
+      "document_id": "825cdd39-5c35-4f18-804c-b44ef8d4adfe",
+      "success": true,
+      "output_file": "step3_generated_documents\\825cdd39-5c35-4f18-804c-b44ef8d4adfe.txt",
+      "metadata_file": "step3_generated_documents\\825cdd39-5c35-4f18-804c-b44ef8d4adfe_metadata.json",
+      "entities_count": 17,
+      "document_length": 1583
+    },
+    {
+      "document_id": "914b0858-9e00-4f2f-a559-d15edd5eba0f",
+      "success": true,
+      "output_file": "step3_generated_documents\\914b0858-9e00-4f2f-a559-d15edd5eba0f.txt",
+      "metadata_file": "step3_generated_documents\\914b0858-9e00-4f2f-a559-d15edd5eba0f_metadata.json",
+      "entities_count": 15,
+      "document_length": 1876
+    },
+    {
+      "document_id": "35218b94-25d0-43fb-9751-dc10a5db2e78",
+      "success": true,
+      "output_file": "step3_generated_documents\\35218b94-25d0-43fb-9751-dc10a5db2e78.txt",
+      "metadata_file": "step3_generated_documents\\35218b94-25d0-43fb-9751-dc10a5db2e78_metadata.json",
+      "entities_count": 4,
+      "document_length": 1299
+    },
+    {
+      "document_id": "4defdd3f-87a4-4bc2-b433-e438c9085171",
+      "success": true,
+      "output_file": "step3_generated_documents\\4defdd3f-87a4-4bc2-b433-e438c9085171.txt",
+      "metadata_file": "step3_generated_documents\\4defdd3f-87a4-4bc2-b433-e438c9085171_metadata.json",
+      "entities_count": 10,
+      "document_length": 1683
+    }
+  ]
+}

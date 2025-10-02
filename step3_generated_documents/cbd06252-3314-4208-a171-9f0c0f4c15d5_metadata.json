@@ -1,0 +1,54 @@
+{
+  "document_id": "cbd06252-3314-4208-a171-9f0c0f4c15d5",
+  "generation_step": 1,
+  "entities_used": [
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Constitución 12"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "67 años"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "72 años"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237641"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "fumador"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María del Carmen Gutiérrez"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Clínico San Carlos"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://www.clinicabarcelona.org"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-459-23"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 876 54 32"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Valenciana"
+    }
+  ],
+  "entities_count": 11,
+  "prompt_used": "Eres un médico especialista redactando un documento clínico en español. Debes crear un texto médico completamente natural y fluido que incorpore de manera orgánica ÚNICAMENTE los siguientes datos específicos:\n\nDATOS EXACTOS A INCLUIR (usar estos textos tal como están escritos):\n- Avenida de la Constitución 12\n- 67 años\n- 72 años\n- SN-98237641\n- fumador\n- María del Carmen Gutiérrez\n- Hospital Clínico San Carlos\n- https://www.clinicabarcelona.org\n- E-459-23\n- +34 91 876 54 32\n- Comunidad Valenciana\n\nETIQUETAS PERMITIDAS EN ESTE DOCUMENTO:\nCALLE, EDAD_SUJETO_ASISTENCIA, FAMILIARES_SUJETO_ASISTENCIA, HOSPITAL, IDENTIF_DISPOSITIVOS_NRSERIE, ID_EMPLEO_PERSONAL_SANITARIO, NUMERO_FAX, OTROS_SUJETO_ASISTENCIA, TERRITORIO, URL_WEB\n\nETIQUETAS ESTRICTAMENTE PROHIBIDAS (NO incluir NINGÚN dato de estas categorías):\nCENTRO_SALUD, CORREO_ELECTRONICO, DIREC_PROT_INTERNET, FECHAS, IDENTIF_BIOMETRICOS, IDENTIF_VEHICULOS_NRSERIE_PLACAS, ID_ASEGURAMIENTO, ID_CONTACTO_ASISTENCIAL, ID_SUJETO_ASISTENCIA, ID_TITULACION_PERSONAL_SANITARIO, INSTITUCION, NOMBRE_PERSONAL_SANITARIO, NOMBRE_SUJETO_ASISTENCIA, NUMERO_BENEF_PLAN_SALUD, NUMERO_TELEFONO, OTRO_NUMERO_IDENTIF, PAIS, PROFESION, SEXO_SUJETO_ASISTENCIA\n\nRESTRICCIÓN CRÍTICA: NO inventes, modifiques o añadas NINGÚN dato personal, identificativo o médico que no esté en la lista exacta de arriba.\n\nINSTRUCCIONES PARA UN DOCUMENTO NATURAL:\n1. Redacta como si fueras un médico escribiendo un informe real\n2. Usa terminología médica apropiada y estructura profesional\n3. Los datos deben aparecer integrados de forma completamente natural en el contexto\n4. NO uses listas, viñetas o formatos artificiales\n5. El texto debe fluir como prosa médica continua\n6. Puedes usar diferentes tipos de documentos: historia clínica, informe de consulta, nota de evolución, etc.\n7. Sé creativo con el contexto médico pero SOLO usa los datos proporcionados\n8. NO inventes nombres, fechas, diagnósticos, tratamientos o cualquier otra información\n9. Si un dato no encaja naturalmente, crea otro párrafo en el texto para incluirlo\n10. Añade exploraciones fisicas, resultados de analíticas, resultados de pruebas de imagen, etc. ficticios para darle más realismo al documento\n\nFORMATO DEL TEXTO:\n- Escribe ÚNICAMENTE texto médico natural, SIN etiquetas XML o marcadores\n- NO uses <ETIQUETA>texto</ETIQUETA> ni ningún formato de marcado\n- Los datos deben aparecer como texto normal integrado en el contexto médico\n- Ejemplo CORRECTO: \"El paciente 12345678A acude al Centro de Salud El Carmen\"\n- Ejemplo INCORRECTO: \"El paciente <ID>12345678A</ID> acude al <CENTRO>Centro de Salud El Carmen</CENTRO>\"\n\nRESTRICCIONES CRÍTICAS:\n- SOLO los datos de la lista pueden aparecer en el documento\n- NO incluyas NINGÚN dato que corresponda a las etiquetas prohibidas\n- NO agregues información médica, personal o identificativa adicional\n- NO uses etiquetas, marcadores o formato XML/HTML\n- El documento debe sonar completamente natural y profesional\n- Omite datos vacíos o con texto como \"[No se proporcionó...]\"\n\nGenera un documento médico natural y profesional que contenga ÚNICAMENTE los datos permitidos.",
+  "model_used": "deepseek-chat",
+  "output_file": "step3_generated_documents\\cbd06252-3314-4208-a171-9f0c0f4c15d5.txt"
+}

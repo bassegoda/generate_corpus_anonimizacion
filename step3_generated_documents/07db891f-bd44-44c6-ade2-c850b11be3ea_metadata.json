@@ -1,0 +1,106 @@
+{
+  "document_id": "07db891f-bd44-44c6-ade2-c850b11be3ea",
+  "generation_step": 1,
+  "entities_used": [
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Clínico San Carlos",
+      "start": 852,
+      "end": 879,
+      "anonymized_start": 852,
+      "anonymized_end": 855
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital General de Madrid",
+      "start": 577,
+      "end": 603,
+      "anonymized_start": 553,
+      "anonymized_end": 556
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@clinic.es",
+      "start": 1383,
+      "end": 1408,
+      "anonymized_start": 1313,
+      "anonymized_end": 1316
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud Los Álamos",
+      "start": 213,
+      "end": 239,
+      "anonymized_start": 166,
+      "anonymized_end": 169
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano cardiovascular",
+      "start": 655,
+      "end": 678,
+      "anonymized_start": 563,
+      "anonymized_end": 566
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano",
+      "start": 655,
+      "end": 663,
+      "anonymized_start": 461,
+      "anonymized_end": 464
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-48263915B",
+      "start": 1130,
+      "end": 1143,
+      "anonymized_start": 954,
+      "anonymized_end": 957
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2024-789012",
+      "start": 1011,
+      "end": 1025,
+      "anonymized_start": 846,
+      "anonymized_end": 849
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237641",
+      "start": 1239,
+      "end": 1250,
+      "anonymized_start": 1053,
+      "anonymized_end": 1056
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Laura Méndez Iglesias",
+      "start": 49,
+      "end": 70,
+      "anonymized_start": -82,
+      "anonymized_end": -79
+    },
+    {
+      "entity": "FECHAS",
+      "text": "12 de julio de 2023",
+      "start": 243,
+      "end": 262,
+      "anonymized_start": 94,
+      "anonymized_end": 97
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle de la Alameda 47",
+      "start": 1538,
+      "end": 1560,
+      "anonymized_start": 1426,
+      "anonymized_end": 1429
+    }
+  ],
+  "entities_count": 12,
+  "prompt_used": "Eres un médico especialista redactando un documento clínico en español. Debes crear un texto médico completamente natural y fluido que incorpore de manera orgánica ÚNICAMENTE los siguientes datos específicos:\n\nDATOS EXACTOS A INCLUIR (usar estos textos tal como están escritos):\n- Hospital Clínico San Carlos\n- Hospital General de Madrid\n- carlos.martinez@clinic.es\n- Centro de Salud Los Álamos\n- cirujano cardiovascular\n- cirujano\n- REF-48263915B\n- HC-2024-789012\n- SN-98237641\n- Laura Méndez Iglesias\n- 12 de julio de 2023\n- Calle de la Alameda 47\n\nETIQUETAS PERMITIDAS EN ESTE DOCUMENTO:\nCALLE, CENTRO_SALUD, CORREO_ELECTRONICO, FECHAS, HOSPITAL, IDENTIF_DISPOSITIVOS_NRSERIE, NOMBRE_SUJETO_ASISTENCIA, OTRO_NUMERO_IDENTIF, PROFESION\n\nETIQUETAS ESTRICTAMENTE PROHIBIDAS (NO incluir NINGÚN dato de estas categorías):\nDIREC_PROT_INTERNET, EDAD_SUJETO_ASISTENCIA, FAMILIARES_SUJETO_ASISTENCIA, IDENTIF_BIOMETRICOS, IDENTIF_VEHICULOS_NRSERIE_PLACAS, ID_ASEGURAMIENTO, ID_CONTACTO_ASISTENCIAL, ID_EMPLEO_PERSONAL_SANITARIO, ID_SUJETO_ASISTENCIA, ID_TITULACION_PERSONAL_SANITARIO, INSTITUCION, NOMBRE_PERSONAL_SANITARIO, NUMERO_BENEF_PLAN_SALUD, NUMERO_FAX, NUMERO_TELEFONO, OTROS_SUJETO_ASISTENCIA, PAIS, SEXO_SUJETO_ASISTENCIA, TERRITORIO, URL_WEB\n\nRESTRICCIÓN CRÍTICA: NO inventes, modifiques o añadas NINGÚN dato personal, identificativo o médico que no esté en la lista exacta de arriba.\n\nINSTRUCCIONES PARA UN DOCUMENTO NATURAL:\n1. Redacta como si fueras un médico escribiendo un informe real\n2. Usa terminología médica apropiada y estructura profesional\n3. Los datos deben aparecer integrados de forma completamente natural en el contexto\n4. NO uses listas, viñetas o formatos artificiales\n5. El texto debe fluir como prosa médica continua\n6. Puedes usar diferentes tipos de documentos: historia clínica, informe de consulta, nota de evolución, etc.\n7. Sé creativo con el contexto médico pero SOLO usa los datos proporcionados\n8. NO inventes nombres, fechas, diagnósticos, tratamientos o cualquier otra información\n9. Si un dato no encaja naturalmente, crea otro párrafo en el texto para incluirlo\n10. Añade exploraciones fisicas, resultados de analíticas, resultados de pruebas de imagen, etc. ficticios para darle más realismo al documento\n\nFORMATO DEL TEXTO:\n- Escribe ÚNICAMENTE texto médico natural, SIN etiquetas XML o marcadores\n- NO uses <ETIQUETA>texto</ETIQUETA> ni ningún formato de marcado\n- Los datos deben aparecer como texto normal integrado en el contexto médico\n- Ejemplo CORRECTO: \"El paciente 12345678A acude al Centro de Salud El Carmen\"\n- Ejemplo INCORRECTO: \"El paciente <ID>12345678A</ID> acude al <CENTRO>Centro de Salud El Carmen</CENTRO>\"\n\nRESTRICCIONES CRÍTICAS:\n- SOLO los datos de la lista pueden aparecer en el documento\n- NO incluyas NINGÚN dato que corresponda a las etiquetas prohibidas\n- NO agregues información médica, personal o identificativa adicional\n- NO uses etiquetas, marcadores o formato XML/HTML\n- El documento debe sonar completamente natural y profesional\n- Omite datos vacíos o con texto como \"[No se proporcionó...]\"\n\nGenera un documento médico natural y profesional que contenga ÚNICAMENTE los datos permitidos.",
+  "model_used": "deepseek-chat",
+  "output_file": "step3_generated_documents\\07db891f-bd44-44c6-ade2-c850b11be3ea.txt"
+}
