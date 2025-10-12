@@ -99,13 +99,49 @@ La carpeta `docs_revisar/` contiene documentos distribuidos aleatoriamente entre
 
 ### Instrucciones para Revisores
 
+#### 📋 Proceso de Validación Manual
+
 1. **Acceder a su carpeta**: `docs_revisar/[su_nombre]/`
-2. **Revisar cada documento** comparando:
-   - Documento original vs. documento anonimizado
-   - Verificar que todas las entidades sensibles estén anonimizadas
-   - Confirmar que no se haya perdido información médica relevante
-3. **Consultar las guías**: Usar el PDF `guías-de-anotación-de-información-de-salud-protegida.pdf`
-4. **Documentar hallazgos**: Reportar errores o inconsistencias encontradas
+   - Encontrará 120 documentos anonimizados para revisar
+   - Cada documento aparece en exactamente 2 carpetas para validación cruzada
+
+2. **Abrir el archivo CSV de validación**: `validacion_[su_nombre].csv`
+   - Contiene la lista completa de sus 120 documentos ordenados alfabéticamente
+   - Incluye columnas para registrar sus hallazgos
+
+3. **Para cada documento**:
+   - **Abrir el archivo .txt** y revisar el contenido anonimizado
+   - **Verificar que todas las entidades sensibles estén correctamente anonimizadas**:
+     - Nombres de personas → XXX
+     - Fechas específicas → XXX
+     - Direcciones → XXX
+     - Números de identificación → XXX
+     - URLs y emails → XXX
+     - Números de teléfono → XXX
+   - **Confirmar que no se haya perdido información médica relevante**
+
+4. **Registrar en el CSV**:
+   - **Columna "Correctamente_Anonimizado"**: Escribir "Sí" o "No"
+   - **Columna "Texto_Conflictivo"**: Si hay problemas, copiar y pegar el texto problemático
+   - **Columna "Observaciones"**: Comentarios adicionales sobre el documento
+
+5. **Consultar las guías**: Usar el PDF `guías-de-anotación-de-información-de-salud-protegida.pdf` como referencia
+
+6. **Guardar el CSV** regularmente durante la revisión
+
+#### 🎯 Criterios de Evaluación
+
+- ✅ **Correcto**: Todas las entidades sensibles están anonimizadas con "XXX"
+- ❌ **Incorrecto**: Se detectan entidades sensibles sin anonimizar
+- ⚠️ **Dudoso**: Casos ambiguos que requieren análisis adicional
+
+#### 📊 Entrega de Resultados
+
+Al completar la revisión, el archivo CSV contendrá:
+- Lista completa de documentos revisados
+- Estado de anonimización de cada documento
+- Texto específico de problemas encontrados
+- Observaciones y comentarios del revisor
 
 ### Ejemplo de Anonimización
 
