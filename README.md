@@ -193,4 +193,28 @@ Este proyecto está desarrollado para fines de investigación en anonimización 
 
 ---
 
+## 🤝 Contribución
+
+Las contribuciones son bienvenidas. Por favor:
+
+1. Fork el proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
+
+## 📞 Contacto
+
+- **GitHub:** [@ramsestein](https://github.com/ramsestein)
+- **Proyecto:** [generate_corpus_anonimizacion](https://github.com/ramsestein/generate_corpus_anonimizacion)
+
+## 🙏 Agradecimientos
+
+- **MEDDOCAN:** Corpus de anonimización médica en español
+- **CARMEN-I:** Corpus de anonimización médica
+- **BSC:** Barcelona Supercomputing Center
+- **DeepSeek:** Modelos de IA para corrección de texto
+
+---
+
 *Última actualización: Octubre 2025*
