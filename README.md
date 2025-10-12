@@ -75,24 +75,30 @@ El sistema implementa un pipeline de 6 pasos:
 
 ### Métricas del Step 4: Corrección Iterativa
 
-El Step 4 implementa un proceso de corrección iterativa que garantiza la completitud de las entidades:
+El Step 4 implementa un proceso de corrección iterativa que detecta y corrige entidades faltantes en los documentos:
 
 #### **📊 Estadísticas de Procesamiento:**
-- **22,404 documentos** procesados en total
-- **100% tasa de éxito** (0 documentos fallidos)
-- **20,763 líneas** reparadas en archivos JSONL
-- **511 nombres de entidades** eliminados durante limpieza
+- **4,480 documentos** procesados en esta ejecución
+- **3,323 documentos** procesados exitosamente (74.17% tasa de éxito)
+- **1,157 documentos** fallaron en el proceso
+- **Total dataset**: 12,995 documentos (8,519 ya corregidos previamente)
 
-#### **🔄 Proceso Iterativo:**
+#### **🎯 Resultados de Corrección:**
+- **16.9% de documentos** necesitaron corrección iterativa (757 documentos)
+- **57.3% de documentos** estaban perfectos desde el inicio (2,566 documentos)
+- **Promedio de 2.08 iteraciones** por documento que necesitó corrección
 - **Máximo 5 iteraciones** por documento
-- **Detección automática** de entidades faltantes
-- **Corrección con IA** (DeepSeek API) para completar documentos
-- **Verificación final** de completitud
 
-#### **📈 Resultados de Reparación JSONL:**
-- **Primera ejecución**: 98.65% de líneas reparadas (8,925/9,047)
-- **Segunda ejecución**: 99.99% de líneas reparadas (11,838/11,839)
-- **0 documentos eliminados** durante el proceso
+#### **📈 Corrección de Entidades:**
+- **41,831 entidades** esperadas en total
+- **2,721 entidades** faltaban inicialmente
+- **1,320 entidades** fueron corregidas exitosamente (48.51%)
+- **1,401 entidades** quedaron sin corregir al final
+
+#### **⚙️ Configuración del Proceso:**
+- **Tamaño de lote**: 3 documentos por lote
+- **Total de lotes**: 1,494 lotes procesados
+- **API utilizada**: DeepSeek para corrección automática
 
 5. **Anonimización y Validación** (`step5_ocult_and_localization.py`)
    - Reemplaza entidades sensibles con marcadores XXX
