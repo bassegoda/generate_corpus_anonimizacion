@@ -171,6 +171,9 @@ Las siguientes métricas muestran la evolución de la detección de entidades de
 - **Recall**: 95.2% (0.952)
 - **F1-Score**: 97.6% (0.976)
 
+*Se eliminan documentos dudosos en el proceso
+*Pendiente de validación por humano
+
 ## 🏷️ Entidades Detectadas
 
 El sistema identifica y anonimiza información de salud protegida (PHI) siguiendo los estándares de MEDDOCAN y CARMEN-I. Las categorías específicas de entidades están definidas en el archivo `etiquetas_anonimizacion_meddocan_carmenI.csv`, que contiene el mapeo completo entre ambos sistemas de etiquetado.
