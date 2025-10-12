@@ -111,13 +111,6 @@ La carpeta `docs_revisar/` contiene documentos distribuidos aleatoriamente entre
 
 3. **Para cada documento**:
    - **Abrir el archivo .txt** y revisar el contenido anonimizado
-   - **Verificar que todas las entidades sensibles estén correctamente anonimizadas**:
-     - Nombres de personas → XXX
-     - Fechas específicas → XXX
-     - Direcciones → XXX
-     - Números de identificación → XXX
-     - URLs y emails → XXX
-     - Números de teléfono → XXX
    - **Confirmar que no se haya perdido información médica relevante**
 
 4. **Registrar en el CSV**:
