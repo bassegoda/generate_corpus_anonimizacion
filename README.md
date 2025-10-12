@@ -84,6 +84,50 @@ El sistema implementa un pipeline de 6 pasos:
    - Elimina documentos dudosos del conjunto final
    - Genera reportes de validación automática
 
+## 📊 Estadísticas de Filtrado y Eliminación
+
+### Proceso de Validación Automática
+
+Durante el pipeline de procesamiento, el sistema implementa un riguroso proceso de filtrado para garantizar la calidad de la anonimización:
+
+#### **Step 6: Validación con Alta Confianza (>99%)**
+
+El sistema procesó un total de **20,523 documentos** durante las ejecuciones de validación:
+
+**📈 Primera Ejecución:**
+- **8,777 documentos** procesados
+- **1,726 documentos** marcados para eliminación (19.67%)
+- **3,084 entidades** detectadas con confianza >99%
+- **5,008 anonimizaciones** perfectas vs **3,769** imperfectas
+
+**📈 Segunda Ejecución:**
+- **11,746 documentos** procesados  
+- **4,758 documentos** marcados para eliminación (40.51%)
+- **9,664 entidades** detectadas con confianza >99%
+- **4,969 anonimizaciones** perfectas vs **6,777** imperfectas
+
+#### **📊 Resumen Consolidado de Eliminaciones:**
+
+- **Total documentos procesados**: 20,523
+- **Total documentos marcados para eliminación**: 6,484
+- **Total entidades alta confianza detectadas**: 12,748
+- **Tasa global de eliminación**: 31.59%
+
+#### **🎯 Criterios de Eliminación:**
+
+Los documentos son marcados para eliminación cuando:
+- Se detectan entidades con **confianza >99%** que no fueron correctamente anonimizadas
+- Los modelos BSC identifican información sensible residual
+- La verificación cruzada confirma fallos en la anonimización
+
+#### **✅ Corpus Final:**
+
+Después del proceso completo de filtrado y regeneración:
+- **14,035 documentos** en el corpus final
+- **100% de documentos** pasan los criterios de calidad
+- **1,293 archivos** de validación individual disponibles
+- **0% de documentos dudosos** en el conjunto final
+
 ## 🏷️ Entidades Detectadas
 
 El sistema identifica y anonimiza información de salud protegida (PHI) siguiendo los estándares de MEDDOCAN y CARMEN-I. Las categorías específicas de entidades están definidas en el archivo `etiquetas_anonimizacion_meddocan_carmenI.csv`, que contiene el mapeo completo entre ambos sistemas de etiquetado.
