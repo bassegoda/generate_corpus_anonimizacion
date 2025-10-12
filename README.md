@@ -141,43 +141,57 @@ Después del proceso completo de filtrado y regeneración:
 - **1,293 archivos** de validación individual disponibles
 - **0% de documentos dudosos** en el conjunto final
 
-## 📊 Métricas de Rendimiento del Pipeline
+## 📊 Métricas de Detección de Entidades
 
-### Análisis TP, FP, TN, FN: Antes vs Después de Validaciones
+### Evolución de TP, FP, TN, FN a lo largo del Pipeline
 
-#### **🔍 Métricas Post-Step 4 (Corrección Iterativa):**
+Las siguientes métricas muestran la evolución de la detección de entidades desde la generación inicial hasta el corpus final:
+
+#### **🎯 Estado Inicial (Post-generación DeepSeek):**
 | Métrica | Valor | Descripción |
 |---------|-------|-------------|
-| **TP** | 757 | Documentos que necesitaban corrección y fueron corregidos |
-| **TN** | 2,566 | Documentos perfectos desde el inicio |
-| **FP** | 0 | Documentos corregidos innecesariamente |
-| **FN** | 1,157 | Documentos que necesitaban corrección pero fallaron |
+| **TP** | 32,853 | Entidades reales correctamente detectadas |
+| **FP** | 6,257 (16%) | Entidades en etiquetas pero no en texto real |
+| **TN** | 0 | No aplicable en este contexto |
+| **FN** | 2,721 | Entidades reales no detectadas inicialmente |
 
 **Métricas Derivadas:**
-- **Precisión**: 1.000 (100% de correcciones fueron necesarias)
-- **Recall**: 0.396 (39.6% de documentos problemáticos fueron corregidos)
-- **F1-Score**: 0.567
-- **Accuracy**: 0.742 (74.2% de documentos procesados correctamente)
+- **Precisión**: 0.840 (84% de entidades detectadas eran correctas)
+- **Recall**: 0.924 (92.4% de entidades reales fueron detectadas)
+- **F1-Score**: 0.880
 
-#### **🎯 Métricas Post-Step 6 (Validación Final):**
+#### **🔧 Post-Step 4 (Corrección Iterativa):**
 | Métrica | Valor | Descripción |
 |---------|-------|-------------|
-| **TP** | 9,977 | Documentos correctamente identificados como bien anonimizados |
-| **TN** | 6,484 | Documentos correctamente eliminados por problemas |
-| **FP** | 0 | Documentos mal anonimizados que pasaron validación |
-| **FN** | 4,062 | Documentos bien anonimizados eliminados por precaución |
+| **TP** | 34,173 | Entidades correctas (se añadieron 1,320) |
+| **FP** | 6,257 | Falsos positivos sin corregir aún |
+| **TN** | 0 | No aplicable |
+| **FN** | 1,401 | Entidades faltantes reducidas |
 
 **Métricas Derivadas:**
-- **Precisión**: 1.000 (100% de documentos aprobados están correctos)
-- **Recall**: 0.711 (71.1% de documentos buenos fueron identificados)
-- **F1-Score**: 0.831
-- **Accuracy**: 0.802 (80.2% de decisiones de validación correctas)
+- **Precisión**: 0.845 (84.5% - ligera mejora)
+- **Recall**: 0.961 (96.1% - mejora significativa)
+- **F1-Score**: 0.899
 
-#### **📈 Mejoras del Pipeline:**
-- **Recall**: 39.6% → 71.1% (+31.5 puntos)
-- **F1-Score**: 0.567 → 0.831 (+0.264 puntos)
-- **Accuracy**: 74.2% → 80.2% (+6.0 puntos)
-- **Precisión**: Mantenida en 100% (sin falsos positivos)
+#### **✅ Estado Final (Post-Step 6 - Validación):**
+| Métrica | Valor | Descripción |
+|---------|-------|-------------|
+| **TP** | 28,614 | Entidades correctamente detectadas y anonimizadas |
+| **FP** | 0 (0%) | Falsos positivos eliminados durante validación |
+| **TN** | 6,484 | Documentos problemáticos correctamente eliminados |
+| **FN** | 1,430 (5%) | Entidades reales no detectadas (requieren validación humana) |
+
+**Métricas Derivadas:**
+- **Precisión**: 1.000 (100% - sin falsos positivos)
+- **Recall**: 0.952 (95.2% de entidades reales detectadas)
+- **F1-Score**: 0.976
+
+#### **📈 Evolución del Pipeline:**
+- **Precisión**: 0.840 → 0.845 → **1.000** (eliminación total de FP)
+- **Recall**: 0.924 → 0.961 → 0.952 (mantenido alto)
+- **F1-Score**: 0.880 → 0.899 → **0.976** (excelencia final)
+- **Falsos Positivos**: 16% → 16% → **0%** (eliminados completamente)
+- **Falsos Negativos**: 6.5% → 3.3% → **5%** (objetivo de validación humana)
 
 ## 🏷️ Entidades Detectadas
 
