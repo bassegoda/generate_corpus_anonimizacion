@@ -73,6 +73,27 @@ El sistema implementa un pipeline de 6 pasos:
    - Mejora la detección y limpieza de entidades
    - Asegura TP de 100% al corroborar que las entidades existen realmente
 
+### Métricas del Step 4: Corrección Iterativa
+
+El Step 4 implementa un proceso de corrección iterativa que garantiza la completitud de las entidades:
+
+#### **📊 Estadísticas de Procesamiento:**
+- **22,404 documentos** procesados en total
+- **100% tasa de éxito** (0 documentos fallidos)
+- **20,763 líneas** reparadas en archivos JSONL
+- **511 nombres de entidades** eliminados durante limpieza
+
+#### **🔄 Proceso Iterativo:**
+- **Máximo 5 iteraciones** por documento
+- **Detección automática** de entidades faltantes
+- **Corrección con IA** (DeepSeek API) para completar documentos
+- **Verificación final** de completitud
+
+#### **📈 Resultados de Reparación JSONL:**
+- **Primera ejecución**: 98.65% de líneas reparadas (8,925/9,047)
+- **Segunda ejecución**: 99.99% de líneas reparadas (11,838/11,839)
+- **0 documentos eliminados** durante el proceso
+
 5. **Anonimización y Validación** (`step5_ocult_and_localization.py`)
    - Reemplaza entidades sensibles con marcadores XXX
    - Localiza posiciones exactas de las entidades
