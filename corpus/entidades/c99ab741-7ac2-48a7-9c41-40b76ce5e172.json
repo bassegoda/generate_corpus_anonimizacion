@@ -1,0 +1,57 @@
+{
+  "id": "c99ab741-7ac2-48a7-9c41-40b76ce5e172",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "https://www.clinicabarcelona.org"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.saludcantabria.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.garcia@clinic.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.martinez@clinic.es"
+    },
+    {
+      "entity": "PAIS",
+      "text": "España"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Clínico San Carlos"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico residente"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "87654321B"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98246731"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "B-458712369"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 876 54 32"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Consejería de Salud de la Comunidad de Madrid"
+    }
+  ]
+}

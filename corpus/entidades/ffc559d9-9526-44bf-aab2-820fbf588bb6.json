@@ -1,0 +1,41 @@
+{
+  "id": "ffc559d9-9526-44bf-aab2-820fbf588bb6",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "612-34-56-78"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Grado en Medicina"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital General de Madrid"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "B-87654321"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "B-45872316"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Valenciana"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Constitución 12"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-789432"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-B-78942"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "7206a16a-1a0d-4afb-b75a-98758b7158a3",
+  "data": [
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "1234 BCD"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237641"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Elena Rodríguez"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle de Alcalá 120"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Ministerio de Sanidad"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Consejería de Salud de la Comunidad de Madrid"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://www.clinicabarcelona.org"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Grado en Medicina"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "67 años"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "12 de julio de 2023"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud Los Álamos"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "femenino"
+    }
+  ]
+}

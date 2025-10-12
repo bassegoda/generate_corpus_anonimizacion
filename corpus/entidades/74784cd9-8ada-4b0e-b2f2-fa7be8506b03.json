@@ -1,0 +1,61 @@
+{
+  "id": "74784cd9-8ada-4b0e-b2f2-fa7be8506b03",
+  "data": [
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Elena Rodríguez"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Elena Rodríguez Santos"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Elena Rodríguez Sánchez"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Laura Méndez Iglesias"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Laura Martínez Sánchez"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud Los Álamos"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud Los Ángeles"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@clinic.es"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "femenino"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237641"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "12 de julio de 2023"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "huella dactilar del pulgar derecho"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "huella dactilar derecha, índice"
+    }
+  ]
+}

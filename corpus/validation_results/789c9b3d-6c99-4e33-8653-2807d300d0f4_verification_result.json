@@ -1,0 +1,214 @@
+{
+  "document_id": "789c9b3d-6c99-4e33-8653-2807d300d0f4",
+  "success": true,
+  "anonymized_text": "En el contexto de la valoración preoperatoria, se procede a la verificación de la identidad del paciente mediante la confirmación de su número de beneficiario del plan de salud XXX. Dicha identificación se contrastó con el documento de aseguramiento XXX, encontrándose vigente y en regla. Para una autenticación biométrica adicional, se registró la XXX, la cual fue cotejada satisfactoriamente con los registros del sistema. El procedimiento quirúrgico programado será realizado por un XXX con amplia experiencia en la especialidad correspondiente. Toda la documentación clínica asociada a este proceso ha sido centralizada bajo el código XXX. La coordinación de la logística y el seguimiento postoperatorio se realizarán desde el XXX, tal como queda establecido en el plan de cuidados. Para información complementaria sobre el protocolo quirúrgico o los cuidados preoperatorios, se recomienda consultar el portal oficial XXX, donde se encuentra disponible documentación avalada por la institución. Los resultados de las pruebas complementarias, que incluyen analítica sanguínea y estudio de imagen, se encuentran dentro de los parámetros normales para la intervención planificada, sin contraindicaciones absolutas identificadas en la evaluación actual.",
+  "text_length": 1253,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.863425612449646,
+        "word": " plan de salud XXX",
+        "start": 163,
+        "end": 180,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8112643957138062,
+        "word": " documento de aseguramiento XXX",
+        "start": 223,
+        "end": 253,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7374497652053833,
+        "word": " oficial",
+        "start": 914,
+        "end": 921,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 3
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de salud XXX",
+          "actual_text": "plan de salud XXX",
+          "confidence": 0.863425612449646,
+          "start": 163,
+          "end": 180,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento de aseguramiento XXX",
+          "actual_text": "documento de aseguramiento XXX",
+          "confidence": 0.8112643957138062,
+          "start": 223,
+          "end": 253,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " oficial",
+          "actual_text": "oficial",
+          "confidence": 0.7374497652053833,
+          "start": 914,
+          "end": 921,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de salud XXX",
+          "actual_text": "plan de salud XXX",
+          "confidence": 0.863425612449646,
+          "start": 163,
+          "end": 180,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento de aseguramiento XXX",
+          "actual_text": "documento de aseguramiento XXX",
+          "confidence": 0.8112643957138062,
+          "start": 223,
+          "end": 253,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " oficial",
+          "actual_text": "oficial",
+          "confidence": 0.7374497652053833,
+          "start": 914,
+          "end": 921,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 3
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de salud XXX",
+        "actual_text": "plan de salud XXX",
+        "confidence": 0.863425612449646,
+        "start": 163,
+        "end": 180,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento de aseguramiento XXX",
+        "actual_text": "documento de aseguramiento XXX",
+        "confidence": 0.8112643957138062,
+        "start": 223,
+        "end": 253,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " oficial",
+        "actual_text": "oficial",
+        "confidence": 0.7374497652053833,
+        "start": 914,
+        "end": 921,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de salud XXX",
+        "actual_text": "plan de salud XXX",
+        "confidence": 0.863425612449646,
+        "start": 163,
+        "end": 180,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento de aseguramiento XXX",
+        "actual_text": "documento de aseguramiento XXX",
+        "confidence": 0.8112643957138062,
+        "start": 223,
+        "end": 253,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " oficial",
+        "actual_text": "oficial",
+        "confidence": 0.7374497652053833,
+        "start": 914,
+        "end": 921,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

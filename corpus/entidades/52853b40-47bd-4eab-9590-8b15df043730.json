@@ -1,0 +1,61 @@
+{
+  "id": "52853b40-47bd-4eab-9590-8b15df043730",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "https://www.clinicabarcelona.org"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "B-45872316"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-789456"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-84736215B"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "612-345-678"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "612-34-56-78"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud Los Álamos"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "huella dactilar derecha, índice"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Elena Rodríguez Santos"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-87654321-A"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-87654321-2"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Constitución 12"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Albufera 112"
+    }
+  ]
+}

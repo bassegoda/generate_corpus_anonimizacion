@@ -1,0 +1,53 @@
+{
+  "id": "2164fc24-c280-4642-bfe7-0f3b88023821",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "https://www.clinicabarcelona.org"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud Los Álamos"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "fumador ocasional"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@clinic.es"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "634-89-12-45"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Clínico San Carlos"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "femenino"
+    },
+    {
+      "entity": "PAIS",
+      "text": "España"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-87654321-1"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "B123456789"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "huella dactilar derecha índice, patrón de lazo"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano cardiovascular"
+    }
+  ]
+}

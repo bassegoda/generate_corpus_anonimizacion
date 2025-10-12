@@ -1,0 +1,267 @@
+{
+  "document_id": "0a4ec452-1ab2-444b-802d-f6c5ffd22344",
+  "success": true,
+  "anonymized_text": "En la valoración inicial realizada en General de Madrid, se procede a la identificación biométrica de la paciente mediante la XXX, como parte de nuestro protocolo de seguridad asistencial. La exploración física revela un estado general conservado, con constantes vitales dentro de los parámetros normales. La auscultación cardiorrespiratoria es rítmica y sin soplos, y el abdomen se presenta blando y depresible. Los resultados analíticos preliminares muestran un hemograma dentro de la normalidad y una bioquímica básica sin alteraciones significativas. El facultativo que realiza la valoración está debidamente acreditado con el XXX. El sujeto de asistencia es de sexo XXX. Para completar el proceso de identificación, se ha registrado el código XXX correspondiente al sistema de gestión interna. La ecografía abdominal realizada no evidencia hallazgos patológicos relevantes, mostrando una adecuada morfología de los órganos intraabdominales. Se mantendrá en observación durante las próximas horas para control evolutivo.",
+  "text_length": 1024,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.9310071468353271,
+        "word": " General",
+        "start": 38,
+        "end": 45,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.9222124814987183,
+        "word": " Madrid",
+        "start": 49,
+        "end": 55,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " General",
+          "actual_text": "General",
+          "confidence": 0.9310071468353271,
+          "start": 38,
+          "end": 45,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "INSTITUCION",
+          "word": " Madrid",
+          "actual_text": "Madrid",
+          "confidence": 0.9222124814987183,
+          "start": 49,
+          "end": 55,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " General",
+          "actual_text": "General",
+          "confidence": 0.9310071468353271,
+          "start": 38,
+          "end": 45,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "INSTITUCION",
+          "word": " Madrid",
+          "actual_text": "Madrid",
+          "confidence": 0.9222124814987183,
+          "start": 49,
+          "end": 55,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9852654337882996,
+        "word": " General de Madrid",
+        "start": 38,
+        "end": 55,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7129393815994263,
+        "word": " sexo",
+        "start": 666,
+        "end": 670,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1,
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9852654337882996,
+          "start": 38,
+          "end": 55,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.7129393815994263,
+          "start": 666,
+          "end": 670,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9852654337882996,
+          "start": 38,
+          "end": 55,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.7129393815994263,
+          "start": 666,
+          "end": 670,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 2,
+      "HOSPITAL": 1,
+      "ID_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " General",
+        "actual_text": "General",
+        "confidence": 0.9310071468353271,
+        "start": 38,
+        "end": 45,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": " Madrid",
+        "actual_text": "Madrid",
+        "confidence": 0.9222124814987183,
+        "start": 49,
+        "end": 55,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9852654337882996,
+        "start": 38,
+        "end": 55,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.7129393815994263,
+        "start": 666,
+        "end": 670,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " General",
+        "actual_text": "General",
+        "confidence": 0.9310071468353271,
+        "start": 38,
+        "end": 45,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": " Madrid",
+        "actual_text": "Madrid",
+        "confidence": 0.9222124814987183,
+        "start": 49,
+        "end": 55,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9852654337882996,
+        "start": 38,
+        "end": 55,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.7129393815994263,
+        "start": 666,
+        "end": 670,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

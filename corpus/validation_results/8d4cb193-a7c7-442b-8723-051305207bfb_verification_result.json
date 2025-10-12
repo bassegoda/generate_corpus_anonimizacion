@@ -1,0 +1,124 @@
+{
+  "document_id": "8d4cb193-a7c7-442b-8723-051305207bfb",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Quirúrgica En la valoración preoperatoria se presenta la paciente, quien fue remitida a consulta de cirugía general para evaluación de patología de pared abdominal. Durante la anamnesis, se recogió la información de contacto de la persona designada para cualquier gestión relacionada con su asistencia, cuyo número de teléfono es XXX. Se ha identificado como familiar de contacto a XXX, quien será el principal punto de comunicación para asuntos relacionados con la asistencia de la paciente. La profesional que realiza la valoración y que estará a cargo del acto quirúrgico es la XXX, XXX con amplia experiencia en este tipo de procedimientos. La exploración física revela un abdomen blando y depresible, no doloroso a la palpación superficial y profunda. No se palpan masas ni visceromegalias. La auscultación abdominal presenta ruidos hidroaéreos normales. Los análisis preoperatorios muestran un hemograma dentro de los límites de la normalidad, con una hemoglobina de 13.2 g/dL. La función renal y hepática es adecuada para la intervención programada. La ecografía abdominal confirma el diagnóstico de hernia umbilical de aproximadamente 3 cm de diámetro. Se ha verificado que el número de beneficiario del plan de salud es XXX, lo que facilita la coordinación con los servicios administrativos. Cabe destacar que toda la documentación y cobertura sanitaria corresponden al sistema de salud de XXX. Se ha programado la intervención quirúrgica con técnica de herniorrafia convencional, considerada el abordaje de elección para este caso. Se recomienda profilaxis antibiótica preoperatoria y se indicarán las medidas pertinentes de preparación prequirúrgica.",
+  "text_length": 1683,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7916292548179626,
+        "word": " familiar",
+        "start": 381,
+        "end": 389,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.7916292548179626,
+          "start": 381,
+          "end": 389,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.7916292548179626,
+          "start": 381,
+          "end": 389,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.7916292548179626,
+        "start": 381,
+        "end": 389,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.7916292548179626,
+        "start": 381,
+        "end": 389,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

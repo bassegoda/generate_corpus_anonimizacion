@@ -1,0 +1,169 @@
+{
+  "document_id": "8251bae8-ca26-47db-a29f-c7b191f569bd",
+  "success": true,
+  "anonymized_text": "En la exploración física actual, se procede al registro de parámetros biométricos para completar la documentación clínica. Se ha verificado la XXX, como parte del protocolo de identificación del paciente. Los resultados de las pruebas complementarias realizadas, incluyendo analítica sanguínea y estudio de imagen, se encuentran dentro de los límites de la normalidad para el contexto clínico evaluado. Para facilitar la comunicación de resultados y la coordinación asistencial, se confirma como canal principal de contacto el número de teléfono XXX. Asimismo, queda registrado el identificador de aseguramiento XXX para todos los trámites administrativos pertinentes. La documentación clínica completa será remitida electrónicamente a los correos XXX y XXX para su revisión por parte del equipo multidisciplinar. Se recomienda mantener una observación clínica periódica sin necesidad de intervención terapéutica inmediata, dado el carácter normofuncional de los hallazgos en los estudios realizados.",
+  "text_length": 1000,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7269351482391357,
+        "word": " identific",
+        "start": 581,
+        "end": 590,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7882963418960571,
+        "word": " correos",
+        "start": 740,
+        "end": 747,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identific",
+          "actual_text": "identific",
+          "confidence": 0.7269351482391357,
+          "start": 581,
+          "end": 590,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " correos",
+          "actual_text": "correos",
+          "confidence": 0.7882963418960571,
+          "start": 740,
+          "end": 747,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identific",
+          "actual_text": "identific",
+          "confidence": 0.7269351482391357,
+          "start": 581,
+          "end": 590,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " correos",
+          "actual_text": "correos",
+          "confidence": 0.7882963418960571,
+          "start": 740,
+          "end": 747,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identific",
+        "actual_text": "identific",
+        "confidence": 0.7269351482391357,
+        "start": 581,
+        "end": 590,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " correos",
+        "actual_text": "correos",
+        "confidence": 0.7882963418960571,
+        "start": 740,
+        "end": 747,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identific",
+        "actual_text": "identific",
+        "confidence": 0.7269351482391357,
+        "start": 581,
+        "end": 590,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " correos",
+        "actual_text": "correos",
+        "confidence": 0.7882963418960571,
+        "start": 740,
+        "end": 747,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

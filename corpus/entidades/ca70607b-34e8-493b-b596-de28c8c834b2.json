@@ -1,0 +1,73 @@
+{
+  "id": "ca70607b-34e8-493b-b596-de28c8c834b2",
+  "data": [
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-789654"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "612-34-56-78"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "612-345-678"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-2024-789123"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-48263915B"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/12345"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://www.hospitalregional.es/pacientes/consulta-resultados"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://www.clinicabarcelona.org"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud Los Álamos"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "fisioterapeuta"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "B-78423915"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-87654321-A"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 28 123 45"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 876 54 32"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "fumador ocasional"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo de apoyo para pacientes oncológicos"
+    }
+  ]
+}

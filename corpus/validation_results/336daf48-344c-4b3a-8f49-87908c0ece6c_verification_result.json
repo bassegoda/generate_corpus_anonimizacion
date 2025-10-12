@@ -1,0 +1,175 @@
+{
+  "document_id": "336daf48-344c-4b3a-8f49-87908c0ece6c",
+  "success": true,
+  "anonymized_text": "Informe de Evolución Clínica Paciente que continúa en seguimiento por la consulta de oncología, presentando una evolución clínica estable desde el punto de vista de su enfermedad de base. En la exploración física actual se observa buen estado general, con tensión arterial de 125/80 mmHg, frecuencia cardíaca de 78 lpm y saturación de oxígeno del 97%. La auscultación cardiorrespiratoria es normofonética y el abdomen es blando y depresible sin masas palpables. Se ha coordinado con General de Madrid para la continuidad de las pruebas complementarias, cuyos dispositivos médicos con identificadores XXX y XXX han sido verificados para garantizar la correcta calibración. Los últimos análisis muestran hemograma dentro de parámetros normales y función hepática conservada. Se ha facilitado a la paciente información sobre recursos de apoyo psicosocial, recomendándose específicamente la participación en el XXX y el XXX, considerando su situación emocional actual. Como parte del plan de cuidados, se ha incorporado a XXX, en las orientaciones sobre manejo de síntomas en domicilio. Para garantizar la continuidad asistencial, se ha remitido documentación clínica completa al XXX, correspondiente al expediente XXX. El acceso a la historia clínica unificada está disponible mediante el enlace XXX para todos los profesionales involucrados en su atención. Se mantendrá seguimiento estrecho a través de la dirección de correo electrónico XXX para coordinación interdisciplinar. Se programará próxima revisión según evolución.",
+  "text_length": 1523,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.8373873829841614,
+        "word": " General de Madrid",
+        "start": 483,
+        "end": 500,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.8373873829841614,
+          "start": 483,
+          "end": 500,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.8373873829841614,
+          "start": 483,
+          "end": 500,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9695506691932678,
+        "word": " General de Madrid",
+        "start": 483,
+        "end": 500,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9695506691932678,
+          "start": 483,
+          "end": 500,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9695506691932678,
+          "start": 483,
+          "end": 500,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "HOSPITAL": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.8373873829841614,
+        "start": 483,
+        "end": 500,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9695506691932678,
+        "start": 483,
+        "end": 500,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.8373873829841614,
+        "start": 483,
+        "end": 500,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9695506691932678,
+        "start": 483,
+        "end": 500,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

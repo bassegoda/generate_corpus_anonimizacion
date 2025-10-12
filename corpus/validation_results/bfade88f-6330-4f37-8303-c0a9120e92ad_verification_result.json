@@ -1,0 +1,219 @@
+{
+  "document_id": "bfade88f-6330-4f37-8303-c0a9120e92ad",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Preoperatoria Se realiza valoración preoperatoria previa a intervención quirúrgica programada. El paciente, identificado con el número de historia XXX, se presenta como XXX, factor de riesgo que ha sido debidamente considerado en la evaluación de riesgos anestésicos y quirúrgicos. La exploración física revela hallazgos dentro de la normalidad, destacando para el registro la identificación biométrica mediante XXX, procedimiento estándar en nuestro protocolo prequirúrgico. El procedimiento será realizado por el XXX asignado en el XXX. Para la identificación del equipo médico se han verificado los números de serie de los dispositivos críticos: XXX correspondiente al monitor de signos vitales y XXX al equipo de electrocirugia. El paciente presenta como número de beneficiario del plan de salud XXX y su documento de identificación principal es el XXX. La interconsulta se realizó el XXX, documentándose todos los hallazgos en la historia clínica electrónica accesible mediante XXX. Los estudios complementarios incluyen analítica completa con coagulación dentro de parámetros normales y radiografía de tórax sin hallazgos significativos. El corresponde a la póliza activa vigente. Se considera al paciente apto para intervención con riesgos controlados, recomendándose abstinencia tabáquica preoperatoria.",
+  "text_length": 1333,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7260817289352417,
+        "word": " plan",
+        "start": 808,
+        "end": 812,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.7260817289352417,
+          "start": 808,
+          "end": 812,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.7260817289352417,
+          "start": 808,
+          "end": 812,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7394475340843201,
+        "word": " plan de",
+        "start": 808,
+        "end": 815,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8970478177070618,
+        "word": " historia clínica electrónica",
+        "start": 957,
+        "end": 985,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de",
+          "actual_text": "plan de",
+          "confidence": 0.7394475340843201,
+          "start": 808,
+          "end": 815,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica electrónica",
+          "actual_text": "historia clínica electrónica",
+          "confidence": 0.8970478177070618,
+          "start": 957,
+          "end": 985,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de",
+          "actual_text": "plan de",
+          "confidence": 0.7394475340843201,
+          "start": 808,
+          "end": 815,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica electrónica",
+          "actual_text": "historia clínica electrónica",
+          "confidence": 0.8970478177070618,
+          "start": 957,
+          "end": 985,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 3
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.7260817289352417,
+        "start": 808,
+        "end": 812,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de",
+        "actual_text": "plan de",
+        "confidence": 0.7394475340843201,
+        "start": 808,
+        "end": 815,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica electrónica",
+        "actual_text": "historia clínica electrónica",
+        "confidence": 0.8970478177070618,
+        "start": 957,
+        "end": 985,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.7260817289352417,
+        "start": 808,
+        "end": 812,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de",
+        "actual_text": "plan de",
+        "confidence": 0.7394475340843201,
+        "start": 808,
+        "end": 815,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica electrónica",
+        "actual_text": "historia clínica electrónica",
+        "confidence": 0.8970478177070618,
+        "start": 957,
+        "end": 985,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

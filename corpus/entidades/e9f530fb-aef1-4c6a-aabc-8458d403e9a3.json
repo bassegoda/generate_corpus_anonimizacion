@@ -1,0 +1,29 @@
+{
+  "id": "e9f530fb-aef1-4c6a-aabc-8458d403e9a3",
+  "data": [
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-789012"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "87654321B"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "B-58293471"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Valenciana"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@clinic.es"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud Los Álamos"
+    }
+  ]
+}

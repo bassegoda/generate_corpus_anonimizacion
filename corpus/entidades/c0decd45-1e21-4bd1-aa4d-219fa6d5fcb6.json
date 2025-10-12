@@ -1,0 +1,41 @@
+{
+  "id": "c0decd45-1e21-4bd1-aa4d-219fa6d5fcb6",
+  "data": [
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 28 123 45"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "B123456789"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "AS-2024-789012"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "12 de julio de 2023"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Constitución 12"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2024-789456"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "612-34-56-78"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "B-458712369"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Elena Rodríguez Santos"
+    }
+  ]
+}

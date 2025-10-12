@@ -1,0 +1,41 @@
+{
+  "id": "56789188-c824-4e52-8910-87a989b09afe",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "España"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-2023-8745"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "femenino"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237645"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98765432"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "12 de julio de 2023"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.org/paciente/consulta/ZXC123987"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud Los Álamos"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Consejería de Salud de la Comunidad de Madrid"
+    }
+  ]
+}

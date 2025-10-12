@@ -1,0 +1,25 @@
+{
+  "id": "08d66979-c5fe-46e0-8fa5-6878aa354310",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalcentral.es/acceso-paciente"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@clinic.es"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "1234 BCD"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 28 123 45"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Clínico San Carlos"
+    }
+  ]
+}

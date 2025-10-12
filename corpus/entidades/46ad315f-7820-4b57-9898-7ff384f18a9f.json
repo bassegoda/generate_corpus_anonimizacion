@@ -1,0 +1,33 @@
+{
+  "id": "46ad315f-7820-4b57-9898-7ff384f18a9f",
+  "data": [
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 876 54 32"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "634-89-12-45"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "612-34-56-78"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Ministerio de Sanidad"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "B123456789"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital General de Madrid"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Clínico San Carlos"
+    }
+  ]
+}

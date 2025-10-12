@@ -1,0 +1,169 @@
+{
+  "document_id": "10b3ce97-a2ee-4bf8-b8d5-53f4e0ef9ed5",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución Hospitalaria** Se realiza seguimiento de la evolución de la paciente **XXX**, identificada con el número de historia **XXX** y con documento nacional de identidad **XXX**. La paciente, de **sexo XXX**, fue valorada en consultas externas tras su referencia desde el **XXX**. La exploración física actual muestra una herida quirúrgica limpia, sin signos de infección, con bordes bien aproximados. Los parámetros analíticos dentro de la normalidad, con una bioquímica hepática y renal sin alteraciones significativas. En la radiografía de control no se evidencian complicaciones mecánicas o signos de infección ósea. El dispositivo médico implantado, con número de serie **XXX**, funciona dentro de los parámetros establecidos. Se ha coordinado el alta con el **XXX** para continuar la vigilancia en el ámbito de atención primaria. Se recomienda a la paciente acceder a los recursos educativos disponibles en el portal **XXX** para el manejo postoperatorio en el domicilio. Toda la documentación clínica queda registrada en la dirección web **XXX** para su consulta por los profesionales involucrados. La paciente ha sido valorada también por el **XXX** de guardia, quien confirma la buena evolución del postoperatorio. Se ha verificado que el vehículo asignado al transporte sanitario, con placas **XXX**, esté disponible para el traslado. El profesional responsable de la coordinación del alta, con identificación de personal **ID-EMP-88743**, supervisará el proceso. Se considera que no requiere ingreso hospitalario adicional y puede continuar su recuperación en el domicilio con seguimiento ambulatorio.",
+  "text_length": 1625,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.9504537582397461,
+        "word": "8",
+        "start": 1454,
+        "end": 1455,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8469999432563782,
+        "word": "87",
+        "start": 1455,
+        "end": 1457,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "8",
+          "actual_text": "8",
+          "confidence": 0.9504537582397461,
+          "start": 1454,
+          "end": 1455,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "87",
+          "actual_text": "87",
+          "confidence": 0.8469999432563782,
+          "start": 1455,
+          "end": 1457,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "8",
+          "actual_text": "8",
+          "confidence": 0.9504537582397461,
+          "start": 1454,
+          "end": 1455,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "87",
+          "actual_text": "87",
+          "confidence": 0.8469999432563782,
+          "start": 1455,
+          "end": 1457,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "8",
+        "actual_text": "8",
+        "confidence": 0.9504537582397461,
+        "start": 1454,
+        "end": 1455,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "87",
+        "actual_text": "87",
+        "confidence": 0.8469999432563782,
+        "start": 1455,
+        "end": 1457,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "8",
+        "actual_text": "8",
+        "confidence": 0.9504537582397461,
+        "start": 1454,
+        "end": 1455,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "87",
+        "actual_text": "87",
+        "confidence": 0.8469999432563782,
+        "start": 1455,
+        "end": 1457,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

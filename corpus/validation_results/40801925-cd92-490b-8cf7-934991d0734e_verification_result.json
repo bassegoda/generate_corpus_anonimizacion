@@ -1,0 +1,175 @@
+{
+  "document_id": "40801925-cd92-490b-8cf7-934991d0734e",
+  "success": true,
+  "anonymized_text": "En la valoración por el servicio de urgencias se documenta el ingreso del paciente para estudio y manejo del cuadro actual. Se procedió a la identificación biométrica mediante XXX, como parte del protocolo de seguridad del centro. El paciente se encuentra ingresado en General de Valencia, donde se ha establecido su bajo el código XXX. Para cualquier comunicación interdepartamental o coordinación de pruebas, se ha facilitado el XXX como contacto principal. Respecto a los hallazgos de la exploración física, se objetiva un paciente consciente y orientado, con tono muscular conservado y sin signos meníngeos. La auscultación cardíaca es rítmica sin soplos, y la respiratoria presenta murmullo vesicular conservado con crepitantes basales derechos. En el abdomen, blando y depresible, no se palpan masas ni visceromegalias. Se solicitó una analítica completa que mostró una ligera leucocitosis con desviación izquierda, y una radiografía de tórax que evidenció un infiltrado alveolar en el lóbulo inferior derecho. Se ha coordinado con el servicio de medicina interna para su seguimiento, asignando también el XXX para la notificación de resultados pendientes. Cabe mencionar que el vehículo del paciente, identificado con la placa XXX, se encuentra registrado en el parking del hospital. Todo el proceso asistencial se desarrolla dentro del marco sanitario de XXX. Se ha generado un nuevo para el episodio de hospitalización con el código XXX.",
+  "text_length": 1446,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.8893863558769226,
+        "word": " General de Valencia",
+        "start": 269,
+        "end": 288,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Valencia",
+          "actual_text": "General de Valencia",
+          "confidence": 0.8893863558769226,
+          "start": 269,
+          "end": 288,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Valencia",
+          "actual_text": "General de Valencia",
+          "confidence": 0.8893863558769226,
+          "start": 269,
+          "end": 288,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9811220765113831,
+        "word": " General de Valencia",
+        "start": 269,
+        "end": 288,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Valencia",
+          "actual_text": "General de Valencia",
+          "confidence": 0.9811220765113831,
+          "start": 269,
+          "end": 288,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Valencia",
+          "actual_text": "General de Valencia",
+          "confidence": 0.9811220765113831,
+          "start": 269,
+          "end": 288,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "HOSPITAL": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Valencia",
+        "actual_text": "General de Valencia",
+        "confidence": 0.8893863558769226,
+        "start": 269,
+        "end": 288,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Valencia",
+        "actual_text": "General de Valencia",
+        "confidence": 0.9811220765113831,
+        "start": 269,
+        "end": 288,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Valencia",
+        "actual_text": "General de Valencia",
+        "confidence": 0.8893863558769226,
+        "start": 269,
+        "end": 288,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Valencia",
+        "actual_text": "General de Valencia",
+        "confidence": 0.9811220765113831,
+        "start": 269,
+        "end": 288,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

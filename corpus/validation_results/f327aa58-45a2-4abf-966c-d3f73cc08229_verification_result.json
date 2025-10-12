@@ -1,0 +1,124 @@
+{
+  "document_id": "f327aa58-45a2-4abf-966c-d3f73cc08229",
+  "success": true,
+  "anonymized_text": "Informe de Interconsulta Se remite a la paciente XXX para valoración por parte del servicio de cirugía general. La paciente, que reside en la XXX, dentro de la XXX, presenta un cuadro clínico que requiere evaluación especializada. En cuanto a su situación administrativa, cuenta con el identificador de aseguramiento XXX y su número de identificación es el XXX. El profesional sanitario que realiza esta interconsulta, con identificación laboral XXX, ejerce como XXX y se encuentra adscrito a esta institución bajo la dependencia del XXX. La exploración física revela abdomen blando y depresible, sin signos de irritación peritoneal. Las constantes vitales se mantienen dentro de parámetros normales. Los análisis muestran una leve leucocitosis con 11.200 leucocitos/mm3 y la ecografía abdominal evga una imagen compatible con colelitiasis. Se recomienda estudio complementario con TAC abdominal para mejor caracterización del proceso. Se ha informado a los familiares sujeto asistencia sobre la situación clínica actual y el plan diagnóstico propuesto, quedando a la espera de los resultados para definir la actitud terapéutica más adecuada.",
+  "text_length": 1142,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.989240825176239,
+        "word": " familiares sujeto asistencia",
+        "start": 958,
+        "end": 986,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares sujeto asistencia",
+          "actual_text": "familiares sujeto asistencia",
+          "confidence": 0.989240825176239,
+          "start": 958,
+          "end": 986,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares sujeto asistencia",
+          "actual_text": "familiares sujeto asistencia",
+          "confidence": 0.989240825176239,
+          "start": 958,
+          "end": 986,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares sujeto asistencia",
+        "actual_text": "familiares sujeto asistencia",
+        "confidence": 0.989240825176239,
+        "start": 958,
+        "end": 986,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares sujeto asistencia",
+        "actual_text": "familiares sujeto asistencia",
+        "confidence": 0.989240825176239,
+        "start": 958,
+        "end": 986,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

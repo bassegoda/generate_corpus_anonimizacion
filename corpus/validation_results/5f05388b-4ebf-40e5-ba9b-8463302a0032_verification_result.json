@@ -1,0 +1,219 @@
+{
+  "document_id": "5f05388b-4ebf-40e5-ba9b-8463302a0032",
+  "success": true,
+  "anonymized_text": "Informe de Alta por Resolución de Sintomatología A doce de julio de dos mil veintitrés se procede al cierre de la historia clínica correspondiente a la paciente XXX. La evolución clínica ha sido satisfactoria, con resolución completa de la sintomatología que motivó la consulta inicial. La exploración física al alta resulta anodina, sin hallazgos patológicos relevantes. Las constantes vitales se mantienen dentro de parámetros normales. Los estudios complementarios realizados, que incluyeron un hemograma y una bioquímica básica, no mostraron alteraciones significativas. Asimismo, la radiografía de tórax informada fue estrictamente normal. Para constancia documental, se hace constar que la fecha de este informe corresponde al XXX. Todo el proceso asistencial se ha llevado a cabo conforme a los protocolos establecidos por el XXX, garantizando el cumplimiento de todos los estándares de calidad asistencial. Para la correcta trazabilidad documental, se registra la utilización del equipo de monitorización con identificativo XXX y del dispositivo de medición de constantes XXX, ambos calibrados según la normativa vigente. La profesional que suscribe este documento es licenciada con el correspondiente XXX. Se recomienda a la paciente mantener los hábitos de vida saludables establecidos durante el proceso.",
+  "text_length": 1315,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9877655506134033,
+        "word": " doce",
+        "start": 51,
+        "end": 55,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9627989530563354,
+        "word": " julio de dos mil",
+        "start": 59,
+        "end": 75,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FECHAS": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FECHAS",
+          "word": " doce",
+          "actual_text": "doce",
+          "confidence": 0.9877655506134033,
+          "start": 51,
+          "end": 55,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " julio de dos mil",
+          "actual_text": "julio de dos mil",
+          "confidence": 0.9627989530563354,
+          "start": 59,
+          "end": 75,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FECHAS",
+          "word": " doce",
+          "actual_text": "doce",
+          "confidence": 0.9877655506134033,
+          "start": 51,
+          "end": 55,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " julio de dos mil",
+          "actual_text": "julio de dos mil",
+          "confidence": 0.9627989530563354,
+          "start": 59,
+          "end": 75,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9861578941345215,
+        "word": " doce de julio de dos mil veinti",
+        "start": 51,
+        "end": 82,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FECHAS": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FECHAS",
+          "word": " doce de julio de dos mil veinti",
+          "actual_text": "doce de julio de dos mil veinti",
+          "confidence": 0.9861578941345215,
+          "start": 51,
+          "end": 82,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FECHAS",
+          "word": " doce de julio de dos mil veinti",
+          "actual_text": "doce de julio de dos mil veinti",
+          "confidence": 0.9861578941345215,
+          "start": 51,
+          "end": 82,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FECHAS": 3
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FECHAS",
+        "word": " doce",
+        "actual_text": "doce",
+        "confidence": 0.9877655506134033,
+        "start": 51,
+        "end": 55,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " julio de dos mil",
+        "actual_text": "julio de dos mil",
+        "confidence": 0.9627989530563354,
+        "start": 59,
+        "end": 75,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " doce de julio de dos mil veinti",
+        "actual_text": "doce de julio de dos mil veinti",
+        "confidence": 0.9861578941345215,
+        "start": 51,
+        "end": 82,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FECHAS",
+        "word": " doce",
+        "actual_text": "doce",
+        "confidence": 0.9877655506134033,
+        "start": 51,
+        "end": 55,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " julio de dos mil",
+        "actual_text": "julio de dos mil",
+        "confidence": 0.9627989530563354,
+        "start": 59,
+        "end": 75,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " doce de julio de dos mil veinti",
+        "actual_text": "doce de julio de dos mil veinti",
+        "confidence": 0.9861578941345215,
+        "start": 51,
+        "end": 82,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

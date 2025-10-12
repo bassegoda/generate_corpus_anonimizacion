@@ -1,0 +1,174 @@
+{
+  "document_id": "df260027-320b-480a-8822-22a46a7de5a6",
+  "success": true,
+  "anonymized_text": "A la atención de la XXX, XXX del XXX. Se remite a consulta de cirugía a la paciente de sexo XXX y XXX de edad, identificada con el número XXX, para valoración integral. La paciente, que reside en la XXX, presenta un cuadro que requiere evaluación especializada. Su número de teléfono de contacto principal es el XXX, y para comunicación con este centro puede utilizarse el XXX. La exploración física revela hallazgos significativos que justifican una intervención quirúrgica programada. Los análisis preoperatorios muestran parámetros dentro de la normalidad excepto una ligera anemia normocrómica. La radiografía de tórax es normal para su edad. Es de capital importancia destacar en la historia clínica que la paciente presenta XXX. Este punto debe quedar claramente registrado en su documentación y protocolos anestésicos. Asimismo, se ha contactado con su familiar de referencia, XXX, quien está al tanto de la situación y se hará cargo del postoperatorio. El número de aseguramiento de la paciente es XXX. Dada la condición de XXX, se recomienda extremar las precauciones en la profilaxis antibiótica prequirúrgica, optando por alternativas seguras. Se procederá a programar la intervención una vez completado el estudio preanestésico y obtenido el consentimiento informado.",
+  "text_length": 1279,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9491663575172424,
+        "word": " familiar de referencia",
+        "start": 860,
+        "end": 882,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de referencia",
+          "actual_text": "familiar de referencia",
+          "confidence": 0.9491663575172424,
+          "start": 860,
+          "end": 882,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de referencia",
+          "actual_text": "familiar de referencia",
+          "confidence": 0.9491663575172424,
+          "start": 860,
+          "end": 882,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9788094162940979,
+        "word": " familiar",
+        "start": 860,
+        "end": 868,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9788094162940979,
+          "start": 860,
+          "end": 868,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9788094162940979,
+          "start": 860,
+          "end": 868,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de referencia",
+        "actual_text": "familiar de referencia",
+        "confidence": 0.9491663575172424,
+        "start": 860,
+        "end": 882,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9788094162940979,
+        "start": 860,
+        "end": 868,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de referencia",
+        "actual_text": "familiar de referencia",
+        "confidence": 0.9491663575172424,
+        "start": 860,
+        "end": 882,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9788094162940979,
+        "start": 860,
+        "end": 868,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

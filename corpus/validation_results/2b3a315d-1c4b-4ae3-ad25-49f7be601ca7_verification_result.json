@@ -1,0 +1,221 @@
+{
+  "document_id": "2b3a315d-1c4b-4ae3-ad25-49f7be601ca7",
+  "success": true,
+  "anonymized_text": "En la valoración inicial se recoge que el paciente fue atendido en el ** Clínico San Carlos** para una evaluación integral. Como parte del procedimiento de identificación biométrica, se ha registrado la **XXX** en el sistema, asociada al identificador del dispositivo **XXX**. Este registro se vincula a la referencia interna **XXX** para su seguimiento. Para la coordinación de informes complementarios y la remisión de documentación clínica, se ha facilitado el número de contacto **XXX**. Cabe señalar que el profesional que firma la presente evaluación está en posesión del **XXX**, tal como consta en el registro correspondiente. En cuanto a los datos de localización, se dispone de dos direcciones asociadas al caso: **XXX** y ** de la Luna 42**, las cuales han sido verificadas para la correcta gestión administrativa. La exploración física realizada no reveló hallazgos patognomónicos significativos, con parámetros hemodinámicos dentro de la normalidad y ausencia de signos de focalidad neurológica. Los estudios analíticos practicados muestran un perfil bioquímico sin desviaciones relevantes, y la radiografía de tórax informa de campos pulmonares libres. Se mantendrá la vigilancia clínica ambulatoria.",
+  "text_length": 1214,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9750161170959473,
+        "word": " Clínico San Carlos",
+        "start": 73,
+        "end": 91,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9750161170959473,
+          "start": 73,
+          "end": 91,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9750161170959473,
+          "start": 73,
+          "end": 91,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9343087673187256,
+        "word": " ** Clínico San Carlos",
+        "start": 70,
+        "end": 91,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9845201373100281,
+        "word": " ** de la Luna 42",
+        "start": 733,
+        "end": 749,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1,
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos",
+          "actual_text": "** Clínico San Carlos",
+          "confidence": 0.9343087673187256,
+          "start": 70,
+          "end": 91,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " ** de la Luna 42",
+          "actual_text": "** de la Luna 42",
+          "confidence": 0.9845201373100281,
+          "start": 733,
+          "end": 749,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos",
+          "actual_text": "** Clínico San Carlos",
+          "confidence": 0.9343087673187256,
+          "start": 70,
+          "end": 91,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " ** de la Luna 42",
+          "actual_text": "** de la Luna 42",
+          "confidence": 0.9845201373100281,
+          "start": 733,
+          "end": 749,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "HOSPITAL": 2,
+      "CALLE": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9750161170959473,
+        "start": 73,
+        "end": 91,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos",
+        "actual_text": "** Clínico San Carlos",
+        "confidence": 0.9343087673187256,
+        "start": 70,
+        "end": 91,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " ** de la Luna 42",
+        "actual_text": "** de la Luna 42",
+        "confidence": 0.9845201373100281,
+        "start": 733,
+        "end": 749,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9750161170959473,
+        "start": 73,
+        "end": 91,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos",
+        "actual_text": "** Clínico San Carlos",
+        "confidence": 0.9343087673187256,
+        "start": 70,
+        "end": 91,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " ** de la Luna 42",
+        "actual_text": "** de la Luna 42",
+        "confidence": 0.9845201373100281,
+        "start": 733,
+        "end": 749,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

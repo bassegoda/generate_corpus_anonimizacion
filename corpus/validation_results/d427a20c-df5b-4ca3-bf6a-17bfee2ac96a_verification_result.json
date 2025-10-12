@@ -1,0 +1,267 @@
+{
+  "document_id": "d427a20c-df5b-4ca3-bf6a-17bfee2ac96a",
+  "success": true,
+  "anonymized_text": "**NOTA DE EVOLUCIÓN – INTERCONSULTA** Se realiza interconsulta para continuidad asistencial de la paciente **XXX**, con identificación **XXX**, correspondiente a su historia clínica **XXX**. La paciente, de **sexo XXX**, fue valorada inicialmente el **XXX** en el **XXX**. Tras la evaluación y para facilitar la coordinación entre niveles asistenciales, se ha procedido a la derivación de su seguimiento al **XXX**, bajo la coordinación del **XXX**. Se ha establecido contacto con su familiar de referencia, **XXX**, cuyo número de contacto es el **XXX**, a quien se le han explicado los detalles del proceso asistencial y se le ha facilitado la dirección de correo electrónico **XXX** para posibles aclaraciones. Para garantizar la continuidad de la información clínica, se ha dado acceso al sistema de historia clínica electrónica a través del enlace **XXX**, donde se encuentra disponible la documentación completa. Asimismo, se ha verificado que los registros previos de la **XXX** estén accesibles mediante la plataforma **XXX**, asociada al número de historia **XXX**. Se recomienda mantener la coordinación entre ambos centros para el seguimiento protocolizado de la paciente.",
+  "text_length": 1183,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9875496029853821,
+        "word": " familiar",
+        "start": 484,
+        "end": 492,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9875496029853821,
+          "start": 484,
+          "end": 492,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9875496029853821,
+          "start": 484,
+          "end": 492,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7021192908287048,
+        "word": " **",
+        "start": 207,
+        "end": 209,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7306938171386719,
+        "word": " sistema de",
+        "start": 793,
+        "end": 803,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9455435872077942,
+        "word": " clínica electrónica",
+        "start": 813,
+        "end": 832,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1,
+        "OTROS_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.7021192908287048,
+          "start": 207,
+          "end": 209,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " sistema de",
+          "actual_text": "sistema de",
+          "confidence": 0.7306938171386719,
+          "start": 793,
+          "end": 803,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica electrónica",
+          "actual_text": "clínica electrónica",
+          "confidence": 0.9455435872077942,
+          "start": 813,
+          "end": 832,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.7021192908287048,
+          "start": 207,
+          "end": 209,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " sistema de",
+          "actual_text": "sistema de",
+          "confidence": 0.7306938171386719,
+          "start": 793,
+          "end": 803,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica electrónica",
+          "actual_text": "clínica electrónica",
+          "confidence": 0.9455435872077942,
+          "start": 813,
+          "end": 832,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "ID_SUJETO_ASISTENCIA": 1,
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9875496029853821,
+        "start": 484,
+        "end": 492,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.7021192908287048,
+        "start": 207,
+        "end": 209,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " sistema de",
+        "actual_text": "sistema de",
+        "confidence": 0.7306938171386719,
+        "start": 793,
+        "end": 803,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica electrónica",
+        "actual_text": "clínica electrónica",
+        "confidence": 0.9455435872077942,
+        "start": 813,
+        "end": 832,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9875496029853821,
+        "start": 484,
+        "end": 492,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.7021192908287048,
+        "start": 207,
+        "end": 209,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " sistema de",
+        "actual_text": "sistema de",
+        "confidence": 0.7306938171386719,
+        "start": 793,
+        "end": 803,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica electrónica",
+        "actual_text": "clínica electrónica",
+        "confidence": 0.9455435872077942,
+        "start": 813,
+        "end": 832,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

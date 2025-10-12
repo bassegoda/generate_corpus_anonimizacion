@@ -1,0 +1,175 @@
+{
+  "document_id": "ac24ebb1-692d-4481-b9d9-abe273b1a884",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada en el XXX, se recoge la historia de la paciente que refiere sintomatología inespecífica en las últimas semanas. La exploración física muestra un estado general conservado, con constantes vitales dentro de la normalidad y auscultación cardiorrespiratoria sin hallazgos patológicos. Los análisis de sangre recientes muestran un hemograma dentro de rangos normales y una bioquímica básica sin alteraciones significativas. Se ha procedido a la actualización de los datos de contacto en el sistema, verificando que el asociado a su historia digital es XXX. El queda registrado como XXX. Como contacto principal en el apartado de familiares sujeto asistencia se ha consignado a XXX y XXX. El correspondiente a su cobertura sanitaria es el XXX. La atención ha sido proporcionada por la XXX, quien supervisa el caso. La paciente tiene su residencia en XXX, concretamente en la XXX, de la XXX. La responsable de su cobertura sanitaria es el XXX. Para comunicación administrativa se dispone del XXX. Se recomienda seguimiento ambulatorio en las próximas semanas para control de la evolución.",
+  "text_length": 1116,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.988062858581543,
+        "word": " familiares",
+        "start": 659,
+        "end": 669,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares",
+          "actual_text": "familiares",
+          "confidence": 0.988062858581543,
+          "start": 659,
+          "end": 669,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares",
+          "actual_text": "familiares",
+          "confidence": 0.988062858581543,
+          "start": 659,
+          "end": 669,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9216570854187012,
+        "word": " historia digital",
+        "start": 562,
+        "end": 578,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia digital",
+          "actual_text": "historia digital",
+          "confidence": 0.9216570854187012,
+          "start": 562,
+          "end": 578,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia digital",
+          "actual_text": "historia digital",
+          "confidence": 0.9216570854187012,
+          "start": 562,
+          "end": 578,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares",
+        "actual_text": "familiares",
+        "confidence": 0.988062858581543,
+        "start": 659,
+        "end": 669,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia digital",
+        "actual_text": "historia digital",
+        "confidence": 0.9216570854187012,
+        "start": 562,
+        "end": 578,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares",
+        "actual_text": "familiares",
+        "confidence": 0.988062858581543,
+        "start": 659,
+        "end": 669,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia digital",
+        "actual_text": "historia digital",
+        "confidence": 0.9216570854187012,
+        "start": 562,
+        "end": 578,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

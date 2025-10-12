@@ -1,0 +1,124 @@
+{
+  "document_id": "859b3a21-9a1a-4bb9-bc25-c354319acee2",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Se evalúa a la paciente de sexo XXX en consulta de seguimiento. La sujeto de asistencia, identificada con el número XXX, acude para control evolutivo. La exploración física actual muestra un estado general conservado, con constantes vitales dentro de la normalidad. La auscultación cardiorrespiratoria es rítmica y sin soplos, con murmullo vesicular conservado. En la palpación abdominal no se evidencian masas ni visceromegalias. Los resultados analíticos recientes, asociados al identificador de aseguramiento XXX, muestran un perfil bioquímico sin alteraciones significativas. Se procedió a la verificación del dispositivo médico en uso, cuyo número de serie XXX fue confirmado como operativo. Para cualquier gestión administrativa o coordinación, el centro de salud de referencia es el XXX. En relación con la documentación del vehículo asociado al desplazamiento de la paciente, se anota la matrícula XXX. El profesional sanitario a cargo de la valoración, con identificación XXX y titulación de XXX, considera que la evolución es favorable. El número de teléfono de contacto registrado en el sistema es el XXX. Para comunicación interna, se puede utilizar el correo electrónico XXX o XXX. Se adjunta en el sistema la referencia interna XXX para seguimiento. Queda registrado el otro número de identificación XXX de la paciente. El expediente queda asociado también a la referencia XXX. El documento de identidad extranjero XXX se encuentra correctamente archivado en su historial. Cualquier actualización o comunicación posterior puede dirigirse también al correo electrónico XXX. Se da por concluida la visita con plan de seguimiento habitual.",
+  "text_length": 1678,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7289361953735352,
+        "word": " documento de identidad extranjero",
+        "start": 1423,
+        "end": 1456,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento de identidad extranjero",
+          "actual_text": "documento de identidad extranjero",
+          "confidence": 0.7289361953735352,
+          "start": 1423,
+          "end": 1456,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento de identidad extranjero",
+          "actual_text": "documento de identidad extranjero",
+          "confidence": 0.7289361953735352,
+          "start": 1423,
+          "end": 1456,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento de identidad extranjero",
+        "actual_text": "documento de identidad extranjero",
+        "confidence": 0.7289361953735352,
+        "start": 1423,
+        "end": 1456,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento de identidad extranjero",
+        "actual_text": "documento de identidad extranjero",
+        "confidence": 0.7289361953735352,
+        "start": 1423,
+        "end": 1456,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

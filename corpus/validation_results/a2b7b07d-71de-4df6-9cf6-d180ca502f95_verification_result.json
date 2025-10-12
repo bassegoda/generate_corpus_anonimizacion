@@ -1,0 +1,268 @@
+{
+  "document_id": "a2b7b07d-71de-4df6-9cf6-d180ca502f95",
+  "success": true,
+  "anonymized_text": "A continuación, se presenta el informe de valoración inicial correspondiente a la paciente XXX. La paciente, cuyo número de historia clínica es XXX, ha sido valorada en consultas externas. Se trata de una ciudadana con nacionalidad española, concretamente de XXX. Refiere como domicilio particular la residencia situada de Alcalá 42, mientras que para cualquier comunicación o envío postal adicional, también puede utilizarse la dirección de XXX. En el apartado de datos de contacto, es posible localizar a la paciente a través del número de teléfono XXX. Para cuestiones que así lo requieran, se dispone también del contacto XXX. En caso de necesitar comunicación por fax, el número habilitado es XXX. Respecto a la documentación asociada, se ha registrado el número de serie del dispositivo de monitorización XXX. Se recomienda a la paciente que, para una información complementaria sobre su proceso, consulte los recursos disponibles en el portal médico de referencia, accesible en XXX. La exploración física actual revela un estado general conservado, con constantes vitales dentro de la normalidad. La auscultación cardiorrespiratoria es rítmica y sin soplos, con murmullo vesicular conservado. El abdomen es blando y depresible, sin masas ni visceromegalias palpables. En la analítica reciente, destaca un perfil lipídico dentro de rangos aceptables y una glucemia basal en límites normales. La radiografía de tórax realizada no muestra hallazgos patológicos significativos. Se proseguirá con el seguimiento protocolizado.",
+  "text_length": 1528,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8943495750427246,
+        "word": " ciudadana",
+        "start": 205,
+        "end": 214,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9200047850608826,
+        "word": " 42",
+        "start": 330,
+        "end": 332,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1,
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " ciudadana",
+          "actual_text": "ciudadana",
+          "confidence": 0.8943495750427246,
+          "start": 205,
+          "end": 214,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " 42",
+          "actual_text": "42",
+          "confidence": 0.9200047850608826,
+          "start": 330,
+          "end": 332,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " ciudadana",
+          "actual_text": "ciudadana",
+          "confidence": 0.8943495750427246,
+          "start": 205,
+          "end": 214,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " 42",
+          "actual_text": "42",
+          "confidence": 0.9200047850608826,
+          "start": 330,
+          "end": 332,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.8979806900024414,
+        "word": " ciudadana",
+        "start": 205,
+        "end": 214,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9836426973342896,
+        "word": " Alcalá 42",
+        "start": 323,
+        "end": 332,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "SEXO_SUJETO_ASISTENCIA": 1,
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " ciudadana",
+          "actual_text": "ciudadana",
+          "confidence": 0.8979806900024414,
+          "start": 205,
+          "end": 214,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Alcalá 42",
+          "actual_text": "Alcalá 42",
+          "confidence": 0.9836426973342896,
+          "start": 323,
+          "end": 332,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " ciudadana",
+          "actual_text": "ciudadana",
+          "confidence": 0.8979806900024414,
+          "start": 205,
+          "end": 214,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Alcalá 42",
+          "actual_text": "Alcalá 42",
+          "confidence": 0.9836426973342896,
+          "start": 323,
+          "end": 332,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 1,
+      "CALLE": 2,
+      "SEXO_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 4,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " ciudadana",
+        "actual_text": "ciudadana",
+        "confidence": 0.8943495750427246,
+        "start": 205,
+        "end": 214,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " 42",
+        "actual_text": "42",
+        "confidence": 0.9200047850608826,
+        "start": 330,
+        "end": 332,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " ciudadana",
+        "actual_text": "ciudadana",
+        "confidence": 0.8979806900024414,
+        "start": 205,
+        "end": 214,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Alcalá 42",
+        "actual_text": "Alcalá 42",
+        "confidence": 0.9836426973342896,
+        "start": 323,
+        "end": 332,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " ciudadana",
+        "actual_text": "ciudadana",
+        "confidence": 0.8943495750427246,
+        "start": 205,
+        "end": 214,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " 42",
+        "actual_text": "42",
+        "confidence": 0.9200047850608826,
+        "start": 330,
+        "end": 332,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " ciudadana",
+        "actual_text": "ciudadana",
+        "confidence": 0.8979806900024414,
+        "start": 205,
+        "end": 214,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Alcalá 42",
+        "actual_text": "Alcalá 42",
+        "confidence": 0.9836426973342896,
+        "start": 323,
+        "end": 332,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

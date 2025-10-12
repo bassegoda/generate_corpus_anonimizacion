@@ -1,0 +1,174 @@
+{
+  "document_id": "30c04bfc-a6e6-4008-a44d-806acd3ad356",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución - Consulta Externa** Paciente que acude para seguimiento de su patología crónica. Refiere estabilidad clínica general con buen cumplimiento terapéutico. La exploración física actual muestra: tensión arterial 135/80 mmHg, frecuencia cardíaca 68 lpm, saturación de oxígeno 96%. A la auscultación cardíaca, ritmo regular sin soplos añadidos. En la auscultación pulmonar, murmullo vesicular conservado con mínimos crepitantes basales bilaterales sin significación clínica. El examen abdominal resulta blando y depreciable, no doloroso a la palpación superficial y profunda. Respecto a las pruebas complementarias realizadas en el último mes, la analítica muestra un perfil electrolítico dentro de rangos normales, con función renal estable. La radiografía de tórax evidencia cardiomegalia grado I sin signos de insuficiencia cardiaca congestiva. Se procederá a la gestión de la renovación de la documentación asistencial para el vehículo con placa XXX, cuyo trámite puede seguirse a través de nuestra página web XXX. Para cualquier gestión administrativa o consulta no urgente, pueden utilizarse las direcciones XXX y XXX. La paciente XXX, de XXX de edad y sexo XXX, continúa residiendo en la XXX, concretamente en XXX. Se identifica en nuestro sistema con el número de historia clínica XXX. Queda pendiente de recibir el informe de fisioterapia con código XXX. Se mantiene el mismo tratamiento y se cita para control en tres meses, con la recomendación de contactar asistencialmente si aparecieran nuevos síntomas.",
+  "text_length": 1531,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8830295205116272,
+        "word": " vehículo",
+        "start": 945,
+        "end": 953,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.8830295205116272,
+          "start": 945,
+          "end": 953,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.8830295205116272,
+          "start": 945,
+          "end": 953,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9066288471221924,
+        "word": " clínica",
+        "start": 1295,
+        "end": 1302,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.9066288471221924,
+          "start": 1295,
+          "end": 1302,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.9066288471221924,
+          "start": 1295,
+          "end": 1302,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.8830295205116272,
+        "start": 945,
+        "end": 953,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.9066288471221924,
+        "start": 1295,
+        "end": 1302,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.8830295205116272,
+        "start": 945,
+        "end": 953,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.9066288471221924,
+        "start": 1295,
+        "end": 1302,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

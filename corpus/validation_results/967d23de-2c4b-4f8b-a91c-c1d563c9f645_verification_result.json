@@ -1,0 +1,268 @@
+{
+  "document_id": "967d23de-2c4b-4f8b-a91c-c1d563c9f645",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa A fecha de XXX, se procede a la evaluación y seguimiento de la paciente en consultas externas. Se trata de un sujeto de asistencia de sexo XXX que acude para control evolutivo de su patología. La exploración física actual muestra un estado general conservado. A la auscultación cardiopulmonar, ritmo cardíaco regular sin soplos, murmullo vesicular conservado bilateralmente. Abdomen blando y depresible, sin masas ni megalias. Los pulsos distales son palpables y simétricos. Respecto a los resultados analíticos recientes, se observa un perfil glucémico dentro de objetivos terapéuticos, con hemoglobina glicosilada en 6.8%. El resto de parámetros bioquímicos y hemograma se encuentran dentro de la normalidad. En la ecografía abdominal realizada no se evidencian hallazgos significativos. Se ha coordinado con el XXX para la continuidad de los cuidados en su ámbito de referencia. Asimismo, se ha recomendado encarecidamente la participación en el XXX, cuyos beneficios en el manejo y adherencia terapéutica están ampliamente documentados. Para cualquier incidencia o ajuste en su plan terapéutico, puede contactar con este servicio a través del número de teléfono XXX. La documentación asociada a este episodio queda registrada bajo los códigos XXX y XXX. Atentamente, XXX Número de identificación profesional XXX Clínico San Carlos Correo electrónico: XXX Anexo a este informe, se incluye la solicitud de autorización para el desplazamiento del equipo de apoyo, asignándose para el vehículo institucional la placa XXX con destino a de la Alameda 7. La XXX, titulada con XXX, será la responsable de la supervisión clínica durante dicha actividad.",
+  "text_length": 1676,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.8098433017730713,
+        "word": " de la Alameda 7",
+        "start": 1563,
+        "end": 1578,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " de la Alameda 7",
+          "actual_text": "de la Alameda 7",
+          "confidence": 0.8098433017730713,
+          "start": 1563,
+          "end": 1578,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " de la Alameda 7",
+          "actual_text": "de la Alameda 7",
+          "confidence": 0.8098433017730713,
+          "start": 1563,
+          "end": 1578,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7345626354217529,
+        "word": " sexo XXX",
+        "start": 162,
+        "end": 170,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9821111559867859,
+        "word": " XXX Clínico San Carlos",
+        "start": 1340,
+        "end": 1362,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.8956112861633301,
+        "word": " Alameda 7",
+        "start": 1569,
+        "end": 1578,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1,
+        "HOSPITAL": 1,
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo XXX",
+          "actual_text": "sexo XXX",
+          "confidence": 0.7345626354217529,
+          "start": 162,
+          "end": 170,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " XXX Clínico San Carlos",
+          "actual_text": "XXX Clínico San Carlos",
+          "confidence": 0.9821111559867859,
+          "start": 1340,
+          "end": 1362,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Alameda 7",
+          "actual_text": "Alameda 7",
+          "confidence": 0.8956112861633301,
+          "start": 1569,
+          "end": 1578,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo XXX",
+          "actual_text": "sexo XXX",
+          "confidence": 0.7345626354217529,
+          "start": 162,
+          "end": 170,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " XXX Clínico San Carlos",
+          "actual_text": "XXX Clínico San Carlos",
+          "confidence": 0.9821111559867859,
+          "start": 1340,
+          "end": 1362,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Alameda 7",
+          "actual_text": "Alameda 7",
+          "confidence": 0.8956112861633301,
+          "start": 1569,
+          "end": 1578,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CALLE": 2,
+      "ID_SUJETO_ASISTENCIA": 1,
+      "HOSPITAL": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CALLE",
+        "word": " de la Alameda 7",
+        "actual_text": "de la Alameda 7",
+        "confidence": 0.8098433017730713,
+        "start": 1563,
+        "end": 1578,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo XXX",
+        "actual_text": "sexo XXX",
+        "confidence": 0.7345626354217529,
+        "start": 162,
+        "end": 170,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " XXX Clínico San Carlos",
+        "actual_text": "XXX Clínico San Carlos",
+        "confidence": 0.9821111559867859,
+        "start": 1340,
+        "end": 1362,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Alameda 7",
+        "actual_text": "Alameda 7",
+        "confidence": 0.8956112861633301,
+        "start": 1569,
+        "end": 1578,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CALLE",
+        "word": " de la Alameda 7",
+        "actual_text": "de la Alameda 7",
+        "confidence": 0.8098433017730713,
+        "start": 1563,
+        "end": 1578,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo XXX",
+        "actual_text": "sexo XXX",
+        "confidence": 0.7345626354217529,
+        "start": 162,
+        "end": 170,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " XXX Clínico San Carlos",
+        "actual_text": "XXX Clínico San Carlos",
+        "confidence": 0.9821111559867859,
+        "start": 1340,
+        "end": 1362,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Alameda 7",
+        "actual_text": "Alameda 7",
+        "confidence": 0.8956112861633301,
+        "start": 1569,
+        "end": 1578,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

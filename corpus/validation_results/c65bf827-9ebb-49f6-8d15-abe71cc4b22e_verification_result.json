@@ -1,0 +1,175 @@
+{
+  "document_id": "c65bf827-9ebb-49f6-8d15-abe71cc4b22e",
+  "success": true,
+  "anonymized_text": "En la valoración inicial se recoge que el sujeto de asistencia es de **sexo XXX** y se identifica con el **número de beneficio del plan de salud XXX**. Durante la anamnesis familiar, se reporta que existe un **XXX** y una **XXX** que constituyen los principales **familiares del sujeto de asistencia** con los que mantiene contacto. Para posibles coordinaciones, se ha facilitado el **número de teléfono XXX** y la dirección de **correo electrónico XXX**. El cuadro clínico actual fue valorado previamente en el **XXX**, desde donde se derivó a este **XXX** para continuar con el estudio y seguimiento. En la exploración física, se constata un estado general conservado, con tensión arterial 120/75 mmHg y frecuencia cardíaca 78 lpm. La auscultación cardiorrespiratoria es normofonética y el abdomen es blando y depresible, sin masas ni visceromegalias. Se dispone de una analítica reciente que muestra un hemograma dentro de rangos normales y una bioquímica sin alteraciones significativas. En la ecografía abdominal realizada no se evidencian hallazgos patológicos. Para una segunda opinión especializada, se ha remitido el caso a **XXX** del servicio de digestología, cuyo **ID de aseguramiento XXX** ha sido registrado en el sistema. El profesional que suscribe este informe, con **ID de titulación del personal sanitario XXX** y **XXX**, considera que el manejo más adecuado es el seguimiento ambulatorio. Se ha proporcionado al sujeto de asistencia el recurso web **XXX** donde podrá encontrar material educativo sobre las recomendaciones dietéticas y de estilo de vida comentadas durante la consulta.",
+  "text_length": 1607,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9590697288513184,
+        "word": "famil",
+        "start": 264,
+        "end": 269,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": "famil",
+          "actual_text": "famil",
+          "confidence": 0.9590697288513184,
+          "start": 264,
+          "end": 269,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": "famil",
+          "actual_text": "famil",
+          "confidence": 0.9590697288513184,
+          "start": 264,
+          "end": 269,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.908114492893219,
+        "word": " **",
+        "start": 69,
+        "end": 71,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.908114492893219,
+          "start": 69,
+          "end": 71,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.908114492893219,
+          "start": 69,
+          "end": 71,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "ID_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": "famil",
+        "actual_text": "famil",
+        "confidence": 0.9590697288513184,
+        "start": 264,
+        "end": 269,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.908114492893219,
+        "start": 69,
+        "end": 71,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": "famil",
+        "actual_text": "famil",
+        "confidence": 0.9590697288513184,
+        "start": 264,
+        "end": 269,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.908114492893219,
+        "start": 69,
+        "end": 71,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

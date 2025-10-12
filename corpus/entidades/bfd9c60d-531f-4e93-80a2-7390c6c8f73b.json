@@ -1,0 +1,25 @@
+{
+  "id": "bfd9c60d-531f-4e93-80a2-7390c6c8f73b",
+  "data": [
+    {
+      "entity": "CALLE",
+      "text": "Paseo de la Castellana 120"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Constitución 12"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "612-34-56-78"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud Los Álamos"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-789456"
+    }
+  ]
+}

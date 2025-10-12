@@ -1,0 +1,175 @@
+{
+  "document_id": "67351f3a-0361-4f46-979e-9acea3ba9145",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Se reevalúa en consulta externa a la paciente XXX, identificada con el número de sujeto de asistencia XXX. La paciente, de sexo XXX, se presenta para seguimiento de su condición médica actual. La exploración física actual muestra estabilidad en sus parámetros principales, con tensión arterial de 125/80 mmHg y frecuencia cardíaca de 72 lpm. Los hallazgos al examen del sistema cardiopulmonar permanecen dentro de límites normales. Los resultados analíticos recientes, incluidos en su historia, no muestran alteraciones significativas en el hemograma ni en la bioquímica básica. Se procederá a solicitar una nueva cita para control en los próximos meses. Para cualquier gestión administrativa relacionada con este procedimiento, pueden contactar con el XXX a través del número de fax XXX. La documentación correspondiente a la identificación del vehículo XXX queda registrada en el expediente, así como el código de aseguramiento XXX. El profesional que suscribe este informe posee la titulación de XXX. La dirección de contacto registrada para notificaciones es XXX, con código postal XXX. El documento de identificación de la paciente es el XXX.",
+  "text_length": 1175,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7222130298614502,
+        "word": " vehículo",
+        "start": 874,
+        "end": 882,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.7222130298614502,
+          "start": 874,
+          "end": 882,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.7222130298614502,
+          "start": 874,
+          "end": 882,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8668861985206604,
+        "word": " sexo",
+        "start": 151,
+        "end": 155,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.8668861985206604,
+          "start": 151,
+          "end": 155,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.8668861985206604,
+          "start": 151,
+          "end": 155,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "ID_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.7222130298614502,
+        "start": 874,
+        "end": 882,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.8668861985206604,
+        "start": 151,
+        "end": 155,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.7222130298614502,
+        "start": 874,
+        "end": 882,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.8668861985206604,
+        "start": 151,
+        "end": 155,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

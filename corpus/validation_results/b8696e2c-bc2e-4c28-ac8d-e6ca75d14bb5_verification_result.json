@@ -1,0 +1,266 @@
+{
+  "document_id": "b8696e2c-bc2e-4c28-ac8d-e6ca75d14bb5",
+  "success": true,
+  "anonymized_text": "En la valoración geriátrica integral se recoge que la paciente XXX, que cuenta con una de XXX, presenta un cuadro de deterioro cognitivo leve de evolución progresiva. Refiere como antecedente familiar de interés que su progenitora, XXX, fue diagnosticada con demencia tipo Alzheimer a los XXX, por lo que existe un claro componente hereditario a considerar en el plan de seguimiento. La exploración física actual muestra a la paciente consciente y orientada, aunque con cierta labilidad emocional. Los resultados analíticos están dentro de parámetros aceptables para su grupo de edad. En el contexto del manejo terapéutico, se ha recomendado la realización de actividades de estimulación cognitiva de manera regular. Para facilitar el desplazamiento a estas sesiones, se sugiere el uso del vehículo con identificación XXX, que ya está adaptado a sus necesidades de movilidad. El abordaje terapéutico será supervisado por la especialista en geriatría XXX, quien posee el correspondiente XXX y está capacitada para el manejo de este tipo de patologías. Se programará reevaluación en seis meses para valorar la progresión del cuadro.",
+  "text_length": 1130,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9826280474662781,
+        "word": " progenitora,",
+        "start": 219,
+        "end": 231,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7185946702957153,
+        "word": " vehículo",
+        "start": 790,
+        "end": 798,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " progenitora,",
+          "actual_text": "progenitora,",
+          "confidence": 0.9826280474662781,
+          "start": 219,
+          "end": 231,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.7185946702957153,
+          "start": 790,
+          "end": 798,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " progenitora,",
+          "actual_text": "progenitora,",
+          "confidence": 0.9826280474662781,
+          "start": 219,
+          "end": 231,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.7185946702957153,
+          "start": 790,
+          "end": 798,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8314213752746582,
+        "word": " una de XXX",
+        "start": 83,
+        "end": 93,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9703742861747742,
+        "word": " progenitora, XXX,",
+        "start": 219,
+        "end": 236,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " una de XXX",
+          "actual_text": "una de XXX",
+          "confidence": 0.8314213752746582,
+          "start": 83,
+          "end": 93,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " progenitora, XXX,",
+          "actual_text": "progenitora, XXX,",
+          "confidence": 0.9703742861747742,
+          "start": 219,
+          "end": 236,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " una de XXX",
+          "actual_text": "una de XXX",
+          "confidence": 0.8314213752746582,
+          "start": 83,
+          "end": 93,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " progenitora, XXX,",
+          "actual_text": "progenitora, XXX,",
+          "confidence": 0.9703742861747742,
+          "start": 219,
+          "end": 236,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 3,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " progenitora,",
+        "actual_text": "progenitora,",
+        "confidence": 0.9826280474662781,
+        "start": 219,
+        "end": 231,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.7185946702957153,
+        "start": 790,
+        "end": 798,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " una de XXX",
+        "actual_text": "una de XXX",
+        "confidence": 0.8314213752746582,
+        "start": 83,
+        "end": 93,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " progenitora, XXX,",
+        "actual_text": "progenitora, XXX,",
+        "confidence": 0.9703742861747742,
+        "start": 219,
+        "end": 236,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " progenitora,",
+        "actual_text": "progenitora,",
+        "confidence": 0.9826280474662781,
+        "start": 219,
+        "end": 231,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.7185946702957153,
+        "start": 790,
+        "end": 798,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " una de XXX",
+        "actual_text": "una de XXX",
+        "confidence": 0.8314213752746582,
+        "start": 83,
+        "end": 93,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " progenitora, XXX,",
+        "actual_text": "progenitora, XXX,",
+        "confidence": 0.9703742861747742,
+        "start": 219,
+        "end": 236,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

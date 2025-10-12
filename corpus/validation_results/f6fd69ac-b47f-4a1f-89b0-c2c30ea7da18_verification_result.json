@@ -1,0 +1,268 @@
+{
+  "document_id": "f6fd69ac-b47f-4a1f-89b0-c2c30ea7da18",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución de Psiquiatría** Paciente que continúa en seguimiento por su cuadro de ansiedad generalizada. En la evaluación actual, refiere una mejoría subjetiva de la sintomatología psíquica, con una disminución notable de la rumiación y la aprensión. Desde el punto de vista somático, persisten algunas palpitaciones esporádicas en situaciones de estrés, aunque con menor intensidad. La exploración física actual muestra una tensión arterial de 125/80 mmHg y frecuencia cardíaca de 78 lpm, en rango de normalidad. Se ha reforzado la importancia de la adherencia a las estrategias no farmacológicas. En este sentido, se ha derivado al paciente al **XXX** como parte de su plan de intervención psicosocial, considerando que puede ser un recurso muy valioso para la adquisición de habilidades de afrontamiento. El manejo global del paciente se coordina desde el **XXX** para el seguimiento de atención primaria, manteniendo la supervisión especializada en este servicio. El plan terapéutico se encuentra registrado bajo el número de historia **XXX**. Para una visión integral de la evolución, se puede acceder a los registros completos a través de la plataforma clínica en **XXX**. El paciente cuenta con el **XXX** como número de beneficiario del plan de salud para la gestión de cualquier procedimiento. La coordinación entre el ** Clínico San Carlos** y los recursos de atención primaria en **XXX** es fundamental para garantizar la continuidad asistencial y la eficacia del tratamiento.",
+  "text_length": 1496,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9789277911186218,
+        "word": " ** Clínico San Carlos**",
+        "start": 1337,
+        "end": 1360,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos**",
+          "actual_text": "** Clínico San Carlos**",
+          "confidence": 0.9789277911186218,
+          "start": 1337,
+          "end": 1360,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos**",
+          "actual_text": "** Clínico San Carlos**",
+          "confidence": 0.9789277911186218,
+          "start": 1337,
+          "end": 1360,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.8075225353240967,
+        "word": " **",
+        "start": 655,
+        "end": 657,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7002118229866028,
+        "word": " número de historia",
+        "start": 1029,
+        "end": 1047,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9708641767501831,
+        "word": " ** Clínico San Carlos",
+        "start": 1337,
+        "end": 1358,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_IDENTIF": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.8075225353240967,
+          "start": 655,
+          "end": 657,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " número de historia",
+          "actual_text": "número de historia",
+          "confidence": 0.7002118229866028,
+          "start": 1029,
+          "end": 1047,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos",
+          "actual_text": "** Clínico San Carlos",
+          "confidence": 0.9708641767501831,
+          "start": 1337,
+          "end": 1358,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.8075225353240967,
+          "start": 655,
+          "end": 657,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " número de historia",
+          "actual_text": "número de historia",
+          "confidence": 0.7002118229866028,
+          "start": 1029,
+          "end": 1047,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos",
+          "actual_text": "** Clínico San Carlos",
+          "confidence": 0.9708641767501831,
+          "start": 1337,
+          "end": 1358,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "HOSPITAL": 2,
+      "NUMERO_IDENTIF": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos**",
+        "actual_text": "** Clínico San Carlos**",
+        "confidence": 0.9789277911186218,
+        "start": 1337,
+        "end": 1360,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.8075225353240967,
+        "start": 655,
+        "end": 657,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " número de historia",
+        "actual_text": "número de historia",
+        "confidence": 0.7002118229866028,
+        "start": 1029,
+        "end": 1047,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos",
+        "actual_text": "** Clínico San Carlos",
+        "confidence": 0.9708641767501831,
+        "start": 1337,
+        "end": 1358,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos**",
+        "actual_text": "** Clínico San Carlos**",
+        "confidence": 0.9789277911186218,
+        "start": 1337,
+        "end": 1360,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.8075225353240967,
+        "start": 655,
+        "end": 657,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " número de historia",
+        "actual_text": "número de historia",
+        "confidence": 0.7002118229866028,
+        "start": 1029,
+        "end": 1047,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos",
+        "actual_text": "** Clínico San Carlos",
+        "confidence": 0.9708641767501831,
+        "start": 1337,
+        "end": 1358,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

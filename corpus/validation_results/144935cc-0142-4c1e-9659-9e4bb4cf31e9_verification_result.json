@@ -1,0 +1,169 @@
+{
+  "document_id": "144935cc-0142-4c1e-9659-9e4bb4cf31e9",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Biométrica y Alta Clínica La paciente, de sexo XXX, presenta alta clínica tras completar satisfactoriamente el proceso de verificación biométrica. Se procedió a la captura de la huella dactilar del dedo índice derecho, identificándose un patrón de lazo bien definido que queda registrado en el sistema como parte de los identificadores biométricos del caso. Los identificadores biométricos registrados incluyen XXX. Durante la exploración física complementaria se observa buen estado general, con constantes vitales dentro de rangos de normalidad. La auscultación cardiorrespiratoria resulta sin hallazgos patológicos, y el examen abdominal es anodino. No se evidencian signos de focalidad neurológica. En relación con la documentación administrativa del alta, se certifica que todos los registros asociados al expediente XXX han sido actualizados correctamente. Para cualquier comunicación posterior relacionada con este procedimiento, queda disponible el número de fax XXX como canal oficial. La referencia interna asignada a esta documentación es XXX. La supervisión del proceso de alta ha sido realizada bajo mi responsabilidad profesional. Atestigua la validez de este documento la XXX, identificada con el carnet sanitario XXX, quien puede ser contactada para verificaciones a través del correo electrónico institucional XXX. Como parte del protocolo de seguridad del centro, se registra el identificador del vehículo institucional XXX utilizado para el transporte de documentación médica confidencial.",
+  "text_length": 1530,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.796055257320404,
+        "word": " carnet",
+        "start": 1234,
+        "end": 1240,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7081421613693237,
+        "word": " vehículo institucional",
+        "start": 1437,
+        "end": 1459,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " carnet",
+          "actual_text": "carnet",
+          "confidence": 0.796055257320404,
+          "start": 1234,
+          "end": 1240,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo institucional",
+          "actual_text": "vehículo institucional",
+          "confidence": 0.7081421613693237,
+          "start": 1437,
+          "end": 1459,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " carnet",
+          "actual_text": "carnet",
+          "confidence": 0.796055257320404,
+          "start": 1234,
+          "end": 1240,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo institucional",
+          "actual_text": "vehículo institucional",
+          "confidence": 0.7081421613693237,
+          "start": 1437,
+          "end": 1459,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " carnet",
+        "actual_text": "carnet",
+        "confidence": 0.796055257320404,
+        "start": 1234,
+        "end": 1240,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo institucional",
+        "actual_text": "vehículo institucional",
+        "confidence": 0.7081421613693237,
+        "start": 1437,
+        "end": 1459,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " carnet",
+        "actual_text": "carnet",
+        "confidence": 0.796055257320404,
+        "start": 1234,
+        "end": 1240,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo institucional",
+        "actual_text": "vehículo institucional",
+        "confidence": 0.7081421613693237,
+        "start": 1437,
+        "end": 1459,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

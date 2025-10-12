@@ -1,0 +1,174 @@
+{
+  "document_id": "c7c3ed9d-2071-4b09-baaf-d959f159ee92",
+  "success": true,
+  "anonymized_text": "Informe de Seguimiento de Paciente Paciente: XXX, con identificación XXX, de XXX de edad, quien acude a consulta para seguimiento de su condición crónica. La paciente reside en XXX y es de nacionalidad española, con país de residencia XXX. En la evaluación actual, la paciente refiere mejoría en su control glucémico desde su incorporación al XXX. Al examen físico, presenta presión arterial de 128/78 mmHg, frecuencia cardíaca de 72 lpm y peso estable. Los parámetros analíticos recientes muestran hemoglobina glicosilada de 6.8%, con perfil lipídico dentro de rangos aceptables. La exploración neurológica periférica es normal y no se evidencian signos de retinopatía diabética en fondo de ojo. Se mantiene el plan terapéutico actual y se recomienda continuar con la participación en las actividades del grupo de apoyo. Para cualquier gestión administrativa o coordinación, puede utilizarse el número de contacto XXX o el correo electrónico XXX. El documento de aseguramiento XXX se encuentra vigente, con número de historia clínica XXX y código de identificación XXX. Como parte de los recursos disponibles, se ha proporcionado a la paciente la URL XXX donde podrá encontrar material educativo complementario. Se destaca que el profesional responsable de su seguimiento es XXX. Se programará próxima evaluación en seis meses para valorar evolución y ajustar tratamiento si fuera necesario.",
+  "text_length": 1392,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7802280783653259,
+        "word": " documento",
+        "start": 951,
+        "end": 960,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento",
+          "actual_text": "documento",
+          "confidence": 0.7802280783653259,
+          "start": 951,
+          "end": 960,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento",
+          "actual_text": "documento",
+          "confidence": 0.7802280783653259,
+          "start": 951,
+          "end": 960,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.716941773891449,
+        "word": " de historia clínica",
+        "start": 1015,
+        "end": 1034,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " de historia clínica",
+          "actual_text": "de historia clínica",
+          "confidence": 0.716941773891449,
+          "start": 1015,
+          "end": 1034,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " de historia clínica",
+          "actual_text": "de historia clínica",
+          "confidence": 0.716941773891449,
+          "start": 1015,
+          "end": 1034,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento",
+        "actual_text": "documento",
+        "confidence": 0.7802280783653259,
+        "start": 951,
+        "end": 960,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " de historia clínica",
+        "actual_text": "de historia clínica",
+        "confidence": 0.716941773891449,
+        "start": 1015,
+        "end": 1034,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento",
+        "actual_text": "documento",
+        "confidence": 0.7802280783653259,
+        "start": 951,
+        "end": 960,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " de historia clínica",
+        "actual_text": "de historia clínica",
+        "confidence": 0.716941773891449,
+        "start": 1015,
+        "end": 1034,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

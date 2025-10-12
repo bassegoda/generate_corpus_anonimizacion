@@ -1,0 +1,266 @@
+{
+  "document_id": "b6ed195b-3a60-4386-afa7-7b2581be0626",
+  "success": true,
+  "anonymized_text": "**Informe de Valoración Preoperatoria** Se procede a la valoración integral del paciente previa a intervención quirúrgica programada. La documentación clínica del paciente ha sido revisada en los sistemas de historia clínica electrónica accesibles, incluyendo los registros asociados a la dirección XXX y a la plataforma complementaria localizada en XXX. El número de identificación del expediente quirúrgico para este proceso es XXX. El procedimiento será realizado por un XXX de amplia experiencia en nuestro centro. Para la identificación de los equipos médicos que se utilizarán, se han registrado los números de serie del instrumental principal, entre los que se encuentra el dispositivo con identificativo XXX. En cuanto a los datos de aseguramiento, el paciente cuenta con la póliza número XXX y el número de beneficiario del plan de salud es el XXX. Adicionalmente, se dispone del documento de identidad XXX para su verificación en el sistema. La paciente ha designado como persona de contacto y apoyo asistencial a su familiar directa, doña XXX. Para cualquier consulta o coordinación, el equipo médico puede ser contactado a través de los siguientes canales de correo electrónico: XXX y XXX. Toda la información institucional y de preparación para la cirugía está disponible para el paciente en nuestro portal web oficial, XXX. La intervención se llevará a cabo en el XXX. Para la logística del día de la cirugía, se ha registrado el vehículo que trasladará a la paciente, con número de placa XXX, a fin de facilitar su acceso al área de ambulancias y estacionamiento reservado.",
+  "text_length": 1588,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9890875816345215,
+        "word": " familiar directa,",
+        "start": 1027,
+        "end": 1044,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8730888366699219,
+        "word": " doña XXX",
+        "start": 1045,
+        "end": 1053,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directa,",
+          "actual_text": "familiar directa,",
+          "confidence": 0.9890875816345215,
+          "start": 1027,
+          "end": 1044,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " doña XXX",
+          "actual_text": "doña XXX",
+          "confidence": 0.8730888366699219,
+          "start": 1045,
+          "end": 1053,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directa,",
+          "actual_text": "familiar directa,",
+          "confidence": 0.9890875816345215,
+          "start": 1027,
+          "end": 1044,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " doña XXX",
+          "actual_text": "doña XXX",
+          "confidence": 0.8730888366699219,
+          "start": 1045,
+          "end": 1053,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9384751319885254,
+        "word": " historia clínica electrónica",
+        "start": 208,
+        "end": 236,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8458269238471985,
+        "word": " familiar directa, doña",
+        "start": 1027,
+        "end": 1049,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica electrónica",
+          "actual_text": "historia clínica electrónica",
+          "confidence": 0.9384751319885254,
+          "start": 208,
+          "end": 236,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directa, doña",
+          "actual_text": "familiar directa, doña",
+          "confidence": 0.8458269238471985,
+          "start": 1027,
+          "end": 1049,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica electrónica",
+          "actual_text": "historia clínica electrónica",
+          "confidence": 0.9384751319885254,
+          "start": 208,
+          "end": 236,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directa, doña",
+          "actual_text": "familiar directa, doña",
+          "confidence": 0.8458269238471985,
+          "start": 1027,
+          "end": 1049,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 3,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 4,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directa,",
+        "actual_text": "familiar directa,",
+        "confidence": 0.9890875816345215,
+        "start": 1027,
+        "end": 1044,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " doña XXX",
+        "actual_text": "doña XXX",
+        "confidence": 0.8730888366699219,
+        "start": 1045,
+        "end": 1053,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica electrónica",
+        "actual_text": "historia clínica electrónica",
+        "confidence": 0.9384751319885254,
+        "start": 208,
+        "end": 236,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directa, doña",
+        "actual_text": "familiar directa, doña",
+        "confidence": 0.8458269238471985,
+        "start": 1027,
+        "end": 1049,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directa,",
+        "actual_text": "familiar directa,",
+        "confidence": 0.9890875816345215,
+        "start": 1027,
+        "end": 1044,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " doña XXX",
+        "actual_text": "doña XXX",
+        "confidence": 0.8730888366699219,
+        "start": 1045,
+        "end": 1053,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica electrónica",
+        "actual_text": "historia clínica electrónica",
+        "confidence": 0.9384751319885254,
+        "start": 208,
+        "end": 236,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directa, doña",
+        "actual_text": "familiar directa, doña",
+        "confidence": 0.8458269238471985,
+        "start": 1027,
+        "end": 1049,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

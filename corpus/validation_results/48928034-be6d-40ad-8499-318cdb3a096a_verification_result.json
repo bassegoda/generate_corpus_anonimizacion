@@ -1,0 +1,169 @@
+{
+  "document_id": "48928034-be6d-40ad-8499-318cdb3a096a",
+  "success": true,
+  "anonymized_text": "**Informe de Valoración Preoperatoria** Paciente: XXX, con XXX de edad, quien acude para valoración prequirúrgica. Se identifica en el sistema mediante el documento nacional XXX y el código de aseguramiento XXX. La paciente fue remitida a consulta según los protocolos establecidos por el XXX. La exploración física actual incluye la verificación de identidad mediante biometría, registrándose la XXX y la XXX como parte del protocolo de seguridad. Los estudios complementarios realizados, cuyos resultados están disponibles para consulta en el portal XXX, muestran parámetros dentro de la normalidad para el procedimiento planteado. El identificador único del paciente en nuestro sistema es XXX. Toda la documentación clínica previa puede revisarse a través de la historia digital accesible en XXX. Para información adicional sobre el procedimiento, se recomienda consultar los recursos avalados disponibles en XXX. El XXX responsable ha determinado que la paciente es candidata adecuada para la intervención propuesta, considerando su perfil clínico global. Se procederá según lo establecido en las guías de práctica clínica de la institución.",
+  "text_length": 1145,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9396681785583496,
+        "word": " documento nacional XXX",
+        "start": 155,
+        "end": 177,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9267428517341614,
+        "word": " código de aseguramiento",
+        "start": 183,
+        "end": 206,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional XXX",
+          "actual_text": "documento nacional XXX",
+          "confidence": 0.9396681785583496,
+          "start": 155,
+          "end": 177,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " código de aseguramiento",
+          "actual_text": "código de aseguramiento",
+          "confidence": 0.9267428517341614,
+          "start": 183,
+          "end": 206,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional XXX",
+          "actual_text": "documento nacional XXX",
+          "confidence": 0.9396681785583496,
+          "start": 155,
+          "end": 177,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " código de aseguramiento",
+          "actual_text": "código de aseguramiento",
+          "confidence": 0.9267428517341614,
+          "start": 183,
+          "end": 206,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional XXX",
+        "actual_text": "documento nacional XXX",
+        "confidence": 0.9396681785583496,
+        "start": 155,
+        "end": 177,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " código de aseguramiento",
+        "actual_text": "código de aseguramiento",
+        "confidence": 0.9267428517341614,
+        "start": 183,
+        "end": 206,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional XXX",
+        "actual_text": "documento nacional XXX",
+        "confidence": 0.9396681785583496,
+        "start": 155,
+        "end": 177,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " código de aseguramiento",
+        "actual_text": "código de aseguramiento",
+        "confidence": 0.9267428517341614,
+        "start": 183,
+        "end": 206,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

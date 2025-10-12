@@ -1,0 +1,222 @@
+{
+  "document_id": "527cc225-d12f-4376-bccf-a5eb737d30cb",
+  "success": true,
+  "anonymized_text": "En el informe de valoración preoperatoria se registra la identificación del sujeto de asistencia con el código XXX y su número de identificación principal XXX. Durante la evaluación se ha verificado que el procedimiento quirúrgico programado cuenta con la referencia técnica XXX y que todos los dispositivos médicos involucrados, incluyendo el equipo de monitorización con identificación XXX y el instrumental especializado XXX, se encuentran en condiciones óptimas de funcionamiento. El profesional designado para la intervención es un XXX de amplia experiencia, identificado con el código XXX, quien forma parte de nuestro equipo asistencial con identificación laboral XXX. Para cualquier consulta o coordinación preoperatoria, puede utilizarse el canal de comunicación institucional a través de la página web XXX o contactando directamente al correo electrónico XXX. En cuanto a los aspectos logísticos, se ha confirmado la correcta identificación del vehículo institucional XXX que transportará el equipo especializado, así como el vehículo de apoyo XXX para el traslado de muestras. El proceso cuenta con la cobertura del seguro médico registrado bajo la póliza -123456789012, habiéndose verificado todos los requisitos de aseguramiento para el procedimiento. La exploración física preoperatoria muestra constantes vitales dentro de parámetros normales, sin hallazgos significativos que contraindiquen la intervención. Los estudios de laboratorio previos reflejan un hemograma completo sin alteraciones relevantes y función hepatorrenal conservada. Las pruebas de imagen disponibles demuestran una adecuada anatomía para el abordaje quirúrgico planificado, sin evidencia de variantes anatómicas que compliquen el procedimiento.",
+  "text_length": 1732,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7207301259040833,
+        "word": "789012",
+        "start": 1174,
+        "end": 1180,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "789012",
+          "actual_text": "789012",
+          "confidence": 0.7207301259040833,
+          "start": 1174,
+          "end": 1180,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "789012",
+          "actual_text": "789012",
+          "confidence": 0.7207301259040833,
+          "start": 1174,
+          "end": 1180,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.7010681629180908,
+        "word": " -",
+        "start": 1167,
+        "end": 1168,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.928107500076294,
+        "word": "12",
+        "start": 1168,
+        "end": 1170,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_IDENTIF": 1,
+        "NUMERO_TELEFONO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " -",
+          "actual_text": "-",
+          "confidence": 0.7010681629180908,
+          "start": 1167,
+          "end": 1168,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12",
+          "actual_text": "12",
+          "confidence": 0.928107500076294,
+          "start": 1168,
+          "end": 1170,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " -",
+          "actual_text": "-",
+          "confidence": 0.7010681629180908,
+          "start": 1167,
+          "end": 1168,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12",
+          "actual_text": "12",
+          "confidence": 0.928107500076294,
+          "start": 1168,
+          "end": 1170,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 1,
+      "NUMERO_IDENTIF": 1,
+      "NUMERO_TELEFONO": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "789012",
+        "actual_text": "789012",
+        "confidence": 0.7207301259040833,
+        "start": 1174,
+        "end": 1180,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " -",
+        "actual_text": "-",
+        "confidence": 0.7010681629180908,
+        "start": 1167,
+        "end": 1168,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12",
+        "actual_text": "12",
+        "confidence": 0.928107500076294,
+        "start": 1168,
+        "end": 1170,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "789012",
+        "actual_text": "789012",
+        "confidence": 0.7207301259040833,
+        "start": 1174,
+        "end": 1180,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " -",
+        "actual_text": "-",
+        "confidence": 0.7010681629180908,
+        "start": 1167,
+        "end": 1168,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12",
+        "actual_text": "12",
+        "confidence": 0.928107500076294,
+        "start": 1168,
+        "end": 1170,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

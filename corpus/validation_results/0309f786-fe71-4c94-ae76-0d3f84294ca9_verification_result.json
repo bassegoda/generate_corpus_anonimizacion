@@ -1,0 +1,124 @@
+{
+  "document_id": "0309f786-fe71-4c94-ae76-0d3f84294ca9",
+  "success": true,
+  "anonymized_text": "A continuación se presenta la valoración integral correspondiente a la consulta de seguimiento programada. La situación clínica actual se mantiene dentro de los parámetros de estabilidad esperados para el control habitual de la patología de base. La exploración física revela un estado general conservado, con constantes vitales dentro de la normalidad y sin hallazgos significativos en la auscultación cardiorrespiratoria o en la palpación abdominal. Los resultados analíticos recientes, asociados al número de historia clínica XXX, muestran un perfil bioquímico sin alteraciones relevantes y parámetros hematimétricos dentro de los rangos de normalidad. En cuanto a las pruebas complementarias, la ecografía abdominal realizada con el dispositivo identificado como XXX no evidencia cambios significativos respecto a estudios previos. El sujeto de asistencia, de sexo XXX, cuenta con el identificador de aseguramiento XXX y el documento de identificación XXX. Esta documentación ha sido revisada y validada por la XXX en el XXX. Para cualquier gestión administrativa adicional relacionada con este episodio, se debe referir el código XXX. Se mantendrá la pauta terapéutica establecida y se programará reevaluación según cronograma previsto, considerando la evolución satisfactoria del cuadro.",
+  "text_length": 1293,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7347174286842346,
+        "word": " identific",
+        "start": 888,
+        "end": 897,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identific",
+          "actual_text": "identific",
+          "confidence": 0.7347174286842346,
+          "start": 888,
+          "end": 897,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identific",
+          "actual_text": "identific",
+          "confidence": 0.7347174286842346,
+          "start": 888,
+          "end": 897,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identific",
+        "actual_text": "identific",
+        "confidence": 0.7347174286842346,
+        "start": 888,
+        "end": 897,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identific",
+        "actual_text": "identific",
+        "confidence": 0.7347174286842346,
+        "start": 888,
+        "end": 897,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

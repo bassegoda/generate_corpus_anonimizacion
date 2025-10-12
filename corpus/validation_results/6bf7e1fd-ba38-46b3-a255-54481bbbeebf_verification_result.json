@@ -1,0 +1,124 @@
+{
+  "document_id": "6bf7e1fd-ba38-46b3-a255-54481bbbeebf",
+  "success": true,
+  "anonymized_text": "Informe de Consulta de Seguimiento En la consulta de hoy se reevalúa a la paciente cuyo número de beneficio del plan de salud es XXX. La exploración física actual muestra mejoría significativa del cuadro anterior, con normalización de los parámetros analíticos y desaparición de la sintomatología referida. Se mantiene el tratamiento establecido con buen cumplimiento terapéutico según refiere la paciente. Para los procedimientos de verificación, se ha confirmado la identidad mediante el documento de aseguramiento XXX y el identificador biométrico correspondiente a la XXX. Adicionalmente, se registra el número de serie del dispositivo médico XXX que la paciente utiliza para el monitoreo domiciliario. Cabe mencionar que el contacto para seguimiento se puede realizar a través del número de fax XXX ubicado en XXX. La paciente, de sexo XXX, presenta en la actualidad un buen estado general. Los registros del dispositivo de monitorización muestran parámetros dentro de la normalidad, concordantes con la mejoría clínica observada. Se ha procedido a la actualización de su historial con el número de identificación de aseguramiento XXX y el código XXX correspondiente al nuevo equipo prescrito. El seguimiento de este caso continuará bajo mi supervisión, XXX, identificada con el número de empleo personal sanitario XXX. Se programará próxima consulta en un plazo de tres meses, manteniendo la misma pauta terapéutica dado los buenos resultados obtenidos.",
+  "text_length": 1459,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8624550700187683,
+        "word": " documento",
+        "start": 490,
+        "end": 499,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento",
+          "actual_text": "documento",
+          "confidence": 0.8624550700187683,
+          "start": 490,
+          "end": 499,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento",
+          "actual_text": "documento",
+          "confidence": 0.8624550700187683,
+          "start": 490,
+          "end": 499,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento",
+        "actual_text": "documento",
+        "confidence": 0.8624550700187683,
+        "start": 490,
+        "end": 499,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento",
+        "actual_text": "documento",
+        "confidence": 0.8624550700187683,
+        "start": 490,
+        "end": 499,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

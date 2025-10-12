@@ -1,0 +1,175 @@
+{
+  "document_id": "88147766-6bbd-4cc5-b3f9-59460ebd02bf",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución Hospitalaria** Se presenta paciente de **XXX** que ingresa para valoración y manejo integral. La situación basal refleja un deterioro funcional progresivo en las últimas semanas. La paciente, **XXX**, refiere episodios de marcada debilidad generalizada. En la exploración física actual, se constata un paciente consciente y orientado, aunque con notable astenia. A la auscultación cardíaca, ritmo regular sin soplos añadidos. En la auscultación pulmonar, se perciben crepitantes basales bilaterales, no presentes en la exploración del **XXX**. El abdomen es blando y depresible, sin masas palpables ni dolor a la presión. Las extremidades inferiores presentan edema con fóvea +/++ hasta tercio distal de tibias. Respecto a los antecedentes de movilidad, se registra que el vehículo implicado en un incidente previo portaba la placa **XXX**. Para la coordinación del alta y soporte, se ha establecido contacto con sus **familiares**, quedando el **número de teléfono XXX** como referencia principal para la logística y la comunicación de resultados. Los hallazgos analíticos muestran una ligera elevación de la PCR. En la radiografía de tórax se observa un pequeño derrame pleural bilateral. El electrocardiograma muestra un ritmo sinusal sin alteraciones agudas significativas. Se procederá a completar el estudio con ecocardiograma para descartar componente cardíaco. Se mantendrá en observación con el identificador de contacto asistencial **XXX**, que queda vinculado al historial principal **XXX**. Se inician medidas de soporte y se ajusta el tratamiento diurético, planificando una reevaluación multidisciplinar en las próximas 48 horas.",
+  "text_length": 1663,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9895339012145996,
+        "word": "familiares",
+        "start": 939,
+        "end": 949,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": "familiares",
+          "actual_text": "familiares",
+          "confidence": 0.9895339012145996,
+          "start": 939,
+          "end": 949,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": "familiares",
+          "actual_text": "familiares",
+          "confidence": 0.9895339012145996,
+          "start": 939,
+          "end": 949,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7351958751678467,
+        "word": " historial principal",
+        "start": 1494,
+        "end": 1513,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historial principal",
+          "actual_text": "historial principal",
+          "confidence": 0.7351958751678467,
+          "start": 1494,
+          "end": 1513,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historial principal",
+          "actual_text": "historial principal",
+          "confidence": 0.7351958751678467,
+          "start": 1494,
+          "end": 1513,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": "familiares",
+        "actual_text": "familiares",
+        "confidence": 0.9895339012145996,
+        "start": 939,
+        "end": 949,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historial principal",
+        "actual_text": "historial principal",
+        "confidence": 0.7351958751678467,
+        "start": 1494,
+        "end": 1513,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": "familiares",
+        "actual_text": "familiares",
+        "confidence": 0.9895339012145996,
+        "start": 939,
+        "end": 949,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historial principal",
+        "actual_text": "historial principal",
+        "confidence": 0.7351958751678467,
+        "start": 1494,
+        "end": 1513,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "document_id": "0b94840d-d100-4e0b-839a-77d5df627bf1",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución Hospitalaria** Paciente que ingresa para completar estudio y manejo de su patología actual. Se mantiene contacto telefónico con el familiar de referencia a través del número XXX para informar sobre la evolución y plan terapéutico. Se procede a la solicitud de interconsulta con el servicio de Digestivo del XXX para valoración conjunta, dado que en su historial previo constan informes de dicha institución. El proceso de coordinación entre centros se realizará siguiendo los protocolos establecidos. Se ha verificado que el número de identificación de aseguramiento XXX se encuentra activo y en vigor. Todos los resultados analíticos y de imagen complementaria se han incorporado a la historia clínica digital centralizada. Para una información más detallada sobre su condición, se puede consultar la plataforma oficial XXX donde se encuentra documentación clínica estandarizada de apoyo. Se ha coordinado la continuidad de la asistencia con el XXX, que será el encargado del seguimiento ambulatorio posterior al alta. Se identifica al paciente en todos nuestros sistemas con el código XXX. Se ha emitido un informe de alta completo que será remitido tanto al XXX, que es el centro de origen, como a su médico de familia. Toda la documentación clínica queda asociada al identificador principal XXX. Se recomienda al paciente que, para cualquier gestión administrativa futura, consulte la página web XXX donde dispondrá de los recursos necesarios.",
+  "text_length": 1467,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9630841612815857,
+        "word": " familiar de referencia",
+        "start": 151,
+        "end": 173,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de referencia",
+          "actual_text": "familiar de referencia",
+          "confidence": 0.9630841612815857,
+          "start": 151,
+          "end": 173,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de referencia",
+          "actual_text": "familiar de referencia",
+          "confidence": 0.9630841612815857,
+          "start": 151,
+          "end": 173,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9182054996490479,
+        "word": " historia clínica digital",
+        "start": 706,
+        "end": 730,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica digital",
+          "actual_text": "historia clínica digital",
+          "confidence": 0.9182054996490479,
+          "start": 706,
+          "end": 730,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica digital",
+          "actual_text": "historia clínica digital",
+          "confidence": 0.9182054996490479,
+          "start": 706,
+          "end": 730,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de referencia",
+        "actual_text": "familiar de referencia",
+        "confidence": 0.9630841612815857,
+        "start": 151,
+        "end": 173,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica digital",
+        "actual_text": "historia clínica digital",
+        "confidence": 0.9182054996490479,
+        "start": 706,
+        "end": 730,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de referencia",
+        "actual_text": "familiar de referencia",
+        "confidence": 0.9630841612815857,
+        "start": 151,
+        "end": 173,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica digital",
+        "actual_text": "historia clínica digital",
+        "confidence": 0.9182054996490479,
+        "start": 706,
+        "end": 730,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

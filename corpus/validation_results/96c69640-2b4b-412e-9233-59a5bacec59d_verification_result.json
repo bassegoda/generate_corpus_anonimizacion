@@ -1,0 +1,219 @@
+{
+  "document_id": "96c69640-2b4b-412e-9233-59a5bacec59d",
+  "success": true,
+  "anonymized_text": "En el informe de valoración inicial se recoge que el paciente fue atendido en el ** Clínico San Carlos** tras su llegada a Urgencias. La exploración física revela una lesión contusa en la mano dominante, para cuya identificación inequívoca y vinculación segura a la documentación clínica se procedió a la captura de la **XXX**. Se estableció como canal de comunicación principal para seguimiento ambulatorio el **XXX**. Durante el proceso de admisión, se verificó que en un episodio anterior se había registrado un contacto telefónico alternativo, el **XXX**, el cual fue actualizado en el sistema para garantizar la precisión de la información. Los hallazgos radiológicos iniciales descartan fracturas, observándose solo una equimosis y edema en el tejido blando de la región hipotenar. Se recomienda tratamiento sintomático con antiinflamatorios no esteroideos y control de la evolución en consultas externas.",
+  "text_length": 911,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9200981855392456,
+        "word": " **",
+        "start": 81,
+        "end": 83,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9354254603385925,
+        "word": " Clínico San Carlos",
+        "start": 84,
+        "end": 102,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9200981855392456,
+          "start": 81,
+          "end": 83,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9354254603385925,
+          "start": 84,
+          "end": 102,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9200981855392456,
+          "start": 81,
+          "end": 83,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9354254603385925,
+          "start": 84,
+          "end": 102,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9886385202407837,
+        "word": " ** Clínico San Carlos",
+        "start": 81,
+        "end": 102,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos",
+          "actual_text": "** Clínico San Carlos",
+          "confidence": 0.9886385202407837,
+          "start": 81,
+          "end": 102,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos",
+          "actual_text": "** Clínico San Carlos",
+          "confidence": 0.9886385202407837,
+          "start": 81,
+          "end": 102,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "HOSPITAL": 3
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "HOSPITAL",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9200981855392456,
+        "start": 81,
+        "end": 83,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9354254603385925,
+        "start": 84,
+        "end": 102,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos",
+        "actual_text": "** Clínico San Carlos",
+        "confidence": 0.9886385202407837,
+        "start": 81,
+        "end": 102,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "HOSPITAL",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9200981855392456,
+        "start": 81,
+        "end": 83,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9354254603385925,
+        "start": 84,
+        "end": 102,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos",
+        "actual_text": "** Clínico San Carlos",
+        "confidence": 0.9886385202407837,
+        "start": 81,
+        "end": 102,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

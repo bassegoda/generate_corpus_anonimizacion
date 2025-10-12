@@ -1,0 +1,124 @@
+{
+  "document_id": "a69dd8e2-0902-4fd3-adfc-fbaf90197bb2",
+  "success": true,
+  "anonymized_text": "A continuación se presenta el informe de valoración geriátrica integral correspondiente a la paciente de sexo XXX que en la fecha de hoy, XXX, acude para control evolutivo. La paciente, de XXX, natural y residente en la XXX, país XXX, presenta un cuadro de osteoartrosis sintomática que requiere reevaluación periódica. En la exploración física actual se objetiva conservación de la fuerza muscular en extremidades con rangos articulares limitados por dolor en rodillas. Las constantes vitales se mantienen dentro de parámetros normales. Los estudios analíticos recientes muestran perfil bioquímico sin alteraciones significativas y la radiografía de tórax realizada no evidencia hallazgos patológicos agudos. La resonancia magnética articular confirma los cambios degenerativos conocidos, sin progresión significativa desde el último control. La documentación clínica completa está disponible a través de XXX para consulta por parte del equipo asistencial. Se mantiene el plan terapéutico establecido con seguimiento en consultas externas. Atentamente, XXX Número de colegiada XXX Titulación universitaria: XXX",
+  "text_length": 1111,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "PAIS",
+        "score": 0.8958454132080078,
+        "word": " país",
+        "start": 225,
+        "end": 229,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "PAIS": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "PAIS",
+          "word": " país",
+          "actual_text": "país",
+          "confidence": 0.8958454132080078,
+          "start": 225,
+          "end": 229,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "PAIS",
+          "word": " país",
+          "actual_text": "país",
+          "confidence": 0.8958454132080078,
+          "start": 225,
+          "end": 229,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "PAIS": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "PAIS",
+        "word": " país",
+        "actual_text": "país",
+        "confidence": 0.8958454132080078,
+        "start": 225,
+        "end": 229,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "PAIS",
+        "word": " país",
+        "actual_text": "país",
+        "confidence": 0.8958454132080078,
+        "start": 225,
+        "end": 229,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

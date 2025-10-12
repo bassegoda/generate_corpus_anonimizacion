@@ -1,0 +1,124 @@
+{
+  "document_id": "70670f65-dd63-4b9a-adbd-569de1869b4c",
+  "success": true,
+  "anonymized_text": "Informe de Valoración por Lesión Traumática en Miembro Superior Se remite el presente informe tras la valoración del paciente en consulta externa. El motivo de consulta fue la valoración de una herida cortante en la región palmar de la mano derecha, la cual fue atendida inicialmente en el XXX. Se procedió a la exploración física completa, donde se constató una solución de continuidad de aproximadamente 3 cm en eminencia tenar, sin afectación aparente de estructuras tendinosas o nerviosas. La movilidad digital se conserva aunque con dolor a la contracción resistida de la musculatura intrínseca. Para completar la identificación biométrica del expediente y verificar la correcta asignación de documentación clínica, se registró la XXX del paciente. En cuanto a los parámetros de cobertura sanitaria, se verificó que el número de identificación de aseguramiento XXX se encuentra activo, así como el documento identificativo XXX, ambos válidos en el ámbito de la XXX. Respecto a los resultados complementarios, la radiografía simple de mano derecha no muestra evidencia de cuerpo extraño radiopaco ni lesión ósea asociada. Se pauta antibioticoterapia profiláctica y analgesia convencional, programándose cura local y reevaluación en 48 horas. Para cualquier comunicación interconsulta o coordinación con el XXX de referencia, queda disponible el número de teléfono XXX. Asimismo, se pueden utilizar los canales de correo electrónico XXX o, en su defecto, XXX para el envío de documentación complementaria o informes de evolución. El seguimiento posterior será coordinado entre este servicio y el XXX de referencia, manteniendo al XXX tratante informado de la evolución del caso. Se recomienda vigilancia activa de signos de infección local y control de la cicatrización.",
+  "text_length": 1773,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8502166867256165,
+        "word": " número de identificación de aseguramiento",
+        "start": 824,
+        "end": 865,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " número de identificación de aseguramiento",
+          "actual_text": "número de identificación de aseguramiento",
+          "confidence": 0.8502166867256165,
+          "start": 824,
+          "end": 865,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " número de identificación de aseguramiento",
+          "actual_text": "número de identificación de aseguramiento",
+          "confidence": 0.8502166867256165,
+          "start": 824,
+          "end": 865,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " número de identificación de aseguramiento",
+        "actual_text": "número de identificación de aseguramiento",
+        "confidence": 0.8502166867256165,
+        "start": 824,
+        "end": 865,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " número de identificación de aseguramiento",
+        "actual_text": "número de identificación de aseguramiento",
+        "confidence": 0.8502166867256165,
+        "start": 824,
+        "end": 865,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

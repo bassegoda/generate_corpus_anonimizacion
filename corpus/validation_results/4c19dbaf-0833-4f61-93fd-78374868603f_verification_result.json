@@ -1,0 +1,214 @@
+{
+  "document_id": "4c19dbaf-0833-4f61-93fd-78374868603f",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude a control evolutivo por patología crónica de base. En la valoración actual, se mantiene en situación clínica estable, sin cambios significativos en su estado general. La exploración física revela normoeficiencia de los sistemas, con parámetros dentro de la normalidad para su grupo de edad de XXX. Se procedió a la verificación de identidad mediante sistema biométrico, registrándose correctamente la XXX según protocolo establecido por el XXX. En relación a la documentación administrativa, se confirman los números de beneficio de plan de salud XXX, XXX y XXX, todos activos y vigentes. La atención se presta en el XXX, ubicado en XXX, como centro de referencia para el paciente. Respecto a los procedimientos realizados, se documentan los expedientes clínicos XXX y XXX, que recogen la totalidad de la asistencia prestada. El paciente, con nacionalidad española de XXX, muestra adecuada adherencia terapéutica y comprensión de las recomendaciones proporcionadas. Firmado: XXX Número de identificación profesional: ID-ER-0842 XXX Especialista en Medicina Familiar y Comunitaria XXX",
+  "text_length": 1130,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.739324688911438,
+        "word": "ER",
+        "start": 1067,
+        "end": 1069,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8871802687644958,
+        "word": "-",
+        "start": 1069,
+        "end": 1070,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.9259159564971924,
+        "word": "08",
+        "start": 1070,
+        "end": 1072,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 3
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "ER",
+          "actual_text": "ER",
+          "confidence": 0.739324688911438,
+          "start": 1067,
+          "end": 1069,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.8871802687644958,
+          "start": 1069,
+          "end": 1070,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "08",
+          "actual_text": "08",
+          "confidence": 0.9259159564971924,
+          "start": 1070,
+          "end": 1072,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "ER",
+          "actual_text": "ER",
+          "confidence": 0.739324688911438,
+          "start": 1067,
+          "end": 1069,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.8871802687644958,
+          "start": 1069,
+          "end": 1070,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "08",
+          "actual_text": "08",
+          "confidence": 0.9259159564971924,
+          "start": 1070,
+          "end": 1072,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 3
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "ER",
+        "actual_text": "ER",
+        "confidence": 0.739324688911438,
+        "start": 1067,
+        "end": 1069,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.8871802687644958,
+        "start": 1069,
+        "end": 1070,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "08",
+        "actual_text": "08",
+        "confidence": 0.9259159564971924,
+        "start": 1070,
+        "end": 1072,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "ER",
+        "actual_text": "ER",
+        "confidence": 0.739324688911438,
+        "start": 1067,
+        "end": 1069,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.8871802687644958,
+        "start": 1069,
+        "end": 1070,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "08",
+        "actual_text": "08",
+        "confidence": 0.9259159564971924,
+        "start": 1070,
+        "end": 1072,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

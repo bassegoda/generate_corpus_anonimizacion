@@ -1,0 +1,174 @@
+{
+  "document_id": "4edb3d43-326a-479b-b4b2-fa346864af1b",
+  "success": true,
+  "anonymized_text": "**Informe de Consulta Externa de Cirugía Cardiovascular** Paciente que acude a revisión en consultas externas de cirugía cardiovascular. Se trata de XXX, con identificación en nuestro sistema bajo el número XXX, quien reside en XXX. La paciente tiene XXX y su estado general es satisfactorio en la actualidad. En la exploración física actual, se aprecia un ritmo cardíaco regular sin soplos audibles, con presión arterial bien controlada y pulsos periféricos presentes y simétricos. Los resultados analíticos recientes muestran un perfil lipídico dentro de rangos aceptables y función renal conservada. La ecocardiografía de control realizada evidencia una fracción de eyección preservada y buen funcionamiento valvular. El seguimiento de este caso se coordina desde el XXX, donde el equipo de XXX asignado supervisa su evolución. Para cualquier comunicación relacionada con su asistencia, puede utilizarse el identificador de contacto XXX, estando también disponible el número de fax XXX para el envío de documentación clínica. El número de beneficio del plan de salud activo es XXX, con referencia interna XXX para la gestión de documentación clínica. Se mantendrá seguimiento periódico según protocolo establecido. Toda la información relevante sobre su proceso asistencial queda registrada bajo el documento de identidad XXX. La información adicional sobre recursos asistenciales está disponible a través de la página web XXX. La paciente desarrolla su actividad profesional en XXX, donde cuenta con la identificación laboral como personal sanitario con el código ID-XXX.",
+  "text_length": 1575,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "PROFESION",
+        "score": 0.9549925327301025,
+        "word": " personal sanitario",
+        "start": 1535,
+        "end": 1553,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "PROFESION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "PROFESION",
+          "word": " personal sanitario",
+          "actual_text": "personal sanitario",
+          "confidence": 0.9549925327301025,
+          "start": 1535,
+          "end": 1553,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "PROFESION",
+          "word": " personal sanitario",
+          "actual_text": "personal sanitario",
+          "confidence": 0.9549925327301025,
+          "start": 1535,
+          "end": 1553,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "PROFESION",
+        "score": 0.9887568950653076,
+        "word": " personal sanitario",
+        "start": 1535,
+        "end": 1553,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "PROFESION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "PROFESION",
+          "word": " personal sanitario",
+          "actual_text": "personal sanitario",
+          "confidence": 0.9887568950653076,
+          "start": 1535,
+          "end": 1553,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "PROFESION",
+          "word": " personal sanitario",
+          "actual_text": "personal sanitario",
+          "confidence": 0.9887568950653076,
+          "start": 1535,
+          "end": 1553,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "PROFESION": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "PROFESION",
+        "word": " personal sanitario",
+        "actual_text": "personal sanitario",
+        "confidence": 0.9549925327301025,
+        "start": 1535,
+        "end": 1553,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " personal sanitario",
+        "actual_text": "personal sanitario",
+        "confidence": 0.9887568950653076,
+        "start": 1535,
+        "end": 1553,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "PROFESION",
+        "word": " personal sanitario",
+        "actual_text": "personal sanitario",
+        "confidence": 0.9549925327301025,
+        "start": 1535,
+        "end": 1553,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " personal sanitario",
+        "actual_text": "personal sanitario",
+        "confidence": 0.9887568950653076,
+        "start": 1535,
+        "end": 1553,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

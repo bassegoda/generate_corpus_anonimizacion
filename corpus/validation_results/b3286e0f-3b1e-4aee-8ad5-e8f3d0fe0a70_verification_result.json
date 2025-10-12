@@ -1,0 +1,357 @@
+{
+  "document_id": "b3286e0f-3b1e-4aee-8ad5-e8f3d0fe0a70",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Se presenta a consulta sujeto de asistencia con identificación XXX para valoración y seguimiento. La exploración física realizada en esta fecha revela buen estado general, con constantes vitales dentro de los parámetros normales. La auscultación cardiorrespiratoria es sin hallazgos patológicos, aunque se recomienda especial vigilancia dado su historial como XXX. Se han solicitado analíticas de control cuyos resultados serán evaluados en próxima visita. En relación a la documentación adjunta, se confirma la recepción del informe con referencia XXX y del estudio complementario XXX, ambos revisados e incorporados a la historia clínica. Todos los procedimientos se realizan bajo los protocolos establecidos por el XXX y quedan registrados con el número de expediente XXX. El profesional que suscribe este documento, en calidad de XXX con XXX y identificación profesional ID-734892, ejerce su actividad en el XXX. Cabe destacar que el sujeto de asistencia, de sexo XXX, desarrolla su actividad laboral en el sector sanitario como XXX, aspecto que se considera favorable para la comprensión de las recomendaciones terapéuticas. La próxima cita de control queda fijada para el XXX, momento en que se reevaluará la situación clínica global.",
+  "text_length": 1268,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8640087246894836,
+        "word": "7",
+        "start": 906,
+        "end": 907,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "7",
+          "actual_text": "7",
+          "confidence": 0.8640087246894836,
+          "start": 906,
+          "end": 907,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "7",
+          "actual_text": "7",
+          "confidence": 0.8640087246894836,
+          "start": 906,
+          "end": 907,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 5,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.988993227481842,
+        "word": " ID",
+        "start": 903,
+        "end": 905,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9666382074356079,
+        "word": "-",
+        "start": 905,
+        "end": 906,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9196639657020569,
+        "word": "7",
+        "start": 906,
+        "end": 907,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7741111516952515,
+        "word": "34",
+        "start": 907,
+        "end": 909,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PROFESION",
+        "score": 0.9522010087966919,
+        "word": " sector sanitario",
+        "start": 1039,
+        "end": 1055,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 5,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 4,
+        "PROFESION": 1
+      },
+      "entities_by_confidence": {
+        "high": 4,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " ID",
+          "actual_text": "ID",
+          "confidence": 0.988993227481842,
+          "start": 903,
+          "end": 905,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.9666382074356079,
+          "start": 905,
+          "end": 906,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "7",
+          "actual_text": "7",
+          "confidence": 0.9196639657020569,
+          "start": 906,
+          "end": 907,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34",
+          "actual_text": "34",
+          "confidence": 0.7741111516952515,
+          "start": 907,
+          "end": 909,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " sector sanitario",
+          "actual_text": "sector sanitario",
+          "confidence": 0.9522010087966919,
+          "start": 1039,
+          "end": 1055,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " ID",
+          "actual_text": "ID",
+          "confidence": 0.988993227481842,
+          "start": 903,
+          "end": 905,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.9666382074356079,
+          "start": 905,
+          "end": 906,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "7",
+          "actual_text": "7",
+          "confidence": 0.9196639657020569,
+          "start": 906,
+          "end": 907,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34",
+          "actual_text": "34",
+          "confidence": 0.7741111516952515,
+          "start": 907,
+          "end": 909,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " sector sanitario",
+          "actual_text": "sector sanitario",
+          "confidence": 0.9522010087966919,
+          "start": 1039,
+          "end": 1055,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 6,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 1,
+      "NUMERO_TELEFONO": 4,
+      "PROFESION": 1
+    },
+    "entities_by_confidence": {
+      "high": 5,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "7",
+        "actual_text": "7",
+        "confidence": 0.8640087246894836,
+        "start": 906,
+        "end": 907,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " ID",
+        "actual_text": "ID",
+        "confidence": 0.988993227481842,
+        "start": 903,
+        "end": 905,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.9666382074356079,
+        "start": 905,
+        "end": 906,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "7",
+        "actual_text": "7",
+        "confidence": 0.9196639657020569,
+        "start": 906,
+        "end": 907,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34",
+        "actual_text": "34",
+        "confidence": 0.7741111516952515,
+        "start": 907,
+        "end": 909,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " sector sanitario",
+        "actual_text": "sector sanitario",
+        "confidence": 0.9522010087966919,
+        "start": 1039,
+        "end": 1055,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "7",
+        "actual_text": "7",
+        "confidence": 0.8640087246894836,
+        "start": 906,
+        "end": 907,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " ID",
+        "actual_text": "ID",
+        "confidence": 0.988993227481842,
+        "start": 903,
+        "end": 905,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.9666382074356079,
+        "start": 905,
+        "end": 906,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "7",
+        "actual_text": "7",
+        "confidence": 0.9196639657020569,
+        "start": 906,
+        "end": 907,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34",
+        "actual_text": "34",
+        "confidence": 0.7741111516952515,
+        "start": 907,
+        "end": 909,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " sector sanitario",
+        "actual_text": "sector sanitario",
+        "confidence": 0.9522010087966919,
+        "start": 1039,
+        "end": 1055,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 6,
+    "suspicious_detections": 6,
+    "xxxxxx_detections": 0,
+    "other_detections": 6
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "document_id": "1559ea77-37b5-4c4c-b36d-cc1bf2b77822",
+  "success": true,
+  "anonymized_text": "**NOTA DE EVOLUCIÓN** En la consulta de seguimiento realizada en el XXX el día XXX, se reevalúa a la paciente de XXX. La exploración física actual muestra estabilidad en sus parámetros cardiovasculares, con tensión arterial de 128/76 mmHg y frecuencia cardíaca regular a 68 lpm. La auscultación cardiopulmonar resulta dentro de la normalidad, sin soplos ni ruidos respiratorios patológicos. Se revisa la analítica reciente que muestra un perfil lipídico dentro de objetivos terapéuticos, con LDL en 85 mg/dl. La radiografía de tórax del mismo día XXX no evidencia cambios significativos respecto a estudios previos. Se procede a la actualización de su documentación clínica, verificando el número de aseguramiento XXX y la identificación del vehículo XXX para autorizaciones de transporte médico programado. La XXX ha coordinado con la XXX el plan de seguimiento compartido para los próximos meses, manteniendo el tratamiento actual dada la buena respuesta clínica. Se programa próxima visita de control en tres meses para continuar con el manejo integral de su patología crónica.",
+  "text_length": 1080,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7627732753753662,
+        "word": " número",
+        "start": 690,
+        "end": 696,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " número",
+          "actual_text": "número",
+          "confidence": 0.7627732753753662,
+          "start": 690,
+          "end": 696,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " número",
+          "actual_text": "número",
+          "confidence": 0.7627732753753662,
+          "start": 690,
+          "end": 696,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9305471181869507,
+        "word": " día XXX",
+        "start": 75,
+        "end": 82,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FECHAS": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FECHAS",
+          "word": " día XXX",
+          "actual_text": "día XXX",
+          "confidence": 0.9305471181869507,
+          "start": 75,
+          "end": 82,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FECHAS",
+          "word": " día XXX",
+          "actual_text": "día XXX",
+          "confidence": 0.9305471181869507,
+          "start": 75,
+          "end": 82,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "FECHAS": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " número",
+        "actual_text": "número",
+        "confidence": 0.7627732753753662,
+        "start": 690,
+        "end": 696,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " día XXX",
+        "actual_text": "día XXX",
+        "confidence": 0.9305471181869507,
+        "start": 75,
+        "end": 82,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " número",
+        "actual_text": "número",
+        "confidence": 0.7627732753753662,
+        "start": 690,
+        "end": 696,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " día XXX",
+        "actual_text": "día XXX",
+        "confidence": 0.9305471181869507,
+        "start": 75,
+        "end": 82,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

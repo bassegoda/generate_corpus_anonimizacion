@@ -1,0 +1,266 @@
+{
+  "document_id": "07b3ef62-98c5-48ca-8748-2eced1c8bd36",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE DERMATOLOGÍA** Se evalúa a la paciente en consulta externa para seguimiento de dermatosis crónica. La identificación del **sujeto de asistencia** se verifica mediante el documento **12345678A** y el código de historia clínica electrónica **XXX**. La paciente es de **sexo XXX**. En la exploración física actual, se realiza una inspección minuciosa de las lesiones cutáneas. Como parte de los procedimientos de seguridad institucional, se registra para verificación de identidad la **XXX**. Se confirma en el registro clínico electrónico, accesible a través del enlace **XXX**, la **XXX**, la cual se encuentra debidamente destacada en el perfil de alergias para prevenir eventos adversos. Para acceder a información clínica adicional del paciente, se dispone del siguiente enlace protegido: XXX. El episodio asistencial actual se gestiona bajo el número **XXX**. El vehículo particular asignado a la paciente para su desplazamiento, cuando requiere transporte sanitario no urgente, tiene asignada la placa **XXX**. La atención se presta en el marco de la **XXX**, en coordinación con las directrices establecidas por el **XXX**. Para consultar protocolos complementarios o información para el paciente, se puede acceder al portal **XXX**. El informe es emitido por el facultativo especialista con identificación de personal sanitario **XXX**. Se recomienda seguimiento en consultas externas según la evolución clínica.",
+  "text_length": 1451,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7881045937538147,
+        "word": "345678",
+        "start": 217,
+        "end": 223,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "345678",
+          "actual_text": "345678",
+          "confidence": 0.7881045937538147,
+          "start": 217,
+          "end": 223,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "345678",
+          "actual_text": "345678",
+          "confidence": 0.7881045937538147,
+          "start": 217,
+          "end": 223,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9536936283111572,
+        "word": " **",
+        "start": 213,
+        "end": 215,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8313806056976318,
+        "word": " clínica",
+        "start": 251,
+        "end": 258,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9868626594543457,
+        "word": " registro clínico electrónico",
+        "start": 541,
+        "end": 569,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 1,
+        "OTROS_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 3,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9536936283111572,
+          "start": 213,
+          "end": 215,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.8313806056976318,
+          "start": 251,
+          "end": 258,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " registro clínico electrónico",
+          "actual_text": "registro clínico electrónico",
+          "confidence": 0.9868626594543457,
+          "start": 541,
+          "end": 569,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9536936283111572,
+          "start": 213,
+          "end": 215,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.8313806056976318,
+          "start": 251,
+          "end": 258,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " registro clínico electrónico",
+          "actual_text": "registro clínico electrónico",
+          "confidence": 0.9868626594543457,
+          "start": 541,
+          "end": 569,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 3,
+      "NUMERO_TELEFONO": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "345678",
+        "actual_text": "345678",
+        "confidence": 0.7881045937538147,
+        "start": 217,
+        "end": 223,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9536936283111572,
+        "start": 213,
+        "end": 215,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.8313806056976318,
+        "start": 251,
+        "end": 258,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " registro clínico electrónico",
+        "actual_text": "registro clínico electrónico",
+        "confidence": 0.9868626594543457,
+        "start": 541,
+        "end": 569,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "345678",
+        "actual_text": "345678",
+        "confidence": 0.7881045937538147,
+        "start": 217,
+        "end": 223,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9536936283111572,
+        "start": 213,
+        "end": 215,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.8313806056976318,
+        "start": 251,
+        "end": 258,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " registro clínico electrónico",
+        "actual_text": "registro clínico electrónico",
+        "confidence": 0.9868626594543457,
+        "start": 541,
+        "end": 569,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

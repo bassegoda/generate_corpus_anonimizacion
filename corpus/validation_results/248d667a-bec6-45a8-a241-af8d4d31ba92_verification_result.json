@@ -1,0 +1,175 @@
+{
+  "document_id": "248d667a-bec6-45a8-a241-af8d4d31ba92",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE NEUROLOGÍA** Paciente remitida desde el XXX para valoración especializada en nuestro servicio. Refiere historia de cefalea de características tensionales que se ha mantenido estable en las últimas semanas. Se ha contactado con General de Madrid para la obtención de pruebas complementarias previas, cuyos resultados están disponibles a través de la dirección XXX. La exploración neurológica en el día de hoy resulta anodina, sin hallazgos motores, sensitivos o cerebelosos de interés. Se mantiene el tratamiento sintomático establecido y se programa control evolutivo. Para cualquier comunicación interhospitalaria, puede utilizarse el número de contacto XXX. El código de identificación del presente informe es XXX. Se ha facilitado a la paciente material informativo sobre manejo no farmacológico de la cefalea, accesible también en el portal XXX. Como figura en su documentación, el número de identificación de aseguramiento es XXX. Se recomienda seguimiento estrecho desde atención primaria. En el apartado de datos de contacto, se actualiza el número de teléfono XXX. Como personas de apoyo y contacto en el ámbito familiar se registran los números XXX y XXX, correspondientes a XXX. La paciente tiene su residencia principal en XXX, ubicada en la XXX, XXX. Para la coordinación con otros niveles asistenciales, queda registrado el identificador XXX. Se deriva copia del presente informe al XXX para su archivo en la historia digital del paciente, disponible en la URL XXX.",
+  "text_length": 1511,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.7645516395568848,
+        "word": " General de Madrid",
+        "start": 260,
+        "end": 277,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.7645516395568848,
+          "start": 260,
+          "end": 277,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.7645516395568848,
+          "start": 260,
+          "end": 277,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9313991665840149,
+        "word": " General de Madrid",
+        "start": 260,
+        "end": 277,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9313991665840149,
+          "start": 260,
+          "end": 277,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9313991665840149,
+          "start": 260,
+          "end": 277,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "HOSPITAL": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.7645516395568848,
+        "start": 260,
+        "end": 277,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9313991665840149,
+        "start": 260,
+        "end": 277,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.7645516395568848,
+        "start": 260,
+        "end": 277,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9313991665840149,
+        "start": 260,
+        "end": 277,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "285c3834-46e8-4f79-a31f-2c33a1f1a1cc",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "+34 612 34 56 78"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "612-345-678"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud Los Álamos"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Elena Rodríguez Santos"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "B274385601"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/12345678A"
+    }
+  ]
+}

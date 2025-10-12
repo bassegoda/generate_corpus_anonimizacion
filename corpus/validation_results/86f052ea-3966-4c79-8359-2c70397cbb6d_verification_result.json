@@ -1,0 +1,124 @@
+{
+  "document_id": "86f052ea-3966-4c79-8359-2c70397cbb6d",
+  "success": true,
+  "anonymized_text": "En el contexto de la valoración integral del paciente, se procede a la revisión de la documentación técnica asociada al equipo de monitorización utilizado durante el seguimiento. Se verifica que el número de serie del dispositivo, identificado como XXX, se encuentra dentro de los parámetros de calibración establecidos por el fabricante y no presenta anomalías en su registro de funcionamiento. La evolución clínica del caso, registrada bajo el identificador XXX, muestra una mejoría sostenida de los parámetros hemodinámicos. Los resultados analíticos recientes, incluyendo un hemograma y perfil bioquímico dentro de rangos normales, corroboran esta impresión. La exploración física actual es anodina, sin hallazgos patológicos relevantes en los distintos aparatos y sistemas. Para completar la evaluación y estandarizar los criterios de manejo terapéutico, se ha consultado el protocolo clínico disponible en el portal médico XXX, cuyas recomendaciones se han adaptado al presente caso. Todo el proceso asistencial descrito se ha desarrollado bajo los estándares de calidad y seguridad clínica vigentes en XXX.",
+  "text_length": 1113,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.7238999009132385,
+        "word": " portal médico XXX",
+        "start": 915,
+        "end": 932,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " portal médico XXX",
+          "actual_text": "portal médico XXX",
+          "confidence": 0.7238999009132385,
+          "start": 915,
+          "end": 932,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " portal médico XXX",
+          "actual_text": "portal médico XXX",
+          "confidence": 0.7238999009132385,
+          "start": 915,
+          "end": 932,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " portal médico XXX",
+        "actual_text": "portal médico XXX",
+        "confidence": 0.7238999009132385,
+        "start": 915,
+        "end": 932,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " portal médico XXX",
+        "actual_text": "portal médico XXX",
+        "confidence": 0.7238999009132385,
+        "start": 915,
+        "end": 932,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

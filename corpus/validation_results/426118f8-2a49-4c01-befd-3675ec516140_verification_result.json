@@ -1,0 +1,174 @@
+{
+  "document_id": "426118f8-2a49-4c01-befd-3675ec516140",
+  "success": true,
+  "anonymized_text": "Informe de Seguimiento y Plan Terapéutico A la atención de la XXX. Se presenta a continuación el informe de seguimiento correspondiente a la evolución del caso clínico asignado con el identificador XXX. La paciente, de XXX, acude hoy a consulta para valoración periódica en el XXX. La exploración física actual revela un estado general conservado, con constantes vitales dentro de la normalidad para su grupo de edad. La auscultación cardiorrespiratoria es rítmica y sin soplos, con murmullo vesicular conservado. En el plano abdominal, no se palpan masas ni visceromegalias. Los resultados analíticos recientes, accesibles a través del enlace XXX, muestran un perfil bioquímico sin alteraciones significativas, con función renal y hepática dentro de parámetros aceptables. Se ha procedido a la actualización de su documentación clínica, verificando el identificador XXX. Como parte integral del abordaje terapéutico, se ha considerado beneficioso reforzar el componente de apoyo psicosocial. En este sentido, se ha recomendado de forma específica la incorporación a un XXX, cuyas sesiones se coordinarán desde este centro. Para cualquier gestión administrativa relacionada con este proceso, queda a disposición el número de contacto XXX. La gestión del vehículo sanitario, identificado con la placa XXX, queda registrada para el desplazamiento asociado a dichas actividades cuando sea necesario. Se ha mantenido comunicación con su familiar de referencia, doña XXX, para explicarle el plan establecido y asegurar la correcta adherencia a las pautas. Todo el procedimiento descrito se ajusta a los protocolos establecidos por el XXX. Queda pendiente de revisión en la próxima consulta programada por la XXX.",
+  "text_length": 1707,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9473860263824463,
+        "word": " familiar de referencia, doña XXX",
+        "start": 1433,
+        "end": 1465,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de referencia, doña XXX",
+          "actual_text": "familiar de referencia, doña XXX",
+          "confidence": 0.9473860263824463,
+          "start": 1433,
+          "end": 1465,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de referencia, doña XXX",
+          "actual_text": "familiar de referencia, doña XXX",
+          "confidence": 0.9473860263824463,
+          "start": 1433,
+          "end": 1465,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.917349100112915,
+        "word": " familiar",
+        "start": 1433,
+        "end": 1441,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.917349100112915,
+          "start": 1433,
+          "end": 1441,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.917349100112915,
+          "start": 1433,
+          "end": 1441,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de referencia, doña XXX",
+        "actual_text": "familiar de referencia, doña XXX",
+        "confidence": 0.9473860263824463,
+        "start": 1433,
+        "end": 1465,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.917349100112915,
+        "start": 1433,
+        "end": 1441,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de referencia, doña XXX",
+        "actual_text": "familiar de referencia, doña XXX",
+        "confidence": 0.9473860263824463,
+        "start": 1433,
+        "end": 1465,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.917349100112915,
+        "start": 1433,
+        "end": 1441,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "document_id": "a7c92262-5ff0-4b59-aeab-2b1d43aac578",
+  "success": true,
+  "anonymized_text": "Informe de Consulta de Seguimiento Fecha de la consulta: XXX. Se reevalúa en consultas externas a la paciente de sexo XXX con sesenta y siete años de edad, lo que confirma una de XXX. La identificación del sujeto de asistencia en nuestro sistema es XXX. La paciente, cuya profesión es XXX, acude para control evolutivo. Refiere mejoría de su sintomatología inicial y se encuentra en seguimiento por el especialista en cirugía. Como parte de nuestro protocolo de seguridad, se ha verificado la identidad de la paciente mediante la comparación de su XXX, que presenta un patrón de lazo, con los registros biométricos almacenados en su historial. La XXX coincide con la muestra previamente archivada, siendo estos : XXX. Los estudios complementarios realizados, incluyendo analíticas y pruebas de imagen, se encuentran disponibles para su revisión en el portal del paciente a través de la dirección protegida de internet XXX. Se ha instruido a la paciente para que utilice esta plataforma, accediendo desde XXX, para monitorizar sus resultados. Para cualquier gestión administrativa o consulta no urgente, puede utilizarse el siguiente medio de contacto: XXX. Se ha registrado como contacto principal de la paciente a su : XXX. El documento de identificación principal con el que figura registrada es el XXX, siendo su país de origen XXX. Se recomienda continuar con el plan terapéutico establecido y se citará para nueva revisión en seis meses. Para información general sobre la institución o servicios adicionales, se puede consultar : XXX.",
+  "text_length": 1539,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.8527796268463135,
+        "word": " siete años",
+        "start": 136,
+        "end": 146,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "EDAD_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " siete años",
+          "actual_text": "siete años",
+          "confidence": 0.8527796268463135,
+          "start": 136,
+          "end": 146,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " siete años",
+          "actual_text": "siete años",
+          "confidence": 0.8527796268463135,
+          "start": 136,
+          "end": 146,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.9805989265441895,
+        "word": " sesenta",
+        "start": 126,
+        "end": 133,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.7912281155586243,
+        "word": " siete años",
+        "start": 136,
+        "end": 146,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "EDAD_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " sesenta",
+          "actual_text": "sesenta",
+          "confidence": 0.9805989265441895,
+          "start": 126,
+          "end": 133,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " siete años",
+          "actual_text": "siete años",
+          "confidence": 0.7912281155586243,
+          "start": 136,
+          "end": 146,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " sesenta",
+          "actual_text": "sesenta",
+          "confidence": 0.9805989265441895,
+          "start": 126,
+          "end": 133,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " siete años",
+          "actual_text": "siete años",
+          "confidence": 0.7912281155586243,
+          "start": 136,
+          "end": 146,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "EDAD_SUJETO_ASISTENCIA": 3
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " siete años",
+        "actual_text": "siete años",
+        "confidence": 0.8527796268463135,
+        "start": 136,
+        "end": 146,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " sesenta",
+        "actual_text": "sesenta",
+        "confidence": 0.9805989265441895,
+        "start": 126,
+        "end": 133,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " siete años",
+        "actual_text": "siete años",
+        "confidence": 0.7912281155586243,
+        "start": 136,
+        "end": 146,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " siete años",
+        "actual_text": "siete años",
+        "confidence": 0.8527796268463135,
+        "start": 136,
+        "end": 146,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " sesenta",
+        "actual_text": "sesenta",
+        "confidence": 0.9805989265441895,
+        "start": 126,
+        "end": 133,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " siete años",
+        "actual_text": "siete años",
+        "confidence": 0.7912281155586243,
+        "start": 136,
+        "end": 146,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

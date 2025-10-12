@@ -1,0 +1,124 @@
+{
+  "document_id": "42de125b-03f3-4260-9698-228d852c0454",
+  "success": true,
+  "anonymized_text": "Informe de Consulta de Cirugía General A fecha de XXX, se procede a la evaluación de la paciente de sexo XXX y XXX de edad en consultas externas. La paciente, cuya beneficiaria del plan de salud es la titular del número XXX, fue remitida desde el XXX para valoración quirúrgica especializada. Se revisa la documentación clínica adjunta donde se recoge el historial de la asistida. La exploración física revela un abdomen blando y depresible, sin signos de irritación peritoneal. Los ruidos hidroaéreos están presentes. No se palpan masas ni visceromegalias. La analítica reciente muestra un hemograma dentro de parámetros normales y una función renal conservada. En la ecografía abdominal se identifica una colelitiasis asintomática. El dispositivo médico registrado con el número de serie XXX, utilizado durante la exploración, funcionó dentro de sus parámetros normales. Se mantiene la recomendación de colecistectía laparoscópica electiva dado el hallazgo ecográfico. Se explicaron los riesgos y beneficios del procedimiento a los familiares de la sujeto de asistencia, específicamente a XXX, quienes mostraron buena comprensión. Para cualquier comunicación adicional o envío de documentación, este servicio dispone del fax XXX y del correo electrónico XXX. El profesional que realiza esta valoración es XXX y posee la titulación de XXX. Se recuerda que para el acceso al centro es necesario registrar previamente el vehículo con la matrícula XXX en el control de seguridad.",
+  "text_length": 1477,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9824205636978149,
+        "word": " familiares de",
+        "start": 1034,
+        "end": 1047,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares de",
+          "actual_text": "familiares de",
+          "confidence": 0.9824205636978149,
+          "start": 1034,
+          "end": 1047,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares de",
+          "actual_text": "familiares de",
+          "confidence": 0.9824205636978149,
+          "start": 1034,
+          "end": 1047,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares de",
+        "actual_text": "familiares de",
+        "confidence": 0.9824205636978149,
+        "start": 1034,
+        "end": 1047,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares de",
+        "actual_text": "familiares de",
+        "confidence": 0.9824205636978149,
+        "start": 1034,
+        "end": 1047,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

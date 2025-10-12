@@ -1,0 +1,221 @@
+{
+  "document_id": "fe428916-b412-45c3-b02d-57eb1a8a57ae",
+  "success": true,
+  "anonymized_text": "Informe de Consulta de Cirugía General Paciente que acude a consulta para valoración y seguimiento. Se trata de una persona de sexo XXX que presenta un cuadro de dolor abdominal en fosa iliaca derecha de varias horas de evolución. En la exploración física se constata sensibilidad a la palpación profunda en punto de McBurney con signo de Blumberg positivo. Los hallazgos ecográficos son sugestivos de apendicitis aguda, por lo que se indica intervención quirúrgica urgente. Se ha procedido a la verificación de su documentación, confirmando el número de beneficiaria del plan de salud XXX. Para la coordinación del procedimiento se ha utilizado la referencia interna XXX, que queda asociada a su historia clínica XXX. El profesional asignado para la intervención será el XXX de guardia. Se establece como vía de comunicación preferente el correo electrónico XXX para los aspectos asistenciales, mientras que para la gestión administrativa se utilizará XXX. Adicionalmente, se ha registrado el número de teléfono XXX para contactos urgentes relacionados con su proceso. Se recomienda a la paciente consultar los recursos educativos disponibles en XXX donde encontrará información detallada sobre el preoperatorio y postoperatorio de este tipo de procedimientos. Los análisis prequirúrgicos muestran leucocitosis con desviación izquierda, compatible con el diagnóstico de sospecha.",
+  "text_length": 1380,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.728892982006073,
+        "word": " plan de",
+        "start": 572,
+        "end": 579,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de",
+          "actual_text": "plan de",
+          "confidence": 0.728892982006073,
+          "start": 572,
+          "end": 579,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de",
+          "actual_text": "plan de",
+          "confidence": 0.728892982006073,
+          "start": 572,
+          "end": 579,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7225900888442993,
+        "word": " sexo XXX",
+        "start": 127,
+        "end": 135,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.974888265132904,
+        "word": " historia clínica",
+        "start": 697,
+        "end": 713,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo XXX",
+          "actual_text": "sexo XXX",
+          "confidence": 0.7225900888442993,
+          "start": 127,
+          "end": 135,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.974888265132904,
+          "start": 697,
+          "end": 713,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo XXX",
+          "actual_text": "sexo XXX",
+          "confidence": 0.7225900888442993,
+          "start": 127,
+          "end": 135,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.974888265132904,
+          "start": 697,
+          "end": 713,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2,
+      "ID_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de",
+        "actual_text": "plan de",
+        "confidence": 0.728892982006073,
+        "start": 572,
+        "end": 579,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo XXX",
+        "actual_text": "sexo XXX",
+        "confidence": 0.7225900888442993,
+        "start": 127,
+        "end": 135,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.974888265132904,
+        "start": 697,
+        "end": 713,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de",
+        "actual_text": "plan de",
+        "confidence": 0.728892982006073,
+        "start": 572,
+        "end": 579,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo XXX",
+        "actual_text": "sexo XXX",
+        "confidence": 0.7225900888442993,
+        "start": 127,
+        "end": 135,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.974888265132904,
+        "start": 697,
+        "end": 713,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "document_id": "11fda853-7b16-4070-8405-f02872bc7cfb",
+  "success": true,
+  "anonymized_text": "**NOTA DE EVOLUCIÓN – CONSULTA EXTERNA DE ENDOCRINOLOGÍA** En la valoración realizada el XXX, se revisa el caso de la paciente que acude para seguimiento de su patología metabólica. La paciente, de sexo XXX, se encuentra identificada con el número de historia XXX y con el código de aseguramiento XXX. Desde su última visita, refiere mejoría en la adherencia al plan dietético y mantiene una actividad física regular. En la exploración física actual, se constata peso de 68 kg, talla 1.62 m, con IMC de 25.9 kg/m². La tensión arterial es de 128/76 mmHg y la frecuencia cardíaca de 72 lpm. No se palpan bocios ni masas cervicales. En la analítica reciente, la hemoglobina glicosilada se sitúa en 6.8%, mostrando una mejoría significativa respecto al control anterior. El perfil lipídico muestra colesterol LDL de 98 mg/dL. Se mantiene la pauta de metformina 850 mg cada 12 horas. Es importante destacar que en su historial figura como XXX, dato que debe mantenerse actualizado en todos los registros. Como parte del manejo integral, se ha recomendado su participación activa en el XXX, recurso que la paciente manifiesta estar aprovechando satisfactoriamente. Para coordinación asistencial, queda registrado el código XXX. Toda la documentación clínica actualizada estará disponible a través de la plataforma institucional en XXX. Se programa seguimiento en 6 meses para reevaluación, manteniendo las recomendaciones terapéuticas actuales dado el buen control metabólico alcanzado.",
+  "text_length": 1480,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7164008021354675,
+        "word": " código",
+        "start": 273,
+        "end": 279,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " código",
+          "actual_text": "código",
+          "confidence": 0.7164008021354675,
+          "start": 273,
+          "end": 279,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " código",
+          "actual_text": "código",
+          "confidence": 0.7164008021354675,
+          "start": 273,
+          "end": 279,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7079591751098633,
+        "word": " número de historia XXX",
+        "start": 241,
+        "end": 263,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " número de historia XXX",
+          "actual_text": "número de historia XXX",
+          "confidence": 0.7079591751098633,
+          "start": 241,
+          "end": 263,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " número de historia XXX",
+          "actual_text": "número de historia XXX",
+          "confidence": 0.7079591751098633,
+          "start": 241,
+          "end": 263,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " código",
+        "actual_text": "código",
+        "confidence": 0.7164008021354675,
+        "start": 273,
+        "end": 279,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " número de historia XXX",
+        "actual_text": "número de historia XXX",
+        "confidence": 0.7079591751098633,
+        "start": 241,
+        "end": 263,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " código",
+        "actual_text": "código",
+        "confidence": 0.7164008021354675,
+        "start": 273,
+        "end": 279,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " número de historia XXX",
+        "actual_text": "número de historia XXX",
+        "confidence": 0.7079591751098633,
+        "start": 241,
+        "end": 263,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

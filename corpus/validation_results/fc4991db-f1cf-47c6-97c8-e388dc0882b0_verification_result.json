@@ -1,0 +1,124 @@
+{
+  "document_id": "fc4991db-f1cf-47c6-97c8-e388dc0882b0",
+  "success": true,
+  "anonymized_text": "En el informe de valoración inicial se recoge la anamnesis y exploración del paciente, cuyo identificador principal es XXX. Durante la exploración física, se constata un estado general conservado, con tensión arterial de 125/80 mmHg y frecuencia cardíaca de 72 lpm. La auscultación cardiorrespiratoria resulta dentro de la normalidad, sin soplos ni crepitantes. En la analítica realizada, destacan parámetros dentro de rangos normales, incluyendo una glucemia basal de 98 mg/dl y hemoglobina de 14.2 g/dl. Respecto a la documentación asociada al caso, se ha verificado el número de identificación del vehículo involucrado XXX, el cual queda registrado en el apartado correspondiente. Para trámites de coordinación con servicios externos, se dispone del número de fax XXX, a través del cual se podrán solicitar informes complementarios. El expediente queda vinculado al código de aseguramiento XXX, garantizando la correcta trazabilidad asistencial. Como dato adicional para la gestión documental, se incluye la referencia XXX en los sistemas de archivo. Los hallazgos en la tomografía computarizada realizada muestran una adecuada preservación de los espacios ventriculares, sin evidencia de lesiones ocupantes de espacio. Se mantendrá vigilancia activa según protocolo establecido.",
+  "text_length": 1282,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7801324129104614,
+        "word": " código",
+        "start": 869,
+        "end": 875,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " código",
+          "actual_text": "código",
+          "confidence": 0.7801324129104614,
+          "start": 869,
+          "end": 875,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " código",
+          "actual_text": "código",
+          "confidence": 0.7801324129104614,
+          "start": 869,
+          "end": 875,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " código",
+        "actual_text": "código",
+        "confidence": 0.7801324129104614,
+        "start": 869,
+        "end": 875,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " código",
+        "actual_text": "código",
+        "confidence": 0.7801324129104614,
+        "start": 869,
+        "end": 875,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

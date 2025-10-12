@@ -1,0 +1,124 @@
+{
+  "document_id": "bdce8e4a-ae24-4802-be9e-ef9bd30c7e09",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude para valoración y seguimiento de su proceso crónico. Se trata de XXX, con una edad de XXX, que reside en la XXX. La paciente se identifica con el número de beneficiario del plan de salud XXX. Refiere un cuadro de evolución estable desde la última revisión, sin aparición de nuevos síntomas. Al interrogatorio dirigido, no refiere dolor torácico, disnea de esfuerzo ni palpitaciones. La exploración física actual muestra una tensión arterial de 135/80 mmHg en ambos brazos, frecuencia cardíaca regular a 78 lpm, y auscultación cardiorrespiratoria sin soplos ni ruidos sobreañadidos. En la auscultación abdominal se perciben ruidos hidroaéreos presentes, sin masas ni visceromegalias palpables. Se revisa la analítica reciente, donde destacan unos parámetros lipídicos dentro de los objetivos terapéuticos establecidos. El electrocardiograma de reposo realizado en la consulta muestra ritmo sinusal a 75 lpm, sin alteraciones agudas de la repolarización. Se procede a la actualización de su documentación clínica, verificando el identificador XXX y el número de identificación laboral XXX de la profesional de enfermería que asistió en la toma de constantes. Se mantiene el plan terapéutico actual y se recomienda control analítico en seis meses, aconsejando acudir a consulta ante la aparición de cualquier sintomatología nueva.",
+  "text_length": 1374,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "PROFESION",
+        "score": 0.8237552642822266,
+        "word": " profesional de enfermería",
+        "start": 1140,
+        "end": 1165,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "PROFESION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "PROFESION",
+          "word": " profesional de enfermería",
+          "actual_text": "profesional de enfermería",
+          "confidence": 0.8237552642822266,
+          "start": 1140,
+          "end": 1165,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "PROFESION",
+          "word": " profesional de enfermería",
+          "actual_text": "profesional de enfermería",
+          "confidence": 0.8237552642822266,
+          "start": 1140,
+          "end": 1165,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "PROFESION": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "PROFESION",
+        "word": " profesional de enfermería",
+        "actual_text": "profesional de enfermería",
+        "confidence": 0.8237552642822266,
+        "start": 1140,
+        "end": 1165,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "PROFESION",
+        "word": " profesional de enfermería",
+        "actual_text": "profesional de enfermería",
+        "confidence": 0.8237552642822266,
+        "start": 1140,
+        "end": 1165,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

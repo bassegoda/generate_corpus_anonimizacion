@@ -1,0 +1,221 @@
+{
+  "document_id": "ba9e9300-1c10-4f2c-a3c6-0c0fb0d0793c",
+  "success": true,
+  "anonymized_text": "Informe de Evolución Postoperatoria Paciente de sexo XXX, con XXX de edad, que acude a consulta externa para control evolutivo tras intervención quirúrgica mayor. La paciente fue identificada mediante el documento nacional de salud XXX y su número de aseguramiento es XXX. Durante la valoración se constata evolución favorable de la herida quirúrgica, sin signos de infección ni complicaciones inmediatas. Los parámetros analíticos se mantienen dentro de rangos aceptables, mostrando una mejoría significativa en los marcadores de función cardiaca. En la exploración física actual se aprecia normotensión arterial, ritmo cardíaco regular sin soplos añadidos y buena perfusión periférica. La paciente reside en XXX y es atendida de forma coordinada con el XXX para su seguimiento integral. Para la comunicación interconsultas se ha establecido contacto a través del número de teléfono XXX y del fax XXX. Adicionalmente, para coordinación con el especialista responsable, se dispone del correo electrónico XXX, quien ejerce como XXX en nuestro equipo. El dispositivo médico implantado, con identificación de serie XXX, funciona dentro de los parámetros esperados según el último control técnico. Se ha programado seguimiento estrecho mediante el sistema de monitorización remota, cuyo dispositivo tiene el número de serie ID-987654. La paciente cuenta también con el número de contacto XXX para emergencias relacionadas con su proceso. Se mantiene la medicación establecida y se recomienda continuar con el plan de rehabilitación cardiaca iniciado. El documento de identificación secundario registrado es XXX para fines administrativos.",
+  "text_length": 1634,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9372710585594177,
+        "word": " documento nacional de salud",
+        "start": 204,
+        "end": 231,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de salud",
+          "actual_text": "documento nacional de salud",
+          "confidence": 0.9372710585594177,
+          "start": 204,
+          "end": 231,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de salud",
+          "actual_text": "documento nacional de salud",
+          "confidence": 0.9372710585594177,
+          "start": 204,
+          "end": 231,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8842412233352661,
+        "word": " documento nacional de salud XXX",
+        "start": 204,
+        "end": 235,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9875348806381226,
+        "word": " ID",
+        "start": 1320,
+        "end": 1322,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "NUMERO_TELEFONO": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de salud XXX",
+          "actual_text": "documento nacional de salud XXX",
+          "confidence": 0.8842412233352661,
+          "start": 204,
+          "end": 235,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " ID",
+          "actual_text": "ID",
+          "confidence": 0.9875348806381226,
+          "start": 1320,
+          "end": 1322,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de salud XXX",
+          "actual_text": "documento nacional de salud XXX",
+          "confidence": 0.8842412233352661,
+          "start": 204,
+          "end": 235,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " ID",
+          "actual_text": "ID",
+          "confidence": 0.9875348806381226,
+          "start": 1320,
+          "end": 1322,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2,
+      "NUMERO_TELEFONO": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de salud",
+        "actual_text": "documento nacional de salud",
+        "confidence": 0.9372710585594177,
+        "start": 204,
+        "end": 231,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de salud XXX",
+        "actual_text": "documento nacional de salud XXX",
+        "confidence": 0.8842412233352661,
+        "start": 204,
+        "end": 235,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " ID",
+        "actual_text": "ID",
+        "confidence": 0.9875348806381226,
+        "start": 1320,
+        "end": 1322,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de salud",
+        "actual_text": "documento nacional de salud",
+        "confidence": 0.9372710585594177,
+        "start": 204,
+        "end": 231,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de salud XXX",
+        "actual_text": "documento nacional de salud XXX",
+        "confidence": 0.8842412233352661,
+        "start": 204,
+        "end": 235,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " ID",
+        "actual_text": "ID",
+        "confidence": 0.9875348806381226,
+        "start": 1320,
+        "end": 1322,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

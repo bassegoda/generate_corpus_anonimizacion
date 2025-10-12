@@ -1,0 +1,175 @@
+{
+  "document_id": "1108ca4c-cfd0-49c9-b3f6-530795bba08a",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE CIRUGÍA GENERAL** En la visita de seguimiento realizada en la fecha de hoy, se reevalúa al paciente con identificador **XXX** cuyo expediente clínico principal es el **XXX**. El paciente refiere una mejoría subjetiva de su sintomatología abdominal desde la intervención quirúrgica llevada a cabo el **XXX**. A nivel familiar, se ha recabado información relevante a través de la **XXX**, quien actúa como principal contacto de apoyo. Su identificación de contacto en nuestro sistema es **XXX**. En el contexto de la anamnesis familiar, es importante consignar que la referida familiar reside en la **XXX**, lo cual fue considerado en la planificación del soporte postoperatorio. El procedimiento quirúrgico fue realizado por un **XXX** de reconocida experiencia en nuestro ámbito. Cabe destacar que para la coordinación de una prueba complementaria específica, se requirió la colaboración interterritorial con la **XXX**, gestionándose a través del número de beneficiario de plan de salud **XXX**. Dicha colaboración fue fundamental para completar el estudio preoperatorio. La exploración física actual resulta dentro de la normalidad, sin signos de complicaciones infecciosas o herniarias en la zona de la incisión. Los parámetros analíticos recientes, incluyendo hemograma y bioquímica básica, se encuentran en rangos de normalidad. Se considera que la evolución es satisfactoria y se programa el siguiente control de forma ambulatoria.",
+  "text_length": 1470,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7605376839637756,
+        "word": " familiar",
+        "start": 608,
+        "end": 616,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.7605376839637756,
+          "start": 608,
+          "end": 616,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.7605376839637756,
+          "start": 608,
+          "end": 616,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7366255521774292,
+        "word": " plan de",
+        "start": 1007,
+        "end": 1014,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de",
+          "actual_text": "plan de",
+          "confidence": 0.7366255521774292,
+          "start": 1007,
+          "end": 1014,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de",
+          "actual_text": "plan de",
+          "confidence": 0.7366255521774292,
+          "start": 1007,
+          "end": 1014,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.7605376839637756,
+        "start": 608,
+        "end": 616,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de",
+        "actual_text": "plan de",
+        "confidence": 0.7366255521774292,
+        "start": 1007,
+        "end": 1014,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.7605376839637756,
+        "start": 608,
+        "end": 616,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de",
+        "actual_text": "plan de",
+        "confidence": 0.7366255521774292,
+        "start": 1007,
+        "end": 1014,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

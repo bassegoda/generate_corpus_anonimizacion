@@ -1,0 +1,124 @@
+{
+  "document_id": "7bba85ce-6f55-4353-ab9b-771417bf8f96",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Preoperatoria Se evalúa a la paciente XXX en consultas externas para valoración de riesgo quirúrgico. La paciente reside en XXX y es atendida de forma habitual en el XXX para el seguimiento de su medicación crónica. Como parte del protocolo de identificación biométrica del centro, se ha verificado la XXX, que coincide con los registros del sistema. El dispositivo de verificación utilizado, identificado con el número XXX, opera dentro de los parámetros de calibración establecidos. La paciente presenta documentación de cobertura sanitaria con identificación XXX, vigente en XXX. La exploración física actual muestra ruidos cardíacos rítmicos sin soplos audibles, y la auscultación pulmonar es clara bilateralmente. Los pulsos periféricos son palpables y simétricos. Los estudios ecocardiográficos previos demuestran una función ventricular preservada. Para completar la evaluación, se solicita interconsulta con el XXX de referencia. La paciente ha sido derivada a la consulta de la XXX, XXX con amplia experiencia en el área, cuyo perfil profesional puede consultarse en el portal médico XXX. El equipo de monitorización intraoperatoria que se utilizará durante el procedimiento tiene asignado el número de serie XXX. Se considera que la paciente es candidata adecuada para el procedimiento quirúrgico propuesto, manteniendo la medicación actual hasta el día de la intervención.",
+  "text_length": 1405,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.942804753780365,
+        "word": " portal médico XXX",
+        "start": 1101,
+        "end": 1118,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " portal médico XXX",
+          "actual_text": "portal médico XXX",
+          "confidence": 0.942804753780365,
+          "start": 1101,
+          "end": 1118,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " portal médico XXX",
+          "actual_text": "portal médico XXX",
+          "confidence": 0.942804753780365,
+          "start": 1101,
+          "end": 1118,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " portal médico XXX",
+        "actual_text": "portal médico XXX",
+        "confidence": 0.942804753780365,
+        "start": 1101,
+        "end": 1118,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " portal médico XXX",
+        "actual_text": "portal médico XXX",
+        "confidence": 0.942804753780365,
+        "start": 1101,
+        "end": 1118,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "document_id": "c0bf906d-e306-4202-958c-c1aee2c41fde",
+  "success": true,
+  "anonymized_text": "Informe de Consulta de Neurología Paciente que acude a consulta para valoración y seguimiento. Se procede a la actualización de su historia clínica y verificación de datos de identificación. La señora XXX se identifica de forma fehaciente en nuestro sistema mediante la XXX, procediéndose a la apertura de su expediente digital asociado al identificador XXX. En cuanto a la exploración neurológica actual, se objetiva un estado cognitivo conservado con orientación témporo-espacial completa. La coordinación y el equilibrio se mantienen dentro de parámetros normales. Refiere mejoría significativa de la cefalea tensional que motivó su consulta inicial. Se ha contactado con el paciente a través del número XXX para confirmar los resultados de la última resonancia magnética cerebral, que muestra hallazgos completamente normales. Para cualquier comunicación profesional relacionada con este caso, queda registrado como punto de contacto el XXX, correspondiente al especialista que cursa el XXX y cuyo documento de identificación profesional XXX consta en el registro del colegio de médicos. Se verifica que todos los dispositivos médicos utilizados durante la exploración, incluido el neurómetro, cuentan con su correspondiente validado según protocolo. Se mantiene el plan terapéutico establecido y se recomienda control periódico. La paciente manifiesta comprensión de las indicaciones y se procede al cierre de la sesión clínica.",
+  "text_length": 1433,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.9677963852882385,
+        "word": " colegio de médicos",
+        "start": 1072,
+        "end": 1090,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " colegio de médicos",
+          "actual_text": "colegio de médicos",
+          "confidence": 0.9677963852882385,
+          "start": 1072,
+          "end": 1090,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " colegio de médicos",
+          "actual_text": "colegio de médicos",
+          "confidence": 0.9677963852882385,
+          "start": 1072,
+          "end": 1090,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9558970332145691,
+        "word": " registro",
+        "start": 1059,
+        "end": 1067,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9197165369987488,
+        "word": " colegio de médicos",
+        "start": 1072,
+        "end": 1090,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " registro",
+          "actual_text": "registro",
+          "confidence": 0.9558970332145691,
+          "start": 1059,
+          "end": 1067,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " colegio de médicos",
+          "actual_text": "colegio de médicos",
+          "confidence": 0.9197165369987488,
+          "start": 1072,
+          "end": 1090,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " registro",
+          "actual_text": "registro",
+          "confidence": 0.9558970332145691,
+          "start": 1059,
+          "end": 1067,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " colegio de médicos",
+          "actual_text": "colegio de médicos",
+          "confidence": 0.9197165369987488,
+          "start": 1072,
+          "end": 1090,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " colegio de médicos",
+        "actual_text": "colegio de médicos",
+        "confidence": 0.9677963852882385,
+        "start": 1072,
+        "end": 1090,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " registro",
+        "actual_text": "registro",
+        "confidence": 0.9558970332145691,
+        "start": 1059,
+        "end": 1067,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " colegio de médicos",
+        "actual_text": "colegio de médicos",
+        "confidence": 0.9197165369987488,
+        "start": 1072,
+        "end": 1090,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " colegio de médicos",
+        "actual_text": "colegio de médicos",
+        "confidence": 0.9677963852882385,
+        "start": 1072,
+        "end": 1090,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " registro",
+        "actual_text": "registro",
+        "confidence": 0.9558970332145691,
+        "start": 1059,
+        "end": 1067,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " colegio de médicos",
+        "actual_text": "colegio de médicos",
+        "confidence": 0.9197165369987488,
+        "start": 1072,
+        "end": 1090,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

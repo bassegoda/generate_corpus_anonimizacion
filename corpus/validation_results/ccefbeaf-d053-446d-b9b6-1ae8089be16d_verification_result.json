@@ -1,0 +1,221 @@
+{
+  "document_id": "ccefbeaf-d053-446d-b9b6-1ae8089be16d",
+  "success": true,
+  "anonymized_text": "**Informe de Consulta Externa de Cardiología** Se reevalúa en consulta externa a la paciente con seguimiento por miocardiopatía hipertrófica no obstructiva. La paciente, de sexo XXX, se encuentra en situación de estabilidad clínica, refiriendo buena tolerancia al esfuerzo habitual sin aparición de disnea ni palpitaciones. En la exploración física actual, el ritmo cardíaco es regular, sin soplos significativos, y la presión arterial se mantiene dentro de parámetros normales. No se evidencian signos de insuficiencia cardiaca. Los estudios complementarios realizados recientemente incluyen un electrocardiograma que muestra ritmo sinusal con signos de hipertrofia ventricular izquierda, y un ecocardiograma Doppler que confirma el diagnóstico previo sin cambios significativos en los gradientes de salida. Se decide mantener el tratamiento médico actual dada la estabilidad del cuadro. Todos los estudios de imagen fueron revisados en el sistema del Clínico San Carlos. La identificación del sujeto de asistencia en nuestro sistema es XXX. La paciente tiene programado su próximo control en doce meses. Para cualquier gestión administrativa, la institución de referencia es la XXX. Se recuerda que la documentación informativa para la paciente está disponible a través de la dirección de internet XXX. El profesional asignado al caso, con identificación XXX, queda a disposición para coordinación a través del correo electrónico XXX. Para comunicación con la unidad de enfermería de cardiología, puede utilizarse el correo electrónico XXX. La historia clínica electrónica completa del proceso puede consultarse en la dirección XXX. La correspondencia oficial debe dirigirse a XXX.",
+  "text_length": 1683,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.8433966636657715,
+        "word": " Clínico San Carlos",
+        "start": 953,
+        "end": 971,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.8433966636657715,
+          "start": 953,
+          "end": 971,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.8433966636657715,
+          "start": 953,
+          "end": 971,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7301385998725891,
+        "word": " sexo XXX,",
+        "start": 173,
+        "end": 182,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9590334296226501,
+        "word": " Clínico San Carlos",
+        "start": 953,
+        "end": 971,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1,
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo XXX,",
+          "actual_text": "sexo XXX,",
+          "confidence": 0.7301385998725891,
+          "start": 173,
+          "end": 182,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9590334296226501,
+          "start": 953,
+          "end": 971,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo XXX,",
+          "actual_text": "sexo XXX,",
+          "confidence": 0.7301385998725891,
+          "start": 173,
+          "end": 182,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9590334296226501,
+          "start": 953,
+          "end": 971,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "HOSPITAL": 2,
+      "ID_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.8433966636657715,
+        "start": 953,
+        "end": 971,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo XXX,",
+        "actual_text": "sexo XXX,",
+        "confidence": 0.7301385998725891,
+        "start": 173,
+        "end": 182,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9590334296226501,
+        "start": 953,
+        "end": 971,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.8433966636657715,
+        "start": 953,
+        "end": 971,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo XXX,",
+        "actual_text": "sexo XXX,",
+        "confidence": 0.7301385998725891,
+        "start": 173,
+        "end": 182,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9590334296226501,
+        "start": 953,
+        "end": 971,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

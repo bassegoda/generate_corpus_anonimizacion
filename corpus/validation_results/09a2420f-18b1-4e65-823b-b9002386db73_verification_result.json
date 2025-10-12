@@ -1,0 +1,175 @@
+{
+  "document_id": "09a2420f-18b1-4e65-823b-b9002386db73",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Clínica Paciente valorada en consulta externa de neurología para seguimiento de su proceso. Refiere mejoría subjetiva de la cefalea tensional que motivó la consulta inicial, con menor frecuencia e intensidad de los episodios. Al interrogatorio por aparatos, no refiere otros síntomas acompañantes. La exploración neurológica actual muestra pupilas isocóricas y normorreactivas, pares craneales conservados, fuerza muscular 5/5 en las cuatro extremidades, sensibilidad conservada a todos los modales, reflejos osteotendinosos normoactivos y simétricos, coordinación y marcha dentro de la normalidad. Se ha indicado a la paciente que, en caso de requerir contactar con el servicio para cualquier duda o gestión relacionada con su asistencia, puede utilizar el número de teléfono XXX. Asimismo, para información complementaria sobre su condición, se le ha recomendado consultar los recursos disponibles en el portal XXX, donde encontrará material educativo fiable. Dentro de los hallazgos complementarios, en el estudio de polisomnografía se registró el correcto funcionamiento del equipo de monitorización, cuyo identificador de serie fue XXX, sin incidencias técnicas durante la noche de registro. Los resultados obtenidos confirman el diagnóstico inicial. Para cualquier comunicación formal con el departamento, queda a disposición la dirección de correo electrónico XXX. Se sugiere a los familiares sujeto asistencia que acompañan a la paciente que mantengan esta vía de contacto para coordinación, especialmente a XXX. El presente informe queda incorporado a la historia clínica digital del XXX. Se mantendrá seguimiento ambulatorio según evolución.",
+  "text_length": 1673,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9321392178535461,
+        "word": " familiares sujeto asistencia",
+        "start": 1411,
+        "end": 1439,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares sujeto asistencia",
+          "actual_text": "familiares sujeto asistencia",
+          "confidence": 0.9321392178535461,
+          "start": 1411,
+          "end": 1439,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares sujeto asistencia",
+          "actual_text": "familiares sujeto asistencia",
+          "confidence": 0.9321392178535461,
+          "start": 1411,
+          "end": 1439,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.912121057510376,
+        "word": " historia clínica digital",
+        "start": 1586,
+        "end": 1610,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica digital",
+          "actual_text": "historia clínica digital",
+          "confidence": 0.912121057510376,
+          "start": 1586,
+          "end": 1610,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica digital",
+          "actual_text": "historia clínica digital",
+          "confidence": 0.912121057510376,
+          "start": 1586,
+          "end": 1610,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares sujeto asistencia",
+        "actual_text": "familiares sujeto asistencia",
+        "confidence": 0.9321392178535461,
+        "start": 1411,
+        "end": 1439,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica digital",
+        "actual_text": "historia clínica digital",
+        "confidence": 0.912121057510376,
+        "start": 1586,
+        "end": 1610,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares sujeto asistencia",
+        "actual_text": "familiares sujeto asistencia",
+        "confidence": 0.9321392178535461,
+        "start": 1411,
+        "end": 1439,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica digital",
+        "actual_text": "historia clínica digital",
+        "confidence": 0.912121057510376,
+        "start": 1586,
+        "end": 1610,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

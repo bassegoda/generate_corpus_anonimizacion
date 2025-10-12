@@ -1,0 +1,124 @@
+{
+  "document_id": "acf8c81d-963e-4d0f-8cbb-95b412b193ef",
+  "success": true,
+  "anonymized_text": "**NOTA DE EVOLUCIÓN** A fecha de XXX, se procede a la actualización de la documentación clínica correspondiente a la paciente XXX. La historia clínica principal se encuentra registrada bajo el código XXX en nuestro sistema. La paciente cuenta con cobertura sanitaria a través del número de beneficiario XXX, estando su atención centralizada en el XXX. Para su identificación en el circuito asistencial se utiliza el código XXX, mientras que a efectos de facturación y seguros médicos figura con la referencia XXX. En el contexto de su proceso actual, se ha coordinado la valoración por parte del servicio de cirugía. El profesional designado, XXX de referencia, ha solicitado la realización de pruebas complementarias específicas. Para dichas exploraciones se han utilizado los equipos con números de serie XXX y XXX, cuyos resultados han sido incorporados al expediente digital. En cuanto a su situación familiar y red de apoyo, se mantiene contacto regular con sus familiares sujetos de asistencia, quienes participan activamente en el seguimiento del plan terapéutico establecido. La evolución clínica reciente muestra una mejoría sintomática progresiva, con parámetros analíticos dentro de rangos de normalidad y adecuada tolerancia a la medicación pautada. Se mantendrá el plan de controles periódicos en consultas externas.",
+  "text_length": 1329,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8936111927032471,
+        "word": " familiares sujetos",
+        "start": 967,
+        "end": 985,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares sujetos",
+          "actual_text": "familiares sujetos",
+          "confidence": 0.8936111927032471,
+          "start": 967,
+          "end": 985,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares sujetos",
+          "actual_text": "familiares sujetos",
+          "confidence": 0.8936111927032471,
+          "start": 967,
+          "end": 985,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares sujetos",
+        "actual_text": "familiares sujetos",
+        "confidence": 0.8936111927032471,
+        "start": 967,
+        "end": 985,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares sujetos",
+        "actual_text": "familiares sujetos",
+        "confidence": 0.8936111927032471,
+        "start": 967,
+        "end": 985,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

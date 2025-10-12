@@ -1,0 +1,124 @@
+{
+  "document_id": "57fa2a46-6a6e-4dc0-a090-8832849cb64d",
+  "success": true,
+  "anonymized_text": "**Informe de Consulta Externa** Se reevalúa en consulta externa a paciente que acude para seguimiento de su proceso crónico. El sujeto de asistencia, con una edad de XXX, fue atendido en el XXX en la fecha de XXX. Su identificación de sujeto de asistencia es XXX y el número de beneficio del plan de salud correspondiente es XXX. La exploración física actual muestra un paciente consciente y orientado. Auscultación cardíaca rítmica sin soplos añadidos, y respiratoria con murmullo vesicular conservado y mínimos crepitantes basales. El abdomen es blando y depreciable. En las pruebas complementarias realizadas, el electrocardiograma muestra ritmo sinusal a 70 lpm. La analítica reciente refleja una función renal y hepática dentro de parámetros aceptables para su grupo de edad. Se continuará con el plan terapéutico establecido, enfocado en el control sintomático y la mejora de la calidad de vida. Para cualquier gestión administrativa o envío de documentación complementaria, el centro dispone del número de fax XXX. El profesional que suscribe este informe es médico especialista, titulado con el XXX y con identificación de empleo personal sanitario XXX. El centro sanitario se encuentra ubicado en XXX, XXX. El identificador de aseguramiento del paciente es XXX. Se recuerda que información adicional sobre recursos sanitarios está disponible a través del portal web XXX. El número de colegiado del facultativo es XXX. Se citará para control en un plazo de seis meses.",
+  "text_length": 1476,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7083342671394348,
+        "word": " sanitario",
+        "start": 1147,
+        "end": 1156,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " sanitario",
+          "actual_text": "sanitario",
+          "confidence": 0.7083342671394348,
+          "start": 1147,
+          "end": 1156,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " sanitario",
+          "actual_text": "sanitario",
+          "confidence": 0.7083342671394348,
+          "start": 1147,
+          "end": 1156,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " sanitario",
+        "actual_text": "sanitario",
+        "confidence": 0.7083342671394348,
+        "start": 1147,
+        "end": 1156,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " sanitario",
+        "actual_text": "sanitario",
+        "confidence": 0.7083342671394348,
+        "start": 1147,
+        "end": 1156,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

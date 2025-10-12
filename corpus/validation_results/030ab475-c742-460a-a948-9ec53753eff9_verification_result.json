@@ -1,0 +1,222 @@
+{
+  "document_id": "030ab475-c742-460a-a948-9ec53753eff9",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE CARDIOLOGÍA** Se reevalúa en consulta externa a la paciente que continúa en seguimiento por miocardiopatía dilatada de etiología no filiada. La paciente, de XXX, acude acompañada en esta ocasión por XXX, XXX, quien refiere que el estado general se mantiene sin cambios significativos desde la última visita, con tolerancia al esfuerzo estable para actividades domésticas ligeras. A la exploración física actual, se constata un ritmo cardíaco regular, sin soplos añadidos, y presión arterial bien controlada. Los edemas en miembros inferiores han remitido por completo con el tratamiento diurético establecido. Se ha procedido a la solicitud de analítica completa para control de función renal y electrolitos, así como un nuevo ecocardiograma Doppler para valorar la evolución de la fracción de eyección del ventrículo izquierdo. Se confirma que todos los datos administrativos y de identificación permanecen correctamente registrados en nuestro sistema del XXX. El número de beneficiario del plan de salud XXX y el identificador XXX se encuentran activos y en vigor para la cobertura de las próximas pruebas complementarias. El documento nacional de identidad XXX verifica la identidad de la usuaria. Se mantiene el tratamiento médico actual y se citará para nueva revisión con los resultados de las pruebas pendientes. Quedo a disposición para cualquier consulta a través del correo electrónico XXX. Atentamente, XXX Especialista en Cardiología",
+  "text_length": 1478,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7225176095962524,
+        "word": " documento nacional",
+        "start": 1161,
+        "end": 1179,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional",
+          "actual_text": "documento nacional",
+          "confidence": 0.7225176095962524,
+          "start": 1161,
+          "end": 1179,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional",
+          "actual_text": "documento nacional",
+          "confidence": 0.7225176095962524,
+          "start": 1161,
+          "end": 1179,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.8426505923271179,
+        "word": ",",
+        "start": 193,
+        "end": 194,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PROFESION",
+        "score": 0.7901681065559387,
+        "word": " en",
+        "start": 1464,
+        "end": 1466,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "EDAD_SUJETO_ASISTENCIA": 1,
+        "PROFESION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": ",",
+          "actual_text": ",",
+          "confidence": 0.8426505923271179,
+          "start": 193,
+          "end": 194,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " en",
+          "actual_text": "en",
+          "confidence": 0.7901681065559387,
+          "start": 1464,
+          "end": 1466,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": ",",
+          "actual_text": ",",
+          "confidence": 0.8426505923271179,
+          "start": 193,
+          "end": 194,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " en",
+          "actual_text": "en",
+          "confidence": 0.7901681065559387,
+          "start": 1464,
+          "end": 1466,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "EDAD_SUJETO_ASISTENCIA": 1,
+      "PROFESION": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional",
+        "actual_text": "documento nacional",
+        "confidence": 0.7225176095962524,
+        "start": 1161,
+        "end": 1179,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": ",",
+        "actual_text": ",",
+        "confidence": 0.8426505923271179,
+        "start": 193,
+        "end": 194,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " en",
+        "actual_text": "en",
+        "confidence": 0.7901681065559387,
+        "start": 1464,
+        "end": 1466,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional",
+        "actual_text": "documento nacional",
+        "confidence": 0.7225176095962524,
+        "start": 1161,
+        "end": 1179,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": ",",
+        "actual_text": ",",
+        "confidence": 0.8426505923271179,
+        "start": 193,
+        "end": 194,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " en",
+        "actual_text": "en",
+        "confidence": 0.7901681065559387,
+        "start": 1464,
+        "end": 1466,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "document_id": "742cc579-904a-4f22-9d8f-4bfed05755de",
+  "success": true,
+  "anonymized_text": "Informe de Seguimiento de Paciente con Diabetes Mellitus Tipo 2 Se realiza seguimiento ambulatorio de la paciente, cuyo identificador de sujeto de asistencia es XXX, para valoración del control metabólico de su diabetes mellitus tipo 2. La paciente, de sexo XXX, ha mostrado un buen compromiso con el plan terapéutico establecido. Como parte de la estrategia de manejo integral, se ha recomendado de forma específica la participación en un grupo de apoyo de diabetes tipo 2, recurso que consideramos fundamental para la educación en autocuidados y el apoyo psicosocial. En la analítica de control reciente, se observa una hemoglobina glucosilada del 7.1%, lo que representa una mejoría significativa respecto a la última determinación. El perfil lipídico se mantiene dentro de objetivos terapéuticos. Se procedió a la solicitud de varias pruebas complementarias para completar el estudio, asignándoles los números de procedimiento XXX, XXX y XXX respectivamente. Para la coordinación de la atención se dispone del número de beneficio del plan de salud XXX y del código de aseguramiento XXX. La paciente tiene su residencia en la XXX, dato relevante para la gestión de recursos sanitarios específicos del . A efectos de comunicación profesional, queda registrado el contacto XXX, así como el número de fax XXX para el envío de documentación clínica. El profesional que suscribe este informe se identifica con el código de empleo personal sanitario XXX. La exploración física actual muestra una presión arterial de 128/76 mmHg, frecuencia cardíaca de 72 lpm y ausencia de edemas en miembros inferiores. El examen de los pulsos pedios es satisfactorio. Se mantiene el tratamiento farmacológico actual y se enfatiza la importancia de la adherencia al mismo, concertando nueva cita para reevaluación en tres meses. Otros sujeto asistencia: XXX.",
+  "text_length": 1839,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7906895875930786,
+        "word": " personal sanitario",
+        "start": 1428,
+        "end": 1446,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " personal sanitario",
+          "actual_text": "personal sanitario",
+          "confidence": 0.7906895875930786,
+          "start": 1428,
+          "end": 1446,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " personal sanitario",
+          "actual_text": "personal sanitario",
+          "confidence": 0.7906895875930786,
+          "start": 1428,
+          "end": 1446,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7019772529602051,
+        "word": " plan de",
+        "start": 1038,
+        "end": 1045,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de",
+          "actual_text": "plan de",
+          "confidence": 0.7019772529602051,
+          "start": 1038,
+          "end": 1045,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de",
+          "actual_text": "plan de",
+          "confidence": 0.7019772529602051,
+          "start": 1038,
+          "end": 1045,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " personal sanitario",
+        "actual_text": "personal sanitario",
+        "confidence": 0.7906895875930786,
+        "start": 1428,
+        "end": 1446,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de",
+        "actual_text": "plan de",
+        "confidence": 0.7019772529602051,
+        "start": 1038,
+        "end": 1045,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " personal sanitario",
+        "actual_text": "personal sanitario",
+        "confidence": 0.7906895875930786,
+        "start": 1428,
+        "end": 1446,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de",
+        "actual_text": "plan de",
+        "confidence": 0.7019772529602051,
+        "start": 1038,
+        "end": 1045,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

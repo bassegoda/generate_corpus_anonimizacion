@@ -1,0 +1,174 @@
+{
+  "document_id": "f29918da-fccd-43d6-975e-e510b70f1fe2",
+  "success": true,
+  "anonymized_text": "Informe de Consulta de Cirugía General Paciente valorado en consulta externa de cirugía del XXX para seguimiento de proceso quirúrgico previo. Se documenta en nuestro sistema con el número de historia clínica XXX. En la evaluación preoperatoria se identifica como factor de riesgo relevante el ser XXX, lo cual se ha abordado en el consejo antitabáquico previo a la intervención. El paciente refiere haber seguido las recomendaciones en el periodo prequirúrgico. Para la identificación biométrica se ha registrado la XXX en el sistema, cumpliendo con los protocolos de seguridad del centro. El dispositivo de monitorización utilizado durante el procedimiento cuenta con el número de serie XXX, mientras que el equipo de anestesia registrado fue el XXX, ambos verificados antes de la intervención. En lo concerniente a su cobertura sanitaria, presenta el identificador de aseguramiento XXX, con número de teléfono de contacto XXX para comunicaciones relacionadas con su proceso. Su profesional de referencia en atención primaria se ubica en el XXX, donde realizará el seguimiento postoperatorio coordinado. El paciente cuenta con el número de identificación XXX y adicionalmente el XXX para gestiones administrativas. Su país de origen es XXX, con número de seguridad social XXX activo. Para cualquier comunicación profesional relacionada con este proceso, queda establecido el correo electrónico XXX como contacto preferente. Como XXX responsable del caso, he revisado personalmente la documentación completa disponible a través de la dirección de protocolo de internet XXX, encontrándose toda la información actualizada y coherente con la evolución clínica. La exploración física actual muestra herida quirúrgica limpia, sin signos de infección, con adecuada evolución del tejido de granulación. Analíticamente se mantiene dentro de parámetros normales, destacando hemograma sin alteraciones y proteína C reactiva en descenso. La radiografía de control evidencia correcta posición de los materiales de osteosíntesis, sin complicaciones inmediatas.",
+  "text_length": 2048,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8276927471160889,
+        "word": " identific",
+        "start": 854,
+        "end": 863,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identific",
+          "actual_text": "identific",
+          "confidence": 0.8276927471160889,
+          "start": 854,
+          "end": 863,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identific",
+          "actual_text": "identific",
+          "confidence": 0.8276927471160889,
+          "start": 854,
+          "end": 863,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7638557553291321,
+        "word": " historia clínica",
+        "start": 192,
+        "end": 208,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.7638557553291321,
+          "start": 192,
+          "end": 208,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.7638557553291321,
+          "start": 192,
+          "end": 208,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identific",
+        "actual_text": "identific",
+        "confidence": 0.8276927471160889,
+        "start": 854,
+        "end": 863,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.7638557553291321,
+        "start": 192,
+        "end": 208,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identific",
+        "actual_text": "identific",
+        "confidence": 0.8276927471160889,
+        "start": 854,
+        "end": 863,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.7638557553291321,
+        "start": 192,
+        "end": 208,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

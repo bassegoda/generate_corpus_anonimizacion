@@ -1,0 +1,175 @@
+{
+  "document_id": "f135fed8-104d-4631-a7fb-1ec52e245cf3",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude para seguimiento y control de su proceso crónico. Se procede a la actualización de su documentación clínica y verificación de identidad en el sistema. La identificación del sujeto de asistencia se confirma mediante el documento nacional de identidad número XXX y se corrobora con la XXX, verificada en el sistema biométrico. El paciente se encuentra adscrito al XXX para su atención primaria, mientras que para los procesos de especializada y hospitalización queda registrado General de Madrid como referencia principal. En cuanto a los aspectos administrativos, se confirma que el país de residencia y asistencia sanitaria es XXX. El número de identificación de aseguramiento activo es XXX y el número de sujeto asistencial asignado en nuestro sistema es XXX. Para la gestión interna de esta consulta se ha generado la referencia XXX. En el apartado de otros números de identificación, queda registrado el identificativo XXX correspondiente a documentación complementaria del paciente. La exploración física actual muestra estabilidad en sus parámetros basales. Se mantiene el plan terapéutico establecido y se programan los controles periódicos correspondientes. No se detectan incidencias relevantes en la monitorización de sus constantes ni en la analítica de control reciente. El paciente mantiene adecuada adherencia al tratamiento y comprende las recomendaciones proporcionadas.",
+  "text_length": 1432,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7099303007125854,
+        "word": " documento nacional",
+        "start": 265,
+        "end": 283,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional",
+          "actual_text": "documento nacional",
+          "confidence": 0.7099303007125854,
+          "start": 265,
+          "end": 283,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional",
+          "actual_text": "documento nacional",
+          "confidence": 0.7099303007125854,
+          "start": 265,
+          "end": 283,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.9290818572044373,
+        "word": " General de Madrid",
+        "start": 523,
+        "end": 540,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "TERRITORIO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "TERRITORIO",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9290818572044373,
+          "start": 523,
+          "end": 540,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "TERRITORIO",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9290818572044373,
+          "start": 523,
+          "end": 540,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "TERRITORIO": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional",
+        "actual_text": "documento nacional",
+        "confidence": 0.7099303007125854,
+        "start": 265,
+        "end": 283,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9290818572044373,
+        "start": 523,
+        "end": 540,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional",
+        "actual_text": "documento nacional",
+        "confidence": 0.7099303007125854,
+        "start": 265,
+        "end": 283,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9290818572044373,
+        "start": 523,
+        "end": 540,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

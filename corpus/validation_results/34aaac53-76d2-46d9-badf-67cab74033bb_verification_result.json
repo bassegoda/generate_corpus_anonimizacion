@@ -1,0 +1,174 @@
+{
+  "document_id": "34aaac53-76d2-46d9-badf-67cab74033bb",
+  "success": true,
+  "anonymized_text": "A continuación se presenta el informe de evolución correspondiente a la consulta de seguimiento. La paciente XXX se presenta hoy para control periódico de su condición crónica. Durante la anamnesis, refiere mejoría sintomática desde la última visita del XXX. Se ha verificado la correcta identificación de la paciente mediante el documento nacional de identidad XXX y se ha contrastado con nuestro sistema de historia clínica electrónica. En la exploración física actual, se mantiene estabilidad en los parámetros cardiopulmonares. Los ruidos cardíacos son rítmicos sin soplos, y la auscultación pulmonar es limpia bilateralmente. Como parte de los protocolos de seguridad, se ha registrado la identificación biométrica correspondiente a la XXX. Los estudios complementarios realizados muestran resultados dentro de rangos aceptables para su situación clínica. Se ha actualizado la información de contacto, confirmando con la paciente que el número de teléfono XXX sigue siendo operativo para comunicaciones urgentes. Asimismo, se ha validado su correo electrónico principal XXX para el envío de resultados y recordatorios. En el apartado de apoyo social, se reconfirma que XXX continúa como principal referente familiar para situaciones que requieran soporte asistencial. La documentación generada en esta consulta queda registrada bajo la referencia interna XXX. Para cualquier consulta o gestión adicional, puede accederse a la historia clínica completa a través del enlace XXX. La paciente cuenta con el número de beneficio del plan de salud XXX y su identificación de aseguramiento XXX se encuentra activa en el sistema. Todos los documentos quedan archivados en su expediente del XXX.",
+  "text_length": 1690,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.926530122756958,
+        "word": " documento nacional de identidad",
+        "start": 330,
+        "end": 361,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad",
+          "actual_text": "documento nacional de identidad",
+          "confidence": 0.926530122756958,
+          "start": 330,
+          "end": 361,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad",
+          "actual_text": "documento nacional de identidad",
+          "confidence": 0.926530122756958,
+          "start": 330,
+          "end": 361,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9133445620536804,
+        "word": " historia clínica electrónica",
+        "start": 409,
+        "end": 437,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica electrónica",
+          "actual_text": "historia clínica electrónica",
+          "confidence": 0.9133445620536804,
+          "start": 409,
+          "end": 437,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica electrónica",
+          "actual_text": "historia clínica electrónica",
+          "confidence": 0.9133445620536804,
+          "start": 409,
+          "end": 437,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad",
+        "actual_text": "documento nacional de identidad",
+        "confidence": 0.926530122756958,
+        "start": 330,
+        "end": 361,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica electrónica",
+        "actual_text": "historia clínica electrónica",
+        "confidence": 0.9133445620536804,
+        "start": 409,
+        "end": 437,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad",
+        "actual_text": "documento nacional de identidad",
+        "confidence": 0.926530122756958,
+        "start": 330,
+        "end": 361,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica electrónica",
+        "actual_text": "historia clínica electrónica",
+        "confidence": 0.9133445620536804,
+        "start": 409,
+        "end": 437,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

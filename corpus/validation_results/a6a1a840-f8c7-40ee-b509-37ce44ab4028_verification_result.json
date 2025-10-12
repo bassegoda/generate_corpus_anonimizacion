@@ -1,0 +1,124 @@
+{
+  "document_id": "a6a1a840-f8c7-40ee-b509-37ce44ab4028",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa En la consulta realizada el XXX en el XXX, se procede a la evaluación y seguimiento del caso. La paciente, de sexo XXX, acude para control evolutivo. La exploración física actual revela tensión arterial de 125/80 mmHg, frecuencia cardíaca de 78 lpm y saturación de oxígeno del 98%. La auscultación cardiorrespiratoria es normofonética sin soplos ni ruidos sobreañadidos. El abdomen es blando y depresible, no doloroso a la palpación. Se revisan las pruebas complementarias realizadas, donde la analítica muestra un hemograma dentro de rangos normales y una bioquímica sin alteraciones significativas. La ecografía abdominal practicada no evidencia hallazgos patológicos relevantes. Se mantiene la pauta terapéutica establecida y se cita para reevaluación en un plazo de tres meses. Para cualquier gestión o comunicación relativa a este informe, puede utilizarse el correo electrónico XXX. El profesional que suscribe este documento está en posesión del XXX. Los datos de identificación de la paciente son el número de beneficiaria del plan de salud XXX y el documento nacional de identidad XXX, correspondiente a XXX. Se registra como familiar o sujeto de asistencia con el identificador XXX. Toda la asistencia se ha prestado dentro del de XXX.",
+  "text_length": 1273,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.989277720451355,
+        "word": " familiar",
+        "start": 1163,
+        "end": 1171,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.989277720451355,
+          "start": 1163,
+          "end": 1171,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.989277720451355,
+          "start": 1163,
+          "end": 1171,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.989277720451355,
+        "start": 1163,
+        "end": 1171,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.989277720451355,
+        "start": 1163,
+        "end": 1171,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

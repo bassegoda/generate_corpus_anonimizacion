@@ -1,0 +1,124 @@
+{
+  "document_id": "321c6c1a-28f0-494e-958d-ee81547d1dfa",
+  "success": true,
+  "anonymized_text": "**Informe de Interconsulta - Cirugía General** Se remite a la consulta de cirugía general a la paciente de sexo XXX con XXX de edad para valoración y seguimiento. La paciente fue evaluada inicialmente en el XXX y, dada la complejidad del caso, se deriva a este servicio para continuar con su manejo integral. La exploración física actual muestra abdomen blando y depresible, sin signos de irritación peritoneal. Los ruidos hidroaéreos están presentes en los cuatro cuadrantes. No se palpan masas abdominales ni visceromegalias. Las constantes vitales se mantienen dentro de parámetros normales. En cuanto a los estudios complementarios realizados, la analítica muestra una hemoglobina de 12.3 g/dL con leucocitosis discreta. La placa simple de abdomen no evidencia signos de obstrucción intestinal ni neumoperitoneo. La tomografía computarizada abdominal revela hallazgos compatibles con proceso inflamatorio diverticular en colon sigmoide. La paciente cuenta con identificación XXX y su número de identificación sanitaria es XXX. El vehículo que utiliza para sus desplazamientos al hospital tiene la placa XXX. El profesional que atiende el caso posee el XXX y desarrolla sus funciones como XXX en el XXX. El país de residencia de la paciente es XXX y su documento de identificación es XXX. El número de expediente asignado para este episodio asistencial es XXX. Se ha contactado con XXX como familiar de referencia para el seguimiento del caso. Se recomienda tratamiento conservador con antibioterapia de amplio espectro y reevaluación en 48-72 horas para determinar necesidad de intervención quirúrgica. Se programará control ambulatorio en consultas externas de cirugía.",
+  "text_length": 1674,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9773674607276917,
+        "word": " familiar",
+        "start": 1394,
+        "end": 1402,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9773674607276917,
+          "start": 1394,
+          "end": 1402,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9773674607276917,
+          "start": 1394,
+          "end": 1402,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9773674607276917,
+        "start": 1394,
+        "end": 1402,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9773674607276917,
+        "start": 1394,
+        "end": 1402,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

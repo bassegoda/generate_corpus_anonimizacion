@@ -1,0 +1,221 @@
+{
+  "document_id": "686a272f-afa5-4964-a8e6-6ce2bfe100e6",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución - Consulta Externa** A fecha de XXX, se reevalúa en consulta a la paciente XXX. Refiere mejoría parcial de la sintomatología previamente descrita. La exploración física actual muestra ruidos respiratorios conservados y abdomen blando y depresible sin masas palpables. Se mantiene el plan terapéutico establecido. Se recibe comunicación de la XXX, adjunta del servicio, solicitando interconsulta con el servicio de Digestivo. Para cualquier gestión, puede contactarse a través del XXX. Asimismo, se ha remitido un informe de la evolución al XXX para su archivo. En relación con la documentación complementaria, los estudios de imagen están disponibles para su revisión a través de la dirección_prot_internet XXX. Se recuerda que para acceder a la historia clínica electrónica completa se debe utilizar la dirección_prot_internet XXX. La paciente ha facilitado los datos de su familiar de contacto, XXX, como , con domicilio en XXX. Se recomienda a la paciente consultar los recursos educativos disponibles en XXX. El dispositivo de monitorización asignado a la paciente, XXX, funciona dentro de los parámetros normales. La prescripción médica ha sido validada y firmada por la XXX, tal como consta en el sistema. Toda la actuación clínica ha sido supervisada por la XXX, profesional con XXX.",
+  "text_length": 1310,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.946873128414154,
+        "word": " familiar de contacto,",
+        "start": 895,
+        "end": 916,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de contacto,",
+          "actual_text": "familiar de contacto,",
+          "confidence": 0.946873128414154,
+          "start": 895,
+          "end": 916,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de contacto,",
+          "actual_text": "familiar de contacto,",
+          "confidence": 0.946873128414154,
+          "start": 895,
+          "end": 916,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7386661767959595,
+        "word": " clínica",
+        "start": 775,
+        "end": 782,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9600143432617188,
+        "word": " familiar",
+        "start": 895,
+        "end": 903,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.7386661767959595,
+          "start": 775,
+          "end": 782,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9600143432617188,
+          "start": 895,
+          "end": 903,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.7386661767959595,
+          "start": 775,
+          "end": 782,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9600143432617188,
+          "start": 895,
+          "end": 903,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de contacto,",
+        "actual_text": "familiar de contacto,",
+        "confidence": 0.946873128414154,
+        "start": 895,
+        "end": 916,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.7386661767959595,
+        "start": 775,
+        "end": 782,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9600143432617188,
+        "start": 895,
+        "end": 903,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de contacto,",
+        "actual_text": "familiar de contacto,",
+        "confidence": 0.946873128414154,
+        "start": 895,
+        "end": 916,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.7386661767959595,
+        "start": 775,
+        "end": 782,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9600143432617188,
+        "start": 895,
+        "end": 903,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

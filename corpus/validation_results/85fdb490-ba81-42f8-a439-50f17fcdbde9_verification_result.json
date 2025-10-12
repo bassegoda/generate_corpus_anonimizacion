@@ -1,0 +1,124 @@
+{
+  "document_id": "85fdb490-ba81-42f8-a439-50f17fcdbde9",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada se constata la necesidad de monitorización continua de parámetros vitales mediante dispositivos médicos autorizados. Para tal fin, se ha procedido a la verificación del sistema de telemetría identificado con el código XXX, el cual se encuentra operativo y transmitiendo datos dentro de los parámetros establecidos. Los resultados analíticos obtenidos muestran un perfil lipídico dentro de rangos aceptables y una glucemia basal en límites normales. En cuanto a la cobertura de aseguramiento, se confirma la vigencia de la póliza XXX, que ampara las intervenciones realizadas. La coordinación con el XXX ha permitido optimizar el seguimiento del caso y garantizar la continuidad asistencial. Se ha implementado un protocolo de control mediante el dispositivo de registro XXX para vigilancia ambulatoria de la presión arterial, cuyas mediciones serán revisadas en la próxima consulta programada. El plan terapéutico establecido se mantiene sin modificaciones, con énfasis en las medidas higiénico-dietéticas ya instauradas.",
+  "text_length": 1056,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7416726350784302,
+        "word": " póliza",
+        "start": 557,
+        "end": 563,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " póliza",
+          "actual_text": "póliza",
+          "confidence": 0.7416726350784302,
+          "start": 557,
+          "end": 563,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " póliza",
+          "actual_text": "póliza",
+          "confidence": 0.7416726350784302,
+          "start": 557,
+          "end": 563,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " póliza",
+        "actual_text": "póliza",
+        "confidence": 0.7416726350784302,
+        "start": 557,
+        "end": 563,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " póliza",
+        "actual_text": "póliza",
+        "confidence": 0.7416726350784302,
+        "start": 557,
+        "end": 563,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

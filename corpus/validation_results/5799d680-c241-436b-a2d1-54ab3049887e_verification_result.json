@@ -1,0 +1,221 @@
+{
+  "document_id": "5799d680-c241-436b-a2d1-54ab3049887e",
+  "success": true,
+  "anonymized_text": "**INFORME DE EVOLUCIÓN Y CONTACTO FAMILIAR** Paciente que ingresa para intervención quirúrgica programada. Se mantiene estable hemodinámicamente y con adecuada evolución postoperatoria. Los parámetros analíticos dentro de la normalidad y la herida quirúrgica presenta características de cicatrización normales, sin signos de infección. Se ha establecido comunicación con los familiares designados para el seguimiento del caso. Como contacto principal figura **XXX**, quien ha sido debidamente informada sobre el procedimiento y el plan de cuidados. Adicionalmente, se ha registrado a **XXX** como segundo punto de contacto familiar, disponible a través del número de teléfono XXX para cualquier consulta relacionada con la evolución. El procedimiento fue realizado por el equipo del **XXX** de guardia, profesional formado en **XXX** y con amplia experiencia. Para cualquier coordinación interdepartamental o consulta clínica, el personal sanitario puede dirigirse al correo electrónico XXX. Asimismo, para aspectos organizativos del servicio, se dispone del correo electrónico XXX. Todo el proceso asistencial queda registrado bajo la referencia **XXX**. La enfermera responsable del cuidado directo del paciente cuenta con el **XXX** y desarrolla sus funciones en el ** Clínico San Carlos**, donde se está llevando a cabo la estancia hospitalaria con todos los protocolos establecidos.",
+  "text_length": 1387,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9415327310562134,
+        "word": " familiares designados",
+        "start": 375,
+        "end": 396,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9637017846107483,
+        "word": " ** Clínico San Carlos",
+        "start": 1269,
+        "end": 1290,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1,
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares designados",
+          "actual_text": "familiares designados",
+          "confidence": 0.9415327310562134,
+          "start": 375,
+          "end": 396,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos",
+          "actual_text": "** Clínico San Carlos",
+          "confidence": 0.9637017846107483,
+          "start": 1269,
+          "end": 1290,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares designados",
+          "actual_text": "familiares designados",
+          "confidence": 0.9415327310562134,
+          "start": 375,
+          "end": 396,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos",
+          "actual_text": "** Clínico San Carlos",
+          "confidence": 0.9637017846107483,
+          "start": 1269,
+          "end": 1290,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9850545525550842,
+        "word": " ** Clínico San Carlos",
+        "start": 1269,
+        "end": 1290,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos",
+          "actual_text": "** Clínico San Carlos",
+          "confidence": 0.9850545525550842,
+          "start": 1269,
+          "end": 1290,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos",
+          "actual_text": "** Clínico San Carlos",
+          "confidence": 0.9850545525550842,
+          "start": 1269,
+          "end": 1290,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "HOSPITAL": 2
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares designados",
+        "actual_text": "familiares designados",
+        "confidence": 0.9415327310562134,
+        "start": 375,
+        "end": 396,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos",
+        "actual_text": "** Clínico San Carlos",
+        "confidence": 0.9637017846107483,
+        "start": 1269,
+        "end": 1290,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos",
+        "actual_text": "** Clínico San Carlos",
+        "confidence": 0.9850545525550842,
+        "start": 1269,
+        "end": 1290,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares designados",
+        "actual_text": "familiares designados",
+        "confidence": 0.9415327310562134,
+        "start": 375,
+        "end": 396,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos",
+        "actual_text": "** Clínico San Carlos",
+        "confidence": 0.9637017846107483,
+        "start": 1269,
+        "end": 1290,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos",
+        "actual_text": "** Clínico San Carlos",
+        "confidence": 0.9850545525550842,
+        "start": 1269,
+        "end": 1290,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

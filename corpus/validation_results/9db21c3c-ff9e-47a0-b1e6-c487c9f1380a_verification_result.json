@@ -1,0 +1,221 @@
+{
+  "document_id": "9db21c3c-ff9e-47a0-b1e6-c487c9f1380a",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Preoperatoria Se procede a la valoración preoperatoria de la paciente de sexo XXX, con XXX, que se presenta para evaluación cardiológica previa a intervención quirúrgica programada. La paciente, identificada con XXX, se encuentra adscrita al XXX bajo el número de beneficiario XXX. La exploración física revela un estado general conservado. Auscultación cardíaca con ritmo regular, sin soplos apreciables. Tensión arterial dentro de parámetros normales para su edad. En cuanto a pruebas complementarias, el electrocardiograma muestra ritmo sinusal a 72 lpm, sin alteraciones agudas de la repolarización. El ecocardiograma doppler evidencia función biventricular conservada, con fracción de eyección del ventrículo izquierdo estimada en 55-60%. Las analíticas preoperatorias, asociadas al XXX, muestran un perfil bioquímico dentro de la normalidad sin alteraciones significativas en iones ni función renal. El procedimiento será realizado por la XXX, de reconocida trayectoria en nuestro país, cuya es XXX. La documentación del caso queda registrada bajo la referencia XXX. Cabe mencionar que durante el proceso asistencial se ha contado con el valioso apoyo de la familiar XXX, quien ha mostrado excelente disposición para el cuidado postoperatorio, así como con XXX. Este centro, en cumplimiento de los protocolos establecidos por el XXX de XXX, garantiza que toda la actividad asistencial se desarrolla bajo los más altos estándares de calidad y seguridad del paciente. Para fines de trazabilidad administrativa, se asigna el código XXX al presente episodio asistencial. Se considera a la paciente óptima para intervención quirúrgica programada, sin contraindicaciones absolutas identificadas en la evaluación preanestésica concurrente.",
+  "text_length": 1760,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9780373573303223,
+        "word": " familiar XXX",
+        "start": 1186,
+        "end": 1198,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.9780373573303223,
+          "start": 1186,
+          "end": 1198,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.9780373573303223,
+          "start": 1186,
+          "end": 1198,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "PAIS",
+        "score": 0.8824745416641235,
+        "word": " nuestro",
+        "start": 1001,
+        "end": 1008,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9804850816726685,
+        "word": " familiar XXX",
+        "start": 1186,
+        "end": 1198,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "PAIS": 1,
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "PAIS",
+          "word": " nuestro",
+          "actual_text": "nuestro",
+          "confidence": 0.8824745416641235,
+          "start": 1001,
+          "end": 1008,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.9804850816726685,
+          "start": 1186,
+          "end": 1198,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "PAIS",
+          "word": " nuestro",
+          "actual_text": "nuestro",
+          "confidence": 0.8824745416641235,
+          "start": 1001,
+          "end": 1008,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.9804850816726685,
+          "start": 1186,
+          "end": 1198,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2,
+      "PAIS": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.9780373573303223,
+        "start": 1186,
+        "end": 1198,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " nuestro",
+        "actual_text": "nuestro",
+        "confidence": 0.8824745416641235,
+        "start": 1001,
+        "end": 1008,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.9804850816726685,
+        "start": 1186,
+        "end": 1198,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.9780373573303223,
+        "start": 1186,
+        "end": 1198,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " nuestro",
+        "actual_text": "nuestro",
+        "confidence": 0.8824745416641235,
+        "start": 1001,
+        "end": 1008,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.9804850816726685,
+        "start": 1186,
+        "end": 1198,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

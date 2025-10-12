@@ -1,0 +1,174 @@
+{
+  "document_id": "8def74a6-d377-4170-ab33-cceb8b824781",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA** Paciente de sexo XXX, de XXX de edad, que acude a consulta para seguimiento. Refiere mejoría parcial de la sintomatología referida en la última visita. A la exploración física actual, se presenta consciente y orientada. La auscultación cardiorrespiratoria es rítmica y sin soplos, con murmullo vesicular conservado. El abdomen es blando y depresible, no doloroso a la palpación. Se encuentra afebril. En cuanto a los antecedentes personales de interés, destaca únicamente una XXX, por lo que se debe evitar la prescripción de este grupo de antibióticos y sus derivados. No se registran otras alergias medicamentosas conocidas. La analítica realizada muestra parámetros dentro de la normalidad, sin hallazgos significativos. Se procederá a mantener la pauta terapéutica actual y se citará para control en los próximos meses. Para cualquier duda o para la gestión de futuras citas, se recomienda a la paciente, XXX, o a su acompañante, XXX, que utilicen el portal web XXX, específicamente la sección XXX, donde podrán gestionar sus visitas de manera telemática. Documento redactado por facultativo con XXX. Fecha de la consulta: XXX.",
+  "text_length": 1163,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8977288007736206,
+        "word": " acompañante",
+        "start": 953,
+        "end": 964,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " acompañante",
+          "actual_text": "acompañante",
+          "confidence": 0.8977288007736206,
+          "start": 953,
+          "end": 964,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " acompañante",
+          "actual_text": "acompañante",
+          "confidence": 0.8977288007736206,
+          "start": 953,
+          "end": 964,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9490014314651489,
+        "word": " acompañante",
+        "start": 953,
+        "end": 964,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " acompañante",
+          "actual_text": "acompañante",
+          "confidence": 0.9490014314651489,
+          "start": 953,
+          "end": 964,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " acompañante",
+          "actual_text": "acompañante",
+          "confidence": 0.9490014314651489,
+          "start": 953,
+          "end": 964,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " acompañante",
+        "actual_text": "acompañante",
+        "confidence": 0.8977288007736206,
+        "start": 953,
+        "end": 964,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " acompañante",
+        "actual_text": "acompañante",
+        "confidence": 0.9490014314651489,
+        "start": 953,
+        "end": 964,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " acompañante",
+        "actual_text": "acompañante",
+        "confidence": 0.8977288007736206,
+        "start": 953,
+        "end": 964,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " acompañante",
+        "actual_text": "acompañante",
+        "confidence": 0.9490014314651489,
+        "start": 953,
+        "end": 964,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "document_id": "e52929ba-4efa-464d-8358-a58c53328463",
+  "success": true,
+  "anonymized_text": "Informe de Interconsulta Fecha de la consulta: XXX. Por la presente se remite informe de valoración correspondiente al paciente con número de historia XXX. El paciente fue valorado en consulta externa a petición de su médico de familia del XXX. La exploración física revela un abdomen blando y depresible, sin masas palpables ni signos de irritación peritoneal. Los ruidos hidroaéreos están presentes. Se revisó la analítica reciente que muestra una bioquímica hepática dentro de los límites de la normalidad. En la radiografía simple de abdomen no se observan niveles hidroaéreos patológicos. Se procedió a la programación de intervención quirúrgica electiva. Para la coordinación logística del procedimiento, se ha asignado el identificador de dispositivo médico XXX. Asimismo, para la gestión del transporte sanitario programado, se ha registrado el vehículo con placa XXX, con punto de recogida en XXX. El informe es emitido por la XXX, XXX con XXX y número de colegiado XXX. Para cualquier cuestión relacionada con este procedimiento, puede contactarse a través del correo electrónico XXX. Queda registrado el número de beneficiario del plan de salud NUM-45872316 para todos los trámites administrativos correspondientes. Se recomienda control en consultas externas en un plazo de cuatro semanas post-intervención.",
+  "text_length": 1319,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8408132791519165,
+        "word": "-",
+        "start": 1159,
+        "end": 1160,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.9801232218742371,
+        "word": "45",
+        "start": 1160,
+        "end": 1162,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.8408132791519165,
+          "start": 1159,
+          "end": 1160,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "45",
+          "actual_text": "45",
+          "confidence": 0.9801232218742371,
+          "start": 1160,
+          "end": 1162,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.8408132791519165,
+          "start": 1159,
+          "end": 1160,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "45",
+          "actual_text": "45",
+          "confidence": 0.9801232218742371,
+          "start": 1160,
+          "end": 1162,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8935406804084778,
+        "word": " N",
+        "start": 1156,
+        "end": 1157,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8215673565864563,
+        "word": "UM",
+        "start": 1157,
+        "end": 1159,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7414262294769287,
+        "word": "45",
+        "start": 1160,
+        "end": 1162,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 3
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " N",
+          "actual_text": "N",
+          "confidence": 0.8935406804084778,
+          "start": 1156,
+          "end": 1157,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "UM",
+          "actual_text": "UM",
+          "confidence": 0.8215673565864563,
+          "start": 1157,
+          "end": 1159,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "45",
+          "actual_text": "45",
+          "confidence": 0.7414262294769287,
+          "start": 1160,
+          "end": 1162,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " N",
+          "actual_text": "N",
+          "confidence": 0.8935406804084778,
+          "start": 1156,
+          "end": 1157,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "UM",
+          "actual_text": "UM",
+          "confidence": 0.8215673565864563,
+          "start": 1157,
+          "end": 1159,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "45",
+          "actual_text": "45",
+          "confidence": 0.7414262294769287,
+          "start": 1160,
+          "end": 1162,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 5,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 2,
+      "NUMERO_TELEFONO": 3
+    },
+    "entities_by_confidence": {
+      "high": 4,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.8408132791519165,
+        "start": 1159,
+        "end": 1160,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "45",
+        "actual_text": "45",
+        "confidence": 0.9801232218742371,
+        "start": 1160,
+        "end": 1162,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " N",
+        "actual_text": "N",
+        "confidence": 0.8935406804084778,
+        "start": 1156,
+        "end": 1157,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "UM",
+        "actual_text": "UM",
+        "confidence": 0.8215673565864563,
+        "start": 1157,
+        "end": 1159,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "45",
+        "actual_text": "45",
+        "confidence": 0.7414262294769287,
+        "start": 1160,
+        "end": 1162,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.8408132791519165,
+        "start": 1159,
+        "end": 1160,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "45",
+        "actual_text": "45",
+        "confidence": 0.9801232218742371,
+        "start": 1160,
+        "end": 1162,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " N",
+        "actual_text": "N",
+        "confidence": 0.8935406804084778,
+        "start": 1156,
+        "end": 1157,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "UM",
+        "actual_text": "UM",
+        "confidence": 0.8215673565864563,
+        "start": 1157,
+        "end": 1159,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "45",
+        "actual_text": "45",
+        "confidence": 0.7414262294769287,
+        "start": 1160,
+        "end": 1162,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 5,
+    "suspicious_detections": 5,
+    "xxxxxx_detections": 0,
+    "other_detections": 5
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

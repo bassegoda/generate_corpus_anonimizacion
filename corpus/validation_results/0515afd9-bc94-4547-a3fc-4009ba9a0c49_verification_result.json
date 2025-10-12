@@ -1,0 +1,220 @@
+{
+  "document_id": "0515afd9-bc94-4547-a3fc-4009ba9a0c49",
+  "success": true,
+  "anonymized_text": "A la atención de XXX, Se remite a continuación informe de valoración y seguimiento de la paciente de XXX, sexo XXX, identificada en nuestro sistema con el número XXX. La paciente fue valorada en consulta externa tras referencia de su médico habitual. En la anamnesis actual, la paciente refiere seguimiento habitual de su patología crónica, manteniendo contacto regular con su XXX. Entre sus antecedentes personales, destaca el hábito de XXX y alergia a la penicilina confirmada. La exploración física actual muestra tensión arterial de 136/78 mmHg, frecuencia cardíaca de 72 lpm, con resto de exploración por sistemas dentro de la normalidad. Los resultados analíticos recientes muestran perfil glucémico con hemoglobina glicosilada del 6.8%, manteniéndose en rangos aceptables. Se ha proporcionado a la paciente material educativo e instrucciones específicas disponibles a través de nuestro portal XXX donde podrá consultar recursos adicionales para el manejo de su condición. Asimismo, para coordinación con otros niveles asistenciales, queda registrado el acceso a su historia clínica digital mediante XXX. Se informa que el paciente es XXX, dato que debe ser considerado por todos los profesionales involucrados en su asistencia. La paciente tiene registrados dos puntos de contacto en nuestro sistema: XXX como domicilio principal y XXX como dirección secundaria para envío de documentación. Queda establecido el plan de seguimiento según protocolos del XXX, con controles periódicos cada seis meses. Atentamente, XXX Especialista en Medicina Interna CS-45832",
+  "text_length": 1565,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.8351033329963684,
+        "word": " CS",
+        "start": 1557,
+        "end": 1559,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " CS",
+          "actual_text": "CS",
+          "confidence": 0.8351033329963684,
+          "start": 1557,
+          "end": 1559,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " CS",
+          "actual_text": "CS",
+          "confidence": 0.8351033329963684,
+          "start": 1557,
+          "end": 1559,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.9306570887565613,
+        "word": " CS",
+        "start": 1557,
+        "end": 1559,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.7315508723258972,
+        "word": "45832",
+        "start": 1560,
+        "end": 1565,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_IDENTIF": 2
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " CS",
+          "actual_text": "CS",
+          "confidence": 0.9306570887565613,
+          "start": 1557,
+          "end": 1559,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": "45832",
+          "actual_text": "45832",
+          "confidence": 0.7315508723258972,
+          "start": 1560,
+          "end": 1565,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " CS",
+          "actual_text": "CS",
+          "confidence": 0.9306570887565613,
+          "start": 1557,
+          "end": 1559,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": "45832",
+          "actual_text": "45832",
+          "confidence": 0.7315508723258972,
+          "start": 1560,
+          "end": 1565,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CALLE": 1,
+      "NUMERO_IDENTIF": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CALLE",
+        "word": " CS",
+        "actual_text": "CS",
+        "confidence": 0.8351033329963684,
+        "start": 1557,
+        "end": 1559,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " CS",
+        "actual_text": "CS",
+        "confidence": 0.9306570887565613,
+        "start": 1557,
+        "end": 1559,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": "45832",
+        "actual_text": "45832",
+        "confidence": 0.7315508723258972,
+        "start": 1560,
+        "end": 1565,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CALLE",
+        "word": " CS",
+        "actual_text": "CS",
+        "confidence": 0.8351033329963684,
+        "start": 1557,
+        "end": 1559,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " CS",
+        "actual_text": "CS",
+        "confidence": 0.9306570887565613,
+        "start": 1557,
+        "end": 1559,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": "45832",
+        "actual_text": "45832",
+        "confidence": 0.7315508723258972,
+        "start": 1560,
+        "end": 1565,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

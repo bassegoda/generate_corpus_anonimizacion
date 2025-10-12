@@ -1,0 +1,175 @@
+{
+  "document_id": "b309bb07-6316-4da7-bab5-997666e07bdc",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude a consulta para seguimiento de su proceso cardiológico. Se encuentra estable clínicamente, refiriendo mejoría de la sintomatología previa tras la intervención quirúrgica. En la exploración física actual, presenta presión arterial de 125/70 mmHg, frecuencia cardíaca de 68 lpm regular, sin soplos cardíacos apreciables. La auscultación pulmonar es limpia y el abdomen es blando y depresible. Se revisa la documentación aportada por el XXX, perteneciente al XXX, donde consta el número de identificación XXX. Los estudios analíticos recientes muestran un perfil lipídico dentro de rangos aceptables y función renal conservada. En la radiografía de tórax no se observan hallazgos significativos. Es importante destacar en su historial que el paciente es XXX, dato que queda registrado de forma prominente. Para una segunda opinión especializada, se ha consultado el protocolo disponible a través de la dirección de internet XXX. Se procederá a solicitar ecocardiograma de control, asignando al procedimiento el código interno XXX. El dispositivo marcapasos implantado, con número de serie XXX, funciona dentro de los parámetros programados. Como profesional responsable, mi identificación de empleo en el sistema es XXX. Se ha contactado con la familiar de referencia, XXX de la paciente, para explicarle la evolución. La paciente, XXX, ejerce la profesión de XXX. Todo el seguimiento se realizará desde XXX. Para acceder a la historia clínica electrónica completa se utiliza el enlace XXX. Se mantendrá seguimiento estrecho según lo planificado.",
+  "text_length": 1590,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8060014247894287,
+        "word": " familiar de referencia,",
+        "start": 1289,
+        "end": 1312,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de referencia,",
+          "actual_text": "familiar de referencia,",
+          "confidence": 0.8060014247894287,
+          "start": 1289,
+          "end": 1312,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de referencia,",
+          "actual_text": "familiar de referencia,",
+          "confidence": 0.8060014247894287,
+          "start": 1289,
+          "end": 1312,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9110004901885986,
+        "word": " historia clínica electrónica completa",
+        "start": 1471,
+        "end": 1508,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica electrónica completa",
+          "actual_text": "historia clínica electrónica completa",
+          "confidence": 0.9110004901885986,
+          "start": 1471,
+          "end": 1508,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica electrónica completa",
+          "actual_text": "historia clínica electrónica completa",
+          "confidence": 0.9110004901885986,
+          "start": 1471,
+          "end": 1508,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de referencia,",
+        "actual_text": "familiar de referencia,",
+        "confidence": 0.8060014247894287,
+        "start": 1289,
+        "end": 1312,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica electrónica completa",
+        "actual_text": "historia clínica electrónica completa",
+        "confidence": 0.9110004901885986,
+        "start": 1471,
+        "end": 1508,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de referencia,",
+        "actual_text": "familiar de referencia,",
+        "confidence": 0.8060014247894287,
+        "start": 1289,
+        "end": 1312,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica electrónica completa",
+        "actual_text": "historia clínica electrónica completa",
+        "confidence": 0.9110004901885986,
+        "start": 1471,
+        "end": 1508,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "document_id": "2feb7ce5-31bd-4a34-972a-14f8c64a0c4c",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude a revisión en el XXX para seguimiento de su proceso. La paciente, de sexo XXX, presenta una evolución favorable del cuadro por el que fue atendida. Se revisa la documentación procedente del General de Madrid, donde fue valorada previamente. En la exploración física actual, se objetiva buen estado general, normohidratada y bien perfundida. A la auscultación cardiopulmonar, ritmo cardíaco regular sin soplos, murmullo vesicular conservado sin ruidos sobreañadidos. Abdomen blando y depresible, no doloroso a la palpación. Respecto a las pruebas complementarias realizadas, se confirma la normalidad en los parámetros analíticos básicos. En el estudio de imagen, se identifica el equipo utilizado mediante el número XXX, cuyos hallazgos han sido revisados. Asimismo, para el procedimiento terapéutico aplicado se registra el dispositivo con referencia XXX, ambos documentados en el informe de alta hospitalaria. Se programa siguiente control ambulatorio. Durante la sesión de educación sanitaria, se recuerda la importancia de la verificación periódica del correcto etiquetado de los materiales médicos utilizados en el domicilio, haciendo especial mención a aquellos que contengan el identificativo XXX. La última actualización del tratamiento y las recomendaciones fueron establecidas el XXX, manteniéndose sin variaciones hasta la fecha actual.",
+  "text_length": 1394,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.8617519736289978,
+        "word": " Madrid",
+        "start": 248,
+        "end": 254,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "TERRITORIO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "TERRITORIO",
+          "word": " Madrid",
+          "actual_text": "Madrid",
+          "confidence": 0.8617519736289978,
+          "start": 248,
+          "end": 254,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "TERRITORIO",
+          "word": " Madrid",
+          "actual_text": "Madrid",
+          "confidence": 0.8617519736289978,
+          "start": 248,
+          "end": 254,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.880626380443573,
+        "word": " General de Madrid",
+        "start": 237,
+        "end": 254,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.880626380443573,
+          "start": 237,
+          "end": 254,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.880626380443573,
+          "start": 237,
+          "end": 254,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "TERRITORIO": 1,
+      "HOSPITAL": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "TERRITORIO",
+        "word": " Madrid",
+        "actual_text": "Madrid",
+        "confidence": 0.8617519736289978,
+        "start": 248,
+        "end": 254,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.880626380443573,
+        "start": 237,
+        "end": 254,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "TERRITORIO",
+        "word": " Madrid",
+        "actual_text": "Madrid",
+        "confidence": 0.8617519736289978,
+        "start": 248,
+        "end": 254,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.880626380443573,
+        "start": 237,
+        "end": 254,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

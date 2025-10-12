@@ -1,0 +1,221 @@
+{
+  "document_id": "788d3f6f-ab7d-4228-8fb6-de9d4f1135f0",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude a consulta para seguimiento y control evolutivo. Refiere mejoría parcial de la sintomatología previamente descrita, aunque persiste con algún episodio ocasional. Se encuentra en situación de estabilidad clínica relativa. La exploración física actual muestra: tensión arterial 125/80 mmHg, frecuencia cardíaca 78 lpm, saturación de oxígeno del 98%. A la auscultación cardíaca, ritmo regular sin soplos añadidos. Auscultación respiratoria con murmullo vesicular conservado y sin ruidos sobreañadidos. Abdomen blando y depresible, no doloroso a la palpación superficial y profunda. En cuanto a las pruebas complementarias recientes, la analítica muestra parámetros dentro de la normalidad sin alteraciones significativas. La radiografía de tórax informa de campos pulmonares libres. El electrocardiograma muestra ritmo sinusal normal sin alteraciones de la repolarización. Se mantiene el tratamiento establecido con controles periódicos. Se recomienda continuar con las medidas higiénico-dietéticas indicadas previamente. Para cualquier duda o gestión administrativa, pueden contactar conmigo, la XXX, a través del correo electrónico XXX o al número de teléfono XXX. La documentación clínica completa de XXX queda registrada bajo el número de historia clínica XXX y está disponible para consulta a través de la dirección de internet XXX. Para identificación en futuras gestiones, se dispone del documento de identificación XXX y del código de aseguramiento XXX. Quedan registradas las referencias correspondientes, incluyendo la XXX para el seguimiento administrativo. Los datos de contacto postal incluyen la XXX y de la Alameda 47, ambas localizadas en XXX. Se procederá a la notificación correspondiente según los protocolos establecidos.",
+  "text_length": 1785,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.810943067073822,
+        "word": " Alameda",
+        "start": 1666,
+        "end": 1673,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " Alameda",
+          "actual_text": "Alameda",
+          "confidence": 0.810943067073822,
+          "start": 1666,
+          "end": 1673,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " Alameda",
+          "actual_text": "Alameda",
+          "confidence": 0.810943067073822,
+          "start": 1666,
+          "end": 1673,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7338128685951233,
+        "word": " historia clínica",
+        "start": 1287,
+        "end": 1303,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.8950299024581909,
+        "word": " Alameda 47",
+        "start": 1666,
+        "end": 1676,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.7338128685951233,
+          "start": 1287,
+          "end": 1303,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Alameda 47",
+          "actual_text": "Alameda 47",
+          "confidence": 0.8950299024581909,
+          "start": 1666,
+          "end": 1676,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.7338128685951233,
+          "start": 1287,
+          "end": 1303,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Alameda 47",
+          "actual_text": "Alameda 47",
+          "confidence": 0.8950299024581909,
+          "start": 1666,
+          "end": 1676,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CALLE": 2,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CALLE",
+        "word": " Alameda",
+        "actual_text": "Alameda",
+        "confidence": 0.810943067073822,
+        "start": 1666,
+        "end": 1673,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.7338128685951233,
+        "start": 1287,
+        "end": 1303,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Alameda 47",
+        "actual_text": "Alameda 47",
+        "confidence": 0.8950299024581909,
+        "start": 1666,
+        "end": 1676,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CALLE",
+        "word": " Alameda",
+        "actual_text": "Alameda",
+        "confidence": 0.810943067073822,
+        "start": 1666,
+        "end": 1673,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.7338128685951233,
+        "start": 1287,
+        "end": 1303,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Alameda 47",
+        "actual_text": "Alameda 47",
+        "confidence": 0.8950299024581909,
+        "start": 1666,
+        "end": 1676,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

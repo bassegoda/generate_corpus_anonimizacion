@@ -1,0 +1,220 @@
+{
+  "document_id": "d154c0cb-192f-48d9-81cd-1d23a4961df9",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE CARDIOLOGÍA** Fecha de la consulta: XXX. Paciente: XXX, con XXX de edad, que acude para seguimiento de su cardiopatía hipertensiva. Se identifica con el número de beneficiaria del plan de salud XXX. La paciente refiere estabilidad clínica general, con buen control de las cifras tensionales en automedida domiciliaria. No refiere disnea, ortopnea ni edemas en miembros inferiores. La exploración física actual muestra: presión arterial 135/78 mmHg, frecuencia cardíaca 68 lpm y ritmo regular. Auscultación cardiaca con ritmo regular, sin soplos añadidos. Auscultación pulmonar con murmullo vesicular conservado, sin ruidos sobreañadidos. Extremidades inferiores sin edemas. Se revisan las pruebas complementarias realizadas. La analítica de control muestra perfil lipídico dentro de objetivos, con función renal y electrolitos en rangos de normalidad. El electrocardiograma muestra ritmo sinusal a 70 lpm, sin alteraciones agudas de la repolarización. El ecocardiograma Doppler realizado muestra hipertrofia concéntrica del ventrículo izquierdo leve, con fracción de eyección del 60% y relajación alterada (patrón de disfunción diastólica grado I). Se mantiene el plan terapéutico actual, enfatizando en las medidas higiénico-dietéticas y la adherencia farmacológica. Se programa seguimiento en 6 meses. Este informe se emite bajo la referencia XXX y el contacto asistencial XXX, asociado a la historia clínica XXX. La documentación completa del caso se encuentra disponible para consulta en el XXX. Para más información sobre los protocolos de actuación, puede consultarse la web institucional XXX, que contiene recursos avalados por el XXX. Atentamente, XXX Médico Adjunto del Servicio de Cardiología Identificación profesional: XXX La correspondencia relacionada con este informe debe dirigirse a la siguiente dirección: XXX.",
+  "text_length": 1861,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.9134526252746582,
+        "word": ":",
+        "start": 296,
+        "end": 297,
+        "chunk_id": 1,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.7238833904266357,
+        "word": " XXX.",
+        "start": 298,
+        "end": 302,
+        "chunk_id": 1,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 2
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": ":",
+          "actual_text": "l",
+          "confidence": 0.9134526252746582,
+          "start": 296,
+          "end": 297,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " XXX.",
+          "actual_text": "de l",
+          "confidence": 0.7238833904266357,
+          "start": 298,
+          "end": 302,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": ":",
+          "actual_text": "l",
+          "confidence": 0.9134526252746582,
+          "start": 296,
+          "end": 297,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " XXX.",
+          "actual_text": "de l",
+          "confidence": 0.7238833904266357,
+          "start": 298,
+          "end": 302,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.7827808260917664,
+        "word": ".",
+        "start": 301,
+        "end": 302,
+        "chunk_id": 1,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_IDENTIF": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": ".",
+          "actual_text": "l",
+          "confidence": 0.7827808260917664,
+          "start": 301,
+          "end": 302,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": ".",
+          "actual_text": "l",
+          "confidence": 0.7827808260917664,
+          "start": 301,
+          "end": 302,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CALLE": 2,
+      "NUMERO_IDENTIF": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CALLE",
+        "word": ":",
+        "actual_text": "l",
+        "confidence": 0.9134526252746582,
+        "start": 296,
+        "end": 297,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " XXX.",
+        "actual_text": "de l",
+        "confidence": 0.7238833904266357,
+        "start": 298,
+        "end": 302,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": ".",
+        "actual_text": "l",
+        "confidence": 0.7827808260917664,
+        "start": 301,
+        "end": 302,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CALLE",
+        "word": ":",
+        "actual_text": "l",
+        "confidence": 0.9134526252746582,
+        "start": 296,
+        "end": 297,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " XXX.",
+        "actual_text": "de l",
+        "confidence": 0.7238833904266357,
+        "start": 298,
+        "end": 302,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": ".",
+        "actual_text": "l",
+        "confidence": 0.7827808260917664,
+        "start": 301,
+        "end": 302,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

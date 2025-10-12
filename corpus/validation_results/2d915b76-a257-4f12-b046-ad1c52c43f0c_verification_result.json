@@ -1,0 +1,174 @@
+{
+  "document_id": "2d915b76-a257-4f12-b046-ad1c52c43f0c",
+  "success": true,
+  "anonymized_text": "**NOTA DE EVOLUCIÓN** El paciente con identificación XXX, de XXX de edad, acude a consulta para seguimiento. Refiere mejoría parcial de la sintomatología previamente descrita, manteniendo algún episodio ocasional de carácter leve. Se encuentra en situación de baja laboral, aunque su profesión como XXX le exige mantener cierta actividad formativa mediante recursos en línea como XXX para mantenerse actualizado. En cuanto a los antecedentes familiares de interés, cabe destacar que el XXX falleció por patología cardiovascular y la XXX presenta seguimiento por endocrinología. El paciente reside actualmente de la Princesa 25, aunque anteriormente vivía en XXX. Para sus desplazamientos utiliza vehículos identificados con las placas XXX y XXX. La exploración física actual muestra presión arterial de 125/80 mmHg, frecuencia cardíaca de 68 lpm y saturación de oxígeno del 97%. No se aprecian soplos cardíacos ni ruidos respiratorios patológicos. El abdomen es blando y depreciable, sin masas ni visceromegalias. Se ha verificado la identificación biométrica del paciente XXX contra los registros del sistema. El profesional que realiza la valoración cuenta con la titulación de XXX y puede ser contactado para cualquier aclaración a través del XXX. Se mantiene el tratamiento establecido y se programa nueva revisión en un mes, con recomendación de actividad física moderada y control de factores de riesgo. Se instruye al paciente para que reporte cualquier cambio en su sintomatología.",
+  "text_length": 1489,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.7662062048912048,
+        "word": " Princesa 25",
+        "start": 615,
+        "end": 626,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " Princesa 25",
+          "actual_text": "Princesa 25",
+          "confidence": 0.7662062048912048,
+          "start": 615,
+          "end": 626,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " Princesa 25",
+          "actual_text": "Princesa 25",
+          "confidence": 0.7662062048912048,
+          "start": 615,
+          "end": 626,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.8296080231666565,
+        "word": " Princesa 25",
+        "start": 615,
+        "end": 626,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " Princesa 25",
+          "actual_text": "Princesa 25",
+          "confidence": 0.8296080231666565,
+          "start": 615,
+          "end": 626,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " Princesa 25",
+          "actual_text": "Princesa 25",
+          "confidence": 0.8296080231666565,
+          "start": 615,
+          "end": 626,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CALLE": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CALLE",
+        "word": " Princesa 25",
+        "actual_text": "Princesa 25",
+        "confidence": 0.7662062048912048,
+        "start": 615,
+        "end": 626,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Princesa 25",
+        "actual_text": "Princesa 25",
+        "confidence": 0.8296080231666565,
+        "start": 615,
+        "end": 626,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CALLE",
+        "word": " Princesa 25",
+        "actual_text": "Princesa 25",
+        "confidence": 0.7662062048912048,
+        "start": 615,
+        "end": 626,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Princesa 25",
+        "actual_text": "Princesa 25",
+        "confidence": 0.8296080231666565,
+        "start": 615,
+        "end": 626,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

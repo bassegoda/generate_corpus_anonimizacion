@@ -1,0 +1,175 @@
+{
+  "document_id": "3cae415f-da1a-44de-8363-5de062368462",
+  "success": true,
+  "anonymized_text": "**Informe de Valoración Geriátrica Integral** A continuación, se presenta el informe de valoración correspondiente a la paciente XXX, con XXX de edad, cuyo número de historia clínica es XXX. La paciente fue valorada en consultas externas en el contexto de un programa de seguimiento. La exploración física general fue anodina, sin hallazgos de interés en la auscultación cardiorrespiratoria. Como parte de los protocolos de seguridad para la correcta identificación en la dispensación de medicación, se ha registrado la XXX. Los análisis muestran parámetros dentro de la normalidad para su grupo de edad. Se ha coordinado la atención con su XXX de referencia para el seguimiento de su condición posquirúrgica. Respecto a la esfera social, se ha contactado con su familiar de apoyo principal, XXX, quien reside en la misma dirección, XXX. Se confirma que el entorno es adecuado y seguro. La paciente es ciudadana de XXX y toda su asistencia se encuentra enmarcada dentro del sistema público. El documento ha sido elaborado por la XXX y revisado por la XXX. Para cualquier cuestión asistencial, puede contactarse a través del correo_electronico XXX. Este centro cumple con los protocolos establecidos por el XXX. El número de identificación fiscal de la paciente es XXX y se ha verificado su concordancia con el documento de identidad. Se mantendrá un seguimiento estrecho a través de su historia clínica principal, XXX.",
+  "text_length": 1418,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9115580320358276,
+        "word": " familiar de apoyo principal",
+        "start": 763,
+        "end": 790,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de apoyo principal",
+          "actual_text": "familiar de apoyo principal",
+          "confidence": 0.9115580320358276,
+          "start": 763,
+          "end": 790,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de apoyo principal",
+          "actual_text": "familiar de apoyo principal",
+          "confidence": 0.9115580320358276,
+          "start": 763,
+          "end": 790,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.9392511248588562,
+        "word": " ciudadana de XXX",
+        "start": 902,
+        "end": 918,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " ciudadana de XXX",
+          "actual_text": "ciudadana de XXX",
+          "confidence": 0.9392511248588562,
+          "start": 902,
+          "end": 918,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " ciudadana de XXX",
+          "actual_text": "ciudadana de XXX",
+          "confidence": 0.9392511248588562,
+          "start": 902,
+          "end": 918,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "ID_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de apoyo principal",
+        "actual_text": "familiar de apoyo principal",
+        "confidence": 0.9115580320358276,
+        "start": 763,
+        "end": 790,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " ciudadana de XXX",
+        "actual_text": "ciudadana de XXX",
+        "confidence": 0.9392511248588562,
+        "start": 902,
+        "end": 918,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de apoyo principal",
+        "actual_text": "familiar de apoyo principal",
+        "confidence": 0.9115580320358276,
+        "start": 763,
+        "end": 790,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " ciudadana de XXX",
+        "actual_text": "ciudadana de XXX",
+        "confidence": 0.9392511248588562,
+        "start": 902,
+        "end": 918,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "document_id": "0e2f461c-ffe8-458a-8d1e-c58b866acca1",
+  "success": true,
+  "anonymized_text": "Informe de Seguimiento y Derivación A la atención del profesional que continúe la asistencia de la paciente. Se realiza el presente informe de seguimiento tras la consulta de control en el XXX. La paciente, de sexo XXX, mantiene una evolución estable de su cuadro principal. Se ha valorado su situación psicosocial y se considera que podría beneficiarse enormemente de la participación en un XXX para el manejo de los componentes adaptativos de su patología. De forma paralela, y dado el diagnóstico coexistente, se recomienda encarecidamente su inclusión en un XXX. Se considera que el abordaje grupal potenciará la adherencia terapéutica y el autocuidado. Para facilitar la continuidad asistencial y cualquier gestión administrativa, el número de fax de contacto de esta consulta es XXX. La documentación clínica completa, que incluye los resultados de las últimas analíticas y la resonancia magnética, está disponible para su revisión a través de la plataforma digital institucional en la dirección XXX. El identificador único del dispositivo médico de monitorización domiciliaria registrado en el sistema es XXX. Todos los informes quedan asociados a la referencia XXX. Este centro, dependiente de la XXX, mantiene una estrecha colaboración con los servicios sanitarios de otras regiones. En este sentido, se sugiere contactar con los recursos equivalentes en la XXX para una coordinación óptima si la paciente se desplaza a dicho . El informe de interconsulta generado para este fin lleva la referencia XXX. Atentamente, XXX Médico de Familia. Título de XXX. Número de colegiación: 98237641.",
+  "text_length": 1596,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.791774570941925,
+        "word": " 98237641",
+        "start": 1587,
+        "end": 1595,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 98237641",
+          "actual_text": "98237641",
+          "confidence": 0.791774570941925,
+          "start": 1587,
+          "end": 1595,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 98237641",
+          "actual_text": "98237641",
+          "confidence": 0.791774570941925,
+          "start": 1587,
+          "end": 1595,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "PROFESION",
+        "score": 0.9192422032356262,
+        "word": " Médico de Familia",
+        "start": 1530,
+        "end": 1547,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7348182797431946,
+        "word": " 98237641",
+        "start": 1587,
+        "end": 1595,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "PROFESION": 1,
+        "NUMERO_TELEFONO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "PROFESION",
+          "word": " Médico de Familia",
+          "actual_text": "Médico de Familia",
+          "confidence": 0.9192422032356262,
+          "start": 1530,
+          "end": 1547,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 98237641",
+          "actual_text": "98237641",
+          "confidence": 0.7348182797431946,
+          "start": 1587,
+          "end": 1595,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "PROFESION",
+          "word": " Médico de Familia",
+          "actual_text": "Médico de Familia",
+          "confidence": 0.9192422032356262,
+          "start": 1530,
+          "end": 1547,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 98237641",
+          "actual_text": "98237641",
+          "confidence": 0.7348182797431946,
+          "start": 1587,
+          "end": 1595,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NUMERO_TELEFONO": 2,
+      "PROFESION": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 98237641",
+        "actual_text": "98237641",
+        "confidence": 0.791774570941925,
+        "start": 1587,
+        "end": 1595,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " Médico de Familia",
+        "actual_text": "Médico de Familia",
+        "confidence": 0.9192422032356262,
+        "start": 1530,
+        "end": 1547,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 98237641",
+        "actual_text": "98237641",
+        "confidence": 0.7348182797431946,
+        "start": 1587,
+        "end": 1595,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 98237641",
+        "actual_text": "98237641",
+        "confidence": 0.791774570941925,
+        "start": 1587,
+        "end": 1595,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " Médico de Familia",
+        "actual_text": "Médico de Familia",
+        "confidence": 0.9192422032356262,
+        "start": 1530,
+        "end": 1547,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 98237641",
+        "actual_text": "98237641",
+        "confidence": 0.7348182797431946,
+        "start": 1587,
+        "end": 1595,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

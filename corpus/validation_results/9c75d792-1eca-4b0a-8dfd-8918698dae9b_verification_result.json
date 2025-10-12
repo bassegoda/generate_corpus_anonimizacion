@@ -1,0 +1,124 @@
+{
+  "document_id": "9c75d792-1eca-4b0a-8dfd-8918698dae9b",
+  "success": true,
+  "anonymized_text": "Informe de Interconsulta Paciente valorado en consulta externa para seguimiento y control evolutivo. Se realiza exploración física completa que muestra buen estado general, normohidratado y normocoloreado. A la auscultación cardiopulmonar se evidencian ruidos cardíacos rítmicos sin soplos, y murmullo vesicular conservado con buena entrada de aire bilateralmente. El abdomen es blando y depresible, no doloroso a la palpación superficial ni profunda. Se solicita estudio analítico completo con perfil bioquímico y hemograma, cuyos resultados se encuentran dentro de parámetros normales. En las pruebas de imagen realizadas previamente no se observan hallazgos significativos. Para la gestión administrativa del caso, se ha registrado el identificador de aseguramiento XXX en el sistema. Se procederá al envío de la documentación complementaria y resultados de las pruebas realizadas a través del número de fax XXX para su incorporación al historial principal. Como parte del protocolo de seguimiento, se recomienda consultar los recursos educativos disponibles en XXX para complementar la información proporcionada durante la consulta. Para la identificación de dispositivos médicos utilizados en el manejo del paciente, se ha registrado el código XXX correspondiente al equipo de monitorización. Se mantendrá vigilancia activa y se programará reevaluación según evolución clínica.",
+  "text_length": 1382,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7846939563751221,
+        "word": " identificador de aseguramiento",
+        "start": 738,
+        "end": 768,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identificador de aseguramiento",
+          "actual_text": "identificador de aseguramiento",
+          "confidence": 0.7846939563751221,
+          "start": 738,
+          "end": 768,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identificador de aseguramiento",
+          "actual_text": "identificador de aseguramiento",
+          "confidence": 0.7846939563751221,
+          "start": 738,
+          "end": 768,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identificador de aseguramiento",
+        "actual_text": "identificador de aseguramiento",
+        "confidence": 0.7846939563751221,
+        "start": 738,
+        "end": 768,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identificador de aseguramiento",
+        "actual_text": "identificador de aseguramiento",
+        "confidence": 0.7846939563751221,
+        "start": 738,
+        "end": 768,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

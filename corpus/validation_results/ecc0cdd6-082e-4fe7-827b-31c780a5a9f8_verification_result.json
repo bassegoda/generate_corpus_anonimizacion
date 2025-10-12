@@ -1,0 +1,124 @@
+{
+  "document_id": "ecc0cdd6-082e-4fe7-827b-31c780a5a9f8",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude a revisión por patología osteoarticular crónica. Se trata de XXX, con identificación XXX, quien reside en XXX. Con XXX de edad, presenta evolución estable de su proceso degenerativo vertebral lumbar. En la exploración física actual se objetiva ligera limitación de la flexión lumbar sin dolor radicular asociado. La marcha es estable y conserva fuerza y sensibilidad en extremidades inferiores. Los estudios analíticos recientes muestran perfil bioquímico dentro de parámetros normales para su grupo de edad, con proteína C reactiva de 3,2 mg/L. Se ha coordinado con su familiar de referencia, XXX, para el seguimiento terapéutico. Como dato de interés administrativo, consta el número de beneficiaria del plan de salud XXX. Para próximas comunicaciones puede utilizarse el correo electrónico XXX. Se recomienda continuar con el programa de fisioterapia establecido y control analítico en seis meses. Los resultados de las pruebas complementarias realizadas hoy estarán disponibles a través de la dirección de internet XXX donde podrá consultarlos cuando estén procesados. En relación a la documentación aportada, se verifica que la paciente cuenta también con el identificador XXX en nuestro sistema. Como contacto adicional figura XXX, con domicilio en XXX, quien ha sido autorizada para recibir información sobre su situación clínica.",
+  "text_length": 1384,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7752755284309387,
+        "word": " familiar de referencia",
+        "start": 617,
+        "end": 639,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de referencia",
+          "actual_text": "familiar de referencia",
+          "confidence": 0.7752755284309387,
+          "start": 617,
+          "end": 639,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de referencia",
+          "actual_text": "familiar de referencia",
+          "confidence": 0.7752755284309387,
+          "start": 617,
+          "end": 639,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de referencia",
+        "actual_text": "familiar de referencia",
+        "confidence": 0.7752755284309387,
+        "start": 617,
+        "end": 639,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de referencia",
+        "actual_text": "familiar de referencia",
+        "confidence": 0.7752755284309387,
+        "start": 617,
+        "end": 639,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

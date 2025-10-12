@@ -1,0 +1,406 @@
+{
+  "document_id": "c20d2f46-8e58-4f19-aa60-d3b99a894d7e",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa de Endocrinología Paciente que acude para seguimiento y control de su patología endocrinológica. Se confirma la identificación con el número XXX y se verifica que el sexo de la sujeto de asistencia es XXX. Durante la sesión se revisaron los estudios complementarios realizados, cuyos resultados completos están disponibles para la paciente a través del portal XXX. La exploración física actual muestra normopeso, índice de masa corporal dentro de parámetros normales, sin alteraciones en la distribución del tejido adiposo. No se palpan bocios ni adenopatías cervicales. La tensión arterial se mantiene en rangos de normalidad. En cuanto a los parámetros analíticos recientes, se observa un perfil tiroideo dentro de la normalidad, con TSH en 2.1 mUI/L, así como glucemia basal de 92 mg/dL. Estos y otros resultados de laboratorio están accesibles en la historia clínica electrónica mediante el enlace XXX. Se ha coordinado con el servicio de documentación clínica para la gestión del expediente XXX y se ha generado la correspondiente autorización para pruebas complementarias con el número XXX. Para próximas consultas o procedimientos quedará registrado bajo el código XXX. Como parte del plan de cuidados, se ha proporcionado a la paciente material educativo adicional disponible en la plataforma XXX donde podrá encontrar información actualizada sobre el manejo de su condición. Se mantiene abierta la vía de comunicación para aclarar dudas a través del fax XXX. En el apartado de familiares y apoyo, se anota que XXX de la paciente, está involucrada en el proceso asistencial y cuenta con la información necesaria para apoyar en el seguimiento. Además, se registra a XXX como familiar de la sujeto de asistencia. La identificación del profesional sanitario responsable de esta valoración queda registrada con el código ID-7894. Se mantiene el esquema terapéutico actual y se programa reevaluación en tres meses, con posibilidad de ajustar tratamiento según evolución. El número de beneficiaria del plan de salud activo es el 8742-T.",
+  "text_length": 2066,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9378392100334167,
+        "word": " familiar",
+        "start": 1710,
+        "end": 1718,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9867114424705505,
+        "word": " familiar",
+        "start": 363,
+        "end": 371,
+        "chunk_id": 1,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.9383752346038818,
+        "word": " 8",
+        "start": 712,
+        "end": 713,
+        "chunk_id": 1,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 2,
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 3,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9378392100334167,
+          "start": 1710,
+          "end": 1718,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "ente a t",
+          "confidence": 0.9867114424705505,
+          "start": 363,
+          "end": 371,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " 8",
+          "actual_text": "r",
+          "confidence": 0.9383752346038818,
+          "start": 712,
+          "end": 713,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9378392100334167,
+          "start": 1710,
+          "end": 1718,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "ente a t",
+          "confidence": 0.9867114424705505,
+          "start": 363,
+          "end": 371,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " 8",
+          "actual_text": "r",
+          "confidence": 0.9383752346038818,
+          "start": 712,
+          "end": 713,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 4,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9016232490539551,
+        "word": " historia clínica electrónica",
+        "start": 882,
+        "end": 910,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9801260828971863,
+        "word": " ID",
+        "start": 1853,
+        "end": 1855,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8780025839805603,
+        "word": "-",
+        "start": 1855,
+        "end": 1856,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.9387864470481873,
+        "word": "742-T",
+        "start": 713,
+        "end": 718,
+        "chunk_id": 1,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 4,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "NUMERO_TELEFONO": 2,
+        "NUMERO_IDENTIF": 1
+      },
+      "entities_by_confidence": {
+        "high": 4,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica electrónica",
+          "actual_text": "historia clínica electrónica",
+          "confidence": 0.9016232490539551,
+          "start": 882,
+          "end": 910,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " ID",
+          "actual_text": "ID",
+          "confidence": 0.9801260828971863,
+          "start": 1853,
+          "end": 1855,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.8780025839805603,
+          "start": 1855,
+          "end": 1856,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": "742-T",
+          "actual_text": "va un",
+          "confidence": 0.9387864470481873,
+          "start": 713,
+          "end": 718,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica electrónica",
+          "actual_text": "historia clínica electrónica",
+          "confidence": 0.9016232490539551,
+          "start": 882,
+          "end": 910,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " ID",
+          "actual_text": "ID",
+          "confidence": 0.9801260828971863,
+          "start": 1853,
+          "end": 1855,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.8780025839805603,
+          "start": 1855,
+          "end": 1856,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": "742-T",
+          "actual_text": "va un",
+          "confidence": 0.9387864470481873,
+          "start": 713,
+          "end": 718,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 7,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2,
+      "ID_SUJETO_ASISTENCIA": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "NUMERO_TELEFONO": 2,
+      "NUMERO_IDENTIF": 1
+    },
+    "entities_by_confidence": {
+      "high": 7,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9378392100334167,
+        "start": 1710,
+        "end": 1718,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "ente a t",
+        "confidence": 0.9867114424705505,
+        "start": 363,
+        "end": 371,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " 8",
+        "actual_text": "r",
+        "confidence": 0.9383752346038818,
+        "start": 712,
+        "end": 713,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica electrónica",
+        "actual_text": "historia clínica electrónica",
+        "confidence": 0.9016232490539551,
+        "start": 882,
+        "end": 910,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " ID",
+        "actual_text": "ID",
+        "confidence": 0.9801260828971863,
+        "start": 1853,
+        "end": 1855,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.8780025839805603,
+        "start": 1855,
+        "end": 1856,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": "742-T",
+        "actual_text": "va un",
+        "confidence": 0.9387864470481873,
+        "start": 713,
+        "end": 718,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9378392100334167,
+        "start": 1710,
+        "end": 1718,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "ente a t",
+        "confidence": 0.9867114424705505,
+        "start": 363,
+        "end": 371,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " 8",
+        "actual_text": "r",
+        "confidence": 0.9383752346038818,
+        "start": 712,
+        "end": 713,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica electrónica",
+        "actual_text": "historia clínica electrónica",
+        "confidence": 0.9016232490539551,
+        "start": 882,
+        "end": 910,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " ID",
+        "actual_text": "ID",
+        "confidence": 0.9801260828971863,
+        "start": 1853,
+        "end": 1855,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.8780025839805603,
+        "start": 1855,
+        "end": 1856,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": "742-T",
+        "actual_text": "va un",
+        "confidence": 0.9387864470481873,
+        "start": 713,
+        "end": 718,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 7,
+    "suspicious_detections": 7,
+    "xxxxxx_detections": 0,
+    "other_detections": 7
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

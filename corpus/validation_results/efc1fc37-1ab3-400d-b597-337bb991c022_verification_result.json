@@ -1,0 +1,175 @@
+{
+  "document_id": "efc1fc37-1ab3-400d-b597-337bb991c022",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa En la valoración clínica realizada hoy, se documenta el estado de la paciente XXX quien acude para seguimiento de su condición. La exploración física muestra presión arterial de 125/80 mmHg, frecuencia cardíaca de 72 lpm y saturación de oxígeno del 98%. En la auscultación cardiorrespiratoria se identifican ruidos cardíacos rítmicos sin soplos audibles, y murmullo vesicular conservado bilateralmente sin ruidos sobreañadidos. Los resultados analíticos recientes muestran hemoglobina de 13.2 g/dL, leucocitos de 6.800/μL y plaquetas dentro de rangos normales. La función tiroidea presenta TSH en 2.1 mUI/L con T4 libre normal. En cuanto a pruebas de imagen, la radiografía de tórax realizada no evidencia hallazgos patológicos significativos. Se mantiene el plan terapéutico actual con controles periódicos. Para cualquier gestión administrativa relacionada con esta atención, pueden contactar con la INSTITUCIÓN XXX o el XXX según corresponda a los circuitos establecidos. La comunicación con la paciente puede realizarse a través del XXX o mediante el XXX para el envío de documentación clínica que así lo requiera. Se programa próxima revisión en el plazo habitual establecido para su condición.",
+  "text_length": 1227,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.9145271182060242,
+        "word": " INSTITUCIÓN XXX",
+        "start": 930,
+        "end": 945,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " INSTITUCIÓN XXX",
+          "actual_text": "INSTITUCIÓN XXX",
+          "confidence": 0.9145271182060242,
+          "start": 930,
+          "end": 945,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " INSTITUCIÓN XXX",
+          "actual_text": "INSTITUCIÓN XXX",
+          "confidence": 0.9145271182060242,
+          "start": 930,
+          "end": 945,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.8535344004631042,
+        "word": " INSTITU",
+        "start": 930,
+        "end": 937,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CENTRO_SALUD": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " INSTITU",
+          "actual_text": "INSTITU",
+          "confidence": 0.8535344004631042,
+          "start": 930,
+          "end": 937,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " INSTITU",
+          "actual_text": "INSTITU",
+          "confidence": 0.8535344004631042,
+          "start": 930,
+          "end": 937,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "CENTRO_SALUD": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " INSTITUCIÓN XXX",
+        "actual_text": "INSTITUCIÓN XXX",
+        "confidence": 0.9145271182060242,
+        "start": 930,
+        "end": 945,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " INSTITU",
+        "actual_text": "INSTITU",
+        "confidence": 0.8535344004631042,
+        "start": 930,
+        "end": 937,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " INSTITUCIÓN XXX",
+        "actual_text": "INSTITUCIÓN XXX",
+        "confidence": 0.9145271182060242,
+        "start": 930,
+        "end": 945,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " INSTITU",
+        "actual_text": "INSTITU",
+        "confidence": 0.8535344004631042,
+        "start": 930,
+        "end": 937,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "document_id": "d7f98b37-10aa-4a44-8cf1-a20ef7b9d513",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude a consulta para valoración y seguimiento. Se identifica con el documento nacional de identidad número XXX. Se trata de una persona de XXX, de XXX, cuyo figura en nuestro sistema como XXX. Refiere haber viajado recientemente desde el XXX, con trayectos que incluyeron la ciudad de XXX antes de su llegada a XXX para la presente consulta. En cuanto a su situación actual, la exploración física revela un estado general conservado. A la auscultación cardiopulmonar se aprecia ritmo cardíaco regular sin soplos, y murmullo vesicular conservado bilateralmente sin ruidos sobreañadidos. El abdomen es blando y depresible, no doloroso a la palpación superficial y profunda. En el contexto de su movilidad, se registran los siguientes : XXX, XXX y XXX, relacionados con su desplazamiento al centro. Como parte del protocolo de seguridad, se han verificado sus que coinciden con los registrados en el sistema. En el apartado de , se anota que acude acompañada de un XXX para el apoyo durante la consulta. Los análisis complementarios realizados muestran un hemograma dentro de parámetros normales y una bioquímica básica sin alteraciones significativas. Se procederá con el plan de seguimiento establecido según los protocolos del servicio.",
+  "text_length": 1278,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8623974919319153,
+        "word": " documento nacional de identidad",
+        "start": 110,
+        "end": 141,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad",
+          "actual_text": "documento nacional de identidad",
+          "confidence": 0.8623974919319153,
+          "start": 110,
+          "end": 141,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad",
+          "actual_text": "documento nacional de identidad",
+          "confidence": 0.8623974919319153,
+          "start": 110,
+          "end": 141,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad",
+        "actual_text": "documento nacional de identidad",
+        "confidence": 0.8623974919319153,
+        "start": 110,
+        "end": 141,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad",
+        "actual_text": "documento nacional de identidad",
+        "confidence": 0.8623974919319153,
+        "start": 110,
+        "end": 141,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

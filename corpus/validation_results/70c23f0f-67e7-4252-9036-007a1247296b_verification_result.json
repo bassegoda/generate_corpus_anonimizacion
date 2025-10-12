@@ -1,0 +1,124 @@
+{
+  "document_id": "70c23f0f-67e7-4252-9036-007a1247296b",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Clínica El paciente, identificado con el número de referencia XXX, se presenta para seguimiento del cuadro clínico establecido en consultas anteriores. Durante la anamnesis se recoge como antecedente relevante que el paciente es XXX, dato que queda registrado de forma prominente en su historial. La exploración física actual muestra tensión arterial de 128/76 mmHg, frecuencia cardíaca de 72 lpm y saturación de oxígeno del 97%. La auscultación cardiorrespiratoria resulta dentro de la normalidad. En relación con la situación clínica, se mantuvo contacto con la XXX, quien aportó información adicional relevante para la valoración integral del caso. Los estudios complementarios realizados incluyen analítica completa que muestra hemograma dentro de parámetros normales y función renal preservada. La ecografía abdominal evidencia hígado de características ecográficas normales sin lesiones focales. Para la continuidad asistencial, se ha coordinado con el XXX donde el paciente tiene registrado el dispositivo médico XXX. La documentación completa del caso queda disponible bajo el identificador de aseguramiento XXX, habiéndose verificado también la cobertura con el número XXX. Como parte de los recursos de información para el paciente, se le ha proporcionado el acceso a la plataforma XXX donde podrá consultar material educativo sobre su condición. El profesional que suscribe este informe, XXX, cuenta con la titulación de XXX que avala su capacitación para la valoración realizada. Se recomienda control clínico en un mes para reevaluación, ajustando la conducta terapéutica según la evolución.",
+  "text_length": 1626,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7000901699066162,
+        "word": " identificador de aseguramiento",
+        "start": 1107,
+        "end": 1137,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identificador de aseguramiento",
+          "actual_text": "identificador de aseguramiento",
+          "confidence": 0.7000901699066162,
+          "start": 1107,
+          "end": 1137,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identificador de aseguramiento",
+          "actual_text": "identificador de aseguramiento",
+          "confidence": 0.7000901699066162,
+          "start": 1107,
+          "end": 1137,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identificador de aseguramiento",
+        "actual_text": "identificador de aseguramiento",
+        "confidence": 0.7000901699066162,
+        "start": 1107,
+        "end": 1137,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identificador de aseguramiento",
+        "actual_text": "identificador de aseguramiento",
+        "confidence": 0.7000901699066162,
+        "start": 1107,
+        "end": 1137,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "document_id": "4d15580d-3cef-4bc7-aeca-519b8fe3491e",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude a revisión por patología respiratoria de vías altas de evolución reciente. Refiere sintomatología compatible con proceso catarral, sin signos de alarma asociados. A la exploración física, se objetiva orofaringe levemente eritematosa sin exudados. Auscultación cardiopulmonar rítmica y sin soplos, con murmullo vesicular conservado y sin ruidos sobreañadidos. Abdomen blando y depresible sin masas ni visceromegalias. Se procede a la gestión administrativa correspondiente para el seguimiento del caso, verificando la cobertura asistencial a través del identificador de aseguramiento XXX. Todo el proceso se realiza bajo los protocolos establecidos por el XXX, garantizando la continuidad asistencial dentro de la red pública. Los estudios complementarios realizados, que incluyen analítica básica con perfil bioquímico y hemograma dentro de rangos de normalidad, han sido registrados con el código de referencia XXX para su correcta trazabilidad en el sistema. La documentación clínica queda archivada en el XXX con el número de expediente XXX, asegurando su disponibilidad para futuras consultas. Se mantiene conducta expectante con medidas sintomáticas y se cita para control evolutivo en una semana, valorando la necesidad de ampliar estudio en caso de persistencia sintomática.",
+  "text_length": 1328,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7365252375602722,
+        "word": " identific",
+        "start": 599,
+        "end": 608,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identific",
+          "actual_text": "identific",
+          "confidence": 0.7365252375602722,
+          "start": 599,
+          "end": 608,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identific",
+          "actual_text": "identific",
+          "confidence": 0.7365252375602722,
+          "start": 599,
+          "end": 608,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identific",
+        "actual_text": "identific",
+        "confidence": 0.7365252375602722,
+        "start": 599,
+        "end": 608,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identific",
+        "actual_text": "identific",
+        "confidence": 0.7365252375602722,
+        "start": 599,
+        "end": 608,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

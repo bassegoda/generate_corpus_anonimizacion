@@ -1,0 +1,175 @@
+{
+  "document_id": "19129f02-9288-48c3-9461-21f2bbea83dd",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE CARDIOLOGÍA** Paciente que acude para valoración y seguimiento en consultas externas de cardiología. Se trata de la señora XXX, identificada en nuestro sistema con el número de historia clínica XXX y con documento nacional de identidad XXX. La paciente es natural y residente en XXX, concretamente en la XXX. La exploración física actual muestra tensión arterial de 125/80 mmHg, frecuencia cardíaca de 68 lpm y ritmo regular. Auscultación cardíaca con tonos rítmicos sin soplos significativos. Auscultación respiratoria con murmullo vesicular conservado bilateralmente. Extremidades inferiores sin edemas ni signos de trombosis venosa profunda. En cuanto a las pruebas complementarias recientes, el electrocardiograma muestra ritmo sinusal normal sin alteraciones agudas. La analítica completa realizada la semana pasada presenta perfil lipídico dentro de objetivos terapéuticos, con función renal y hepática conservadas. El ecocardiograma transtorácico evidencia función biventricular preservada sin alteraciones segmentarias de la contractilidad. Se mantiene el plan terapéutico actual y se programa seguimiento a los seis meses. Para cualquier gestión administrativa o consulta, la paciente puede contactar con el XXX a través del número de teléfono XXX. Como referencia adicional, queda a disposición el portal de pacientes de nuestra institución en XXX donde podrá acceder a su historia clínica digital y materiales educativos. Para coordinación entre niveles asistenciales, se sugiere utilizar los siguientes canales de comunicación: XXX para atención primaria, XXX para enfermería de cardiología, y XXX para consultas específicas del servicio de cardiología. El profesional que suscribe este informe cuenta con la titulación de XXX y certifica la veracidad de los datos recogidos en el mismo.",
+  "text_length": 1832,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8852751851081848,
+        "word": " señora",
+        "start": 149,
+        "end": 155,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " señora",
+          "actual_text": "señora",
+          "confidence": 0.8852751851081848,
+          "start": 149,
+          "end": 155,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " señora",
+          "actual_text": "señora",
+          "confidence": 0.8852751851081848,
+          "start": 149,
+          "end": 155,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.9429376125335693,
+        "word": " señora",
+        "start": 149,
+        "end": 155,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "SEXO_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " señora",
+          "actual_text": "señora",
+          "confidence": 0.9429376125335693,
+          "start": 149,
+          "end": 155,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " señora",
+          "actual_text": "señora",
+          "confidence": 0.9429376125335693,
+          "start": 149,
+          "end": 155,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 1,
+      "SEXO_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " señora",
+        "actual_text": "señora",
+        "confidence": 0.8852751851081848,
+        "start": 149,
+        "end": 155,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " señora",
+        "actual_text": "señora",
+        "confidence": 0.9429376125335693,
+        "start": 149,
+        "end": 155,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " señora",
+        "actual_text": "señora",
+        "confidence": 0.8852751851081848,
+        "start": 149,
+        "end": 155,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " señora",
+        "actual_text": "señora",
+        "confidence": 0.9429376125335693,
+        "start": 149,
+        "end": 155,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "document_id": "68fd1ae7-6799-449e-8c85-e7ab45b3b1c5",
+  "success": true,
+  "anonymized_text": "En la evolución clínica del paciente de XXX, atendido en General de Madrid, se procede a la actualización de su documentación asistencial. El XXX queda vinculado al XXX según los protocolos establecidos por la XXX. Para garantizar la correcta identificación del sujeto, se ha registrado la XXX en el sistema. Durante la consulta de seguimiento, el XXX verificó los dispositivos médicos en uso, incluyendo el XXX. Se mantiene como principal el XXX, con contacto secundario en XXX para coordinación con otros niveles asistenciales. La historia clínica digital XXX refleja la normativa del XXX sobre interoperabilidad entre centros. Como complemento a la información proporcionada, se recomienda consultar recursos validados en XXX para educación sanitaria. Quedan registrados adicionalmente los XXX y XXX para autorizaciones de movilidad vinculadas a la de referencia.",
+  "text_length": 866,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.7362341284751892,
+        "word": " Madrid",
+        "start": 68,
+        "end": 74,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "TERRITORIO": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "TERRITORIO",
+          "word": " Madrid",
+          "actual_text": "Madrid",
+          "confidence": 0.7362341284751892,
+          "start": 68,
+          "end": 74,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "TERRITORIO",
+          "word": " Madrid",
+          "actual_text": "Madrid",
+          "confidence": 0.7362341284751892,
+          "start": 68,
+          "end": 74,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.8763632774353027,
+        "word": " General",
+        "start": 57,
+        "end": 64,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7571858167648315,
+        "word": " historia clínica",
+        "start": 533,
+        "end": 549,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "TERRITORIO": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "TERRITORIO",
+          "word": " General",
+          "actual_text": "General",
+          "confidence": 0.8763632774353027,
+          "start": 57,
+          "end": 64,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.7571858167648315,
+          "start": 533,
+          "end": 549,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "TERRITORIO",
+          "word": " General",
+          "actual_text": "General",
+          "confidence": 0.8763632774353027,
+          "start": 57,
+          "end": 64,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.7571858167648315,
+          "start": 533,
+          "end": 549,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "TERRITORIO": 2,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "TERRITORIO",
+        "word": " Madrid",
+        "actual_text": "Madrid",
+        "confidence": 0.7362341284751892,
+        "start": 68,
+        "end": 74,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " General",
+        "actual_text": "General",
+        "confidence": 0.8763632774353027,
+        "start": 57,
+        "end": 64,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.7571858167648315,
+        "start": 533,
+        "end": 549,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "TERRITORIO",
+        "word": " Madrid",
+        "actual_text": "Madrid",
+        "confidence": 0.7362341284751892,
+        "start": 68,
+        "end": 74,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " General",
+        "actual_text": "General",
+        "confidence": 0.8763632774353027,
+        "start": 57,
+        "end": 64,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.7571858167648315,
+        "start": 533,
+        "end": 549,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

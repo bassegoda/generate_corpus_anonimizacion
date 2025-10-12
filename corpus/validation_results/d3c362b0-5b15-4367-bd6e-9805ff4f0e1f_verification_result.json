@@ -1,0 +1,175 @@
+{
+  "document_id": "d3c362b0-5b15-4367-bd6e-9805ff4f0e1f",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada, se documenta que la paciente XXX se presenta para seguimiento de su proceso. Como profesional sanitario que ejerce como XXX, considero pertinente recoger en este informe los aspectos más relevantes de su situación actual. La exploración física muestra buenas condiciones generales con constantes vitales dentro de los parámetros normales. La auscultación cardiorrespiratoria es normal y el abdomen se presenta blando y depresible sin masas palpables. Los resultados analíticos recientes, disponibles para consulta a través de XXX, no reflejan alteraciones significativas en los parámetros bioquímicos ni hematológicos. La tomografía computarizada abdominal evidencia adecuada reparación tisular en el área de intervención, sin signos de complicaciones postquirúrgicas. En el ámbito asistencial, se verifica que su identificación de aseguramiento corresponde a XXX. Cabe mencionar que durante la anamnesis se ha contado con la colaboración de XXX y XXX como principales familiares sujeto asistencia, quienes han aportado información relevante sobre la evolución domiciliaria de la paciente. Para la continuidad de cuidados, se ha coordinado seguimiento ambulatorio a través del XXX, donde podrán realizar las curas locales y vigilancia de los signos de alarma. Como referencia adicional para la trazabilidad documental, se registra el número XXX en nuestro sistema de historia clínica electrónica.",
+  "text_length": 1432,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.959932804107666,
+        "word": " familiares",
+        "start": 1005,
+        "end": 1015,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares",
+          "actual_text": "familiares",
+          "confidence": 0.959932804107666,
+          "start": 1005,
+          "end": 1015,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares",
+          "actual_text": "familiares",
+          "confidence": 0.959932804107666,
+          "start": 1005,
+          "end": 1015,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.790951132774353,
+        "word": " sistema de historia clínica electrónica",
+        "start": 1392,
+        "end": 1431,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " sistema de historia clínica electrónica",
+          "actual_text": "sistema de historia clínica electrónica",
+          "confidence": 0.790951132774353,
+          "start": 1392,
+          "end": 1431,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " sistema de historia clínica electrónica",
+          "actual_text": "sistema de historia clínica electrónica",
+          "confidence": 0.790951132774353,
+          "start": 1392,
+          "end": 1431,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares",
+        "actual_text": "familiares",
+        "confidence": 0.959932804107666,
+        "start": 1005,
+        "end": 1015,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " sistema de historia clínica electrónica",
+        "actual_text": "sistema de historia clínica electrónica",
+        "confidence": 0.790951132774353,
+        "start": 1392,
+        "end": 1431,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares",
+        "actual_text": "familiares",
+        "confidence": 0.959932804107666,
+        "start": 1005,
+        "end": 1015,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " sistema de historia clínica electrónica",
+        "actual_text": "sistema de historia clínica electrónica",
+        "confidence": 0.790951132774353,
+        "start": 1392,
+        "end": 1431,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

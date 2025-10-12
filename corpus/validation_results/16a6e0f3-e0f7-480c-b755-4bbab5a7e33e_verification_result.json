@@ -1,0 +1,124 @@
+{
+  "document_id": "16a6e0f3-e0f7-480c-b755-4bbab5a7e33e",
+  "success": true,
+  "anonymized_text": "Informe de Consulta de Seguimiento A la atención de la XXX. Se presenta a consulta la paciente de sexo XXX para control evolutivo. La exploración física actual muestra una tensión arterial de 125/80 mmHg y frecuencia cardíaca de 72 lpm. La auscultación cardiorrespiratoria es normofonética sin soplos ni crepitantes. En el examen del aparato locomotor no se evidencian deformidades. Se procedió a la verificación de identidad mediante sistema biométrico, registrándose una XXX, que coincide con la documentación del caso. La paciente reconoce ser XXX, hábito sobre el que se ha insistido en la necesidad de abandono completo. Los resultados analíticos recientes, disponibles a través de la plataforma digital de la XXX, muestran un perfil lipídico dentro de parámetros normales. La resonancia magnética realizada evidencia hallazgos inespecíficos sin significación clínica relevante. Toda la documentación complementaria puede consultarse en el siguiente enlace: XXX. Como dato de anamnesis familiar, se menciona a XXX como familiar de referencia en caso de necesidad asistencial, junto con XXX. Para cualquier comunicación clínica, puede utilizarse el correo electrónico XXX. La XXX certifica que cuenta con la titulación de XXX requerida para la emisión de este informe. El vehículo particular asociado al desplazamiento de la paciente para sus consultas tiene identificado el código XXX. La documentación completa del proceso asistencial está archivada en el sistema con la referencia XXX. Se mantiene el plan terapéutico establecido y se programará nueva visita en función de la evolución. Se recuerda a la paciente la importancia de mantener controles periódicos dentro del sistema sanitario de la XXX, territorio donde reside habitualmente.",
+  "text_length": 1746,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9564816355705261,
+        "word": " familiar",
+        "start": 1024,
+        "end": 1032,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9564816355705261,
+          "start": 1024,
+          "end": 1032,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9564816355705261,
+          "start": 1024,
+          "end": 1032,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9564816355705261,
+        "start": 1024,
+        "end": 1032,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9564816355705261,
+        "start": 1024,
+        "end": 1032,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "document_id": "2904ebc6-6b92-4483-9c01-7399aa7d0ebf",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE ONCOLOGÍA** Se reevalúa a la paciente en consulta externa para seguimiento de su proceso oncológico. La exploración física actual muestra normopesión, auscultación cardiorrespiratoria rítmica y sin soplos, y abdomen blando y depresible sin masas palpables. En las pruebas de imagen complementarias realizadas se observa estabilidad del proceso, con buena tolerancia al tratamiento instaurado. Es importante destacar que en la documentación consta que la paciente es XXX, dato que debe ser tenido en cuenta para cualquier intervención farmacológica futura. Se ha proporcionado a la paciente información sobre los recursos de apoyo disponibles, haciendo especial hincapié en la derivación a un XXX, cuyo contacto se encuentra disponible a través de la URL XXX. Para facilitar el acceso a los servicios de esta institución, se le ha indicado que puede gestionar una cita a través de XXX. En el contexto del manejo integral de la sintomatología asociada, también se ha valorado la idoneidad de su incorporación a un XXX, dada la frecuente comorbilidad psicooncológica. Se procede a actualizar los datos de filiación en el sistema, confirmando el sexo sujeto asistencia como XXX. Los números de historia clínica XXX y XXX quedan vinculados en el registro. Para cuestiones administrativas, el número de benef plan salud XXX y el otro numero identif XXX están correctamente anotados. El profesional que suscribe el presente informe cuenta con la titulación personal sanitario de XXX. Como referencia interna para esta comunicación, se asigna el código XXX. Para cualquier gestión o contacto posterior, de referencia es la XXX, y el id contacto asistencial disponible es el XXX.",
+  "text_length": 1703,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7397564649581909,
+        "word": " benef plan salud",
+        "start": 1330,
+        "end": 1346,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " benef plan salud",
+          "actual_text": "benef plan salud",
+          "confidence": 0.7397564649581909,
+          "start": 1330,
+          "end": 1346,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " benef plan salud",
+          "actual_text": "benef plan salud",
+          "confidence": 0.7397564649581909,
+          "start": 1330,
+          "end": 1346,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9294208884239197,
+        "word": " clínica",
+        "start": 1232,
+        "end": 1239,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.9294208884239197,
+          "start": 1232,
+          "end": 1239,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.9294208884239197,
+          "start": 1232,
+          "end": 1239,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " benef plan salud",
+        "actual_text": "benef plan salud",
+        "confidence": 0.7397564649581909,
+        "start": 1330,
+        "end": 1346,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.9294208884239197,
+        "start": 1232,
+        "end": 1239,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " benef plan salud",
+        "actual_text": "benef plan salud",
+        "confidence": 0.7397564649581909,
+        "start": 1330,
+        "end": 1346,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.9294208884239197,
+        "start": 1232,
+        "end": 1239,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

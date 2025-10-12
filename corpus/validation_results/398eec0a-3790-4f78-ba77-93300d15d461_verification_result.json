@@ -1,0 +1,222 @@
+{
+  "document_id": "398eec0a-3790-4f78-ba77-93300d15d461",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa de Cirugía Vascular Paciente de sexo XXX, de XXX de edad, que es remitida a nuestra unidad para valoración quirúrgica tras la detección de un aneurisma de aorta abdominal infrarenal en estudio ecográfico rutinario. La paciente, natural de XXX, XXX, refiere un estado general conservado. La exploración física muestra pulsos femorales conservados bilateralmente, sin soplos abdominales audibles. Los resultados de la analítica prequirúrgica se encuentran dentro de parámetros aceptables para la intervención propuesta. La angio-TAC confirma la presencia de un aneurisma de 5.8 cm de diámetro máximo, con anatomía favorable para reparación endovascular. Se ha planificado la intervención con el equipo de cirugía cardiovascular, coordinando los recursos necesarios con la XXX. El procedimiento será realizado por el XXX Carlos Martínez, con número de identificación profesional XXX, a quien puede contactarse para cualquier coordinación en el correo electrónico XXX o a través del fax XXX. La documentación del caso queda registrada bajo la referencia interna XXX. Todos los dispositivos médicos a implantar, incluido el stent-graft, serán debidamente registrados con su identificador XXX en el protocolo quirúrgico. La supervisión del caso corresponde a la XXX, quien avala la indicación quirúrgica tras revisión colegiada del comité vascular. Se indica preparación preoperatoria estándar y se programará la intervención en la próxima sesión quirúrgica disponible, manteniendo a la paciente en seguimiento ambulatorio controlado.",
+  "text_length": 1556,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_SUJETO_ASISTENCIA",
+        "score": 0.7835907936096191,
+        "word": " Carlos Martínez",
+        "start": 846,
+        "end": 861,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_SUJETO_ASISTENCIA",
+          "word": " Carlos Martínez",
+          "actual_text": "Carlos Martínez",
+          "confidence": 0.7835907936096191,
+          "start": 846,
+          "end": 861,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_SUJETO_ASISTENCIA",
+          "word": " Carlos Martínez",
+          "actual_text": "Carlos Martínez",
+          "confidence": 0.7835907936096191,
+          "start": 846,
+          "end": 861,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.921133816242218,
+        "word": " XXX, XXX",
+        "start": 267,
+        "end": 275,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9607409834861755,
+        "word": " Martínez",
+        "start": 853,
+        "end": 861,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1,
+        "NOMBRE_PERSONAL_SANITARIO": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " XXX, XXX",
+          "actual_text": "XXX, XXX",
+          "confidence": 0.921133816242218,
+          "start": 267,
+          "end": 275,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Martínez",
+          "actual_text": "Martínez",
+          "confidence": 0.9607409834861755,
+          "start": 853,
+          "end": 861,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " XXX, XXX",
+          "actual_text": "XXX, XXX",
+          "confidence": 0.921133816242218,
+          "start": 267,
+          "end": 275,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Martínez",
+          "actual_text": "Martínez",
+          "confidence": 0.9607409834861755,
+          "start": 853,
+          "end": 861,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NOMBRE_SUJETO_ASISTENCIA": 1,
+      "ID_SUJETO_ASISTENCIA": 1,
+      "NOMBRE_PERSONAL_SANITARIO": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NOMBRE_SUJETO_ASISTENCIA",
+        "word": " Carlos Martínez",
+        "actual_text": "Carlos Martínez",
+        "confidence": 0.7835907936096191,
+        "start": 846,
+        "end": 861,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " XXX, XXX",
+        "actual_text": "XXX, XXX",
+        "confidence": 0.921133816242218,
+        "start": 267,
+        "end": 275,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Martínez",
+        "actual_text": "Martínez",
+        "confidence": 0.9607409834861755,
+        "start": 853,
+        "end": 861,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NOMBRE_SUJETO_ASISTENCIA",
+        "word": " Carlos Martínez",
+        "actual_text": "Carlos Martínez",
+        "confidence": 0.7835907936096191,
+        "start": 846,
+        "end": 861,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " XXX, XXX",
+        "actual_text": "XXX, XXX",
+        "confidence": 0.921133816242218,
+        "start": 267,
+        "end": 275,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Martínez",
+        "actual_text": "Martínez",
+        "confidence": 0.9607409834861755,
+        "start": 853,
+        "end": 861,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

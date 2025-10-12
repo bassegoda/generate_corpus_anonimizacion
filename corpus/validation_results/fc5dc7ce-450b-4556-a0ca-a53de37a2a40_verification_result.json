@@ -1,0 +1,269 @@
+{
+  "document_id": "fc5dc7ce-450b-4556-a0ca-a53de37a2a40",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA DE CARDIOCIRUGÍA** Paciente que acude para valoración quirúrgica tras completar el estudio preoperatorio. Se identifica con el nombre XXX y con el número de historia clínica XXX. La paciente es de sexo XXX y su documentación indica que reside en la XXX, XXX. La exploración física actual muestra un soplo sistólico III/VI en foco aórtico, sin otros hallazgos destacables. En las pruebas complementarias realizadas, el ecocardiograma Doppler evidencia estenosis aórtica severa con gradiente medio de 48 mmHg y área valvular de 0.8 cm². El electrocardiograma muestra ritmo sinusal a 72 lpm con signos de hipertrofia ventricular izquierda. La analítica completa está dentro de parámetros normales, sin alteraciones significativas. Tras revisar el caso de forma multidisciplinar, se considera candidata a intervención de recambio valvular aórtico. El procedimiento será realizado por el XXX del equipo, cuyo correo electrónico para coordinación es XXX. Para cualquier aspecto asistencial relacionado con el proceso, pueden contactar también con XXX. El dispositivo protésico que se implantará queda registrado con el identificador XXX, mientras que el número de serie del equipo de monitorización intraoperatoria será XXX. La intervención se llevará a cabo en General de Madrid, donde el XXX responsable desarrolla su actividad profesional. Para información adicional sobre el procedimiento, pueden consultar la página web XXX donde encontrarán material educativo para pacientes. Se programa la intervención para las próximas semanas, una vez completados los preparativos preoperatorios restantes. La paciente comprende las explicaciones y manifiesta su conformidad con el plan establecido.",
+  "text_length": 1708,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.8719139099121094,
+        "word": " General de Madrid",
+        "start": 1278,
+        "end": 1295,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.8719139099121094,
+          "start": 1278,
+          "end": 1295,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.8719139099121094,
+          "start": 1278,
+          "end": 1295,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.792018473148346,
+        "word": " historia clínica",
+        "start": 179,
+        "end": 195,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7485073804855347,
+        "word": " sexo",
+        "start": 219,
+        "end": 223,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.9864574074745178,
+        "word": " General de Madrid",
+        "start": 1278,
+        "end": 1295,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "ID_SUJETO_ASISTENCIA": 1,
+        "TERRITORIO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.792018473148346,
+          "start": 179,
+          "end": 195,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.7485073804855347,
+          "start": 219,
+          "end": 223,
+          "model": "CARMEN"
+        },
+        {
+          "label": "TERRITORIO",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9864574074745178,
+          "start": 1278,
+          "end": 1295,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.792018473148346,
+          "start": 179,
+          "end": 195,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.7485073804855347,
+          "start": 219,
+          "end": 223,
+          "model": "CARMEN"
+        },
+        {
+          "label": "TERRITORIO",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9864574074745178,
+          "start": 1278,
+          "end": 1295,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "ID_SUJETO_ASISTENCIA": 1,
+      "TERRITORIO": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.8719139099121094,
+        "start": 1278,
+        "end": 1295,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.792018473148346,
+        "start": 179,
+        "end": 195,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.7485073804855347,
+        "start": 219,
+        "end": 223,
+        "model": "CARMEN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9864574074745178,
+        "start": 1278,
+        "end": 1295,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.8719139099121094,
+        "start": 1278,
+        "end": 1295,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.792018473148346,
+        "start": 179,
+        "end": 195,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.7485073804855347,
+        "start": 219,
+        "end": 223,
+        "model": "CARMEN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9864574074745178,
+        "start": 1278,
+        "end": 1295,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

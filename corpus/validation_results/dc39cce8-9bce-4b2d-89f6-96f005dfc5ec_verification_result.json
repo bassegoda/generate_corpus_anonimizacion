@@ -1,0 +1,171 @@
+{
+  "document_id": "dc39cce8-9bce-4b2d-89f6-96f005dfc5ec",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución - Consulta Externa** Se procede a la evaluación de la paciente **XXX** en la consulta de seguimiento. Refiere mejoría parcial de la sintomatología previamente descrita. Como parte de la verificación de identidad y los registros de seguridad, se han documentado los identificadores biométricos correspondientes. XXX. Este patrón coincide con los archivos del sistema. Se ha registrado el identificador biométrico de XXX para completar el perfil de seguridad del paciente. Como parte del plan de manejo integral, se ha recomendado a la paciente el acceso al portal de recursos para pacientes de la **Clínica Barcelona**, disponible en **XXX**, donde podrá consultar material educativo sobre su condición. Asimismo, para la coordinación de su historial, se mantendrá comunicación con su centro de referencia, el **XXX**, ubicado en la **XXX**. Se ha actualizado la información de contacto, registrando su domicilio en **XXX**. En el apartado de contactos de apoyo, se ha incluido a **XXX** como persona de confianza y contacto principal en la sección de **familiares sujeto asistencia**. Para la completa integración de sus datos clínicos, se ha accedido a su historia digital centralizada a través del enlace **XXX**. Todos los hallazgos y la presente evolución han sido documentados bajo el número de registro **XXX**. Finalmente, y de cara a la gestión logística de desplazamientos para terapias programadas, se ha anotado el identificativo del vehículo, **XXX**. Se citará para control en un mes.",
+  "text_length": 1517,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.969499409198761,
+        "word": "Clínica Barcelona",
+        "start": 618,
+        "end": 635,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.976173996925354,
+        "word": "familiares",
+        "start": 1073,
+        "end": 1083,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1,
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": "Clínica Barcelona",
+          "actual_text": "Clínica Barcelona",
+          "confidence": 0.969499409198761,
+          "start": 618,
+          "end": 635,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": "familiares",
+          "actual_text": "familiares",
+          "confidence": 0.976173996925354,
+          "start": 1073,
+          "end": 1083,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": "Clínica Barcelona",
+          "actual_text": "Clínica Barcelona",
+          "confidence": 0.969499409198761,
+          "start": 618,
+          "end": 635,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": "familiares",
+          "actual_text": "familiares",
+          "confidence": 0.976173996925354,
+          "start": 1073,
+          "end": 1083,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": "Clínica Barcelona",
+        "actual_text": "Clínica Barcelona",
+        "confidence": 0.969499409198761,
+        "start": 618,
+        "end": 635,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": "familiares",
+        "actual_text": "familiares",
+        "confidence": 0.976173996925354,
+        "start": 1073,
+        "end": 1083,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": "Clínica Barcelona",
+        "actual_text": "Clínica Barcelona",
+        "confidence": 0.969499409198761,
+        "start": 618,
+        "end": 635,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": "familiares",
+        "actual_text": "familiares",
+        "confidence": 0.976173996925354,
+        "start": 1073,
+        "end": 1083,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

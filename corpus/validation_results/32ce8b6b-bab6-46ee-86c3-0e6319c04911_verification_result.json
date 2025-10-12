@@ -1,0 +1,315 @@
+{
+  "document_id": "32ce8b6b-bab6-46ee-86c3-0e6319c04911",
+  "success": true,
+  "anonymized_text": "Informe de Interconsulta Se remite a **XXX**, paciente de **XXX** que acude a nuestra consulta para valoración y seguimiento. El paciente, cuya profesión es **XXX**, fue evaluado inicialmente en la **XXX** y posteriormente derivado al ** Universitario La Paz** para continuar su proceso asistencial. En la exploración física actual, el paciente se presenta consciente y orientado. A la auscultación cardíaca, se identifican ruidos rítmicos sin soplos audibles. La auscultación pulmonar es bilateralmente simétrica, con buena entrada de aire y sin ruidos patológicos. El abdomen es blando y depresible, no doloroso a la palpación superficial y profunda. Los pulsos distales son palpables y simétricos. Respecto a los estudios complementarios realizados, la analítica general muestra un hemograma dentro de parámetros normales, con una leve elevación de los reactantes de fase aguda. En las pruebas de imagen, la radiografía de tórax no evidencia infiltrados patológicos ni derrame pleural. Se ha procedido a registrar todos los hallazgos bajo el número de historia clínica **XXX**. Para la gestión de su plan de salud, se ha verificado el número de beneficiario **XXX**. Se recomienda al paciente consultar la información disponible a través del portal **XXX** para acceder a recursos educativos sobre su condición. Asimismo, para cualquier actualización de su proceso, se sugiere utilizar la plataforma principal **XXX**. Se mantendrá al paciente en observación y se programará una nueva visita de control para reevaluar su evolución clínica. Se considera que el pronóstico es favorable con el seguimiento adecuado.",
+  "text_length": 1615,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.8950686454772949,
+        "word": " Universitario La Paz",
+        "start": 238,
+        "end": 258,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " Universitario La Paz",
+          "actual_text": "Universitario La Paz",
+          "confidence": 0.8950686454772949,
+          "start": 238,
+          "end": 258,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " Universitario La Paz",
+          "actual_text": "Universitario La Paz",
+          "confidence": 0.8950686454772949,
+          "start": 238,
+          "end": 258,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 4,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8164153099060059,
+        "word": " **",
+        "start": 157,
+        "end": 159,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PROFESION",
+        "score": 0.7106450200080872,
+        "word": "XXX**",
+        "start": 159,
+        "end": 164,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.959551990032196,
+        "word": " ** Universitario La Paz",
+        "start": 235,
+        "end": 258,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9471041560173035,
+        "word": " número de historia clínica",
+        "start": 1045,
+        "end": 1071,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 4,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1,
+        "PROFESION": 1,
+        "HOSPITAL": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 3,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.8164153099060059,
+          "start": 157,
+          "end": 159,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": "XXX**",
+          "actual_text": "XXX**",
+          "confidence": 0.7106450200080872,
+          "start": 159,
+          "end": 164,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " ** Universitario La Paz",
+          "actual_text": "** Universitario La Paz",
+          "confidence": 0.959551990032196,
+          "start": 235,
+          "end": 258,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " número de historia clínica",
+          "actual_text": "número de historia clínica",
+          "confidence": 0.9471041560173035,
+          "start": 1045,
+          "end": 1071,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.8164153099060059,
+          "start": 157,
+          "end": 159,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": "XXX**",
+          "actual_text": "XXX**",
+          "confidence": 0.7106450200080872,
+          "start": 159,
+          "end": 164,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " ** Universitario La Paz",
+          "actual_text": "** Universitario La Paz",
+          "confidence": 0.959551990032196,
+          "start": 235,
+          "end": 258,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " número de historia clínica",
+          "actual_text": "número de historia clínica",
+          "confidence": 0.9471041560173035,
+          "start": 1045,
+          "end": 1071,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 5,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "HOSPITAL": 2,
+      "ID_SUJETO_ASISTENCIA": 1,
+      "PROFESION": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 4,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "HOSPITAL",
+        "word": " Universitario La Paz",
+        "actual_text": "Universitario La Paz",
+        "confidence": 0.8950686454772949,
+        "start": 238,
+        "end": 258,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.8164153099060059,
+        "start": 157,
+        "end": 159,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": "XXX**",
+        "actual_text": "XXX**",
+        "confidence": 0.7106450200080872,
+        "start": 159,
+        "end": 164,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** Universitario La Paz",
+        "actual_text": "** Universitario La Paz",
+        "confidence": 0.959551990032196,
+        "start": 235,
+        "end": 258,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " número de historia clínica",
+        "actual_text": "número de historia clínica",
+        "confidence": 0.9471041560173035,
+        "start": 1045,
+        "end": 1071,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "HOSPITAL",
+        "word": " Universitario La Paz",
+        "actual_text": "Universitario La Paz",
+        "confidence": 0.8950686454772949,
+        "start": 238,
+        "end": 258,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.8164153099060059,
+        "start": 157,
+        "end": 159,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": "XXX**",
+        "actual_text": "XXX**",
+        "confidence": 0.7106450200080872,
+        "start": 159,
+        "end": 164,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** Universitario La Paz",
+        "actual_text": "** Universitario La Paz",
+        "confidence": 0.959551990032196,
+        "start": 235,
+        "end": 258,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " número de historia clínica",
+        "actual_text": "número de historia clínica",
+        "confidence": 0.9471041560173035,
+        "start": 1045,
+        "end": 1071,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 5,
+    "suspicious_detections": 5,
+    "xxxxxx_detections": 0,
+    "other_detections": 5
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

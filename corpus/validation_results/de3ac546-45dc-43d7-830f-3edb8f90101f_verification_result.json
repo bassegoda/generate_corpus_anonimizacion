@@ -1,0 +1,221 @@
+{
+  "document_id": "de3ac546-45dc-43d7-830f-3edb8f90101f",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución Hospitalaria** Se presenta a la señora XXX para valoración y seguimiento. La paciente, de sexo XXX, refiere mejoría parcial de la sintomatología que motivó su ingreso. A la exploración física actual, se observa buen estado general, afebril, con tensión arterial de 125/70 mmHg y frecuencia cardíaca de 78 lpm. La auscultación cardiorrespiratoria resulta dentro de la normalidad y el abdomen es blando y depresible, sin dolor a la palpación. Los análisis realizados el XXX muestran una normalización de los parámetros inflamatorios, con leucocitos en 7.500/mL y PCR de 4 mg/L. En la radiografía de control se aprecia una mejoría significativa del cuadro. Se procederá a la preparación del alta hospitalaria con un plan de seguimiento ambulatorio. Para la coordinación del alta y la gestión de la medicación, se ha establecido contacto con su familiar directa, XXX, quien se ha mostrado muy colaboradora. La documentación clínica completa está disponible para su revisión en el siguiente enlace: XXX. Asimismo, se ha remitido un resumen de la evolución al correo electrónico XXX para su conocimiento. La paciente tiene su residencia habitual en XXX. En cuanto a su identificación, presenta el número de seguro XXX y el código XXX. El vehículo en el que será trasladada tiene la matrícula XXX. Se considera que la evolución es favorable y se espera una recuperación completa en el domicilio.",
+  "text_length": 1408,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9047501087188721,
+        "word": " familiar directa,",
+        "start": 861,
+        "end": 878,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directa,",
+          "actual_text": "familiar directa,",
+          "confidence": 0.9047501087188721,
+          "start": 861,
+          "end": 878,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directa,",
+          "actual_text": "familiar directa,",
+          "confidence": 0.9047501087188721,
+          "start": 861,
+          "end": 878,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.780613362789154,
+        "word": " sexo",
+        "start": 110,
+        "end": 114,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9640271663665771,
+        "word": " familiar directa",
+        "start": 861,
+        "end": 877,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1,
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.780613362789154,
+          "start": 110,
+          "end": 114,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directa",
+          "actual_text": "familiar directa",
+          "confidence": 0.9640271663665771,
+          "start": 861,
+          "end": 877,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.780613362789154,
+          "start": 110,
+          "end": 114,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directa",
+          "actual_text": "familiar directa",
+          "confidence": 0.9640271663665771,
+          "start": 861,
+          "end": 877,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2,
+      "ID_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directa,",
+        "actual_text": "familiar directa,",
+        "confidence": 0.9047501087188721,
+        "start": 861,
+        "end": 878,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.780613362789154,
+        "start": 110,
+        "end": 114,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directa",
+        "actual_text": "familiar directa",
+        "confidence": 0.9640271663665771,
+        "start": 861,
+        "end": 877,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directa,",
+        "actual_text": "familiar directa,",
+        "confidence": 0.9047501087188721,
+        "start": 861,
+        "end": 878,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.780613362789154,
+        "start": 110,
+        "end": 114,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directa",
+        "actual_text": "familiar directa",
+        "confidence": 0.9640271663665771,
+        "start": 861,
+        "end": 877,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

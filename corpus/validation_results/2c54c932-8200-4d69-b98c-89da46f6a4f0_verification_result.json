@@ -1,0 +1,174 @@
+{
+  "document_id": "2c54c932-8200-4d69-b98c-89da46f6a4f0",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude a consulta para seguimiento y control. La exploración física general muestra un estado de conservación aceptable, con constantes vitales dentro de los parámetros normales. Se procedió a la identificación biométrica mediante la verificación de la XXX, confirmándose así la identidad de la persona asistida. El sexo sujeto asistencia es XXX. La paciente tiene asignado como centro de referencia el XXX, desde donde fue derivada para una valoración especializada en nuestro centro. La dirección registrada para las comunicaciones postales es XXX. El número benef plan salud activo es XXX, correspondiente al número de beneficiario XXX. En cuanto a la situación laboral del personal sanitario que la atiende, el médico de cabecera posee el correspondiente XXX y su identif empleo personal sanitario está debidamente registrado en el sistema. Este documento se emite desde el XXX, ubicado en la XXX, XXX. Para información adicional sobre la institución, se puede consultar la página web XXX. Se realizaron análisis de laboratorio que muestran un hemograma dentro de la normalidad y una bioquímica básica sin alteraciones significativas. La exploración por sistemas no revela hallazgos patológicos relevantes en la actualidad. Se mantendrá el seguimiento según lo establecido en su protocolo asistencial.",
+  "text_length": 1345,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "PROFESION",
+        "score": 0.8026140332221985,
+        "word": " sanitario",
+        "start": 832,
+        "end": 841,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "PROFESION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "PROFESION",
+          "word": " sanitario",
+          "actual_text": "sanitario",
+          "confidence": 0.8026140332221985,
+          "start": 832,
+          "end": 841,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "PROFESION",
+          "word": " sanitario",
+          "actual_text": "sanitario",
+          "confidence": 0.8026140332221985,
+          "start": 832,
+          "end": 841,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "PROFESION",
+        "score": 0.9653411507606506,
+        "word": " sanitario",
+        "start": 832,
+        "end": 841,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "PROFESION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "PROFESION",
+          "word": " sanitario",
+          "actual_text": "sanitario",
+          "confidence": 0.9653411507606506,
+          "start": 832,
+          "end": 841,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "PROFESION",
+          "word": " sanitario",
+          "actual_text": "sanitario",
+          "confidence": 0.9653411507606506,
+          "start": 832,
+          "end": 841,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "PROFESION": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "PROFESION",
+        "word": " sanitario",
+        "actual_text": "sanitario",
+        "confidence": 0.8026140332221985,
+        "start": 832,
+        "end": 841,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " sanitario",
+        "actual_text": "sanitario",
+        "confidence": 0.9653411507606506,
+        "start": 832,
+        "end": 841,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "PROFESION",
+        "word": " sanitario",
+        "actual_text": "sanitario",
+        "confidence": 0.8026140332221985,
+        "start": 832,
+        "end": 841,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " sanitario",
+        "actual_text": "sanitario",
+        "confidence": 0.9653411507606506,
+        "start": 832,
+        "end": 841,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

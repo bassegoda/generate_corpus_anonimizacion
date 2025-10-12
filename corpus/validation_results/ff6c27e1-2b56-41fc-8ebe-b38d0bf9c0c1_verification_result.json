@@ -1,0 +1,174 @@
+{
+  "document_id": "ff6c27e1-2b56-41fc-8ebe-b38d0bf9c0c1",
+  "success": true,
+  "anonymized_text": "Informe de Interconsulta de Neurología Se evalúa paciente remitido a esta consulta especializada para valoración de cefalea crónica. La sintomatología referida por el paciente es compatible con una cefalea de tipo tensional episódica, si bien se requiere completar el estudio para descartar otras etiologías subyacentes. La exploración neurológica en el día de hoy resulta anodina, sin signos meníngeos, con pares craneales conservados y sin focalidad motora o sensitiva. Se ha solicitado resonancia magnética craneal para una mejor caracterización, cuyos resultados se adjuntarán al expediente una vez disponibles. Para cualquier comunicación complementaria o envío de documentación adicional, queda a disposición el número de fax XXX. Cabe destacar que el profesional que suscribe este informe cuenta con la titulación de XXX y se encuentra debidamente colegiado. Mi identificación profesional como facultativo es XXX. Este documento queda registrado con el número de expediente XXX para su correcta trazabilidad en el sistema de historia clínica. Se recomienda control analgésico convencional y se reevaluará al paciente tras la obtención de las pruebas de imagen pendientes.",
+  "text_length": 1178,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7566232681274414,
+        "word": " expediente",
+        "start": 970,
+        "end": 980,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " expediente",
+          "actual_text": "expediente",
+          "confidence": 0.7566232681274414,
+          "start": 970,
+          "end": 980,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " expediente",
+          "actual_text": "expediente",
+          "confidence": 0.7566232681274414,
+          "start": 970,
+          "end": 980,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9862265586853027,
+        "word": " de historia clínica",
+        "start": 1029,
+        "end": 1048,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " de historia clínica",
+          "actual_text": "de historia clínica",
+          "confidence": 0.9862265586853027,
+          "start": 1029,
+          "end": 1048,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " de historia clínica",
+          "actual_text": "de historia clínica",
+          "confidence": 0.9862265586853027,
+          "start": 1029,
+          "end": 1048,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " expediente",
+        "actual_text": "expediente",
+        "confidence": 0.7566232681274414,
+        "start": 970,
+        "end": 980,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " de historia clínica",
+        "actual_text": "de historia clínica",
+        "confidence": 0.9862265586853027,
+        "start": 1029,
+        "end": 1048,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " expediente",
+        "actual_text": "expediente",
+        "confidence": 0.7566232681274414,
+        "start": 970,
+        "end": 980,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " de historia clínica",
+        "actual_text": "de historia clínica",
+        "confidence": 0.9862265586853027,
+        "start": 1029,
+        "end": 1048,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

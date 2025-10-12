@@ -1,0 +1,45 @@
+{
+  "id": "b37b9ad9-c4fd-4c9d-ac0a-5905cc9e7fd0",
+  "data": [
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-789123",
+      "start": 241,
+      "end": 255,
+      "anonymized_start": 154,
+      "anonymized_end": 157
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "612-345-678",
+      "start": 388,
+      "end": 399,
+      "anonymized_start": 290,
+      "anonymized_end": 293
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "huella dactilar derecha índice",
+      "start": 85,
+      "end": 115,
+      "anonymized_start": 43,
+      "anonymized_end": 46
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Ministerio de Sanidad",
+      "start": 676,
+      "end": 697,
+      "anonymized_start": 607,
+      "anonymized_end": 610
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Consejería de Salud de la Comunidad de Madrid",
+      "start": 739,
+      "end": 784,
+      "anonymized_start": 739,
+      "anonymized_end": 742
+    }
+  ]
+}

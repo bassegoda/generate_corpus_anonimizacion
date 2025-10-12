@@ -1,0 +1,175 @@
+{
+  "document_id": "d7dd8f0b-5ab9-47fd-a669-47bc526b02a2",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA - ENDOCRINOLOGÍA** Fecha de la consulta: XXX Estimada colega, En relación a la paciente **XXX**, remitida para valoración y seguimiento, se procede a la elaboración del presente informe. La paciente acude acompañada en esta ocasión por **XXX**. La exploración física actual revela parámetros dentro de la normalidad, con tensión arterial de 122/78 mmHg y frecuencia cardíaca de 72 lpm. No se palpan masas ni visceromegalias abdominales. Los resultados analíticos recientes muestran un perfil lipídico aceptable y una hemoglobina glicosilada del 6.8%, lo que indica un control glucémico moderado pero mejorable. Se ha reforzado la educación terapéutica, haciendo especial hincapié en la importancia de la adherencia al plan nutricional y la actividad física regular. En este contexto, se le ha recomendado encarecidamente la participación en el **XXX**, considerando que el apoyo psicosocial puede ser un pilar fundamental en el manejo crónico de su condición. Asimismo, dada la complejidad de su situación global, se ha considerado oportuno derivarla también al **XXX** para un abordaje integral. La documentación clínica completa, incluyendo los informes de pruebas complementarias, está disponible para su revisión a través de la plataforma institucional en la dirección **XXX**. Para cualquier coordinación adicional, puede contactarme directamente a través del correo electrónico **XXX**. Identificación de la paciente para el sistema de gestión: **XXX**. Número de identificación europeo: **XXX**. Atentamente, **XXX** **XXX** Especialista en Endocrinología y Nutrición",
+  "text_length": 1604,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FECHAS",
+        "score": 0.7342502474784851,
+        "word": " XXX Estimada colega",
+        "start": 71,
+        "end": 90,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FECHAS": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FECHAS",
+          "word": " XXX Estimada colega",
+          "actual_text": "XXX Estimada colega",
+          "confidence": 0.7342502474784851,
+          "start": 71,
+          "end": 90,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FECHAS",
+          "word": " XXX Estimada colega",
+          "actual_text": "XXX Estimada colega",
+          "confidence": 0.7342502474784851,
+          "start": 71,
+          "end": 90,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8871369361877441,
+        "word": " sistema de gestión",
+        "start": 1461,
+        "end": 1479,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " sistema de gestión",
+          "actual_text": "sistema de gestión",
+          "confidence": 0.8871369361877441,
+          "start": 1461,
+          "end": 1479,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " sistema de gestión",
+          "actual_text": "sistema de gestión",
+          "confidence": 0.8871369361877441,
+          "start": 1461,
+          "end": 1479,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FECHAS": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FECHAS",
+        "word": " XXX Estimada colega",
+        "actual_text": "XXX Estimada colega",
+        "confidence": 0.7342502474784851,
+        "start": 71,
+        "end": 90,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " sistema de gestión",
+        "actual_text": "sistema de gestión",
+        "confidence": 0.8871369361877441,
+        "start": 1461,
+        "end": 1479,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FECHAS",
+        "word": " XXX Estimada colega",
+        "actual_text": "XXX Estimada colega",
+        "confidence": 0.7342502474784851,
+        "start": 71,
+        "end": 90,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " sistema de gestión",
+        "actual_text": "sistema de gestión",
+        "confidence": 0.8871369361877441,
+        "start": 1461,
+        "end": 1479,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

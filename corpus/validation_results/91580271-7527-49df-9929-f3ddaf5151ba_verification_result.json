@@ -1,0 +1,124 @@
+{
+  "document_id": "91580271-7527-49df-9929-f3ddaf5151ba",
+  "success": true,
+  "anonymized_text": "Paciente: XXX con identificación XXX, de XXX de edad, acude para seguimiento postoperatorio. Se trata de una profesional con actividad laboral activa como XXX. Durante la evaluación se verifica la correcta cicatrización de la herida quirúrgica y se documenta el estado general satisfactorio. En relación con los sistemas de registro, se confirma la vinculación de su historia clínica principal bajo el código XXX. Para consulta de información complementaria se ha habilitado el acceso mediante XXX. Adicionalmente, se recomienda la revisión de material educativo disponible en la XXX. En el apartado de dispositivos médicos, se registra el implante con XXX, cuyo seguimiento se realizará de acuerdo al protocolo establecido. Asimismo, para la gestión de movilidad se anota el XXX. El XXX queda incorporado al expediente digital. Respecto a la cobertura sanitaria, la paciente presenta XXX, con cobertura proporcionada por la XXX en coordinación con la XXX. Para comunicación profesional se dispone del XXX. La exploración física evidencia buenos parámetros hemodinámicos con tensión arterial 125/70 mmHg y frecuencia cardíaca de 68 lpm. La auscultación cardiorrespiratoria resulta within normal limits y el examen abdominal muestra cicatriz limpia sin signos de complicación. Los resultados analíticos recientes muestran hemoglobina de 13.2 g/dL y proteína C reactiva de 0.8 mg/L, dentro de rangos adecuados para su situación clínica actual.",
+  "text_length": 1441,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "PROFESION",
+        "score": 0.8792479038238525,
+        "word": " profesional",
+        "start": 109,
+        "end": 120,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "PROFESION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "PROFESION",
+          "word": " profesional",
+          "actual_text": "profesional",
+          "confidence": 0.8792479038238525,
+          "start": 109,
+          "end": 120,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "PROFESION",
+          "word": " profesional",
+          "actual_text": "profesional",
+          "confidence": 0.8792479038238525,
+          "start": 109,
+          "end": 120,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "PROFESION": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "PROFESION",
+        "word": " profesional",
+        "actual_text": "profesional",
+        "confidence": 0.8792479038238525,
+        "start": 109,
+        "end": 120,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "PROFESION",
+        "word": " profesional",
+        "actual_text": "profesional",
+        "confidence": 0.8792479038238525,
+        "start": 109,
+        "end": 120,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

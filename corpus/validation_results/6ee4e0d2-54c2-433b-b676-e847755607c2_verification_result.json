@@ -1,0 +1,174 @@
+{
+  "document_id": "6ee4e0d2-54c2-433b-b676-e847755607c2",
+  "success": true,
+  "anonymized_text": "**NOTA DE EVOLUCIÓN – CONSULTA EXTERNA DE CARDIOLOGÍA** A la consulta externa de cardiología se presenta la paciente **XXX**, de **XXX**, para seguimiento de su cardiopatía hipertensiva de larga evolución. La paciente refiere proceder del **XXX**, ubicado en la **XXX**, desde donde fue derivada para valoración especializada. En la exploración física actual, se constata tensión arterial de 135/85 mmHg, frecuencia cardíaca regular a 68 lpm, sin soplos cardíacos apreciables. Los pulsos periféricos son simétricos y presentes. A la auscultación pulmonar, murmullo vesicular conservado sin ruidos sobreañadidos. Se revisa el electrocardiograma realizado, que muestra ritmo sinusal sin alteraciones agudas de la repolarización. Respecto a los estudios complementarios pendientes de revisar, se confirma la correcta instalación y funcionamiento del holter de presión arterial con número de serie **XXX**, así como del monitor de eventos cardíacos con **XXX**. Los registros obtenidos serán analizados en profundidad. La analítica reciente muestra un perfil lipídico dentro de objetivos terapéuticos. Se ha coordinado con el ** Virgen del Rocío** para la realización de una ergometría programada en las próximas semanas. El informe completo y los resultados de todas las pruebas serán incorporados a su historia clínica digital, accesible mediante el enlace **XXX**, y quedarán registrados bajo el número de historia **XXX**. Para cualquier gestión o comunicación urgente, queda registrado el número de teléfono **XXX**. La próxima cita de control queda fijada para el **XXX**. Se emite el presente informe con el código de registro **XXX** y se anota la referencia interna **XXX** para su trazabilidad. Se mantiene el tratamiento actual y se recomienda control estricto en su centro de atención primaria.",
+  "text_length": 1802,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.8689762949943542,
+        "word": " Virgen del Rocío",
+        "start": 1125,
+        "end": 1141,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " Virgen del Rocío",
+          "actual_text": "Virgen del Rocío",
+          "confidence": 0.8689762949943542,
+          "start": 1125,
+          "end": 1141,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " Virgen del Rocío",
+          "actual_text": "Virgen del Rocío",
+          "confidence": 0.8689762949943542,
+          "start": 1125,
+          "end": 1141,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9830108880996704,
+        "word": " ** Virgen del Rocío",
+        "start": 1122,
+        "end": 1141,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " ** Virgen del Rocío",
+          "actual_text": "** Virgen del Rocío",
+          "confidence": 0.9830108880996704,
+          "start": 1122,
+          "end": 1141,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " ** Virgen del Rocío",
+          "actual_text": "** Virgen del Rocío",
+          "confidence": 0.9830108880996704,
+          "start": 1122,
+          "end": 1141,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "HOSPITAL": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "HOSPITAL",
+        "word": " Virgen del Rocío",
+        "actual_text": "Virgen del Rocío",
+        "confidence": 0.8689762949943542,
+        "start": 1125,
+        "end": 1141,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** Virgen del Rocío",
+        "actual_text": "** Virgen del Rocío",
+        "confidence": 0.9830108880996704,
+        "start": 1122,
+        "end": 1141,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "HOSPITAL",
+        "word": " Virgen del Rocío",
+        "actual_text": "Virgen del Rocío",
+        "confidence": 0.8689762949943542,
+        "start": 1125,
+        "end": 1141,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** Virgen del Rocío",
+        "actual_text": "** Virgen del Rocío",
+        "confidence": 0.9830108880996704,
+        "start": 1122,
+        "end": 1141,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

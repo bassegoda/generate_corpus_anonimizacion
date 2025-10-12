@@ -1,0 +1,124 @@
+{
+  "document_id": "e2552e18-fd67-426d-b8da-e633ec144b31",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada, se procedió a la revisión de los antecedentes y situación actual del paciente. Como parte del protocolo asistencial, se ha verificado la correcta identificación del equipo médico utilizado durante la exploración, cuyo número de serie XXX queda registrado en este documento. Los hallazgos físicos incluyen auscultación cardiorrespiratoria sin soplos ni crepitantes, abdomen blando y depresible sin masas palpables, y extremidades sin edemas ni signos de trombosis. Para completar la evaluación, se ha consultado la historia clínica electrónica disponible a través de XXX donde consta información relevante del seguimiento previo. Como apoyo al manejo del caso, se ha coordinado la atención con el personal sanitario identificado con código XXX, quien ha participado en el proceso asistencial. En el ámbito familiar, se ha establecido contacto con XXX del paciente, quien se constituye como principal apoyo en el manejo y seguimiento del proceso de salud. Esta información sobre los resulta fundamental para garantizar la continuidad asistencial y el cumplimiento de las recomendaciones terapéuticas. Como parte de los recursos institucionales disponibles, se recuerda que la plataforma XXX contiene material educativo de utilidad para los pacientes y sus familias. Los resultados analíticos muestran un hemograma dentro de parámetros normales y una bioquímica básica sin alteraciones significativas, pendientes de inmunología especializada.",
+  "text_length": 1475,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9322089552879333,
+        "word": " familias",
+        "start": 1290,
+        "end": 1298,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familias",
+          "actual_text": "familias",
+          "confidence": 0.9322089552879333,
+          "start": 1290,
+          "end": 1298,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familias",
+          "actual_text": "familias",
+          "confidence": 0.9322089552879333,
+          "start": 1290,
+          "end": 1298,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familias",
+        "actual_text": "familias",
+        "confidence": 0.9322089552879333,
+        "start": 1290,
+        "end": 1298,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familias",
+        "actual_text": "familias",
+        "confidence": 0.9322089552879333,
+        "start": 1290,
+        "end": 1298,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

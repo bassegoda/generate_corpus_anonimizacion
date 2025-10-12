@@ -1,0 +1,220 @@
+{
+  "document_id": "b536e4de-78af-4747-9762-383f8bba9e88",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa En la consulta de seguimiento realizada el día XXX, se reevalúa a la paciente para control de su cuadro. La exploración física actual muestra una tensión arterial de 125/80 mmHg y frecuencia cardíaca de 72 lpm, en rango de normalidad. Se constata una buena evolución del proceso, con mejoría subjetiva de la sintomatología referida en la visita anterior. Los ruidos respiratorios son normovesiculares y el abdomen es blando y depresible, sin masas ni dolor a la palpación. Se ha procedido a la actualización de los datos de contacto en el sistema, quedando registrado el identificador de contacto asistencial XXX. Para facilitar la comunicación y el envío de futuros recordatorios o resultados, se ha consignado la dirección de correo electrónico XXX, proporcionada por los familiares de la sujeto de asistencia durante la sesión. Dado el buen estado general y la favorable respuesta a las medidas instauradas, se decide mantener el plan terapéutico actual. Se programará una nueva visita de control en un plazo de tres meses. Este documento ha sido generado desde el XXX, donde se continuará brindando seguimiento a la evolución de XXX. Se recomienda a los familiares de la sujeto de asistencia mantener una vigilancia activa de los síntomas acordados.",
+  "text_length": 1281,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9337104558944702,
+        "word": " familiares de",
+        "start": 802,
+        "end": 815,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9192395210266113,
+        "word": " familiares de",
+        "start": 1186,
+        "end": 1199,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares de",
+          "actual_text": "familiares de",
+          "confidence": 0.9337104558944702,
+          "start": 802,
+          "end": 815,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares de",
+          "actual_text": "familiares de",
+          "confidence": 0.9192395210266113,
+          "start": 1186,
+          "end": 1199,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares de",
+          "actual_text": "familiares de",
+          "confidence": 0.9337104558944702,
+          "start": 802,
+          "end": 815,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares de",
+          "actual_text": "familiares de",
+          "confidence": 0.9192395210266113,
+          "start": 1186,
+          "end": 1199,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9300943613052368,
+        "word": " día XXX",
+        "start": 71,
+        "end": 78,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FECHAS": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FECHAS",
+          "word": " día XXX",
+          "actual_text": "día XXX",
+          "confidence": 0.9300943613052368,
+          "start": 71,
+          "end": 78,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FECHAS",
+          "word": " día XXX",
+          "actual_text": "día XXX",
+          "confidence": 0.9300943613052368,
+          "start": 71,
+          "end": 78,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2,
+      "FECHAS": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares de",
+        "actual_text": "familiares de",
+        "confidence": 0.9337104558944702,
+        "start": 802,
+        "end": 815,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares de",
+        "actual_text": "familiares de",
+        "confidence": 0.9192395210266113,
+        "start": 1186,
+        "end": 1199,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " día XXX",
+        "actual_text": "día XXX",
+        "confidence": 0.9300943613052368,
+        "start": 71,
+        "end": 78,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares de",
+        "actual_text": "familiares de",
+        "confidence": 0.9337104558944702,
+        "start": 802,
+        "end": 815,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares de",
+        "actual_text": "familiares de",
+        "confidence": 0.9192395210266113,
+        "start": 1186,
+        "end": 1199,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " día XXX",
+        "actual_text": "día XXX",
+        "confidence": 0.9300943613052368,
+        "start": 71,
+        "end": 78,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

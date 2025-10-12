@@ -1,0 +1,174 @@
+{
+  "document_id": "8e422905-c3e9-4411-903d-376c6f88ab33",
+  "success": true,
+  "anonymized_text": "**NOTA DE EVOLUCIÓN - CONSULTA EXTERNA** A la consulta acude paciente de **XXX** para seguimiento de su patología crónica. La exploración física actual muestra tensión arterial de 135/80 mmHg, frecuencia cardíaca de 72 lpm y saturación de oxígeno del 96%. A la auscultación cardíaca se perciben ruidos rítmicos sin soplos, y la auscultación pulmonar es limpia con murmullo vesicular conservado. El vehículo particular del paciente, identificado con matrícula **XXX**, ha sido adaptado recientemente para facilitar su movilidad dada su condición. Cabe mencionar que el paciente reside en **XXX**, concretamente en la **XXX**, donde recibe cobertura sanitaria completa. En relación con su titulación académica, quien suscribe, **XXX**, es profesional titulada con **XXX** y ejerce conforme a la legislación vigente. Para una revisión completa de la historia clínica del paciente, se puede acceder a través de los siguientes enlaces institucionales: XXX y XXX. Se mantiene el tratamiento actual al no objetivarse cambios significativos en su estado general. Se programará próxima revisión en seis meses para valorar evolución y ajustar terapéutica si fuera necesario.",
+  "text_length": 1164,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "PROFESION",
+        "score": 0.9250487089157104,
+        "word": " profesional",
+        "start": 737,
+        "end": 748,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "PROFESION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "PROFESION",
+          "word": " profesional",
+          "actual_text": "profesional",
+          "confidence": 0.9250487089157104,
+          "start": 737,
+          "end": 748,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "PROFESION",
+          "word": " profesional",
+          "actual_text": "profesional",
+          "confidence": 0.9250487089157104,
+          "start": 737,
+          "end": 748,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "PROFESION",
+        "score": 0.7660713195800781,
+        "word": " profesional titulada",
+        "start": 737,
+        "end": 757,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "PROFESION": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "PROFESION",
+          "word": " profesional titulada",
+          "actual_text": "profesional titulada",
+          "confidence": 0.7660713195800781,
+          "start": 737,
+          "end": 757,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "PROFESION",
+          "word": " profesional titulada",
+          "actual_text": "profesional titulada",
+          "confidence": 0.7660713195800781,
+          "start": 737,
+          "end": 757,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "PROFESION": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "PROFESION",
+        "word": " profesional",
+        "actual_text": "profesional",
+        "confidence": 0.9250487089157104,
+        "start": 737,
+        "end": 748,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " profesional titulada",
+        "actual_text": "profesional titulada",
+        "confidence": 0.7660713195800781,
+        "start": 737,
+        "end": 757,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "PROFESION",
+        "word": " profesional",
+        "actual_text": "profesional",
+        "confidence": 0.9250487089157104,
+        "start": 737,
+        "end": 748,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " profesional titulada",
+        "actual_text": "profesional titulada",
+        "confidence": 0.7660713195800781,
+        "start": 737,
+        "end": 757,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "document_id": "72aeccc1-4f9b-42c9-b518-331143e76fd8",
+  "success": true,
+  "anonymized_text": "En el contexto del seguimiento del paciente, se procede a la actualización de su documentación clínica. El sujeto de asistencia, de XXX, continúa su control ambulatorio tras el último ingreso. La exploración física actual revela un estado general conservado, con constantes dentro de la normalidad y buena tolerancia a la actividad física habitual. Los resultados analíticos recientes muestran un perfil lipídico dentro de objetivos terapéuticos y función renal estable. Respecto a los dispositivos médicos en uso, se registran los siguientes números de serie para su trazabilidad: XXX y XXX. El número de historia clínica principal es XXX. Para cualquier gestión o consulta, la institución de referencia es el XXX, dependiente de la XXX. El país de residencia y asistencia es XXX, siendo la comunidad autónoma de origen la XXX. Los datos de contacto asistencial para coordinación con el centro son el XXX. La dirección postal registrada para notificaciones es XXX. El número de identificación de aseguramiento es XXX y el documento nacional de salud XXX. Se recomienda al paciente consultar la página web XXX para acceder a recursos educativos sobre su condición. El número de beneficiario del plan de salud vigente es NUM-789012345.",
+  "text_length": 1234,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.9661511778831482,
+        "word": "789012345",
+        "start": 1224,
+        "end": 1233,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "789012345",
+          "actual_text": "789012345",
+          "confidence": 0.9661511778831482,
+          "start": 1224,
+          "end": 1233,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "789012345",
+          "actual_text": "789012345",
+          "confidence": 0.9661511778831482,
+          "start": 1224,
+          "end": 1233,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.9102057218551636,
+        "word": " N",
+        "start": 1220,
+        "end": 1221,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_IDENTIF": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " N",
+          "actual_text": "N",
+          "confidence": 0.9102057218551636,
+          "start": 1220,
+          "end": 1221,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " N",
+          "actual_text": "N",
+          "confidence": 0.9102057218551636,
+          "start": 1220,
+          "end": 1221,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 1,
+      "NUMERO_IDENTIF": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "789012345",
+        "actual_text": "789012345",
+        "confidence": 0.9661511778831482,
+        "start": 1224,
+        "end": 1233,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " N",
+        "actual_text": "N",
+        "confidence": 0.9102057218551636,
+        "start": 1220,
+        "end": 1221,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "789012345",
+        "actual_text": "789012345",
+        "confidence": 0.9661511778831482,
+        "start": 1224,
+        "end": 1233,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " N",
+        "actual_text": "N",
+        "confidence": 0.9102057218551636,
+        "start": 1220,
+        "end": 1221,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

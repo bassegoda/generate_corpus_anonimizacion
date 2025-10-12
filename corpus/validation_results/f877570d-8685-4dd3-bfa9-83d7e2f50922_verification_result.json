@@ -1,0 +1,219 @@
+{
+  "document_id": "f877570d-8685-4dd3-bfa9-83d7e2f50922",
+  "success": true,
+  "anonymized_text": "En relación con el intercambio de información clínica entre centros, se procede a la elaboración del presente informe de coordinación asistencial. El sujeto de asistencia con identificación XXX fue valorado en consultas externas de nuestro centro, General de Valencia, para segunda opinión sobre su proceso. Se mantendrá comunicación con su hospital de referencia, Clínico San Carlos, para asegurar la continuidad de la atención. Respecto a los aspectos organizativos, se ha registrado el número de beneficio del plan de salud XXX en nuestro sistema. Para cualquier gestión administrativa o consulta relacionada con este episodio, la institución de contacto es el XXX. El identificador único del episodio asignado por esta institución es XXX. En el ámbito de la documentación clínica, la historia principal queda archivada bajo el código XXX, mientras que las imágenes del estudio de tomografía computarizada se almacenan con la referencia XXX. El profesional sanitario que suscribe este documento tiene asignado el identificador laboral XXX. Para facilitar la comunicación interdepartamental, se ha establecido como contacto directo el número de teléfono XXX. Cabe mencionar que se ha verificado la cobertura sanitaria del paciente a través del XXX, confirmando la vigencia de su acreditación con el número XXX. Se considera que con estos elementos queda garantizada la adecuada coordinación entre los diferentes niveles asistenciales implicados en el proceso.",
+  "text_length": 1461,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9804235100746155,
+        "word": " Clínico San Carlos",
+        "start": 365,
+        "end": 383,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9804235100746155,
+          "start": 365,
+          "end": 383,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9804235100746155,
+          "start": 365,
+          "end": 383,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9066670536994934,
+        "word": " General de Valencia",
+        "start": 248,
+        "end": 267,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9461386203765869,
+        "word": " Clínico San Carlos",
+        "start": 365,
+        "end": 383,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Valencia",
+          "actual_text": "General de Valencia",
+          "confidence": 0.9066670536994934,
+          "start": 248,
+          "end": 267,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9461386203765869,
+          "start": 365,
+          "end": 383,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Valencia",
+          "actual_text": "General de Valencia",
+          "confidence": 0.9066670536994934,
+          "start": 248,
+          "end": 267,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9461386203765869,
+          "start": 365,
+          "end": 383,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "HOSPITAL": 3
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9804235100746155,
+        "start": 365,
+        "end": 383,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Valencia",
+        "actual_text": "General de Valencia",
+        "confidence": 0.9066670536994934,
+        "start": 248,
+        "end": 267,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9461386203765869,
+        "start": 365,
+        "end": 383,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9804235100746155,
+        "start": 365,
+        "end": 383,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Valencia",
+        "actual_text": "General de Valencia",
+        "confidence": 0.9066670536994934,
+        "start": 248,
+        "end": 267,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9461386203765869,
+        "start": 365,
+        "end": 383,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

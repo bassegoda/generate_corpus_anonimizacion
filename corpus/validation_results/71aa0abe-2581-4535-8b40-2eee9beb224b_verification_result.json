@@ -1,0 +1,174 @@
+{
+  "document_id": "71aa0abe-2581-4535-8b40-2eee9beb224b",
+  "success": true,
+  "anonymized_text": "Informe de Interconsulta Paciente que se encuentra en seguimiento por miopatía inflamatoria crónica con respuesta parcial al tratamiento inmunosupresor convencional. Se decide solicitar interconsulta con el servicio de referencia en enfermedades autoinmunes sistémicas para valoración de terapias biológicas. La documentación clínica completa, incluyendo electromiograma y biopsia muscular, ha sido remitida a la unidad especializada de la **XXX** para su evaluación por el comité multidisciplinar. Se adjunta en el expediente la confirmación de recepción por parte de dicha unidad. Para cualquier comunicación adicional relacionada con este caso, queda registrado el número de beneficio del plan de salud **XXX** como identificador principal. La coordinación entre administraciones se realizará a través de los canales establecidos por el **XXX** para la movilidad asistencial entre comunidades autónomas. En cuanto a los resultados complementarios, la resonancia magnética muscular de muslos muestra edema difuso en grupos musculares proximales, compatible con actividad inflamatoria. Los marcadores serológicos reflejan elevación persistente de CPK hasta 1.245 UI/L, con anticuerpos específicos pendientes de determinación por el laboratorio de referencia de **XXX**. Para el envío de documentación complementaria o informes de evolución, se ha facilitado el fax institucional **XXX** como vía de comunicación preferente con el servicio de neurología interconsultante. Se mantendrá seguimiento estrecho mientras se espera la respuesta de la unidad de enfermedades autoinmunes.",
+  "text_length": 1579,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7425607442855835,
+        "word": " plan",
+        "start": 692,
+        "end": 696,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.7425607442855835,
+          "start": 692,
+          "end": 696,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.7425607442855835,
+          "start": 692,
+          "end": 696,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7519209384918213,
+        "word": " plan de",
+        "start": 692,
+        "end": 699,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de",
+          "actual_text": "plan de",
+          "confidence": 0.7519209384918213,
+          "start": 692,
+          "end": 699,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de",
+          "actual_text": "plan de",
+          "confidence": 0.7519209384918213,
+          "start": 692,
+          "end": 699,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.7425607442855835,
+        "start": 692,
+        "end": 696,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de",
+        "actual_text": "plan de",
+        "confidence": 0.7519209384918213,
+        "start": 692,
+        "end": 699,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.7425607442855835,
+        "start": 692,
+        "end": 696,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de",
+        "actual_text": "plan de",
+        "confidence": 0.7519209384918213,
+        "start": 692,
+        "end": 699,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

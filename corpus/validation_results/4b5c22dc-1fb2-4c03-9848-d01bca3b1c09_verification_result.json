@@ -1,0 +1,174 @@
+{
+  "document_id": "4b5c22dc-1fb2-4c03-9848-d01bca3b1c09",
+  "success": true,
+  "anonymized_text": "Informe de Interconsulta Paciente que acude remitida desde el XXX para valoración especializada en consultas externas. La paciente, de XXX, presenta un cuadro que requiere evaluación por parte del servicio de cirugía. Se ha coordinado su derivación al XXX para completar el estudio. En la exploración física realizada, se ha registrado para su identificación biométrica la XXX. La paciente ejerce la profesión de XXX, específicamente como XXX, lo que resulta relevante para la comprensión de su historial y su percepción del proceso asistencial. El número de beneficio de plan de salud asignado es el XXX y el identificador de contacto asistencial es XXX. Respecto a su situación personal, reside en la dirección XXX y su documento de identificación es el XXX. El país de residencia y atención es XXX. Como parte de la documentación adjunta, se incluye referencia a información disponible en el portal XXX para complementar la formación sobre su condición. Se mantendrá comunicación con sus Familiares Sujeto Asistencia, en particular con XXX, para informar sobre la evolución. Se solicita interconsulta con el servicio de cirugía del XXX para opinión y manejo conjunto, dada la complejidad del caso.",
+  "text_length": 1200,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9471445083618164,
+        "word": " Familiares Sujeto Asistencia",
+        "start": 991,
+        "end": 1019,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " Familiares Sujeto Asistencia",
+          "actual_text": "Familiares Sujeto Asistencia",
+          "confidence": 0.9471445083618164,
+          "start": 991,
+          "end": 1019,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " Familiares Sujeto Asistencia",
+          "actual_text": "Familiares Sujeto Asistencia",
+          "confidence": 0.9471445083618164,
+          "start": 991,
+          "end": 1019,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7519118189811707,
+        "word": " Familiares",
+        "start": 991,
+        "end": 1001,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " Familiares",
+          "actual_text": "Familiares",
+          "confidence": 0.7519118189811707,
+          "start": 991,
+          "end": 1001,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " Familiares",
+          "actual_text": "Familiares",
+          "confidence": 0.7519118189811707,
+          "start": 991,
+          "end": 1001,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " Familiares Sujeto Asistencia",
+        "actual_text": "Familiares Sujeto Asistencia",
+        "confidence": 0.9471445083618164,
+        "start": 991,
+        "end": 1019,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " Familiares",
+        "actual_text": "Familiares",
+        "confidence": 0.7519118189811707,
+        "start": 991,
+        "end": 1001,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " Familiares Sujeto Asistencia",
+        "actual_text": "Familiares Sujeto Asistencia",
+        "confidence": 0.9471445083618164,
+        "start": 991,
+        "end": 1019,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " Familiares",
+        "actual_text": "Familiares",
+        "confidence": 0.7519118189811707,
+        "start": 991,
+        "end": 1001,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

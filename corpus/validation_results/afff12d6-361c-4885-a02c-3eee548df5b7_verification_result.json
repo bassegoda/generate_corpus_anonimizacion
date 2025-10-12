@@ -1,0 +1,124 @@
+{
+  "document_id": "afff12d6-361c-4885-a02c-3eee548df5b7",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE NEUROLOGÍA** Paciente que acude a consulta para seguimiento de su proceso. En relación con la documentación presentada, se verifica la identificación principal con el número XXX, así como el documento complementario XXX. La paciente reside en XXX y su país de origen es XXX. Durante la anamnesis, se recoge información de contacto proporcionada por la propia paciente, incluyendo el número de teléfono XXX. Para aspectos administrativos y coordinación con los servicios de salud, se dispone del correo electrónico XXX. La atención se coordina con el XXX, manteniendo comunicación con la XXX para determinados aspectos asistenciales, en el marco de las directrices establecidas por el XXX. En el apartado de antecedentes familiares y situación social, se menciona a XXX como familiar directo involucrado en la asistencia. Para contacto en caso de necesidad, se ha facilitado adicionalmente el número telefónico XXX. Como profesional responsable de este informe, firmo como XXX. En cuanto a documentación vehicular relacionada con el desplazamiento a centros sanitarios, se registra la referencia XXX. Completan la identificación del caso los números XXX y XXX. **Exploración neurológica**: El examen muestra pupilas isocóricas y reactivas. Pares craneales conservados. Fuerza muscular 5/5 en cuatro extremidades. Sensibilidad conservada a todos las modalidades. Reflejos osteotendinosos normales y simétricos. Coordinación y marcha dentro de parámetros normales. **Pruebas complementarias revisadas**: Analítica reciente sin hallazgos significativos. Resonancia magnética cerebral informada como normal, sin evidencia de lesiones agudas o actividad inflamatoria. Se mantiene seguimiento ambulatorio con controles periódicos. Se recomienda continuar con el plan terapéutico establecido y se cita para reevaluación en tres meses.",
+  "text_length": 1859,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.976231575012207,
+        "word": " familiar directo",
+        "start": 807,
+        "end": 823,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directo",
+          "actual_text": "familiar directo",
+          "confidence": 0.976231575012207,
+          "start": 807,
+          "end": 823,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directo",
+          "actual_text": "familiar directo",
+          "confidence": 0.976231575012207,
+          "start": 807,
+          "end": 823,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directo",
+        "actual_text": "familiar directo",
+        "confidence": 0.976231575012207,
+        "start": 807,
+        "end": 823,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directo",
+        "actual_text": "familiar directo",
+        "confidence": 0.976231575012207,
+        "start": 807,
+        "end": 823,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

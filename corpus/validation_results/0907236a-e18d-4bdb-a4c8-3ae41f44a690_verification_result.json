@@ -1,0 +1,175 @@
+{
+  "document_id": "0907236a-e18d-4bdb-a4c8-3ae41f44a690",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Psiquiátrica y Plan Terapéutico Evaluación realizada por la XXX en consulta externa. Se presenta a valoración XXX, quien acude acompañada de su familiar XXX para seguimiento de su situación clínica. La paciente de XXX refiere mejoría parcial de la sintomatología ansiosa desde su incorporación al grupo de apoyo de ansiedad, aunque persisten episodios de inquietud psicomotriz. En la exploración física actual, se constata estabilidad en parámetros vitales y se procede a la actualización de los registros identificativos mediante la XXX. En relación a la documentación clínica, se verifica la correspondencia entre la historia clínica XXX y el número de identificación XXX. Para la coordinación con servicios sociales, se incluye la referencia administrativa XXX del XXX. La dirección registrada para notificaciones es XXX. Como complemento al tratamiento actual, se considera pertinente la revisión de la evolución documentada en XXX para valorar ajustes en la estrategia terapéutica. Se mantendrá la participación en las intervenciones grupales establecidas con seguimiento periódico de la respuesta al tratamiento integral. : XXX",
+  "text_length": 1155,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9384478330612183,
+        "word": " familiar XXX",
+        "start": 166,
+        "end": 178,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.9384478330612183,
+          "start": 166,
+          "end": 178,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.9384478330612183,
+          "start": 166,
+          "end": 178,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7841736078262329,
+        "word": " historia clínica",
+        "start": 641,
+        "end": 657,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.7841736078262329,
+          "start": 641,
+          "end": 657,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.7841736078262329,
+          "start": 641,
+          "end": 657,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.9384478330612183,
+        "start": 166,
+        "end": 178,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.7841736078262329,
+        "start": 641,
+        "end": 657,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.9384478330612183,
+        "start": 166,
+        "end": 178,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.7841736078262329,
+        "start": 641,
+        "end": 657,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

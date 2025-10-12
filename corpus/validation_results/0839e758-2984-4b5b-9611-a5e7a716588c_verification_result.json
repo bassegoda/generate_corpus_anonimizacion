@@ -1,0 +1,221 @@
+{
+  "document_id": "0839e758-2984-4b5b-9611-a5e7a716588c",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución** A doce de julio de dos mil veintitrés, XXX, se procede a la actualización de la historia clínica con identificador XXX. La valoración integral del paciente fue realizada en el XXX por la XXX, profesional que ostenta el XXX y cuyo identificador de personal sanitario es XXX. La exploración física actual revela un estado general conservado, con constantes vitales dentro de la normalidad. La auscultación cardiorrespiratoria es rítmica y sin soplos, con murmullo vesicular conservado. En el abdomen, no se palpan masas ni se objetiva hepatomegalia. Los resultados analíticos recientes, disponibles a través de nuestro sistema interno en XXX, muestran un perfil bioquímico sin alteraciones significativas. Se recomienda al paciente consultar los recursos de educación para la salud disponibles en el portal XXX. Para cualquier gestión administrativa, se recuerda el número de beneficiario del plan de salud XXX. Se mantendrá seguimiento estrecho según la evolución clínica.",
+  "text_length": 993,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9618859887123108,
+        "word": " doce de julio de dos mil",
+        "start": 24,
+        "end": 48,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FECHAS": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FECHAS",
+          "word": " doce de julio de dos mil",
+          "actual_text": "doce de julio de dos mil",
+          "confidence": 0.9618859887123108,
+          "start": 24,
+          "end": 48,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FECHAS",
+          "word": " doce de julio de dos mil",
+          "actual_text": "doce de julio de dos mil",
+          "confidence": 0.9618859887123108,
+          "start": 24,
+          "end": 48,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9338874816894531,
+        "word": " doce de julio de dos mil veinti",
+        "start": 24,
+        "end": 55,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8376796245574951,
+        "word": " sistema interno",
+        "start": 639,
+        "end": 654,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FECHAS": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FECHAS",
+          "word": " doce de julio de dos mil veinti",
+          "actual_text": "doce de julio de dos mil veinti",
+          "confidence": 0.9338874816894531,
+          "start": 24,
+          "end": 55,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " sistema interno",
+          "actual_text": "sistema interno",
+          "confidence": 0.8376796245574951,
+          "start": 639,
+          "end": 654,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FECHAS",
+          "word": " doce de julio de dos mil veinti",
+          "actual_text": "doce de julio de dos mil veinti",
+          "confidence": 0.9338874816894531,
+          "start": 24,
+          "end": 55,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " sistema interno",
+          "actual_text": "sistema interno",
+          "confidence": 0.8376796245574951,
+          "start": 639,
+          "end": 654,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FECHAS": 2,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FECHAS",
+        "word": " doce de julio de dos mil",
+        "actual_text": "doce de julio de dos mil",
+        "confidence": 0.9618859887123108,
+        "start": 24,
+        "end": 48,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " doce de julio de dos mil veinti",
+        "actual_text": "doce de julio de dos mil veinti",
+        "confidence": 0.9338874816894531,
+        "start": 24,
+        "end": 55,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " sistema interno",
+        "actual_text": "sistema interno",
+        "confidence": 0.8376796245574951,
+        "start": 639,
+        "end": 654,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FECHAS",
+        "word": " doce de julio de dos mil",
+        "actual_text": "doce de julio de dos mil",
+        "confidence": 0.9618859887123108,
+        "start": 24,
+        "end": 48,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " doce de julio de dos mil veinti",
+        "actual_text": "doce de julio de dos mil veinti",
+        "confidence": 0.9338874816894531,
+        "start": 24,
+        "end": 55,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " sistema interno",
+        "actual_text": "sistema interno",
+        "confidence": 0.8376796245574951,
+        "start": 639,
+        "end": 654,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

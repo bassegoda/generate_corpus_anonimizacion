@@ -1,0 +1,174 @@
+{
+  "document_id": "9f77fbd9-4e59-443e-b76d-a0dd62c89675",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA** La paciente XXX acude a consulta para seguimiento de su proceso. Se identifica con el número de historia clínica XXX y con documento de identidad XXX. Reside en XXX, dentro de la XXX, en XXX. Para posibles contactos de asistencia, disponemos del número de teléfono XXX. La exploración física actual muestra buen estado general, con constantes vitales dentro de la normalidad. No se aprecian hallazgos significativos en la auscultación cardiorrespiratoria. El abdomen es blando y depresible, sin masas ni visceromegalias. En la documentación adjunta se incluye la referencia del vehículo XXX, identificado con el número de serie XXX, para los desplazamientos relacionados con su asistencia sanitaria. Todos los procedimientos se realizan conforme a los protocolos establecidos por el XXX. La paciente, de sexo XXX, mantiene adecuada adherencia a las recomendaciones terapéuticas. Se programará próxima revisión según evolución, manteniendo el mismo identificador de historia clínica XXX para toda la documentación asistencial.",
+  "text_length": 1057,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8650038242340088,
+        "word": " vehículo",
+        "start": 610,
+        "end": 618,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.8650038242340088,
+          "start": 610,
+          "end": 618,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.8650038242340088,
+          "start": 610,
+          "end": 618,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7260154485702515,
+        "word": " historia clínica",
+        "start": 997,
+        "end": 1013,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.7260154485702515,
+          "start": 997,
+          "end": 1013,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.7260154485702515,
+          "start": 997,
+          "end": 1013,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.8650038242340088,
+        "start": 610,
+        "end": 618,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.7260154485702515,
+        "start": 997,
+        "end": 1013,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.8650038242340088,
+        "start": 610,
+        "end": 618,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.7260154485702515,
+        "start": 997,
+        "end": 1013,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

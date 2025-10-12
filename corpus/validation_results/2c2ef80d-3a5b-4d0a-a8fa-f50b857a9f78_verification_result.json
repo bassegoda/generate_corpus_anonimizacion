@@ -1,0 +1,316 @@
+{
+  "document_id": "2c2ef80d-3a5b-4d0a-a8fa-f50b857a9f78",
+  "success": true,
+  "anonymized_text": "A la historia clínica principal con identificador XXX se adjunta el presente informe de interconsulta solicitado bajo la referencia XXX. El procedimiento quirúrgico realizado el XXX fue documentado en el sistema con el número de episodio XXX. La intervención fue llevada a cabo en General de Madrid por el XXX de guardia, cuyo número de identificación profesional interno es XXX. Dicho profesional, cuya profesión es XXX, puede ser contactado para cualquier aclaración a través del XXX. La paciente, de sexo sujeto asistencia XXX, cuenta con un identificador de aseguramiento activo 12-0844221-01. Para garantizar la máxima seguridad en la identificación de la persona asistida en procedimientos futuros, se ha registrado la XXX como identificador biométrico principal. El curso postoperatorio transcurrió dentro de la normalidad, con buena evolución de las constantes vitales y sin signos de complicaciones infecciosas en la herida quirúrgica. Para una visión integral del caso, se recomienda acceder a la historia clínica electrónica complementaria disponible en la direccion_prot_internet XXX, donde se encuentran archivados los estudios preoperatorios. Asimismo, la direccion_prot_internet XXX contiene informes de seguimiento anteriores relevantes para la continuidad asistencial. Se procederá al cierre de este episodio con el alta programada, dejando constancia de que todos los datos quedan incorporados al ID contacto asistencial central del sistema.",
+  "text_length": 1459,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.7962728142738342,
+        "word": " Madrid",
+        "start": 292,
+        "end": 298,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " Madrid",
+          "actual_text": "Madrid",
+          "confidence": 0.7962728142738342,
+          "start": 292,
+          "end": 298,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " Madrid",
+          "actual_text": "Madrid",
+          "confidence": 0.7962728142738342,
+          "start": 292,
+          "end": 298,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 4,
+    "entities": [
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.8789552450180054,
+        "word": " General",
+        "start": 281,
+        "end": 288,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7247576713562012,
+        "word": " sexo sujeto asistencia",
+        "start": 503,
+        "end": 525,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7530182003974915,
+        "word": " 12",
+        "start": 583,
+        "end": 585,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8866586089134216,
+        "word": " clínica electrónica",
+        "start": 1016,
+        "end": 1035,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 4,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "TERRITORIO": 1,
+        "ID_SUJETO_ASISTENCIA": 1,
+        "NUMERO_TELEFONO": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "TERRITORIO",
+          "word": " General",
+          "actual_text": "General",
+          "confidence": 0.8789552450180054,
+          "start": 281,
+          "end": 288,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo sujeto asistencia",
+          "actual_text": "sexo sujeto asistencia",
+          "confidence": 0.7247576713562012,
+          "start": 503,
+          "end": 525,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 12",
+          "actual_text": "12",
+          "confidence": 0.7530182003974915,
+          "start": 583,
+          "end": 585,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica electrónica",
+          "actual_text": "clínica electrónica",
+          "confidence": 0.8866586089134216,
+          "start": 1016,
+          "end": 1035,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "TERRITORIO",
+          "word": " General",
+          "actual_text": "General",
+          "confidence": 0.8789552450180054,
+          "start": 281,
+          "end": 288,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo sujeto asistencia",
+          "actual_text": "sexo sujeto asistencia",
+          "confidence": 0.7247576713562012,
+          "start": 503,
+          "end": 525,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 12",
+          "actual_text": "12",
+          "confidence": 0.7530182003974915,
+          "start": 583,
+          "end": 585,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica electrónica",
+          "actual_text": "clínica electrónica",
+          "confidence": 0.8866586089134216,
+          "start": 1016,
+          "end": 1035,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 5,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "TERRITORIO": 1,
+      "ID_SUJETO_ASISTENCIA": 1,
+      "NUMERO_TELEFONO": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 3,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " Madrid",
+        "actual_text": "Madrid",
+        "confidence": 0.7962728142738342,
+        "start": 292,
+        "end": 298,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " General",
+        "actual_text": "General",
+        "confidence": 0.8789552450180054,
+        "start": 281,
+        "end": 288,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo sujeto asistencia",
+        "actual_text": "sexo sujeto asistencia",
+        "confidence": 0.7247576713562012,
+        "start": 503,
+        "end": 525,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 12",
+        "actual_text": "12",
+        "confidence": 0.7530182003974915,
+        "start": 583,
+        "end": 585,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica electrónica",
+        "actual_text": "clínica electrónica",
+        "confidence": 0.8866586089134216,
+        "start": 1016,
+        "end": 1035,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " Madrid",
+        "actual_text": "Madrid",
+        "confidence": 0.7962728142738342,
+        "start": 292,
+        "end": 298,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " General",
+        "actual_text": "General",
+        "confidence": 0.8789552450180054,
+        "start": 281,
+        "end": 288,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo sujeto asistencia",
+        "actual_text": "sexo sujeto asistencia",
+        "confidence": 0.7247576713562012,
+        "start": 503,
+        "end": 525,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 12",
+        "actual_text": "12",
+        "confidence": 0.7530182003974915,
+        "start": 583,
+        "end": 585,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica electrónica",
+        "actual_text": "clínica electrónica",
+        "confidence": 0.8866586089134216,
+        "start": 1016,
+        "end": 1035,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 5,
+    "suspicious_detections": 5,
+    "xxxxxx_detections": 0,
+    "other_detections": 5
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

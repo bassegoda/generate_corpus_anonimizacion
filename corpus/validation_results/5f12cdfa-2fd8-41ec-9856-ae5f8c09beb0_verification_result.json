@@ -1,0 +1,124 @@
+{
+  "document_id": "5f12cdfa-2fd8-41ec-9856-ae5f8c09beb0",
+  "success": true,
+  "anonymized_text": "Informe de Interconsulta Se remite a la valoración de XXX del XXX a paciente de XXX para evaluación preoperatoria. La paciente es atendida de forma habitual en el XXX, ubicado en la XXX. En la documentación adjunta se incluye la solicitud de interconsulta con número de referencia XXX. La exploración física actual muestra presión arterial de 135/80 mmHg, frecuencia cardíaca regular a 68 lpm, sin soplos cardíacos aparentes en la auscultación. Los pulsos periféricos son simétricos y presentes. En las pruebas complementarias realizadas, el electrocardiograma muestra ritmo sinusal normal y la analítica destaca con hemoglobina de 13.2 g/dL y función renal dentro de parámetros normales. Como contacto para ampliación de información, se puede utilizar el número de fax XXX. En el apartado de antecedentes familiares, se registra a XXX como familiar de referencia, junto con XXX. Cabe destacar que en la documentación aparecen identificados los números XXX y XXX correspondientes a diferentes episodios asistenciales. El número de identificación de aseguramiento de la paciente es XXX. Se adjunta toda la documentación clínica necesaria para la valoración especializada por parte del equipo de cirugía cardiovascular. Se recomienda evaluación completa del riesgo quirúrgico y optimización preoperatoria según criterio del especialista.",
+  "text_length": 1335,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8570836782455444,
+        "word": " familiar",
+        "start": 841,
+        "end": 849,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.8570836782455444,
+          "start": 841,
+          "end": 849,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.8570836782455444,
+          "start": 841,
+          "end": 849,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.8570836782455444,
+        "start": 841,
+        "end": 849,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.8570836782455444,
+        "start": 841,
+        "end": 849,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

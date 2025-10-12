@@ -1,0 +1,222 @@
+{
+  "document_id": "04a09c0a-7c77-4526-bfae-d2e222d50e45",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Biométrica y Laboral En la valoración integral de la paciente, se procede a la actualización de sus datos de identificación y perfil sanitario. La identificación principal corresponde al número XXX, con registro de historia clínica XXX en el XXX. Como profesional de la salud, considero fundamental documentar adecuadamente todos los elementos identificativos, incluyendo el código de aseguramiento XXX que figura en su tarjeta sanitaria. En la exploración física realizada, se ha registrado la XXX, como parte de los identificadores biométricos del caso. Este dato se incorpora al sistema junto con el número de beneficio del plan de salud XXX. La paciente desarrolla su actividad profesional como XXX, circunstancia que se tiene en cuenta en la valoración global de su perfil sanitario. Respecto a su situación actual, se verifica que el sexo sujeto asistencia es XXX. Entre los datos de localización, constan dos direcciones relevantes: XXX y XXX, ambas registradas en el sistema. Para completar la documentación, se incluyen los recursos digitales disponibles, siendo estos XXX y XXX como referencia institucional adicional. En el apartado de familiares del sujeto de asistencia, se registra como contacto principal a XXX. La exploración física muestra parámetros dentro de la normalidad, con tensión arterial 120/80 mmHg, frecuencia cardíaca 72 lpm y saturación de oxígeno del 98%. En los estudios complementarios realizados, el hemograma presenta valores normales sin alteraciones significativas y la bioquímica básica se encuentra dentro de rangos de normalidad. La radiografía de tórax realizada no evidencia hallazgos patológicos. Todos estos datos se han incorporado al expediente digital correspondiente.",
+  "text_length": 1737,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9805027842521667,
+        "word": " familiares",
+        "start": 1169,
+        "end": 1179,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares",
+          "actual_text": "familiares",
+          "confidence": 0.9805027842521667,
+          "start": 1169,
+          "end": 1179,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares",
+          "actual_text": "familiares",
+          "confidence": 0.9805027842521667,
+          "start": 1169,
+          "end": 1179,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8580338358879089,
+        "word": " clínica",
+        "start": 246,
+        "end": 253,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PROFESION",
+        "score": 0.9834949374198914,
+        "word": " profesional de la salud",
+        "start": 274,
+        "end": 297,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "PROFESION": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.8580338358879089,
+          "start": 246,
+          "end": 253,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " profesional de la salud",
+          "actual_text": "profesional de la salud",
+          "confidence": 0.9834949374198914,
+          "start": 274,
+          "end": 297,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.8580338358879089,
+          "start": 246,
+          "end": 253,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " profesional de la salud",
+          "actual_text": "profesional de la salud",
+          "confidence": 0.9834949374198914,
+          "start": 274,
+          "end": 297,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "PROFESION": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares",
+        "actual_text": "familiares",
+        "confidence": 0.9805027842521667,
+        "start": 1169,
+        "end": 1179,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.8580338358879089,
+        "start": 246,
+        "end": 253,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " profesional de la salud",
+        "actual_text": "profesional de la salud",
+        "confidence": 0.9834949374198914,
+        "start": 274,
+        "end": 297,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares",
+        "actual_text": "familiares",
+        "confidence": 0.9805027842521667,
+        "start": 1169,
+        "end": 1179,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.8580338358879089,
+        "start": 246,
+        "end": 253,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " profesional de la salud",
+        "actual_text": "profesional de la salud",
+        "confidence": 0.9834949374198914,
+        "start": 274,
+        "end": 297,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

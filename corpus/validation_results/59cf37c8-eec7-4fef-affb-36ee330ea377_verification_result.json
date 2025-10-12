@@ -1,0 +1,175 @@
+{
+  "document_id": "59cf37c8-eec7-4fef-affb-36ee330ea377",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA** En seguimiento del protocolo establecido por la XXX, se presenta a valoración paciente de XXX, procedente de la XXX, aunque actualmente residente en nuestro ámbito de actuación. La paciente acude acompañada por su XXX, de XXX, quien colabora en la anamnesis. La historia actual se inicia tras valoración en el XXX el XXX, donde se documentó por primera vez el estado basal del paciente. Cabe destacar que el paciente mantiene hábito de XXX, con consumo estimado de 20 cigarrillos diarios durante las últimas cuatro décadas. El número de identificación de aseguramiento es XXX y el expediente clínico queda registrado bajo XXX. A la exploración física actual, se objetiva tensión arterial de 145/90 mmHg, frecuencia cardíaca 88 lpm, saturación de oxígeno del 92% en aire ambiente. Auscultación cardíaca rítmica sin soplos, auscultación pulmonar con disminución del murmullo vesicular en bases y algunos roncus dispersos. Resto de exploración por sistemas dentro de límites normales. En relación con los estudios complementarios realizados, la analítica muestra hemograma dentro de parámetros normales, perfil lipídico con LDL en 140 mg/dl y función renal conservada. La radiografía de tórax evidencia hiperinsuflación pulmonar leve y pequeños signos de enfisema paraseptal. Se establece plan terapéutico según guías del XXX del XXX, con seguimiento estrecho en consultas externas. Para cualquier comunicación relacionada con este caso, queda referenciado bajo XXX. Atentamente, XXX Especialista en Medicina Interna XXX Comunidad de Madrid",
+  "text_length": 1569,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.7824581265449524,
+        "word": " Comunidad de Madrid",
+        "start": 1550,
+        "end": 1569,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "TERRITORIO": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "TERRITORIO",
+          "word": " Comunidad de Madrid",
+          "actual_text": "Comunidad de Madrid",
+          "confidence": 0.7824581265449524,
+          "start": 1550,
+          "end": 1569,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "TERRITORIO",
+          "word": " Comunidad de Madrid",
+          "actual_text": "Comunidad de Madrid",
+          "confidence": 0.7824581265449524,
+          "start": 1550,
+          "end": 1569,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "PAIS",
+        "score": 0.8741223812103271,
+        "word": " Comunidad de Madrid",
+        "start": 1550,
+        "end": 1569,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "PAIS": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "PAIS",
+          "word": " Comunidad de Madrid",
+          "actual_text": "Comunidad de Madrid",
+          "confidence": 0.8741223812103271,
+          "start": 1550,
+          "end": 1569,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "PAIS",
+          "word": " Comunidad de Madrid",
+          "actual_text": "Comunidad de Madrid",
+          "confidence": 0.8741223812103271,
+          "start": 1550,
+          "end": 1569,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "TERRITORIO": 1,
+      "PAIS": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "TERRITORIO",
+        "word": " Comunidad de Madrid",
+        "actual_text": "Comunidad de Madrid",
+        "confidence": 0.7824581265449524,
+        "start": 1550,
+        "end": 1569,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad de Madrid",
+        "actual_text": "Comunidad de Madrid",
+        "confidence": 0.8741223812103271,
+        "start": 1550,
+        "end": 1569,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "TERRITORIO",
+        "word": " Comunidad de Madrid",
+        "actual_text": "Comunidad de Madrid",
+        "confidence": 0.7824581265449524,
+        "start": 1550,
+        "end": 1569,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad de Madrid",
+        "actual_text": "Comunidad de Madrid",
+        "confidence": 0.8741223812103271,
+        "start": 1550,
+        "end": 1569,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

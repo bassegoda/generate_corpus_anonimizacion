@@ -1,0 +1,220 @@
+{
+  "document_id": "f09be15d-6de2-40f7-b1d4-b286c117c6f5",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución de Consulta Externa** Paciente que acude para seguimiento y control de su patología crónica. Refiere estabilidad clínica general, sin incidencias destacables desde su última visita. Se ha contactado con el servicio de atención al paciente a través del número de teléfono XXX para coordinar la próxima cita, y se ha facilitado el número de fax XXX para la remisión de informes complementarios desde su centro de origen. La exploración física actual muestra parámetros dentro de la normalidad, sin hallazgos relevantes que modifiquen el enfoque terapéutico establecido. Se ha procedido a la verificación de su identificación, correspondiente a la señora XXX, con sexo XXX. Su número de beneficiaria del plan de salud es el XXX y su identificación de aseguramiento principal es el XXX. Como documentación adicional, se dispone del número de identificación XXX y del código XXX asociado al dispositivo médico que utiliza. También figura en su historial el identificador XXX. Se ha recomendado a la paciente que utilice el portal web XXX para la gestión automatizada de sus próximas revisiones. Asimismo, se le ha indicado que los resultados de las analíticas de control realizadas estarán disponibles para su consulta en la dirección XXX. Para cualquier gestión administrativa relacionada con su cobertura, se ha confirmado que su número de identificación sanitaria personal es el XXX. El profesional que realiza esta anotación es médico especialista, titulado con el correspondiente XXX, y su identificación profesional interna para este acto asistencial es la referencia ID-789034. Se mantiene el tratamiento habitual y se citará para control en un año.",
+  "text_length": 1671,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.9349101185798645,
+        "word": "78",
+        "start": 1592,
+        "end": 1594,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "78",
+          "actual_text": "78",
+          "confidence": 0.9349101185798645,
+          "start": 1592,
+          "end": 1594,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "78",
+          "actual_text": "78",
+          "confidence": 0.9349101185798645,
+          "start": 1592,
+          "end": 1594,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9626537561416626,
+        "word": " ID",
+        "start": 1589,
+        "end": 1591,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8134068846702576,
+        "word": "-",
+        "start": 1591,
+        "end": 1592,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " ID",
+          "actual_text": "ID",
+          "confidence": 0.9626537561416626,
+          "start": 1589,
+          "end": 1591,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.8134068846702576,
+          "start": 1591,
+          "end": 1592,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " ID",
+          "actual_text": "ID",
+          "confidence": 0.9626537561416626,
+          "start": 1589,
+          "end": 1591,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.8134068846702576,
+          "start": 1591,
+          "end": 1592,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 1,
+      "NUMERO_TELEFONO": 2
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "78",
+        "actual_text": "78",
+        "confidence": 0.9349101185798645,
+        "start": 1592,
+        "end": 1594,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " ID",
+        "actual_text": "ID",
+        "confidence": 0.9626537561416626,
+        "start": 1589,
+        "end": 1591,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.8134068846702576,
+        "start": 1591,
+        "end": 1592,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "78",
+        "actual_text": "78",
+        "confidence": 0.9349101185798645,
+        "start": 1592,
+        "end": 1594,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " ID",
+        "actual_text": "ID",
+        "confidence": 0.9626537561416626,
+        "start": 1589,
+        "end": 1591,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.8134068846702576,
+        "start": 1591,
+        "end": 1592,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

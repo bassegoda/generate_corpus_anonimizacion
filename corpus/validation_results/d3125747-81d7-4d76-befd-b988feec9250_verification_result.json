@@ -1,0 +1,221 @@
+{
+  "document_id": "d3125747-81d7-4d76-befd-b988feec9250",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución - Consulta Externa** A la consulta acude hoy la paciente **XXX**, con **XXX** de edad y de sexo **XXX**, para seguimiento de su patología crónica. La paciente fue valorada previamente el **XXX** y su situación actual se mantiene estable. Se identifica en nuestros sistemas con el número de historia **XXX** y con el documento **XXX**. La exploración física actual muestra: tensión arterial 135/80 mmHg, frecuencia cardíaca 68 lpm, saturación de oxígeno del 96%. Auscultación cardiorrespiratoria sin soplos ni crepitantes. Abdomen blando y depresible, sin masas ni dolor a la palpación. En relación con los recursos asistenciales, se recuerda que el seguimiento principal se realiza desde el **XXX**, dependiente de la **XXX**, bajo las directrices establecidas por el **XXX**. Para cualquier gestión o comunicación, pueden utilizarse los números de contacto **XXX** y **XXX**. La historia clínica electrónica puede consultarse a través de los enlaces XXX y XXX. Como persona de contacto en caso de necesidad se ha designado a **XXX**, familiar directo de la paciente. El profesional que realiza esta nota cuenta con la titulación de **XXX**. Se ha generado la referencia interna **XXX** para este episodio asistencial. Se mantiene el tratamiento actual y se citará para control en 6 meses, recomendando acudir al XXX para analítica de control previamente a la próxima visita.",
+  "text_length": 1395,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9883733987808228,
+        "word": " familiar directo",
+        "start": 1055,
+        "end": 1071,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directo",
+          "actual_text": "familiar directo",
+          "confidence": 0.9883733987808228,
+          "start": 1055,
+          "end": 1071,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directo",
+          "actual_text": "familiar directo",
+          "confidence": 0.9883733987808228,
+          "start": 1055,
+          "end": 1071,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9876565337181091,
+        "word": " historia clínica electrónica",
+        "start": 900,
+        "end": 928,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7866630554199219,
+        "word": " familiar directo",
+        "start": 1055,
+        "end": 1071,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica electrónica",
+          "actual_text": "historia clínica electrónica",
+          "confidence": 0.9876565337181091,
+          "start": 900,
+          "end": 928,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directo",
+          "actual_text": "familiar directo",
+          "confidence": 0.7866630554199219,
+          "start": 1055,
+          "end": 1071,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica electrónica",
+          "actual_text": "historia clínica electrónica",
+          "confidence": 0.9876565337181091,
+          "start": 900,
+          "end": 928,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directo",
+          "actual_text": "familiar directo",
+          "confidence": 0.7866630554199219,
+          "start": 1055,
+          "end": 1071,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directo",
+        "actual_text": "familiar directo",
+        "confidence": 0.9883733987808228,
+        "start": 1055,
+        "end": 1071,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica electrónica",
+        "actual_text": "historia clínica electrónica",
+        "confidence": 0.9876565337181091,
+        "start": 900,
+        "end": 928,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directo",
+        "actual_text": "familiar directo",
+        "confidence": 0.7866630554199219,
+        "start": 1055,
+        "end": 1071,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directo",
+        "actual_text": "familiar directo",
+        "confidence": 0.9883733987808228,
+        "start": 1055,
+        "end": 1071,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica electrónica",
+        "actual_text": "historia clínica electrónica",
+        "confidence": 0.9876565337181091,
+        "start": 900,
+        "end": 928,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directo",
+        "actual_text": "familiar directo",
+        "confidence": 0.7866630554199219,
+        "start": 1055,
+        "end": 1071,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

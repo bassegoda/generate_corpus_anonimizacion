@@ -1,0 +1,124 @@
+{
+  "document_id": "6c4a2cca-4917-4a68-b49a-38fb9f21cd2b",
+  "success": true,
+  "anonymized_text": "En el informe de alta del dispositivo de monitorización continua se deja constancia de que el equipo utilizado, cuyo identificador de serie es XXX, ha funcionado dentro de los parámetros técnicos establecidos durante todo el período de observación, sin registrarse incidencias técnicas que invalidaran los datos recogidos. Los registros electrocardiográficos obtenidos muestran un ritmo sinusal normal con episodios aislados de extrasistolia ventricular monomórfica no sostenida, que resultaron asintomáticos. La transmisión de los datos se realizó de forma satisfactoria y automática a través de la plataforma de telemedicina. Respecto a los trámites administrativos de cobertura del dispositivo, se verificó que el número de aseguramiento XXX se encuentra activo y en vigor, lo que permitió la correcta tramitación del servicio sin coste adicional para el paciente. Para cualquier comunicación formal o envío de documentación complementaria relacionada con este procedimiento, se ha facilitado el número de fax XXX como canal oficial. Se recomienda mantener el dispositivo en custodia hasta su recogida programada por el servicio técnico.",
+  "text_length": 1140,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7223432064056396,
+        "word": " número",
+        "start": 717,
+        "end": 723,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " número",
+          "actual_text": "número",
+          "confidence": 0.7223432064056396,
+          "start": 717,
+          "end": 723,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " número",
+          "actual_text": "número",
+          "confidence": 0.7223432064056396,
+          "start": 717,
+          "end": 723,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " número",
+        "actual_text": "número",
+        "confidence": 0.7223432064056396,
+        "start": 717,
+        "end": 723,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " número",
+        "actual_text": "número",
+        "confidence": 0.7223432064056396,
+        "start": 717,
+        "end": 723,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

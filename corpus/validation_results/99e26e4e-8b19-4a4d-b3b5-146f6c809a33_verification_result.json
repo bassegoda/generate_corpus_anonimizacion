@@ -1,0 +1,124 @@
+{
+  "document_id": "99e26e4e-8b19-4a4d-b3b5-146f6c809a33",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada se documenta que la paciente refiere mejoría significativa de la sintomatología que motivó la consulta inicial. La exploración física actual muestra parámetros dentro de la normalidad, con buen estado general y sin hallazgos patológicos relevantes en los distintos sistemas. Los estudios complementarios practicados, incluyendo el informe de tomografía computarizada con identificador XXX, confirman la resolución del proceso agudo descrito en episodios anteriores. Se mantiene el plan terapéutico establecido con controles periódicos. La evolución resulta satisfactoria según los criterios de valoración aplicados. Se ha proporcionado información detallada a la paciente XXX sobre su situación clínica actual y las recomendaciones a seguir. En cuanto al contexto familiar y de apoyo, se registra que XXX, en su calidad de familiar directo, participa activamente en el proceso asistencial de la paciente. Durante la entrevista clínica, se ha constatado su adecuada comprensión de las indicaciones médicas y su compromiso con el cumplimiento del tratamiento. El manejo global del caso ha sido coordinado con el XXX de referencia, cuyo juicio clínico coincide con las decisiones terapéuticas adoptadas. El profesional XXX responsable del seguimiento ambulatorio supervisará la evolución según lo establecido en el protocolo.",
+  "text_length": 1357,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8291958570480347,
+        "word": " familiar directo",
+        "start": 858,
+        "end": 874,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directo",
+          "actual_text": "familiar directo",
+          "confidence": 0.8291958570480347,
+          "start": 858,
+          "end": 874,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directo",
+          "actual_text": "familiar directo",
+          "confidence": 0.8291958570480347,
+          "start": 858,
+          "end": 874,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directo",
+        "actual_text": "familiar directo",
+        "confidence": 0.8291958570480347,
+        "start": 858,
+        "end": 874,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directo",
+        "actual_text": "familiar directo",
+        "confidence": 0.8291958570480347,
+        "start": 858,
+        "end": 874,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "document_id": "8f9161d2-2b02-4d82-9550-20f12261a55c",
+  "success": true,
+  "anonymized_text": "En el informe de alta correspondiente a la paciente con número de historia XXX, se recoge la valoración final tras el proceso asistencial. La paciente, de sexo XXX, fue valorada inicialmente en consultas externas el XXX por un cuadro de dolor abdominal inespecífico. Durante la exploración física se constató abdomen blando y depresible, con dolor a la palpación en fosa ilíaca derecha sin signos de irritación peritoneal. Las analíticas realizadas mostraron una leucocitosis discreta de 11.200/mm³ con neutrofilia del 78%, siendo el resto de parámetros bioquímicos dentro de la normalidad. La ecografía abdominal realizada con el equipo identificado bajo el código XXX no evidenció hallazgos significativos de apendicitis aguda o colecistitis. Se estableció el diagnóstico de probable gastroenteritis aguda y se instauró tratamiento sintomático con buena evolución posterior. Cabe destacar que el parte de asistencia fue tramitado a través del sistema sanitario correspondiente al país XXX, utilizando para su gestión el número de beneficio del plan de salud XXX. La paciente fue dada de alta con recomendaciones dietéticas y control ambulatorio en una semana.",
+  "text_length": 1161,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7246756553649902,
+        "word": " plan",
+        "start": 1046,
+        "end": 1050,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.7246756553649902,
+          "start": 1046,
+          "end": 1050,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.7246756553649902,
+          "start": 1046,
+          "end": 1050,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7060030102729797,
+        "word": " sexo XXX,",
+        "start": 155,
+        "end": 164,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo XXX,",
+          "actual_text": "sexo XXX,",
+          "confidence": 0.7060030102729797,
+          "start": 155,
+          "end": 164,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo XXX,",
+          "actual_text": "sexo XXX,",
+          "confidence": 0.7060030102729797,
+          "start": 155,
+          "end": 164,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "ID_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.7246756553649902,
+        "start": 1046,
+        "end": 1050,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo XXX,",
+        "actual_text": "sexo XXX,",
+        "confidence": 0.7060030102729797,
+        "start": 155,
+        "end": 164,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.7246756553649902,
+        "start": 1046,
+        "end": 1050,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo XXX,",
+        "actual_text": "sexo XXX,",
+        "confidence": 0.7060030102729797,
+        "start": 155,
+        "end": 164,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "document_id": "2be5b706-7a79-4206-886b-56b7e2d1d501",
+  "success": true,
+  "anonymized_text": "En el informe de consulta externa correspondiente a la historia clínica XXX, se procede a la actualización de los datos de filiación de la paciente. Se verifica que la identificación biométrica mediante la XXX coincide con los registros previos del sistema, habiéndose registrado específicamente la XXX como identificador biométrico principal. El documento de identidad principal asociado es el XXX. La paciente, con nacionalidad de XXX y residente en la comunidad autónoma de XXX, fue atendida en esta consulta el XXX. Durante la anamnesis, se recogió para su actualización en el sistema el número de teléfono de contacto XXX, que queda registrado a nombre de XXX como familiares sujeto asistencia. Para completar la trazabilidad, se anota también el identificador alternativo XXX, correspondiente al dispositivo médico utilizado durante la monitorización. La exploración física realizada no mostró hallazgos de interés en relación con los sistemas evaluados. Los resultados analíticos recientes, así como las pruebas de imagen complementarias, se encuentran dentro de los parámetros de normalidad para su contexto clínico. Toda esta documentación queda archivada en el XXX, como centro de referencia para su seguimiento.",
+  "text_length": 1222,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8973128199577332,
+        "word": " familiares",
+        "start": 670,
+        "end": 680,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares",
+          "actual_text": "familiares",
+          "confidence": 0.8973128199577332,
+          "start": 670,
+          "end": 680,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares",
+          "actual_text": "familiares",
+          "confidence": 0.8973128199577332,
+          "start": 670,
+          "end": 680,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares",
+        "actual_text": "familiares",
+        "confidence": 0.8973128199577332,
+        "start": 670,
+        "end": 680,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares",
+        "actual_text": "familiares",
+        "confidence": 0.8973128199577332,
+        "start": 670,
+        "end": 680,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "document_id": "ca0510ca-bad7-4c38-bb47-5a475d2fd2c0",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Geriátrica Integral Se procede a la valoración integral de la paciente, que cuenta con una edad de XXX, derivada desde el XXX para valoración por síndrome geriátrico. La paciente refiere que su hermana, XXX, de XXX, reside en la XXX y constituye su principal apoyo familiar. La paciente reside en el domicilio ubicado en XXX. Fue evaluada previamente en el XXX, donde se realizó el estudio que lleva el número de registro XXX. Durante su estancia hospitalaria, fue atendida por la XXX, cuyo identificador profesional es XXX. En la exploración física actual, se observa paciente consciente y orientada. La auscultación cardiorrespiratoria es rítmica y sin soplos, con murmullo vesicular conservado. El abdomen es blando y depresible, sin masas ni megalias. En las extremidades inferiores no se aprecian edemas ni signos de trombosis. Respecto a los estudios complementarios, se revisó la analítica completa a través del portal XXX, observándose una hemoglobina de 12.8 g/dL y una creatinina de 1.1 mg/dL. La radiografía de tórax no muestra hallazgos significativos. Para información adicional sobre el manejo de su patología, se recomienda consultar los recursos disponibles en XXX. Se verifica que el número de beneficiario del plan de salud es XXX. Para su seguimiento, se ha asignado el vehículo sanitario con placa XXX para los desplazamientos programados a consultas externas. Se establece un plan de seguimiento coordinado entre atención primaria y especializada, con controles periódicos para monitorizar la evolución de su situación funcional.",
+  "text_length": 1572,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9655734300613403,
+        "word": " hermana,",
+        "start": 216,
+        "end": 224,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " hermana,",
+          "actual_text": "hermana,",
+          "confidence": 0.9655734300613403,
+          "start": 216,
+          "end": 224,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " hermana,",
+          "actual_text": "hermana,",
+          "confidence": 0.9655734300613403,
+          "start": 216,
+          "end": 224,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8830689191818237,
+        "word": " hermana, XXX,",
+        "start": 216,
+        "end": 229,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " hermana, XXX,",
+          "actual_text": "hermana, XXX,",
+          "confidence": 0.8830689191818237,
+          "start": 216,
+          "end": 229,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " hermana, XXX,",
+          "actual_text": "hermana, XXX,",
+          "confidence": 0.8830689191818237,
+          "start": 216,
+          "end": 229,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " hermana,",
+        "actual_text": "hermana,",
+        "confidence": 0.9655734300613403,
+        "start": 216,
+        "end": 224,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " hermana, XXX,",
+        "actual_text": "hermana, XXX,",
+        "confidence": 0.8830689191818237,
+        "start": 216,
+        "end": 229,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " hermana,",
+        "actual_text": "hermana,",
+        "confidence": 0.9655734300613403,
+        "start": 216,
+        "end": 224,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " hermana, XXX,",
+        "actual_text": "hermana, XXX,",
+        "confidence": 0.8830689191818237,
+        "start": 216,
+        "end": 229,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

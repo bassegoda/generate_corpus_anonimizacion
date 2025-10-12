@@ -1,0 +1,268 @@
+{
+  "document_id": "a420fb69-cd35-4c0d-abd4-950a8a594560",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE CARDIOLOGÍA** La paciente **XXX**, identificada con el número de historia clínica **XXX**, se presenta para evaluación en consulta externa de cardiología. La paciente porta el identificador de dispositivo **XXX** correspondiente a su holter de ritmo cardíaco. La consulta se realiza en el **XXX**, bajo mi supervisión. Soy la **XXX**, facultativa especialista en Cardiología, en ejercicio de mis competencias profesionales avaladas por el **XXX** y con colegiación en vigor. Para cualquier contraste de información o interconsulta, queda registrado el contacto asistencial **XXX**. El seguimiento de la paciente se coordinará con el ** Clínico San Carlos** para la realización de pruebas complementarias de mayor complejidad. En el contexto de la valoración, se ha revisado la documentación aportada por la paciente, incluido su documento de identificación **XXX** emitido en **XXX**. Asimismo, se ha verificado el número de beneficiaria del plan de salud **XXX** para los trámites administrativos pertinentes. El vehículo particular de la paciente, con el que acude a sus citas, tiene la placa **XXX**. A la exploración física actual, la paciente se encuentra en aceptable estado general. La auscultación cardíaca revela un ritmo regular, sin soplos añadidos. Los pulsos periféricos son simétricos y palpables. La tensión arterial se mantiene dentro de parámetros normales para su situación clínica. No se aprecian edemas en miembros inferiores. Los resultados analíticos recientes muestran un perfil lipídico dentro de rangos aceptables y una función tiroidea normal. El ecocardiograma Doppler realizado evidencia una función sistólica del ventrículo izquierdo conservada, sin valvulopatías significativas. Se procederá a la revisión y ajuste de la pauta terapéutica actual, programando un nuevo control en seis meses.",
+  "text_length": 1853,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.835498571395874,
+        "word": " ** Clínico San Carlos",
+        "start": 666,
+        "end": 687,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos",
+          "actual_text": "** Clínico San Carlos",
+          "confidence": 0.835498571395874,
+          "start": 666,
+          "end": 687,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos",
+          "actual_text": "** Clínico San Carlos",
+          "confidence": 0.835498571395874,
+          "start": 666,
+          "end": 687,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.725061297416687,
+        "word": " historia clínica",
+        "start": 98,
+        "end": 114,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PROFESION",
+        "score": 0.9354947805404663,
+        "word": " faculta",
+        "start": 368,
+        "end": 375,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9478293657302856,
+        "word": " ** Clínico San Carlos",
+        "start": 666,
+        "end": 687,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "PROFESION": 1,
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.725061297416687,
+          "start": 98,
+          "end": 114,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " faculta",
+          "actual_text": "faculta",
+          "confidence": 0.9354947805404663,
+          "start": 368,
+          "end": 375,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos",
+          "actual_text": "** Clínico San Carlos",
+          "confidence": 0.9478293657302856,
+          "start": 666,
+          "end": 687,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.725061297416687,
+          "start": 98,
+          "end": 114,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " faculta",
+          "actual_text": "faculta",
+          "confidence": 0.9354947805404663,
+          "start": 368,
+          "end": 375,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos",
+          "actual_text": "** Clínico San Carlos",
+          "confidence": 0.9478293657302856,
+          "start": 666,
+          "end": 687,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "HOSPITAL": 2,
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "PROFESION": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos",
+        "actual_text": "** Clínico San Carlos",
+        "confidence": 0.835498571395874,
+        "start": 666,
+        "end": 687,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.725061297416687,
+        "start": 98,
+        "end": 114,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " faculta",
+        "actual_text": "faculta",
+        "confidence": 0.9354947805404663,
+        "start": 368,
+        "end": 375,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos",
+        "actual_text": "** Clínico San Carlos",
+        "confidence": 0.9478293657302856,
+        "start": 666,
+        "end": 687,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos",
+        "actual_text": "** Clínico San Carlos",
+        "confidence": 0.835498571395874,
+        "start": 666,
+        "end": 687,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.725061297416687,
+        "start": 98,
+        "end": 114,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " faculta",
+        "actual_text": "faculta",
+        "confidence": 0.9354947805404663,
+        "start": 368,
+        "end": 375,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos",
+        "actual_text": "** Clínico San Carlos",
+        "confidence": 0.9478293657302856,
+        "start": 666,
+        "end": 687,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

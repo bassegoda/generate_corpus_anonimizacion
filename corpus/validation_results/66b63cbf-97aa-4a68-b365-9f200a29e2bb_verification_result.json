@@ -1,0 +1,175 @@
+{
+  "document_id": "66b63cbf-97aa-4a68-b365-9f200a29e2bb",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa A la consulta acude la Sra. XXX para seguimiento. Se trata de una paciente de sexo XXX que se encuentra estable desde su última revisión. Durante la anamnesis, se verifica y confirma en su historial que presenta alergia a la penicilina, extremo que se recalca para futuras intervenciones terapéuticas. Como dato relevante de seguridad, se confirma que la paciente es XXX. En la exploración física actual, se observa buen estado general. La auscultación cardiorrespiratoria es normofonética y el abdomen es blando y depresible, sin masas ni megalias. Como parte de los procedimientos de seguridad y verificación de identidad, se ha registrado la XXX. Este dato biométrico queda incorporado a su expediente. Para cualquier comunicación administrativa o envío de documentación, consta como domicilio la XXX, ubicada en la XXX. Como dato de contacto complementario, se dispone del correo electrónico XXX y del fax XXX. Se documenta asimismo que la acompañante en esta consulta es XXX, quien ha facilitado parte de esta información de contacto. La paciente se deriva para pruebas complementarias de rutina, incluyendo analítica sanguínea y ecografía abdominal, con el código XXX. Queda pendiente reevaluación con los resultados. Atentamente, XXX Identificación de personal sanitario: ID-ERS-789",
+  "text_length": 1317,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7181835174560547,
+        "word": "-ERS-789",
+        "start": 1309,
+        "end": 1317,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "-ERS-789",
+          "actual_text": "-ERS-789",
+          "confidence": 0.7181835174560547,
+          "start": 1309,
+          "end": 1317,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "-ERS-789",
+          "actual_text": "-ERS-789",
+          "confidence": 0.7181835174560547,
+          "start": 1309,
+          "end": 1317,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8170727491378784,
+        "word": " sexo",
+        "start": 106,
+        "end": 110,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.8170727491378784,
+          "start": 106,
+          "end": 110,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.8170727491378784,
+          "start": 106,
+          "end": 110,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "ID_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "-ERS-789",
+        "actual_text": "-ERS-789",
+        "confidence": 0.7181835174560547,
+        "start": 1309,
+        "end": 1317,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.8170727491378784,
+        "start": 106,
+        "end": 110,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "-ERS-789",
+        "actual_text": "-ERS-789",
+        "confidence": 0.7181835174560547,
+        "start": 1309,
+        "end": 1317,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.8170727491378784,
+        "start": 106,
+        "end": 110,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "document_id": "3683ff8a-66f5-4e1a-8fea-2690682cae8b",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude a consulta para seguimiento de su proceso. Se identifica con el documento de aseguramiento XXX. Se trata de una persona de sexo XXX, XXX, que reside en la XXX. En el contexto familiar, se registra como familiar de atención la presencia de XXX. La exploración física actual muestra tensión arterial de 128/76 mmHg, frecuencia cardíaca de 72 lpm y saturación de oxígeno del 98%. En la auscultación cardiorrespiratoria no se aprecian ruidos patológicos. El abdomen es blando y depresible, sin masas ni visceromegalias. Entre sus antecedentes personales, destaca de forma relevante la XXX, que queda debidamente registrada en su historia. Se recomienda encarecidamente evitar esta familia de antibióticos en cualquier tratamiento futuro. La paciente ha sido derivada al XXX para complementar el manejo de su condición, mostrando buena adherencia a las recomendaciones. Los estudios analíticos recientes muestran una hemoglobina glicosilada de 6.8% con perfil lipídico dentro de rangos aceptables. La ecografía abdominal realizada fue informada como normal. Para cualquier comunicación complementaria, este servicio cuenta con el número de fax XXX. Este centro, Clínico San Carlos, dependiente del XXX, ha asignado a la atención de la paciente el código XXX. El personal sanitario involucrado en su asistencia cuenta con la identificación profesional XXX. Se mantendrá seguimiento estrecho con intervenciones coordinadas entre los diferentes niveles asistenciales.",
+  "text_length": 1506,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7471844553947449,
+        "word": " documento de aseguramiento",
+        "start": 111,
+        "end": 137,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9898751378059387,
+        "word": " familiar",
+        "start": 249,
+        "end": 257,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9839804172515869,
+        "word": " Clínico San Carlos",
+        "start": 1204,
+        "end": 1222,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "FAMILIARES_SUJETO_ASISTENCIA": 1,
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento de aseguramiento",
+          "actual_text": "documento de aseguramiento",
+          "confidence": 0.7471844553947449,
+          "start": 111,
+          "end": 137,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9898751378059387,
+          "start": 249,
+          "end": 257,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9839804172515869,
+          "start": 1204,
+          "end": 1222,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento de aseguramiento",
+          "actual_text": "documento de aseguramiento",
+          "confidence": 0.7471844553947449,
+          "start": 111,
+          "end": 137,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9898751378059387,
+          "start": 249,
+          "end": 257,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9839804172515869,
+          "start": 1204,
+          "end": 1222,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.739501953125,
+        "word": " sexo",
+        "start": 170,
+        "end": 174,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8527936935424805,
+        "word": " XXX,",
+        "start": 175,
+        "end": 179,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.8988073468208313,
+        "word": " Clínico San Carlos",
+        "start": 1204,
+        "end": 1222,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 2,
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.739501953125,
+          "start": 170,
+          "end": 174,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " XXX,",
+          "actual_text": "XXX,",
+          "confidence": 0.8527936935424805,
+          "start": 175,
+          "end": 179,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.8988073468208313,
+          "start": 1204,
+          "end": 1222,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.739501953125,
+          "start": 170,
+          "end": 174,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " XXX,",
+          "actual_text": "XXX,",
+          "confidence": 0.8527936935424805,
+          "start": 175,
+          "end": 179,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.8988073468208313,
+          "start": 1204,
+          "end": 1222,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 6,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "HOSPITAL": 2,
+      "ID_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 4,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento de aseguramiento",
+        "actual_text": "documento de aseguramiento",
+        "confidence": 0.7471844553947449,
+        "start": 111,
+        "end": 137,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9898751378059387,
+        "start": 249,
+        "end": 257,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9839804172515869,
+        "start": 1204,
+        "end": 1222,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.739501953125,
+        "start": 170,
+        "end": 174,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " XXX,",
+        "actual_text": "XXX,",
+        "confidence": 0.8527936935424805,
+        "start": 175,
+        "end": 179,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.8988073468208313,
+        "start": 1204,
+        "end": 1222,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento de aseguramiento",
+        "actual_text": "documento de aseguramiento",
+        "confidence": 0.7471844553947449,
+        "start": 111,
+        "end": 137,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9898751378059387,
+        "start": 249,
+        "end": 257,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9839804172515869,
+        "start": 1204,
+        "end": 1222,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.739501953125,
+        "start": 170,
+        "end": 174,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " XXX,",
+        "actual_text": "XXX,",
+        "confidence": 0.8527936935424805,
+        "start": 175,
+        "end": 179,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.8988073468208313,
+        "start": 1204,
+        "end": 1222,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 6,
+    "suspicious_detections": 6,
+    "xxxxxx_detections": 0,
+    "other_detections": 6
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

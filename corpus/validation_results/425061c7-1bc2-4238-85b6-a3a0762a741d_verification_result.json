@@ -1,0 +1,124 @@
+{
+  "document_id": "425061c7-1bc2-4238-85b6-a3a0762a741d",
+  "success": true,
+  "anonymized_text": "En el contexto del seguimiento clínico del paciente identificado con el número XXX, se procede a la actualización de su situación. El sujeto de asistencia, XXX, acude a consulta para valoración periódica. La exploración física actual muestra un estado general conservado, con tensión arterial de 125/80 mmHg y frecuencia cardíaca regular a 68 lpm. No se evidencian soplos cardíacos en la auscultación y los pulsos periféricos son simétricos y presentes. Dentro de la documentación adjunta al expediente, se encuentra registrada la comunicación oficial con la XXX en lo referente a la coordinación asistencial, así como el protocolo establecido por el XXX para esta patología. Para cualquier gestión o contacto urgente, queda anotado el número de teléfono XXX. Respecto a los aspectos técnicos del caso, se ha coordinado con el profesional especialista en cirugía cardiovascular, quien ha revisado la situación quirúrgica del paciente. El XXX ha establecido las recomendaciones pertinentes para el manejo del caso. En el apartado de identificadores, consta el documento nacional XXX y el número de contacto asistencial XXX. Finalmente, en la documentación de equipamiento médico asociado al tratamiento domiciliario, figura el identificador XXX correspondiente al dispositivo de monitorización prescrito.",
+  "text_length": 1303,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8178499341011047,
+        "word": " documento nacional",
+        "start": 1059,
+        "end": 1077,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional",
+          "actual_text": "documento nacional",
+          "confidence": 0.8178499341011047,
+          "start": 1059,
+          "end": 1077,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional",
+          "actual_text": "documento nacional",
+          "confidence": 0.8178499341011047,
+          "start": 1059,
+          "end": 1077,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional",
+        "actual_text": "documento nacional",
+        "confidence": 0.8178499341011047,
+        "start": 1059,
+        "end": 1077,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional",
+        "actual_text": "documento nacional",
+        "confidence": 0.8178499341011047,
+        "start": 1059,
+        "end": 1077,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

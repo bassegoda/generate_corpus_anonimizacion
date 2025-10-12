@@ -1,0 +1,124 @@
+{
+  "document_id": "d21b3de8-3c04-4a91-a9c0-0eda5645c0a7",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución - Consulta Externa** Se reevalúa en consulta a la paciente **XXX** para seguimiento de su cuadro clínico. La paciente refiere mejoría sintomática parcial desde la última consulta, manteniendo algún episodio ocasional de disnea leve ante esfuerzos intensos. Se encuentra en tratamiento médico habitual con buena tolerancia. A la exploración física actual: paciente consciente y orientada, bien hidratada. Auscultación cardíaca rítmica sin soplos, auscultación pulmonar con murmullo vesicular conservado y mínimos crepitantes basales derechos. El abdomen es blando y depresible, no doloroso a la palpación. Extremidades sin edemas ni signos de trombosis. Respecto a pruebas complementarias pendientes de revisión, la analítica general muestra perfil bioquímico dentro de parámetros normales, con función renal y hepática conservadas. En la radiografía de tórax posteroanterior se aprecia ligera mejoría del infiltrado basal derecho comparado con estudios previos. Los resultados de la espirometría confirman patrón restrictivo leve. Se ha procedido a la actualización de los datos asistenciales en el sistema, verificando que el **XXX** mantiene su cobertura, con número de beneficiario **XXX**. Para coordinación con otros niveles asistenciales, se ha incluido en el registro el contacto de su familiar **XXX**, designada para cuestiones relacionadas con su asistencia. Como documentación identificativa adicional consta el vehículo con placa **XXX**. La dirección postal registrada para notificaciones es **XXX**. Para comunicación profesional intercentros se dispone del correo electrónico **XXX**, perteneciente al facultativo tratante que posee el **XXX** y cuyo número de colegiación es **XXX**. Se ha facilitado acceso al portal del paciente mediante la dirección XXX donde podrá consultar documentación clínica relevante. Queda documentada la coordinación con la **XXX** para continuidad asistencial durante sus desplazamientos, así como con las autoridades sanitarias de la **XXX** por su posible residencia temporal en dicha zona. Todo el proceso se realiza bajo los protocolos establecidos por el **XXX**. Se mantiene el plan terapéutico actual y se cita para control en cuatro semanas, advirtiendo de la necesidad de acudir a urgencias en caso de empeoramiento sintomático.",
+  "text_length": 2303,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9851204752922058,
+        "word": " familiar",
+        "start": 1313,
+        "end": 1321,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9851204752922058,
+          "start": 1313,
+          "end": 1321,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9851204752922058,
+          "start": 1313,
+          "end": 1321,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9851204752922058,
+        "start": 1313,
+        "end": 1321,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9851204752922058,
+        "start": 1313,
+        "end": 1321,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

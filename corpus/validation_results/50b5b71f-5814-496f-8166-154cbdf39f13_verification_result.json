@@ -1,0 +1,124 @@
+{
+  "document_id": "50b5b71f-5814-496f-8166-154cbdf39f13",
+  "success": true,
+  "anonymized_text": "En la valoración inicial se recoge la anamnesis proporcionada por la XXX, quien se encuentra como acompañante y facilitadora de información. Refirió que puede ser localizada para cualquier aclaración o urgencia en el número de teléfono XXX. La exploración física actual revela un paciente consciente y orientado, con tono muscular conservado y sin signos meníngeos. La auscultación cardiorrespiratoria es normofonética, con ruidos cardiacos rítmicos sin soplos. En el abdomen, blando y depresible, no se palpan masas ni visceromegalias. Respecto a las pruebas complementarias previas, se ha tenido acceso a los estudios de imagen a través de la plataforma digital con el identificador de aseguramiento XXX, disponible en XXX. Los análisis de laboratorio muestran un hemograma dentro de rangos de normalidad y una bioquímica básica sin alteraciones significativas. Para la gestión de recursos asistenciales, se ha registrado el identificador del vehículo de asistencia XXX, correspondiente al transporte sanitario que realizó el traslado. Se procederá al alta con seguimiento ambulatorio, coordinado con involucrados en el proceso.",
+  "text_length": 1130,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7337856292724609,
+        "word": " identific",
+        "start": 671,
+        "end": 680,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identific",
+          "actual_text": "identific",
+          "confidence": 0.7337856292724609,
+          "start": 671,
+          "end": 680,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identific",
+          "actual_text": "identific",
+          "confidence": 0.7337856292724609,
+          "start": 671,
+          "end": 680,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identific",
+        "actual_text": "identific",
+        "confidence": 0.7337856292724609,
+        "start": 671,
+        "end": 680,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identific",
+        "actual_text": "identific",
+        "confidence": 0.7337856292724609,
+        "start": 671,
+        "end": 680,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

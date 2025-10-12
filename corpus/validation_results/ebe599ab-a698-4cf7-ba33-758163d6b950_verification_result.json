@@ -1,0 +1,174 @@
+{
+  "document_id": "ebe599ab-a698-4cf7-ba33-758163d6b950",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución - Consulta Externa** A la historia clínica XXX se incorpora la presente nota de evolución. La paciente XXX acude hoy a consulta para seguimiento. Refiere mejoría sintomática desde la última valoración del XXX. En el apartado de exploración física, se procedió a la verificación de identidad mediante lectura de XXX, con concordancia biométrica satisfactoria. Los parámetros vitales se mantienen dentro de rangos de normalidad. La exploración por sistemas no revela hallazgos significativos respecto a la última visita. Se ha actualizado la información de contacto, registrando como persona de apoyo a la XXX, con domicilio de la Luna 42. La paciente está adscrita al XXX dentro de la XXX. Para completar la documentación clínica, se han verificado los números de identificación XXX y XXX, así como el código XXX, todos ellos activos en el sistema. Se ha proporcionado a la paciente material educativo disponible a través de XXX, recomendándose su revisión. La profesional XXX queda como contacto de referencia para próximas intervenciones. Se mantiene el plan terapéutico establecido y se cita para control rutinario en tres meses.",
+  "text_length": 1151,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.9731428623199463,
+        "word": " 42",
+        "start": 654,
+        "end": 656,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " 42",
+          "actual_text": "42",
+          "confidence": 0.9731428623199463,
+          "start": 654,
+          "end": 656,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " 42",
+          "actual_text": "42",
+          "confidence": 0.9731428623199463,
+          "start": 654,
+          "end": 656,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.9802490472793579,
+        "word": " domicilio de la Luna 42",
+        "start": 633,
+        "end": 656,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " domicilio de la Luna 42",
+          "actual_text": "domicilio de la Luna 42",
+          "confidence": 0.9802490472793579,
+          "start": 633,
+          "end": 656,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " domicilio de la Luna 42",
+          "actual_text": "domicilio de la Luna 42",
+          "confidence": 0.9802490472793579,
+          "start": 633,
+          "end": 656,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CALLE": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CALLE",
+        "word": " 42",
+        "actual_text": "42",
+        "confidence": 0.9731428623199463,
+        "start": 654,
+        "end": 656,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " domicilio de la Luna 42",
+        "actual_text": "domicilio de la Luna 42",
+        "confidence": 0.9802490472793579,
+        "start": 633,
+        "end": 656,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CALLE",
+        "word": " 42",
+        "actual_text": "42",
+        "confidence": 0.9731428623199463,
+        "start": 654,
+        "end": 656,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " domicilio de la Luna 42",
+        "actual_text": "domicilio de la Luna 42",
+        "confidence": 0.9802490472793579,
+        "start": 633,
+        "end": 656,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

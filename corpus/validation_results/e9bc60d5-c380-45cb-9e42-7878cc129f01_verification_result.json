@@ -1,0 +1,221 @@
+{
+  "document_id": "e9bc60d5-c380-45cb-9e42-7878cc129f01",
+  "success": true,
+  "anonymized_text": "Nota de evolución clínica : XXX Paciente identificado con XXX y documento nacional de identidad XXX, procedente de la XXX, acude para seguimiento postoperatorio. Refiere mejoría progresiva del dolor en la zona de intervención, manteniendo adecuada movilidad. En la exploración física actual se observa herida quirúrgica limpia, sin signos de infección, con bordes bien aproximados. Los parámetros analíticos dentro de rangos de normalidad, destacando hemoglobina en 13.2 g/dL y proteína C reactiva negativizada. La radiografía de control evidencia correcta posición de la prótesis, sin signos de complicaciones mecánicas. Se ha establecido comunicación a través del XXX para coordinación de próximas citas, habiendo confirmado la dirección de contacto en XXX. El informe completo está disponible en XXX. Para cualquier gestión administrativa o consulta, pueden contactar con el XXX. La correspondencia clínica será dirigida al XXX, con copia a XXX, quien ejerce como XXX responsable del caso, profesión que consta en el registro como XXX. Se programa próxima revisión en consultas externas manteniendo las mismas pautas de medicación y recomendando continuar con el programa de rehabilitación establecido.",
+  "text_length": 1205,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8643333315849304,
+        "word": " documento nacional de identidad",
+        "start": 64,
+        "end": 95,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad",
+          "actual_text": "documento nacional de identidad",
+          "confidence": 0.8643333315849304,
+          "start": 64,
+          "end": 95,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad",
+          "actual_text": "documento nacional de identidad",
+          "confidence": 0.8643333315849304,
+          "start": 64,
+          "end": 95,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "PROFESION",
+        "score": 0.7189698219299316,
+        "word": " XXX responsable",
+        "start": 967,
+        "end": 982,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7150461077690125,
+        "word": " registro",
+        "start": 1020,
+        "end": 1028,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "PROFESION": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "PROFESION",
+          "word": " XXX responsable",
+          "actual_text": "XXX responsable",
+          "confidence": 0.7189698219299316,
+          "start": 967,
+          "end": 982,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " registro",
+          "actual_text": "registro",
+          "confidence": 0.7150461077690125,
+          "start": 1020,
+          "end": 1028,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "PROFESION",
+          "word": " XXX responsable",
+          "actual_text": "XXX responsable",
+          "confidence": 0.7189698219299316,
+          "start": 967,
+          "end": 982,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " registro",
+          "actual_text": "registro",
+          "confidence": 0.7150461077690125,
+          "start": 1020,
+          "end": 1028,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2,
+      "PROFESION": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad",
+        "actual_text": "documento nacional de identidad",
+        "confidence": 0.8643333315849304,
+        "start": 64,
+        "end": 95,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " XXX responsable",
+        "actual_text": "XXX responsable",
+        "confidence": 0.7189698219299316,
+        "start": 967,
+        "end": 982,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " registro",
+        "actual_text": "registro",
+        "confidence": 0.7150461077690125,
+        "start": 1020,
+        "end": 1028,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad",
+        "actual_text": "documento nacional de identidad",
+        "confidence": 0.8643333315849304,
+        "start": 64,
+        "end": 95,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " XXX responsable",
+        "actual_text": "XXX responsable",
+        "confidence": 0.7189698219299316,
+        "start": 967,
+        "end": 982,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " registro",
+        "actual_text": "registro",
+        "confidence": 0.7150461077690125,
+        "start": 1020,
+        "end": 1028,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

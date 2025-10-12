@@ -1,0 +1,124 @@
+{
+  "document_id": "f48cc1c6-5ef6-420e-a689-015e392817d1",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Preoperatoria Se evalúa al paciente para procedimiento quirúrgico programado. El sujeto de asistencia, con de XXX, presenta una condición crónica que requiere intervención. Se ha coordinado con el servicio de cirugía donde el XXX responsable ha revisado el caso. Como parte de los protocolos preoperatorios, se han verificado todos los equipos médicos que se utilizarán en el quirófano, incluyendo el dispositivo con XXX y el equipo de monitorización continua con XXX. La documentación del caso se encuentra registrada bajo el número XXX. El paciente cuenta con cobertura sanitaria a través del XXX, con expediente completo en el sistema. Para aspectos administrativos y logísticos, se ha asignado el identificador XXX al proceso de contratación de servicios asociados. En cuanto a los apoyos para la movilidad, el vehículo adaptado con XXX se encuentra disponible para el transporte del paciente. Cabe mencionar que el acompañante principal, con de XXX, posee el XXX y relacionada con cuidados sanitarios, lo que constituye un valioso apoyo para el manejo domiciliario postoperatorio. Para la coordinación interinstitucional, se establece contacto con la XXX según los protocolos establecidos. El para consultas profesionales está disponible a través del XXX. El equipo quirúrgico completo, cuyo corresponde a XXX, ha sido notificado y confirmado para el procedimiento. Todos los documentos han sido validados según la normativa del XXX. El paciente cuenta además con el XXX para completar su identificación en el sistema centralizado. Se considera que el paciente se encuentra en condiciones óptimas para el procedimiento planificado.",
+  "text_length": 1658,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9539056420326233,
+        "word": " acompañante principal",
+        "start": 942,
+        "end": 963,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " acompañante principal",
+          "actual_text": "acompañante principal",
+          "confidence": 0.9539056420326233,
+          "start": 942,
+          "end": 963,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " acompañante principal",
+          "actual_text": "acompañante principal",
+          "confidence": 0.9539056420326233,
+          "start": 942,
+          "end": 963,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " acompañante principal",
+        "actual_text": "acompañante principal",
+        "confidence": 0.9539056420326233,
+        "start": 942,
+        "end": 963,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " acompañante principal",
+        "actual_text": "acompañante principal",
+        "confidence": 0.9539056420326233,
+        "start": 942,
+        "end": 963,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

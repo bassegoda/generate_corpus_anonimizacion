@@ -1,0 +1,174 @@
+{
+  "document_id": "a610f808-406a-491f-8e0c-f037a3ded79a",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA** Paciente de **XXX** que acude a revisión por patología cardiaca crónica. En la valoración actual refiere estabilidad clínica con buena tolerancia al ejercicio habitual. La exploración física muestra presión arterial de 126/78 mmHg, frecuencia cardiaca de 68 lpm regular, sin edemas periféricos ni signos de congestión. En la auscultación cardiaca se mantiene el soplo sistólico ya conocido de características funcionales. La auscultación pulmonar es normal. Respecto a las pruebas complementarias, el electrocardiograma muestra ritmo sinusal normal sin cambios significativos respecto a trazados previos. En el ecocardiograma realizado el **XXX** se objetiva función ventricular conservada. Los análisis recientes muestran perfil lipídico dentro de objetivos terapéuticos. Se procede a la actualización de la medicación manteniendo el esquema terapéutico actual dada la estabilidad clínica. Se programa seguimiento en 6 meses. Para cualquier gestión administrativa, el número de teléfono de contacto es el **XXX** y el **XXX**. El identificador de aseguramiento es **XXX** y el número de beneficiario del plan de salud es **XXX**. La referencia del expediente clínico es **XXX**. Documento validado por **XXX**, facultativa con **XXX** y colegiada con identificador profesional **XXX**. La dirección profesional para notificaciones es ** de Atocha 123**. En relación con el vehículo asignado al servicio, se registra la placa **XXX**. **XXX** Especialista en Cardiología **XXX**",
+  "text_length": 1510,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.9857305288314819,
+        "word": " Atocha 123",
+        "start": 1373,
+        "end": 1383,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " Atocha 123",
+          "actual_text": "Atocha 123",
+          "confidence": 0.9857305288314819,
+          "start": 1373,
+          "end": 1383,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " Atocha 123",
+          "actual_text": "Atocha 123",
+          "confidence": 0.9857305288314819,
+          "start": 1373,
+          "end": 1383,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.8751482963562012,
+        "word": " ** de Atocha 123**",
+        "start": 1367,
+        "end": 1385,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " ** de Atocha 123**",
+          "actual_text": "** de Atocha 123**",
+          "confidence": 0.8751482963562012,
+          "start": 1367,
+          "end": 1385,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " ** de Atocha 123**",
+          "actual_text": "** de Atocha 123**",
+          "confidence": 0.8751482963562012,
+          "start": 1367,
+          "end": 1385,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CALLE": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CALLE",
+        "word": " Atocha 123",
+        "actual_text": "Atocha 123",
+        "confidence": 0.9857305288314819,
+        "start": 1373,
+        "end": 1383,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " ** de Atocha 123**",
+        "actual_text": "** de Atocha 123**",
+        "confidence": 0.8751482963562012,
+        "start": 1367,
+        "end": 1385,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CALLE",
+        "word": " Atocha 123",
+        "actual_text": "Atocha 123",
+        "confidence": 0.9857305288314819,
+        "start": 1373,
+        "end": 1383,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " ** de Atocha 123**",
+        "actual_text": "** de Atocha 123**",
+        "confidence": 0.8751482963562012,
+        "start": 1367,
+        "end": 1385,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

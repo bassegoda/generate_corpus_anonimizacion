@@ -1,0 +1,219 @@
+{
+  "document_id": "b7c982c9-b5d8-4ab8-b255-14c6197ad9ff",
+  "success": true,
+  "anonymized_text": "En la valoración inicial se recoge que la paciente refirió inicio de sintomatología aproximadamente una semana antes de la consulta. Durante la anamnesis, se documenta que reside en la XXX. La exploración física reveló buen estado general, con presión arterial de 125/80 mmHg, frecuencia cardíaca de 78 lpm y saturación de oxígeno del 97%. La auscultación cardiorrespiratoria resultó dentro de la normalidad y el abdomen fue blando y depresible, sin masas ni dolor a la palpación. En el apartado de antecedentes familiares y sociales, se menciona que cuenta con apoyo de su familiar directo, XXX, quien reside en la XXX y se ha mostrado disponible para colaborar en el seguimiento del cuadro. Se programó una reevaluación para el XXX con el fin de valorar la evolución de los síntomas y la respuesta a las medidas terapéuticas instauradas. Los análisis de laboratorio solicitados mostraron un hemograma dentro de rangos normales y una bioquímica básica sin alteraciones significativas. Se recomienda mantener hidratación adecuada y realizar actividad física moderada, debiendo acudir a la consulta programada para control evolutivo.",
+  "text_length": 1132,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9893701076507568,
+        "word": " familiar directo,",
+        "start": 574,
+        "end": 591,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directo,",
+          "actual_text": "familiar directo,",
+          "confidence": 0.9893701076507568,
+          "start": 574,
+          "end": 591,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directo,",
+          "actual_text": "familiar directo,",
+          "confidence": 0.9893701076507568,
+          "start": 574,
+          "end": 591,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9789841771125793,
+        "word": " familiar directo,",
+        "start": 574,
+        "end": 591,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7926044464111328,
+        "word": " XXX,",
+        "start": 592,
+        "end": 596,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directo,",
+          "actual_text": "familiar directo,",
+          "confidence": 0.9789841771125793,
+          "start": 574,
+          "end": 591,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " XXX,",
+          "actual_text": "XXX,",
+          "confidence": 0.7926044464111328,
+          "start": 592,
+          "end": 596,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directo,",
+          "actual_text": "familiar directo,",
+          "confidence": 0.9789841771125793,
+          "start": 574,
+          "end": 591,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " XXX,",
+          "actual_text": "XXX,",
+          "confidence": 0.7926044464111328,
+          "start": 592,
+          "end": 596,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 3
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directo,",
+        "actual_text": "familiar directo,",
+        "confidence": 0.9893701076507568,
+        "start": 574,
+        "end": 591,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directo,",
+        "actual_text": "familiar directo,",
+        "confidence": 0.9789841771125793,
+        "start": 574,
+        "end": 591,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " XXX,",
+        "actual_text": "XXX,",
+        "confidence": 0.7926044464111328,
+        "start": 592,
+        "end": 596,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directo,",
+        "actual_text": "familiar directo,",
+        "confidence": 0.9893701076507568,
+        "start": 574,
+        "end": 591,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directo,",
+        "actual_text": "familiar directo,",
+        "confidence": 0.9789841771125793,
+        "start": 574,
+        "end": 591,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " XXX,",
+        "actual_text": "XXX,",
+        "confidence": 0.7926044464111328,
+        "start": 592,
+        "end": 596,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

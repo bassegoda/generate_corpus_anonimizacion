@@ -1,0 +1,124 @@
+{
+  "document_id": "4695ed7c-845f-4c5c-9b8a-857abfb9cb5c",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa En la valoración realizada en el XXX, perteneciente a la red pública de la XXX, se revisa la documentación clínica disponible con fecha de XXX. Se procede a la integración de la información asistencial correspondiente al identificador XXX. La exploración física revela un estado general conservado, con constantes vitales dentro de parámetros normales. La auscultación cardiorrespiratoria es rítmica y sin soplos, con murmullo vesicular conservado. En el abdomen no se palpan masas ni visceromegalias. Los resultados analíticos recientes muestran un hemograma dentro de la normalidad y perfil bioquímico sin alteraciones significativas. La radiografía de tórax realizada no evidencia hallazgos patológicos. Para completar el estudio, se recomienda consultar los protocolos actualizados disponibles en el portal XXX. Se ha establecido comunicación con los familiares sujeto asistencia para coordinar los próximos pasos en el manejo del caso, manteniendo contacto con XXX. Para cualquier gestión administrativa complementaria, queda a disposición el número de fax XXX. Se mantendrá seguimiento ambulatorio según evolución.",
+  "text_length": 1148,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7719342708587646,
+        "word": " familiares sujeto",
+        "start": 883,
+        "end": 900,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares sujeto",
+          "actual_text": "familiares sujeto",
+          "confidence": 0.7719342708587646,
+          "start": 883,
+          "end": 900,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares sujeto",
+          "actual_text": "familiares sujeto",
+          "confidence": 0.7719342708587646,
+          "start": 883,
+          "end": 900,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares sujeto",
+        "actual_text": "familiares sujeto",
+        "confidence": 0.7719342708587646,
+        "start": 883,
+        "end": 900,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares sujeto",
+        "actual_text": "familiares sujeto",
+        "confidence": 0.7719342708587646,
+        "start": 883,
+        "end": 900,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

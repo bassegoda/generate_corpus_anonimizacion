@@ -1,0 +1,124 @@
+{
+  "document_id": "25a344c1-6d54-4ebe-b30c-7c5a31a369a5",
+  "success": true,
+  "anonymized_text": "En la valoración inicial realizada en el XXX, se documenta la historia clínica correspondiente al expediente XXX. El sujeto de asistencia, identificado con el documento nacional de identidad XXX, acudió acompañado para la anamnesis por XXX, quien aportó los detalles del cuadro actual. Durante la exploración física, se constató un estado general conservado, con tensión arterial de 120/75 mmHg, frecuencia cardíaca de 78 lpm y saturación de oxígeno del 97%. La auscultación cardiorrespiratoria resultó dentro de parámetros normales, sin soplos ni ruidos sobreañadidos. En la inspección abdominal no se palparon masas ni visceromegalias, presentando peristaltismo conservado. Los estudios complementarios mostraron en la analítica un hemograma dentro de rangos de normalidad, con serie blanca sin desviaciones. El electrocardiograma registrado con el equipo XXX evidenció ritmo sinusal normal, sin alteraciones agudas de la repolarización. Se ha habilitado el acceso al portal de documentación clínica mediante la dirección XXX para el seguimiento compartido. El profesional que suscribe este informe cuenta con la titulación de XXX y está identificado en el sistema con el código correspondiente. Para cualquier comunicación posterior relacionada con este caso, queda registrado el domicilio en XXX como punto de contacto principal con la unidad familiar.",
+  "text_length": 1356,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7599955797195435,
+        "word": " documento nacional de identidad",
+        "start": 159,
+        "end": 190,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad",
+          "actual_text": "documento nacional de identidad",
+          "confidence": 0.7599955797195435,
+          "start": 159,
+          "end": 190,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad",
+          "actual_text": "documento nacional de identidad",
+          "confidence": 0.7599955797195435,
+          "start": 159,
+          "end": 190,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad",
+        "actual_text": "documento nacional de identidad",
+        "confidence": 0.7599955797195435,
+        "start": 159,
+        "end": 190,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad",
+        "actual_text": "documento nacional de identidad",
+        "confidence": 0.7599955797195435,
+        "start": 159,
+        "end": 190,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

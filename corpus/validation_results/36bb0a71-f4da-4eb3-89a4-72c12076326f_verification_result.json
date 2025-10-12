@@ -1,0 +1,124 @@
+{
+  "document_id": "36bb0a71-f4da-4eb3-89a4-72c12076326f",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA** En la consulta del día XXX se atiende a la paciente de sexo XXX, con documento de identificación XXX y procedente de XXX. La paciente, cuya historia clínica principal está registrada bajo el identificador XXX, acude para seguimiento de su condición médica actual. La exploración física realizada hoy muestra constantes vitales dentro de la normalidad. La auscultación cardiorrespiratoria es normal y el abdomen es blando y depresible. Se ha indicado la realización de analítica completa y se solicitará ecografía abdominal para completar el estudio. Es importante destacar que la paciente refiere ser XXX, dato que queda registrado de forma prominente en su historia. Para cualquier comunicación relacionada con su seguimiento, puede utilizarse el número de teléfono XXX. Asimismo, se ha verificado que la dirección de correspondencia es XXX. Queda registrado en el sistema XXX como contacto principal. Se ha generado un identificador adicional para documentación complementaria bajo XXX. En relación con su entorno familiar, se ha incluido en el apartado a XXX, quien puede ser contactada en el número XXX y a través del correo_electronico XXX. El presente informe ha sido elaborado por XXX, quien asume la responsabilidad clínica del caso. Se recomienda control en consulta externa en un plazo de tres meses.",
+  "text_length": 1342,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.798945426940918,
+        "word": " familiar",
+        "start": 1048,
+        "end": 1056,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.798945426940918,
+          "start": 1048,
+          "end": 1056,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.798945426940918,
+          "start": 1048,
+          "end": 1056,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.798945426940918,
+        "start": 1048,
+        "end": 1056,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.798945426940918,
+        "start": 1048,
+        "end": 1056,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

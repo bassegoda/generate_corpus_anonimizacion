@@ -1,0 +1,124 @@
+{
+  "document_id": "3c835a46-01ff-4b5e-8ee7-0abe518ccf74",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa La paciente, de sexo XXX, se presenta para seguimiento de su patología crónica. En la exploración física actual se observa buen estado general, con tensión arterial de 125/80 mmHg y frecuencia cardíaca de 72 lpm. La auscultación cardiorrespiratoria resulta dentro de la normalidad, sin soplos ni ruidos sobreañadidos. El abdomen es blando y depresible, no doloroso a la palpación. Respecto a los estudios complementarios realizados, la analítica muestra hemograma dentro de parámetros normales y función renal conservada. Se procederá a contactar con el servicio de farmacia del XXX para la gestión de la medicación de dispensación hospitalaria, cuyo número de contacto es XXX. Para la coordinación con otros niveles asistenciales, queda registrado el identificador profesional XXX correspondiente al facultativo responsable. Cabe mencionar que toda la documentación clínica se ajusta a los protocolos establecidos para el sistema sanitario de XXX. En relación con los trámites administrativos, se ha verificado el número de identificación profesional XXX en los registros del colegio de médicos. Se mantendrá el mismo plan terapéutico y se citará para control en tres meses.",
+  "text_length": 1203,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.9846920967102051,
+        "word": " colegio de médicos",
+        "start": 1105,
+        "end": 1123,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " colegio de médicos",
+          "actual_text": "colegio de médicos",
+          "confidence": 0.9846920967102051,
+          "start": 1105,
+          "end": 1123,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " colegio de médicos",
+          "actual_text": "colegio de médicos",
+          "confidence": 0.9846920967102051,
+          "start": 1105,
+          "end": 1123,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " colegio de médicos",
+        "actual_text": "colegio de médicos",
+        "confidence": 0.9846920967102051,
+        "start": 1105,
+        "end": 1123,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " colegio de médicos",
+        "actual_text": "colegio de médicos",
+        "confidence": 0.9846920967102051,
+        "start": 1105,
+        "end": 1123,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

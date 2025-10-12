@@ -1,0 +1,124 @@
+{
+  "document_id": "720446c2-d93b-42b6-8fc8-3a8e25b18739",
+  "success": true,
+  "anonymized_text": "**Informe de Consulta Externa** Paciente: XXX La paciente acude a consulta para seguimiento en el XXX. Se identifica con el número de beneficiaria del plan de salud XXX y su sexo es XXX. Durante la anamnesis, refiere mejoría de la sintomatología previa, manteniendo domicilio en XXX. Como parte del protocolo de seguimiento, se ha solicitado perfil bioquímico completo y hemograma, cuyos resultados estarán disponibles a través de nuestro portal web XXX. Se recuerda a la paciente que puede consultar dichos resultados mediante el identificador de aseguramiento XXX. En la exploración física actual, la paciente se encuentra consciente y orientada, con constantes vitales dentro de parámetros normales. La auscultación cardiorrespiratoria es normal, sin soplos ni ruidos sobreañadidos. El abdomen es blando y depresible, no doloroso a la palpación. Se ha establecido como persona de contacto principal a XXX, con número de teléfono XXX. Adicionalmente, se ha registrado el teléfono XXX para comunicaciones. Para cualquier gestión administrativa, pueden utilizar nuestro correo electrónico XXX. El dispositivo médico en uso, identificado con el número de serie XXX, funciona dentro de los parámetros establecidos. Se ha verificado que el identificador del dispositivo XXX coincide con la documentación técnica. Se recomienda a la paciente mantener los controles periódicos según programación establecida. Para información complementaria sobre su condición, puede consultar los recursos educativos disponibles en XXX donde encontrará material de apoyo actualizado.",
+  "text_length": 1562,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.718853771686554,
+        "word": " identific",
+        "start": 531,
+        "end": 540,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identific",
+          "actual_text": "identific",
+          "confidence": 0.718853771686554,
+          "start": 531,
+          "end": 540,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identific",
+          "actual_text": "identific",
+          "confidence": 0.718853771686554,
+          "start": 531,
+          "end": 540,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identific",
+        "actual_text": "identific",
+        "confidence": 0.718853771686554,
+        "start": 531,
+        "end": 540,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identific",
+        "actual_text": "identific",
+        "confidence": 0.718853771686554,
+        "start": 531,
+        "end": 540,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

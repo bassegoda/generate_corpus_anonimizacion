@@ -1,0 +1,219 @@
+{
+  "document_id": "4c8b725d-fd7f-4446-bc3e-8528c750e5cf",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude a consulta para seguimiento y control de su proceso crónico. Se procede a la verificación de identidad mediante el sistema biométrico, registrándose la XXX como parte de los protocolos de seguridad del centro. El paciente, de XXX, se encuentra adscrito al XXX, perteneciente al XXX. En relación con la documentación administrativa, se confirma que el número de beneficio del plan de salud es XXX y que la institución responsable de su cobertura es el XXX. Para los registros de movilidad, se anota que el vehículo asignado para transporte sanitario presenta la placa XXX. Respecto al equipamiento médico utilizado durante la exploración, el dispositivo de medición de constantes vitales cuenta con el número de serie XXX, conforme a los protocolos de trazabilidad del centro. El profesional sanitario que realiza la asistencia identifica su vinculación laboral con el código XXX. La dirección registrada para notificaciones en el área de influencia del centro es de la Alameda 47, mientras que para gestiones administrativas se mantiene como referencia XXX. Exploración física: Consciente y orientado. Mucosas húmedas. Auscultación cardiorrespiratoria rítmica sin soplos, con murmullo vesicular conservado. Abdomen blando y depresible sin masas palpables. Extremidades sin edemas periféricos. Se mantiene tratamiento actual y se cita para control periódico en seis meses.",
+  "text_length": 1418,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.7512781023979187,
+        "word": " de",
+        "start": 1010,
+        "end": 1012,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9875448346138,
+        "word": " la Alameda 47",
+        "start": 1013,
+        "end": 1026,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 2
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " de",
+          "actual_text": "de",
+          "confidence": 0.7512781023979187,
+          "start": 1010,
+          "end": 1012,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " la Alameda 47",
+          "actual_text": "la Alameda 47",
+          "confidence": 0.9875448346138,
+          "start": 1013,
+          "end": 1026,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " de",
+          "actual_text": "de",
+          "confidence": 0.7512781023979187,
+          "start": 1010,
+          "end": 1012,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " la Alameda 47",
+          "actual_text": "la Alameda 47",
+          "confidence": 0.9875448346138,
+          "start": 1013,
+          "end": 1026,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.8697680234909058,
+        "word": " Alameda 47",
+        "start": 1016,
+        "end": 1026,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " Alameda 47",
+          "actual_text": "Alameda 47",
+          "confidence": 0.8697680234909058,
+          "start": 1016,
+          "end": 1026,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " Alameda 47",
+          "actual_text": "Alameda 47",
+          "confidence": 0.8697680234909058,
+          "start": 1016,
+          "end": 1026,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CALLE": 3
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CALLE",
+        "word": " de",
+        "actual_text": "de",
+        "confidence": 0.7512781023979187,
+        "start": 1010,
+        "end": 1012,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " la Alameda 47",
+        "actual_text": "la Alameda 47",
+        "confidence": 0.9875448346138,
+        "start": 1013,
+        "end": 1026,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Alameda 47",
+        "actual_text": "Alameda 47",
+        "confidence": 0.8697680234909058,
+        "start": 1016,
+        "end": 1026,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CALLE",
+        "word": " de",
+        "actual_text": "de",
+        "confidence": 0.7512781023979187,
+        "start": 1010,
+        "end": 1012,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " la Alameda 47",
+        "actual_text": "la Alameda 47",
+        "confidence": 0.9875448346138,
+        "start": 1013,
+        "end": 1026,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Alameda 47",
+        "actual_text": "Alameda 47",
+        "confidence": 0.8697680234909058,
+        "start": 1016,
+        "end": 1026,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "document_id": "df1d2d2a-0094-4757-a25e-d16285ce80c4",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Clínica Paciente XXX, con identificación XXX, que acude a consulta para valoración integral. La paciente, de XXX, presenta antecedentes de hipertensión arterial controlada y dislipidemia en seguimiento habitual en el XXX. Refiere episodios de disnea de moderados esfuerzos en las últimas semanas, sin dolor torácico asociado ni palpitaciones. A la exploración física se constata tensión arterial de 135/80 mmHg, frecuencia cardíaca de 78 lpm regular, saturación de oxígeno del 96% en aire ambiente. Auscultación cardíaca con ritmo regular, sin soplos aparentes. Auscultación pulmonar con murmullo vesicular conservado, sin ruidos sobreañadidos. Extremidades inferiores sin edemas ni signos de insuficiencia venosa. En cuanto a pruebas complementarias recientes, el electrocardiograma muestra ritmo sinusal normal sin alteraciones agudas de la repolarización. La analítica general evidencia perfil lipídico dentro de objetivos terapéuticos, con función renal conservada. Se ha solicitado ecocardiograma para completar estudio, dada la sintomatología referida. La paciente cuenta con número de beneficiario del plan de salud XXX y reside en la dirección Gran Vía 120, dentro del ámbito de la XXX. Se coordinará con el servicio de cardiología para valoración por el XXX en caso de que los estudios complementarios lo requieran. Como profesional sanitario a cargo de esta valoración, cuento con la titulación de XXX y estoy identificado con el número de colegiación XXX. Se recomienda seguimiento estrecho en consultas de enfermería para monitorización de constantes y educación sanitaria sobre control de factores de riesgo cardiovascular.",
+  "text_length": 1658,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.971107542514801,
+        "word": " Gran Vía 120",
+        "start": 1174,
+        "end": 1186,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " Gran Vía 120",
+          "actual_text": "Gran Vía 120",
+          "confidence": 0.971107542514801,
+          "start": 1174,
+          "end": 1186,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " Gran Vía 120",
+          "actual_text": "Gran Vía 120",
+          "confidence": 0.971107542514801,
+          "start": 1174,
+          "end": 1186,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.973310649394989,
+        "word": " Gran Vía 120",
+        "start": 1174,
+        "end": 1186,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " Gran Vía 120",
+          "actual_text": "Gran Vía 120",
+          "confidence": 0.973310649394989,
+          "start": 1174,
+          "end": 1186,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " Gran Vía 120",
+          "actual_text": "Gran Vía 120",
+          "confidence": 0.973310649394989,
+          "start": 1174,
+          "end": 1186,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CALLE": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CALLE",
+        "word": " Gran Vía 120",
+        "actual_text": "Gran Vía 120",
+        "confidence": 0.971107542514801,
+        "start": 1174,
+        "end": 1186,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Gran Vía 120",
+        "actual_text": "Gran Vía 120",
+        "confidence": 0.973310649394989,
+        "start": 1174,
+        "end": 1186,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CALLE",
+        "word": " Gran Vía 120",
+        "actual_text": "Gran Vía 120",
+        "confidence": 0.971107542514801,
+        "start": 1174,
+        "end": 1186,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Gran Vía 120",
+        "actual_text": "Gran Vía 120",
+        "confidence": 0.973310649394989,
+        "start": 1174,
+        "end": 1186,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

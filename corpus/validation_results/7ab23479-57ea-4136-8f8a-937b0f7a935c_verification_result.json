@@ -1,0 +1,174 @@
+{
+  "document_id": "7ab23479-57ea-4136-8f8a-937b0f7a935c",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa En la consulta realizada el XXX en el XXX, se evalúa a la paciente que presenta un cuadro de dolor abdominal localizado en fosa ilíaca derecha. La paciente, de sexo XXX y nacionalidad XXX, acude acompañada en esta ocasión por su XXX, quien aporta datos de la anamnesis. Es de suma relevancia consignar en este informe que la paciente refiere ser XXX, dato que ha sido verificado y actualizado en su registro digital. La exploración física revela abdomen blando y depresible, con dolor a la palpación profunda en punto de McBurney. No se palpan masas ni visceromegalias. Los ruidos hidroaéreos están presentes. Se procedió a la realización de una ecografía abdominal con el equipo de ultrasonido identificado con el número XXX, cuyo informe no muestra hallazgos de apendicitis aguda, pero sí leve engrosamiento de asas intestinales en cuadrante inferior derecho, sugestivo de proceso inflamatorio inespecífico. Se recomienda manejo conservador. Para la coordinación de la atención y registro de la incidencia, se utilizó el terminal con dirección de protocolo de internet XXX, desde donde se accedió al historial completo de la paciente a través del enlace XXX. En dicho sistema queda registrado el número de identificación de aseguramiento XXX, así como el número de historia clínica XXX. Dada la persistencia de la sintomatología, se ha derivado a la paciente para valoración por el servicio de XXX, quien determinará la necesidad de intervención quirúrgica en caso de no mejorar con el tratamiento médico instaurado. La paciente fue informada de los planes terapéuticos y se le entregó la documentación correspondiente.",
+  "text_length": 1649,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7620329260826111,
+        "word": " terminal con dirección de protocolo de internet",
+        "start": 1051,
+        "end": 1098,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " terminal con dirección de protocolo de internet",
+          "actual_text": "terminal con dirección de protocolo de internet",
+          "confidence": 0.7620329260826111,
+          "start": 1051,
+          "end": 1098,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " terminal con dirección de protocolo de internet",
+          "actual_text": "terminal con dirección de protocolo de internet",
+          "confidence": 0.7620329260826111,
+          "start": 1051,
+          "end": 1098,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8126746416091919,
+        "word": " clínica",
+        "start": 1304,
+        "end": 1311,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.8126746416091919,
+          "start": 1304,
+          "end": 1311,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.8126746416091919,
+          "start": 1304,
+          "end": 1311,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " terminal con dirección de protocolo de internet",
+        "actual_text": "terminal con dirección de protocolo de internet",
+        "confidence": 0.7620329260826111,
+        "start": 1051,
+        "end": 1098,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.8126746416091919,
+        "start": 1304,
+        "end": 1311,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " terminal con dirección de protocolo de internet",
+        "actual_text": "terminal con dirección de protocolo de internet",
+        "confidence": 0.7620329260826111,
+        "start": 1051,
+        "end": 1098,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.8126746416091919,
+        "start": 1304,
+        "end": 1311,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

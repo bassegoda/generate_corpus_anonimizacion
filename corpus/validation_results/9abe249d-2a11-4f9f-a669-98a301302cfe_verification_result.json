@@ -1,0 +1,124 @@
+{
+  "document_id": "9abe249d-2a11-4f9f-a669-98a301302cfe",
+  "success": true,
+  "anonymized_text": "A continuación se presenta el informe de seguimiento correspondiente a la paciente XXX, de XXX, atendida en esta consulta de control. La paciente, cuyo número de historia clínica es XXX, acude para valoración evolutiva de su situación clínica actual. La exploración física actual muestra una tensión arterial de 135/80 mmHg, frecuencia cardíaca de 68 lpm y saturación de oxígeno del 96%. En la auscultación cardiorrespiratoria no se aprecian soplos ni ruidos sobreañadidos. El abdomen es blando y depreciable, sin masas ni visceromegalias. Se recomienda continuar con el plan terapéutico establecido y se ha valorado positivamente su participación en el XXX, cuyo seguimiento se coordinará desde el XXX. Respecto a su situación psicosocial, se observa buena adaptación al proceso, manteniendo un adecuado apoyo familiar y participando activamente en el XXX. Se ha proporcionado información adicional disponible a través del portal XXX para complementar su educación sanitaria. Como profesional con XXX formado en XXX, específicamente en la XXX, considero importante destacar la coordinación con la XXX para optimizar los recursos asistenciales. Para su desplazamiento a las sesiones de apoyo, la paciente utiliza el vehículo con placa XXX. Se programará próxima revisión para evaluar la evolución y ajustar las recomendaciones según su respuesta al tratamiento actual.",
+  "text_length": 1368,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7003608345985413,
+        "word": " vehículo",
+        "start": 1216,
+        "end": 1224,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.7003608345985413,
+          "start": 1216,
+          "end": 1224,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.7003608345985413,
+          "start": 1216,
+          "end": 1224,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.7003608345985413,
+        "start": 1216,
+        "end": 1224,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.7003608345985413,
+        "start": 1216,
+        "end": 1224,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

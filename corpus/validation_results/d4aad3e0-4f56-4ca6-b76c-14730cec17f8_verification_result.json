@@ -1,0 +1,174 @@
+{
+  "document_id": "d4aad3e0-4f56-4ca6-b76c-14730cec17f8",
+  "success": true,
+  "anonymized_text": "En la valoración geriátrica integral realizada se documenta el estado de salud actual de la paciente de XXX, que acude para seguimiento de su patología crónica. La exploración física muestra una tensión arterial de 135/80 mmHg, frecuencia cardíaca de 68 lpm y saturación de oxígeno del 96% en aire ambiente. En la auscultación cardíaca se identifican ruidos rítmicos sin soplos, y en la exploración respiratoria se constatan murmullo vesicular conservado bilateralmente. Los estudios complementarios incluyen una analítica con hemoglobina de 13.2 g/dL y creatinina de 0.9 mg/dL. En la radiografía de tórax se observa una silueta cardíaca dentro de límites normales para su edad. Para un seguimiento más detallado de su caso clínico, se ha proporcionado el identificador XXX como referencia principal en nuestro sistema de historiales. Como parte de las medidas de soporte asistencial, se ha registrado el vehículo con matrícula XXX para facilitar su acceso al centro en las visitas programadas. El sexo XXX de la paciente resulta relevante en la valoración de factores de riesgo específicos y enfoque preventivo. Se recomienda consultar los recursos educativos disponibles a través de XXX para complementar la información sobre el manejo de sus condiciones crónicas. El plan terapéutico se centra en el control periódico de sus parámetros metabólicos y la optimización de su medicación habitual, con énfasis en la adherencia terapéutica y la detección precoz de posibles efectos adversos.",
+  "text_length": 1488,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8196648955345154,
+        "word": " vehículo",
+        "start": 905,
+        "end": 913,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.8196648955345154,
+          "start": 905,
+          "end": 913,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.8196648955345154,
+          "start": 905,
+          "end": 913,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9140937328338623,
+        "word": "toriales",
+        "start": 825,
+        "end": 833,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "toriales",
+          "actual_text": "toriales",
+          "confidence": 0.9140937328338623,
+          "start": 825,
+          "end": 833,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "toriales",
+          "actual_text": "toriales",
+          "confidence": 0.9140937328338623,
+          "start": 825,
+          "end": 833,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.8196648955345154,
+        "start": 905,
+        "end": 913,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "toriales",
+        "actual_text": "toriales",
+        "confidence": 0.9140937328338623,
+        "start": 825,
+        "end": 833,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.8196648955345154,
+        "start": 905,
+        "end": 913,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "toriales",
+        "actual_text": "toriales",
+        "confidence": 0.9140937328338623,
+        "start": 825,
+        "end": 833,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

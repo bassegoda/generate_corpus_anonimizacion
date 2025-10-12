@@ -1,0 +1,222 @@
+{
+  "document_id": "07f35fa5-f7a6-4ca9-83dc-979bf512fb0b",
+  "success": true,
+  "anonymized_text": "Informe de Valoración por Servicio de Cirugía Tras la valoración del paciente en consultas externas, se procede a la elaboración del presente informe. El paciente fue remitido a nuestro centro, General de Cataluña, para una segunda opinión quirúrgica. Cabe destacar que la coordinación con la XXX ha sido fundamental para agilizar los trámites de esta interconsulta. En la exploración física realizada, se incluyó un examen exhaustivo de la extremidad superior. Para una identificación biométrica precisa y futuras validaciones en procedimientos, se registró la XXX. La movilidad articular es completa y no se aprecian signos de neuropatía periférica en los miembros superiores. Respecto a la documentación aportada por el paciente, se verificó su identificación y datos de aseguramiento. El número de teléfono de contacto registrado en el sistema es el XXX, que coincide con el XXX anotado en el formulario de admisión. Para su identificación vehicular, el paciente declaró poseer un vehículo con la placa XXX y otro con la placa XXX. El número de historia clínica asignado en nuestro centro es XXX. El identificador principal de aseguramiento es XXX, y también se anotó el código XXX como referencia complementaria del seguro. Se recomienda realizar una nueva valoración en un plazo de tres meses para reevaluar la situación. El XXX de cabecera y el XXX asignado mantendrán una comunicación fluida para el seguimiento del caso. Cualquier actualización en los datos de contacto asistencial debe ser comunicada de inmediato a la unidad de admisión.",
+  "text_length": 1548,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.9667369723320007,
+        "word": " General de Cataluña",
+        "start": 194,
+        "end": 213,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Cataluña",
+          "actual_text": "General de Cataluña",
+          "confidence": 0.9667369723320007,
+          "start": 194,
+          "end": 213,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Cataluña",
+          "actual_text": "General de Cataluña",
+          "confidence": 0.9667369723320007,
+          "start": 194,
+          "end": 213,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9288814067840576,
+        "word": " General de Cataluña",
+        "start": 194,
+        "end": 213,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8226768374443054,
+        "word": " otro",
+        "start": 1013,
+        "end": 1017,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1,
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Cataluña",
+          "actual_text": "General de Cataluña",
+          "confidence": 0.9288814067840576,
+          "start": 194,
+          "end": 213,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " otro",
+          "actual_text": "otro",
+          "confidence": 0.8226768374443054,
+          "start": 1013,
+          "end": 1017,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Cataluña",
+          "actual_text": "General de Cataluña",
+          "confidence": 0.9288814067840576,
+          "start": 194,
+          "end": 213,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " otro",
+          "actual_text": "otro",
+          "confidence": 0.8226768374443054,
+          "start": 1013,
+          "end": 1017,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "HOSPITAL": 1,
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Cataluña",
+        "actual_text": "General de Cataluña",
+        "confidence": 0.9667369723320007,
+        "start": 194,
+        "end": 213,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Cataluña",
+        "actual_text": "General de Cataluña",
+        "confidence": 0.9288814067840576,
+        "start": 194,
+        "end": 213,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " otro",
+        "actual_text": "otro",
+        "confidence": 0.8226768374443054,
+        "start": 1013,
+        "end": 1017,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Cataluña",
+        "actual_text": "General de Cataluña",
+        "confidence": 0.9667369723320007,
+        "start": 194,
+        "end": 213,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Cataluña",
+        "actual_text": "General de Cataluña",
+        "confidence": 0.9288814067840576,
+        "start": 194,
+        "end": 213,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " otro",
+        "actual_text": "otro",
+        "confidence": 0.8226768374443054,
+        "start": 1013,
+        "end": 1017,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

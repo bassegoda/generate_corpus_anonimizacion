@@ -1,0 +1,174 @@
+{
+  "document_id": "a0a1d18a-9956-4b97-bc8f-ad49bd4ea27f",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente de sexo XXX, con edad actual de XXX, que acude para seguimiento de su patología crónica. La paciente, identificada con el documento XXX, reside en XXX. Como dato de interés, su pareja de XXX, que la acompaña hoy, reside en XXX. En la valoración actual, se revisan los estudios complementarios realizados. La radiografía de tórax informa hallazgos compatibles con patología inflamatoria crónica. Los equipos utilizados para los estudios, identificados como XXX y XXX, se encuentran en perfecto estado de calibración según los protocolos establecidos. La analítica realizada el XXX muestra parámetros dentro de la normalidad excepto leve elevación de reactantes de fase aguda. Se ha establecido contacto a través del XXX para el envío de documentación complementaria y se dispone del número de fax XXX para comunicación institucional. El informe queda registrado según los protocolos del XXX y la XXX, en cumplimiento de la normativa vigente en XXX. Cabe destacar que la paciente refiere haber recibido atención previa en la XXX, lo que se tendrá en cuenta para la integración de su historial. Se programa seguimiento en tres meses con nueva analítica de control y se recomienda continuar con el tratamiento establecido, monitorizando la posible aparición de efectos adversos.",
+  "text_length": 1311,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9107991456985474,
+        "word": " pareja de",
+        "start": 214,
+        "end": 223,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " pareja de",
+          "actual_text": "pareja de",
+          "confidence": 0.9107991456985474,
+          "start": 214,
+          "end": 223,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " pareja de",
+          "actual_text": "pareja de",
+          "confidence": 0.9107991456985474,
+          "start": 214,
+          "end": 223,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9858725070953369,
+        "word": " pareja de XXX,",
+        "start": 214,
+        "end": 228,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " pareja de XXX,",
+          "actual_text": "pareja de XXX,",
+          "confidence": 0.9858725070953369,
+          "start": 214,
+          "end": 228,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " pareja de XXX,",
+          "actual_text": "pareja de XXX,",
+          "confidence": 0.9858725070953369,
+          "start": 214,
+          "end": 228,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " pareja de",
+        "actual_text": "pareja de",
+        "confidence": 0.9107991456985474,
+        "start": 214,
+        "end": 223,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " pareja de XXX,",
+        "actual_text": "pareja de XXX,",
+        "confidence": 0.9858725070953369,
+        "start": 214,
+        "end": 228,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " pareja de",
+        "actual_text": "pareja de",
+        "confidence": 0.9107991456985474,
+        "start": 214,
+        "end": 223,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " pareja de XXX,",
+        "actual_text": "pareja de XXX,",
+        "confidence": 0.9858725070953369,
+        "start": 214,
+        "end": 228,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

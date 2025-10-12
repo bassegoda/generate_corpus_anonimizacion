@@ -1,0 +1,174 @@
+{
+  "document_id": "ddad2036-0ac6-415c-ba89-6b36d7cd53cd",
+  "success": true,
+  "anonymized_text": "A continuación, se presenta el informe de interconsulta correspondiente a la paciente de sexo XXX y XXX, cuyo es XXX. La paciente fue valorada en el XXX, Los Álamos el XXX por presentar un cuadro de dolor abdominal crónico. Tras la exploración física, que reveló sensibilidad a la palpación en fosa ilíaca derecha sin signos de irritación peritoneal, y una analítica con leve leucocitosis, se consideró pertinente la derivación a un especialista en cirugía general para valoración. Se procedió a la solicitud de una tomografía computarizada de abdomen y pelvis, cuyos hallazgos serán revisados por el XXX. Para la coordinación de esta interconsulta, puede utilizarse el XXX. El profesional sanitario asignado, cuyo es XXX y que posee el título de XXX, ejerce la de XXX en dicho centro. Toda la documentación queda incorporada a la historia clínica con referencia XXX. Para cualquier aclaración o envío de informes complementarios, se ha facilitado el correo electrónico XXX. Se recomienda a la paciente consultar también la información disponible en la XXX. Se mantendrá un seguimiento estrecho desde la atención primaria para garantizar la continuidad asistencial. Un segundo de contacto para la unidad es XXX.",
+  "text_length": 1211,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.903203010559082,
+        "word": " Los Álamos",
+        "start": 154,
+        "end": 164,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "TERRITORIO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "TERRITORIO",
+          "word": " Los Álamos",
+          "actual_text": "Los Álamos",
+          "confidence": 0.903203010559082,
+          "start": 154,
+          "end": 164,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "TERRITORIO",
+          "word": " Los Álamos",
+          "actual_text": "Los Álamos",
+          "confidence": 0.903203010559082,
+          "start": 154,
+          "end": 164,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.8206698894500732,
+        "word": " Los Álamos el",
+        "start": 154,
+        "end": 167,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "TERRITORIO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "TERRITORIO",
+          "word": " Los Álamos el",
+          "actual_text": "Los Álamos el",
+          "confidence": 0.8206698894500732,
+          "start": 154,
+          "end": 167,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "TERRITORIO",
+          "word": " Los Álamos el",
+          "actual_text": "Los Álamos el",
+          "confidence": 0.8206698894500732,
+          "start": 154,
+          "end": 167,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "TERRITORIO": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "TERRITORIO",
+        "word": " Los Álamos",
+        "actual_text": "Los Álamos",
+        "confidence": 0.903203010559082,
+        "start": 154,
+        "end": 164,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " Los Álamos el",
+        "actual_text": "Los Álamos el",
+        "confidence": 0.8206698894500732,
+        "start": 154,
+        "end": 167,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "TERRITORIO",
+        "word": " Los Álamos",
+        "actual_text": "Los Álamos",
+        "confidence": 0.903203010559082,
+        "start": 154,
+        "end": 164,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " Los Álamos el",
+        "actual_text": "Los Álamos el",
+        "confidence": 0.8206698894500732,
+        "start": 154,
+        "end": 167,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

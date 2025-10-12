@@ -1,0 +1,267 @@
+{
+  "document_id": "1d24e22a-3606-4a7a-af89-b13482d47ce5",
+  "success": true,
+  "anonymized_text": "A la exploración física, se evidencia un paciente consciente y orientado en tiempo y espacio, colaborador. La auscultación cardíaca revela un ritmo regular sin soplos audibles, y la auscultación pulmonar presenta murmullo vesicular conservado bilateralmente sin ruidos sobreañadidos. En la palpación abdominal, no se identifican masas ni hepatomegalias. El dispositivo de monitorización continua con número de serie XXX se encuentra funcionando dentro de sus parámetros normales, sin registrar eventos de relevancia durante esta sesión. Los análisis recientes, asociados al número de historia clínica XXX, muestran un perfil lipídico dentro de rangos aceptables para un individuo de XXX. Se procederá a contactar con el equipo de seguimiento asignado a este caso, cuyo identificador de contacto asistencial es XXX, para coordinar la continuidad de los cuidados. El paciente, con número de beneficiario del plan de salud 28461973, tiene su residencia habitual en XXX, lo cual es un dato a considerar para la logística de cualquier procedimiento futuro.",
+  "text_length": 1051,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.9839670062065125,
+        "word": " 28",
+        "start": 920,
+        "end": 922,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " 28",
+          "actual_text": "28",
+          "confidence": 0.9839670062065125,
+          "start": 920,
+          "end": 922,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " 28",
+          "actual_text": "28",
+          "confidence": 0.9839670062065125,
+          "start": 920,
+          "end": 922,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7156822681427002,
+        "word": " historia clínica",
+        "start": 584,
+        "end": 600,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7009696960449219,
+        "word": " plan de salud",
+        "start": 906,
+        "end": 919,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9862250089645386,
+        "word": " 28",
+        "start": 920,
+        "end": 922,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 2,
+        "NUMERO_TELEFONO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.7156822681427002,
+          "start": 584,
+          "end": 600,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de salud",
+          "actual_text": "plan de salud",
+          "confidence": 0.7009696960449219,
+          "start": 906,
+          "end": 919,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 28",
+          "actual_text": "28",
+          "confidence": 0.9862250089645386,
+          "start": 920,
+          "end": 922,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.7156822681427002,
+          "start": 584,
+          "end": 600,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de salud",
+          "actual_text": "plan de salud",
+          "confidence": 0.7009696960449219,
+          "start": 906,
+          "end": 919,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 28",
+          "actual_text": "28",
+          "confidence": 0.9862250089645386,
+          "start": 920,
+          "end": 922,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 1,
+      "OTROS_SUJETO_ASISTENCIA": 2,
+      "NUMERO_TELEFONO": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " 28",
+        "actual_text": "28",
+        "confidence": 0.9839670062065125,
+        "start": 920,
+        "end": 922,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.7156822681427002,
+        "start": 584,
+        "end": 600,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de salud",
+        "actual_text": "plan de salud",
+        "confidence": 0.7009696960449219,
+        "start": 906,
+        "end": 919,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 28",
+        "actual_text": "28",
+        "confidence": 0.9862250089645386,
+        "start": 920,
+        "end": 922,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " 28",
+        "actual_text": "28",
+        "confidence": 0.9839670062065125,
+        "start": 920,
+        "end": 922,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.7156822681427002,
+        "start": 584,
+        "end": 600,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de salud",
+        "actual_text": "plan de salud",
+        "confidence": 0.7009696960449219,
+        "start": 906,
+        "end": 919,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 28",
+        "actual_text": "28",
+        "confidence": 0.9862250089645386,
+        "start": 920,
+        "end": 922,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

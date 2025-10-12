@@ -1,0 +1,169 @@
+{
+  "document_id": "c6b68018-2fb0-4839-a461-7de1d14931de",
+  "success": true,
+  "anonymized_text": "En la valoración geriátrica integral se recoge que la paciente de XXX, XXX, acude acompañada por su familiar de referencia, doña XXX, quien participa activamente en el proceso asistencial. Se ha procedido a la verificación de identidad mediante sistema biométrico, registrándose satisfactoriamente la XXX, que corresponde a un patrón de lazo. Este dato queda asociado al expediente clínico XXX. Como parte de la estrategia terapéutica multimodal, se ha considerado beneficioso derivar a la paciente al XXX, dada su adecuación al perfil requerido. Para cualquier coordinación interdisciplinar, queda establecido como canal de comunicación el correo electrónico XXX, correspondiente al profesional sanitario asignado. Cabe mencionar que en la documentación figura el identificador de empleo del personal sanitario responsable bajo la referencia XXX. En lo relativo a la identificación complementaria, constan en el sistema los siguientes números de referencia: XXX como otro número de identificación y XXX como identificador de contacto asistencial principal. Estos registros facilitan la trazabilidad en los procesos clínicos y administrativos.",
+  "text_length": 1143,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.839152455329895,
+        "word": " familiar de referencia,",
+        "start": 100,
+        "end": 123,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9827077984809875,
+        "word": " doña",
+        "start": 124,
+        "end": 128,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de referencia,",
+          "actual_text": "familiar de referencia,",
+          "confidence": 0.839152455329895,
+          "start": 100,
+          "end": 123,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " doña",
+          "actual_text": "doña",
+          "confidence": 0.9827077984809875,
+          "start": 124,
+          "end": 128,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de referencia,",
+          "actual_text": "familiar de referencia,",
+          "confidence": 0.839152455329895,
+          "start": 100,
+          "end": 123,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " doña",
+          "actual_text": "doña",
+          "confidence": 0.9827077984809875,
+          "start": 124,
+          "end": 128,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de referencia,",
+        "actual_text": "familiar de referencia,",
+        "confidence": 0.839152455329895,
+        "start": 100,
+        "end": 123,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " doña",
+        "actual_text": "doña",
+        "confidence": 0.9827077984809875,
+        "start": 124,
+        "end": 128,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de referencia,",
+        "actual_text": "familiar de referencia,",
+        "confidence": 0.839152455329895,
+        "start": 100,
+        "end": 123,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " doña",
+        "actual_text": "doña",
+        "confidence": 0.9827077984809875,
+        "start": 124,
+        "end": 128,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

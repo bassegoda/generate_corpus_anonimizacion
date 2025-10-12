@@ -1,0 +1,175 @@
+{
+  "document_id": "737b6c39-32ce-4538-b82e-b1e42ea507bc",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Preoperatoria Paciente que acude para valoración preoperatoria previa a intervención de cirugía menor programada. La paciente, de sexo XXX, presenta un estado general aceptable para el procedimiento planteado. Se confirma que la fecha de intervención quirúrgica será el XXX, para lo cual se han completado todos los estudios preanestésicos requeridos. La paciente, de XXX, refiere buen estado funcional basal. En la exploración física se evidencia normotensión arterial, frecuencia cardíaca regular a 78 lpm, y saturación de oxígeno del 97% en aire ambiente. Los análisis preoperatorios muestran hemograma dentro de parámetros normales, con coagulación adecuada y función renal conservada. La radiografía de tórax no evidencia hallazgos patológicos significativos. Cabe destacar que la paciente ejerce la profesión de XXX, lo que implica un conocimiento preciso del procedimiento y sus riesgos, mostrando una comprensión excelente de la información proporcionada. Se ha verificado su identificación mediante el documento de aseguramiento XXX, encontrándose todo en regla. Para coordinación logística se ha establecido que el vehículo asignado para su transporte presentará la placa XXX el día del procedimiento. Toda la documentación clínica y los resultados de las pruebas complementarias han sido remitidos al correo_electronico XXX, y se mantendrá informado igualmente al correo_electronico XXX según los protocolos establecidos de comunicación interconsultas. Se considera que la paciente se encuentra en condiciones óptimas para afrontar el procedimiento quirúrgico programado, sin contraindicaciones absolutas identificadas en la evaluación preanestésica realizada.",
+  "text_length": 1693,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9048295021057129,
+        "word": " documento de aseguramiento XXX",
+        "start": 1033,
+        "end": 1063,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento de aseguramiento XXX",
+          "actual_text": "documento de aseguramiento XXX",
+          "confidence": 0.9048295021057129,
+          "start": 1033,
+          "end": 1063,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento de aseguramiento XXX",
+          "actual_text": "documento de aseguramiento XXX",
+          "confidence": 0.9048295021057129,
+          "start": 1033,
+          "end": 1063,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7943933606147766,
+        "word": " sexo",
+        "start": 152,
+        "end": 156,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.7943933606147766,
+          "start": 152,
+          "end": 156,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.7943933606147766,
+          "start": 152,
+          "end": 156,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "ID_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento de aseguramiento XXX",
+        "actual_text": "documento de aseguramiento XXX",
+        "confidence": 0.9048295021057129,
+        "start": 1033,
+        "end": 1063,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.7943933606147766,
+        "start": 152,
+        "end": 156,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento de aseguramiento XXX",
+        "actual_text": "documento de aseguramiento XXX",
+        "confidence": 0.9048295021057129,
+        "start": 1033,
+        "end": 1063,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.7943933606147766,
+        "start": 152,
+        "end": 156,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

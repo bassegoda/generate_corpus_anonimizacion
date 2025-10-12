@@ -1,0 +1,175 @@
+{
+  "document_id": "72a4e6a7-3f07-4742-b9a0-aa345e1619dc",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada en General de Madrid, se atiende a paciente que acude para seguimiento de su patología metabólica. El sujeto de asistencia, con identificación XXX, presenta XXX de edad y procede de la XXX. Durante la anamnesis, refiere participación activa en un grupo de apoyo de diabetes tipo 2 que considera fundamental para el manejo de su condición. En la exploración física actual, se objetiva presión arterial de 132/78 mmHg, frecuencia cardíaca de 68 lpm y auscultación cardiorrespiratoria sin hallazgos significativos. Las pruebas complementarias realizadas muestran hemoglobina glicosilada del 6.8% y perfil lipídico dentro de rangos aceptables. La evolución clínica resulta satisfactoria con el régimen terapéutico instaurado. Como otros sujeto de asistencia relevante en el manejo de su condición, se identifica al XXX, cuyo acompañamiento psicoeducativo complementa la intervención médica especializada. El profesional sanitario que suscribe este documento cuenta con el número de colegiado XXX y acredita la titulación de XXX. Para cualquier gestión administrativa, el paciente puede dirigirse a la XXX, donde se centralizan estos servicios. El historial clínico con referencia XXX queda actualizado con los hallazgos de esta consulta. Como recursos de acceso a información clínica, se han proporcionado al paciente las direcciones XXX y XXX para consulta de resultados y documentación. Se mantiene contacto de apoyo identificado con el código XXX para coordinación asistencial. Se programa seguimiento en consultas externas manteniendo las mismas pautas de tratamiento.",
+  "text_length": 1603,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.9541661739349365,
+        "word": " Madrid",
+        "start": 49,
+        "end": 55,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "TERRITORIO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "TERRITORIO",
+          "word": " Madrid",
+          "actual_text": "Madrid",
+          "confidence": 0.9541661739349365,
+          "start": 49,
+          "end": 55,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "TERRITORIO",
+          "word": " Madrid",
+          "actual_text": "Madrid",
+          "confidence": 0.9541661739349365,
+          "start": 49,
+          "end": 55,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.8253733515739441,
+        "word": " General de Madrid",
+        "start": 38,
+        "end": 55,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.8253733515739441,
+          "start": 38,
+          "end": 55,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.8253733515739441,
+          "start": 38,
+          "end": 55,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "TERRITORIO": 1,
+      "HOSPITAL": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "TERRITORIO",
+        "word": " Madrid",
+        "actual_text": "Madrid",
+        "confidence": 0.9541661739349365,
+        "start": 49,
+        "end": 55,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.8253733515739441,
+        "start": 38,
+        "end": 55,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "TERRITORIO",
+        "word": " Madrid",
+        "actual_text": "Madrid",
+        "confidence": 0.9541661739349365,
+        "start": 49,
+        "end": 55,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.8253733515739441,
+        "start": 38,
+        "end": 55,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

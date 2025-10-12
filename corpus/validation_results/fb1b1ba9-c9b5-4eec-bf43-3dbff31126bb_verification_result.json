@@ -1,0 +1,174 @@
+{
+  "document_id": "fb1b1ba9-c9b5-4eec-bf43-3dbff31126bb",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Geriátrica Integral Se realiza valoración geriátrica integral a la paciente XXX, con identificación XXX, de XXX de edad y sexo XXX. La paciente reside en la XXX aunque actualmente recibe seguimiento en nuestro centro. La exploración física muestra paciente consciente y orientada en las tres esferas. A la auscultación cardiopulmonar se aprecia ritmo cardíaco regular sin soplos, y murmullo vesicular conservado con buena entrada de aire bilateral. El abdomen es blando y depresible, no doloroso a la palpación. En las extremidades inferiores se observa ligero edema maleolar bilateral que mejora con la elevación de piernas. Los resultados analíticos recientes muestran hemograma dentro de parámetros normales, con función renal y hepática conservadas. La radiografía de tórax realizada no evidencia hallazgos patológicos significativos. El vehículo particular de la paciente, identificado con placa XXX, ha sido adaptado recientemente para facilitar su movilidad. Como parte de la red de apoyo, se ha contactado con su familiar XXX, quien participa activamente en su proceso asistencial. La documentación necesaria ha sido remitida a la XXX para la tramitación de ayudas técnicas. Para cualquier comunicación complementaria, este centro dispone del número de fax XXX. Desde el XXX se coordinará el plan de cuidados con la profesional de enfermería titulada con XXX asignada al caso. Se mantendrá seguimiento periódico para valorar la evolución y ajustar las intervenciones según necesidades.",
+  "text_length": 1515,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9724825024604797,
+        "word": " familiar XXX",
+        "start": 1043,
+        "end": 1055,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.9724825024604797,
+          "start": 1043,
+          "end": 1055,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.9724825024604797,
+          "start": 1043,
+          "end": 1055,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9630333781242371,
+        "word": " familiar XXX",
+        "start": 1043,
+        "end": 1055,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.9630333781242371,
+          "start": 1043,
+          "end": 1055,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.9630333781242371,
+          "start": 1043,
+          "end": 1055,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.9724825024604797,
+        "start": 1043,
+        "end": 1055,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.9630333781242371,
+        "start": 1043,
+        "end": 1055,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.9724825024604797,
+        "start": 1043,
+        "end": 1055,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.9630333781242371,
+        "start": 1043,
+        "end": 1055,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

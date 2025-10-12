@@ -1,0 +1,175 @@
+{
+  "document_id": "968054bc-cadf-44c7-ac57-6f47fc2654eb",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa La paciente, de sexo XXX, acude a revisión presentando una evolución favorable del cuadro de lumbalgia mecánica que motivó la consulta inicial. La exploración física actual muestra una notable mejoría, con arco de movilidad lumbar casi completo y solo leve dolor residual a la palpación de la charnela lumbosacra. Los reflejos osteotendinosos en miembros inferiores son normales y simétricos. En relación con la documentación administrativa, se verifica que el dispositivo médico dispensado para la contención lumbar queda registrado bajo el código XXX. La cobertura del tratamiento está garantizada a través del número de aseguramiento XXX, gestionado por la Consejería de Sanidad de la XXX. Para cualquier gestión complementaria relacionada con esta cobertura, la institución competente es el XXX. El profesional que suscribe este informe es Licenciado en XXX, con identificación profesional XXX. Para comunicaciones administrativas o solicitud de interconsultas, este servicio puede contactarse a través del fax XXX. La correspondencia oficial debe dirigirse a la sede central ubicada en XXX. Se considera que el proceso evoluciona satisfactoriamente, manteniéndose las recomendaciones de fisioterapia y el programa de ejercicios domiciliarios establecido. No se precisan modificaciones terapéuticas en este momento.",
+  "text_length": 1347,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7388341426849365,
+        "word": " número de aseguramiento",
+        "start": 641,
+        "end": 664,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " número de aseguramiento",
+          "actual_text": "número de aseguramiento",
+          "confidence": 0.7388341426849365,
+          "start": 641,
+          "end": 664,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " número de aseguramiento",
+          "actual_text": "número de aseguramiento",
+          "confidence": 0.7388341426849365,
+          "start": 641,
+          "end": 664,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "PROFESION",
+        "score": 0.7293194532394409,
+        "word": " en XXX",
+        "start": 883,
+        "end": 889,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "PROFESION": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "PROFESION",
+          "word": " en XXX",
+          "actual_text": "en XXX",
+          "confidence": 0.7293194532394409,
+          "start": 883,
+          "end": 889,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "PROFESION",
+          "word": " en XXX",
+          "actual_text": "en XXX",
+          "confidence": 0.7293194532394409,
+          "start": 883,
+          "end": 889,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "PROFESION": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " número de aseguramiento",
+        "actual_text": "número de aseguramiento",
+        "confidence": 0.7388341426849365,
+        "start": 641,
+        "end": 664,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " en XXX",
+        "actual_text": "en XXX",
+        "confidence": 0.7293194532394409,
+        "start": 883,
+        "end": 889,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " número de aseguramiento",
+        "actual_text": "número de aseguramiento",
+        "confidence": 0.7388341426849365,
+        "start": 641,
+        "end": 664,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " en XXX",
+        "actual_text": "en XXX",
+        "confidence": 0.7293194532394409,
+        "start": 883,
+        "end": 889,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "document_id": "3b8addca-ed76-490b-85a7-46ea7ade17e6",
+  "success": true,
+  "anonymized_text": "A continuación se presenta el informe de interconsulta derivado del seguimiento del caso. El sujeto de asistencia identificado con el número XXX presenta una evolución clínica que requiere revisión multidisciplinar. Durante la exploración física actual se ha verificado la integridad de los sistemas neurológicos periféricos, con especial atención a la identificación biométrica mediante XXX para la validación de procedimientos. En relación a la documentación clínica, se confirma la existencia del expediente principal XXX y su anexo XXX, donde constan todas las intervenciones realizadas. Los estudios complementarios registrados bajo los números de protocolo XXX y XXX muestran hallazgos concordantes con la sintomatología referida en consultas anteriores. El territorio de referencia para continuidad asistencial es la XXX, dentro del contexto del país XXX, según los protocolos establecidos para este tipo de procesos. Para cualquier gestión administrativa adicional relacionada con este caso, queda registrado el identificador XXX en los sistemas correspondientes. Documento redactado y validado por la XXX, cuyo identificador profesional para ejercicio sanitario es ID-EMP-2024-R45. Se mantendrá vigilancia activa de la situación clínica con evaluaciones periódicas según el plan terapéutico establecido en la historia clínica principal.",
+  "text_length": 1345,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7444403767585754,
+        "word": "P-2024-R45",
+        "start": 1179,
+        "end": 1189,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "P-2024-R45",
+          "actual_text": "P-2024-R45",
+          "confidence": 0.7444403767585754,
+          "start": 1179,
+          "end": 1189,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "P-2024-R45",
+          "actual_text": "P-2024-R45",
+          "confidence": 0.7444403767585754,
+          "start": 1179,
+          "end": 1189,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.8748701810836792,
+        "word": " ID",
+        "start": 1174,
+        "end": 1176,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.812097430229187,
+        "word": "P-2024-R45",
+        "start": 1179,
+        "end": 1189,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_IDENTIF": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " ID",
+          "actual_text": "ID",
+          "confidence": 0.8748701810836792,
+          "start": 1174,
+          "end": 1176,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": "P-2024-R45",
+          "actual_text": "P-2024-R45",
+          "confidence": 0.812097430229187,
+          "start": 1179,
+          "end": 1189,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " ID",
+          "actual_text": "ID",
+          "confidence": 0.8748701810836792,
+          "start": 1174,
+          "end": 1176,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": "P-2024-R45",
+          "actual_text": "P-2024-R45",
+          "confidence": 0.812097430229187,
+          "start": 1179,
+          "end": 1189,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "NUMERO_IDENTIF": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "P-2024-R45",
+        "actual_text": "P-2024-R45",
+        "confidence": 0.7444403767585754,
+        "start": 1179,
+        "end": 1189,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " ID",
+        "actual_text": "ID",
+        "confidence": 0.8748701810836792,
+        "start": 1174,
+        "end": 1176,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": "P-2024-R45",
+        "actual_text": "P-2024-R45",
+        "confidence": 0.812097430229187,
+        "start": 1179,
+        "end": 1189,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "P-2024-R45",
+        "actual_text": "P-2024-R45",
+        "confidence": 0.7444403767585754,
+        "start": 1179,
+        "end": 1189,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " ID",
+        "actual_text": "ID",
+        "confidence": 0.8748701810836792,
+        "start": 1174,
+        "end": 1176,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": "P-2024-R45",
+        "actual_text": "P-2024-R45",
+        "confidence": 0.812097430229187,
+        "start": 1179,
+        "end": 1189,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

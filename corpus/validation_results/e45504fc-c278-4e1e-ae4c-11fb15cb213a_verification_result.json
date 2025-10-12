@@ -1,0 +1,174 @@
+{
+  "document_id": "e45504fc-c278-4e1e-ae4c-11fb15cb213a",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada, se documenta el estado del paciente correspondiente al número de beneficio del plan de salud XXX. La exploración física muestra parámetros dentro de la normalidad, con presión arterial de 120/80 mmHg, frecuencia cardíaca de 72 lpm y saturación de oxígeno del 98% en aire ambiente. Los resultados analíticos recientes, incluidos en el expediente con identificador XXX, no revelan alteraciones significativas en el hemograma ni en la bioquímica básica. El estudio ecográfico abdominal practicado fue informado como normal, sin evidencia de patología orgánica. Toda esta información ha sido registrada en nuestro sistema con el identificador de aseguramiento XXX y forma parte de la historia clínica digital XXX. Para cualquier gestión administrativa o coordinación adicional, queda disponible el canal de correo electrónico XXX como punto de contacto asistencial. Este centro, XXX, mantendrá el seguimiento protocolario según los estándares establecidos. El identificador de contacto asistencial asignado a este proceso es el mismo que figura en toda la documentación generada.",
+  "text_length": 1111,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7350957989692688,
+        "word": " identific",
+        "start": 661,
+        "end": 670,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identific",
+          "actual_text": "identific",
+          "confidence": 0.7350957989692688,
+          "start": 661,
+          "end": 670,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identific",
+          "actual_text": "identific",
+          "confidence": 0.7350957989692688,
+          "start": 661,
+          "end": 670,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9705732464790344,
+        "word": " historia clínica",
+        "start": 716,
+        "end": 732,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.9705732464790344,
+          "start": 716,
+          "end": 732,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.9705732464790344,
+          "start": 716,
+          "end": 732,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identific",
+        "actual_text": "identific",
+        "confidence": 0.7350957989692688,
+        "start": 661,
+        "end": 670,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.9705732464790344,
+        "start": 716,
+        "end": 732,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identific",
+        "actual_text": "identific",
+        "confidence": 0.7350957989692688,
+        "start": 661,
+        "end": 670,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.9705732464790344,
+        "start": 716,
+        "end": 732,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

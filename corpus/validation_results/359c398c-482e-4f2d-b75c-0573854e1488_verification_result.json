@@ -1,0 +1,175 @@
+{
+  "document_id": "359c398c-482e-4f2d-b75c-0573854e1488",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada el XXX, se documenta la historia médica correspondiente al sujeto de asistencia con número de beneficiario XXX. La paciente, de sexo XXX, se presenta con un cuadro caracterizado por astenia y cefalea de características tensionales de varios días de evolución. La exploración física muestra constantes dentro de la normalidad, con presión arterial de 120/75 mmHg, frecuencia cardíaca de 72 lpm y saturación de oxígeno del 98%. No se evidencian signos meníngeos ni focalidad neurológica en la exploración. En la documentación adjunta se identifica el número de beneficiario XXX asociado a su plan de salud actual. Los estudios complementarios realizados incluyen analítica general que muestra hemograma dentro de rangos normales y bioquímica sin alteraciones significativas. Se registra como profesión de la paciente la categoría de XXX. En relación a la identificación administrativa, consta en el sistema el documento nacional de identidad XXX. La evolución clínica posterior al tratamiento sintomático ha sido favorable, con mejoría progresiva de la sintomatología referida. Se recomienda seguimiento ambulatorio y control clínico en caso de persistencia o recurrencia de los síntomas.",
+  "text_length": 1221,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9183682203292847,
+        "word": " documento nacional de identidad",
+        "start": 943,
+        "end": 974,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad",
+          "actual_text": "documento nacional de identidad",
+          "confidence": 0.9183682203292847,
+          "start": 943,
+          "end": 974,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad",
+          "actual_text": "documento nacional de identidad",
+          "confidence": 0.9183682203292847,
+          "start": 943,
+          "end": 974,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7742284536361694,
+        "word": " XXX,",
+        "start": 168,
+        "end": 172,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " XXX,",
+          "actual_text": "XXX,",
+          "confidence": 0.7742284536361694,
+          "start": 168,
+          "end": 172,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " XXX,",
+          "actual_text": "XXX,",
+          "confidence": 0.7742284536361694,
+          "start": 168,
+          "end": 172,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "ID_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad",
+        "actual_text": "documento nacional de identidad",
+        "confidence": 0.9183682203292847,
+        "start": 943,
+        "end": 974,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " XXX,",
+        "actual_text": "XXX,",
+        "confidence": 0.7742284536361694,
+        "start": 168,
+        "end": 172,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad",
+        "actual_text": "documento nacional de identidad",
+        "confidence": 0.9183682203292847,
+        "start": 943,
+        "end": 974,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " XXX,",
+        "actual_text": "XXX,",
+        "confidence": 0.7742284536361694,
+        "start": 168,
+        "end": 172,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

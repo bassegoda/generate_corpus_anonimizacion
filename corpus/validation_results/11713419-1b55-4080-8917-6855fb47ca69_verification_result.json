@@ -1,0 +1,266 @@
+{
+  "document_id": "11713419-1b55-4080-8917-6855fb47ca69",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa A la consulta acude la paciente para seguimiento de su cuadro habitual. Se trata de una persona de sexo XXX que se encuentra en situación de estabilidad clínica respecto a su patología de base. La exploración física actual revela un estado general conservado. A la auscultación cardiopulmonar, ritmo cardíaco regular sin soplos, y murmullo vesicular conservado bilateralmente sin ruidos sobreañadidos. El abdomen es blando y depresible, no doloroso a la palpación superficial ni profunda. En las extremidades no se aprecian edemas ni signos de trombosis. En cuanto a las pruebas complementarias recientemente realizadas, la analítica muestra un hemograma dentro de parámetros normales y una bioquímica sin alteraciones significativas. La radiografía de tórax informa de campos pulmonares libres. Se mantiene el plan terapéutico establecido con anterioridad, recomendándose continuar con el mismo régimen de medicación y controles periódicos. Se ha facilitado a la paciente el correo electrónico XXX para cualquier consulta relacionada con su seguimiento. El documento queda validado con mi firma digital como profesional responsable de la asistencia prestada en el XXX. Para cualquier aclaración adicional, queda registrado el identificador de aseguramiento XXX en nuestro sistema. Atentamente, XXX Especialista en Medicina Familiar y Comunitaria Nota: Este informe ha sido emitido por la XXX y forma parte de la historia clínica digital de la paciente.",
+  "text_length": 1481,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7208213806152344,
+        "word": " correo electrónico",
+        "start": 1004,
+        "end": 1022,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7101378440856934,
+        "word": " identificador de aseguramiento",
+        "start": 1255,
+        "end": 1285,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " correo electrónico",
+          "actual_text": "correo electrónico",
+          "confidence": 0.7208213806152344,
+          "start": 1004,
+          "end": 1022,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identificador de aseguramiento",
+          "actual_text": "identificador de aseguramiento",
+          "confidence": 0.7101378440856934,
+          "start": 1255,
+          "end": 1285,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " correo electrónico",
+          "actual_text": "correo electrónico",
+          "confidence": 0.7208213806152344,
+          "start": 1004,
+          "end": 1022,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identificador de aseguramiento",
+          "actual_text": "identificador de aseguramiento",
+          "confidence": 0.7101378440856934,
+          "start": 1255,
+          "end": 1285,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7177527546882629,
+        "word": " sexo XXX",
+        "start": 127,
+        "end": 135,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9511138200759888,
+        "word": " historia clínica",
+        "start": 1441,
+        "end": 1457,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo XXX",
+          "actual_text": "sexo XXX",
+          "confidence": 0.7177527546882629,
+          "start": 127,
+          "end": 135,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.9511138200759888,
+          "start": 1441,
+          "end": 1457,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo XXX",
+          "actual_text": "sexo XXX",
+          "confidence": 0.7177527546882629,
+          "start": 127,
+          "end": 135,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.9511138200759888,
+          "start": 1441,
+          "end": 1457,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 3,
+      "ID_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 3,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " correo electrónico",
+        "actual_text": "correo electrónico",
+        "confidence": 0.7208213806152344,
+        "start": 1004,
+        "end": 1022,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identificador de aseguramiento",
+        "actual_text": "identificador de aseguramiento",
+        "confidence": 0.7101378440856934,
+        "start": 1255,
+        "end": 1285,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo XXX",
+        "actual_text": "sexo XXX",
+        "confidence": 0.7177527546882629,
+        "start": 127,
+        "end": 135,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.9511138200759888,
+        "start": 1441,
+        "end": 1457,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " correo electrónico",
+        "actual_text": "correo electrónico",
+        "confidence": 0.7208213806152344,
+        "start": 1004,
+        "end": 1022,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identificador de aseguramiento",
+        "actual_text": "identificador de aseguramiento",
+        "confidence": 0.7101378440856934,
+        "start": 1255,
+        "end": 1285,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo XXX",
+        "actual_text": "sexo XXX",
+        "confidence": 0.7177527546882629,
+        "start": 127,
+        "end": 135,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.9511138200759888,
+        "start": 1441,
+        "end": 1457,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

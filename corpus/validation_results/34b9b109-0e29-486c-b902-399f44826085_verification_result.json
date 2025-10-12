@@ -1,0 +1,124 @@
+{
+  "document_id": "34b9b109-0e29-486c-b902-399f44826085",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE GERIATRÍA** Paciente que acude a revisión en consulta externa de geriatría. Se trata de XXX, de XXX, quien fue valorada previamente en el XXX durante un ingreso por cuadro de descompensación metabólica. En la actualidad, la paciente se encuentra de visita en la XXX, aunque su seguimiento habitual se realiza en XXX. A la exploración física actual, la paciente se presenta consciente y orientada. La auscultación cardiorrespiratoria es rítmica y sin soplos, con murmullo vesicular conservado. El abdomen es blando y depresible, sin masas ni megalias. En las extremidades inferiores no se aprecian edemas ni signos de trombosis. Respecto a los estudios complementarios realizados, se revisa la analítica reciente que muestra una hemoglobina de 12.8 g/dL con leucocitos dentro de rangos normales. La función renal presenta una creatinina de 1.1 mg/dL y urea de 48 mg/dL. En las pruebas de imagen se identifica el vehículo asociado al paciente con matrícula XXX estacionado en las inmediaciones del centro hospitalario. Como parte de las recomendaciones para el manejo domiciliario, se ha proporcionado a la paciente material educativo disponible a través del portal XXX, específicamente sobre cuidados geriátricos y prevención de caídas. Se destaca que la cuidadora principal posee un XXX, lo que facilita la comprensión y aplicación de las pautas establecidas. Se mantiene el plan terapéutico actual y se programa seguimiento en tres meses, con recomendación de realizar controles analíticos previamente a dicha visita.",
+  "text_length": 1551,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9033878445625305,
+        "word": " cuidadora principal",
+        "start": 1287,
+        "end": 1306,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cuidadora principal",
+          "actual_text": "cuidadora principal",
+          "confidence": 0.9033878445625305,
+          "start": 1287,
+          "end": 1306,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cuidadora principal",
+          "actual_text": "cuidadora principal",
+          "confidence": 0.9033878445625305,
+          "start": 1287,
+          "end": 1306,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cuidadora principal",
+        "actual_text": "cuidadora principal",
+        "confidence": 0.9033878445625305,
+        "start": 1287,
+        "end": 1306,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cuidadora principal",
+        "actual_text": "cuidadora principal",
+        "confidence": 0.9033878445625305,
+        "start": 1287,
+        "end": 1306,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

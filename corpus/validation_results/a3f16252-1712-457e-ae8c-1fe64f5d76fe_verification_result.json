@@ -1,0 +1,124 @@
+{
+  "document_id": "a3f16252-1712-457e-ae8c-1fe64f5d76fe",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA DE NEUROLOGÍA** Paciente que acude para valoración y seguimiento de su proceso. Refiere mejoría parcial de la cefalea tensional que motivó la consulta inicial, aunque persisten episodios de menor intensidad y frecuencia. Se mantiene con la pauta farmacológica establecida, que tolera adecuadamente sin efectos adversos referidos. En la exploración neurológica actual se objetiva: estado mental conservado, pares craneales sin alteraciones, fuerza muscular 5/5 y simétrica en las cuatro extremidades, sensibilidad conservada a todos las modalidades, coordinación y marcha dentro de la normalidad. Reflejos osteotendinosos normoactivos y simétricos. En cuanto a , se ha contactado con XXX, para ampliar información sobre la situación familiar y el apoyo disponible, mostrando buena disposición para colaborar en el manejo del paciente. Asimismo, se ha registrado a XXX como otro familiar de referencia para futuras comunicaciones relacionadas con el seguimiento del caso. En relación con la documentación administrativa, confirmamos los números de identificación **XXX** y **XXX** asociados a su historial. Para cualquier comunicación relacionada con este caso, pueden utilizar el correo electrónico **XXX**. La residencia del paciente se localiza en **XXX**, mientras que el profesional sanitario de referencia tiene su consulta en **XXX**, ambas direcciones situadas en **XXX**. El seguimiento de este caso corresponde a **XXX**, identificada con el número de empleado **XXX**. Para trámites administrativos, deben referenciar el número de beneficiario del plan de salud **XXX** y el número de expediente **XXX**. Se programará nueva visita en 3 meses para reevaluación, o antes si surge cualquier cambio en su sintomatología. Se recomienda continuar con las medidas de higiene del sueño y manejo del estrés explicadas en consultas anteriores.",
+  "text_length": 1865,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9771894812583923,
+        "word": " familiar",
+        "start": 899,
+        "end": 907,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9771894812583923,
+          "start": 899,
+          "end": 907,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9771894812583923,
+          "start": 899,
+          "end": 907,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9771894812583923,
+        "start": 899,
+        "end": 907,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9771894812583923,
+        "start": 899,
+        "end": 907,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "document_id": "1c3ebcf0-8623-4e1f-b7cc-74d8f77abceb",
+  "success": true,
+  "anonymized_text": "En el contexto del seguimiento del paciente, se procede a la actualización de la documentación clínica correspondiente. Se registra el número de beneficiario del plan de salud XXX para su correcta identificación administrativa en los sistemas de información. Como parte de los protocolos de seguridad y verificación de identidad, se ha incorporado a la historia digital la XXX del paciente, lo que constituye un identificador biométrico de gran fiabilidad para futuras consultas y accesos al sistema. Los resultados complementarios de las últimas pruebas realizadas están disponibles para su consulta a través del portal oficial del centro, accesible en la siguiente dirección de internet: XXX. Asimismo, el informe clínico detallado ha sido archivado en el repositorio digital principal que se encuentra en XXX, donde podrá ser revisado por los profesionales autorizados. Cabe destacar que todo el proceso asistencial se desarrolla bajo los estándares y normativas establecidos por el XXX, en coordinación con la XXX, garantizando así la calidad y seguridad de la atención prestada al paciente dentro del marco legal vigente.",
+  "text_length": 1126,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7137671113014221,
+        "word": " plan de salud",
+        "start": 162,
+        "end": 175,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de salud",
+          "actual_text": "plan de salud",
+          "confidence": 0.7137671113014221,
+          "start": 162,
+          "end": 175,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de salud",
+          "actual_text": "plan de salud",
+          "confidence": 0.7137671113014221,
+          "start": 162,
+          "end": 175,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de salud",
+        "actual_text": "plan de salud",
+        "confidence": 0.7137671113014221,
+        "start": 162,
+        "end": 175,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de salud",
+        "actual_text": "plan de salud",
+        "confidence": 0.7137671113014221,
+        "start": 162,
+        "end": 175,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

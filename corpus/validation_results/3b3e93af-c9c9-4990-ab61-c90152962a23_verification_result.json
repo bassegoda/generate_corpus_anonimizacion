@@ -1,0 +1,124 @@
+{
+  "document_id": "3b3e93af-c9c9-4990-ab61-c90152962a23",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA DE ALTA RESOLUCIÓN** En la consulta del día de hoy se reevalúa al paciente para seguimiento de su proceso. Se mantiene el plan terapéutico establecido previamente, con buena tolerancia al tratamiento farmacológico actual. La exploración física resulta anodina, con constantes dentro de la normalidad y sin signos de focalidad neurológica. Se ha solicitado analítica de control para valorar parámetros bioquímicos y un estudio de imagen complementario. Con respecto a la situación social, se ha recabado información relevante a través de la **XXX, XXX**, quien se muestra muy colaboradora. Se ha verificado que el paciente es beneficiario del plan de salud con el **numero benef plan salud XXX**, y se ha confirmado que su identificación en el sistema es el **ID sujeto asistencia XXX**. Ambos documentos fueron expedidos por el **XXX**. Para agilizar la coordinación de futuras pruebas y la comunicación de resultados, se han facilitado los siguientes canales de contacto: **correo electronico XXX** y **correo electronico XXX**. La dirección postal de contacto registrada es **XXX**. La próxima cita de control quedó fijada para el **XXX**. El documento nacional de identidad del tutor que acompañó al paciente en esta ocasión es el **XXX**. Se considera que la situación clínica actual es estable, por lo que se dará de alta del episodio agudo, programándose su seguimiento en consultas externas.",
+  "text_length": 1420,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8836563229560852,
+        "word": " tutor",
+        "start": 1203,
+        "end": 1208,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " tutor",
+          "actual_text": "tutor",
+          "confidence": 0.8836563229560852,
+          "start": 1203,
+          "end": 1208,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " tutor",
+          "actual_text": "tutor",
+          "confidence": 0.8836563229560852,
+          "start": 1203,
+          "end": 1208,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " tutor",
+        "actual_text": "tutor",
+        "confidence": 0.8836563229560852,
+        "start": 1203,
+        "end": 1208,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " tutor",
+        "actual_text": "tutor",
+        "confidence": 0.8836563229560852,
+        "start": 1203,
+        "end": 1208,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

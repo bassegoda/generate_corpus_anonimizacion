@@ -1,0 +1,175 @@
+{
+  "document_id": "f750e4de-4423-46bf-9f71-c849868f1082",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que se presenta para seguimiento en consultas externas de nuestro servicio. En la valoración actual, el paciente refiere mejoría parcial de la sintomatología previamente descrita, aunque persiste con episodios ocasionados que requieren monitorización. La exploración física revela un estado general conservado, con constantes vitales dentro de la normalidad. La auscultación cardiopulmonar es rítmica y sin soplos, con murmullo vesicular conservado y sin ruidos sobreañadidos. En la palpación abdominal no se objetivan masas ni visceromegalias. Se procedió a la verificación del dispositivo médico implantado, cuyo XXX, que fue interrogado y mostró un funcionamiento dentro de los parámetros esperados, sin registros de eventos anómalos. Los ajustes del dispositivo se mantienen sin modificaciones. Los análisis de laboratorio recientes, solicitados en General de Valencia, muestran un perfil bioquímico sin alteraciones significativas. Se ha coordinado con el servicio de radiología del mismo centro para la realización de una prueba de imagen de control en los próximos meses. Este XXX continuará en seguimiento por nuestra unidad. Toda la documentación clínica queda registrada en la historia electrónica del paciente, oriundo de la XXX. Para cualquier gestión administrativa, la dirección del centro es XXX. Se recomienda mantener la pauta terapéutica actual y se cita para nueva revisión en un plazo de seis meses.",
+  "text_length": 1456,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.8408306837081909,
+        "word": " de Valencia",
+        "start": 898,
+        "end": 909,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " de Valencia",
+          "actual_text": "de Valencia",
+          "confidence": 0.8408306837081909,
+          "start": 898,
+          "end": 909,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " de Valencia",
+          "actual_text": "de Valencia",
+          "confidence": 0.8408306837081909,
+          "start": 898,
+          "end": 909,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9678904414176941,
+        "word": " General de Valencia",
+        "start": 890,
+        "end": 909,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Valencia",
+          "actual_text": "General de Valencia",
+          "confidence": 0.9678904414176941,
+          "start": 890,
+          "end": 909,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Valencia",
+          "actual_text": "General de Valencia",
+          "confidence": 0.9678904414176941,
+          "start": 890,
+          "end": 909,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "HOSPITAL": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " de Valencia",
+        "actual_text": "de Valencia",
+        "confidence": 0.8408306837081909,
+        "start": 898,
+        "end": 909,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Valencia",
+        "actual_text": "General de Valencia",
+        "confidence": 0.9678904414176941,
+        "start": 890,
+        "end": 909,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " de Valencia",
+        "actual_text": "de Valencia",
+        "confidence": 0.8408306837081909,
+        "start": 898,
+        "end": 909,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Valencia",
+        "actual_text": "General de Valencia",
+        "confidence": 0.9678904414176941,
+        "start": 890,
+        "end": 909,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

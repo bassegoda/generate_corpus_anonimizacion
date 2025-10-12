@@ -1,0 +1,174 @@
+{
+  "document_id": "03d8cc18-10ce-4840-bedb-cd04e1b94b04",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución - Hospitalización** Paciente que ingresa para completar estudio y manejo de su patología actual. Se mantiene en observación en planta de hospitalización con constante monitorización de sus constantes vitales, las cuales se han mantenido dentro de rangos aceptables durante el último turno. El **XXX** de guardia ha registrado los parámetros en el sistema y se ha programado la siguiente ronda de medicación. La **XXX** responsable del paciente ha verificado el correcto funcionamiento de la bomba de infusión continua con número de serie **XXX**, la cual administra la medicación prescrita. Se recomienda consultar el protocolo actualizado en la dirección de internet **XXX** para el manejo de este dispositivo. La situación clínica de la paciente **XXX**, de **XXX**, con número de historia **XXX**, fue reevaluada esta mañana. Refiere mejoría sintomática parcial. En la exploración física, se aprecia un buen estado general, con tono e hidratación conservados. Los ruidos cardíacos son rítmicos sin soplos, y la auscultación pulmonar es limpia. En la analítica de control, destacan una hemoglobina de 12.8 g/dL y una creatinina en 1.1 mg/dL, mostrando estabilidad. La ecografía abdominal realizada no evidenció hallazgos significativos. Respecto a la documentación administrativa, se ha confirmado que su **** activo es **XXX**. Para cualquier consulta sobre coberturas, se puede acceder al portal **XXX**. Su domicilio, según consta en el registro, es ** de la Princesa 25**. El vehículo particular que utiliza para sus desplazamientos tiene la matrícula **XXX**. El equipo asistencial de la **XXX** ha sido informado de la evolución y se procederá según las pautas establecidas. Se continuará con la presentación de los hallazgos en la próxima sesión clínica multidisciplinar.",
+  "text_length": 1800,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.9446799159049988,
+        "word": " de la Princesa 25",
+        "start": 1478,
+        "end": 1495,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " de la Princesa 25",
+          "actual_text": "de la Princesa 25",
+          "confidence": 0.9446799159049988,
+          "start": 1478,
+          "end": 1495,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " de la Princesa 25",
+          "actual_text": "de la Princesa 25",
+          "confidence": 0.9446799159049988,
+          "start": 1478,
+          "end": 1495,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.981876015663147,
+        "word": " ** de la Princesa 25",
+        "start": 1475,
+        "end": 1495,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " ** de la Princesa 25",
+          "actual_text": "** de la Princesa 25",
+          "confidence": 0.981876015663147,
+          "start": 1475,
+          "end": 1495,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " ** de la Princesa 25",
+          "actual_text": "** de la Princesa 25",
+          "confidence": 0.981876015663147,
+          "start": 1475,
+          "end": 1495,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CALLE": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CALLE",
+        "word": " de la Princesa 25",
+        "actual_text": "de la Princesa 25",
+        "confidence": 0.9446799159049988,
+        "start": 1478,
+        "end": 1495,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " ** de la Princesa 25",
+        "actual_text": "** de la Princesa 25",
+        "confidence": 0.981876015663147,
+        "start": 1475,
+        "end": 1495,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CALLE",
+        "word": " de la Princesa 25",
+        "actual_text": "de la Princesa 25",
+        "confidence": 0.9446799159049988,
+        "start": 1478,
+        "end": 1495,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " ** de la Princesa 25",
+        "actual_text": "** de la Princesa 25",
+        "confidence": 0.981876015663147,
+        "start": 1475,
+        "end": 1495,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

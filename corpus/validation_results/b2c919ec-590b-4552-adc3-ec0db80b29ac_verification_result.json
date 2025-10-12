@@ -1,0 +1,174 @@
+{
+  "document_id": "b2c919ec-590b-4552-adc3-ec0db80b29ac",
+  "success": true,
+  "anonymized_text": "En la exploración física actual, se procede al registro de los parámetros biométricos del paciente para su identificación inequívoca en el sistema. El dato biométrico principal registrado corresponde a la **XXX**, la cual ha sido capturada y almacenada en la base de datos con total precisión. El resto de la exploración, incluyendo la auscultación cardiorrespiratoria y el examen abdominal, resultan dentro de la normalidad sin hallazgos relevantes que destacar. Para cualquier comunicación o envío de documentación clínica complementaria, se ha facilitado la dirección de ** del Arenal 12** como punto de contacto postal. Asimismo, se han verificado y confirmado como canales de comunicación electrónica preferentes las direcciones **XXX** y **XXX**. Se recomienda al paciente que consulte la página oficial **XXX** para acceder a recursos educativos sobre su condición y gestionar futuras citas de seguimiento a través del portal del paciente. Los resultados de las pruebas analíticas de control muestran un perfil lipídico dentro de rangos aceptables y una glucemia basal de 98 mg/dl. En la radiografía de tórax realizada no se observan infiltrados ni signos de congestión pulmonar, presentando un mediastino de características normales. Se mantiene la pauta terapéutica establecida y se programará una reevaluación en un plazo de seis meses.",
+  "text_length": 1346,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.8030305504798889,
+        "word": " Arenal 12",
+        "start": 581,
+        "end": 590,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " Arenal 12",
+          "actual_text": "Arenal 12",
+          "confidence": 0.8030305504798889,
+          "start": 581,
+          "end": 590,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " Arenal 12",
+          "actual_text": "Arenal 12",
+          "confidence": 0.8030305504798889,
+          "start": 581,
+          "end": 590,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.9866282939910889,
+        "word": " ** del Arenal 12**",
+        "start": 574,
+        "end": 592,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " ** del Arenal 12**",
+          "actual_text": "** del Arenal 12**",
+          "confidence": 0.9866282939910889,
+          "start": 574,
+          "end": 592,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " ** del Arenal 12**",
+          "actual_text": "** del Arenal 12**",
+          "confidence": 0.9866282939910889,
+          "start": 574,
+          "end": 592,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CALLE": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CALLE",
+        "word": " Arenal 12",
+        "actual_text": "Arenal 12",
+        "confidence": 0.8030305504798889,
+        "start": 581,
+        "end": 590,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " ** del Arenal 12**",
+        "actual_text": "** del Arenal 12**",
+        "confidence": 0.9866282939910889,
+        "start": 574,
+        "end": 592,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CALLE",
+        "word": " Arenal 12",
+        "actual_text": "Arenal 12",
+        "confidence": 0.8030305504798889,
+        "start": 581,
+        "end": 590,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " ** del Arenal 12**",
+        "actual_text": "** del Arenal 12**",
+        "confidence": 0.9866282939910889,
+        "start": 574,
+        "end": 592,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

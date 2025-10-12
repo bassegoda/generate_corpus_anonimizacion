@@ -1,0 +1,312 @@
+{
+  "document_id": "884e1ac6-cb9e-459e-94d4-ddd344bf832f",
+  "success": true,
+  "anonymized_text": "Informe de Valoración de Enfermería La paciente XXX acude a consulta para seguimiento y control de su proceso crónico. Durante la anamnesis, refiere adherencia al plan terapéutico establecido en visitas anteriores. Se confirma que la titularidad de su cobertura sanitaria está amparada bajo el número de beneficiario XXX del plan de salud vigente. A nivel exploratorio, se realiza valoración completa por parte de la XXX, quien constata estabilidad en los parámetros clínicos fundamentales. La auscultación cardiopulmonar resulta dentro de la normalidad, sin soplos ni ruidos respiratorios patológicos. En la valoración por aparatos, no se detectan edemas en extremidades ni otros signos de descompensación. Respecto a la documentación asociada al proceso, se verifica la correcta vinculación con el expediente clínico principal XXX y con el número de referencia adicional XXX para fines de trazabilidad asistencial. Todo el proceso queda registrado bajo el identificador XXX del profesional sanitario interviniente. Cabe destacar que la XXX cuenta con la titulación oficial de XXX y su identificación profesional como personal sanitario es ID-789234. Para completar los registros, se anota el número de serie XXX del dispositivo médico utilizado durante la monitorización, conforme a los protocolos establecidos por el XXX. El otro número de identificación asociado a la documentación técnica es el OI-458712369. Se programa próxima revisión manteniendo las mismas pautas terapéuticas, dado el adecuado control sintomático y la estabilidad clínica global de la paciente.",
+  "text_length": 1571,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7538501620292664,
+        "word": "-",
+        "start": 1143,
+        "end": 1144,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.9540068507194519,
+        "word": "78",
+        "start": 1144,
+        "end": 1146,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8461312651634216,
+        "word": "45",
+        "start": 1403,
+        "end": 1405,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 3
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.7538501620292664,
+          "start": 1143,
+          "end": 1144,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "78",
+          "actual_text": "78",
+          "confidence": 0.9540068507194519,
+          "start": 1144,
+          "end": 1146,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "45",
+          "actual_text": "45",
+          "confidence": 0.8461312651634216,
+          "start": 1403,
+          "end": 1405,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.7538501620292664,
+          "start": 1143,
+          "end": 1144,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "78",
+          "actual_text": "78",
+          "confidence": 0.9540068507194519,
+          "start": 1144,
+          "end": 1146,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "45",
+          "actual_text": "45",
+          "confidence": 0.8461312651634216,
+          "start": 1403,
+          "end": 1405,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "PROFESION",
+        "score": 0.9436604976654053,
+        "word": " personal sanitario",
+        "start": 1119,
+        "end": 1137,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.7125595808029175,
+        "word": " OI",
+        "start": 1400,
+        "end": 1402,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "PROFESION": 1,
+        "NUMERO_IDENTIF": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "PROFESION",
+          "word": " personal sanitario",
+          "actual_text": "personal sanitario",
+          "confidence": 0.9436604976654053,
+          "start": 1119,
+          "end": 1137,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " OI",
+          "actual_text": "OI",
+          "confidence": 0.7125595808029175,
+          "start": 1400,
+          "end": 1402,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "PROFESION",
+          "word": " personal sanitario",
+          "actual_text": "personal sanitario",
+          "confidence": 0.9436604976654053,
+          "start": 1119,
+          "end": 1137,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " OI",
+          "actual_text": "OI",
+          "confidence": 0.7125595808029175,
+          "start": 1400,
+          "end": 1402,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 5,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 3,
+      "PROFESION": 1,
+      "NUMERO_IDENTIF": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.7538501620292664,
+        "start": 1143,
+        "end": 1144,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "78",
+        "actual_text": "78",
+        "confidence": 0.9540068507194519,
+        "start": 1144,
+        "end": 1146,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "45",
+        "actual_text": "45",
+        "confidence": 0.8461312651634216,
+        "start": 1403,
+        "end": 1405,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " personal sanitario",
+        "actual_text": "personal sanitario",
+        "confidence": 0.9436604976654053,
+        "start": 1119,
+        "end": 1137,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " OI",
+        "actual_text": "OI",
+        "confidence": 0.7125595808029175,
+        "start": 1400,
+        "end": 1402,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.7538501620292664,
+        "start": 1143,
+        "end": 1144,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "78",
+        "actual_text": "78",
+        "confidence": 0.9540068507194519,
+        "start": 1144,
+        "end": 1146,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "45",
+        "actual_text": "45",
+        "confidence": 0.8461312651634216,
+        "start": 1403,
+        "end": 1405,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " personal sanitario",
+        "actual_text": "personal sanitario",
+        "confidence": 0.9436604976654053,
+        "start": 1119,
+        "end": 1137,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " OI",
+        "actual_text": "OI",
+        "confidence": 0.7125595808029175,
+        "start": 1400,
+        "end": 1402,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 5,
+    "suspicious_detections": 5,
+    "xxxxxx_detections": 0,
+    "other_detections": 5
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

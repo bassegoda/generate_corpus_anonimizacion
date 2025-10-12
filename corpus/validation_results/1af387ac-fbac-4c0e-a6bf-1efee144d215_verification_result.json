@@ -1,0 +1,124 @@
+{
+  "document_id": "1af387ac-fbac-4c0e-a6bf-1efee144d215",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada el día de hoy, se atiende a la paciente XXX, quien cuenta con XXX de edad y presenta sexo XXX. La exploración física muestra tensión arterial de 135/80 mmHg, frecuencia cardíaca de 78 lpm y saturación de oxígeno del 96%. En la auscultación cardiorrespiratoria se evidencian ruidos cardíacos rítmicos sin soplos, y murmullo vesicular conservado bilateralmente. Como parte del protocolo de seguimiento, se ha actualizado la información de contacto de la familiar responsable, correspondiente a XXX, quien puede ser localizada en el número de teléfono XXX. Cabe mencionar que el número de identificación de aseguramiento registrado es XXX, y para la consulta de antecedentes se dispone de la dirección de internet XXX donde se encuentra disponible el historial completo con el identificador XXX. Los estudios complementarios recientes incluyen una analítica que muestra hemoglobina de 13.2 g/dL y creatinina de 0.9 mg/dL, dentro de parámetros normales. La radiografía de tórax realizada no evidencia hallazgos significativos. Para acceso a imágenes completas se recomienda consultar mediante la dirección XXX donde están archivados todos los estudios radiológicos. La XXX ha supervisado personalmente la integración de estos datos en el sistema, mientras que la XXX se encargará del seguimiento posterior del caso. Se mantendrá vigilancia activa de la evolución clínica con controles periódicos.",
+  "text_length": 1427,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9898794293403625,
+        "word": " familiar responsable",
+        "start": 487,
+        "end": 507,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar responsable",
+          "actual_text": "familiar responsable",
+          "confidence": 0.9898794293403625,
+          "start": 487,
+          "end": 507,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar responsable",
+          "actual_text": "familiar responsable",
+          "confidence": 0.9898794293403625,
+          "start": 487,
+          "end": 507,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar responsable",
+        "actual_text": "familiar responsable",
+        "confidence": 0.9898794293403625,
+        "start": 487,
+        "end": 507,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar responsable",
+        "actual_text": "familiar responsable",
+        "confidence": 0.9898794293403625,
+        "start": 487,
+        "end": 507,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

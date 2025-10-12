@@ -1,0 +1,124 @@
+{
+  "document_id": "69ecd21a-6fb1-4487-9261-c98733ce28f3",
+  "success": true,
+  "anonymized_text": "**Informe de Consulta Externa de Neurología** Paciente que se presenta para valoración en consultas externas de neurología. Refiere historia de cefalea de características tensionales de varios meses de evolución. Se ha realizado anamnesis completa y exploración física neurológica exhaustiva. La exploración del sistema nervioso periférico ha sido normal, sin déficits motores o sensitivos. Como parte del protocolo de identificación biométrica para la seguridad de la documentación clínica, se ha registrado la XXX y la XXX de la paciente, XXX, con número de identificación XXX. Este procedimiento es estándar para garantizar la correcta vinculación de la información en nuestro sistema. Se solicitarán pruebas complementarias para completar el estudio. Dado que la paciente refiere que parte de su seguimiento previo se realizó en la XXX, se recomienda la coordinación con los servicios de neurología de dicha área. Para facilitar el acceso a sus resultados y la comunicación con este servicio, se le ha proporcionado el acceso seguro a través de XXX, portal principal del centro que puede consultar en XXX. Se mantendrá contacto con General de Madrid, donde la paciente fue valorada previamente, para recabar informes previos. Asimismo, se ha solicitado interconsulta con el servicio de neurofisiología del XXX para la realización de un potencial estudio electroencefalográfico. Se reevaluará en consulta tras la obtención de dichas pruebas.",
+  "text_length": 1444,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.9344573020935059,
+        "word": " General de Madrid",
+        "start": 1136,
+        "end": 1153,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9344573020935059,
+          "start": 1136,
+          "end": 1153,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9344573020935059,
+          "start": 1136,
+          "end": 1153,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9344573020935059,
+        "start": 1136,
+        "end": 1153,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9344573020935059,
+        "start": 1136,
+        "end": 1153,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

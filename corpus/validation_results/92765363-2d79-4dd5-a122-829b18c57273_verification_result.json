@@ -1,0 +1,219 @@
+{
+  "document_id": "92765363-2d79-4dd5-a122-829b18c57273",
+  "success": true,
+  "anonymized_text": "Informe de Interconsulta Se remite al paciente para valoración por parte del XXX del centro de referencia. El motivo de la consulta es la persistencia de dolor abdominal en hipogastrio de características mecánicas, sin fiebre asociada ni alteraciones del ritmo intestinal. La exploración física realizada en el XXX revela dolor a la palpación profunda en fosa ilíaca derecha sin signos de irritación peritoneal. Las constantes vitales se mantienen dentro de la normalidad. Los estudios analíticos solicitados muestran una discreta leucocitosis con desviación izquierda. En la tomografía computarizada de abdomen y pelvis, identificada con el código XXX, se evidencia un proceso inflamatorio en región apendicular sin colecciones asociadas. Dicho estudio se encuentra disponible para su revisión en la plataforma digital de la XXX. En la documentación adjunta se incluye la historia clínica electrónica con referencia XXX donde consta el número de beneficiario del plan de salud XXX. Para cualquier gestión administrativa adicional relacionada con esta derivación, puede utilizarse el identificador de contacto asistencial XXX. Se recomienda valoración quirúrgica urgente para determinar actitud terapéutica. Como referencia bibliográfica para el protocolo de actuación, se sugiere consultar la guía clínica disponible a través de la URL XXX, reconocida por el XXX del XXX. El paciente tiene cobertura sanitaria en la XXX, siendo este un dato relevante para la continuidad asistencial. El profesional que suscribe este informe ejerce bajo el identificador de empleo personal sanitario ID-EMPLEO-PERSONAL-SANITARIO-78934.",
+  "text_length": 1619,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8005741834640503,
+        "word": " personal sanitario",
+        "start": 1565,
+        "end": 1583,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8389815092086792,
+        "word": "934",
+        "start": 1615,
+        "end": 1618,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " personal sanitario",
+          "actual_text": "personal sanitario",
+          "confidence": 0.8005741834640503,
+          "start": 1565,
+          "end": 1583,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "934",
+          "actual_text": "934",
+          "confidence": 0.8389815092086792,
+          "start": 1615,
+          "end": 1618,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " personal sanitario",
+          "actual_text": "personal sanitario",
+          "confidence": 0.8005741834640503,
+          "start": 1565,
+          "end": 1583,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "934",
+          "actual_text": "934",
+          "confidence": 0.8389815092086792,
+          "start": 1615,
+          "end": 1618,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9560096263885498,
+        "word": " clínica",
+        "start": 882,
+        "end": 889,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.9560096263885498,
+          "start": 882,
+          "end": 889,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.9560096263885498,
+          "start": 882,
+          "end": 889,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 3
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " personal sanitario",
+        "actual_text": "personal sanitario",
+        "confidence": 0.8005741834640503,
+        "start": 1565,
+        "end": 1583,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "934",
+        "actual_text": "934",
+        "confidence": 0.8389815092086792,
+        "start": 1615,
+        "end": 1618,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.9560096263885498,
+        "start": 882,
+        "end": 889,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " personal sanitario",
+        "actual_text": "personal sanitario",
+        "confidence": 0.8005741834640503,
+        "start": 1565,
+        "end": 1583,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "934",
+        "actual_text": "934",
+        "confidence": 0.8389815092086792,
+        "start": 1615,
+        "end": 1618,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.9560096263885498,
+        "start": 882,
+        "end": 889,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "document_id": "9fc59f1f-8073-4049-913b-009587e74e6f",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA** Fecha de la consulta: XXX. La paciente, de sexo XXX, acude a revisión en el XXX para seguimiento. Se identifica con el documento nacional XXX. En la evaluación de hoy, se revisan los resultados de las pruebas complementarias solicitadas en la visita anterior. Los estudios de monitorización, cuyos dispositivos tienen los números de serie XXX y XXX, muestran parámetros dentro de la normalidad. La analítica sanguínea no presenta hallazgos significativos y la exploración física es anodina. Es de especial relevancia anotar en su historial, de forma prominente, la XXX. Se ha verificado que esta información está correctamente registrada en todos los sistemas. Para cualquier gestión o comunicación urgente, queda registrado el número de teléfono XXX. El expediente clínico principal de la paciente se encuentra bajo la referencia XXX. Este informe queda archivado con la referencia interna XXX. La documentación del vehículo asociado para su posible desplazamiento a centros de referencia es XXX, con matrícula expedida en XXX. Atentamente, XXX Número de identificación profesional: XXX XXX",
+  "text_length": 1123,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8042507767677307,
+        "word": " documento nacional",
+        "start": 151,
+        "end": 169,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional",
+          "actual_text": "documento nacional",
+          "confidence": 0.8042507767677307,
+          "start": 151,
+          "end": 169,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional",
+          "actual_text": "documento nacional",
+          "confidence": 0.8042507767677307,
+          "start": 151,
+          "end": 169,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional",
+        "actual_text": "documento nacional",
+        "confidence": 0.8042507767677307,
+        "start": 151,
+        "end": 169,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional",
+        "actual_text": "documento nacional",
+        "confidence": 0.8042507767677307,
+        "start": 151,
+        "end": 169,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

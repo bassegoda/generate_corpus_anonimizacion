@@ -1,0 +1,174 @@
+{
+  "document_id": "8d91eea2-f748-4fb4-8545-17c9ca84dc5c",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Preoperatoria Se realiza valoración preoperatoria completa de la paciente que será intervenida en nuestro centro. La identificación del sujeto de asistencia se ha verificado mediante el documento nacional de identidad XXX y se ha cotejado con la XXX, confirmando la correcta identificación biométrica. El registro corresponde al número de historia clínica XXX. La paciente, de sexo XXX, será evaluada por el XXX asignado al caso, profesional con amplia experiencia en procedimientos de alta complejidad. El equipo quirúrgico completo se encuentra adscrito a la XXX, garantizando el cumplimiento de todos los protocolos establecidos. La intervención está programada para el XXX en nuestras instalaciones ubicadas en XXX. Toda la documentación clínica queda registrada bajo el identificador asistencial XXX y está disponible a través de la plataforma digital XXX para consulta del equipo multidisciplinar involucrado. Los estudios complementarios realizados muestran función cardíaca preservada y adecuada reserva funcional para el procedimiento quirúrgico planeado. El registro del personal sanitario interviniente queda identificado bajo el código XXX, correspondiente al XXX principal. Toda la actividad asistencial se desarrolla dentro del de XXX, siguiendo los estándares de calidad y seguridad establecidos. Se considera a la paciente en condiciones óptimas para el procedimiento, habiendo cumplido todos los requisitos del protocolo preoperatorio establecido por nuestra institución.",
+  "text_length": 1510,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9605746865272522,
+        "word": " documento nacional de identidad",
+        "start": 208,
+        "end": 239,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad",
+          "actual_text": "documento nacional de identidad",
+          "confidence": 0.9605746865272522,
+          "start": 208,
+          "end": 239,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad",
+          "actual_text": "documento nacional de identidad",
+          "confidence": 0.9605746865272522,
+          "start": 208,
+          "end": 239,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7553480267524719,
+        "word": " de historia clínica",
+        "start": 358,
+        "end": 377,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " de historia clínica",
+          "actual_text": "de historia clínica",
+          "confidence": 0.7553480267524719,
+          "start": 358,
+          "end": 377,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " de historia clínica",
+          "actual_text": "de historia clínica",
+          "confidence": 0.7553480267524719,
+          "start": 358,
+          "end": 377,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad",
+        "actual_text": "documento nacional de identidad",
+        "confidence": 0.9605746865272522,
+        "start": 208,
+        "end": 239,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " de historia clínica",
+        "actual_text": "de historia clínica",
+        "confidence": 0.7553480267524719,
+        "start": 358,
+        "end": 377,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad",
+        "actual_text": "documento nacional de identidad",
+        "confidence": 0.9605746865272522,
+        "start": 208,
+        "end": 239,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " de historia clínica",
+        "actual_text": "de historia clínica",
+        "confidence": 0.7553480267524719,
+        "start": 358,
+        "end": 377,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

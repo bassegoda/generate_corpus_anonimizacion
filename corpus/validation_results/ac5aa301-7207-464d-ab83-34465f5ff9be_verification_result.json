@@ -1,0 +1,124 @@
+{
+  "document_id": "ac5aa301-7207-464d-ab83-34465f5ff9be",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Interdisciplinar Se realiza valoración conjunta tras la intervención quirúrgica programada. La paciente XXX, identificada con el número XXX, presenta una evolución favorable en su proceso de rehabilitación. Los hallazgos en la resonancia magnética realizada muestran una adecuada integración del implante, sin signos de complicaciones inflamatorias agudas. Los parámetros analíticos se mantienen dentro de rangos normales, con proteína C reactiva negativizada y hemograma sin alteraciones significativas. El tratamiento fisioterápico se ha coordinado con el profesional designado, cuyo identificador profesional es XXX. El plan de ejercicios se ha ajustado según la tolerancia manifestada, con mejoría progresiva en el arco de movimiento. Se ha establecido contacto para seguimiento a través del correo electrónico XXX para los aspectos relacionados con la terapia física. Para la gestión de documentación clínica y autorizaciones administrativas, queda registrado el número de beneficio del plan de salud XXX, así como el identificador de aseguramiento XXX. La comunicación institucional con la XXX se mantendrá a través del fax XXX para los trámites requeridos. En relación con los recursos asignados, se verifica el identificador XXX para el material ortopédico prescrito, habiéndose gestionado su entrega para el XXX. El XXX responsable cuenta con la identificación profesional XXX, y se ha facilitado el correo electrónico XXX para la coordinación de futuras interconsultas. La evolución clínica continúa siendo satisfactoria, manteniéndose el plan terapéutico establecido.",
+  "text_length": 1600,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7460216283798218,
+        "word": " plan de",
+        "start": 1014,
+        "end": 1021,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de",
+          "actual_text": "plan de",
+          "confidence": 0.7460216283798218,
+          "start": 1014,
+          "end": 1021,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de",
+          "actual_text": "plan de",
+          "confidence": 0.7460216283798218,
+          "start": 1014,
+          "end": 1021,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de",
+        "actual_text": "plan de",
+        "confidence": 0.7460216283798218,
+        "start": 1014,
+        "end": 1021,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de",
+        "actual_text": "plan de",
+        "confidence": 0.7460216283798218,
+        "start": 1014,
+        "end": 1021,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

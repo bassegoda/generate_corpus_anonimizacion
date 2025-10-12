@@ -1,146 +1,196 @@
-# Generador de Corpus de Anonimización Médica
+# Sistema de Anonimización de Documentos Médicos
 
-Este proyecto implementa un pipeline completo para generar, corregir y anonimizar documentos médicos en español, creando un corpus de entrenamiento para sistemas de anonimización.
+Este proyecto implementa un sistema automatizado de anonimización de documentos médicos en español, con un pipeline completo de procesamiento y validación manual. El sistema está diseñado para identificar y anonimizar información de salud protegida (PHI) siguiendo los estándares de los corpus MEDDOCAN y CARMEN-I.
 
-## 🏥 Descripción
+## 📋 Descripción del Proyecto
 
-El sistema genera documentos médicos sintéticos basados en anotaciones reales del corpus MEDDOCAN y CARMEN-I, los corrige iterativamente usando IA, y los anonimiza preservando las localizaciones de las entidades sensibles.
+El sistema procesa documentos médicos identificando automáticamente entidades sensibles como nombres de pacientes, fechas, direcciones, números de identificación, y otra información personal sanitaria, reemplazándolas con marcadores de anonimización (XXX) para proteger la privacidad de los pacientes.
 
-## 📋 Pipeline de Procesamiento
+## 🏗️ Estructura del Proyecto
 
-### Paso 1: Generación de Documentos (`step1_generate_annotations.py`)
-- Genera anotaciones médicas sintéticas basadas en patrones reales
-- Utiliza modelos de IA para crear documentos médicos coherentes
-- Produce archivos JSONL con entidades etiquetadas
-
-### Paso 2: Limpieza Semántica (`step2_5_semantic_cleaning.py`)
-- Limpia y valida las anotaciones generadas
-- Elimina inconsistencias y duplicados
-- Mejora la calidad semántica del corpus
-
-### Paso 3: Generación de Documentos (`step3_generate_documents.py`)
-- Convierte anotaciones en documentos médicos completos
-- Genera texto médico profesional y coherente
-- Crea documentos de longitud apropiada (~220 palabras promedio)
-
-### Paso 4: Corrección Iterativa (`step4_correct_docs.py`)
-- Verifica que todas las entidades estén presentes en el documento
-- Corrige documentos faltantes usando DeepSeek
-- Elimina referencias de documentos fallidos del JSONL
-- Limpia etiquetas literales de entidades
-
-### Paso 5: Anonimización (`step5_ocult_and_localization.py`)
-- Reemplaza entidades sensibles por "XXX"
-- Calcula posiciones exactas de entidades (original y anonimizada)
-- Actualiza el JSONL con localizaciones para entrenamiento
-
-### Paso 6: Validación (`step6_validation.py`)
-- Valida la calidad del corpus generado
-- Verifica cobertura de entidades
-- Genera métricas de evaluación
-
-## 🚀 Instalación
-
-1. **Clonar el repositorio:**
-```bash
-git clone https://github.com/ramsestein/generate_corpus_anonimizacion.git
-cd generate_corpus_anonimizacion
+```
+anon_bsc/
+├── corpus/                          # Corpus de documentos procesados
+│   ├── documents/                   # Documentos generados artificialmente (14,035 archivos)
+│   ├── anonymized_documents/        # Documentos con entidades sustituidas por XXX (14,035 archivos)
+│   ├── entidades/                   # Metadatos de entidades detectadas (14,035 archivos JSON)
+│   └── validation_results/          # Validación automática solo de docs con entidades detectadas (1,300 archivos)
+├── docs_revisar/                    # Documentos para validación manual
+│   ├── David/                       # 120 documentos para revisión
+│   ├── Lia/                         # 120 documentos para revisión
+│   ├── Elena/                       # 120 documentos para revisión
+│   ├── Octavi/                      # 120 documentos para revisión
+│   ├── Santiago/                    # 120 documentos para revisión
+│   └── Julian/                      # 120 documentos para revisión
+├── pipeline/                        # Scripts del pipeline de procesamiento
+│   ├── step1_generate_annotations.py    # Generación de anotaciones médicas
+│   ├── step2_clean_jsonl.py            # Limpieza de datos JSONL
+│   ├── step2_5_semantic_cleaning.py    # Limpieza semántica
+│   ├── step3_generate_documents.py     # Generación de documentos
+│   ├── step4_correct_docs.py           # Corrección de documentos
+│   ├── step4_5_clean_entity_names_enhanced.py # Limpieza avanzada de entidades
+│   ├── step5_ocult_and_localization.py # Ocultación y localización
+│   └── step6_validation.py             # Validación final
+├── distribute_documents.py          # Script de distribución para revisión
+├── etiquetas_anonimizacion_meddocan_carmenI.csv # Mapeo de etiquetas
+├── guías-de-anotación-de-información-de-salud-protegida.pdf # Guías oficiales
+├── requirements.txt                 # Dependencias del proyecto
+└── venv/                           # Entorno virtual de Python
 ```
 
-2. **Crear entorno virtual:**
-```bash
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# o
-venv\Scripts\activate     # Windows
+## 📊 Comparativa de Corpus
+
+| Corpus | Documentos | Caracteres | Descripción |
+|--------|------------|------------|-------------|
+| **Proyecto Actual** | **14,035** | **~21M** | Documentos médicos sintéticos generados |
+| MEDDOCAN | 1,000 | ~1.6M | Corpus de referencia para anonimización médica en español |
+| CARMEN-I | ~500 | ~800K | Corpus de informes clínicos en español |
+
+### Estadísticas del Proyecto
+
+- **Documentos generados**: 14,035 archivos de texto (20,980,851 caracteres)
+- **Archivos de entidades**: 14,035 archivos JSON con metadatos de entidades detectadas
+- **Resultados de validación**: 1,300 archivos (solo documentos con entidades detectadas automáticamente)
+- **Documentos para revisión manual**: 720 (120 × 6 revisores, con duplicación cruzada)
+
+## 🔧 Pipeline de Procesamiento
+
+El sistema implementa un pipeline de 6 pasos:
+
+1. **Generación de Anotaciones** (`step1_generate_annotations.py`)
+   - Genera documentos médicos sintéticos con entidades PHI
+   - Utiliza modelos de IA para crear contenido realista
+
+2. **Limpieza de Datos** (`step2_clean_jsonl.py`, `step2_5_semantic_cleaning.py`)
+   - Limpia y normaliza los datos generados
+   - Aplica filtros semánticos para mejorar la calidad
+
+3. **Generación de Documentos** (`step3_generate_documents.py`)
+   - Convierte las anotaciones en documentos de texto estructurados
+
+4. **Corrección y Limpieza** (`step4_correct_docs.py`, `step4_5_clean_entity_names_enhanced.py`)
+   - Corrige inconsistencias en los documentos
+   - Mejora la detección y limpieza de entidades
+   - Asegura TP de 100% al corroborar que las entidades existen realmente
+
+5. **Anonimización y Validación** (`step5_ocult_and_localization.py`)
+   - Reemplaza entidades sensibles con marcadores XXX
+   - Localiza posiciones exactas de las entidades
+   - Mantiene la estructura y coherencia del documento
+
+6. **Validación Final** (`step6_validation.py`)
+   - Verifica la calidad de la anonimización con modelos BSC
+   - Minimiza la existencia de FN no detectados
+   - Elimina documentos dudosos del conjunto final
+   - Genera reportes de validación automática
+
+## 🏷️ Entidades Detectadas
+
+El sistema identifica y anonimiza información de salud protegida (PHI) siguiendo los estándares de MEDDOCAN y CARMEN-I. Las categorías específicas de entidades están definidas en el archivo `etiquetas_anonimizacion_meddocan_carmenI.csv`, que contiene el mapeo completo entre ambos sistemas de etiquetado.
+
+## 👥 Proceso de Validación Manual
+
+### Distribución de Documentos
+
+La carpeta `docs_revisar/` contiene documentos distribuidos aleatoriamente entre 6 revisores:
+
+- Cada revisor tiene **120 documentos** en su carpeta personal
+- Esto permite validación cruzada y control de calidad
+
+### Instrucciones para Revisores
+
+1. **Acceder a su carpeta**: `docs_revisar/[su_nombre]/`
+2. **Revisar cada documento** comparando:
+   - Documento original vs. documento anonimizado
+   - Verificar que todas las entidades sensibles estén anonimizadas
+   - Confirmar que no se haya perdido información médica relevante
+3. **Consultar las guías**: Usar el PDF `guías-de-anotación-de-información-de-salud-protegida.pdf`
+4. **Documentar hallazgos**: Reportar errores o inconsistencias encontradas
+
+### Ejemplo de Anonimización
+
+**Documento Original:**
+```
+En la valoración clínica realizada, se documenta el estado del paciente con 
+número de historia clínica HC-2024-789012. [...] se ha registrado el 
+identificador del sujeto de asistencia 87654321B y el contacto asistencial 
+B-78423915 correspondiente. [...] disponible en 
+https://historiaclinica.hgugm.es/paciente/area_privada [...] normativa de 
+protección de datos vigente en España.
 ```
 
-3. **Instalar dependencias:**
+**Documento Anonimizado:**
+```
+En la valoración clínica realizada, se documenta el estado del paciente con 
+número de historia clínica XXX. [...] se ha registrado el identificador del 
+sujeto de asistencia XXX y el contacto asistencial XXX correspondiente. [...] 
+disponible en XXX [...] normativa de protección de datos vigente en XXX.
+```
+
+## 🛠️ Instalación y Configuración
+
+### Requisitos
+
+- Python 3.11+
+- Entorno virtual configurado
+- Dependencias listadas en `requirements.txt`
+
+### Instalación
+
 ```bash
+# Clonar el repositorio
+git clone [url-del-repositorio]
+cd anon_bsc
+
+# Activar entorno virtual
+.\venv\Scripts\activate  # Windows
+# source venv/bin/activate  # Linux/Mac
+
+# Instalar dependencias
 pip install -r requirements.txt
 ```
 
-4. **Configurar claves API:**
-```bash
-# Crear archivo api_keys con tus claves
-echo "deepseek=tu_clave_deepseek" > api_keys
-```
+### Configuración de API Keys
 
-## 🔧 Uso
+Crear archivo `api_keys` con las claves necesarias para los modelos de IA utilizados en el pipeline.
 
-### Ejecutar pipeline completo:
-```bash
-python step1_generate_annotations.py
-python step2_clean_jsonl.py
-python step2_5_semantic_cleaning.py
-python step3_generate_documents.py
-python step4_correct_docs.py
-python step5_ocult_and_localization.py
-python step6_validation.py
-```
+## 📈 Métricas de Calidad
 
-### Ejecutar paso específico:
-```bash
-python step4_correct_docs.py --max-docs 5 --max-iterations 3
-```
+El pipeline está diseñado para optimizar las métricas de anonimización:
 
-## 📁 Estructura del Proyecto
+### Métricas Estimadas del Sistema
+- **Verdaderos Positivos (TP)**: ~1.0 (100% de precisión en entidades detectadas)
+- **Falsos Negativos (FN)**: ~0.05 (5% de entidades no detectadas)
 
-```
-├── step1_generate_annotations.py      # Generación de anotaciones
-├── step2_5_semantic_cleaning.py       # Limpieza semántica
-├── step2_clean_jsonl.py              # Limpieza de JSONL
-├── step3_generate_documents.py       # Generación de documentos
-├── step4_correct_docs.py             # Corrección iterativa
-├── step5_ocult_and_localization.py    # Anonimización
-├── step6_validation.py                # Validación final
-├── examples/                          # Datos de ejemplo
-│   ├── etiquetas_anonimizacion_meddocan_carmenI.csv
-│   └── jsonl_data/
-│       └── medical_annotations.jsonl
-├── models/                            # Modelos preentrenados
-│   ├── bsc-bio-ehr-es-carmen-anon/
-│   ├── bsc-bio-ehr-es-meddocan/
-│   └── labse/
-└── README.md
-```
+### Estrategia de Validación
+- **Steps 4-5**: Aseguran TP de 100% corroborando que las entidades detectadas existen realmente
+- **Step 6**: Minimiza FN mediante validación con modelos BSC especializados
+- **Validación humana**: Confirma y refina las métricas estimadas
 
-## 🤖 Modelos Utilizados
+### Resultados de Validación
+- **Total de documentos procesados**: 14,035
+- **Documentos con entidades detectadas**: 1,300 (almacenados en `validation_results/`)
+- **Tasa de detección de entidades**: ~9.3% de los documentos contienen PHI detectable (No todas estas entidades son correctas)
 
-- **DeepSeek Chat:** Corrección iterativa de documentos
-- **BSC Bio EHR ES:** Modelos especializados en texto médico español
-- **LaBSE:** Embeddings multilingües para similitud semántica
+## 📚 Documentación Adicional
 
-## 🔒 Privacidad y Seguridad
+- **Guías de Anonimización**: `guías-de-anotación-de-información-de-salud-protegida.pdf`
+- **Mapeo de Etiquetas**: `etiquetas_anonimizacion_meddocan_carmenI.csv`
+- **Scripts de Pipeline**: Documentados individualmente en `pipeline/`
 
-- Todos los documentos son sintéticos
-- No se utilizan datos médicos reales
-- Las entidades se anonimizan completamente
-- El corpus es seguro para investigación
+## 🤝 Contribución
+
+Para contribuir al proyecto:
+
+1. Revisar los documentos asignados en `docs_revisar/`
+2. Reportar errores o inconsistencias encontradas
+3. Sugerir mejoras al pipeline de anonimización
+4. Documentar casos edge encontrados durante la revisión
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT. Ver `LICENSE` para más detalles.
+Este proyecto está desarrollado para fines de investigación en anonimización de documentos médicos en español, siguiendo las normativas de protección de datos vigentes.
 
-## 🤝 Contribuciones
+---
 
-Las contribuciones son bienvenidas. Por favor:
-
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
-## 📞 Contacto
-
-- **Autor:** Ramses Stein
-- **GitHub:** [@ramsestein](https://github.com/ramsestein)
-- **Proyecto:** [generate_corpus_anonimizacion](https://github.com/ramsestein/generate_corpus_anonimizacion)
-
-## 🙏 Agradecimientos
-
-- **MEDDOCAN:** Corpus de anonimización médica en español
-- **CARMEN-I:** Corpus de anonimización médica
-- **BSC:** Barcelona Supercomputing Center
-- **DeepSeek:** Modelos de IA para corrección de texto
+*Última actualización: Octubre 2025*

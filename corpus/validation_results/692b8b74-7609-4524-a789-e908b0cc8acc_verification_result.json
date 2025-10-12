@@ -1,0 +1,174 @@
+{
+  "document_id": "692b8b74-7609-4524-a789-e908b0cc8acc",
+  "success": true,
+  "anonymized_text": "A continuación se presenta el informe de valoración geriátrica integral. El sujeto de asistencia, que cuenta con una de XXX, acude para evaluación de su estado funcional. Se verifica que el activo es XXX, lo cual permite acceder a los servicios de salud correspondientes. En la exploración física actual se observa buen estado general, con presión arterial de 135/80 mmHg y frecuencia cardíaca de 68 lpm. La saturación de oxígeno es del 96% en aire ambiente. En la valoración cognitiva mediante test de cribado se detecta un rendimiento dentro de la normalidad para su grupo etario. Cabe destacar que el paciente refiere que su cónyuge, con de XXX, presenta buena salud en general. Para el seguimiento de parámetros vitales, se ha instalado el dispositivo de monitorización con XXX, que permitirá el registro continuo de constantes durante las próximas 48 horas. Los datos recogidos serán analizados en la próxima consulta programada. Se recomienda al paciente consultar los recursos educativos disponibles en nuestra XXX donde encontrará información actualizada sobre el manejo de condiciones crónicas en población geriátrica. Para cualquier duda o gestión administrativa, puede utilizarse el XXX como canal de comunicación preferente con la unidad.",
+  "text_length": 1250,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9531588554382324,
+        "word": " cónyuge,",
+        "start": 628,
+        "end": 636,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cónyuge,",
+          "actual_text": "cónyuge,",
+          "confidence": 0.9531588554382324,
+          "start": 628,
+          "end": 636,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cónyuge,",
+          "actual_text": "cónyuge,",
+          "confidence": 0.9531588554382324,
+          "start": 628,
+          "end": 636,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8777376413345337,
+        "word": " cónyuge,",
+        "start": 628,
+        "end": 636,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cónyuge,",
+          "actual_text": "cónyuge,",
+          "confidence": 0.8777376413345337,
+          "start": 628,
+          "end": 636,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cónyuge,",
+          "actual_text": "cónyuge,",
+          "confidence": 0.8777376413345337,
+          "start": 628,
+          "end": 636,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cónyuge,",
+        "actual_text": "cónyuge,",
+        "confidence": 0.9531588554382324,
+        "start": 628,
+        "end": 636,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cónyuge,",
+        "actual_text": "cónyuge,",
+        "confidence": 0.8777376413345337,
+        "start": 628,
+        "end": 636,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cónyuge,",
+        "actual_text": "cónyuge,",
+        "confidence": 0.9531588554382324,
+        "start": 628,
+        "end": 636,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cónyuge,",
+        "actual_text": "cónyuge,",
+        "confidence": 0.8777376413345337,
+        "start": 628,
+        "end": 636,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

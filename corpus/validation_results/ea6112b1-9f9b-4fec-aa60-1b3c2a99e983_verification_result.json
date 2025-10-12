@@ -1,0 +1,174 @@
+{
+  "document_id": "ea6112b1-9f9b-4fec-aa60-1b3c2a99e983",
+  "success": true,
+  "anonymized_text": "A la exploración física actual, la paciente se presenta consciente y orientada en tiempo, espacio y persona. Refiere mejoría parcial de la sintomatología que motivó la consulta inicial. A la auscultación cardíaca, se evidencian ruidos rítmicos sin soplos añadidos. La auscultación pulmonar es limpia, con murmullo vesicular conservado bilateralmente. El abdomen es blando y depresible, no doloroso a la palpación superficial ni profunda. En la valoración global del caso, es fundamental tener presente que el sexo del sujeto de asistencia es XXX, lo cual se considera un factor relevante en el contexto del abordaje diagnóstico y terapéutico. Se procederá a solicitar una analítica completa para reevaluar los parámetros que se encontraban alterados. Para la correcta gestión administrativa del proceso, se verifican los siguientes números de identificación: el número de beneficio del plan de salud XXX y el identificador de aseguramiento XXX. Todo el seguimiento se registrará bajo la referencia de historia clínica XXX. Se mantiene la pauta sintomática establecida y se citará para control en un plazo de cuatro semanas, pendiente de la recepción de los resultados analíticos. Se recomienda acudir a urgencias en caso de aparición de cualquier signo de alarma.",
+  "text_length": 1263,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8088362812995911,
+        "word": " plan",
+        "start": 886,
+        "end": 890,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.8088362812995911,
+          "start": 886,
+          "end": 890,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.8088362812995911,
+          "start": 886,
+          "end": 890,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9860450029373169,
+        "word": " historia clínica",
+        "start": 1001,
+        "end": 1017,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.9860450029373169,
+          "start": 1001,
+          "end": 1017,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.9860450029373169,
+          "start": 1001,
+          "end": 1017,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.8088362812995911,
+        "start": 886,
+        "end": 890,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.9860450029373169,
+        "start": 1001,
+        "end": 1017,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.8088362812995911,
+        "start": 886,
+        "end": 890,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.9860450029373169,
+        "start": 1001,
+        "end": 1017,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

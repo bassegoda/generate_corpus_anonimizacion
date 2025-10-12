@@ -1,0 +1,171 @@
+{
+  "document_id": "86f99dfa-2f61-4ef7-8d65-5fcc5c5607f2",
+  "success": true,
+  "anonymized_text": "**NOTA DE EVOLUCIÓN** A fecha de XXX, se procede a la valoración de la paciente que ingresa para estudio y manejo de su patología actual. Se trata de una persona de sexo XXX, con XXX de edad, identificada con el número de beneficiaria del plan de salud XXX. La paciente reside habitualmente en XXX, aunque refiere haber estado viviendo temporalmente de la Alameda 47 durante los últimos meses. Como dato de contacto principal para comunicación con la unidad, se dispone del número de teléfono XXX. La exploración física actual muestra una paciente consciente y orientada. Entre los procedimientos realizados se incluye la verificación de identidad mediante XXX, que ha sido cotejada satisfactoriamente. Los parámetros vitales se mantienen dentro de rangos aceptables. En la analítica realizada se observa una discreta elevación de los reactantes de fase aguda, sin otras alteraciones significativas. Las pruebas de imagen programadas serán realizadas en los próximos días. Para completar la documentación del expediente, se verifica que el documento de identificación principal es el XXX. Como referencia adicional del vehículo utilizado para el transporte al centro, se anota el identificif_vehiculos_nrserie_placas XXX. Se ha confirmado también el número de serie del dispositivo médico XXX que porta la paciente. Como medio de contacto complementario, la paciente ha facilitado el número XXX y la dirección XXX para recibir información clínica. Se mantendrá observación hospitalaria según protocolo establecido, con reevaluación continua de su estado. Todos los datos han sido registrados conforme a la normativa de protección de datos vigente en XXX. La dirección de residencia permanente registrada es XXX.",
+  "text_length": 1711,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.949995756149292,
+        "word": "ameda",
+        "start": 358,
+        "end": 363,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.8224376440048218,
+        "word": " es XXX",
+        "start": 258,
+        "end": 264,
+        "chunk_id": 1,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "TERRITORIO": 1,
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "TERRITORIO",
+          "word": "ameda",
+          "actual_text": "ameda",
+          "confidence": 0.949995756149292,
+          "start": 358,
+          "end": 363,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " es XXX",
+          "actual_text": "La pac",
+          "confidence": 0.8224376440048218,
+          "start": 258,
+          "end": 264,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "TERRITORIO",
+          "word": "ameda",
+          "actual_text": "ameda",
+          "confidence": 0.949995756149292,
+          "start": 358,
+          "end": 363,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " es XXX",
+          "actual_text": "La pac",
+          "confidence": 0.8224376440048218,
+          "start": 258,
+          "end": 264,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "TERRITORIO": 1,
+      "CALLE": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "TERRITORIO",
+        "word": "ameda",
+        "actual_text": "ameda",
+        "confidence": 0.949995756149292,
+        "start": 358,
+        "end": 363,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " es XXX",
+        "actual_text": "La pac",
+        "confidence": 0.8224376440048218,
+        "start": 258,
+        "end": 264,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "TERRITORIO",
+        "word": "ameda",
+        "actual_text": "ameda",
+        "confidence": 0.949995756149292,
+        "start": 358,
+        "end": 363,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " es XXX",
+        "actual_text": "La pac",
+        "confidence": 0.8224376440048218,
+        "start": 258,
+        "end": 264,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

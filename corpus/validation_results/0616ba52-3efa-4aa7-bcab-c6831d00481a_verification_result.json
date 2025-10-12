@@ -1,0 +1,175 @@
+{
+  "document_id": "0616ba52-3efa-4aa7-bcab-c6831d00481a",
+  "success": true,
+  "anonymized_text": "**Informe de Valoración Preoperatoria** Se procede a la valoración preoperatoria de la paciente, cuyo identificador de sujeto de asistencia es XXX, previa a la intervención quirúrgica programada. La paciente, de sexo XXX, fue evaluada en el XXX y derivada a este centro para el acto quirúrgico. El código de aseguramiento que figura en su documentación es XXX. La exploración física general resulta dentro de la normalidad, sin hallazgos significativos que contraindiquen la cirugía. No obstante, es de capital importancia registrar en un lugar destacado de la historia clínica su XXX, para evitar la administración de cualquier antibiótico de esta familia en la profilaxis perioperatoria. El documento nacional de identidad aportado corresponde al número XXX. El procedimiento se llevará a cabo en General de Madrid, con el apoyo del equipo de cirugía del XXX. El profesional que actuará como XXX principal ha sido asignado según la planificación del servicio. Para una correcta identificación biométrica y evitar errores de paciente, se ha registrado la XXX, la cual presenta un patrón de arco bien definido. La verificación mediante la XXX será un requisito obligatorio antes del ingreso en quirófano. Como parte de los identificadores biométricos, se ha documentado la XXX. El vehículo asignado para el transporte sanitario, en caso de ser necesario, tiene la placa XXX. Para consultar protocolos complementarios o guías clínicas actualizadas, se recomienda acceder al portal oficial XXX, un recurso avalado por el XXX. Para cualquier comunicación administrativa o envío de documentación, se puede contactar a través del número de fax XXX.",
+  "text_length": 1643,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.9830889701843262,
+        "word": " General de Madrid",
+        "start": 799,
+        "end": 816,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9830889701843262,
+          "start": 799,
+          "end": 816,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9830889701843262,
+          "start": 799,
+          "end": 816,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9009604454040527,
+        "word": " General de Madrid",
+        "start": 799,
+        "end": 816,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9009604454040527,
+          "start": 799,
+          "end": 816,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9009604454040527,
+          "start": 799,
+          "end": 816,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "HOSPITAL": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9830889701843262,
+        "start": 799,
+        "end": 816,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9009604454040527,
+        "start": 799,
+        "end": 816,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9830889701843262,
+        "start": 799,
+        "end": 816,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9009604454040527,
+        "start": 799,
+        "end": 816,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "document_id": "4378ad03-cf1a-47d9-b28f-71eb33d378aa",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE CARDIOLOGÍA** En la consulta externa se evalúa a la paciente XXX con motivo de seguimiento de su patología valvular. La paciente refiere estabilidad clínica con buena tolerancia al esfuerzo habitual, sin aparición de disnea, edemas ni palpitaciones. Se encuentra afincada en la **XXX**, concretamente en **XXX**, dentro de **XXX**. La exploración física actual muestra un ritmo cardíaco regular, sin soplos significativos en la auscultación cardiaca. La tensión arterial se mantiene en rangos de normalidad. En la auscultación pulmonar no se objetivan ruidos patológicos. Se revisa la analítica reciente que no presenta alteraciones destacables en el perfil lipídico ni en la función renal. El ecocardiograma de control evidencia una estabilidad en los parámetros de función ventricular y en el gradiente transvalvular, sin cambios significativos respecto al estudio previo. Se mantiene el tratamiento médico actual y se programa seguimiento en 6 meses. Se recomienda contactar para cualquier incidencia a los números de teléfono **XXX** o **XXX**. Como parte de la información proporcionada a la paciente, se le ha remitido a la **URL XXX** para que consulte material educativo sobre su condición. Como figura de apoyo, se ha registrado a **XXX** entre sus **familiares sujeto asistencia**. El documento con validez a partir del **XXX** queda asociado al identificador **XXX**. El informe ha sido revisado por el **XXX** de referencia.",
+  "text_length": 1469,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9865407943725586,
+        "word": "familiares",
+        "start": 1293,
+        "end": 1303,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": "familiares",
+          "actual_text": "familiares",
+          "confidence": 0.9865407943725586,
+          "start": 1293,
+          "end": 1303,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": "familiares",
+          "actual_text": "familiares",
+          "confidence": 0.9865407943725586,
+          "start": 1293,
+          "end": 1303,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.763886570930481,
+        "word": " **",
+        "start": 1063,
+        "end": 1065,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.763886570930481,
+          "start": 1063,
+          "end": 1065,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.763886570930481,
+          "start": 1063,
+          "end": 1065,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "NUMERO_TELEFONO": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": "familiares",
+        "actual_text": "familiares",
+        "confidence": 0.9865407943725586,
+        "start": 1293,
+        "end": 1303,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.763886570930481,
+        "start": 1063,
+        "end": 1065,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": "familiares",
+        "actual_text": "familiares",
+        "confidence": 0.9865407943725586,
+        "start": 1293,
+        "end": 1303,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.763886570930481,
+        "start": 1063,
+        "end": 1065,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "document_id": "06365694-7986-42d8-a4b0-a7b140a00a9b",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Preoperatoria Paciente valorado en consulta externa de cirugía cardíaca para estudio preoperatorio. Se presenta acompañado por su familiar de referencia, XXX, quien participa activamente en el proceso de información y consentimiento. La documentación administrativa confirma que el paciente está cubierto por el sistema sanitario de XXX, concretamente en el ámbito de la XXX, con número de beneficiario XXX. La identificación del sujeto de asistencia corresponde al documento nacional XXX. Desde el punto de vista profesional, el paciente refiere haber trabajado durante toda su vida como XXX, especializándose posteriormente como XXX, profesión que ejerció hasta su jubilación el año pasado. Este antecedente laboral es relevante para su comprensión del proceso patológico actual y las opciones terapéuticas. Para completar la documentación del proceso, se ha facilitado el canal de comunicación por fax XXX y la dirección de correo electrónico XXX para cualquier consulta o envío de documentación complementaria. En la exploración física actual se objetiva tensión arterial de 135/80 mmHg, frecuencia cardíaca de 68 lpm regular, sin edemas periféricos ni signos de insuficiencia cardiaca. La auscultación cardíaca revela un soplo sistólico III/VI en foco aórtico. En las pruebas complementarias realizadas, el electrocardiograma muestra ritmo sinusal a 70 lpm con hipertrofia ventricular izquierda. El ecocardiograma Doppler confirma estenosis aórtica severa con área valvular de 0.8 cm² y gradiente medio de 45 mmHg, con función ventricular izquierda conservada (FEVI 60%). Los análisis de laboratorio muestran hemograma y función renal dentro de parámetros normales. Se considera candidato para intervención quirúrgica programada con criterios de elección según protocolo establecido. Se explican los riesgos y beneficios de la procedure, quedando pendiente de programación en lista de espera quirúrgica.",
+  "text_length": 1930,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7291648387908936,
+        "word": " familiar de referencia",
+        "start": 152,
+        "end": 174,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de referencia",
+          "actual_text": "familiar de referencia",
+          "confidence": 0.7291648387908936,
+          "start": 152,
+          "end": 174,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de referencia",
+          "actual_text": "familiar de referencia",
+          "confidence": 0.7291648387908936,
+          "start": 152,
+          "end": 174,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9630224108695984,
+        "word": " familiar",
+        "start": 152,
+        "end": 160,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9630224108695984,
+          "start": 152,
+          "end": 160,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9630224108695984,
+          "start": 152,
+          "end": 160,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de referencia",
+        "actual_text": "familiar de referencia",
+        "confidence": 0.7291648387908936,
+        "start": 152,
+        "end": 174,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9630224108695984,
+        "start": 152,
+        "end": 160,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de referencia",
+        "actual_text": "familiar de referencia",
+        "confidence": 0.7291648387908936,
+        "start": 152,
+        "end": 174,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9630224108695984,
+        "start": 152,
+        "end": 160,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

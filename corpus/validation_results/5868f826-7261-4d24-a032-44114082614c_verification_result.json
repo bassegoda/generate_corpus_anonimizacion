@@ -1,0 +1,174 @@
+{
+  "document_id": "5868f826-7261-4d24-a032-44114082614c",
+  "success": true,
+  "anonymized_text": "En el informe de evolución correspondiente a la consulta de seguimiento, se documenta que el paciente presenta una mejoría sintomática significativa del cuadro de lumbalgia mecánica inespecífica que motivó la consulta inicial. La exploración física actual muestra una notable disminución de la dolorabilidad a la palpación de la musculatura paravertebral lumbar y un rango de movilidad casi completo en flexoextensión y rotaciones. Se considera que el plan de fisioterapia ha sido efectivo. Se ha facilitado al paciente la información para gestionar sus próximos controles a través del portal XXX, concretamente en la sección XXX, para agilizar los trámites administrativos. Se recuerda que para cualquier gestión presencial, la sede principal se encuentra en XXX, disponiendo también de otros puntos de atención de la Alameda 12 y XXX. En la documentación adjunta al expediente, se ha registrado el número de beneficiario del plan de salud XXX para actualizar su cobertura. Asimismo, en relación con la solicitud de la ortesis lumbar, se ha generado la referencia interna XXX para su tramitación. Los hallazgos en la resonancia magnética lumbar son compatibles con cambios degenerativos incipientes sin compromiso radicular significativo. Se mantiene la pauta de analgesia a demanda y se insiste en la importancia de continuar con el programa de ejercicios de higiene postural.",
+  "text_length": 1378,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.9583777785301208,
+        "word": " Alameda 12 y XXX",
+        "start": 819,
+        "end": 835,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " Alameda 12 y XXX",
+          "actual_text": "Alameda 12 y XXX",
+          "confidence": 0.9583777785301208,
+          "start": 819,
+          "end": 835,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " Alameda 12 y XXX",
+          "actual_text": "Alameda 12 y XXX",
+          "confidence": 0.9583777785301208,
+          "start": 819,
+          "end": 835,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.989530086517334,
+        "word": " Alameda 12",
+        "start": 819,
+        "end": 829,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " Alameda 12",
+          "actual_text": "Alameda 12",
+          "confidence": 0.989530086517334,
+          "start": 819,
+          "end": 829,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " Alameda 12",
+          "actual_text": "Alameda 12",
+          "confidence": 0.989530086517334,
+          "start": 819,
+          "end": 829,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CALLE": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CALLE",
+        "word": " Alameda 12 y XXX",
+        "actual_text": "Alameda 12 y XXX",
+        "confidence": 0.9583777785301208,
+        "start": 819,
+        "end": 835,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Alameda 12",
+        "actual_text": "Alameda 12",
+        "confidence": 0.989530086517334,
+        "start": 819,
+        "end": 829,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CALLE",
+        "word": " Alameda 12 y XXX",
+        "actual_text": "Alameda 12 y XXX",
+        "confidence": 0.9583777785301208,
+        "start": 819,
+        "end": 835,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Alameda 12",
+        "actual_text": "Alameda 12",
+        "confidence": 0.989530086517334,
+        "start": 819,
+        "end": 829,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "document_id": "e49c993f-5ac2-48e7-8ebc-20427834aa93",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE TRAUMATOLOGÍA** Paciente: XXX En la consulta de hoy se reevalúa al señor XXX, quien acude para seguimiento de su proceso. Refiere mejoría parcial de la sintomatología inicial, aunque persisten algunas limitaciones funcionales que precisarán de rehabilitación continuada. Como parte del protocolo de seguridad de la XXX, se ha procedido a la verificación de identidad mediante el sistema de XXX, confirmándose correctamente los datos de filiación. El paciente porta el documento de identificación sanitaria con el código XXX, habiendo sido atendido previamente bajo el número de registro XXX. En cuanto a los aspectos logísticos de la asistencia, se ha confirmado que el vehículo particular con placa XXX permanece estacionado en las inmediaciones del XXX, dirección que coincide con la registrada en nuestro sistema. Para comunicación directa, disponemos del XXX, habiéndose establecido contacto también a través del XXX. Se ha solicitado interconsulta con el servicio de rehabilitación, cuyo institucional es XXX, ubicado en XXX. El profesional designado para su seguimiento es un XXX especializado en este tipo de patologías. Como parte de la coordinación interinstitucional, se ha remitido la documentación pertinente al XXX para los trámites administrativos correspondientes. En el ámbito familiar, se mantiene comunicación con su representante, XXX, quien ha sido debidamente informada sobre el plan terapéutico establecido. **Exploración complementaria:** La resonancia magnética realizada muestra evolución favorable del proceso inflamatorio articular, con disminución del edema óseo respecto a estudios previos. Los parámetros analíticos dentro de rangos aceptables, con ligera elevación de reactantes de fase aguda que justifica la persistencia de sintomatología residual. Se mantendrá el tratamiento actual con reevaluación en cuatro semanas, momento en que se valorará la necesidad de modificar el abordaje terapéutico en función de la evolución clínica.",
+  "text_length": 1998,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7058495879173279,
+        "word": " familiar",
+        "start": 1326,
+        "end": 1334,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8794984817504883,
+        "word": " representante",
+        "start": 1368,
+        "end": 1381,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.7058495879173279,
+          "start": 1326,
+          "end": 1334,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " representante",
+          "actual_text": "representante",
+          "confidence": 0.8794984817504883,
+          "start": 1368,
+          "end": 1381,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.7058495879173279,
+          "start": 1326,
+          "end": 1334,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " representante",
+          "actual_text": "representante",
+          "confidence": 0.8794984817504883,
+          "start": 1368,
+          "end": 1381,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.7058495879173279,
+        "start": 1326,
+        "end": 1334,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " representante",
+        "actual_text": "representante",
+        "confidence": 0.8794984817504883,
+        "start": 1368,
+        "end": 1381,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.7058495879173279,
+        "start": 1326,
+        "end": 1334,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " representante",
+        "actual_text": "representante",
+        "confidence": 0.8794984817504883,
+        "start": 1368,
+        "end": 1381,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

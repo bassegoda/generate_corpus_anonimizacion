@@ -1,0 +1,267 @@
+{
+  "document_id": "37d55caa-8fab-4ca2-aaeb-94ceb968ee4c",
+  "success": true,
+  "anonymized_text": "A continuación se presenta el informe de consulta externa correspondiente a la paciente XXX con fecha de XXX. La paciente acude para seguimiento de su condición crónica, mostrando una evolución favorable desde la última revisión. Se mantiene el plan terapéutico establecido previamente, con buen cumplimiento por parte de la interesada. En cuanto a los hallazgos de la exploración física actual, se observa normotensión arterial, frecuencia cardíaca regular sin soplos audibles, y auscultación respiratoria limpia bilateral. Los parámetros analíticos recientes, incluidos hemograma y perfil bioquímico básico, se encuentran dentro de rangos de normalidad. La ecografía abdominal realizada muestra estabilidad en los hallazgos previos, sin evidencia de cambios significativos. Para la gestión documental, se ha asignado el número de historia clínica XXX. Todos los procedimientos se ajustan a los protocolos establecidos por el XXX para este tipo de seguimientos. Cualquier comunicación puede dirigirse al número de contacto XXX. Documentación adicional relacionada incluye el trámite XXX y los expedientes XXX y XXX, debidamente archivados en el sistema. La identificación XXX queda registrada para fines administrativos. Este informe ha sido elaborado en XXX y queda validado por la profesional responsable del caso, XXX, con identificación de empleo personal sanitario ID-789456.",
+  "text_length": 1381,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7346557378768921,
+        "word": "-",
+        "start": 1373,
+        "end": 1374,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.915747880935669,
+        "word": "78",
+        "start": 1374,
+        "end": 1376,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.7346557378768921,
+          "start": 1373,
+          "end": 1374,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "78",
+          "actual_text": "78",
+          "confidence": 0.915747880935669,
+          "start": 1374,
+          "end": 1376,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.7346557378768921,
+          "start": 1373,
+          "end": 1374,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "78",
+          "actual_text": "78",
+          "confidence": 0.915747880935669,
+          "start": 1374,
+          "end": 1376,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7334877848625183,
+        "word": " historia clínica",
+        "start": 832,
+        "end": 848,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9379346370697021,
+        "word": " ID",
+        "start": 1371,
+        "end": 1373,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "NUMERO_TELEFONO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.7334877848625183,
+          "start": 832,
+          "end": 848,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " ID",
+          "actual_text": "ID",
+          "confidence": 0.9379346370697021,
+          "start": 1371,
+          "end": 1373,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.7334877848625183,
+          "start": 832,
+          "end": 848,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " ID",
+          "actual_text": "ID",
+          "confidence": 0.9379346370697021,
+          "start": 1371,
+          "end": 1373,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 2,
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "NUMERO_TELEFONO": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.7346557378768921,
+        "start": 1373,
+        "end": 1374,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "78",
+        "actual_text": "78",
+        "confidence": 0.915747880935669,
+        "start": 1374,
+        "end": 1376,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.7334877848625183,
+        "start": 832,
+        "end": 848,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " ID",
+        "actual_text": "ID",
+        "confidence": 0.9379346370697021,
+        "start": 1371,
+        "end": 1373,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.7346557378768921,
+        "start": 1373,
+        "end": 1374,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "78",
+        "actual_text": "78",
+        "confidence": 0.915747880935669,
+        "start": 1374,
+        "end": 1376,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.7334877848625183,
+        "start": 832,
+        "end": 848,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " ID",
+        "actual_text": "ID",
+        "confidence": 0.9379346370697021,
+        "start": 1371,
+        "end": 1373,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

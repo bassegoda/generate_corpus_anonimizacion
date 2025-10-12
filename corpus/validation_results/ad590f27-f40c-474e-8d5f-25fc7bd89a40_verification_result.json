@@ -1,0 +1,124 @@
+{
+  "document_id": "ad590f27-f40c-474e-8d5f-25fc7bd89a40",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude para seguimiento y control de su patología crónica. Refiere estabilidad clínica general sin cambios significativos en su sintomatología basal. Al interrogatorio por sistemas no refiere hallazgos relevantes ni aparición de nuevos síntomas. A la exploración física, se constata normopesfilia, presión arterial de 125/80 mmHg, frecuencia cardíaca de 72 lpm y saturación de oxígeno del 97%. La auscultación cardiorrespiratoria resulta dentro de la normalidad, sin soplos ni ruidos sobreañadidos. El abdomen es blando y depresible, no doloroso a la palpación superficial ni profunda. En relación con los estudios complementarios realizados, se ha procedido a enviar los resultados de las pruebas de imagen al número de fax XXX para su archivo en el historial. Los hallazgos radiológicos fueron informados como within normal limits, sin evidencia de progresión de hallazgos previos. Se confirma que la documentación administrativa y el proceso de facturación asociados a esta consulta están correctamente vinculados al número de beneficiario del plan de salud XXX. La situación de cobertura se encuentra activa y sin incidencias. Para la señora XXX se mantiene el plan terapéutico establecido, considerando su adecuada respuesta al tratamiento actual. Se recomienda continuar con el esquema posológico prescrito y se programa seguimiento en consultas externas según protocolo establecido para su condición. No se indican modificaciones farmacológicas en este momento.",
+  "text_length": 1508,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8090579509735107,
+        "word": " plan",
+        "start": 1087,
+        "end": 1091,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.8090579509735107,
+          "start": 1087,
+          "end": 1091,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.8090579509735107,
+          "start": 1087,
+          "end": 1091,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.8090579509735107,
+        "start": 1087,
+        "end": 1091,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.8090579509735107,
+        "start": 1087,
+        "end": 1091,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

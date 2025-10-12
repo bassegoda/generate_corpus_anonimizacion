@@ -1,0 +1,124 @@
+{
+  "document_id": "d65d2552-5371-45ef-adf9-e235b0eb052c",
+  "success": true,
+  "anonymized_text": "En la consulta de seguimiento se reevalúa a la paciente **XXX** en relación con su proceso crónico. Se ha procedido a la actualización de sus datos de contacto en nuestro sistema, registrando el **XXX** como su identificador de contacto asistencial principal. Asimismo, para completar su identificación en el sistema, se ha asociado a su historia clínica el documento **XXX**. Durante la exploración física actual, se constata un estado general aceptable. Los hallazgos en la exploración de los sistemas respiratorio y cardiovascular resultaron dentro de la normalidad. Como parte de los protocolos de seguridad y para garantizar la correcta identificación biométrica de la paciente en accesos restringidos, se ha registrado su **XXX**. Este dato queda incorporado a su expediente digital, accesible a través del enlace **XXX**. Se ha coordinado la atención con su familiar designada para cuestiones de asistencia, **XXX**, a quien se le han facilitado las pautas generales. Para cualquier comunicación o envío de documentación complementaria, queda a disposición el **** **XXX**. El presente informe ha sido elaborado por la **XXX**, con **XXX** y número de identificación profesional **XXX**. Toda la documentación clínica queda archivada de forma centralizada y puede ser consultada también mediante la dirección **XXX**. Finalmente, y en relación con el protocolo de accesos, se ha verificado y anotado en el sistema el número de placa del vehículo **XXX** asociado a la paciente.",
+  "text_length": 1484,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8953704237937927,
+        "word": " familiar designada",
+        "start": 865,
+        "end": 883,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar designada",
+          "actual_text": "familiar designada",
+          "confidence": 0.8953704237937927,
+          "start": 865,
+          "end": 883,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar designada",
+          "actual_text": "familiar designada",
+          "confidence": 0.8953704237937927,
+          "start": 865,
+          "end": 883,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar designada",
+        "actual_text": "familiar designada",
+        "confidence": 0.8953704237937927,
+        "start": 865,
+        "end": 883,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar designada",
+        "actual_text": "familiar designada",
+        "confidence": 0.8953704237937927,
+        "start": 865,
+        "end": 883,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

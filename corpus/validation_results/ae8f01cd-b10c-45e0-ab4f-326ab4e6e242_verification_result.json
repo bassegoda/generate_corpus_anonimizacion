@@ -1,0 +1,175 @@
+{
+  "document_id": "ae8f01cd-b10c-45e0-ab4f-326ab4e6e242",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Geriátrica Integral Paciente que acude para valoración geriátrica integral. Se trata de una persona de XXX que presenta un cuadro de deterioro funcional progresivo en los últimos meses. La evaluación se realiza dentro del sistema sanitario de la XXX, donde el paciente cuenta con su correspondiente ID de aseguramiento XXX para la cobertura asistencial. En la exploración física se observa paciente consciente y orientado, aunque con cierta dificultad para la deambulación. La auscultación cardiorrespiratoria resulta dentro de la normalidad, sin soplos ni ruidos sobreañadidos. En las extremidades inferiores se aprecia edema leve en miembros inferiores que mejora con la elevación. Los resultados analíticos muestran hemograma dentro de parámetros normales, con ligera elevación de la VSG. La función renal y hepática se mantienen estables. En la radiografía de tórax se observa cardiomegalia leve sin otros hallazgos significativos. Se establece un plan de seguimiento que incluye rehabilitación funcional y control periódico. Para la coordinación con otros niveles asistenciales, queda disponible el número de fax XXX para el envío de documentación clínica complementaria. El paciente será reevaluado en tres meses para valorar la evolución del cuadro y ajustar las intervenciones terapéuticas según su respuesta al tratamiento instaurado.",
+  "text_length": 1365,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7363517880439758,
+        "word": " ID",
+        "start": 321,
+        "end": 323,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " ID",
+          "actual_text": "ID",
+          "confidence": 0.7363517880439758,
+          "start": 321,
+          "end": 323,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " ID",
+          "actual_text": "ID",
+          "confidence": 0.7363517880439758,
+          "start": 321,
+          "end": 323,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.7381263971328735,
+        "word": " de",
+        "start": 262,
+        "end": 264,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " de",
+          "actual_text": "de",
+          "confidence": 0.7381263971328735,
+          "start": 262,
+          "end": 264,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " de",
+          "actual_text": "de",
+          "confidence": 0.7381263971328735,
+          "start": 262,
+          "end": 264,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "INSTITUCION": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " ID",
+        "actual_text": "ID",
+        "confidence": 0.7363517880439758,
+        "start": 321,
+        "end": 323,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": " de",
+        "actual_text": "de",
+        "confidence": 0.7381263971328735,
+        "start": 262,
+        "end": 264,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " ID",
+        "actual_text": "ID",
+        "confidence": 0.7363517880439758,
+        "start": 321,
+        "end": 323,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": " de",
+        "actual_text": "de",
+        "confidence": 0.7381263971328735,
+        "start": 262,
+        "end": 264,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

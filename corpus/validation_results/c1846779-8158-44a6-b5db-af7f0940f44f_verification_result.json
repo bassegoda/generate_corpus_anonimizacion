@@ -1,0 +1,124 @@
+{
+  "document_id": "c1846779-8158-44a6-b5db-af7f0940f44f",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Se realiza valoración de la paciente XXX en consulta externa. La paciente refiere mejoría significativa del cuadro de lumbalgia mecánica que motivó la consulta previa, con recuperación progresiva de la movilidad y disminución de la intensidad del dolor a 2/10 en escala visual analógica. La exploración física actual muestra balance articular lumbar conservado, con leve dolor a la palpación en región paravertebral L4-L5 que no se irradia. Pruebas de Lasègue y Bragard negativas. Fuerza muscular 5/5 en miembros inferiores, reflejos osteotendinosos normales y simétricos. Se considera que la evolución es favorable. Se recomienda continuar con el programa de ejercicios de fortalecimiento de la musculatura paravertebral y evitar maniobras de flexo-extensión bruscas. Se programará reevaluación para el XXX en el XXX para valorar la evolución a más largo plazo y ajustar el plan de rehabilitación si fuera necesario. Para cualquier gestión relacionada con este seguimiento, pueden contactar a través de la dirección de correo electrónico XXX. Asimismo, se ha facilitado a los familiares vinculados a la asistencia la dirección XXX para coordinación en aspectos que requieran su participación en el proceso terapéutico. El cuadro clínico actual no presenta signos de alarma y el pronóstico funcional se considera favorable. Se mantiene el tratamiento sintomático según necesidad y se enfatiza la importancia de la continuidad del programa de ejercicios domiciliarios.",
+  "text_length": 1495,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8359803557395935,
+        "word": " familiares vinculados",
+        "start": 1105,
+        "end": 1126,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares vinculados",
+          "actual_text": "familiares vinculados",
+          "confidence": 0.8359803557395935,
+          "start": 1105,
+          "end": 1126,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares vinculados",
+          "actual_text": "familiares vinculados",
+          "confidence": 0.8359803557395935,
+          "start": 1105,
+          "end": 1126,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares vinculados",
+        "actual_text": "familiares vinculados",
+        "confidence": 0.8359803557395935,
+        "start": 1105,
+        "end": 1126,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares vinculados",
+        "actual_text": "familiares vinculados",
+        "confidence": 0.8359803557395935,
+        "start": 1105,
+        "end": 1126,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

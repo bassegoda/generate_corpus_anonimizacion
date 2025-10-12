@@ -1,0 +1,221 @@
+{
+  "document_id": "5ca05d80-ca33-4355-8148-9bf37b01eb92",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada, se documenta el contacto mantenido con la **XXX**, doña **XXX**, quien ha participado activamente en el proceso asistencial. La paciente, de **XXX**, identificada en nuestro sistema con el número **XXX**, presenta un cuadro de seguimiento por diabetes mellitus tipo 2. Durante la anamnesis, se ha recogido información relevante sobre su entorno y apoyo social, destacando su participación en un **XXX** que ha mostrado beneficios en la adherencia terapéutica. Respecto a los recursos sanitarios involucrados, se ha coordinado la gestión de material clínico con la **XXX**, así como con el **XXX** para aspectos normativos. El dispositivo médico utilizado por la paciente, identificado con el número de serie **XXX**, ha sido verificado y funciona dentro de los parámetros establecidos. Asimismo, se ha registrado el vehículo de asistencia con la placa **XXX** y el dispositivo adicional con **XXX**. En el contexto de la atención integral, se ha generado una referencia interna **XXX** para el seguimiento multidisciplinar. La profesional a cargo de la evaluación posee el **XXX** y su identificación profesional interna es ****. Cabe mencionar que la paciente ha referido tener una vivienda en ** Gran Vía 120** y otra propiedad en **XXX**, esta última ubicada en la **XXX**, lo cual se considera en la planificación de su continuidad asistencial. La exploración física actual muestra constantes dentro de la normalidad, con glucemia capilar en ayunas de 112 mg/dL y sin signos de retinopatía diabética en el fondo de ojo. Los últimos resultados analíticos reflejan una hemoglobina glicosilada del 6.8%, lo que indica un aceptable control metabólico.",
+  "text_length": 1687,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.7362489104270935,
+        "word": " Gran Vía 120",
+        "start": 1234,
+        "end": 1246,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " Gran Vía 120",
+          "actual_text": "Gran Vía 120",
+          "confidence": 0.7362489104270935,
+          "start": 1234,
+          "end": 1246,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " Gran Vía 120",
+          "actual_text": "Gran Vía 120",
+          "confidence": 0.7362489104270935,
+          "start": 1234,
+          "end": 1246,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.8876044750213623,
+        "word": " Gran Vía 120**",
+        "start": 1234,
+        "end": 1248,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.849622368812561,
+        "word": " otra",
+        "start": 1251,
+        "end": 1255,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1,
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " Gran Vía 120**",
+          "actual_text": "Gran Vía 120**",
+          "confidence": 0.8876044750213623,
+          "start": 1234,
+          "end": 1248,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " otra",
+          "actual_text": "otra",
+          "confidence": 0.849622368812561,
+          "start": 1251,
+          "end": 1255,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " Gran Vía 120**",
+          "actual_text": "Gran Vía 120**",
+          "confidence": 0.8876044750213623,
+          "start": 1234,
+          "end": 1248,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " otra",
+          "actual_text": "otra",
+          "confidence": 0.849622368812561,
+          "start": 1251,
+          "end": 1255,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CALLE": 2,
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CALLE",
+        "word": " Gran Vía 120",
+        "actual_text": "Gran Vía 120",
+        "confidence": 0.7362489104270935,
+        "start": 1234,
+        "end": 1246,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Gran Vía 120**",
+        "actual_text": "Gran Vía 120**",
+        "confidence": 0.8876044750213623,
+        "start": 1234,
+        "end": 1248,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " otra",
+        "actual_text": "otra",
+        "confidence": 0.849622368812561,
+        "start": 1251,
+        "end": 1255,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CALLE",
+        "word": " Gran Vía 120",
+        "actual_text": "Gran Vía 120",
+        "confidence": 0.7362489104270935,
+        "start": 1234,
+        "end": 1246,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Gran Vía 120**",
+        "actual_text": "Gran Vía 120**",
+        "confidence": 0.8876044750213623,
+        "start": 1234,
+        "end": 1248,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " otra",
+        "actual_text": "otra",
+        "confidence": 0.849622368812561,
+        "start": 1251,
+        "end": 1255,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

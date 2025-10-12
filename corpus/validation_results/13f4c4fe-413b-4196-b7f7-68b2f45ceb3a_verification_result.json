@@ -1,0 +1,174 @@
+{
+  "document_id": "13f4c4fe-413b-4196-b7f7-68b2f45ceb3a",
+  "success": true,
+  "anonymized_text": "**Informe de Consulta de Neurología** La paciente acude a consulta para seguimiento de cefalea crónica. Refiere episodios de dolor hemicraneal derecho de características pulsátiles, con fotofobia y fonofobia asociadas, que responde parcialmente a analgesia convencional. La exploración neurológica muestra pupilas isocóricas y normorreactivas, pares craneales conservados, sensibilidad y motilidad preservadas en las cuatro extremidades, reflejos osteotendinosos simétricos y normorreactivos, coordinación y marcha dentro de la normalidad. Se mantiene la impresión diagnóstica de migraña episódica sin aura. Para la gestión de su documentación clínica, se ha facilitado a la paciente el acceso al portal seguro ubicado en la dirección de internet XXX, donde podrá consultar sus informes y resultados analíticos. La identificación profesional de la firmante, con el correspondiente **** que acredita el **XXX**, es XXX. La correspondencia oficial puede dirigirse a la atención de la **XXX** en la calle XXX, ubicada en la **XXX**, **XXX**. Para la remisión de documentación complementaria se dispone del número de fax XXX. El **** registrado para los trámites administrativos es XXX.",
+  "text_length": 1182,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.9844216108322144,
+        "word": " calle XXX",
+        "start": 996,
+        "end": 1005,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " calle XXX",
+          "actual_text": "calle XXX",
+          "confidence": 0.9844216108322144,
+          "start": 996,
+          "end": 1005,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " calle XXX",
+          "actual_text": "calle XXX",
+          "confidence": 0.9844216108322144,
+          "start": 996,
+          "end": 1005,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.9520090818405151,
+        "word": " calle XXX",
+        "start": 996,
+        "end": 1005,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " calle XXX",
+          "actual_text": "calle XXX",
+          "confidence": 0.9520090818405151,
+          "start": 996,
+          "end": 1005,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " calle XXX",
+          "actual_text": "calle XXX",
+          "confidence": 0.9520090818405151,
+          "start": 996,
+          "end": 1005,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CALLE": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CALLE",
+        "word": " calle XXX",
+        "actual_text": "calle XXX",
+        "confidence": 0.9844216108322144,
+        "start": 996,
+        "end": 1005,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " calle XXX",
+        "actual_text": "calle XXX",
+        "confidence": 0.9520090818405151,
+        "start": 996,
+        "end": 1005,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CALLE",
+        "word": " calle XXX",
+        "actual_text": "calle XXX",
+        "confidence": 0.9844216108322144,
+        "start": 996,
+        "end": 1005,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " calle XXX",
+        "actual_text": "calle XXX",
+        "confidence": 0.9520090818405151,
+        "start": 996,
+        "end": 1005,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

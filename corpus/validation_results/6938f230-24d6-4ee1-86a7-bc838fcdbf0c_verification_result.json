@@ -1,0 +1,216 @@
+{
+  "document_id": "6938f230-24d6-4ee1-86a7-bc838fcdbf0c",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Preoperatoria Se procede a la valoración integral de la paciente previa a la intervención quirúrgica programada. La identificación de la paciente se ha verificado mediante el documento nacional de identidad número XXX y se ha corroborado con la XXX, confirmando la correcta identidad biométrica. La paciente, XXX, se encuentra ingresada en el XXX, centro donde se realizará el procedimiento. La exploración física actual revela un estado general conservado, con tensión arterial de 125/80 mmHg y frecuencia cardíaca de 68 lpm. La auscultación cardiorrespiratoria es normofonética sin soplos ni ruidos sobreañadidos. En la valoración por el servicio de anestesiología, se confirma la aptitud para la cirugía programada. El XXX responsable del equipo quirúrgico ha explicado detalladamente el procedimiento y ha resuelto todas las dudas planteadas. Respecto al contexto de movilidad, se registra que el vehículo con placa XXX ha sido autorizado para su acceso al recinto hospitalario durante el periodo de hospitalización. La paciente cuenta con el apoyo de familiares sujeto asistencia que estarán presentes durante todo el proceso. Cabe destacar que toda la documentación clínica se ajusta a la normativa sanitaria vigente en XXX, garantizando los más altos estándares de calidad y seguridad en la atención prestada.",
+  "text_length": 1338,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9590803980827332,
+        "word": " documento nacional de identidad número XXX",
+        "start": 197,
+        "end": 239,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.911795973777771,
+        "word": " vehículo",
+        "start": 923,
+        "end": 931,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8921998143196106,
+        "word": " familiares sujeto asistencia",
+        "start": 1078,
+        "end": 1106,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 2,
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 3,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad número XXX",
+          "actual_text": "documento nacional de identidad número XXX",
+          "confidence": 0.9590803980827332,
+          "start": 197,
+          "end": 239,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.911795973777771,
+          "start": 923,
+          "end": 931,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares sujeto asistencia",
+          "actual_text": "familiares sujeto asistencia",
+          "confidence": 0.8921998143196106,
+          "start": 1078,
+          "end": 1106,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad número XXX",
+          "actual_text": "documento nacional de identidad número XXX",
+          "confidence": 0.9590803980827332,
+          "start": 197,
+          "end": 239,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.911795973777771,
+          "start": 923,
+          "end": 931,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares sujeto asistencia",
+          "actual_text": "familiares sujeto asistencia",
+          "confidence": 0.8921998143196106,
+          "start": 1078,
+          "end": 1106,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2,
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad número XXX",
+        "actual_text": "documento nacional de identidad número XXX",
+        "confidence": 0.9590803980827332,
+        "start": 197,
+        "end": 239,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.911795973777771,
+        "start": 923,
+        "end": 931,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares sujeto asistencia",
+        "actual_text": "familiares sujeto asistencia",
+        "confidence": 0.8921998143196106,
+        "start": 1078,
+        "end": 1106,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad número XXX",
+        "actual_text": "documento nacional de identidad número XXX",
+        "confidence": 0.9590803980827332,
+        "start": 197,
+        "end": 239,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.911795973777771,
+        "start": 923,
+        "end": 931,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares sujeto asistencia",
+        "actual_text": "familiares sujeto asistencia",
+        "confidence": 0.8921998143196106,
+        "start": 1078,
+        "end": 1106,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "document_id": "4aaa46ae-5f88-4a1e-8742-bba5480d09b6",
+  "success": true,
+  "anonymized_text": "**Informe de Consulta Externa de Neurología** En la consulta de neurología del XXX se atiende a la paciente XXX para valoración y seguimiento. La paciente, identificada con el número de historia clínica XXX, acude acompañada en esta ocasión por su familiar XXX, quien participa activamente en su proceso asistencial. La exploración neurológica evita el uso de identificadores convencionales, habiéndose implementado para el acceso a la documentación clínica digital la XXX como sistema de verificación biométrica. Este procedimiento se enmarca en los protocolos de seguridad del XXX. Durante la exploración, se constata un adecuado control motor global y se mantiene la estabilidad del cuadro respecto a la última valoración. Los estudios complementarios realizados, cuyos datos técnicos se registran bajo la referencia XXX, no muestran variaciones significativas. El dispositivo de monitorización continua, con número de serie XXX, continúa registrando parámetros dentro de la normalidad. Para cualquier gestión administrativa o coordinación con otros niveles asistenciales, debe utilizarse el número de beneficiario del plan de salud XXX. El contacto telefónico designado para asuntos relacionados con la asistencia es XXX. Cabe destacar que toda la actividad asistencial se desarrolla bajo la supervisión de la XXX. La documentación completa del proceso está disponible para consulta a través del portal XXX, accesible con las credenciales institucionales. En relación con la coordinación de cuidados, se ha establecido como contacto principal a XXX, con domicilio en XXX. Finalmente, se procede a la actualización de los registros con el número de identificación adicional XXX y se verifica la vinculación correcta con su historia clínica principal XXX. Se mantendrá seguimiento periódico según lo establecido en el protocolo.",
+  "text_length": 1830,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7549282908439636,
+        "word": " familiar XXX",
+        "start": 248,
+        "end": 260,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.7549282908439636,
+          "start": 248,
+          "end": 260,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.7549282908439636,
+          "start": 248,
+          "end": 260,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.7549282908439636,
+        "start": 248,
+        "end": 260,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.7549282908439636,
+        "start": 248,
+        "end": 260,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

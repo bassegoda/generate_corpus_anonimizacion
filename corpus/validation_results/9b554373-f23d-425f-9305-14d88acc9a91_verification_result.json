@@ -1,0 +1,124 @@
+{
+  "document_id": "9b554373-f23d-425f-9305-14d88acc9a91",
+  "success": true,
+  "anonymized_text": "En el seguimiento evolutivo del caso se mantiene el plan terapéutico establecido, con buena respuesta al tratamiento instaurado. Se programó próxima consulta de control para el XXX. A nivel analítico, los parámetros de función hepática y renal se mantienen dentro de rangos de normalidad, con una ligera mejoría en los niveles de hemoglobina. En la exploración física actual, el abdomen se presenta blando y depresible, sin masas palpables ni signos de irritación peritoneal. Los ruidos hidroaéreos son normales. Se estableció contacto con el entorno familiar para coordinar los cuidados, específicamente con XXX, quien se mostró colaboradora y comprendió las indicaciones. Para cualquier eventualidad o ajuste en la medicación, queda disponible el número XXX. Los hallazgos en la tomografía computarizada realizada muestran una estabilización de las lesiones previamente descritas, sin evidencia de nuevas imágenes patológicas. Se recomienda mantener la vigilancia activa. Para facilitar la comunicación de resultados complementarios, se sugiere utilizar el correo electrónico XXX. Se destaca la importancia del cumplimiento terapéutico y la monitorización de posibles efectos adversos.",
+  "text_length": 1187,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8574431538581848,
+        "word": " familiar",
+        "start": 551,
+        "end": 559,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.8574431538581848,
+          "start": 551,
+          "end": 559,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.8574431538581848,
+          "start": 551,
+          "end": 559,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.8574431538581848,
+        "start": 551,
+        "end": 559,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.8574431538581848,
+        "start": 551,
+        "end": 559,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

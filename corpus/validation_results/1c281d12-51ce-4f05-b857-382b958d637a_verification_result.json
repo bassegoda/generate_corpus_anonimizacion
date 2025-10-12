@@ -1,0 +1,174 @@
+{
+  "document_id": "1c281d12-51ce-4f05-b857-382b958d637a",
+  "success": true,
+  "anonymized_text": "Informe de Consulta de Seguimiento A la atención de la paciente XXX, se le comunica el resultado de su revisión correspondiente. La paciente, de XXX, de sexo XXX, acude a consulta acompañada en esta ocasión por su hija, XXX, quien ha mostrado un gran interés en la evolución del cuadro. La exploración física actual revela una tensión arterial de 135/80 mmHg y una frecuencia cardíaca de 68 lpm, en rango de normalidad. Se ha procedido a la revisión de la analítica reciente, cuyos parámetros bioquímicos se mantienen dentro de límites aceptables, mostrando únicamente una discreta elevación del colesterol LDL que ya estaba identificada y controlada. En cuanto a la radiografía de tórax practicada, el informe confirma la estabilidad del cuadro crónico sin signos de nueva patología aguda. Se mantiene el tratamiento establecido y se recomienda continuar con el plan de seguimiento. Para cualquier gestión administrativa relacionada con su número de beneficiaria del plan de salud XXX, puede contactar con las oficinas del XXX. Para identificación en dichas gestiones, su documento de identidad XXX será requerido. Atentamente, XXX Médico Especialista XXX Colegiada XXX Para contactar, puede utilizar el correo electrónico XXX o dirigirse por escrito a XXX. Nuestro número de fax para recepción de documentos es XXX.",
+  "text_length": 1317,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9279821515083313,
+        "word": " hija,",
+        "start": 214,
+        "end": 219,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " hija,",
+          "actual_text": "hija,",
+          "confidence": 0.9279821515083313,
+          "start": 214,
+          "end": 219,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " hija,",
+          "actual_text": "hija,",
+          "confidence": 0.9279821515083313,
+          "start": 214,
+          "end": 219,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7719583511352539,
+        "word": " hija, XXX",
+        "start": 214,
+        "end": 223,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " hija, XXX",
+          "actual_text": "hija, XXX",
+          "confidence": 0.7719583511352539,
+          "start": 214,
+          "end": 223,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " hija, XXX",
+          "actual_text": "hija, XXX",
+          "confidence": 0.7719583511352539,
+          "start": 214,
+          "end": 223,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " hija,",
+        "actual_text": "hija,",
+        "confidence": 0.9279821515083313,
+        "start": 214,
+        "end": 219,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " hija, XXX",
+        "actual_text": "hija, XXX",
+        "confidence": 0.7719583511352539,
+        "start": 214,
+        "end": 223,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " hija,",
+        "actual_text": "hija,",
+        "confidence": 0.9279821515083313,
+        "start": 214,
+        "end": 219,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " hija, XXX",
+        "actual_text": "hija, XXX",
+        "confidence": 0.7719583511352539,
+        "start": 214,
+        "end": 223,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

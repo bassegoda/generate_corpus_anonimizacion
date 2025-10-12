@@ -1,0 +1,169 @@
+{
+  "document_id": "d75a63cd-e329-4a79-8f5c-adae728a45f4",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada, se documenta una situación que requiere especial atención en cuanto al manejo farmacológico. Durante la anamnesis se identifica una condición relevante que debe ser registrada de manera prominente en la historia clínica: el paciente refiere presentar XXX, manifestada mediante urticaria generalizada y dificultad respiratoria en exposiciones previas. Este antecedente contraindica absolutamente la administración de cualquier antibiótico del grupo de las penicilinas. La exploración física muestra un paciente consciente y orientado, con constantes vitales dentro de parámetros normales. La auscultación cardiorrespiratoria es normal y el abdomen se presenta blando y depresible sin masas palpables. No se observan lesiones cutáneas activas en el momento de la evaluación. El presente informe ha sido elaborado por la **XXX**, profesional que cuenta con la titulación de **XXX** y se encuentra debidamente acreditada para el ejercicio de la profesión médica. Se recomienda vigilancia periódica de la evolución clínica y se insiste en la importancia de mantener las precauciones relacionadas con el antecedente alérgico identificado.",
+  "text_length": 1168,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.7982441186904907,
+        "word": " la",
+        "start": 851,
+        "end": 853,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.8297613263130188,
+        "word": " **",
+        "start": 854,
+        "end": 856,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 2
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " la",
+          "actual_text": "la",
+          "confidence": 0.7982441186904907,
+          "start": 851,
+          "end": 853,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "INSTITUCION",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.8297613263130188,
+          "start": 854,
+          "end": 856,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " la",
+          "actual_text": "la",
+          "confidence": 0.7982441186904907,
+          "start": 851,
+          "end": 853,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "INSTITUCION",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.8297613263130188,
+          "start": 854,
+          "end": 856,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " la",
+        "actual_text": "la",
+        "confidence": 0.7982441186904907,
+        "start": 851,
+        "end": 853,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.8297613263130188,
+        "start": 854,
+        "end": 856,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " la",
+        "actual_text": "la",
+        "confidence": 0.7982441186904907,
+        "start": 851,
+        "end": 853,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.8297613263130188,
+        "start": 854,
+        "end": 856,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

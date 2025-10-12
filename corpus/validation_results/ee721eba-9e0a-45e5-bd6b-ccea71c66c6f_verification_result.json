@@ -1,0 +1,124 @@
+{
+  "document_id": "ee721eba-9e0a-45e5-bd6b-ccea71c66c6f",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada el XXX, se documenta el estado del paciente identificado con el código XXX. La exploración física revela buenas condiciones generales, con presión arterial de 125/80 mmHg, frecuencia cardíaca de 72 lpm y saturación de oxígeno del 98% en aire ambiente. Los sistemas cardiovascular, respiratorio y abdominal se encuentran dentro de parámetros normales. En relación al dispositivo médico implantado, se registra el correcto funcionamiento del equipo con número de serie XXX, cuyos parámetros se ajustan a los rangos terapéuticos establecidos. No se detectan anomalías en su funcionamiento ni eventos adversos relacionados con el mismo. Como parte del protocolo de seguimiento, se anota la referencia del vehículo institucional XXX utilizado para el transporte del equipo de monitorización. Los resultados analíticos muestran hemograma y bioquímica dentro de la normalidad, sin alteraciones significativas que requieran intervención terapéutica inmediata. El plan terapéutico se mantiene sin modificaciones, programándose próxima reevaluación en un mes. Se considera que la evolución clínica es satisfactoria y acorde con los objetivos establecidos en el protocolo de manejo.",
+  "text_length": 1206,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7117834687232971,
+        "word": " vehículo",
+        "start": 736,
+        "end": 744,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.7117834687232971,
+          "start": 736,
+          "end": 744,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.7117834687232971,
+          "start": 736,
+          "end": 744,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.7117834687232971,
+        "start": 736,
+        "end": 744,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.7117834687232971,
+        "start": 736,
+        "end": 744,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

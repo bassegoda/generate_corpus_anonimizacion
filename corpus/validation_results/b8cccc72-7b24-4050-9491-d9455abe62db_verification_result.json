@@ -1,0 +1,124 @@
+{
+  "document_id": "b8cccc72-7b24-4050-9491-d9455abe62db",
+  "success": true,
+  "anonymized_text": "A la exploración física, el paciente de XXX se presenta consciente y orientado, aunque refiere un cuadro de cefalea de características opresivas de varias semanas de evolución. La exploración neurológica detallada resulta anodina, sin signos meníngeos ni focalidad motora o sensitiva. Ante la persistencia de la sintomatología, se decide completar el estudio con pruebas de imagen. Se solicita una tomografía computarizada craneal, cuyo estudio con contraste se registra bajo el código de informe de imagenología XXX. Dicho informe describe la presencia de una lesión ocupante de espacio en el lóbulo frontal izquierdo, con efecto de masa discreto y realce heterogéneo tras la administración del medio de contraste. Los hallazgos son sugestivos de neoplasia primaria, siendo la principal consideración diagnóstica un glioma de alto grado. Estos hallazgos han sido integrados en la historia clínica principal, identificada con el número XXX, para su seguimiento y coordinación multidisciplinar. Con el fin de proporcionar al paciente y a su familia información adicional y recursos de apoyo, se les ha remitido a la documentación disponible a través de la página web XXX, donde podrán consultar material fiable sobre el manejo de procesos oncológicos. Se programará una nueva interconsulta con el servicio de neurocirugía para valoración de la lesión y discusión de las opciones terapéuticas disponibles.",
+  "text_length": 1403,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.978581964969635,
+        "word": " familia",
+        "start": 1040,
+        "end": 1047,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familia",
+          "actual_text": "familia",
+          "confidence": 0.978581964969635,
+          "start": 1040,
+          "end": 1047,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familia",
+          "actual_text": "familia",
+          "confidence": 0.978581964969635,
+          "start": 1040,
+          "end": 1047,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familia",
+        "actual_text": "familia",
+        "confidence": 0.978581964969635,
+        "start": 1040,
+        "end": 1047,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familia",
+        "actual_text": "familia",
+        "confidence": 0.978581964969635,
+        "start": 1040,
+        "end": 1047,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

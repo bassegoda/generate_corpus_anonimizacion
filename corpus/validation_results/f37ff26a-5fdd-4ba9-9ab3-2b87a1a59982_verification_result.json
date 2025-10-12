@@ -1,0 +1,175 @@
+{
+  "document_id": "f37ff26a-5fdd-4ba9-9ab3-2b87a1a59982",
+  "success": true,
+  "anonymized_text": "En el informe de alta de interconsulta se deja constancia de la valoración integral del caso. La exploración física actual revela un abdomen blando y depresible, sin masas palpables ni signos de irritación peritoneal. Los ruidos hidroaéreos están presentes en los cuatro cuadrantes. Los resultados analíticos, incluido un hemograma y una bioquímica básica, se encuentran dentro de parámetros normales, sin leucocitosis ni alteraciones en las enzimas hepáticas. Respecto a las pruebas de imagen, se procedió al aseguramiento del equipo médico utilizado durante el procedimiento, registrado con el código de identificación XXX. La ecografía abdominal no muestra hallazgos significativos de colecciones o procesos inflamatorios agudos. Para el manejo posterior y seguimiento del paciente, se recomienda una reevaluación en consultas externas en un plazo de cuatro a seis semanas. Toda la información complementaria sobre los cuidados postoperatorios y las recomendaciones generales está disponible para el paciente en el portal de recursos sanitarios, accesible a través de la dirección XXX. Se ha verificado que el dispositivo de monitorización, con número de serie XXX, funciona dentro de los parámetros técnicos establecidos, sin incidencias que reportar. Se considera que la evolución es satisfactoria y no se anticipan complicaciones.",
+  "text_length": 1336,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.8955249786376953,
+        "word": " recursos sanitarios",
+        "start": 1028,
+        "end": 1047,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " recursos sanitarios",
+          "actual_text": "recursos sanitarios",
+          "confidence": 0.8955249786376953,
+          "start": 1028,
+          "end": 1047,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " recursos sanitarios",
+          "actual_text": "recursos sanitarios",
+          "confidence": 0.8955249786376953,
+          "start": 1028,
+          "end": 1047,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.722091794013977,
+        "word": " portal de recursos sanitarios",
+        "start": 1018,
+        "end": 1047,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " portal de recursos sanitarios",
+          "actual_text": "portal de recursos sanitarios",
+          "confidence": 0.722091794013977,
+          "start": 1018,
+          "end": 1047,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " portal de recursos sanitarios",
+          "actual_text": "portal de recursos sanitarios",
+          "confidence": 0.722091794013977,
+          "start": 1018,
+          "end": 1047,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " recursos sanitarios",
+        "actual_text": "recursos sanitarios",
+        "confidence": 0.8955249786376953,
+        "start": 1028,
+        "end": 1047,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " portal de recursos sanitarios",
+        "actual_text": "portal de recursos sanitarios",
+        "confidence": 0.722091794013977,
+        "start": 1018,
+        "end": 1047,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " recursos sanitarios",
+        "actual_text": "recursos sanitarios",
+        "confidence": 0.8955249786376953,
+        "start": 1028,
+        "end": 1047,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " portal de recursos sanitarios",
+        "actual_text": "portal de recursos sanitarios",
+        "confidence": 0.722091794013977,
+        "start": 1018,
+        "end": 1047,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

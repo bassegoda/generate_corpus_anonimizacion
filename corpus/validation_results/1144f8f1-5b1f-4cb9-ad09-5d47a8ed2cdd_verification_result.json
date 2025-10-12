@@ -1,0 +1,124 @@
+{
+  "document_id": "1144f8f1-5b1f-4cb9-ad09-5d47a8ed2cdd",
+  "success": true,
+  "anonymized_text": "Informe de Consulta de Cirugía Vascular Paciente: XXX, de sexo XXX, que acude remitida para valoración especializada. Se identifica con el documento de aseguramiento XXX y el identificador asistencial XXX. La exploración física muestra pulsos femorales conservados pero disminuidos en extremidades inferiores, con índice tobillo-brazo de 0.6 en miembro inferior derecho y 0.5 en el izquierdo. La paciente refiere claudicación intermitente a 100 metros de marcha. La ecografía Doppler arterial confirma enfermedad oclusiva en arterias femorales superficiales, siendo más significativa en territorio izquierdo. Los antecedentes personales incluyen factores de riesgo cardiovascular convencionales que requieren optimización. Se ha coordinado con la XXX para la autorización de las pruebas complementarias necesarias. Para cualquier comunicación relacionada con este caso, pueden contactar a través del correo_electronico XXX. La documentación clínica completa está disponible en la dirección de protocolo de internet XXX donde se ha registrado con el identificador XXX. La valoración inicial ha sido realizada por la XXX, profesional con XXX y especializada como XXX, cuyo consultorio se encuentra en XXX. Se ha generado el identificador de contacto asistencial XXX para futuras interconsultas. Los resultados de las pruebas de imagen adicionales podrán consultarse en XXX. Se mantendrá comunicación con XXX, XXX del equipo de referencia, cuya dirección profesional es XXX. El sistema de intercambio de datos institucional está disponible en XXX para la actualización coordinada del historial. Se recomienda seguimiento estrecho dada la progresión de la sintomatología.",
+  "text_length": 1667,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8694620728492737,
+        "word": " documento de aseguramiento",
+        "start": 139,
+        "end": 165,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento de aseguramiento",
+          "actual_text": "documento de aseguramiento",
+          "confidence": 0.8694620728492737,
+          "start": 139,
+          "end": 165,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento de aseguramiento",
+          "actual_text": "documento de aseguramiento",
+          "confidence": 0.8694620728492737,
+          "start": 139,
+          "end": 165,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento de aseguramiento",
+        "actual_text": "documento de aseguramiento",
+        "confidence": 0.8694620728492737,
+        "start": 139,
+        "end": 165,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento de aseguramiento",
+        "actual_text": "documento de aseguramiento",
+        "confidence": 0.8694620728492737,
+        "start": 139,
+        "end": 165,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

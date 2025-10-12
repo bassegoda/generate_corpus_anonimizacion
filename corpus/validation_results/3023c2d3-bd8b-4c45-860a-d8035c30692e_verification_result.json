@@ -1,0 +1,174 @@
+{
+  "document_id": "3023c2d3-bd8b-4c45-860a-d8035c30692e",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE GERIATRÍA** Atención realizada en el **XXX** como seguimiento del proceso asistencial. Se recibe comunicación del ** Clínico San Carlos** donde la paciente de **XXX** fue valorada previamente. La documentación adjunta incluye el informe de alta con referencia **XXX**. La situación clínica actual se enmarca dentro del manejo geriátrico integral para una persona de **XXX**, manteniéndose la supervisión desde atención primaria. Durante la exploración física, se constata un estado general aceptable, con presión arterial de 135/80 mmHg y frecuencia cardíaca de 68 lpm. La auscultación cardiorrespiratoria resulta sin hallazgos significativos y el abdomen es blando y depresible. Respecto a los dispositivos médicos utilizados para el monitoreo, se verifica el correcto funcionamiento del tensiómetro con número de serie **XXX** y del pulsioxímetro identificado como **XXX**. Ambos equipos se encuentran calibrados y operativos. Para la coordinación de pruebas complementarias, se ha facilitado a la paciente el portal web **XXX** perteneciente a la institución **XXX**. La prescripción farmacológica se ha ajustado según las últimas recomendaciones, registrándose en el sistema con el código de identificación **XXX**. El documento de aseguramiento vigente presenta el número **XXX**, con cobertura completa en de **XXX**. Adicionalmente, se ha procedido a la actualización del registro con el identificador **XXX**. Para la gestión de recursos sanitarios, se ha tramitado la solicitud de material con el número de expediente **XXX**. La profesional responsable de la valoración y firma de este informe es la **XXX**, cuya identificación profesional como **XXX** queda registrada para cualquier consulta o coordinación posterior a través del fax **XXX**.",
+  "text_length": 1788,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9284871816635132,
+        "word": " ** Clínico San Carlos",
+        "start": 147,
+        "end": 168,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos",
+          "actual_text": "** Clínico San Carlos",
+          "confidence": 0.9284871816635132,
+          "start": 147,
+          "end": 168,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos",
+          "actual_text": "** Clínico San Carlos",
+          "confidence": 0.9284871816635132,
+          "start": 147,
+          "end": 168,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9799591898918152,
+        "word": " ** Clínico San Carlos",
+        "start": 147,
+        "end": 168,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos",
+          "actual_text": "** Clínico San Carlos",
+          "confidence": 0.9799591898918152,
+          "start": 147,
+          "end": 168,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos",
+          "actual_text": "** Clínico San Carlos",
+          "confidence": 0.9799591898918152,
+          "start": 147,
+          "end": 168,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "HOSPITAL": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos",
+        "actual_text": "** Clínico San Carlos",
+        "confidence": 0.9284871816635132,
+        "start": 147,
+        "end": 168,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos",
+        "actual_text": "** Clínico San Carlos",
+        "confidence": 0.9799591898918152,
+        "start": 147,
+        "end": 168,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos",
+        "actual_text": "** Clínico San Carlos",
+        "confidence": 0.9284871816635132,
+        "start": 147,
+        "end": 168,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos",
+        "actual_text": "** Clínico San Carlos",
+        "confidence": 0.9799591898918152,
+        "start": 147,
+        "end": 168,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

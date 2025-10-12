@@ -1,0 +1,268 @@
+{
+  "document_id": "0fdbd751-3bcb-4970-a84e-e80709bfee38",
+  "success": true,
+  "anonymized_text": "A continuación se presenta el informe de consulta externa correspondiente al sujeto de asistencia identificado bajo el número XXX. El documento se genera desde el XXX, ubicado en la XXX, XXX. El sujeto de asistencia, XXX, con identificación XXX, acude para seguimiento. Se verifica que el número de documento XXX se encuentra correctamente registrado en nuestro sistema. Durante la anamnesis, se recopilan datos de contacto, incluyendo los números de teléfono XXX y XXX, así como los números de fax XXX y XXX, para posibles comunicaciones relacionadas con su proceso asistencial. El contacto asistencial principal queda registrado bajo la referencia -2024-789123. En cuanto a los antecedentes personales, no se reportan alergias conocidas a medicamentos. La exploración física actual revela una tensión arterial de 125/80 mmHg, frecuencia cardíaca de 72 lpm y saturación de oxígeno del 98% en aire ambiente. La auscultación cardiorrespiratoria es normofonética y el abdomen es blando y depresible, sin masas ni megalias. Los resultados analíticos recientes, asociados al número de identificación del sujeto, muestran un hemograma dentro de los límites de la normalidad y una glucemia basal de 98 mg/dl. Una ecografía abdominal realizada, vinculada al identificador de dispositivo XXX, no evidencia hallazgos patológicos significativos. Se procede a la actualización de la información del vehículo asociado, con placa XXX, para completar el registro. Cabe destacar que el profesional que suscribe el presente informe es Licenciado en XXX, tal como consta en el archivo de titulaciones del personal sanitario. Se emite el consentimiento informado XXX para la continuación del plan de seguimiento establecido.",
+  "text_length": 1706,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7606213688850403,
+        "word": "2024-789123",
+        "start": 651,
+        "end": 662,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "2024-789123",
+          "actual_text": "2024-789123",
+          "confidence": 0.7606213688850403,
+          "start": 651,
+          "end": 662,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "2024-789123",
+          "actual_text": "2024-789123",
+          "confidence": 0.7606213688850403,
+          "start": 651,
+          "end": 662,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9861159324645996,
+        "word": " -",
+        "start": 650,
+        "end": 651,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PROFESION",
+        "score": 0.7849794626235962,
+        "word": " en XXX",
+        "start": 1530,
+        "end": 1536,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8983041644096375,
+        "word": " archivo de titulaciones del personal sanitario",
+        "start": 1560,
+        "end": 1606,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 1,
+        "PROFESION": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " -",
+          "actual_text": "-",
+          "confidence": 0.9861159324645996,
+          "start": 650,
+          "end": 651,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " en XXX",
+          "actual_text": "en XXX",
+          "confidence": 0.7849794626235962,
+          "start": 1530,
+          "end": 1536,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " archivo de titulaciones del personal sanitario",
+          "actual_text": "archivo de titulaciones del personal sanitario",
+          "confidence": 0.8983041644096375,
+          "start": 1560,
+          "end": 1606,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " -",
+          "actual_text": "-",
+          "confidence": 0.9861159324645996,
+          "start": 650,
+          "end": 651,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " en XXX",
+          "actual_text": "en XXX",
+          "confidence": 0.7849794626235962,
+          "start": 1530,
+          "end": 1536,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " archivo de titulaciones del personal sanitario",
+          "actual_text": "archivo de titulaciones del personal sanitario",
+          "confidence": 0.8983041644096375,
+          "start": 1560,
+          "end": 1606,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NUMERO_TELEFONO": 2,
+      "PROFESION": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "2024-789123",
+        "actual_text": "2024-789123",
+        "confidence": 0.7606213688850403,
+        "start": 651,
+        "end": 662,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " -",
+        "actual_text": "-",
+        "confidence": 0.9861159324645996,
+        "start": 650,
+        "end": 651,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " en XXX",
+        "actual_text": "en XXX",
+        "confidence": 0.7849794626235962,
+        "start": 1530,
+        "end": 1536,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " archivo de titulaciones del personal sanitario",
+        "actual_text": "archivo de titulaciones del personal sanitario",
+        "confidence": 0.8983041644096375,
+        "start": 1560,
+        "end": 1606,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "2024-789123",
+        "actual_text": "2024-789123",
+        "confidence": 0.7606213688850403,
+        "start": 651,
+        "end": 662,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " -",
+        "actual_text": "-",
+        "confidence": 0.9861159324645996,
+        "start": 650,
+        "end": 651,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " en XXX",
+        "actual_text": "en XXX",
+        "confidence": 0.7849794626235962,
+        "start": 1530,
+        "end": 1536,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " archivo de titulaciones del personal sanitario",
+        "actual_text": "archivo de titulaciones del personal sanitario",
+        "confidence": 0.8983041644096375,
+        "start": 1560,
+        "end": 1606,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

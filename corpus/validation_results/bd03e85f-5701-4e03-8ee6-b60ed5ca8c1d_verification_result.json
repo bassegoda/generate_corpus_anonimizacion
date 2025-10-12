@@ -1,0 +1,221 @@
+{
+  "document_id": "bd03e85f-5701-4e03-8ee6-b60ed5ca8c1d",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Se remite al XXX del área de referencia el presente informe correspondiente a la valoración del paciente XXX, identificado con el documento XXX y número de historia clínica XXX. El paciente fue evaluado en el XXX, ubicado en la ciudad de XXX, XXX. Durante la exploración, se constató un cuadro clínico que requiere estudio especializado. Se realizó una valoración completa que incluyó exploración neurológica detallada, donde se objetivaron hallazgos que precisan confirmación mediante pruebas complementarias. La XXX del centro procedió a la recogida de muestras para análisis, cuyos resultados serán remitidos directamente al servicio de destino. Cabe destacar que el paciente cuenta con identificadores biométricos registrados en el sistema, bajo los códigos XXX, lo que facilita su identificación inequívoca en los dispositivos clínicos. Todos los equipos médicos utilizados durante la evaluación, identificados como XXX, funcionaron dentro de los parámetros técnicos establecidos por el XXX. Para cualquier comunicación relacionada con este caso, queda disponible el XXX. Se adjunta documentación completa donde se especifica la del paciente, dato relevante para la contextualización del cuadro clínico. Quedamos a disposición del servicio receptor para ampliar cualquier información que consideren necesaria.",
+  "text_length": 1342,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.9580641984939575,
+        "word": " XXX,",
+        "start": 266,
+        "end": 270,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "TERRITORIO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "TERRITORIO",
+          "word": " XXX,",
+          "actual_text": "XXX,",
+          "confidence": 0.9580641984939575,
+          "start": 266,
+          "end": 270,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "TERRITORIO",
+          "word": " XXX,",
+          "actual_text": "XXX,",
+          "confidence": 0.9580641984939575,
+          "start": 266,
+          "end": 270,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.740922749042511,
+        "word": " clínica",
+        "start": 193,
+        "end": 200,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.9369692802429199,
+        "word": " XXX,",
+        "start": 266,
+        "end": 270,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "TERRITORIO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.740922749042511,
+          "start": 193,
+          "end": 200,
+          "model": "CARMEN"
+        },
+        {
+          "label": "TERRITORIO",
+          "word": " XXX,",
+          "actual_text": "XXX,",
+          "confidence": 0.9369692802429199,
+          "start": 266,
+          "end": 270,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.740922749042511,
+          "start": 193,
+          "end": 200,
+          "model": "CARMEN"
+        },
+        {
+          "label": "TERRITORIO",
+          "word": " XXX,",
+          "actual_text": "XXX,",
+          "confidence": 0.9369692802429199,
+          "start": 266,
+          "end": 270,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "TERRITORIO": 2,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "TERRITORIO",
+        "word": " XXX,",
+        "actual_text": "XXX,",
+        "confidence": 0.9580641984939575,
+        "start": 266,
+        "end": 270,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.740922749042511,
+        "start": 193,
+        "end": 200,
+        "model": "CARMEN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " XXX,",
+        "actual_text": "XXX,",
+        "confidence": 0.9369692802429199,
+        "start": 266,
+        "end": 270,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "TERRITORIO",
+        "word": " XXX,",
+        "actual_text": "XXX,",
+        "confidence": 0.9580641984939575,
+        "start": 266,
+        "end": 270,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.740922749042511,
+        "start": 193,
+        "end": 200,
+        "model": "CARMEN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " XXX,",
+        "actual_text": "XXX,",
+        "confidence": 0.9369692802429199,
+        "start": 266,
+        "end": 270,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "document_id": "927ec6fd-2d1b-4814-b6d5-5759c7332f27",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA** Fecha de la consulta: XXX A la atención de la XXX: En relación con el paciente remitido para valoración y seguimiento, se procede a la elaboración del presente informe. La exploración física actual revela una tensión arterial de 128/76 mmHg, frecuencia cardíaca de 68 lpm y auscultación cardiorrespiratoria sin hallazgos patológicos significativos. Los resultados analíticos recientes, incluyendo hemograma y bioquímica básica, se encuentran dentro de los parámetros de normalidad. Se recomienda continuar con el plan terapéutico establecido y realizar un seguimiento en los plazos habituales. Este informe ha sido redactado desde el XXX, situado en XXX, en la XXX. Para cualquier cuestión relacionada con este contacto asistencial identificado con el código XXX, puede utilizarse el número de fax XXX o dirigirse al correo electrónico XXX. Atentamente, XXX Número de colegiado: XXX Titulación: XXX ID de titulación: ID_TIT-456123",
+  "text_length": 962,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8608708381652832,
+        "word": "45",
+        "start": 956,
+        "end": 958,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "45",
+          "actual_text": "45",
+          "confidence": 0.8608708381652832,
+          "start": 956,
+          "end": 958,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "45",
+          "actual_text": "45",
+          "confidence": 0.8608708381652832,
+          "start": 956,
+          "end": 958,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "45",
+        "actual_text": "45",
+        "confidence": 0.8608708381652832,
+        "start": 956,
+        "end": 958,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "45",
+        "actual_text": "45",
+        "confidence": 0.8608708381652832,
+        "start": 956,
+        "end": 958,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "document_id": "338fc05e-27fd-47f2-9445-4dc95d5a99af",
+  "success": true,
+  "anonymized_text": "Informe de Interconsulta y Evolución Clínica Paciente XXX, identificada con el número de beneficiaria del plan de salud XXX, quien reside en la XXX, acude a seguimiento en el XXX tras su reciente intervención quirúrgica. La paciente fue intervenida en el XXX por el XXX de dicho centro. Durante la hospitalización, se le asignó el número de identificación XXX para su expediente. La evolución postoperatoria ha sido satisfactoria, con buena cicatrización de la herida quirúrgica y estabilidad hemodinámica. La exploración física actual muestra ruidos cardíacos rítmicos sin soplos añadidos, y campos pulmonares libres. Los miembros inferiores presentan pulsos conservados y no evidencian edemas. Como parte del proceso asistencial, se ha coordinado la continuidad de cuidados con la enfermera XXX, profesional que posee el XXX y cuenta con la identificación profesional XXX para el ejercicio de sus funciones. Se ha establecido un plan de cuidados domiciliarios que incluye control de constantes y vigilancia de la herida operatoria. En el contexto del alta hospitalaria, se ha registrado la referencia interna XXX para la trazabilidad del proceso. Cabe mencionar que la paciente cuenta con el apoyo de su familiar XXX, quien se encuentra identificada como principal contacto asistencial. Para su desplazamiento a los controles médicos, utiliza el vehículo con placa XXX, registrado en XXX. Los estudios complementarios realizados muestran un electrocardiograma con ritmo sinusal normal y una radiografía de tórax sin hallazgos significativos. Los análisis de laboratorio evidencian un hemograma dentro de parámetros normales y función renal conservada. Se mantendrá seguimiento estrecho desde atención primaria con evaluaciones periódicas.",
+  "text_length": 1740,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9743355512619019,
+        "word": " familiar XXX",
+        "start": 1206,
+        "end": 1218,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8841890692710876,
+        "word": " vehículo con placa XXX",
+        "start": 1348,
+        "end": 1370,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.9743355512619019,
+          "start": 1206,
+          "end": 1218,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo con placa XXX",
+          "actual_text": "vehículo con placa XXX",
+          "confidence": 0.8841890692710876,
+          "start": 1348,
+          "end": 1370,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.9743355512619019,
+          "start": 1206,
+          "end": 1218,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo con placa XXX",
+          "actual_text": "vehículo con placa XXX",
+          "confidence": 0.8841890692710876,
+          "start": 1348,
+          "end": 1370,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9070150256156921,
+        "word": " familiar XXX",
+        "start": 1206,
+        "end": 1218,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.9070150256156921,
+          "start": 1206,
+          "end": 1218,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.9070150256156921,
+          "start": 1206,
+          "end": 1218,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.9743355512619019,
+        "start": 1206,
+        "end": 1218,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo con placa XXX",
+        "actual_text": "vehículo con placa XXX",
+        "confidence": 0.8841890692710876,
+        "start": 1348,
+        "end": 1370,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.9070150256156921,
+        "start": 1206,
+        "end": 1218,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.9743355512619019,
+        "start": 1206,
+        "end": 1218,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo con placa XXX",
+        "actual_text": "vehículo con placa XXX",
+        "confidence": 0.8841890692710876,
+        "start": 1348,
+        "end": 1370,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.9070150256156921,
+        "start": 1206,
+        "end": 1218,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

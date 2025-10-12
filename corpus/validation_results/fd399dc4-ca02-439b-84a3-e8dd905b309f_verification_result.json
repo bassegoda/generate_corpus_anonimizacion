@@ -1,0 +1,124 @@
+{
+  "document_id": "fd399dc4-ca02-439b-84a3-e8dd905b309f",
+  "success": true,
+  "anonymized_text": "Informe de Interconsulta y Valoración Integral Se remite a la atención de la XXX el presente informe de valoración correspondiente al expediente clínico principal XXX. Dicha documentación se complementa con las observaciones registradas bajo la referencia XXX y el informe auxiliar XXX, que han sido revisados en profundidad para esta evaluación integral. La situación clínica actual requiere una coordinación estrecha dentro del sistema sanitario de la XXX, donde se ha establecido el plan de seguimiento. Para todos los fines asistenciales, queda registrado el número de beneficiario XXX como identificador principal de cobertura. El contacto de la responsable asistencial designada, XXX, puede establecerse a través del correo electrónico XXX, con domicilio de notificaciones en XXX. En el contexto del equipo tratante, mi identificación profesional como facultativo responsable es XXX, con número de colegiación XXX para cualquier verificación institucional necesaria. Cabe mencionar que en la historia clínica relacionada XXX constan antecedentes de interés que complementan la valoración actual. La documentación administrativa adicional incluye el identificador XXX para aspectos de gestión clínica, mientras que el documento de identificación XXX completa los requisitos de validación del expediente. Se mantendrá comunicación con los familiares sujeto asistencia para los aspectos que requieran su intervención, de acuerdo con los protocolos establecidos.",
+  "text_length": 1464,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7496858239173889,
+        "word": " familiares sujeto asistencia",
+        "start": 1343,
+        "end": 1371,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares sujeto asistencia",
+          "actual_text": "familiares sujeto asistencia",
+          "confidence": 0.7496858239173889,
+          "start": 1343,
+          "end": 1371,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares sujeto asistencia",
+          "actual_text": "familiares sujeto asistencia",
+          "confidence": 0.7496858239173889,
+          "start": 1343,
+          "end": 1371,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares sujeto asistencia",
+        "actual_text": "familiares sujeto asistencia",
+        "confidence": 0.7496858239173889,
+        "start": 1343,
+        "end": 1371,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares sujeto asistencia",
+        "actual_text": "familiares sujeto asistencia",
+        "confidence": 0.7496858239173889,
+        "start": 1343,
+        "end": 1371,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

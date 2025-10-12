@@ -1,0 +1,124 @@
+{
+  "document_id": "aa2e6d6d-293b-42a2-bd63-b8133a24d7d4",
+  "success": true,
+  "anonymized_text": "A la atención de la paciente XXX. Se presenta para valoración y seguimiento en consultas externas. Refiere mejoría parcial de la sintomatología que motivó su consulta inicial. La exploración física actual muestra presión arterial de 135/80 mmHg, frecuencia cardíaca de 68 lpm y saturación de oxígeno del 96%. A la auscultación cardíaca, ritmo regular sin soplos añadidos. La auscultación pulmonar es limpia, con murmullo vesicular conservado bilateralmente. El abdomen es blando y depresible, sin masas palpables ni dolor a la palpación superficial o profunda. En cuanto a las pruebas complementarias realizadas, la analítica de control muestra un hemograma dentro de parámetros normales y una función renal con creatinina en 1.1 mg/dl. El electrocardiograma presenta ritmo sinusal normal sin alteraciones agudas de la repolarización. Se recomienda continuar con el plan terapéutico establecido y se programará nueva visita para control evolutivo. Para cualquier gestión administrativa o consulta no urgente, puede utilizarse el número de fax XXX. La paciente tiene a su disposición material educativo complementario sobre su proceso a través de la dirección XXX. Se recuerda que el profesional que la atiende posee la titulación de XXX y está facultado para su seguimiento. La paciente, de XXX, reside en XXX, dato que queda registrado en su historia a efectos de logística. Se considera que el pronóstico es favorable con el manejo instaurado.",
+  "text_length": 1445,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7362127304077148,
+        "word": "x",
+        "start": 1041,
+        "end": 1042,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "x",
+          "actual_text": "x",
+          "confidence": 0.7362127304077148,
+          "start": 1041,
+          "end": 1042,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "x",
+          "actual_text": "x",
+          "confidence": 0.7362127304077148,
+          "start": 1041,
+          "end": 1042,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "x",
+        "actual_text": "x",
+        "confidence": 0.7362127304077148,
+        "start": 1041,
+        "end": 1042,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "x",
+        "actual_text": "x",
+        "confidence": 0.7362127304077148,
+        "start": 1041,
+        "end": 1042,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

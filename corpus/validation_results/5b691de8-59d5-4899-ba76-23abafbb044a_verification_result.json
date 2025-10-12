@@ -1,0 +1,124 @@
+{
+  "document_id": "5b691de8-59d5-4899-ba76-23abafbb044a",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución - Consulta Externa** Paciente que acude a consulta para seguimiento de su patología crónica. Se encuentra estable, refiriendo buen cumplimiento del plan terapéutico establecido. A la exploración física, presenta constantes vitales dentro de la normalidad y buena tolerancia a la actividad física habitual. Se ha recomendado la participación activa en un XXX, considerando los beneficios psicoeducativos que este recurso comunitario puede aportar al manejo integral de su condición. Se ha facilitado al paciente el acceso al portal para la consulta de sus resultados analíticos: XXX. La documentación clínica completa, que incluye informes de evolución, puede ser revisada a través de nuestra plataforma digital en XXX y también en XXX. Como profesional a cargo de su caso, yo, XXX, con XXX y ejerciendo como XXX, supervisaré su seguimiento. Para cualquier coordinación, puede utilizarse el XXX. En el ámbito familiar, se ha identificado a XXX, como principal contacto y apoyo. La paciente, de XXX, cuenta con el respaldo de sus y reside en XXX. Para información general sobre los protocolos clínicos aplicables, se sugiere consultar la página web XXX. El equipo asociado al dispositivo médico de monitorización continua con XXX ha reportado un funcionamiento óptimo.",
+  "text_length": 1286,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7015513777732849,
+        "word": " familiar",
+        "start": 928,
+        "end": 936,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.7015513777732849,
+          "start": 928,
+          "end": 936,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.7015513777732849,
+          "start": 928,
+          "end": 936,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.7015513777732849,
+        "start": 928,
+        "end": 936,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.7015513777732849,
+        "start": 928,
+        "end": 936,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "document_id": "990fd06f-56b6-4773-8c83-7b143292568b",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude para seguimiento y valoración de resultados analíticos recientemente recibidos. En la exploración física actual, se objetiva normotensión arterial, auscultación cardiorrespiratoria rítmica sin soplos ni ruidos sobreañadidos, y abdomen blando y depresible sin masas palpables. Los análisis de sangre muestran un perfil lipídico dentro de parámetros aceptables y función tiroidea normal. Respecto a las pruebas complementarias pendientes de revisar, se ha procedido a la verificación de los equipos implicados, cuyos números de serie XXX y XXX figuran en el registro del servicio, confirmando su correcta calibración. Dado que el profesional que le atiende posee el correspondiente XXX, se le ha podido ofrecer una interpretación completa de los hallazgos. Se recuerda al paciente que, para futuras consultas de sus pruebas, puede utilizar el portal de pacientes de la Consejería de Sanidad de la XXX, accesible a través de XXX. Se pauta seguimiento en consultas externas según evolución.",
+  "text_length": 1033,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.855914294719696,
+        "word": " de Sanidad",
+        "start": 925,
+        "end": 935,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " de Sanidad",
+          "actual_text": "de Sanidad",
+          "confidence": 0.855914294719696,
+          "start": 925,
+          "end": 935,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " de Sanidad",
+          "actual_text": "de Sanidad",
+          "confidence": 0.855914294719696,
+          "start": 925,
+          "end": 935,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " de Sanidad",
+        "actual_text": "de Sanidad",
+        "confidence": 0.855914294719696,
+        "start": 925,
+        "end": 935,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " de Sanidad",
+        "actual_text": "de Sanidad",
+        "confidence": 0.855914294719696,
+        "start": 925,
+        "end": 935,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

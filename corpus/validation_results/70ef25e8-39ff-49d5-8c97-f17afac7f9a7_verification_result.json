@@ -1,0 +1,175 @@
+{
+  "document_id": "70ef25e8-39ff-49d5-8c97-f17afac7f9a7",
+  "success": true,
+  "anonymized_text": "**Informe de Consulta Externa - Seguimiento** Se reevalúa en consulta externa a la paciente XXX, identificada con el número de historia clínica XXX y con documento nacional de identidad XXX. La exploración física actual revela hallazgos normales en todos los sistemas, sin signos de focalidad neurológica. Como parte de los protocolos de seguridad del centro, se ha verificado la identidad de la paciente mediante el escaneo de la huella dactilar derecha índice, que muestra un patrón de lazo, coincidiendo con los registros biométricos del sistema. Los datos de identificación biométrica registrados son XXX. Para la gestión de este episodio asistencial, se ha generado la referencia interna XXX. Todos los datos clínicos quedan incorporados a su historia digital, accesible para los profesionales autorizados a través de nuestro portal del XXX. Se recuerda a la paciente que puede consultar sus resultados complementarios de forma segura en XXX. Para cualquier gestión administrativa o coordinación con otros centros, como podría ser General de Valencia, se utilizará el identificador único XXX. Se establece como canal de comunicación preferente para asuntos clínicos el correo electrónico XXX, asignado como contacto asistencial principal. Adicionalmente, y solo para trámites de carácter administrativo, puede utilizarse la dirección XXX. La información completa del centro está disponible en la página web XXX. Cabe señalar que el vehículo particular asociado a este expediente tiene registrada la placa XXX, dato necesario para gestiones de acceso o movilidad. Todo el proceso asistencial descrito se desarrolla bajo la normativa sanitaria vigente en XXX.",
+  "text_length": 1662,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.8856386542320251,
+        "word": " General de Valencia",
+        "start": 1036,
+        "end": 1055,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Valencia",
+          "actual_text": "General de Valencia",
+          "confidence": 0.8856386542320251,
+          "start": 1036,
+          "end": 1055,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Valencia",
+          "actual_text": "General de Valencia",
+          "confidence": 0.8856386542320251,
+          "start": 1036,
+          "end": 1055,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9621065855026245,
+        "word": " de Valencia",
+        "start": 1044,
+        "end": 1055,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " de Valencia",
+          "actual_text": "de Valencia",
+          "confidence": 0.9621065855026245,
+          "start": 1044,
+          "end": 1055,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " de Valencia",
+          "actual_text": "de Valencia",
+          "confidence": 0.9621065855026245,
+          "start": 1044,
+          "end": 1055,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "HOSPITAL": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Valencia",
+        "actual_text": "General de Valencia",
+        "confidence": 0.8856386542320251,
+        "start": 1036,
+        "end": 1055,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " de Valencia",
+        "actual_text": "de Valencia",
+        "confidence": 0.9621065855026245,
+        "start": 1044,
+        "end": 1055,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Valencia",
+        "actual_text": "General de Valencia",
+        "confidence": 0.8856386542320251,
+        "start": 1036,
+        "end": 1055,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " de Valencia",
+        "actual_text": "de Valencia",
+        "confidence": 0.9621065855026245,
+        "start": 1044,
+        "end": 1055,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

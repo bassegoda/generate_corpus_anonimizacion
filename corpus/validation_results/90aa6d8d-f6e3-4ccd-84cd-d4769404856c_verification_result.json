@@ -1,0 +1,267 @@
+{
+  "document_id": "90aa6d8d-f6e3-4ccd-84cd-d4769404856c",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Fecha de la consulta: XXX. El paciente con identificación XXX acude a revisión programada en el XXX, ubicado en la XXX. Durante la exploración física, se procedió a la verificación de identidad mediante el sistema biométrico, registrándose la XXX, que coincide con los archivos asociados al número de historia clínica XXX. La exploración articular no mostró signos inflamatorios agudos, manteniéndose la movilidad conservada que se observó en la última visita. Se ha recomendado continuar con el plan de ejercicios domiciliarios establecido. Todos los hallazgos han sido registrados en el sistema de historia clínica electrónica accesible mediante la dirección de protocolo de internet XXX, conforme a los protocolos del XXX. Para complementar el manejo del caso, se ha proporcionado al paciente material educativo de la institución Clínica Barcelona, disponible en su dirección de protocolo de internet XXX, con información sobre el autocuidado y medidas preventivas. La documentación de este episodio asistencial queda asociada a la referencia interna XXX. El seguimiento posterior se coordinará desde el centro de salud de referencia en la XXX. Queda registrada la profesional que firma este informe, XXX, con identificación profesional XXX, en cumplimiento de los requerimientos de documentación clínica. Atentamente, XXX Especialista en Medicina Familiar y Comunitaria XXX XXX",
+  "text_length": 1409,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.917945146560669,
+        "word": " institución Clínica Barcelona",
+        "start": 849,
+        "end": 878,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " institución Clínica Barcelona",
+          "actual_text": "institución Clínica Barcelona",
+          "confidence": 0.917945146560669,
+          "start": 849,
+          "end": 878,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " institución Clínica Barcelona",
+          "actual_text": "institución Clínica Barcelona",
+          "confidence": 0.917945146560669,
+          "start": 849,
+          "end": 878,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8308751583099365,
+        "word": " historia clínica",
+        "start": 329,
+        "end": 345,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9285935759544373,
+        "word": " de historia clínica electrónica",
+        "start": 625,
+        "end": 656,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.7816004753112793,
+        "word": " Clínica Barcelona",
+        "start": 861,
+        "end": 878,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 2,
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.8308751583099365,
+          "start": 329,
+          "end": 345,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " de historia clínica electrónica",
+          "actual_text": "de historia clínica electrónica",
+          "confidence": 0.9285935759544373,
+          "start": 625,
+          "end": 656,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Clínica Barcelona",
+          "actual_text": "Clínica Barcelona",
+          "confidence": 0.7816004753112793,
+          "start": 861,
+          "end": 878,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.8308751583099365,
+          "start": 329,
+          "end": 345,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " de historia clínica electrónica",
+          "actual_text": "de historia clínica electrónica",
+          "confidence": 0.9285935759544373,
+          "start": 625,
+          "end": 656,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Clínica Barcelona",
+          "actual_text": "Clínica Barcelona",
+          "confidence": 0.7816004753112793,
+          "start": 861,
+          "end": 878,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "OTROS_SUJETO_ASISTENCIA": 2,
+      "HOSPITAL": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " institución Clínica Barcelona",
+        "actual_text": "institución Clínica Barcelona",
+        "confidence": 0.917945146560669,
+        "start": 849,
+        "end": 878,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.8308751583099365,
+        "start": 329,
+        "end": 345,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " de historia clínica electrónica",
+        "actual_text": "de historia clínica electrónica",
+        "confidence": 0.9285935759544373,
+        "start": 625,
+        "end": 656,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Clínica Barcelona",
+        "actual_text": "Clínica Barcelona",
+        "confidence": 0.7816004753112793,
+        "start": 861,
+        "end": 878,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " institución Clínica Barcelona",
+        "actual_text": "institución Clínica Barcelona",
+        "confidence": 0.917945146560669,
+        "start": 849,
+        "end": 878,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.8308751583099365,
+        "start": 329,
+        "end": 345,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " de historia clínica electrónica",
+        "actual_text": "de historia clínica electrónica",
+        "confidence": 0.9285935759544373,
+        "start": 625,
+        "end": 656,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Clínica Barcelona",
+        "actual_text": "Clínica Barcelona",
+        "confidence": 0.7816004753112793,
+        "start": 861,
+        "end": 878,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "document_id": "21a4e93b-50ac-40bd-b40a-9711839954d7",
+  "success": true,
+  "anonymized_text": "En la valoración inicial se recoge la anamnesis y exploración del paciente que acude para seguimiento de su proceso. A nivel analítico, destacan parámetros dentro de la normalidad con una hemoglobina de 14.2 g/dL y leucocitos de 6800/mm³. En la resonancia magnética realizada se observa una adecuada integridad de las estructuras anatómicas sin evidencia de lesiones ocupantes de espacio. Para la coordinación con el servicio de farmacia y gestión de medicación de alto precio, se ha verificado el número de beneficiario del plan de salud XXX, que aparece activo en el sistema. La exploración física muestra un estado general conservado, con presión arterial de 128/76 mmHg y frecuencia cardíaca de 72 lpm. No se detectan soplos cardíacos ni alteraciones en la auscultación pulmonar. Los reflejos osteotendinosos son normales y simétricos. Se ha facilitado al paciente el número de teléfono XXX para contactar con la consulta de enfermería en caso de necesidad de ajuste terapéutico. En relación con la documentación administrativa, se confirma la correcta vinculación del código de aseguramiento XXX con el identificador sanitario XXX. Todos los parámetros de función hepática y renal se encuentran dentro de rangos aceptables. Para completar el proceso de autorización de la medicación, se ha remitido el código XXX al servicio de farmacia hospitalaria. Se mantiene el tratamiento actual y se programará reevaluación en tres meses.",
+  "text_length": 1433,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.787665069103241,
+        "word": " plan",
+        "start": 525,
+        "end": 529,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7659528851509094,
+        "word": " código de aseguramiento",
+        "start": 1073,
+        "end": 1096,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.787665069103241,
+          "start": 525,
+          "end": 529,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " código de aseguramiento",
+          "actual_text": "código de aseguramiento",
+          "confidence": 0.7659528851509094,
+          "start": 1073,
+          "end": 1096,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.787665069103241,
+          "start": 525,
+          "end": 529,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " código de aseguramiento",
+          "actual_text": "código de aseguramiento",
+          "confidence": 0.7659528851509094,
+          "start": 1073,
+          "end": 1096,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.787665069103241,
+        "start": 525,
+        "end": 529,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " código de aseguramiento",
+        "actual_text": "código de aseguramiento",
+        "confidence": 0.7659528851509094,
+        "start": 1073,
+        "end": 1096,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.787665069103241,
+        "start": 525,
+        "end": 529,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " código de aseguramiento",
+        "actual_text": "código de aseguramiento",
+        "confidence": 0.7659528851509094,
+        "start": 1073,
+        "end": 1096,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "document_id": "619d5d8b-af11-4d72-b2aa-683155438900",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada, se documenta el estado de salud del paciente que cuenta con sesenta y siete años. El cuadro sintomático actual se caracteriza por astenia y disnea de moderados esfuerzos, sin otros hallazgos relevantes en la exploración física. Los estudios analíticos practicados muestran un perfil lipídico dentro de parámetros aceptables, con hemograma y función renal normales. Cabe destacar que el paciente cuenta con cobertura sanitaria a través del XXX, habiéndose verificado su situación administrativa mediante el XXX. En el contexto de la asistencia, se registra el XXX correspondiente al vehículo de transporte sanitario utilizado para su desplazamiento a consultas externas. La evolución clínica se considera favorable, manteniéndose control periódico según protocolos establecidos. No se han identificado complicaciones asociadas al tratamiento instaurado, que continúa sin modificaciones. Se programará reevaluación en plazo convencional para valorar respuesta terapéutica y ajustar medidas según evolución. El paciente tiene XXX, lo cual se considera en la planificación de su seguimiento clínico y manejo terapéutico.",
+  "text_length": 1152,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.9873994588851929,
+        "word": " sesenta y siete años",
+        "start": 96,
+        "end": 116,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "EDAD_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " sesenta y siete años",
+          "actual_text": "sesenta y siete años",
+          "confidence": 0.9873994588851929,
+          "start": 96,
+          "end": 116,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " sesenta y siete años",
+          "actual_text": "sesenta y siete años",
+          "confidence": 0.9873994588851929,
+          "start": 96,
+          "end": 116,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.9618707895278931,
+        "word": " sesenta",
+        "start": 96,
+        "end": 103,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.9875538349151611,
+        "word": " años",
+        "start": 112,
+        "end": 116,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "EDAD_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " sesenta",
+          "actual_text": "sesenta",
+          "confidence": 0.9618707895278931,
+          "start": 96,
+          "end": 103,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " años",
+          "actual_text": "años",
+          "confidence": 0.9875538349151611,
+          "start": 112,
+          "end": 116,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " sesenta",
+          "actual_text": "sesenta",
+          "confidence": 0.9618707895278931,
+          "start": 96,
+          "end": 103,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " años",
+          "actual_text": "años",
+          "confidence": 0.9875538349151611,
+          "start": 112,
+          "end": 116,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "EDAD_SUJETO_ASISTENCIA": 3
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " sesenta y siete años",
+        "actual_text": "sesenta y siete años",
+        "confidence": 0.9873994588851929,
+        "start": 96,
+        "end": 116,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " sesenta",
+        "actual_text": "sesenta",
+        "confidence": 0.9618707895278931,
+        "start": 96,
+        "end": 103,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " años",
+        "actual_text": "años",
+        "confidence": 0.9875538349151611,
+        "start": 112,
+        "end": 116,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " sesenta y siete años",
+        "actual_text": "sesenta y siete años",
+        "confidence": 0.9873994588851929,
+        "start": 96,
+        "end": 116,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " sesenta",
+        "actual_text": "sesenta",
+        "confidence": 0.9618707895278931,
+        "start": 96,
+        "end": 103,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " años",
+        "actual_text": "años",
+        "confidence": 0.9875538349151611,
+        "start": 112,
+        "end": 116,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

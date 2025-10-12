@@ -1,0 +1,221 @@
+{
+  "document_id": "a5ef4261-c9b8-4d80-be3f-e2b8c718018b",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA** Fecha de la consulta: XXX A quien corresponda: Se evalúa en consulta externa a la paciente XXX, identificada con el documento XXX. La paciente refiere cuadro de ansiedad reactiva que se ha visto beneficiado de la participación en un XXX, lo cual ha reportado como una experiencia positiva. Es importante destacar en su historial que refiere ser XXX, dato que queda registrado de forma prominente. Asimismo, reconoce ser XXX, hábito sobre el cual se ha brindado consejo sanitario. La exploración física realizada fue anodina, con constantes vitales dentro de la normalidad y sin hallazgos significativos en los distintos aparatos y sistemas. Los análisis de laboratorio recientes, incluidos en el expediente bajo el número de identificación XXX, muestran un hemograma y bioquímica básica dentro de rangos de normalidad. El manejo de su situación se ha coordinado, como es protocolario, con la XXX, en el marco de las directrices establecidas por el XXX. Para cualquier comunicación relacionada con este caso, puede contactarme a través del correo_electronico XXX o en el numero_telefono XXX. Como profesional a cargo, cuento con la titulación de XXX y mi identificación profesional es XXX. Se ha citado a la paciente para control en un mes. Se sugiere, con el consentimiento de la paciente, que su familiar XXX pueda acompañarla en la próxima visita para reforzar los aspectos psicoeducativos discutidos. Atentamente, Médico Especialista",
+  "text_length": 1468,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9621137380599976,
+        "word": " familiar XXX",
+        "start": 1329,
+        "end": 1341,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.9621137380599976,
+          "start": 1329,
+          "end": 1341,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.9621137380599976,
+          "start": 1329,
+          "end": 1341,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8534814715385437,
+        "word": " familiar XXX",
+        "start": 1329,
+        "end": 1341,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PROFESION",
+        "score": 0.7229610085487366,
+        "word": " Especialista",
+        "start": 1456,
+        "end": 1468,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1,
+        "PROFESION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.8534814715385437,
+          "start": 1329,
+          "end": 1341,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " Especialista",
+          "actual_text": "Especialista",
+          "confidence": 0.7229610085487366,
+          "start": 1456,
+          "end": 1468,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.8534814715385437,
+          "start": 1329,
+          "end": 1341,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " Especialista",
+          "actual_text": "Especialista",
+          "confidence": 0.7229610085487366,
+          "start": 1456,
+          "end": 1468,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2,
+      "PROFESION": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.9621137380599976,
+        "start": 1329,
+        "end": 1341,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.8534814715385437,
+        "start": 1329,
+        "end": 1341,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " Especialista",
+        "actual_text": "Especialista",
+        "confidence": 0.7229610085487366,
+        "start": 1456,
+        "end": 1468,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.9621137380599976,
+        "start": 1329,
+        "end": 1341,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.8534814715385437,
+        "start": 1329,
+        "end": 1341,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " Especialista",
+        "actual_text": "Especialista",
+        "confidence": 0.7229610085487366,
+        "start": 1456,
+        "end": 1468,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

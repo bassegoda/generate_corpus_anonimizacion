@@ -1,0 +1,220 @@
+{
+  "document_id": "7908df56-ed2a-496c-8ba0-98f55adb797b",
+  "success": true,
+  "anonymized_text": "Informe de Interconsulta Se remite a la paciente para valoración por el servicio de cirugía general. La paciente, de sexo XXX, se presenta con un cuadro clínico que requiere evaluación especializada. En la exploración física se evidencia abdomen blando y depresible, con dolor a la palpación en fosa ilíaca derecha sin signos de irritación peritoneal. Los ruidos hidroaéreos están presentes. La analítica muestra leucocitosis con desviación izquierda, y la ecografía abdominal informa de hallazgos sugestivos de proceso inflamatorio agudo. Se solicita valoración por parte del XXX de guardia para determinar actitud terapéutica. Para cualquier comunicación relacionada con este caso, puede contactarme a través de mi correo_electronico XXX. La documentación de este episodio queda registrada bajo el número XXX. El vehículo particular involucrado en el incidente previo al ingreso, identificado con placa XXX, ha sido debidamente registrado en el sistema. El proceso de aseguramiento se gestiona bajo la póliza XXX, mientras que el dispositivo médico implantado durante la intervención previa cuenta con el identificador XXX. La supervisión del caso estará a cargo de la XXX, cuyo correo_electronico institucional es XXX. Se mantendrá estrecha comunicación entre los servicios involucrados para optimizar el manejo integral de la paciente, cuya condición de sexo XXX determina algunas consideraciones específicas en el abordaje terapéutico.",
+  "text_length": 1440,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7848321199417114,
+        "word": " póliza",
+        "start": 1004,
+        "end": 1010,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " póliza",
+          "actual_text": "póliza",
+          "confidence": 0.7848321199417114,
+          "start": 1004,
+          "end": 1010,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " póliza",
+          "actual_text": "póliza",
+          "confidence": 0.7848321199417114,
+          "start": 1004,
+          "end": 1010,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8967700600624084,
+        "word": " sexo XXX",
+        "start": 117,
+        "end": 125,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.9433650970458984,
+        "word": " sexo XXX",
+        "start": 1358,
+        "end": 1366,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo XXX",
+          "actual_text": "sexo XXX",
+          "confidence": 0.8967700600624084,
+          "start": 117,
+          "end": 125,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo XXX",
+          "actual_text": "sexo XXX",
+          "confidence": 0.9433650970458984,
+          "start": 1358,
+          "end": 1366,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo XXX",
+          "actual_text": "sexo XXX",
+          "confidence": 0.8967700600624084,
+          "start": 117,
+          "end": 125,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo XXX",
+          "actual_text": "sexo XXX",
+          "confidence": 0.9433650970458984,
+          "start": 1358,
+          "end": 1366,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "ID_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " póliza",
+        "actual_text": "póliza",
+        "confidence": 0.7848321199417114,
+        "start": 1004,
+        "end": 1010,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo XXX",
+        "actual_text": "sexo XXX",
+        "confidence": 0.8967700600624084,
+        "start": 117,
+        "end": 125,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo XXX",
+        "actual_text": "sexo XXX",
+        "confidence": 0.9433650970458984,
+        "start": 1358,
+        "end": 1366,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " póliza",
+        "actual_text": "póliza",
+        "confidence": 0.7848321199417114,
+        "start": 1004,
+        "end": 1010,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo XXX",
+        "actual_text": "sexo XXX",
+        "confidence": 0.8967700600624084,
+        "start": 117,
+        "end": 125,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo XXX",
+        "actual_text": "sexo XXX",
+        "confidence": 0.9433650970458984,
+        "start": 1358,
+        "end": 1366,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

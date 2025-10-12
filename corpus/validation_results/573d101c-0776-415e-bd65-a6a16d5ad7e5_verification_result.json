@@ -1,0 +1,174 @@
+{
+  "document_id": "573d101c-0776-415e-bd65-a6a16d5ad7e5",
+  "success": true,
+  "anonymized_text": "En el contexto de la valoración integral del paciente, se procede a la actualización de su historia clínica digital, accesible a través de la dirección XXX. El sujeto de asistencia, de XXX, presenta un identificador de aseguramiento XXX y su número de beneficio del plan de salud es XXX. Para garantizar la máxima seguridad en el acceso a los sistemas, se ha registrado su XXX como método de identificación biométrica. El vehículo particular asociado al paciente, con placa XXX, cuenta con el número de serie XXX. Durante la exploración física actual, se constata un estado general conservado, con auscultación cardiorrespiratoria rítmica y sin soplos, y abdomen blando y depresible. Los resultados analíticos recientes muestran un perfil lipídico dentro de parámetros aceptables y una glucemia basal en rango de normalidad. Este centro, Clínico San Carlos, como institución colaboradora, actúa en coordinación con el XXX y la XXX. Para cualquier comunicación profesional, puede utilizarse el correo electrónico XXX. Se recomienda al paciente consultar los recursos educativos disponibles en XXX. La referencia interna para este proceso de actualización es XXX.",
+  "text_length": 1161,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9855353832244873,
+        "word": " Clínico San Carlos",
+        "start": 838,
+        "end": 856,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9855353832244873,
+          "start": 838,
+          "end": 856,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9855353832244873,
+          "start": 838,
+          "end": 856,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9248979091644287,
+        "word": " Clínico San Carlos",
+        "start": 838,
+        "end": 856,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9248979091644287,
+          "start": 838,
+          "end": 856,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9248979091644287,
+          "start": 838,
+          "end": 856,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "HOSPITAL": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9855353832244873,
+        "start": 838,
+        "end": 856,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9248979091644287,
+        "start": 838,
+        "end": 856,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9855353832244873,
+        "start": 838,
+        "end": 856,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9248979091644287,
+        "start": 838,
+        "end": 856,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

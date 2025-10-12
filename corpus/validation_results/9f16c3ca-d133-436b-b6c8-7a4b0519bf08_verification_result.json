@@ -1,0 +1,124 @@
+{
+  "document_id": "9f16c3ca-d133-436b-b6c8-7a4b0519bf08",
+  "success": true,
+  "anonymized_text": "Informe de Consulta de Neurología Paciente que acude a consulta para seguimiento de cuadro de cefalea crónica. Refiere mejoría parcial con la medicación instaurada en la última visita, aunque persisten episodios de menor intensidad. Se ha realizado resonancia magnética craneal como estudio complementario, cuyo informe técnico con número de serie XXX descarta hallazgos estructurales significativos. Las imágenes muestran parénquima cerebral sin alteraciones morfológicas, con sistema ventricular de características normales. En relación con la identificación biométrica del estudio, se verifica la correspondencia con el documento XXX. La exploración neurológica en este momento es anodina, con pares craneales conservados, fuerza muscular simétrica y normotrófica en las cuatro extremidades, reflejos osteotendinosos normoactivos y simétricos, y coordinación y sensibilidad conservadas. No se evidencian signos meningeos ni focalidad neurológica. Se procede a la actualización de la documentación clínica, confirmando los datos de identificación principal XXX bajo el nombre de XXX. Para la gestión administrativa del informe, se registra el código XXX. Se mantiene el tratamiento sintomático actual y se programa reevaluación en tres meses, recomendando acudir a urgencias en caso de cambio en el patrón de la cefalea o aparición de síntomas de alarma. Como profesional responsable de la evaluación, certifico que la atención ha sido proporcionada por personal sanitario debidamente cualificado con identificación profesional válida XXX. La señora XXX, como familiar acompañante, ha recibido información detallada sobre el plan terapéutico y las recomendaciones de control.",
+  "text_length": 1677,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9711345434188843,
+        "word": " familiar acompañante",
+        "start": 1562,
+        "end": 1582,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar acompañante",
+          "actual_text": "familiar acompañante",
+          "confidence": 0.9711345434188843,
+          "start": 1562,
+          "end": 1582,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar acompañante",
+          "actual_text": "familiar acompañante",
+          "confidence": 0.9711345434188843,
+          "start": 1562,
+          "end": 1582,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar acompañante",
+        "actual_text": "familiar acompañante",
+        "confidence": 0.9711345434188843,
+        "start": 1562,
+        "end": 1582,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar acompañante",
+        "actual_text": "familiar acompañante",
+        "confidence": 0.9711345434188843,
+        "start": 1562,
+        "end": 1582,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

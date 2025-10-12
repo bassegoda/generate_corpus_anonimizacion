@@ -1,0 +1,266 @@
+{
+  "document_id": "56789188-c824-4e52-8910-87a989b09afe",
+  "success": true,
+  "anonymized_text": "A continuación se presenta el informe de consulta externa correspondiente a la paciente. La asistente acude para seguimiento de su proceso, identificado bajo el código E-2024-8745. La exploración física realizada en esta jornada, con fecha de XXX, revela un estado general conservado, con constantes vitales dentro de la normalidad. La auscultación cardiorrespiratoria es rítmica y sin soplos, y la palpación abdominal no evidencia masas ni dolor a la presión. En cuanto a los resultados complementarios, se verifica el correcto funcionamiento del marcapasos con número de serie XXX, así como del monitor de glucosa continuo identificado como XXX. Ambos dispositivos se encuentran operativos y transmitiendo datos de forma satisfactoria. El seguimiento clínico de la paciente, de sexo XXX, se coordinará desde el XXX, dependiente de la XXX. Para una revisión completa de la historia clínica digital, se ha actualizado el registro en la dirección de protocolo de internet XXX. Este informe ha sido elaborado por el profesional sanitario con identificación XXX. Todo el proceso asistencial descrito queda registrado en el sistema de salud de XXX. Se recomienda continuar con la misma pauta terapéutica y se cita para control en un plazo de tres meses.",
+  "text_length": 1249,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7131120562553406,
+        "word": "2024-8745",
+        "start": 170,
+        "end": 179,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "2024-8745",
+          "actual_text": "2024-8745",
+          "confidence": 0.7131120562553406,
+          "start": 170,
+          "end": 179,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "2024-8745",
+          "actual_text": "2024-8745",
+          "confidence": 0.7131120562553406,
+          "start": 170,
+          "end": 179,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.950417160987854,
+        "word": " E",
+        "start": 168,
+        "end": 169,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7828139662742615,
+        "word": " dirección",
+        "start": 936,
+        "end": 945,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7411310076713562,
+        "word": " sistema de salud",
+        "start": 1120,
+        "end": 1136,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 1,
+        "OTROS_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " E",
+          "actual_text": "E",
+          "confidence": 0.950417160987854,
+          "start": 168,
+          "end": 169,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " dirección",
+          "actual_text": "dirección",
+          "confidence": 0.7828139662742615,
+          "start": 936,
+          "end": 945,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " sistema de salud",
+          "actual_text": "sistema de salud",
+          "confidence": 0.7411310076713562,
+          "start": 1120,
+          "end": 1136,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " E",
+          "actual_text": "E",
+          "confidence": 0.950417160987854,
+          "start": 168,
+          "end": 169,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " dirección",
+          "actual_text": "dirección",
+          "confidence": 0.7828139662742615,
+          "start": 936,
+          "end": 945,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " sistema de salud",
+          "actual_text": "sistema de salud",
+          "confidence": 0.7411310076713562,
+          "start": 1120,
+          "end": 1136,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 3,
+      "NUMERO_TELEFONO": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 3,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "2024-8745",
+        "actual_text": "2024-8745",
+        "confidence": 0.7131120562553406,
+        "start": 170,
+        "end": 179,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " E",
+        "actual_text": "E",
+        "confidence": 0.950417160987854,
+        "start": 168,
+        "end": 169,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " dirección",
+        "actual_text": "dirección",
+        "confidence": 0.7828139662742615,
+        "start": 936,
+        "end": 945,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " sistema de salud",
+        "actual_text": "sistema de salud",
+        "confidence": 0.7411310076713562,
+        "start": 1120,
+        "end": 1136,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "2024-8745",
+        "actual_text": "2024-8745",
+        "confidence": 0.7131120562553406,
+        "start": 170,
+        "end": 179,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " E",
+        "actual_text": "E",
+        "confidence": 0.950417160987854,
+        "start": 168,
+        "end": 169,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " dirección",
+        "actual_text": "dirección",
+        "confidence": 0.7828139662742615,
+        "start": 936,
+        "end": 945,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " sistema de salud",
+        "actual_text": "sistema de salud",
+        "confidence": 0.7411310076713562,
+        "start": 1120,
+        "end": 1136,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

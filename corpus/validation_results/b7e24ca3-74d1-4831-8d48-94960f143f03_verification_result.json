@@ -1,0 +1,124 @@
+{
+  "document_id": "b7e24ca3-74d1-4831-8d48-94960f143f03",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada en el XXX, se atiende a la paciente XXX, de XXX de edad y sexo XXX, quien acude para seguimiento de su condición actual. La paciente refiere ser XXX de profesión, lo que resulta relevante en el análisis de su historial ocupacional. En el apartado de aseguramiento, se registra el identificador XXX como número de póliza activa. Como parte de los protocolos de seguridad biométrica del centro, se ha verificado la identidad mediante XXX y XXX, procedimiento estándar para todos los accesos al sistema clínico. Los dispositivos XXXs utilizados en la exploración, identificados con los números de serie XXX y XXX, funcionaron dentro de los parámetros normales durante la evaluación. En el apartado de coordinación asistencial, se registra el vehículo institucional con placa XXX y el identificador XXX para transporte de muestras biológicas. El equipo de atención está compuesto por la XXX XXX, como profesional responsable del caso, junto con el XXX asignado para la valoración quirúrgica pendiente. Para contacto preferente se ha establecido el correo electrónico XXX, con copia a XXX y XXX para coordinación interdisciplinar. La historia clínica XXX recoge toda la documentación pertinente del proceso asistencial. La exploración física muestra parámetros dentro de la normalidad para su grupo etario, sin hallazgos significativos en la auscultación cardiorrespiratoria. Los resultados analíticos preliminares no presentan alteraciones relevantes, manteniéndose un seguimiento estrecho según los protocolos establecidos para su perfil demográfico y profesional.",
+  "text_length": 1596,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7443242073059082,
+        "word": " vehículo institucional",
+        "start": 774,
+        "end": 796,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo institucional",
+          "actual_text": "vehículo institucional",
+          "confidence": 0.7443242073059082,
+          "start": 774,
+          "end": 796,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo institucional",
+          "actual_text": "vehículo institucional",
+          "confidence": 0.7443242073059082,
+          "start": 774,
+          "end": 796,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo institucional",
+        "actual_text": "vehículo institucional",
+        "confidence": 0.7443242073059082,
+        "start": 774,
+        "end": 796,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo institucional",
+        "actual_text": "vehículo institucional",
+        "confidence": 0.7443242073059082,
+        "start": 774,
+        "end": 796,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

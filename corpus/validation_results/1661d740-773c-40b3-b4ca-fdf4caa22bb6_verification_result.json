@@ -1,0 +1,219 @@
+{
+  "document_id": "1661d740-773c-40b3-b4ca-fdf4caa22bb6",
+  "success": true,
+  "anonymized_text": "En la valoración inicial se recoge que se trata de un sujeto de asistencia de sexo XXX que refiere ser XXX. La exploración física realizada fue completa, incluyendo auscultación cardiopulmonar sin hallazgos patológicos y abdomen sin masas palpables. Se indicó la realización de pruebas complementarias cuyos resultados fueron analizados en consulta. Para el seguimiento del caso se ha asignado el identificador XXX, que queda vinculado al expediente XXX. Cabe mencionar que la historia clínica principal del centro registra el número XXX. La documentación adjunta incluye el informe técnico del vehículo relacionado con el desplazamiento a consulta, cuyo número de placa es XXX. El profesional que suscribe el presente documento cuenta con el correspondiente XXX y su identificación sanitaria figura en los registros. La dirección de contacto para cualquier comunicación administrativa es de Alcalá 120, ubicada en la XXX. Para información complementaria sobre recursos sanitarios, se puede consultar el portal XXX donde se encuentra disponible material educativo relevante.",
+  "text_length": 1074,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.9795407652854919,
+        "word": " de",
+        "start": 889,
+        "end": 891,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9482026100158691,
+        "word": " Alcalá 120",
+        "start": 892,
+        "end": 902,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " de",
+          "actual_text": "de",
+          "confidence": 0.9795407652854919,
+          "start": 889,
+          "end": 891,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Alcalá 120",
+          "actual_text": "Alcalá 120",
+          "confidence": 0.9482026100158691,
+          "start": 892,
+          "end": 902,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " de",
+          "actual_text": "de",
+          "confidence": 0.9795407652854919,
+          "start": 889,
+          "end": 891,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Alcalá 120",
+          "actual_text": "Alcalá 120",
+          "confidence": 0.9482026100158691,
+          "start": 892,
+          "end": 902,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.9392421245574951,
+        "word": " Alcalá 120",
+        "start": 892,
+        "end": 902,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " Alcalá 120",
+          "actual_text": "Alcalá 120",
+          "confidence": 0.9392421245574951,
+          "start": 892,
+          "end": 902,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " Alcalá 120",
+          "actual_text": "Alcalá 120",
+          "confidence": 0.9392421245574951,
+          "start": 892,
+          "end": 902,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CALLE": 3
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CALLE",
+        "word": " de",
+        "actual_text": "de",
+        "confidence": 0.9795407652854919,
+        "start": 889,
+        "end": 891,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Alcalá 120",
+        "actual_text": "Alcalá 120",
+        "confidence": 0.9482026100158691,
+        "start": 892,
+        "end": 902,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Alcalá 120",
+        "actual_text": "Alcalá 120",
+        "confidence": 0.9392421245574951,
+        "start": 892,
+        "end": 902,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CALLE",
+        "word": " de",
+        "actual_text": "de",
+        "confidence": 0.9795407652854919,
+        "start": 889,
+        "end": 891,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Alcalá 120",
+        "actual_text": "Alcalá 120",
+        "confidence": 0.9482026100158691,
+        "start": 892,
+        "end": 902,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Alcalá 120",
+        "actual_text": "Alcalá 120",
+        "confidence": 0.9392421245574951,
+        "start": 892,
+        "end": 902,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

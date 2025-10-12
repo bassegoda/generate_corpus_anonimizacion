@@ -1,0 +1,264 @@
+{
+  "document_id": "43a956a8-23f2-4fe0-929d-747a12b4db3a",
+  "success": true,
+  "anonymized_text": "En la valoración geriátrica integral se recoge que la paciente, XXX, que cuenta con XXX, presenta un cuadro de deterioro cognitivo leve de evolución progresiva. Se identifica como XXX para todo el proceso asistencial. Durante la anamnesis se recabó información sobre antecedentes familiares, destacando que su progenitora, XXX, presentó un cuadro demencial en la octava década de vida. La exploración física actual muestra tensión arterial 135/80 mmHg, frecuencia cardíaca 68 lpm, sin hallazgos relevantes en la auscultación cardiorrespiratoria. En las pruebas complementarias realizadas, el hemograma y bioquímica básica se encuentran dentro de parámetros normales, mientras que el TAC craneal evidencia atrofia cortical leve difusa. Se establecerán controles periódicos para monitorizar la evolución del cuadro.",
+  "text_length": 813,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9892008304595947,
+        "word": " progenitora,",
+        "start": 310,
+        "end": 322,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " progenitora,",
+          "actual_text": "progenitora,",
+          "confidence": 0.9892008304595947,
+          "start": 310,
+          "end": 322,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " progenitora,",
+          "actual_text": "progenitora,",
+          "confidence": 0.9892008304595947,
+          "start": 310,
+          "end": 322,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9896397590637207,
+        "word": " progeni",
+        "start": 310,
+        "end": 317,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9686415195465088,
+        "word": "tora,",
+        "start": 317,
+        "end": 322,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7809122800827026,
+        "word": " XXX,",
+        "start": 323,
+        "end": 327,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 3
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " progeni",
+          "actual_text": "progeni",
+          "confidence": 0.9896397590637207,
+          "start": 310,
+          "end": 317,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": "tora,",
+          "actual_text": "tora,",
+          "confidence": 0.9686415195465088,
+          "start": 317,
+          "end": 322,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " XXX,",
+          "actual_text": "XXX,",
+          "confidence": 0.7809122800827026,
+          "start": 323,
+          "end": 327,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " progeni",
+          "actual_text": "progeni",
+          "confidence": 0.9896397590637207,
+          "start": 310,
+          "end": 317,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": "tora,",
+          "actual_text": "tora,",
+          "confidence": 0.9686415195465088,
+          "start": 317,
+          "end": 322,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " XXX,",
+          "actual_text": "XXX,",
+          "confidence": 0.7809122800827026,
+          "start": 323,
+          "end": 327,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 4
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " progenitora,",
+        "actual_text": "progenitora,",
+        "confidence": 0.9892008304595947,
+        "start": 310,
+        "end": 322,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " progeni",
+        "actual_text": "progeni",
+        "confidence": 0.9896397590637207,
+        "start": 310,
+        "end": 317,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": "tora,",
+        "actual_text": "tora,",
+        "confidence": 0.9686415195465088,
+        "start": 317,
+        "end": 322,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " XXX,",
+        "actual_text": "XXX,",
+        "confidence": 0.7809122800827026,
+        "start": 323,
+        "end": 327,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " progenitora,",
+        "actual_text": "progenitora,",
+        "confidence": 0.9892008304595947,
+        "start": 310,
+        "end": 322,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " progeni",
+        "actual_text": "progeni",
+        "confidence": 0.9896397590637207,
+        "start": 310,
+        "end": 317,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": "tora,",
+        "actual_text": "tora,",
+        "confidence": 0.9686415195465088,
+        "start": 317,
+        "end": 322,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " XXX,",
+        "actual_text": "XXX,",
+        "confidence": 0.7809122800827026,
+        "start": 323,
+        "end": 327,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

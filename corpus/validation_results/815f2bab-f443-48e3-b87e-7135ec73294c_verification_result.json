@@ -1,0 +1,124 @@
+{
+  "document_id": "815f2bab-f443-48e3-b87e-7135ec73294c",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE CARDIOLOGÍA** Paciente derivada desde el XXX para valoración y seguimiento en consultas externas de cardiología. La paciente, de nombre XXX, presenta documentación de aseguramiento con número XXX y número de beneficiario del plan de salud XXX, ambos vigentes en el territorio de la XXX. En la valoración inicial se constata historia de intervención quirúrgica cardiovascular previa realizada en el XXX. Según el informe quirúrgico disponible, el procedimiento fue realizado por el equipo del XXX, cuyo número de identificación profesional para el ejercicio de su profesión como XXX es XXX. El personal sanitario interviniente en dicho centro hospitalario cuenta con las titulaciones correspondientes, incluyendo el XXX para los facultativos. Como figura de contacto y apoyo se ha designado a XXX de la paciente, quien consta en el apartado de familiares y sujetos de asistencia. En la exploración física actual, la paciente se encuentra en regular estado general, normocoloreada, eupneica en reposo. Auscultación cardíaca con ritmo regular, soplo sistólico grado II/VI en foco aórtico. Tensión arterial 135/80 mmHg, frecuencia cardíaca 78 lpm. Resto de exploración por sistemas sin hallazgos relevantes. Entre las pruebas complementarias realizadas, el ecocardiograma Doppler muestra función sistólica del ventrículo izquierdo conservada con fracción de eyección del 55%, leve hipertrofia concéntrica del ventrículo izquierdo y válvula aórtica bicúspide con ligera insuficiencia. Analítica con perfil lipídico dentro de rangos aceptables y función renal conservada. Se mantiene tratamiento médico actual y se programa seguimiento periódico. Para cualquier gestión administrativa relacionada con este informe, el centro dispone del número de fax XXX. **IDENTIFICACIONES DEL PERSONAL SANITARIO INTERVINIENTE** Identificación de titulación: XXX Identificación de empleo: XXX Identificación profesional: XXX Identificación de aseguramiento: XXX",
+  "text_length": 1973,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9487009048461914,
+        "word": " familiares",
+        "start": 876,
+        "end": 886,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares",
+          "actual_text": "familiares",
+          "confidence": 0.9487009048461914,
+          "start": 876,
+          "end": 886,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares",
+          "actual_text": "familiares",
+          "confidence": 0.9487009048461914,
+          "start": 876,
+          "end": 886,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares",
+        "actual_text": "familiares",
+        "confidence": 0.9487009048461914,
+        "start": 876,
+        "end": 886,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares",
+        "actual_text": "familiares",
+        "confidence": 0.9487009048461914,
+        "start": 876,
+        "end": 886,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

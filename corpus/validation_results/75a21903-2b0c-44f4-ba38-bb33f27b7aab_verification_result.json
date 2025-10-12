@@ -1,0 +1,219 @@
+{
+  "document_id": "75a21903-2b0c-44f4-ba38-bb33f27b7aab",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa A la atención de la XXX. Se presenta a valoración en consultas externas paciente de sexo XXX con XXX de edad, procedente del grupo de apoyo de pacientes oncológicos. La exploración física realizada el XXX en el XXX muestra buen estado general, con constantes vitales dentro de la normalidad. Se procedió a la identificación biométrica mediante XXX como protocolo institucional. La paciente fue evaluada por la XXX, quien coordinó los siguientes pasos asistenciales. Para cualquier gestión o aclaración, puede contactarse al número XXX. Los estudios complementarios realizados (analítica completa y tomografía computarizada) muestran estabilidad del proceso oncológico, sin evidencia de progresión disease. Se mantiene tratamiento actual y se recomienda continuar con el seguimiento programado. Se ha mantenido comunicación con el grupo de apoyo de pacientes oncológicos para coordinar el apoyo psicosocial continuo que complementa el tratamiento médico institucional. Se ha establecido coordinación con XXX para garantizar la continuidad asistencial integral de la paciente.",
+  "text_length": 1102,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.7372472882270813,
+        "word": " grupo",
+        "start": 153,
+        "end": 158,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.747749388217926,
+        "word": " grupo",
+        "start": 858,
+        "end": 863,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 2
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " grupo",
+          "actual_text": "grupo",
+          "confidence": 0.7372472882270813,
+          "start": 153,
+          "end": 158,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "INSTITUCION",
+          "word": " grupo",
+          "actual_text": "grupo",
+          "confidence": 0.747749388217926,
+          "start": 858,
+          "end": 863,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " grupo",
+          "actual_text": "grupo",
+          "confidence": 0.7372472882270813,
+          "start": 153,
+          "end": 158,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "INSTITUCION",
+          "word": " grupo",
+          "actual_text": "grupo",
+          "confidence": 0.747749388217926,
+          "start": 858,
+          "end": 863,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.7810744643211365,
+        "word": " grupo de apoyo de pacientes oncológicos",
+        "start": 153,
+        "end": 192,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " grupo de apoyo de pacientes oncológicos",
+          "actual_text": "grupo de apoyo de pacientes oncológicos",
+          "confidence": 0.7810744643211365,
+          "start": 153,
+          "end": 192,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " grupo de apoyo de pacientes oncológicos",
+          "actual_text": "grupo de apoyo de pacientes oncológicos",
+          "confidence": 0.7810744643211365,
+          "start": 153,
+          "end": 192,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 3
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 3,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " grupo",
+        "actual_text": "grupo",
+        "confidence": 0.7372472882270813,
+        "start": 153,
+        "end": 158,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": " grupo",
+        "actual_text": "grupo",
+        "confidence": 0.747749388217926,
+        "start": 858,
+        "end": 863,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": " grupo de apoyo de pacientes oncológicos",
+        "actual_text": "grupo de apoyo de pacientes oncológicos",
+        "confidence": 0.7810744643211365,
+        "start": 153,
+        "end": 192,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " grupo",
+        "actual_text": "grupo",
+        "confidence": 0.7372472882270813,
+        "start": 153,
+        "end": 158,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": " grupo",
+        "actual_text": "grupo",
+        "confidence": 0.747749388217926,
+        "start": 858,
+        "end": 863,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": " grupo de apoyo de pacientes oncológicos",
+        "actual_text": "grupo de apoyo de pacientes oncológicos",
+        "confidence": 0.7810744643211365,
+        "start": 153,
+        "end": 192,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

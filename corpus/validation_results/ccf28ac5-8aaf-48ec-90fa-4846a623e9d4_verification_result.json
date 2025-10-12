@@ -1,0 +1,175 @@
+{
+  "document_id": "ccf28ac5-8aaf-48ec-90fa-4846a623e9d4",
+  "success": true,
+  "anonymized_text": "Informe de Seguimiento y Derivación Paciente que continúa en seguimiento por trastorno de ansiedad generalizada con respuesta parcial al tratamiento farmacológico establecido. Se observa mejoría sintomática en la vigilancia, aunque persisten episodios de reactivación ansiosa en contextos sociales. Ante la cronicidad de algunos síntomas, se considera beneficioso complementar el abordaje con intervenciones psicoeducativas grupales. Se procede a la derivación al grupo de apoyo de ansiedad que se imparte en General de Madrid, institución que cuenta con un programa estructurado avalado por la XXX. La participación en este recurso terapéutico permitirá a la paciente XXX, identificada con el número XXX, adquirir estrategias de afrontamiento adicionales en un entorno supervisado. Para facilitar la coordinación entre niveles asistenciales, se remite documentación clínica tanto al XXX, de referencia para patologías complejas, como al XXX, donde se realizará el seguimiento de proximidad, así como a otros sujeto asistencia que puedan estar involucrados en el proceso, incluyendo al XXX. La comunicación entre centros podrá realizarse a través del correo electrónico XXX, mediante fax al número XXX, así como a través de la plataforma digital accesible en la dirección de protocolo de internet XXX. En relación a la documentación adjunta, se incluye el formulario de autorización de intercambio de información con el sello XXX. Se mantendrá una supervisión estrecha de la evolución, valorando la respuesta a esta intervención multimodal en próximas consultas.",
+  "text_length": 1562,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.9604110717773438,
+        "word": " General de Madrid",
+        "start": 509,
+        "end": 526,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9604110717773438,
+          "start": 509,
+          "end": 526,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9604110717773438,
+          "start": 509,
+          "end": 526,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.9546592235565186,
+        "word": " General de Madrid",
+        "start": 509,
+        "end": 526,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "TERRITORIO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "TERRITORIO",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9546592235565186,
+          "start": 509,
+          "end": 526,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "TERRITORIO",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9546592235565186,
+          "start": 509,
+          "end": 526,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "TERRITORIO": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9604110717773438,
+        "start": 509,
+        "end": 526,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9546592235565186,
+        "start": 509,
+        "end": 526,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9604110717773438,
+        "start": 509,
+        "end": 526,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9546592235565186,
+        "start": 509,
+        "end": 526,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

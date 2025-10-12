@@ -1,0 +1,220 @@
+{
+  "document_id": "3552e3a2-9347-4ac5-80e8-107a0cc248f6",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución – Seguimiento Ambulatorio** Se realiza seguimiento de paciente en consulta externa para valoración de control metabólico y ajuste de pauta terapéutica. El sujeto de asistencia Carlos Martínez acude hoy derivado desde el XXX para continuidad asistencial. Refiere adherencia al plan nutricional establecido, aunque persisten dificultades en la implementación de la rutina de actividad física. Se identifica como XXX, factor sobre el que se ha insistido en la necesidad de abandono completo. A la exploración física, el paciente se encuentra en adecuado estado general, con constantes vitales dentro de la normalidad. La auscultación cardiorrespiratoria es normofonética y el examen abdominal no revela hallazgos patológicos. Los resultados analíticos recientes muestran una hemoglobina glicosilada en 7.1%, con perfil lipídico dentro de objetivos terapéuticos. Se mantiene la medicación actual y se programa nueva visita en un mes. Se recuerda al paciente la disponibilidad del XXX que se reúne quincenalmente en el XXX, recurso que podría ser de utilidad. Para cualquier gestión administrativa, el número de beneficio del plan de salud es XXX. El contacto asistencial principal queda registrado bajo el identificador XXX. Como documentación de apoyo, se proporciona al paciente material educativo de la página web XXX. Para la coordinación entre niveles asistenciales, se verifica que el XXX se encuentra activo en el sistema. La dirección registrada para notificaciones es XXX, XXX, en la XXX. El profesional que suscribe, XXX, con identificación de titulación sanitaria XXX y XXX, queda a disposición para coordinación. Para contacto profesional, utilizar el XXX. En el apartado se anota el identificador XXX como referencia interna del centro. El XXX queda validado para próximas actuaciones.",
+  "text_length": 1814,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_SUJETO_ASISTENCIA",
+        "score": 0.9653657674789429,
+        "word": " Carlos Martínez",
+        "start": 196,
+        "end": 211,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_SUJETO_ASISTENCIA",
+          "word": " Carlos Martínez",
+          "actual_text": "Carlos Martínez",
+          "confidence": 0.9653657674789429,
+          "start": 196,
+          "end": 211,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_SUJETO_ASISTENCIA",
+          "word": " Carlos Martínez",
+          "actual_text": "Carlos Martínez",
+          "confidence": 0.9653657674789429,
+          "start": 196,
+          "end": 211,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.77649986743927,
+        "word": " Carlos",
+        "start": 196,
+        "end": 202,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9047719836235046,
+        "word": " Martínez",
+        "start": 203,
+        "end": 211,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 2
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Carlos",
+          "actual_text": "Carlos",
+          "confidence": 0.77649986743927,
+          "start": 196,
+          "end": 202,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Martínez",
+          "actual_text": "Martínez",
+          "confidence": 0.9047719836235046,
+          "start": 203,
+          "end": 211,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Carlos",
+          "actual_text": "Carlos",
+          "confidence": 0.77649986743927,
+          "start": 196,
+          "end": 202,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Martínez",
+          "actual_text": "Martínez",
+          "confidence": 0.9047719836235046,
+          "start": 203,
+          "end": 211,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NOMBRE_SUJETO_ASISTENCIA": 1,
+      "NOMBRE_PERSONAL_SANITARIO": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NOMBRE_SUJETO_ASISTENCIA",
+        "word": " Carlos Martínez",
+        "actual_text": "Carlos Martínez",
+        "confidence": 0.9653657674789429,
+        "start": 196,
+        "end": 211,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Carlos",
+        "actual_text": "Carlos",
+        "confidence": 0.77649986743927,
+        "start": 196,
+        "end": 202,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Martínez",
+        "actual_text": "Martínez",
+        "confidence": 0.9047719836235046,
+        "start": 203,
+        "end": 211,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NOMBRE_SUJETO_ASISTENCIA",
+        "word": " Carlos Martínez",
+        "actual_text": "Carlos Martínez",
+        "confidence": 0.9653657674789429,
+        "start": 196,
+        "end": 211,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Carlos",
+        "actual_text": "Carlos",
+        "confidence": 0.77649986743927,
+        "start": 196,
+        "end": 202,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Martínez",
+        "actual_text": "Martínez",
+        "confidence": 0.9047719836235046,
+        "start": 203,
+        "end": 211,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "document_id": "7274f5da-5200-4576-a7fc-174607e07354",
+  "success": true,
+  "anonymized_text": "Informe de Consulta de Seguimiento Paciente que acude a consulta para seguimiento de su patología cardiológica. Refiere haber mantenido contacto recientemente con el **XXX**, lo cual considera de gran utilidad para el manejo de su condición. En la anamnesis, reconoce ser **XXX**, hábito que se le ha insistido en modificar dada su situación clínica. La exploración física actual muestra tensión arterial de 128/76 mmHg y frecuencia cardíaca de 68 lpm. La auscultación cardíaca es rítmica sin soplos, y la respiratoria presenta murmullo vesicular conservado. Se ha coordinado con el **XXX** para continuar con el seguimiento compartido de la paciente. Respecto a su situación laboral, ejerce como **XXX** en un centro privado. Para su práctica profesional, utiliza el dispositivo de monitorización con número **SN-982347641**, habiéndose registrado también el dispositivo con número de serie **XXX** para completar su historial de equipos médicos utilizados. Su vehículo, con matrícula **XXX**, está registrado para desplazamientos asistenciales. La paciente posee la titulación de **XXX** con identificación **XXX** y cuenta con cobertura sanitaria bajo el número **ID-87654321-A**. Su sexo registrado es **XXX**. Como recursos de información para la paciente, se le han proporcionado las direcciones web de **XXX** y **XXX** donde puede consultar material educativo sobre su condición. Cabe señalar que tiene su domicilio particular en la **XXX** y su consulta privada en **XXX**. Se mantiene el plan terapéutico actual y se citará para control en los próximos meses, enfatizando en la importancia de la adherencia al tratamiento y la modificación de los factores de riesgo modificables.",
+  "text_length": 1689,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8868605494499207,
+        "word": "982347641",
+        "start": 814,
+        "end": 823,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8229863047599792,
+        "word": "87654321-",
+        "start": 1170,
+        "end": 1179,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "982347641",
+          "actual_text": "982347641",
+          "confidence": 0.8868605494499207,
+          "start": 814,
+          "end": 823,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "87654321-",
+          "actual_text": "87654321-",
+          "confidence": 0.8229863047599792,
+          "start": 1170,
+          "end": 1179,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "982347641",
+          "actual_text": "982347641",
+          "confidence": 0.8868605494499207,
+          "start": 814,
+          "end": 823,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "87654321-",
+          "actual_text": "87654321-",
+          "confidence": 0.8229863047599792,
+          "start": 1170,
+          "end": 1179,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8476933240890503,
+        "word": " **",
+        "start": 697,
+        "end": 699,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.8722268342971802,
+        "word": " centro privado",
+        "start": 711,
+        "end": 725,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9311656951904297,
+        "word": "SN",
+        "start": 811,
+        "end": 813,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1,
+        "INSTITUCION": 1,
+        "NUMERO_TELEFONO": 1
+      },
+      "entities_by_confidence": {
+        "high": 3,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.8476933240890503,
+          "start": 697,
+          "end": 699,
+          "model": "CARMEN"
+        },
+        {
+          "label": "INSTITUCION",
+          "word": " centro privado",
+          "actual_text": "centro privado",
+          "confidence": 0.8722268342971802,
+          "start": 711,
+          "end": 725,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "SN",
+          "actual_text": "SN",
+          "confidence": 0.9311656951904297,
+          "start": 811,
+          "end": 813,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.8476933240890503,
+          "start": 697,
+          "end": 699,
+          "model": "CARMEN"
+        },
+        {
+          "label": "INSTITUCION",
+          "word": " centro privado",
+          "actual_text": "centro privado",
+          "confidence": 0.8722268342971802,
+          "start": 711,
+          "end": 725,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "SN",
+          "actual_text": "SN",
+          "confidence": 0.9311656951904297,
+          "start": 811,
+          "end": 813,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 5,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 3,
+      "INSTITUCION": 1,
+      "NUMERO_TELEFONO": 1
+    },
+    "entities_by_confidence": {
+      "high": 5,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "982347641",
+        "actual_text": "982347641",
+        "confidence": 0.8868605494499207,
+        "start": 814,
+        "end": 823,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "87654321-",
+        "actual_text": "87654321-",
+        "confidence": 0.8229863047599792,
+        "start": 1170,
+        "end": 1179,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.8476933240890503,
+        "start": 697,
+        "end": 699,
+        "model": "CARMEN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": " centro privado",
+        "actual_text": "centro privado",
+        "confidence": 0.8722268342971802,
+        "start": 711,
+        "end": 725,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "SN",
+        "actual_text": "SN",
+        "confidence": 0.9311656951904297,
+        "start": 811,
+        "end": 813,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "982347641",
+        "actual_text": "982347641",
+        "confidence": 0.8868605494499207,
+        "start": 814,
+        "end": 823,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "87654321-",
+        "actual_text": "87654321-",
+        "confidence": 0.8229863047599792,
+        "start": 1170,
+        "end": 1179,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.8476933240890503,
+        "start": 697,
+        "end": 699,
+        "model": "CARMEN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": " centro privado",
+        "actual_text": "centro privado",
+        "confidence": 0.8722268342971802,
+        "start": 711,
+        "end": 725,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "SN",
+        "actual_text": "SN",
+        "confidence": 0.9311656951904297,
+        "start": 811,
+        "end": 813,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 5,
+    "suspicious_detections": 5,
+    "xxxxxx_detections": 0,
+    "other_detections": 5
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

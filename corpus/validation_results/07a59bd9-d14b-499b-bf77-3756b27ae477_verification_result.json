@@ -1,0 +1,175 @@
+{
+  "document_id": "07a59bd9-d14b-499b-bf77-3756b27ae477",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude a consulta para seguimiento. Refiere mejoría parcial de la sintomatología previamente descrita. Se mantiene bajo observación clínica. La paciente, de sexo XXX, se identifica como XXX. Como parte del protocolo de atención, se verifica que su número de beneficiaria del plan de salud es XXX y su identificación de aseguramiento corresponde a XXX. Para completar la identificación d, se confirma el código XXX. La exploración física actual muestra buen estado general, sin hallazgos relevantes en la auscultación cardiorrespiratoria y abdomen normotenso y no doloroso a la palpación. En cuanto a los análisis complementarios realizados, el hemograma muestra parámetros dentro de la normalidad y la bioquímica básica sin alteraciones significativas. La ecografía abdominal programada fue informada como normal. Para cualquier gestión administrativa o coordinación, la paciente indica que su residencia se encuentra en la XXX. Como contacto de referencia en caso de necesidad dentro de , se ha registrado a XXX, quien puede ser localizada en la XXX. El número de contacto de emergencia para esta familiar es XXX. Para comunicación institucional, se dispone del número de fax XXX. La documentación clínica ha sido remitida electrónicamente a la XXX para su custodia en el historial centralizado, en cumplimiento del protocolo interterritorial. Cabe mencionar que parte de la información analítica previa fue facilitada por el XXX a través de su sistema de historia digital. Como recurso adicional para la paciente, se le ha proporcionado la URL XXX donde puede consultar material educativo sobre su condición. Se mantendrá seguimiento ambulatorio según evolución.",
+  "text_length": 1704,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9841188192367554,
+        "word": " familiar",
+        "start": 1138,
+        "end": 1146,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9841188192367554,
+          "start": 1138,
+          "end": 1146,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9841188192367554,
+          "start": 1138,
+          "end": 1146,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8716548085212708,
+        "word": " sexo",
+        "start": 197,
+        "end": 201,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.8716548085212708,
+          "start": 197,
+          "end": 201,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.8716548085212708,
+          "start": 197,
+          "end": 201,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "ID_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9841188192367554,
+        "start": 1138,
+        "end": 1146,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.8716548085212708,
+        "start": 197,
+        "end": 201,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9841188192367554,
+        "start": 1138,
+        "end": 1146,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.8716548085212708,
+        "start": 197,
+        "end": 201,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

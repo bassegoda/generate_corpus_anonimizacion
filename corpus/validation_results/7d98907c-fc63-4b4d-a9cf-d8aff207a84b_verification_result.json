@@ -1,0 +1,124 @@
+{
+  "document_id": "7d98907c-fc63-4b4d-a9cf-d8aff207a84b",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude para seguimiento y valoración de su cuadro clínico. Se revisa la documentación asociada al identificador asistencial XXX, donde se encuentra registrada toda la información pertinente. En el contexto de la coordinación entre instituciones, se ha establecido comunicación con la XXX para aspectos relacionados con la continuidad asistencial, así como con el XXX para lo referente a protocolos de actuación. La exploración física actual muestra buen estado general, con constantes vitales dentro de la normalidad. Los resultados analíticos recientes no presentan hallazgos significativos, manteniéndose parámetros estables en hemograma y bioquímica básica. En cuanto a pruebas complementarias, la radiografía de tórax realizada no evidencia alteraciones pleuropulmonares significativas. Para la gestión de desplazamientos relacionados con su tratamiento, se ha registrado el vehículo con matrícula XXX, documentado bajo la referencia XXX. Este dato queda incorporado al historial para facilitar los trámites de acceso a las instalaciones. El domicilio registrado para notificaciones es XXX, información que se mantiene actualizada en el sistema. Se establece como canal de comunicación preferente el correo electrónico XXX para coordinación de próximas citas y envío de resultados. El número de identificación principal del paciente XXX permanece como referencia en todos los documentos clínicos. Se procederá a la actualización del plan terapéutico manteniendo la coordinación con las instituciones mencionadas.",
+  "text_length": 1556,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7260228991508484,
+        "word": " vehículo",
+        "start": 919,
+        "end": 927,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.7260228991508484,
+          "start": 919,
+          "end": 927,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.7260228991508484,
+          "start": 919,
+          "end": 927,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.7260228991508484,
+        "start": 919,
+        "end": 927,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.7260228991508484,
+        "start": 919,
+        "end": 927,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

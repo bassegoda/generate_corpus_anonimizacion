@@ -1,0 +1,314 @@
+{
+  "document_id": "f8eaddfa-3f62-4dc0-b57b-7bf984ab29e4",
+  "success": true,
+  "anonymized_text": "Informe de Interconsulta Se remite a la Unidad de Cirugía del General de Madrid a paciente de sexo XXX de XXX de edad para valoración quirúrgica. La paciente fue valorada inicialmente en consulta externa del XXX el día XXX, identificada con el número de historia clínica XXX. Tras la exploración física, que revela abdomen blando y depresible con dolor a la palpación en hipogastrio, y considerando los resultados de la ecografía abdominal (informe XXX) y la TAC abdominal (informe XXX), se evidencia hallazgo compatible con patología de origen ginecológico que requiere intervención especializada. Los marcadores tumorales en analítica se encuentran dentro de parámetros normales. Para la coordinación de esta interconsulta, queda registrado el identificador de contacto asistencial XXX. Como profesional responsable de la valoración inicial, yo, XXX con XXX e identificado con el número de colegiado ID-EMPLEO-PERSONAL-SANITARIO, puedo ser contactado para cualquier aclaración a través del correo electrónico XXX o vía fax al número XXX. Se adjunta toda la documentación clínica pertinente bajo la referencia XXX para su evaluación y se solicita cita preferente en consulta de cirugía para completar el estudio y establecer el plan terapéutico más adecuado.",
+  "text_length": 1259,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.9886718988418579,
+        "word": " Madrid",
+        "start": 73,
+        "end": 79,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "TERRITORIO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "TERRITORIO",
+          "word": " Madrid",
+          "actual_text": "Madrid",
+          "confidence": 0.9886718988418579,
+          "start": 73,
+          "end": 79,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "TERRITORIO",
+          "word": " Madrid",
+          "actual_text": "Madrid",
+          "confidence": 0.9886718988418579,
+          "start": 73,
+          "end": 79,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 4,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.8420880436897278,
+        "word": " General",
+        "start": 62,
+        "end": 69,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9759200811386108,
+        "word": " Madrid",
+        "start": 73,
+        "end": 79,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FECHAS",
+        "score": 0.8937299251556396,
+        "word": " día XXX",
+        "start": 215,
+        "end": 222,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8429087400436401,
+        "word": " historia clínica",
+        "start": 254,
+        "end": 270,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 4,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 2,
+        "FECHAS": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 4,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " General",
+          "actual_text": "General",
+          "confidence": 0.8420880436897278,
+          "start": 62,
+          "end": 69,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Madrid",
+          "actual_text": "Madrid",
+          "confidence": 0.9759200811386108,
+          "start": 73,
+          "end": 79,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " día XXX",
+          "actual_text": "día XXX",
+          "confidence": 0.8937299251556396,
+          "start": 215,
+          "end": 222,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.8429087400436401,
+          "start": 254,
+          "end": 270,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " General",
+          "actual_text": "General",
+          "confidence": 0.8420880436897278,
+          "start": 62,
+          "end": 69,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Madrid",
+          "actual_text": "Madrid",
+          "confidence": 0.9759200811386108,
+          "start": 73,
+          "end": 79,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " día XXX",
+          "actual_text": "día XXX",
+          "confidence": 0.8937299251556396,
+          "start": 215,
+          "end": 222,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.8429087400436401,
+          "start": 254,
+          "end": 270,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 5,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "TERRITORIO": 1,
+      "HOSPITAL": 2,
+      "FECHAS": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 5,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "TERRITORIO",
+        "word": " Madrid",
+        "actual_text": "Madrid",
+        "confidence": 0.9886718988418579,
+        "start": 73,
+        "end": 79,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General",
+        "actual_text": "General",
+        "confidence": 0.8420880436897278,
+        "start": 62,
+        "end": 69,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Madrid",
+        "actual_text": "Madrid",
+        "confidence": 0.9759200811386108,
+        "start": 73,
+        "end": 79,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " día XXX",
+        "actual_text": "día XXX",
+        "confidence": 0.8937299251556396,
+        "start": 215,
+        "end": 222,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.8429087400436401,
+        "start": 254,
+        "end": 270,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "TERRITORIO",
+        "word": " Madrid",
+        "actual_text": "Madrid",
+        "confidence": 0.9886718988418579,
+        "start": 73,
+        "end": 79,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General",
+        "actual_text": "General",
+        "confidence": 0.8420880436897278,
+        "start": 62,
+        "end": 69,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Madrid",
+        "actual_text": "Madrid",
+        "confidence": 0.9759200811386108,
+        "start": 73,
+        "end": 79,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " día XXX",
+        "actual_text": "día XXX",
+        "confidence": 0.8937299251556396,
+        "start": 215,
+        "end": 222,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.8429087400436401,
+        "start": 254,
+        "end": 270,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 5,
+    "suspicious_detections": 5,
+    "xxxxxx_detections": 0,
+    "other_detections": 5
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

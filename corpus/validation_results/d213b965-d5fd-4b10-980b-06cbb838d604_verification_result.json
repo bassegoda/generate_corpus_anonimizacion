@@ -1,0 +1,220 @@
+{
+  "document_id": "d213b965-d5fd-4b10-980b-06cbb838d604",
+  "success": true,
+  "anonymized_text": "**Informe de Consulta Externa de Neurología** A continuación se presenta el informe de la valoración neurológica realizada a la paciente **XXX** en la consulta externa del **XXX**, con fecha de **XXX**. La paciente refiere cefalea de características tensionales de varios meses de evolución. A la exploración física, se objetiva un examen neurológico dentro de la normalidad, sin signos meníngeos, con pares craneales conservados, fuerza muscular 5/5 y simétrica en las cuatro extremidades, sensibilidad intacta y coordinación y marcha normales. No se aprecian signos de focalidad. Se considera que la sintomatología es compatible con una cefalea tensional episódica. Se recomienda manejo con analgesia convencional y control del estrés. Para el seguimiento, se ha habilitado el acceso a su historia clínica digital a través de la plataforma XXX. Asimismo, se ha registrado el identificador de su expediente en el sistema regional: XXX. El dispositivo de monitorización de actividad entregado para el estudio del sueño, con número de serie **XXX**, ha sido configurado y se sincronizará automáticamente con nuestra unidad. Los números de identificación del seguro de salud asociados a la paciente son **XXX** y **XXX**. Este informe ha sido redactado por mi, **XXX**, especialista en Neurología. Para cualquier aclaración o gestión de citas posteriores, el centro dispone de un número de fax de contacto: **XXX**. La paciente tiene a su disposición los recursos de la **Clínica Barcelona**, cuya página web es XXX, donde puede encontrar información adicional y, si fuera necesario, solicitar una cita previa a través de XXX. La atención se presta dentro del territorio de **XXX**. Atentamente, **XXX** Médico Neuróloga. **XXX**.",
+  "text_length": 1728,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.9804083704948425,
+        "word": "Clínica Barcelona",
+        "start": 1470,
+        "end": 1487,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": "Clínica Barcelona",
+          "actual_text": "Clínica Barcelona",
+          "confidence": 0.9804083704948425,
+          "start": 1470,
+          "end": 1487,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": "Clínica Barcelona",
+          "actual_text": "Clínica Barcelona",
+          "confidence": 0.9804083704948425,
+          "start": 1470,
+          "end": 1487,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9259219765663147,
+        "word": "C",
+        "start": 1470,
+        "end": 1471,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.8975067138671875,
+        "word": "línica Barcelona",
+        "start": 1471,
+        "end": 1487,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CENTRO_SALUD": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": "C",
+          "actual_text": "C",
+          "confidence": 0.9259219765663147,
+          "start": 1470,
+          "end": 1471,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": "línica Barcelona",
+          "actual_text": "línica Barcelona",
+          "confidence": 0.8975067138671875,
+          "start": 1471,
+          "end": 1487,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": "C",
+          "actual_text": "C",
+          "confidence": 0.9259219765663147,
+          "start": 1470,
+          "end": 1471,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": "línica Barcelona",
+          "actual_text": "línica Barcelona",
+          "confidence": 0.8975067138671875,
+          "start": 1471,
+          "end": 1487,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "CENTRO_SALUD": 2
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": "Clínica Barcelona",
+        "actual_text": "Clínica Barcelona",
+        "confidence": 0.9804083704948425,
+        "start": 1470,
+        "end": 1487,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": "C",
+        "actual_text": "C",
+        "confidence": 0.9259219765663147,
+        "start": 1470,
+        "end": 1471,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": "línica Barcelona",
+        "actual_text": "línica Barcelona",
+        "confidence": 0.8975067138671875,
+        "start": 1471,
+        "end": 1487,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": "Clínica Barcelona",
+        "actual_text": "Clínica Barcelona",
+        "confidence": 0.9804083704948425,
+        "start": 1470,
+        "end": 1487,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": "C",
+        "actual_text": "C",
+        "confidence": 0.9259219765663147,
+        "start": 1470,
+        "end": 1471,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": "línica Barcelona",
+        "actual_text": "línica Barcelona",
+        "confidence": 0.8975067138671875,
+        "start": 1471,
+        "end": 1487,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

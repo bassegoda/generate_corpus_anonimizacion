@@ -1,0 +1,222 @@
+{
+  "document_id": "8d6a8793-a0cc-4633-9980-865f87822828",
+  "success": true,
+  "anonymized_text": "A continuación se presenta el informe de evolución correspondiente a la última consulta de control. La paciente XXX, de XXX de edad, acudió a revisión en consultas externas del XXX el día XXX. Se trata de una persona de sexo XXX que mantiene un buen control metabólico de su patología crónica, con hemoglobina glicosilada en 6.8% en la última determinación analítica. La exploración física realizada mostró tensión arterial de 128/76 mmHg y frecuencia cardíaca de 72 lpm. Se mantiene la pauta de tratamiento establecida anteriormente y se ha recomendado a la paciente continuar con el seguimiento en el XXX que viene atendiendo regularmente. Todos los documentos clínicos quedan registrados bajo el identificador XXX. Para cualquier consulta o acceso a resultados complementarios, la paciente puede utilizar el portal web XXX donde encontrará su información actualizada. La historia clínica electrónica completa está disponible a través de XXX. Cabe señalar que el vehículo particular de la paciente identificado con matrícula XXX dispone de autorización para el acceso preferente a la zona de consultas externas. Este centro, perteneciente a la XXX, mantiene su compromiso con la calidad asistencial. La paciente fue valorada por el XXX de referencia, quien confirmó la estabilidad del cuadro y programó el próximo control. XXX sigue siendo el país de residencia y atención sanitaria de la señora Méndez Iglesias, quien ejerce profesionalmente como XXX, circunstancia que favorece su excelente adherencia terapéutica y comprensión del proceso.",
+  "text_length": 1544,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_SUJETO_ASISTENCIA",
+        "score": 0.7925712466239929,
+        "word": " Méndez Iglesias",
+        "start": 1398,
+        "end": 1413,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_SUJETO_ASISTENCIA",
+          "word": " Méndez Iglesias",
+          "actual_text": "Méndez Iglesias",
+          "confidence": 0.7925712466239929,
+          "start": 1398,
+          "end": 1413,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_SUJETO_ASISTENCIA",
+          "word": " Méndez Iglesias",
+          "actual_text": "Méndez Iglesias",
+          "confidence": 0.7925712466239929,
+          "start": 1398,
+          "end": 1413,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9071812629699707,
+        "word": " clínica",
+        "start": 883,
+        "end": 890,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9682214856147766,
+        "word": " Méndez",
+        "start": 1398,
+        "end": 1404,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "NOMBRE_PERSONAL_SANITARIO": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.9071812629699707,
+          "start": 883,
+          "end": 890,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9682214856147766,
+          "start": 1398,
+          "end": 1404,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.9071812629699707,
+          "start": 883,
+          "end": 890,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9682214856147766,
+          "start": 1398,
+          "end": 1404,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NOMBRE_SUJETO_ASISTENCIA": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "NOMBRE_PERSONAL_SANITARIO": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NOMBRE_SUJETO_ASISTENCIA",
+        "word": " Méndez Iglesias",
+        "actual_text": "Méndez Iglesias",
+        "confidence": 0.7925712466239929,
+        "start": 1398,
+        "end": 1413,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.9071812629699707,
+        "start": 883,
+        "end": 890,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9682214856147766,
+        "start": 1398,
+        "end": 1404,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NOMBRE_SUJETO_ASISTENCIA",
+        "word": " Méndez Iglesias",
+        "actual_text": "Méndez Iglesias",
+        "confidence": 0.7925712466239929,
+        "start": 1398,
+        "end": 1413,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.9071812629699707,
+        "start": 883,
+        "end": 890,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9682214856147766,
+        "start": 1398,
+        "end": 1404,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

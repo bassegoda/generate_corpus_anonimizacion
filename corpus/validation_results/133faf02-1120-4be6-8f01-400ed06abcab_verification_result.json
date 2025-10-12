@@ -1,0 +1,124 @@
+{
+  "document_id": "133faf02-1120-4be6-8f01-400ed06abcab",
+  "success": true,
+  "anonymized_text": "**INFORME DE EVOLUCIÓN Y COORDINACIÓN ASISTENCIAL** Se elabora el presente informe de seguimiento para documentar la evolución del caso clínico identificado bajo el número de historia XXX. El manejo terapéutico actual se coordina desde el XXX, ubicado en la XXX, donde se centraliza la atención primaria. El plan de rehabilitación ha sido supervisado por el XXX asignado, cuyo número de identificación profesional es XXX. Tras la valoración, se considera que la evolución es favorable, con mejora significativa del rango de movimiento y de la fuerza muscular. Se recomienda continuar con el programa de ejercicios domiciliarios establecido. Previamente, el paciente fue valorado por el XXX con identificador XXX, quien determinó que la intervención quirúrgica había sido exitosa y no requería de revisiones adicionales en consultas externas de especializada. Ambos profesionales, XXX y XXX, poseen la titulación de XXX, cuyos números de colegiación son XXX y XXX, respectivamente. Para cualquier gestión o aclaración relacionada con este informe, puede utilizarse el número de fax XXX. Asimismo, la comunicación electrónica con el equipo asistencial puede realizarse a través de las direcciones de correo electrónico XXX y XXX. El número de beneficiario del plan de salud asociado a este proceso es NUM-2024-789012.",
+  "text_length": 1315,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.9505334496498108,
+        "word": "2024-789012",
+        "start": 1303,
+        "end": 1314,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "2024-789012",
+          "actual_text": "2024-789012",
+          "confidence": 0.9505334496498108,
+          "start": 1303,
+          "end": 1314,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "2024-789012",
+          "actual_text": "2024-789012",
+          "confidence": 0.9505334496498108,
+          "start": 1303,
+          "end": 1314,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "2024-789012",
+        "actual_text": "2024-789012",
+        "confidence": 0.9505334496498108,
+        "start": 1303,
+        "end": 1314,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "2024-789012",
+        "actual_text": "2024-789012",
+        "confidence": 0.9505334496498108,
+        "start": 1303,
+        "end": 1314,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "document_id": "1c9a4a3e-7d54-4edd-a0c0-e4a27dbc0eb1",
+  "success": true,
+  "anonymized_text": "En la valoración inicial se recoge la identificación de la persona asistida, cuyo nombre es XXX. Durante la anamnesis, la Sra. Méndez refirió su lugar de residencia actual en la XXX. Como parte de los procedimientos de seguridad del centro, se verificó su identidad mediante la XXX, que fue cotejada satisfactoriamente con los registros biométricos. En cuanto a los antecedentes personales, cabe destacar que la Sra. Méndez se encuentra realizando su formación como XXX en nuestro sistema sanitario. Su titulación académica, el XXX, fue obtenida en XXX, donde completó su formación universitaria. La exploración física realizada mostró hallazgos dentro de la normalidad, con constantes vitales estables y sin alteraciones en los distintos sistemas orgánicos. Los resultados analíticos evidenciaron un hemograma y bioquímica general dentro de parámetros normales. En las pruebas de imagen solicitadas no se observaron hallazgos patológicos significativos. Se mantendrá seguimiento ambulatorio según evolución clínica.",
+  "text_length": 1016,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_SUJETO_ASISTENCIA",
+        "score": 0.8412843942642212,
+        "word": " Méndez",
+        "start": 127,
+        "end": 133,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_SUJETO_ASISTENCIA",
+        "score": 0.8604462742805481,
+        "word": " Méndez",
+        "start": 417,
+        "end": 423,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_SUJETO_ASISTENCIA",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.8412843942642212,
+          "start": 127,
+          "end": 133,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_SUJETO_ASISTENCIA",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.8604462742805481,
+          "start": 417,
+          "end": 423,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_SUJETO_ASISTENCIA",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.8412843942642212,
+          "start": 127,
+          "end": 133,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_SUJETO_ASISTENCIA",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.8604462742805481,
+          "start": 417,
+          "end": 423,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.933176577091217,
+        "word": " Méndez",
+        "start": 127,
+        "end": 133,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9546899795532227,
+        "word": " Méndez",
+        "start": 417,
+        "end": 423,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.933176577091217,
+          "start": 127,
+          "end": 133,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9546899795532227,
+          "start": 417,
+          "end": 423,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.933176577091217,
+          "start": 127,
+          "end": 133,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9546899795532227,
+          "start": 417,
+          "end": 423,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NOMBRE_SUJETO_ASISTENCIA": 2,
+      "NOMBRE_PERSONAL_SANITARIO": 2
+    },
+    "entities_by_confidence": {
+      "high": 4,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NOMBRE_SUJETO_ASISTENCIA",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.8412843942642212,
+        "start": 127,
+        "end": 133,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_SUJETO_ASISTENCIA",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.8604462742805481,
+        "start": 417,
+        "end": 423,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.933176577091217,
+        "start": 127,
+        "end": 133,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9546899795532227,
+        "start": 417,
+        "end": 423,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NOMBRE_SUJETO_ASISTENCIA",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.8412843942642212,
+        "start": 127,
+        "end": 133,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_SUJETO_ASISTENCIA",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.8604462742805481,
+        "start": 417,
+        "end": 423,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.933176577091217,
+        "start": 127,
+        "end": 133,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9546899795532227,
+        "start": 417,
+        "end": 423,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

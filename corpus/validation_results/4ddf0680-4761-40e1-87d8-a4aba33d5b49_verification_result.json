@@ -1,0 +1,174 @@
+{
+  "document_id": "4ddf0680-4761-40e1-87d8-a4aba33d5b49",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa A la atención de la **XXX**. En la consulta realizada el **XXX**, se procede a la evaluación del paciente. La anamnesis y exploración física revelan un cuadro de dolor lumbar mecánico de características crónicas, sin signos de alarma neurológica. A la exploración, se objetiva una ligera limitación de la flexión lumbar, con un test de elevación de la pierna recta negativo bilateralmente. La fuerza, sensibilidad y reflejos osteotendinosos en miembros inferiores se mantienen preservados y simétricos. Se ha contactado con el paciente a través del **XXX** para comunicarle los resultados de las pruebas complementarias, las cuales incluyen una radiografía simple de columna lumbosacra que muestra signos degenerativos leves sin inestabilidad. Se recomienda programa de fisioterapia y control evolutivo. Para cualquier gestión administrativa o solicitud de documentación clínica, puede localizarme en el número **XXX**. Queda registrado en el sistema con el identificador **XXX**. Atentamente, **XXX** Especialista en Medicina Familiar y Comunitaria Nota: La correspondencia oficial debe ser dirigida a **XXX**, mientras que la consulta física se encuentra ubicada en ** de Alcalá 120**.",
+  "text_length": 1215,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.9097860455513,
+        "word": " de Alcalá 120",
+        "start": 1199,
+        "end": 1212,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " de Alcalá 120",
+          "actual_text": "de Alcalá 120",
+          "confidence": 0.9097860455513,
+          "start": 1199,
+          "end": 1212,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " de Alcalá 120",
+          "actual_text": "de Alcalá 120",
+          "confidence": 0.9097860455513,
+          "start": 1199,
+          "end": 1212,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.9349418878555298,
+        "word": " ** de Alcalá 120**",
+        "start": 1196,
+        "end": 1214,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " ** de Alcalá 120**",
+          "actual_text": "** de Alcalá 120**",
+          "confidence": 0.9349418878555298,
+          "start": 1196,
+          "end": 1214,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " ** de Alcalá 120**",
+          "actual_text": "** de Alcalá 120**",
+          "confidence": 0.9349418878555298,
+          "start": 1196,
+          "end": 1214,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CALLE": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CALLE",
+        "word": " de Alcalá 120",
+        "actual_text": "de Alcalá 120",
+        "confidence": 0.9097860455513,
+        "start": 1199,
+        "end": 1212,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " ** de Alcalá 120**",
+        "actual_text": "** de Alcalá 120**",
+        "confidence": 0.9349418878555298,
+        "start": 1196,
+        "end": 1214,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CALLE",
+        "word": " de Alcalá 120",
+        "actual_text": "de Alcalá 120",
+        "confidence": 0.9097860455513,
+        "start": 1199,
+        "end": 1212,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " ** de Alcalá 120**",
+        "actual_text": "** de Alcalá 120**",
+        "confidence": 0.9349418878555298,
+        "start": 1196,
+        "end": 1214,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

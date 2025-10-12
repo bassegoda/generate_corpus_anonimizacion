@@ -1,0 +1,175 @@
+{
+  "document_id": "e77fda06-a85f-4605-97c9-3b7016cd4c93",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución Hospitalaria** La paciente, identificada con el número de beneficiario del plan de salud XXX, presenta una evolución favorable del cuadro por el que ingresó. Se mantiene hemodinámicamente estable y refiere mejoría significativa de la sintomatología inicial. La exploración física actual es anodina, con auscultación cardiorrespiratoria sin hallazgos patológicos y abdomen blando y depresible. Se ha contactado con su familiar de referencia, XXX, para coordinar el alta y los cuidados posteriores. El manejo del caso se ajusta a los protocolos clínicos establecidos en la XXX. Todos los hallazgos y la evolución han sido registrados bajo el código XXX en su historia clínica electrónica. Para cualquier cuestión logística o clínica relacionada con este episodio, queda a disposición el correo electrónico institucional XXX. Se procederá a completar la preparación del alta hospitalaria.",
+  "text_length": 905,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8234469890594482,
+        "word": " familiar de referencia,",
+        "start": 437,
+        "end": 460,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de referencia,",
+          "actual_text": "familiar de referencia,",
+          "confidence": 0.8234469890594482,
+          "start": 437,
+          "end": 460,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de referencia,",
+          "actual_text": "familiar de referencia,",
+          "confidence": 0.8234469890594482,
+          "start": 437,
+          "end": 460,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8094757199287415,
+        "word": " historia clínica electrónica",
+        "start": 677,
+        "end": 705,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica electrónica",
+          "actual_text": "historia clínica electrónica",
+          "confidence": 0.8094757199287415,
+          "start": 677,
+          "end": 705,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica electrónica",
+          "actual_text": "historia clínica electrónica",
+          "confidence": 0.8094757199287415,
+          "start": 677,
+          "end": 705,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de referencia,",
+        "actual_text": "familiar de referencia,",
+        "confidence": 0.8234469890594482,
+        "start": 437,
+        "end": 460,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica electrónica",
+        "actual_text": "historia clínica electrónica",
+        "confidence": 0.8094757199287415,
+        "start": 677,
+        "end": 705,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de referencia,",
+        "actual_text": "familiar de referencia,",
+        "confidence": 0.8234469890594482,
+        "start": 437,
+        "end": 460,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica electrónica",
+        "actual_text": "historia clínica electrónica",
+        "confidence": 0.8094757199287415,
+        "start": 677,
+        "end": 705,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "document_id": "e5ee87b5-38d6-49cd-aa51-5b1acfc66a30",
+  "success": true,
+  "anonymized_text": "A continuación se presenta el informe de evolución correspondiente al ingreso del paciente. El cuadro actual se inició aproximadamente setenta y dos horas antes de su valoración en el servicio de urgencias, caracterizado por un síndrome constitucional progresivo. La exploración física al ingreso reveló un estado general conservado, con tensión arterial de 135/80 mmHg y frecuencia cardíaca de 88 lpm. La auscultación cardiorrespiratoria resultó dentro de los límites de la normalidad, sin soplos ni ruidos sobreañadidos. El abdomen era blando y depresible, no doloroso a la palpación superficial y profunda. Los hallazgos analíticos, con hemograma y bioquímica básica sin alteraciones significativas, junto con una radiografía de tórax sin hallazgos patológicos, permitieron descartar inicialmente complicaciones mayores. Dada la evolución favorable y la estabilidad clínica mantenida durante la observación, se procedió al alta hospitalaria con recomendaciones generales. Este episodio asistencial tuvo lugar en General de Madrid el XXX. Para el seguimiento ambulatorio especializado, se ha remitido la documentación clínica pertinente al XXX, con el fin de garantizar la continuidad asistencial. El manejo global de este proceso se ha realizado de acuerdo con los protocolos clínicos estandarizados vigentes en XXX. Se recomienda vigilancia del estado general y control analítico en el plazo de un mes.",
+  "text_length": 1406,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.7734780311584473,
+        "word": " General de Madrid",
+        "start": 1015,
+        "end": 1032,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.7734780311584473,
+          "start": 1015,
+          "end": 1032,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.7734780311584473,
+          "start": 1015,
+          "end": 1032,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.8500418663024902,
+        "word": " General de Madrid",
+        "start": 1015,
+        "end": 1032,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "TERRITORIO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "TERRITORIO",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.8500418663024902,
+          "start": 1015,
+          "end": 1032,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "TERRITORIO",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.8500418663024902,
+          "start": 1015,
+          "end": 1032,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "TERRITORIO": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.7734780311584473,
+        "start": 1015,
+        "end": 1032,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.8500418663024902,
+        "start": 1015,
+        "end": 1032,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.7734780311584473,
+        "start": 1015,
+        "end": 1032,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.8500418663024902,
+        "start": 1015,
+        "end": 1032,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "document_id": "d5800ef3-7097-47e7-a92a-8f9d1185e8b2",
+  "success": true,
+  "anonymized_text": "En el contexto del seguimiento del caso, se procede a la elaboración del presente informe de evolución. La situación clínica se mantiene estable, sin cambios significativos en la exploración física que revele complicaciones inmediatas. Los parámetros analíticos de control, incluyendo hemograma y perfil bioquímico básico, se sitúan dentro de rangos de normalidad. Respecto a la prueba de imagen complementaria realizada, la radiografía simple de tórax no muestra hallazgos patológicos agudos. Para cualquier comunicación formal o envío de documentación complementaria desde el extranjero, se ha facilitado el contacto de la central de documentación sanitaria en el XXX, cuyo es XXX. Es imperativo que en toda la correspondencia se haga referencia al código XXX para una correcta identificación y archivo del expediente. Se mantendrá una actitud expectante, programando una nueva valoración para reevaluar la situación de acuerdo con la evolución clínica previsible.",
+  "text_length": 966,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.9041653871536255,
+        "word": " central",
+        "start": 625,
+        "end": 632,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " central",
+          "actual_text": "central",
+          "confidence": 0.9041653871536255,
+          "start": 625,
+          "end": 632,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " central",
+          "actual_text": "central",
+          "confidence": 0.9041653871536255,
+          "start": 625,
+          "end": 632,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " central",
+        "actual_text": "central",
+        "confidence": 0.9041653871536255,
+        "start": 625,
+        "end": 632,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " central",
+        "actual_text": "central",
+        "confidence": 0.9041653871536255,
+        "start": 625,
+        "end": 632,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

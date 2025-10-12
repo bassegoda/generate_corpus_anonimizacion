@@ -1,0 +1,221 @@
+{
+  "document_id": "89ab3646-93c0-4d41-bb1c-47fe94f75396",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Quirúrgica Se realiza valoración preoperatoria del paciente identificado con el documento XXX. El cuadro clínico actual fue explicado en detalle al familiar acompañante, XXX del paciente, quien manifestó comprensión sobre el procedimiento propuesto y los riesgos asociados. La exploración física revela abdomen blando y depresible, sin masas palpables ni signos de irritación peritoneal. Los ruidos hidroaéreos están presentes en los cuatro cuadrantes. La analítica preoperatoria muestra un hemograma dentro de parámetros normales y función hepática conservada. En la ecografía abdominal se identifica una imagen compatible con colelitiasis, sin evidencia de dilatación de la vía biliar principal. Para la intervención quirúrgica programada, se ha designado como XXX principal a la XXX, profesional con amplia experiencia en este tipo de procedimientos. La XXX cuenta con la titulación de XXX y su identificación profesional es XXX. Cualquier actualización del estado clínico será comunicada directamente al número de teléfono XXX, que figura como contacto principal. Alternativamente, también puede utilizarse el XXX para urgencias relacionadas con este proceso. El paciente tiene registrado el número de beneficiario del plan de salud XXX. Se verificó que la dirección de correspondencia es XXX, donde reside actualmente. Para la autorización de ingreso se requerirá presentar la documentación del vehículo con placa XXX, que será estacionado en las instalaciones habilitadas para tal fin en XXX durante el periodo de hospitalización. La secretaria del servicio, XXX, se encargará de coordinar la documentación administrativa necesaria para el procedimiento. Se considera que el paciente es candidato adecuado para la intervención quirúrgica planteada, habiéndose cumplido todos los requisitos previos de evaluación.",
+  "text_length": 1840,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9479804039001465,
+        "word": " familiar acompañante,",
+        "start": 170,
+        "end": 191,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7018798589706421,
+        "word": " vehículo",
+        "start": 1422,
+        "end": 1430,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar acompañante,",
+          "actual_text": "familiar acompañante,",
+          "confidence": 0.9479804039001465,
+          "start": 170,
+          "end": 191,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.7018798589706421,
+          "start": 1422,
+          "end": 1430,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar acompañante,",
+          "actual_text": "familiar acompañante,",
+          "confidence": 0.9479804039001465,
+          "start": 170,
+          "end": 191,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.7018798589706421,
+          "start": 1422,
+          "end": 1430,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9121285080909729,
+        "word": " familiar acompañante",
+        "start": 170,
+        "end": 190,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar acompañante",
+          "actual_text": "familiar acompañante",
+          "confidence": 0.9121285080909729,
+          "start": 170,
+          "end": 190,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar acompañante",
+          "actual_text": "familiar acompañante",
+          "confidence": 0.9121285080909729,
+          "start": 170,
+          "end": 190,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar acompañante,",
+        "actual_text": "familiar acompañante,",
+        "confidence": 0.9479804039001465,
+        "start": 170,
+        "end": 191,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.7018798589706421,
+        "start": 1422,
+        "end": 1430,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar acompañante",
+        "actual_text": "familiar acompañante",
+        "confidence": 0.9121285080909729,
+        "start": 170,
+        "end": 190,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar acompañante,",
+        "actual_text": "familiar acompañante,",
+        "confidence": 0.9479804039001465,
+        "start": 170,
+        "end": 191,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.7018798589706421,
+        "start": 1422,
+        "end": 1430,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar acompañante",
+        "actual_text": "familiar acompañante",
+        "confidence": 0.9121285080909729,
+        "start": 170,
+        "end": 190,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

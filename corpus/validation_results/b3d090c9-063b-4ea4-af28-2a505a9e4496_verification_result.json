@@ -1,0 +1,124 @@
+{
+  "document_id": "b3d090c9-063b-4ea4-af28-2a505a9e4496",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE CARDIOLOGÍA** Fecha de la consulta: XXX. Se revisa al paciente que acude remitido desde su XXX para valoración y seguimiento de su cardiopatía estructural. El sujeto de asistencia, con una edad de XXX, presenta un identificador de beneficiario XXX. En el contexto de su cardiopatía hipertensiva, se ha realizado un seguimiento ecocardiográfico que muestra una ligera mejoría en la fracción de eyección del ventrículo izquierdo, situándose ahora en un 50%, con persistencia de hipertrofia concéntrica del ventrículo izquierdo y función diastólica grado I. La tensión arterial en consulta se sitúa en 132/78 mmHg. Se mantiene tratamiento farmacológico optimizado con buen cumplimiento terapéutico. Se procede a la solicitud de una prueba de monitorización ambulatoria de la presión arterial (MAPA) para un mejor control de las cifras tensionales. La petición ha sido registrada con el número de identificación XXX. Para la coordinación de esta prueba con el centro de origen, se ha utilizado el número de fax XXX, perteneciente a la XXX, que es la institución responsable de la gestión de su plan de salud, con número de beneficio XXX. Los resultados de la analítica reciente, con número de identificación XXX, muestran un perfil lipídico dentro de objetivos, con LDL de 75 mg/dl, y función renal estable. Se recomienda continuar con el plan terapéutico actual y se citará para control en consultas externas de este XXX tras la recepción de los resultados de la MAPA. Para cualquier gestión administrativa, la dirección de contacto es XXX. La comunicación entre los servicios puede realizarse a través del correo electrónico XXX y XXX.",
+  "text_length": 1666,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.9540867805480957,
+        "word": " y XXX",
+        "start": 297,
+        "end": 302,
+        "chunk_id": 1,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " y XXX",
+          "actual_text": "de su",
+          "confidence": 0.9540867805480957,
+          "start": 297,
+          "end": 302,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " y XXX",
+          "actual_text": "de su",
+          "confidence": 0.9540867805480957,
+          "start": 297,
+          "end": 302,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CALLE": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CALLE",
+        "word": " y XXX",
+        "actual_text": "de su",
+        "confidence": 0.9540867805480957,
+        "start": 297,
+        "end": 302,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CALLE",
+        "word": " y XXX",
+        "actual_text": "de su",
+        "confidence": 0.9540867805480957,
+        "start": 297,
+        "end": 302,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

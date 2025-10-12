@@ -1,0 +1,124 @@
+{
+  "document_id": "7150f182-a962-417e-ba8a-fac1a180d1ec",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución Hospitalaria** A continuación se presenta la evolución de la paciente **XXX**, identificada con el número de historia **XXX**, correspondiente al día **XXX**. La paciente, cuyo domicilio se encuentra en la **XXX**, fue valorada en consultas externas. Como parte del protocolo de identificación, se verificó su perfil biométrico mediante la **XXX**, la cual coincidió con los registros del sistema. Para cualquier consulta, su historia clínica digital completa está disponible en **XXX**. En el apartado de contacto, se ha registrado el **XXX** como número de teléfono principal para comunicación con la paciente. En cuanto a su situación de aseguramiento, los números de identificación activos son **XXX** y **XXX**. Respecto a su entorno familiar y de apoyo, se ha designado como persona de contacto y familiar implicado en su asistencia a **XXX**, quien reside en la **XXX**. Cabe mencionar que en la documentación también aparece la señora **XXX**, con documento de identidad **XXX**, como otro familiar de referencia. La paciente es originaria de la **XXX**. El profesional que firma esta nota, cuyo número de identificación profesional es **XXX**, es Licenciado con un **XXX**.",
+  "text_length": 1202,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9736825227737427,
+        "word": " familiar",
+        "start": 823,
+        "end": 831,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9736825227737427,
+          "start": 823,
+          "end": 831,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9736825227737427,
+          "start": 823,
+          "end": 831,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9736825227737427,
+        "start": 823,
+        "end": 831,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9736825227737427,
+        "start": 823,
+        "end": 831,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

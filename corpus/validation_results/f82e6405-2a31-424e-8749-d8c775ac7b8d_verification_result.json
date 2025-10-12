@@ -1,0 +1,124 @@
+{
+  "document_id": "f82e6405-2a31-424e-8749-d8c775ac7b8d",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Geriátrica Integral El sujeto de asistencia, de sexo XXX, se presenta para valoración geriátrica integral. Durante la anamnesis, se recopilan los datos identificativos correspondientes, incluyendo el documento nacional de identidad XXX. La exploración física muestra un paciente consciente y orientado, con adecuado estado nutricional y funcionalidad preservada para las actividades básicas de la vida diaria. Los resultados analíticos evidencian un perfil bioquímico dentro de parámetros aceptables para su grupo de edad, con hemograma sin alteraciones significativas y función renal conservada. En la valoración cognitiva mediante test de cribado, no se detectan deterioros significativos, manteniendo adecuada capacidad de juicio y toma de decisiones. Se establece contacto telefónico de referencia a través del número XXX para coordinación con los recursos sociosanitarios. El seguimiento del caso será realizado por la XXX, facultativa especialista en geriatría, con número de identificación profesional XXX. En situaciones de ausencia o incapacidad temporal, la XXX actuará como XXX facultativo sustituto. La documentación clínica se tramita conforme a los protocolos establecidos por el XXX para la atención integral a personas mayores. Se recomienda continuar con el plan terapéutico actual y programar reevaluación en seis meses, manteniendo la vigilancia sobre posibles cambios funcionales o cognitivos.",
+  "text_length": 1435,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.939663290977478,
+        "word": " documento nacional de identidad",
+        "start": 222,
+        "end": 253,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad",
+          "actual_text": "documento nacional de identidad",
+          "confidence": 0.939663290977478,
+          "start": 222,
+          "end": 253,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad",
+          "actual_text": "documento nacional de identidad",
+          "confidence": 0.939663290977478,
+          "start": 222,
+          "end": 253,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad",
+        "actual_text": "documento nacional de identidad",
+        "confidence": 0.939663290977478,
+        "start": 222,
+        "end": 253,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad",
+        "actual_text": "documento nacional de identidad",
+        "confidence": 0.939663290977478,
+        "start": 222,
+        "end": 253,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

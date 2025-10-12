@@ -1,0 +1,124 @@
+{
+  "document_id": "2252db75-212b-439c-8ccc-c75a26ce587c",
+  "success": true,
+  "anonymized_text": "Informe de Interconsulta Se remite a valoración por parte del XXX de guardia para evaluación de cuadro abdominal agudo. El paciente, de XXX, refiere dolor en fosa iliaca derecha de 24 horas de evolución. La exploración física revela dolor a la palpación profunda en punto de McBurney con signo de Blumberg positivo. Analíticamente presenta leucocitosis con desviación izquierda. En la ecografía abdominal se identifica una imagen compatible con apendicitis flemonosa. Se ha procedido a contactar con el profesional de referencia, la XXX, para coordinar la posible intervención. Se ha facilitado el número de contacto XXX al familiar para cualquier consulta durante el proceso. El dispositivo médico implantable, con número de serie XXX, no presenta incidencias en el preoperatorio. Para la identificación del vehículo de transporte sanitario se ha registrado la placa XXX. Los resultados complementarios estarán disponibles a través de nuestro portal XXX utilizando el código XXX. El número de identificación del seguro es XXX y el número de serie del equipo de monitorización utilizado es XXX.",
+  "text_length": 1094,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9875801205635071,
+        "word": " familiar",
+        "start": 624,
+        "end": 632,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9875801205635071,
+          "start": 624,
+          "end": 632,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9875801205635071,
+          "start": 624,
+          "end": 632,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9875801205635071,
+        "start": 624,
+        "end": 632,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9875801205635071,
+        "start": 624,
+        "end": 632,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

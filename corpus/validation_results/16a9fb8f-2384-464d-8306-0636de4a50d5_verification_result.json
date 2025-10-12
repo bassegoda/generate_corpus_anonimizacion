@@ -1,0 +1,220 @@
+{
+  "document_id": "16a9fb8f-2384-464d-8306-0636de4a50d5",
+  "success": true,
+  "anonymized_text": "Paciente identificada con el número de historia XXX. La asistente, cuyo número de teléfono de contacto es XXX, se personó para la consulta de seguimiento. Se verificó la identidad mediante el documento nacional de identidad XXX, correspondiente a XXX, cuyo sexo es XXX y procede de la XXX. En relación con el proceso actual, se revisaron los estudios complementarios realizados bajo el código de procedimiento XXX. Los hallazgos de la resonancia magnética fueron compatibles con cambios degenerativos incipientes en columna lumbar, sin evidencia de compresión radicular significativa. Los parámetros analíticos se encontraban dentro de los límites de la normalidad, con perfil tiroideo y metabólico básico sin alteraciones. El dispositivo médico implantado, identificado con el número de serie XXX, mantiene adecuado funcionamiento según el último control técnico. Para acceso a la documentación clínica completa, se ha habilitado la plataforma XXX donde podrá consultar los informes de evolución. Asimismo, los resultados de las pruebas complementarias están disponibles mediante acceso telemático a través de XXX utilizando su número de identificación XXX. El equipo asistencial asignado, identificado con el código profesional -7342, mantendrá la supervisión periódica del caso. Se recomienda continuar con el plan terapéutico establecido y control clínico en consultas externas según protocolo.",
+  "text_length": 1398,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9073930382728577,
+        "word": " documento nacional de identidad",
+        "start": 192,
+        "end": 223,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad",
+          "actual_text": "documento nacional de identidad",
+          "confidence": 0.9073930382728577,
+          "start": 192,
+          "end": 223,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad",
+          "actual_text": "documento nacional de identidad",
+          "confidence": 0.9073930382728577,
+          "start": 192,
+          "end": 223,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9871810078620911,
+        "word": " -",
+        "start": 1230,
+        "end": 1231,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.804633617401123,
+        "word": "7",
+        "start": 1231,
+        "end": 1232,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " -",
+          "actual_text": "-",
+          "confidence": 0.9871810078620911,
+          "start": 1230,
+          "end": 1231,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "7",
+          "actual_text": "7",
+          "confidence": 0.804633617401123,
+          "start": 1231,
+          "end": 1232,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " -",
+          "actual_text": "-",
+          "confidence": 0.9871810078620911,
+          "start": 1230,
+          "end": 1231,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "7",
+          "actual_text": "7",
+          "confidence": 0.804633617401123,
+          "start": 1231,
+          "end": 1232,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "NUMERO_TELEFONO": 2
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad",
+        "actual_text": "documento nacional de identidad",
+        "confidence": 0.9073930382728577,
+        "start": 192,
+        "end": 223,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " -",
+        "actual_text": "-",
+        "confidence": 0.9871810078620911,
+        "start": 1230,
+        "end": 1231,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "7",
+        "actual_text": "7",
+        "confidence": 0.804633617401123,
+        "start": 1231,
+        "end": 1232,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad",
+        "actual_text": "documento nacional de identidad",
+        "confidence": 0.9073930382728577,
+        "start": 192,
+        "end": 223,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " -",
+        "actual_text": "-",
+        "confidence": 0.9871810078620911,
+        "start": 1230,
+        "end": 1231,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "7",
+        "actual_text": "7",
+        "confidence": 0.804633617401123,
+        "start": 1231,
+        "end": 1232,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

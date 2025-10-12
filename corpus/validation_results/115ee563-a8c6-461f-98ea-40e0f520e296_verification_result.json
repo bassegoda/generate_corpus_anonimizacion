@@ -1,0 +1,175 @@
+{
+  "document_id": "115ee563-a8c6-461f-98ea-40e0f520e296",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE CARDIOCIRUGÍA** Fecha de elaboración del informe: XXX. Paciente: XXX, con identificación asistencial XXX. Sexo XXX y nacionalidad XXX. La paciente es remitida a esta consulta de Cirugía Cardiovascular para valoración tras estudios complementarios realizados. En la exploración física actual, se ausculta un soplo sistólico eyectivo en foco aórtico, grado II/VI. Los pulsos periféricos son simétricos y normales. La tensión arterial es de 125/70 mmHg. No se observan edemas en miembros inferiores. Se revisa la documentación clínica previa disponible en el sistema de la XXX. Los estudios ecocardiográficos evidencian una estenosis aórtica severa con gradiente medio de 45 mmHg y área valvular calculada de 0.9 cm². La función ventricular izquierda se conserva con una fracción de eyección del 60%. Se considera que la paciente es candidata a intervención quirúrgica. Se ha programado la realización de un cateterismo cardíaco previo para completar el estudio hemodinámico. Se explicó a la paciente y a su familiar, XXX, la naturaleza de la intervención propuesta, los riesgos asociados y los beneficios esperados, resolviendo todas sus dudas. Se procedió a la firma del correspondiente consentimiento informado. La paciente será ingresada para la intervención programada, que será realizada por el XXX Dr. **XXX**. Se coordinará el procedimiento con el equipo de cirugía y anestesiología. **Datos de identificación asistencial:** - Número de identificación del paciente: **XXX** - Número de identificación del sujeto de asistencia: **XXX** Se recomienda continuar con la medicación actual hasta el ingreso. Identificador del contacto asistencial asignado: XXX.",
+  "text_length": 1693,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9866914749145508,
+        "word": " familiar,",
+        "start": 1038,
+        "end": 1047,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar,",
+          "actual_text": "familiar,",
+          "confidence": 0.9866914749145508,
+          "start": 1038,
+          "end": 1047,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar,",
+          "actual_text": "familiar,",
+          "confidence": 0.9866914749145508,
+          "start": 1038,
+          "end": 1047,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.705154538154602,
+        "word": " **",
+        "start": 1339,
+        "end": 1341,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.705154538154602,
+          "start": 1339,
+          "end": 1341,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.705154538154602,
+          "start": 1339,
+          "end": 1341,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "NOMBRE_PERSONAL_SANITARIO": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar,",
+        "actual_text": "familiar,",
+        "confidence": 0.9866914749145508,
+        "start": 1038,
+        "end": 1047,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.705154538154602,
+        "start": 1339,
+        "end": 1341,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar,",
+        "actual_text": "familiar,",
+        "confidence": 0.9866914749145508,
+        "start": 1038,
+        "end": 1047,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.705154538154602,
+        "start": 1339,
+        "end": 1341,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

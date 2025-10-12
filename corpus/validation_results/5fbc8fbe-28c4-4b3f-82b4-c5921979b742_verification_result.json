@@ -1,0 +1,219 @@
+{
+  "document_id": "5fbc8fbe-28c4-4b3f-82b4-c5921979b742",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE GERIATRÍA** Fecha de la consulta: XXX A quien corresponda: Se evalúa en consulta externa a paciente de sexo XXX con seguimiento en nuestro servicio. La paciente, que actualmente cuenta con XXX, mantiene un buen control de sus patologías crónicas. Cabe destacar que reside en la XXX, XXX, aunque inicialmente comenzó su seguimiento en nuestro centro cuando contaba con XXX. En la exploración física actual se objetiva: tensión arterial 135/80 mmHg, frecuencia cardíaca 68 lpm, saturación de oxígeno 96%. Auscultación cardiorrespiratoria sin soplos ni crepitantes. Abdomen blando y depresible sin masas palpables. Estado cognitivo conservado en la evaluación breve. Los resultados analíticos recientes muestran hemograma dentro de rangos normales, función renal y hepática preservadas, y perfil lipídico adecuadamente controlado con la medicación actual. Se mantiene el plan terapéutico establecido y se recomienda seguimiento periódico. Para cualquier gestión o coordinación, puede utilizarse el teléfono XXX o alternativamente el XXX. También está disponible el correo electrónico XXX para comunicación no urgente. La documentación clínica completa queda registrada en la dirección de historia clínica electrónica: XXX donde podrá consultarse la evolución detallada. Atentamente, XXX Especialista en Geriatría *Nota: Este documento cumple con los protocolos establecidos por el XXX para la historia clínica electrónica interterritorial.*",
+  "text_length": 1470,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.718740701675415,
+        "word": " teléfono",
+        "start": 1028,
+        "end": 1036,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " teléfono",
+          "actual_text": "teléfono",
+          "confidence": 0.718740701675415,
+          "start": 1028,
+          "end": 1036,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " teléfono",
+          "actual_text": "teléfono",
+          "confidence": 0.718740701675415,
+          "start": 1028,
+          "end": 1036,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8226577043533325,
+        "word": " historia clínica electrónica:",
+        "start": 1218,
+        "end": 1247,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9351120591163635,
+        "word": " historia clínica electrónica inter",
+        "start": 1423,
+        "end": 1457,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica electrónica:",
+          "actual_text": "historia clínica electrónica:",
+          "confidence": 0.8226577043533325,
+          "start": 1218,
+          "end": 1247,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica electrónica inter",
+          "actual_text": "historia clínica electrónica inter",
+          "confidence": 0.9351120591163635,
+          "start": 1423,
+          "end": 1457,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica electrónica:",
+          "actual_text": "historia clínica electrónica:",
+          "confidence": 0.8226577043533325,
+          "start": 1218,
+          "end": 1247,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica electrónica inter",
+          "actual_text": "historia clínica electrónica inter",
+          "confidence": 0.9351120591163635,
+          "start": 1423,
+          "end": 1457,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 3
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " teléfono",
+        "actual_text": "teléfono",
+        "confidence": 0.718740701675415,
+        "start": 1028,
+        "end": 1036,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica electrónica:",
+        "actual_text": "historia clínica electrónica:",
+        "confidence": 0.8226577043533325,
+        "start": 1218,
+        "end": 1247,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica electrónica inter",
+        "actual_text": "historia clínica electrónica inter",
+        "confidence": 0.9351120591163635,
+        "start": 1423,
+        "end": 1457,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " teléfono",
+        "actual_text": "teléfono",
+        "confidence": 0.718740701675415,
+        "start": 1028,
+        "end": 1036,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica electrónica:",
+        "actual_text": "historia clínica electrónica:",
+        "confidence": 0.8226577043533325,
+        "start": 1218,
+        "end": 1247,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica electrónica inter",
+        "actual_text": "historia clínica electrónica inter",
+        "confidence": 0.9351120591163635,
+        "start": 1423,
+        "end": 1457,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "document_id": "f905b93f-69f8-412f-a423-c3c6e5b351cf",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada en nuestro centro, se presenta un paciente de XXX que ingresa para estudio y manejo de su patología actual. El sujeto de asistencia, identificado con el número de historia clínica XXX, porta el documento de identificación XXX. Durante la anamnesis, se verifica su cobertura sanitaria a través del número de beneficio del plan de salud XXX, correspondiente al de la XXX. La exploración física al ingreso muestra un estado general conservado, con tensión arterial de 135/80 mmHg y frecuencia cardíaca de 68 lpm. No se aprecian soplos cardíacos ni ruidos respiratorios patológicos. En la analítica realizada se observa una glucemia basal de 110 mg/dl y perfil lipídico dentro de rangos aceptables. La resonancia magnética cerebral informa de cambios crónicos microvasculares sin evidencia de lesiones agudas. Para la coordinación de su asistencia, queda registrado el contacto asistencial XXX. Cabe mencionar que este episodio queda vinculado a la historia principal con referencia XXX. Todo el proceso asistencial se desarrolla en General de Madrid, donde el paciente cuenta con identificación de aseguramiento XXX. La documentación clínica completa está disponible a través de la dirección de protocolo de internet XXX para consulta por parte del equipo multidisciplinar involucrado en su manejo.",
+  "text_length": 1330,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.9419491291046143,
+        "word": " General",
+        "start": 1064,
+        "end": 1071,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.9531307816505432,
+        "word": " Madrid",
+        "start": 1075,
+        "end": 1081,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "TERRITORIO": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "TERRITORIO",
+          "word": " General",
+          "actual_text": "General",
+          "confidence": 0.9419491291046143,
+          "start": 1064,
+          "end": 1071,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "TERRITORIO",
+          "word": " Madrid",
+          "actual_text": "Madrid",
+          "confidence": 0.9531307816505432,
+          "start": 1075,
+          "end": 1081,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "TERRITORIO",
+          "word": " General",
+          "actual_text": "General",
+          "confidence": 0.9419491291046143,
+          "start": 1064,
+          "end": 1071,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "TERRITORIO",
+          "word": " Madrid",
+          "actual_text": "Madrid",
+          "confidence": 0.9531307816505432,
+          "start": 1075,
+          "end": 1081,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.9846200346946716,
+        "word": " General de Madrid",
+        "start": 1064,
+        "end": 1081,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "TERRITORIO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "TERRITORIO",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9846200346946716,
+          "start": 1064,
+          "end": 1081,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "TERRITORIO",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9846200346946716,
+          "start": 1064,
+          "end": 1081,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "TERRITORIO": 3
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "TERRITORIO",
+        "word": " General",
+        "actual_text": "General",
+        "confidence": 0.9419491291046143,
+        "start": 1064,
+        "end": 1071,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " Madrid",
+        "actual_text": "Madrid",
+        "confidence": 0.9531307816505432,
+        "start": 1075,
+        "end": 1081,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9846200346946716,
+        "start": 1064,
+        "end": 1081,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "TERRITORIO",
+        "word": " General",
+        "actual_text": "General",
+        "confidence": 0.9419491291046143,
+        "start": 1064,
+        "end": 1071,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " Madrid",
+        "actual_text": "Madrid",
+        "confidence": 0.9531307816505432,
+        "start": 1075,
+        "end": 1081,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9846200346946716,
+        "start": 1064,
+        "end": 1081,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

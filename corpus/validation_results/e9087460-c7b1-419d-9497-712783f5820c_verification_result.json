@@ -1,0 +1,268 @@
+{
+  "document_id": "e9087460-c7b1-419d-9497-712783f5820c",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA DE ONCOLOGÍA QUIRÚRGICA** Paciente que acude a consulta externa para seguimiento oncológico. Se trata de XXX, con identificación XXX, quien presenta una evolución favorable tras el procedimiento quirúrgico realizado el mes pasado. La paciente tiene XXX y su estado general es satisfactorio. En la exploración física actual se evidencia cicatrización adecuada de la herida quirúrgica, sin signos de infección ni complicaciones locales. La auscultación cardiorrespiratoria es normal y el abdomen es blando y depresible. Los parámetros analíticos recientes muestran una hemoglobina de 12.8 g/dL y leucocitos dentro de rangos normales. La tomografía computarizada de control no muestra evidencias de enfermedad residual ni metástasis a distancia. Se ha coordinado con el XXX para su seguimiento psicosocial y se ha proporcionado material informativo adicional disponible a través de XXX. La paciente ha manifestado sentirse muy apoyada por su familiar XXX, quien la acompaña en todas las consultas. La paciente ha sido evaluada tanto por el XXX tratante como por el XXX que realizó la intervención, confirmando ambos la evolución satisfactoria. Documentación: Se verifica la identidad con DNI XXX y el número de historia XXX. Para cualquier gestión, pueden contactar al número de teléfono XXX. La paciente ha sido informada sobre los resultados y muestra buena comprensión del plan terapéutico. Se recomienda continuar con el programa de revisiones periódicas establecido. Atentamente, XXX Especialista en Oncología Quirúrgica Número de colegiado: XXX Nota: Este documento cumple con los protocolos establecidos por el XXX para la documentación clínica.",
+  "text_length": 1671,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9864945411682129,
+        "word": " familiar XXX",
+        "start": 961,
+        "end": 973,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7059761881828308,
+        "word": " DNI XXX",
+        "start": 1207,
+        "end": 1214,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.9864945411682129,
+          "start": 961,
+          "end": 973,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " DNI XXX",
+          "actual_text": "DNI XXX",
+          "confidence": 0.7059761881828308,
+          "start": 1207,
+          "end": 1214,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.9864945411682129,
+          "start": 961,
+          "end": 973,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " DNI XXX",
+          "actual_text": "DNI XXX",
+          "confidence": 0.7059761881828308,
+          "start": 1207,
+          "end": 1214,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7212614417076111,
+        "word": " familiar XXX",
+        "start": 961,
+        "end": 973,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PROFESION",
+        "score": 0.8657062649726868,
+        "word": " en Oncología Quirúrgica",
+        "start": 1521,
+        "end": 1544,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1,
+        "PROFESION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.7212614417076111,
+          "start": 961,
+          "end": 973,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " en Oncología Quirúrgica",
+          "actual_text": "en Oncología Quirúrgica",
+          "confidence": 0.8657062649726868,
+          "start": 1521,
+          "end": 1544,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.7212614417076111,
+          "start": 961,
+          "end": 973,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " en Oncología Quirúrgica",
+          "actual_text": "en Oncología Quirúrgica",
+          "confidence": 0.8657062649726868,
+          "start": 1521,
+          "end": 1544,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2,
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "PROFESION": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.9864945411682129,
+        "start": 961,
+        "end": 973,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " DNI XXX",
+        "actual_text": "DNI XXX",
+        "confidence": 0.7059761881828308,
+        "start": 1207,
+        "end": 1214,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.7212614417076111,
+        "start": 961,
+        "end": 973,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " en Oncología Quirúrgica",
+        "actual_text": "en Oncología Quirúrgica",
+        "confidence": 0.8657062649726868,
+        "start": 1521,
+        "end": 1544,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.9864945411682129,
+        "start": 961,
+        "end": 973,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " DNI XXX",
+        "actual_text": "DNI XXX",
+        "confidence": 0.7059761881828308,
+        "start": 1207,
+        "end": 1214,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.7212614417076111,
+        "start": 961,
+        "end": 973,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " en Oncología Quirúrgica",
+        "actual_text": "en Oncología Quirúrgica",
+        "confidence": 0.8657062649726868,
+        "start": 1521,
+        "end": 1544,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

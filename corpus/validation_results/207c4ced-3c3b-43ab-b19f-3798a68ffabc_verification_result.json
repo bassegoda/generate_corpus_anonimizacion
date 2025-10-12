@@ -1,0 +1,124 @@
+{
+  "document_id": "207c4ced-3c3b-43ab-b19f-3798a68ffabc",
+  "success": true,
+  "anonymized_text": "En la valoración inicial del paciente, se procede a la identificación biométrica mediante el registro de la XXX, que contrasta con el patrón de lazo documentado en una exploración previa. Como parte del protocolo de seguridad, también se ha verificado la XXX para completar el perfil identificativo. El sujeto de asistencia queda registrado bajo el identificador XXX, mientras que para la coordinación con el equipo multidisciplinar se utiliza el XXX. El paciente ha sido derivado desde la XXX para continuar su proceso asistencial. Se ha establecido contacto con el XXX, cuya colaboración se considera fundamental dentro del plan terapéutico. Para cualquier comunicación institucional, puede utilizarse el número de fax XXX, perteneciente al XXX. En cuanto a la identificación personal, consta el documento nacional XXX y el número de teléfono XXX como vía de contacto preferente. Cabe mencionar que el profesional sanitario asignado cuenta con la identificación XXX. El país de residencia y atención sanitaria es XXX. La exploración física actual muestra estabilidad en los parámetros hemodinámicos, sin signos de toxicidad medicamentosa. Los resultados analíticos recientes evidencian una adecuada función hematopoyética con recuperación de series celulares. En la prueba de imagen de control se observa respuesta favorable al tratamiento instituido, sin evidencia de progresión de enfermedad. Se mantiene la pauta terapéutica actual y se programa reevaluación en un mes.",
+  "text_length": 1474,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8650923371315002,
+        "word": " documento nacional",
+        "start": 798,
+        "end": 816,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional",
+          "actual_text": "documento nacional",
+          "confidence": 0.8650923371315002,
+          "start": 798,
+          "end": 816,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional",
+          "actual_text": "documento nacional",
+          "confidence": 0.8650923371315002,
+          "start": 798,
+          "end": 816,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional",
+        "actual_text": "documento nacional",
+        "confidence": 0.8650923371315002,
+        "start": 798,
+        "end": 816,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional",
+        "actual_text": "documento nacional",
+        "confidence": 0.8650923371315002,
+        "start": 798,
+        "end": 816,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

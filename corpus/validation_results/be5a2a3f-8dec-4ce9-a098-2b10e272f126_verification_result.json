@@ -1,0 +1,222 @@
+{
+  "document_id": "be5a2a3f-8dec-4ce9-a098-2b10e272f126",
+  "success": true,
+  "anonymized_text": "**NOTA DE EVOLUCIÓN – CONSULTA DE SEGUIMIENTO** A la consulta de seguimiento acude **XXX**, quien continúa con su plan terapéutico establecido. La paciente refiere una mejoría subjetiva en la gestión de los síntomas de ansiedad, atribuyendo parte de esta mejoría a la asistencia regular al **XXX**. Se ha reforzado la importancia de la continuidad en este recurso psicosocial. Respecto a los hábitos, la paciente reconoce ser **XXX**, un aspecto que se sigue trabajando en las sesiones de consejo sanitario. Se mantiene la recomendación de abandono del tabaco. La exploración física actual es anodina, con constantes vitales dentro de la normalidad y auscultación cardiorrespiratoria sin hallazgos patológicos. No se detectan signos de descompensación aguda. Se ha coordinado la continuidad asistencial con el **XXX**, donde se centraliza su historial clínico principal, identificado con el número **XXX**. Para cualquier gestión o comunicación urgente, se ha facilitado el número de contacto **XXX**. Esta intervención se enmarca en los programas de salud mental de la **XXX** y la **XXX**. Como figura de apoyo principal, se cuenta con la colaboración de **XXX**, quien asiste a la paciente en el seguimiento del tratamiento. El presente registro forma parte de la historia clínica con número de referencia **XXX** y ha sido gestionado bajo el código de episodio **XXX**. Documentado el **XXX** por la **XXX**, Número de Colegiado **ID-789456**, en cumplimiento de los protocolos de la institución.",
+  "text_length": 1500,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.9708678722381592,
+        "word": "78",
+        "start": 1438,
+        "end": 1440,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "78",
+          "actual_text": "78",
+          "confidence": 0.9708678722381592,
+          "start": 1438,
+          "end": 1440,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "78",
+          "actual_text": "78",
+          "confidence": 0.9708678722381592,
+          "start": 1438,
+          "end": 1440,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9233167171478271,
+        "word": " historia clínica",
+        "start": 1267,
+        "end": 1283,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8222789764404297,
+        "word": "78",
+        "start": 1438,
+        "end": 1440,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "NUMERO_TELEFONO": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.9233167171478271,
+          "start": 1267,
+          "end": 1283,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "78",
+          "actual_text": "78",
+          "confidence": 0.8222789764404297,
+          "start": 1438,
+          "end": 1440,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.9233167171478271,
+          "start": 1267,
+          "end": 1283,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "78",
+          "actual_text": "78",
+          "confidence": 0.8222789764404297,
+          "start": 1438,
+          "end": 1440,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "NUMERO_TELEFONO": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "78",
+        "actual_text": "78",
+        "confidence": 0.9708678722381592,
+        "start": 1438,
+        "end": 1440,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.9233167171478271,
+        "start": 1267,
+        "end": 1283,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "78",
+        "actual_text": "78",
+        "confidence": 0.8222789764404297,
+        "start": 1438,
+        "end": 1440,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "78",
+        "actual_text": "78",
+        "confidence": 0.9708678722381592,
+        "start": 1438,
+        "end": 1440,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.9233167171478271,
+        "start": 1267,
+        "end": 1283,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "78",
+        "actual_text": "78",
+        "confidence": 0.8222789764404297,
+        "start": 1438,
+        "end": 1440,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

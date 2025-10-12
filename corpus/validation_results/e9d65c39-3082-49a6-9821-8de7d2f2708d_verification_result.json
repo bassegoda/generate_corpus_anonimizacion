@@ -1,0 +1,124 @@
+{
+  "document_id": "e9d65c39-3082-49a6-9821-8de7d2f2708d",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa En la consulta de hoy se reevalúa a la paciente XXX, quien acude para seguimiento de su proceso. La exploración física actual muestra mejoría significativa del cuadro previo, con normalización de los parámetros analíticos y resolución completa de la sintomatología referida en visitas anteriores. Como parte de los procedimientos de seguridad y verificación de identidad, se ha procedido a la actualización de los registros biométricos, incluyendo específicamente la XXX. Todos los datos han sido correctamente validados en el sistema. En relación a la documentación administrativa, se confirma que el número de beneficiario del plan de salud XXX se encuentra activo y en vigor. Para referencia de esta consulta, queda registrado bajo el código XXX, mientras que para la interconsulta solicitada se ha generado la referencia XXX. El presente documento, correspondiente a la visita realizada el XXX, queda incorporado a la historia clínica de la paciente en el XXX. Se programa próxima revisión en un plazo de seis meses, considerando la favorable evolución del caso.",
+  "text_length": 1094,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7210029363632202,
+        "word": " plan",
+        "start": 657,
+        "end": 661,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.7210029363632202,
+          "start": 657,
+          "end": 661,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.7210029363632202,
+          "start": 657,
+          "end": 661,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.7210029363632202,
+        "start": 657,
+        "end": 661,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.7210029363632202,
+        "start": 657,
+        "end": 661,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

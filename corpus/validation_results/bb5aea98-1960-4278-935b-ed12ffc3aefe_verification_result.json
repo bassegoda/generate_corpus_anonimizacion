@@ -1,0 +1,175 @@
+{
+  "document_id": "bb5aea98-1960-4278-935b-ed12ffc3aefe",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Preoperatoria Se remite a la consulta de cirugía vascular a la paciente XXX para valoración de intervención quirúrgica programada. La paciente ha sido derivada desde el servicio de cardiología tras completar el estudio preoperatorio correspondiente. La exploración física actual muestra un estado general conservado, con tensión arterial bien controlada y auscultación cardíaca rítmica sin soplos significativos. Los pulsos periféricos son palpables y simétricos. Los estudios complementarios realizados, que incluyen ecodoppler y angiografía, confirman el diagnóstico y la indicación quirúrgica. El procedimiento será realizado por un XXX de reconocida experiencia en este tipo de intervenciones. Para cualquier comunicación relacionada con el procedimiento, puede contactarse a través del XXX. La intervención se llevará a cabo en General de Valencia, donde la paciente cuenta con XXX. Toda la documentación clínica actualizada puede consultarse en XXX. Respecto al apoyo postoperatorio, se han mostrado muy colaboradores y residen en XXX, mientras que el profesional responsable tiene su consulta externa en XXX. Cabe destacar que entre se encuentra un XXX, lo que ha facilitado la comprensión del proceso por parte de la paciente. del principal familiar a cargo es la de administradora, lo que permitirá una adecuada gestión de los cuidados domiciliarios. Se considera que la paciente es candidata idónea para el procedimiento, con riesgo quirúrgico aceptable y adecuado soporte familiar para el postoperatorio.",
+  "text_length": 1537,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.9416331648826599,
+        "word": " General de Valencia",
+        "start": 855,
+        "end": 874,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Valencia",
+          "actual_text": "General de Valencia",
+          "confidence": 0.9416331648826599,
+          "start": 855,
+          "end": 874,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Valencia",
+          "actual_text": "General de Valencia",
+          "confidence": 0.9416331648826599,
+          "start": 855,
+          "end": 874,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9891495108604431,
+        "word": " General de Valencia",
+        "start": 855,
+        "end": 874,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Valencia",
+          "actual_text": "General de Valencia",
+          "confidence": 0.9891495108604431,
+          "start": 855,
+          "end": 874,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Valencia",
+          "actual_text": "General de Valencia",
+          "confidence": 0.9891495108604431,
+          "start": 855,
+          "end": 874,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "HOSPITAL": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Valencia",
+        "actual_text": "General de Valencia",
+        "confidence": 0.9416331648826599,
+        "start": 855,
+        "end": 874,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Valencia",
+        "actual_text": "General de Valencia",
+        "confidence": 0.9891495108604431,
+        "start": 855,
+        "end": 874,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Valencia",
+        "actual_text": "General de Valencia",
+        "confidence": 0.9416331648826599,
+        "start": 855,
+        "end": 874,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Valencia",
+        "actual_text": "General de Valencia",
+        "confidence": 0.9891495108604431,
+        "start": 855,
+        "end": 874,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,446 @@
+{
+  "document_id": "77c85e83-4872-47fc-8cae-b39db443adbc",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE GERIATRÍA** Paciente que acude a revisión geriátrica programada. Se trata de XXX, con documento de identidad XXX, quien acude acompañada en esta ocasión por su hija, XXX. La paciente, de XXX, presenta un cuadro de evolución crónica caracterizado por deterioro funcional progresivo que afecta principalmente a las actividades instrumentales de la vida diaria. En la exploración física actual se objetiva: tensión arterial 135/80 mmHg, frecuencia cardíaca 68 lpm, saturación de oxígeno 96%. Auscultación cardiorrespiratoria sin hallazgos significativos. Abdomen blando y depresible sin masas palpables. Extremidades inferiores con edemas leves en tercios distales. Estado cognitivo evaluado mediante Mini-Mental muestra un deterioro leve, compatible con su situación basal. Respecto a los parámetros analíticos recientes, destaca una hemoglobina de 12.8 g/dL, creatinina de 1.1 mg/dL y filtrado glomerular estimado de 58 mL/min/1.73m². El perfil lipídico muestra colesterol LDL de 110 mg/dL. Se ha solicitado densitometría ósea para reevaluación de osteoporosis conocida. Se mantiene tratamiento habitual con suplementos de calcio y vitamina D, además de antihipertensivos. Se recomienda incrementar la movilización con supervisión para prevenir sarcopenia. La hija, de XXX, se muestra colaboradora y comprensiva con las indicaciones. Se facilitarán recomendaciones por correo electrónico a las direcciones XXX y XXX para seguimiento compartido. Se recuerda que el protocolo aplicado sigue las directrices establecidas por el XXX para el manejo de pacientes geriátricos con pluripatología. Se programará control en 6 meses para reevaluación integral.",
+  "text_length": 1681,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 5,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.833695113658905,
+        "word": " documento",
+        "start": 119,
+        "end": 128,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7030518651008606,
+        "word": " identidad",
+        "start": 132,
+        "end": 141,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9420530200004578,
+        "word": " hija, XXX",
+        "start": 193,
+        "end": 202,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9875832200050354,
+        "word": " hija, de",
+        "start": 1292,
+        "end": 1300,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9382776021957397,
+        "word": " XXX,",
+        "start": 1301,
+        "end": 1305,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 5,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 2,
+        "FAMILIARES_SUJETO_ASISTENCIA": 3
+      },
+      "entities_by_confidence": {
+        "high": 4,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento",
+          "actual_text": "documento",
+          "confidence": 0.833695113658905,
+          "start": 119,
+          "end": 128,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identidad",
+          "actual_text": "identidad",
+          "confidence": 0.7030518651008606,
+          "start": 132,
+          "end": 141,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " hija, XXX",
+          "actual_text": "hija, XXX",
+          "confidence": 0.9420530200004578,
+          "start": 193,
+          "end": 202,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " hija, de",
+          "actual_text": "hija, de",
+          "confidence": 0.9875832200050354,
+          "start": 1292,
+          "end": 1300,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " XXX,",
+          "actual_text": "XXX,",
+          "confidence": 0.9382776021957397,
+          "start": 1301,
+          "end": 1305,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento",
+          "actual_text": "documento",
+          "confidence": 0.833695113658905,
+          "start": 119,
+          "end": 128,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identidad",
+          "actual_text": "identidad",
+          "confidence": 0.7030518651008606,
+          "start": 132,
+          "end": 141,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " hija, XXX",
+          "actual_text": "hija, XXX",
+          "confidence": 0.9420530200004578,
+          "start": 193,
+          "end": 202,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " hija, de",
+          "actual_text": "hija, de",
+          "confidence": 0.9875832200050354,
+          "start": 1292,
+          "end": 1300,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " XXX,",
+          "actual_text": "XXX,",
+          "confidence": 0.9382776021957397,
+          "start": 1301,
+          "end": 1305,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8615904450416565,
+        "word": " hija, XXX",
+        "start": 193,
+        "end": 202,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7889048457145691,
+        "word": " hija,",
+        "start": 1292,
+        "end": 1297,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8283329606056213,
+        "word": " XXX,",
+        "start": 1301,
+        "end": 1305,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 3
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " hija, XXX",
+          "actual_text": "hija, XXX",
+          "confidence": 0.8615904450416565,
+          "start": 193,
+          "end": 202,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " hija,",
+          "actual_text": "hija,",
+          "confidence": 0.7889048457145691,
+          "start": 1292,
+          "end": 1297,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " XXX,",
+          "actual_text": "XXX,",
+          "confidence": 0.8283329606056213,
+          "start": 1301,
+          "end": 1305,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " hija, XXX",
+          "actual_text": "hija, XXX",
+          "confidence": 0.8615904450416565,
+          "start": 193,
+          "end": 202,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " hija,",
+          "actual_text": "hija,",
+          "confidence": 0.7889048457145691,
+          "start": 1292,
+          "end": 1297,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " XXX,",
+          "actual_text": "XXX,",
+          "confidence": 0.8283329606056213,
+          "start": 1301,
+          "end": 1305,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 8,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2,
+      "FAMILIARES_SUJETO_ASISTENCIA": 6
+    },
+    "entities_by_confidence": {
+      "high": 6,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento",
+        "actual_text": "documento",
+        "confidence": 0.833695113658905,
+        "start": 119,
+        "end": 128,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identidad",
+        "actual_text": "identidad",
+        "confidence": 0.7030518651008606,
+        "start": 132,
+        "end": 141,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " hija, XXX",
+        "actual_text": "hija, XXX",
+        "confidence": 0.9420530200004578,
+        "start": 193,
+        "end": 202,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " hija, de",
+        "actual_text": "hija, de",
+        "confidence": 0.9875832200050354,
+        "start": 1292,
+        "end": 1300,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " XXX,",
+        "actual_text": "XXX,",
+        "confidence": 0.9382776021957397,
+        "start": 1301,
+        "end": 1305,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " hija, XXX",
+        "actual_text": "hija, XXX",
+        "confidence": 0.8615904450416565,
+        "start": 193,
+        "end": 202,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " hija,",
+        "actual_text": "hija,",
+        "confidence": 0.7889048457145691,
+        "start": 1292,
+        "end": 1297,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " XXX,",
+        "actual_text": "XXX,",
+        "confidence": 0.8283329606056213,
+        "start": 1301,
+        "end": 1305,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento",
+        "actual_text": "documento",
+        "confidence": 0.833695113658905,
+        "start": 119,
+        "end": 128,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identidad",
+        "actual_text": "identidad",
+        "confidence": 0.7030518651008606,
+        "start": 132,
+        "end": 141,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " hija, XXX",
+        "actual_text": "hija, XXX",
+        "confidence": 0.9420530200004578,
+        "start": 193,
+        "end": 202,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " hija, de",
+        "actual_text": "hija, de",
+        "confidence": 0.9875832200050354,
+        "start": 1292,
+        "end": 1300,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " XXX,",
+        "actual_text": "XXX,",
+        "confidence": 0.9382776021957397,
+        "start": 1301,
+        "end": 1305,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " hija, XXX",
+        "actual_text": "hija, XXX",
+        "confidence": 0.8615904450416565,
+        "start": 193,
+        "end": 202,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " hija,",
+        "actual_text": "hija,",
+        "confidence": 0.7889048457145691,
+        "start": 1292,
+        "end": 1297,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " XXX,",
+        "actual_text": "XXX,",
+        "confidence": 0.8283329606056213,
+        "start": 1301,
+        "end": 1305,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 8,
+    "suspicious_detections": 8,
+    "xxxxxx_detections": 0,
+    "other_detections": 8
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

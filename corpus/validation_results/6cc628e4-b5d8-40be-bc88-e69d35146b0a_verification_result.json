@@ -1,0 +1,219 @@
+{
+  "document_id": "6cc628e4-b5d8-40be-bc88-e69d35146b0a",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA - DERMATOLOGÍA** Se evalúa en consulta a la paciente **XXX**, identificada con el **** y número de historia **** **XXX**. Para su seguimiento integral, se registra su **** mediante la **XXX** y la **XXX**, como parte de los protocolos de seguridad del centro. La paciente fue valorada inicialmente el **** **XXX** bajo el número de episodio **** **XXX**. En la actualidad, acude para control evolutivo con referencia **** **XXX**. Se confirman sus datos de ubicación en el **** **XXX**, habiendo sido previamente registrado su domicilio en **** **XXX**. A nivel de contacto, se verifica el **** **XXX** para comunicación directa. En el sistema, su **** principal es **XXX**, con registro complementario **** **XXX**. El estudio histopatológico de la lesión, con número de muestra **XXX**, se correlaciona con el episodio clínico **XXX**. Para completar la identificación del caso, se anota el **** **XXX** y la placa de vehículo **** **XXX**. El profesional que firma este documento se identifica con el **** **987654**. Para acceso a la documentación clínica completa del caso, se encuentra disponible en la dirección de protocolo de internet XXX. **Exploración física complementaria (ficticia para contexto clínico):** La piel presenta una placa eritematosa de 2 cm de diámetro en región dorsal, bien delimitada, sin signos de sangrado activo. La palpación de territorios linfáticos cervicales y axilares es normal. Resto de exploración por sistemas sin hallazgos relevantes. Se procederá con el plan terapéutico establecido y seguimiento en consultas externas.",
+  "text_length": 1593,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8539614677429199,
+        "word": "7654",
+        "start": 1043,
+        "end": 1047,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "7654",
+          "actual_text": "7654",
+          "confidence": 0.8539614677429199,
+          "start": 1043,
+          "end": 1047,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "7654",
+          "actual_text": "7654",
+          "confidence": 0.8539614677429199,
+          "start": 1043,
+          "end": 1047,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7621331214904785,
+        "word": " ***",
+        "start": 1034,
+        "end": 1037,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7071383595466614,
+        "word": " **",
+        "start": 1039,
+        "end": 1041,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 2
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " ***",
+          "actual_text": "***",
+          "confidence": 0.7621331214904785,
+          "start": 1034,
+          "end": 1037,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.7071383595466614,
+          "start": 1039,
+          "end": 1041,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " ***",
+          "actual_text": "***",
+          "confidence": 0.7621331214904785,
+          "start": 1034,
+          "end": 1037,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.7071383595466614,
+          "start": 1039,
+          "end": 1041,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NUMERO_TELEFONO": 3
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "7654",
+        "actual_text": "7654",
+        "confidence": 0.8539614677429199,
+        "start": 1043,
+        "end": 1047,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " ***",
+        "actual_text": "***",
+        "confidence": 0.7621331214904785,
+        "start": 1034,
+        "end": 1037,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.7071383595466614,
+        "start": 1039,
+        "end": 1041,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "7654",
+        "actual_text": "7654",
+        "confidence": 0.8539614677429199,
+        "start": 1043,
+        "end": 1047,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " ***",
+        "actual_text": "***",
+        "confidence": 0.7621331214904785,
+        "start": 1034,
+        "end": 1037,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.7071383595466614,
+        "start": 1039,
+        "end": 1041,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "document_id": "35169613-fe3e-4684-af7d-c32644e238ac",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Inicial El motivo de consulta refiere un cuadro de astenia y artralgias generalizadas de varias semanas de evolución. Durante la anamnesis, se recoge como dato relevante que la paciente reside en la XXX, en un domicilio situado en la XXX. Se ha contactado para ampliar información con su núcleo familiar, manteniendo una conversación con XXX de la paciente, quien aporta detalles adicionales sobre la cronología de los síntomas. La exploración física actual muestra un estado general conservado. A la auscultación cardiopulmonar, ritmo cardíaco regular sin soplos, murmullo vesicular conservado sin ruidos sobreañadidos. Abdomen blando y depresible, no doloroso a la palpación. La exploración osteoarticular no evidencia signos inflamatorios objetivos en articulaciones periféricas, aunque la paciente refiere dolor a la movilización. En cuanto a la documentación administrativa asociada, se verifica que el número de identificación de aseguramiento activo es XXX. El profesional que suscribe el presente informe, con la titulación de XXX, considera necesario completar el estudio con pruebas analíticas para descartar procesos reumatológicos o alteraciones metabólicas, programando un seguimiento estrecho de la evolución.",
+  "text_length": 1245,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.98366779088974,
+        "word": " núcleo",
+        "start": 310,
+        "end": 316,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9184014201164246,
+        "word": " familiar",
+        "start": 317,
+        "end": 325,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " núcleo",
+          "actual_text": "núcleo",
+          "confidence": 0.98366779088974,
+          "start": 310,
+          "end": 316,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9184014201164246,
+          "start": 317,
+          "end": 325,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " núcleo",
+          "actual_text": "núcleo",
+          "confidence": 0.98366779088974,
+          "start": 310,
+          "end": 316,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9184014201164246,
+          "start": 317,
+          "end": 325,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " núcleo",
+        "actual_text": "núcleo",
+        "confidence": 0.98366779088974,
+        "start": 310,
+        "end": 316,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9184014201164246,
+        "start": 317,
+        "end": 325,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " núcleo",
+        "actual_text": "núcleo",
+        "confidence": 0.98366779088974,
+        "start": 310,
+        "end": 316,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9184014201164246,
+        "start": 317,
+        "end": 325,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "document_id": "4e4610cc-1e17-4471-930b-485c4f516b8e",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Preoperatoria En la valoración preoperatoria del paciente con identificación XXX, se procede a la verificación biométrica mediante la XXX, la cual ha sido cotejada satisfactoriamente con los registros del sistema. El paciente se encuentra en condiciones óptimas para ser intervenido por el XXX designado para el procedimiento. Se han verificado y registrado en el sistema los números de serie de los dispositivos médicos que se utilizarán durante la intervención, a saber: XXX y XXX. Asimismo, se ha confirmado el registro del vehículo institucional con placas XXX y XXX, autorizado para el transporte de material médico estéril necesario para el acto quirúrgico. Documento redactado desde XXX por la XXX, profesional con amplia experiencia en la coordinación de procedimientos quirúrgicos complejos. Para cualquier comunicación relacionada con este informe, puede contactarse a través del correo electrónico XXX. La documentación completa del caso ha sido archivada siguiendo los protocolos de seguridad correspondientes a la profesión médica.",
+  "text_length": 1066,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7279298305511475,
+        "word": " vehículo institucional",
+        "start": 549,
+        "end": 571,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo institucional",
+          "actual_text": "vehículo institucional",
+          "confidence": 0.7279298305511475,
+          "start": 549,
+          "end": 571,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo institucional",
+          "actual_text": "vehículo institucional",
+          "confidence": 0.7279298305511475,
+          "start": 549,
+          "end": 571,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo institucional",
+        "actual_text": "vehículo institucional",
+        "confidence": 0.7279298305511475,
+        "start": 549,
+        "end": 571,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo institucional",
+        "actual_text": "vehículo institucional",
+        "confidence": 0.7279298305511475,
+        "start": 549,
+        "end": 571,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

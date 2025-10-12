@@ -1,0 +1,175 @@
+{
+  "document_id": "7cd23efb-5de0-47d8-bf97-fee125467401",
+  "success": true,
+  "anonymized_text": "Informe de Interconsulta Se remite al paciente para valoración y seguimiento tras su reciente ingreso. El cuadro clínico inicial se caracterizó por dolor torácico pleurítico y disnea de moderados esfuerzos, con evolución favorable bajo el protocolo terapéutico instaurado. Durante su estancia en el XXX se completó el estudio con analítica que mostró leve elevación de reactantes de fase aguda, y tomografía computarizada de tórax que descartó hallazgos de significación patológica. La exploración física actual objetiva auscultación cardiopulmonar dentro de la normalidad y edemas maleolares ausentes. El dispositivo de monitorización XXX ha registrado parámetros dentro de rangos aceptables durante el periodo de observación, sin evidenciarse arritmias significativas. Se recomienda continuar con la pauta médica establecida y control ambulatorio periódico. Para cualquier consulta o ampliación de información, queda disponible la historia clínica electrónica a través de XXX donde se detalla la evolución completa del caso. Asimismo, pueden consultarse los protocolos de actuación actualizados en el portal médico institucional XXX. Atentamente, Dr. [Redactado por especialista con XXX] XXX",
+  "text_length": 1193,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.706626832485199,
+        "word": " portal médico institucional XXX",
+        "start": 1103,
+        "end": 1134,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " portal médico institucional XXX",
+          "actual_text": "portal médico institucional XXX",
+          "confidence": 0.706626832485199,
+          "start": 1103,
+          "end": 1134,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " portal médico institucional XXX",
+          "actual_text": "portal médico institucional XXX",
+          "confidence": 0.706626832485199,
+          "start": 1103,
+          "end": 1134,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8229107856750488,
+        "word": " historia clínica",
+        "start": 933,
+        "end": 949,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.8229107856750488,
+          "start": 933,
+          "end": 949,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.8229107856750488,
+          "start": 933,
+          "end": 949,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " portal médico institucional XXX",
+        "actual_text": "portal médico institucional XXX",
+        "confidence": 0.706626832485199,
+        "start": 1103,
+        "end": 1134,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.8229107856750488,
+        "start": 933,
+        "end": 949,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " portal médico institucional XXX",
+        "actual_text": "portal médico institucional XXX",
+        "confidence": 0.706626832485199,
+        "start": 1103,
+        "end": 1134,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.8229107856750488,
+        "start": 933,
+        "end": 949,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

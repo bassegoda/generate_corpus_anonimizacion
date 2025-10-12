@@ -1,0 +1,124 @@
+{
+  "document_id": "8c131e31-ada3-4d62-b02c-380460075355",
+  "success": true,
+  "anonymized_text": "A continuación se presenta el resumen de la primera consulta de la paciente. La exploración física revela un estado general conservado, con constantes vitales dentro de los límites de la normalidad. La auscultación cardiorrespiratoria es sin ruidos sobreañadidos y el abdomen es blando y depresible, sin masas ni visceromegalias. Se solicitan análisis de sangre y orina de rutina para completar el estudio. Para la gestión administrativa, se ha registrado el número de beneficiaria del plan de salud XXX. El medio de contacto telefónico principal es el XXX, y como contacto secundario se ha anotado el XXX. La dirección postal para cualquier comunicación escrita es XXX. La atención se presta desde el XXX, y la historia clínica digital completa puede consultarse a través del siguiente enlace: XXX. La fecha de esta valoración inicial es el XXX. Se ha establecido como vía de comunicación preferente para recordatorios o resultados el correo electrónico XXX. En el apartado de datos personales, consta que el sexo del sujeto de asistencia es XXX. Se recomienda mantener actualizados los datos de los familiares o allegados del sujeto de asistencia para situaciones que requieran contacto urgente. Como familiar de referencia para contacto urgente se ha registrado a XXX.",
+  "text_length": 1271,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9271039962768555,
+        "word": " familiares o allegados",
+        "start": 1101,
+        "end": 1123,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares o allegados",
+          "actual_text": "familiares o allegados",
+          "confidence": 0.9271039962768555,
+          "start": 1101,
+          "end": 1123,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares o allegados",
+          "actual_text": "familiares o allegados",
+          "confidence": 0.9271039962768555,
+          "start": 1101,
+          "end": 1123,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares o allegados",
+        "actual_text": "familiares o allegados",
+        "confidence": 0.9271039962768555,
+        "start": 1101,
+        "end": 1123,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares o allegados",
+        "actual_text": "familiares o allegados",
+        "confidence": 0.9271039962768555,
+        "start": 1101,
+        "end": 1123,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

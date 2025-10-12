@@ -1,0 +1,314 @@
+{
+  "document_id": "0474a9b1-2f43-48d4-816b-71ab99d73980",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA - ENDOCRINOLOGÍA** Fecha de la consulta: XXX Paciente: XXX Identificación: XXX Sexo: XXX Motivo de consulta: Seguimiento de diabetes mellitus tipo 2. La paciente acude hoy para control evolutivo de su diabetes mellitus tipo 2. Refiere adherencia al tratamiento farmacológico y a las medidas dietéticas recomendadas en la última consulta. A la exploración física, se encuentra en adecuadas condiciones generales. La presión arterial es de 125/80 mmHg, con frecuencia cardíaca de 72 lpm. El examen de pies no muestra lesiones, con pulsos periféricos conservados y sensibilidad intacta. Los resultados analíticos recientes muestran una hemoglobina glicosilada del 6.8%, con perfil lipídico dentro de rangos aceptables. Se considera que el control glucémico es satisfactorio. Durante la sesión, se ha recomendado a la paciente la participación en el XXX que coordina este servicio, considerando que podría beneficiarse del intercambio de experiencias con otros pacientes. Se ha facilitado a la paciente el acceso a su historia clínica digital a través de la dirección XXX donde podrá consultar sus resultados y próximas citas. La paciente ha acudido acompañada de su familiar XXX, quien ha mostrado interés en colaborar en el manejo del tratamiento y acompañarla a las sesiones de educación diabetológica. Este informe ha sido elaborado por la XXX y revisado por la XXX del General de Madrid, centro adscrito al XXX. Para cualquier comunicación relacionada con este informe, puede contactarse a través de XXX. Se recuerda a la paciente la importancia de mantener las revisiones periódicas en el vehículo con matrícula XXX para garantizar su seguridad en los desplazamientos al centro hospitalario.",
+  "text_length": 1723,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9625403881072998,
+        "word": " familiar XXX",
+        "start": 1193,
+        "end": 1205,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.8106580972671509,
+        "word": " del General de Madrid",
+        "start": 1396,
+        "end": 1417,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8204357028007507,
+        "word": " vehículo",
+        "start": 1621,
+        "end": 1629,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1,
+        "HOSPITAL": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 3,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.9625403881072998,
+          "start": 1193,
+          "end": 1205,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " del General de Madrid",
+          "actual_text": "del General de Madrid",
+          "confidence": 0.8106580972671509,
+          "start": 1396,
+          "end": 1417,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.8204357028007507,
+          "start": 1621,
+          "end": 1629,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.9625403881072998,
+          "start": 1193,
+          "end": 1205,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " del General de Madrid",
+          "actual_text": "del General de Madrid",
+          "confidence": 0.8106580972671509,
+          "start": 1396,
+          "end": 1417,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.8204357028007507,
+          "start": 1621,
+          "end": 1629,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.915428102016449,
+        "word": " familiar XXX",
+        "start": 1193,
+        "end": 1205,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9620601534843445,
+        "word": " General de Madrid",
+        "start": 1400,
+        "end": 1417,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1,
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.915428102016449,
+          "start": 1193,
+          "end": 1205,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9620601534843445,
+          "start": 1400,
+          "end": 1417,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.915428102016449,
+          "start": 1193,
+          "end": 1205,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9620601534843445,
+          "start": 1400,
+          "end": 1417,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 5,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2,
+      "HOSPITAL": 2,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 5,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.9625403881072998,
+        "start": 1193,
+        "end": 1205,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " del General de Madrid",
+        "actual_text": "del General de Madrid",
+        "confidence": 0.8106580972671509,
+        "start": 1396,
+        "end": 1417,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.8204357028007507,
+        "start": 1621,
+        "end": 1629,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.915428102016449,
+        "start": 1193,
+        "end": 1205,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9620601534843445,
+        "start": 1400,
+        "end": 1417,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.9625403881072998,
+        "start": 1193,
+        "end": 1205,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " del General de Madrid",
+        "actual_text": "del General de Madrid",
+        "confidence": 0.8106580972671509,
+        "start": 1396,
+        "end": 1417,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.8204357028007507,
+        "start": 1621,
+        "end": 1629,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.915428102016449,
+        "start": 1193,
+        "end": 1205,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9620601534843445,
+        "start": 1400,
+        "end": 1417,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 5,
+    "suspicious_detections": 5,
+    "xxxxxx_detections": 0,
+    "other_detections": 5
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

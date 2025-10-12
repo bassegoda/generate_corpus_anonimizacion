@@ -1,0 +1,356 @@
+{
+  "document_id": "89a49b0c-f45a-452e-85d4-abe5bd15cff4",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución - Consulta Externa** Se reevalúa en consulta externa a la paciente de setenta y dos años, con seguimiento por endocrinología. La paciente, de XXX, de XXX, mantiene un control metabólico estable desde su última visita. Se ha verificado la correcta identificación mediante el sistema biométrico, registrando la XXX, correspondiente al expediente XXX. El número de historia clínica principal es XXX. Como parte del plan terapéutico integral, se ha recomendado reforzar el apoyo psicoeducativo. Se propone la incorporación al XXX, cuyos recursos y información complementaria están disponibles a través de la XXX. Paralelamente, se ha considerado pertinente la participación en el XXX, dada la coexistencia familiar de esta condición. Para coordinación interdisciplinar, queda registrado el XXX de la profesional a cargo. La prescripción y supervisión del tratamiento farmacológico continuará bajo la responsabilidad del XXX, cuyo XXX acredita su capacitación para el manejo de esta patología. Se ha facilitado el XXX como canal de comunicación preferente para consultas no urgentes. Como contacto secundario para aspectos administrativos, se dispone del XXX. En el contexto de la valoración geriátrica integral, se ha considerado relevante registrar que el cuidador principal, de sesenta y siete años, de XXX, utiliza para el transporte el vehículo identificado con XXX, con domicilio en XXX, información necesaria para la logística de visitas domiciliarias programadas.",
+  "text_length": 1486,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.9575242400169373,
+        "word": " setenta y dos años",
+        "start": 90,
+        "end": 108,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8666492700576782,
+        "word": " cuidador principal",
+        "start": 1273,
+        "end": 1291,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "EDAD_SUJETO_ASISTENCIA": 1,
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " setenta y dos años",
+          "actual_text": "setenta y dos años",
+          "confidence": 0.9575242400169373,
+          "start": 90,
+          "end": 108,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cuidador principal",
+          "actual_text": "cuidador principal",
+          "confidence": 0.8666492700576782,
+          "start": 1273,
+          "end": 1291,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " setenta y dos años",
+          "actual_text": "setenta y dos años",
+          "confidence": 0.9575242400169373,
+          "start": 90,
+          "end": 108,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cuidador principal",
+          "actual_text": "cuidador principal",
+          "confidence": 0.8666492700576782,
+          "start": 1273,
+          "end": 1291,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 4,
+    "entities": [
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.9761675596237183,
+        "word": " setenta",
+        "start": 90,
+        "end": 97,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.9863319396972656,
+        "word": " años",
+        "start": 104,
+        "end": 108,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.9798620939254761,
+        "word": " sesenta",
+        "start": 1296,
+        "end": 1303,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.8417204022407532,
+        "word": " siete años",
+        "start": 1306,
+        "end": 1316,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 4,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "EDAD_SUJETO_ASISTENCIA": 4
+      },
+      "entities_by_confidence": {
+        "high": 4,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " setenta",
+          "actual_text": "setenta",
+          "confidence": 0.9761675596237183,
+          "start": 90,
+          "end": 97,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " años",
+          "actual_text": "años",
+          "confidence": 0.9863319396972656,
+          "start": 104,
+          "end": 108,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " sesenta",
+          "actual_text": "sesenta",
+          "confidence": 0.9798620939254761,
+          "start": 1296,
+          "end": 1303,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " siete años",
+          "actual_text": "siete años",
+          "confidence": 0.8417204022407532,
+          "start": 1306,
+          "end": 1316,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " setenta",
+          "actual_text": "setenta",
+          "confidence": 0.9761675596237183,
+          "start": 90,
+          "end": 97,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " años",
+          "actual_text": "años",
+          "confidence": 0.9863319396972656,
+          "start": 104,
+          "end": 108,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " sesenta",
+          "actual_text": "sesenta",
+          "confidence": 0.9798620939254761,
+          "start": 1296,
+          "end": 1303,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " siete años",
+          "actual_text": "siete años",
+          "confidence": 0.8417204022407532,
+          "start": 1306,
+          "end": 1316,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 6,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "EDAD_SUJETO_ASISTENCIA": 5,
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 6,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " setenta y dos años",
+        "actual_text": "setenta y dos años",
+        "confidence": 0.9575242400169373,
+        "start": 90,
+        "end": 108,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cuidador principal",
+        "actual_text": "cuidador principal",
+        "confidence": 0.8666492700576782,
+        "start": 1273,
+        "end": 1291,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " setenta",
+        "actual_text": "setenta",
+        "confidence": 0.9761675596237183,
+        "start": 90,
+        "end": 97,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " años",
+        "actual_text": "años",
+        "confidence": 0.9863319396972656,
+        "start": 104,
+        "end": 108,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " sesenta",
+        "actual_text": "sesenta",
+        "confidence": 0.9798620939254761,
+        "start": 1296,
+        "end": 1303,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " siete años",
+        "actual_text": "siete años",
+        "confidence": 0.8417204022407532,
+        "start": 1306,
+        "end": 1316,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " setenta y dos años",
+        "actual_text": "setenta y dos años",
+        "confidence": 0.9575242400169373,
+        "start": 90,
+        "end": 108,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cuidador principal",
+        "actual_text": "cuidador principal",
+        "confidence": 0.8666492700576782,
+        "start": 1273,
+        "end": 1291,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " setenta",
+        "actual_text": "setenta",
+        "confidence": 0.9761675596237183,
+        "start": 90,
+        "end": 97,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " años",
+        "actual_text": "años",
+        "confidence": 0.9863319396972656,
+        "start": 104,
+        "end": 108,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " sesenta",
+        "actual_text": "sesenta",
+        "confidence": 0.9798620939254761,
+        "start": 1296,
+        "end": 1303,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " siete años",
+        "actual_text": "siete años",
+        "confidence": 0.8417204022407532,
+        "start": 1306,
+        "end": 1316,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 6,
+    "suspicious_detections": 6,
+    "xxxxxx_detections": 0,
+    "other_detections": 6
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

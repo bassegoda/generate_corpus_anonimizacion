@@ -1,0 +1,124 @@
+{
+  "document_id": "044a379b-11b2-46c7-8592-1e36a588fd5e",
+  "success": true,
+  "anonymized_text": "Informe de Consulta de Seguimiento En la valoración de seguimiento realizada en consulta externa, se procede a la revisión integral del plan terapéutico establecido. Durante la exploración física, se constata un estado general conservado, con auscultación cardiorrespiratoria rítmica y sin soplos, y abdomen blando y depresible sin masas palpables. Los resultados analíticos recientes, incluyendo hemograma y bioquímica básica, se mantienen dentro de parámetros normales. La ecografía abdominal realizada no evidencia hallazgos significativos. Para la gestión administrativa correspondiente, se ha verificado el número de beneficiario del plan de salud XXX, que se encuentra activo y en vigor. El identificador de aseguramiento XXX queda registrado en esta documentación clínica. Toda esta información queda asociada al profesional sanitario actuante, la XXX, quien firma el presente informe. Se recomienda mantener la pauta actual y se programará próxima revisión en un año. Para cualquier consulta complementaria, se sugiere visitar el portal web XXX donde podrá encontrar información adicional sobre los programas de seguimiento. La XXX extiende este documento desde su consulta en XXX. El documento queda identificado con la referencia XXX para su correcta archivación en la historia clínica.",
+  "text_length": 1296,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7178184390068054,
+        "word": " identific",
+        "start": 697,
+        "end": 706,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identific",
+          "actual_text": "identific",
+          "confidence": 0.7178184390068054,
+          "start": 697,
+          "end": 706,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identific",
+          "actual_text": "identific",
+          "confidence": 0.7178184390068054,
+          "start": 697,
+          "end": 706,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identific",
+        "actual_text": "identific",
+        "confidence": 0.7178184390068054,
+        "start": 697,
+        "end": 706,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identific",
+        "actual_text": "identific",
+        "confidence": 0.7178184390068054,
+        "start": 697,
+        "end": 706,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

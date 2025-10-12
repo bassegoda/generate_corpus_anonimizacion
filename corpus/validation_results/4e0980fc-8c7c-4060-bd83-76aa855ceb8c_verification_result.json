@@ -1,0 +1,124 @@
+{
+  "document_id": "4e0980fc-8c7c-4060-bd83-76aa855ceb8c",
+  "success": true,
+  "anonymized_text": "**NOTA DE EVOLUCIÓN - CONSULTA EXTERNA DE MEDICINA INTERNA** Se reevalúa en consulta externa a la señorita XXX por seguimiento de su proceso. La paciente refiere mejoría parcial de la sintomatología previamente descrita, aunque persisten algunos episodios leves. Se encuentra en situación de estabilidad clínica aceptable para continuar con las actividades académicas propias de su condición de XXX. A la exploración física actual, se mantiene normotensa, eupneica, con constantes dentro de la normalidad. La auscultación cardiorrespiratoria resulta sin hallazgos patológicos significativos y el abdomen es blando y depresible. No se evidencian edemas en extremidades. En relación a los estudios complementarios realizados, la analítica general muestra parámetros dentro de rangos normales, sin alteraciones destacables en el hemograma o bioquímica básica. Las pruebas de imagen previas no revelan hallazgos orgánicos significativos. Se ha procedido a la actualización de los datos asistenciales en nuestro sistema, verificando que el número de beneficiario del plan de salud XXX se encuentra activo y correctamente registrado bajo el identificador de asistencia XXX. Toda esta información queda incorporada a la historia clínica digital del XXX, accesible a través de la dirección XXX para los profesionales autorizados. Se mantiene el plan terapéutico establecido y se programa nueva revisión en un plazo de tres meses. Se facilitará a la paciente, dado su perfil de XXX, material educativo complementario sobre su proceso. Para cualquier gestión administrativa o consulta no urgente, puede utilizarse el canal de comunicación institucional a través del correo electrónico XXX. Se recalca a la paciente, cuyo sexo XXX se tiene en consideración para el enfoque preventivo, la importancia de la adherencia terapéutica y los controles periódicos.",
+  "text_length": 1845,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7237511277198792,
+        "word": " plan de",
+        "start": 1062,
+        "end": 1069,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de",
+          "actual_text": "plan de",
+          "confidence": 0.7237511277198792,
+          "start": 1062,
+          "end": 1069,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de",
+          "actual_text": "plan de",
+          "confidence": 0.7237511277198792,
+          "start": 1062,
+          "end": 1069,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de",
+        "actual_text": "plan de",
+        "confidence": 0.7237511277198792,
+        "start": 1062,
+        "end": 1069,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de",
+        "actual_text": "plan de",
+        "confidence": 0.7237511277198792,
+        "start": 1062,
+        "end": 1069,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

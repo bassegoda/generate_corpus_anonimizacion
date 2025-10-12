@@ -1,0 +1,174 @@
+{
+  "document_id": "78e2ac0f-5926-4d31-8f14-d83cdd3219ba",
+  "success": true,
+  "anonymized_text": "Informe de Consulta de Cardiología Se evalúa a la paciente en consulta externa para seguimiento de su valvulopatía aórtica. La paciente, de sexo XXX, se encuentra estable clínicamente, refiriendo buena tolerancia al esfuerzo habitual. En la exploración física actual, presenta presión arterial de 125/70 mmHg, frecuencia cardíaca regular a 68 lpm, sin soplos significativos en la auscultación cardíaca y campos pulmonares libres. Los estudios complementarios recientes incluyen un ecocardiograma que muestra función ventricular conservada y una analítica completa dentro de parámetros normales. El número de historia clínica XXX queda registrado para esta consulta. La paciente cuenta con el número de beneficiaria del plan de salud XXX y su identificación de aseguramiento XXX. Para cualquier gestión administrativa adicional, puede utilizarse la referencia XXX. Como profesional a cargo, yo, XXX, con XXX y especializada como XXX, superviso su evolución. Mi identificación profesional es XXX. La documentación completa del proceso está disponible a través de nuestra plataforma digital en XXX donde se actualizan todos los registros pertinentes. Se recomienda continuar con el esquema terapéutico actual y control periódico. La paciente tiene programado su próximo seguimiento en seis meses. Para información general sobre nuestra institución, puede consultarse XXX. La dirección de contacto registrada es XXX.",
+  "text_length": 1412,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7051315307617188,
+        "word": " plan de",
+        "start": 719,
+        "end": 726,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de",
+          "actual_text": "plan de",
+          "confidence": 0.7051315307617188,
+          "start": 719,
+          "end": 726,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de",
+          "actual_text": "plan de",
+          "confidence": 0.7051315307617188,
+          "start": 719,
+          "end": 726,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7400639653205872,
+        "word": " historia clínica",
+        "start": 608,
+        "end": 624,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.7400639653205872,
+          "start": 608,
+          "end": 624,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.7400639653205872,
+          "start": 608,
+          "end": 624,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de",
+        "actual_text": "plan de",
+        "confidence": 0.7051315307617188,
+        "start": 719,
+        "end": 726,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.7400639653205872,
+        "start": 608,
+        "end": 624,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de",
+        "actual_text": "plan de",
+        "confidence": 0.7051315307617188,
+        "start": 719,
+        "end": 726,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.7400639653205872,
+        "start": 608,
+        "end": 624,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

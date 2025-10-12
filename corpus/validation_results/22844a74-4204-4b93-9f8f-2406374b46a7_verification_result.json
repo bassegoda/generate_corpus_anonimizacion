@@ -1,0 +1,219 @@
+{
+  "document_id": "22844a74-4204-4b93-9f8f-2406374b46a7",
+  "success": true,
+  "anonymized_text": "En el contexto del seguimiento del caso, se procede a la actualización de la documentación clínica asociada. Se registra para los fines de gestión interna el identificador de aseguramiento XXX. Los hallazgos de la última resonancia magnética fueron remitidos para su revisión interdepartamental, utilizando para ello el número de fax XXX a fin de agilizar la confirmación diagnóstica. La valoración objetiva del día de hoy muestra un estado general estable. Los parámetros analíticos recientes, cuyos resultados se recibieron bajo la referencia de empleo sanitario XXX, se encuentran dentro de rangos aceptables, mostrando una mejoría significativa en los marcadores de inflamación. En cuanto a la logística de los suministros médicos necesarios para el manejo domiciliario, se ha gestionado a través del código de activo XXX. Para completar el proceso, se ha autorizado el vehículo de servicio con placas XXX para la realización de las visitas de seguimiento programadas. Se mantendrá una monitorización estrecha de la evolución.",
+  "text_length": 1030,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8306063413619995,
+        "word": " identific",
+        "start": 158,
+        "end": 167,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7378733158111572,
+        "word": " de aseguramiento",
+        "start": 172,
+        "end": 188,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identific",
+          "actual_text": "identific",
+          "confidence": 0.8306063413619995,
+          "start": 158,
+          "end": 167,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " de aseguramiento",
+          "actual_text": "de aseguramiento",
+          "confidence": 0.7378733158111572,
+          "start": 172,
+          "end": 188,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identific",
+          "actual_text": "identific",
+          "confidence": 0.8306063413619995,
+          "start": 158,
+          "end": 167,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " de aseguramiento",
+          "actual_text": "de aseguramiento",
+          "confidence": 0.7378733158111572,
+          "start": 172,
+          "end": 188,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7196619510650635,
+        "word": " empleo sanitario",
+        "start": 548,
+        "end": 564,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " empleo sanitario",
+          "actual_text": "empleo sanitario",
+          "confidence": 0.7196619510650635,
+          "start": 548,
+          "end": 564,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " empleo sanitario",
+          "actual_text": "empleo sanitario",
+          "confidence": 0.7196619510650635,
+          "start": 548,
+          "end": 564,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 3
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identific",
+        "actual_text": "identific",
+        "confidence": 0.8306063413619995,
+        "start": 158,
+        "end": 167,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " de aseguramiento",
+        "actual_text": "de aseguramiento",
+        "confidence": 0.7378733158111572,
+        "start": 172,
+        "end": 188,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " empleo sanitario",
+        "actual_text": "empleo sanitario",
+        "confidence": 0.7196619510650635,
+        "start": 548,
+        "end": 564,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identific",
+        "actual_text": "identific",
+        "confidence": 0.8306063413619995,
+        "start": 158,
+        "end": 167,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " de aseguramiento",
+        "actual_text": "de aseguramiento",
+        "confidence": 0.7378733158111572,
+        "start": 172,
+        "end": 188,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " empleo sanitario",
+        "actual_text": "empleo sanitario",
+        "confidence": 0.7196619510650635,
+        "start": 548,
+        "end": 564,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

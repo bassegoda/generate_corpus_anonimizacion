@@ -1,0 +1,124 @@
+{
+  "document_id": "7d9e78f0-4e3d-4434-abda-d6754786e4e9",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución - Consulta Externa** A la revisión de hoy, se presenta la paciente para seguimiento de su proceso. Refiere mejoría parcial de la sintomatología referida en la última consulta. Se ha procedido a la actualización de su historia, incorporando la información clínica disponible a través de los recursos XXX y XXX, lo que permite una visión integral de su trayectoria asistencial. Asimismo, se ha consultado el registro XXX para completar los antecedentes. En el apartado de familiares sujeto asistencia, se registra a XXX. Como dato de anamnesis relevante y que debe ser destacado en su perfil, la paciente es XXX, extremo que queda registrado de forma prominente para evitar cualquier prescripción que pudiera generar una reacción adversa. El número de beneficiario del plan de salud es XXX. En cuanto a su situación personal, reside en XXX, localizada en XXX. Para posibles contactos o coordinación de cuidados, se dispone del XXX. La paciente fue valorada previamente el XXX, según consta en informes anteriores. La exploración física actual muestra un estado general aceptable. La auscultación cardiopulmonar es rítmica y sin soplos, con murmullo vesicular conservado. El abdomen es blando y depresible, no doloroso a la palpación. Las constantes vitales se encuentran dentro de los parámetros normales. Este informe ha sido elaborado por XXX, cuyo es el XXX. Se recomienda continuar con la pauta establecida y se citará para control en un plazo de tres meses. Se instruye a y sobre los signos de alarma por los que deberían contactar con los servicios sanitarios.",
+  "text_length": 1584,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9521417617797852,
+        "word": " familiares",
+        "start": 490,
+        "end": 500,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares",
+          "actual_text": "familiares",
+          "confidence": 0.9521417617797852,
+          "start": 490,
+          "end": 500,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares",
+          "actual_text": "familiares",
+          "confidence": 0.9521417617797852,
+          "start": 490,
+          "end": 500,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares",
+        "actual_text": "familiares",
+        "confidence": 0.9521417617797852,
+        "start": 490,
+        "end": 500,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares",
+        "actual_text": "familiares",
+        "confidence": 0.9521417617797852,
+        "start": 490,
+        "end": 500,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

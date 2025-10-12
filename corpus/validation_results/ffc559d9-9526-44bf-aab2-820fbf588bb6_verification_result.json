@@ -1,0 +1,222 @@
+{
+  "document_id": "ffc559d9-9526-44bf-aab2-820fbf588bb6",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude para seguimiento y valoración de su proceso. En la exploración física actual, se constata un estado general conservado, con tensión arterial de 125/80 mmHg y frecuencia cardíaca de 78 lpm. La auscultación cardiorrespiratoria es normofonética sin soplos ni ruidos sobreañadidos. El abdomen es blando y depresible, no doloroso a la palpación. En relación a la documentación administrativa, se verifica que el número de beneficiario del plan de salud es XXX, habiendo sido atendido previamente en General de Madrid bajo el número de historia clínica XXX. Para cualquier gestión o contacto, puede utilizarse el número de teléfono XXX. Los estudios complementarios realizados se encuentran registrados bajo la referencia XXX. El profesional que suscribe el presente informe está en posesión del XXX con identificación profesional XXX. Cabe señalar que el paciente tiene su residencia principal en la XXX, concretamente en XXX, lo cual es relevante para la coordinación entre territorios. Se mantiene el plan terapéutico establecido con controles periódicos. Se recomienda continuar con la medicación pautada y se programará próxima revisión en seis meses, o antes si aparecieran nuevos síntomas.",
+  "text_length": 1237,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.9316196441650391,
+        "word": " Madrid",
+        "start": 552,
+        "end": 558,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " Madrid",
+          "actual_text": "Madrid",
+          "confidence": 0.9316196441650391,
+          "start": 552,
+          "end": 558,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " Madrid",
+          "actual_text": "Madrid",
+          "confidence": 0.9316196441650391,
+          "start": 552,
+          "end": 558,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.9704269170761108,
+        "word": " General",
+        "start": 541,
+        "end": 548,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9469921588897705,
+        "word": " historia clínica",
+        "start": 577,
+        "end": 593,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "TERRITORIO": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "TERRITORIO",
+          "word": " General",
+          "actual_text": "General",
+          "confidence": 0.9704269170761108,
+          "start": 541,
+          "end": 548,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.9469921588897705,
+          "start": 577,
+          "end": 593,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "TERRITORIO",
+          "word": " General",
+          "actual_text": "General",
+          "confidence": 0.9704269170761108,
+          "start": 541,
+          "end": 548,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.9469921588897705,
+          "start": 577,
+          "end": 593,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "TERRITORIO": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " Madrid",
+        "actual_text": "Madrid",
+        "confidence": 0.9316196441650391,
+        "start": 552,
+        "end": 558,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " General",
+        "actual_text": "General",
+        "confidence": 0.9704269170761108,
+        "start": 541,
+        "end": 548,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.9469921588897705,
+        "start": 577,
+        "end": 593,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " Madrid",
+        "actual_text": "Madrid",
+        "confidence": 0.9316196441650391,
+        "start": 552,
+        "end": 558,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " General",
+        "actual_text": "General",
+        "confidence": 0.9704269170761108,
+        "start": 541,
+        "end": 548,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.9469921588897705,
+        "start": 577,
+        "end": 593,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

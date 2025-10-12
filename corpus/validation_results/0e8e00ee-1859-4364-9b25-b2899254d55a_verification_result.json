@@ -1,0 +1,220 @@
+{
+  "document_id": "0e8e00ee-1859-4364-9b25-b2899254d55a",
+  "success": true,
+  "anonymized_text": "**INFORME DE VALORACIÓN INICIAL** La paciente XXX acude a consulta para valoración. Se identifica mediante documento nacional de identidad número XXX, constando como de sexo XXX y con nacionalidad de XXX. Reside en XXX, dentro de la XXX. En cuanto a los sistemas de verificación, se ha registrado la XXX como método de identificación biométrica principal. Para completar el registro de sus bienes, se anotó el identificador de vehículo XXX. A la exploración física, la paciente se presenta consciente y orientada. La auscultación cardiorrespiratoria resulta dentro de la normalidad, sin soplos ni ruidos sobreañadidos. El abdomen es blando y depresible, no doloroso a la palpación superficial y profunda. En las extremidades inferiores no se evidencian edemas ni signos de trombosis. En las pruebas complementarias realizadas, la analítica muestra un hemograma dentro de rangos normales y una bioquímica sin alteraciones significativas. La radiografía de tórax realizada no evidencia condensaciones patológicas ni derrame pleural. Se mantendrá en observación y seguimiento ambulatorio, recomendando controles periódicos.",
+  "text_length": 1120,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7304590940475464,
+        "word": " documento nacional",
+        "start": 107,
+        "end": 125,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7478917837142944,
+        "word": " identidad",
+        "start": 129,
+        "end": 138,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional",
+          "actual_text": "documento nacional",
+          "confidence": 0.7304590940475464,
+          "start": 107,
+          "end": 125,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identidad",
+          "actual_text": "identidad",
+          "confidence": 0.7478917837142944,
+          "start": 129,
+          "end": 138,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional",
+          "actual_text": "documento nacional",
+          "confidence": 0.7304590940475464,
+          "start": 107,
+          "end": 125,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identidad",
+          "actual_text": "identidad",
+          "confidence": 0.7478917837142944,
+          "start": 129,
+          "end": 138,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.721224844455719,
+        "word": " sexo XXX",
+        "start": 169,
+        "end": 177,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo XXX",
+          "actual_text": "sexo XXX",
+          "confidence": 0.721224844455719,
+          "start": 169,
+          "end": 177,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo XXX",
+          "actual_text": "sexo XXX",
+          "confidence": 0.721224844455719,
+          "start": 169,
+          "end": 177,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2,
+      "ID_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 3,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional",
+        "actual_text": "documento nacional",
+        "confidence": 0.7304590940475464,
+        "start": 107,
+        "end": 125,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identidad",
+        "actual_text": "identidad",
+        "confidence": 0.7478917837142944,
+        "start": 129,
+        "end": 138,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo XXX",
+        "actual_text": "sexo XXX",
+        "confidence": 0.721224844455719,
+        "start": 169,
+        "end": 177,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional",
+        "actual_text": "documento nacional",
+        "confidence": 0.7304590940475464,
+        "start": 107,
+        "end": 125,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identidad",
+        "actual_text": "identidad",
+        "confidence": 0.7478917837142944,
+        "start": 129,
+        "end": 138,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo XXX",
+        "actual_text": "sexo XXX",
+        "confidence": 0.721224844455719,
+        "start": 169,
+        "end": 177,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

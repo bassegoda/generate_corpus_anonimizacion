@@ -1,0 +1,361 @@
+{
+  "document_id": "9f5f5f34-cb2e-491b-b1cf-0d0388e5c4f3",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE MEDICINA INTERNA** Paciente que acude a consulta externa de Medicina Interna para seguimiento. Se identifica con el documento nacional de identidad XXX, correspondiente a XXX, con XXX de edad. Refiere haber realizado varios viajes al extranjero en los últimos meses, incluyendo estancias en XXX, XXX e XXX. La exploración física actual muestra buen estado general, normopondera, con constantes vitales dentro de la normalidad. La auscultación cardiorrespiratoria es normal, abdomen blando y depresible sin masas ni visceromegalias. No edemas ni signos de trombosis venosa profunda. En relación con los estudios complementarios realizados, se ha remitido documentación al Universitario Ramón y Cajal donde se realizó la última prueba de imagen. Los resultados analíticos muestran parámetros dentro de la normalidad. Para cualquier comunicación adicional o envío de documentación, pueden contactar a través del fax XXX. Se recomienda mantener seguimiento periódico y se ha proporcionado al paciente información adicional disponible a través de los recursos en línea XXX y XXX para consulta de material educativo sobre su condición. Para coordinación con el personal sanitario asignado, XXX, identificado con el número XXX, queda disponible nuestro centro de la Princesa 25, pudiendo contactar también al teléfono XXX para gestiones administrativas.",
+  "text_length": 1379,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9196755886077881,
+        "word": " documento nacional de identidad",
+        "start": 149,
+        "end": 180,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.8947651386260986,
+        "word": " Universitario Ramón y Cajal",
+        "start": 704,
+        "end": 731,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.7345813512802124,
+        "word": " Princesa 25",
+        "start": 1292,
+        "end": 1303,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "HOSPITAL": 1,
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad",
+          "actual_text": "documento nacional de identidad",
+          "confidence": 0.9196755886077881,
+          "start": 149,
+          "end": 180,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Universitario Ramón y Cajal",
+          "actual_text": "Universitario Ramón y Cajal",
+          "confidence": 0.8947651386260986,
+          "start": 704,
+          "end": 731,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Princesa 25",
+          "actual_text": "Princesa 25",
+          "confidence": 0.7345813512802124,
+          "start": 1292,
+          "end": 1303,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad",
+          "actual_text": "documento nacional de identidad",
+          "confidence": 0.9196755886077881,
+          "start": 149,
+          "end": 180,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Universitario Ramón y Cajal",
+          "actual_text": "Universitario Ramón y Cajal",
+          "confidence": 0.8947651386260986,
+          "start": 704,
+          "end": 731,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Princesa 25",
+          "actual_text": "Princesa 25",
+          "confidence": 0.7345813512802124,
+          "start": 1292,
+          "end": 1303,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.980790376663208,
+        "word": " Universitario Ramón y Cajal",
+        "start": 704,
+        "end": 731,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.915412425994873,
+        "word": " centro",
+        "start": 1279,
+        "end": 1285,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.7555937170982361,
+        "word": " de la Princesa 25",
+        "start": 1286,
+        "end": 1303,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1,
+        "CENTRO_SALUD": 1,
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " Universitario Ramón y Cajal",
+          "actual_text": "Universitario Ramón y Cajal",
+          "confidence": 0.980790376663208,
+          "start": 704,
+          "end": 731,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " centro",
+          "actual_text": "centro",
+          "confidence": 0.915412425994873,
+          "start": 1279,
+          "end": 1285,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " de la Princesa 25",
+          "actual_text": "de la Princesa 25",
+          "confidence": 0.7555937170982361,
+          "start": 1286,
+          "end": 1303,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " Universitario Ramón y Cajal",
+          "actual_text": "Universitario Ramón y Cajal",
+          "confidence": 0.980790376663208,
+          "start": 704,
+          "end": 731,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " centro",
+          "actual_text": "centro",
+          "confidence": 0.915412425994873,
+          "start": 1279,
+          "end": 1285,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " de la Princesa 25",
+          "actual_text": "de la Princesa 25",
+          "confidence": 0.7555937170982361,
+          "start": 1286,
+          "end": 1303,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 6,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "HOSPITAL": 2,
+      "CALLE": 2,
+      "CENTRO_SALUD": 1
+    },
+    "entities_by_confidence": {
+      "high": 4,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad",
+        "actual_text": "documento nacional de identidad",
+        "confidence": 0.9196755886077881,
+        "start": 149,
+        "end": 180,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Universitario Ramón y Cajal",
+        "actual_text": "Universitario Ramón y Cajal",
+        "confidence": 0.8947651386260986,
+        "start": 704,
+        "end": 731,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Princesa 25",
+        "actual_text": "Princesa 25",
+        "confidence": 0.7345813512802124,
+        "start": 1292,
+        "end": 1303,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Universitario Ramón y Cajal",
+        "actual_text": "Universitario Ramón y Cajal",
+        "confidence": 0.980790376663208,
+        "start": 704,
+        "end": 731,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " centro",
+        "actual_text": "centro",
+        "confidence": 0.915412425994873,
+        "start": 1279,
+        "end": 1285,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " de la Princesa 25",
+        "actual_text": "de la Princesa 25",
+        "confidence": 0.7555937170982361,
+        "start": 1286,
+        "end": 1303,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad",
+        "actual_text": "documento nacional de identidad",
+        "confidence": 0.9196755886077881,
+        "start": 149,
+        "end": 180,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Universitario Ramón y Cajal",
+        "actual_text": "Universitario Ramón y Cajal",
+        "confidence": 0.8947651386260986,
+        "start": 704,
+        "end": 731,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Princesa 25",
+        "actual_text": "Princesa 25",
+        "confidence": 0.7345813512802124,
+        "start": 1292,
+        "end": 1303,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Universitario Ramón y Cajal",
+        "actual_text": "Universitario Ramón y Cajal",
+        "confidence": 0.980790376663208,
+        "start": 704,
+        "end": 731,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " centro",
+        "actual_text": "centro",
+        "confidence": 0.915412425994873,
+        "start": 1279,
+        "end": 1285,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " de la Princesa 25",
+        "actual_text": "de la Princesa 25",
+        "confidence": 0.7555937170982361,
+        "start": 1286,
+        "end": 1303,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 6,
+    "suspicious_detections": 6,
+    "xxxxxx_detections": 0,
+    "other_detections": 6
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "document_id": "0c32ee88-3885-4f24-93d0-07ee134917a1",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude a revisión en consultas externas del XXX para seguimiento de su proceso. La paciente, de sexo XXX y procedente de la XXX, se encuentra en situación de estabilidad clínica respecto a su última visita. En la exploración física actual se objetiva buen estado general, normohidratada y bien perfundida. Auscultación cardiorrespiratoria rítmica sin soplos ni ruidos sobreañadidos. Abdomen blando y depresible, no doloroso a la palpación superficial y profunda. Extremidades sin edemas ni signos de trombosis. Respecto a las pruebas complementarias realizadas, la analítica muestra hemograma dentro de rangos de normalidad con leve anemia ferropénica en estudio. La ecografía abdominal evidencia hígado de características ecográficas normales sin lesiones focales. Se procederá a seguimiento ambulatorio con control analítico en tres meses. Para cualquier comunicación relacionada con este informe, pueden contactar con la XXX a través de XXX. Se registra como familiar de asistencia a XXX. La documentación del vehículo de asistencia XXX queda incorporada al expediente para fines administrativos. La XXX supervisará el siguiente control evolutivo. Se adjuntan los identificadores XXX y XXX correspondientes a material sanitario utilizado durante la exploración. El número de beneficiario del plan de salud XXX y el identificador XXX quedan registrados en el sistema para futuras gestiones. XXX Especialista en Medicina Interna",
+  "text_length": 1469,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9615553617477417,
+        "word": " familiar",
+        "start": 1002,
+        "end": 1010,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7026774883270264,
+        "word": " vehículo",
+        "start": 1053,
+        "end": 1061,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9615553617477417,
+          "start": 1002,
+          "end": 1010,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.7026774883270264,
+          "start": 1053,
+          "end": 1061,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9615553617477417,
+          "start": 1002,
+          "end": 1010,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.7026774883270264,
+          "start": 1053,
+          "end": 1061,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7610234022140503,
+        "word": " sexo",
+        "start": 136,
+        "end": 140,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.7610234022140503,
+          "start": 136,
+          "end": 140,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.7610234022140503,
+          "start": 136,
+          "end": 140,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "ID_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9615553617477417,
+        "start": 1002,
+        "end": 1010,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.7026774883270264,
+        "start": 1053,
+        "end": 1061,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.7610234022140503,
+        "start": 136,
+        "end": 140,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9615553617477417,
+        "start": 1002,
+        "end": 1010,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.7026774883270264,
+        "start": 1053,
+        "end": 1061,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.7610234022140503,
+        "start": 136,
+        "end": 140,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

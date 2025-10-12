@@ -1,0 +1,266 @@
+{
+  "document_id": "81f754a1-8c4d-46f0-b3f7-1d4083f1e5c9",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude para seguimiento y valoración de su proceso. En cuanto a los datos de filiación, se confirma que el **** es **XXX** y que su residencia se encuentra en la **XXX**, **** de nuestro país, **** **XXX**. La dirección postal registrada es **XXX**, ****. Para posibles contactos, se dispone de un **** **XXX** y un **** **XXX**. El número de beneficio del plan de salud que presenta es el **** **XXX**. Cabe mencionar que el dispositivo médico de monitorización continua que utiliza, cuyo **** es **XXX**, fue dispensado a través del ** General de Madrid**, ****. La paciente refiere que la próxima prueba de imagen programada se realizará en el ** Clínico San Carlos**, ****, situado en el **XXX**, ****. Se le ha recomendado consultar la **** **XXX** como fuente de información complementaria y fiable sobre su condición. A la exploración física, la paciente se encuentra en aceptable estado general, consciente y orientada. La auscultación cardiorrespiratoria es normofonética sin soplos ni ruidos sobreañadidos. El abdomen es blando y depresible, no doloroso a la palpación. En las pruebas analíticas recientes se observa un hemograma dentro de los parámetros de normalidad y una función renal conservada. La resonancia magnética realizada el mes pasado no mostró hallazgos significativos, manteniéndose estable respecto a estudios previos. Se continuará con el mismo plan terapéutico y se citará para control en seis meses.",
+  "text_length": 1469,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.7944223284721375,
+        "word": " General de Madrid",
+        "start": 578,
+        "end": 595,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9010029435157776,
+        "word": " Clínico San Carlos",
+        "start": 690,
+        "end": 708,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1,
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.7944223284721375,
+          "start": 578,
+          "end": 595,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9010029435157776,
+          "start": 690,
+          "end": 708,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.7944223284721375,
+          "start": 578,
+          "end": 595,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9010029435157776,
+          "start": 690,
+          "end": 708,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.953517735004425,
+        "word": " ** General de Madrid",
+        "start": 575,
+        "end": 595,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.8752411603927612,
+        "word": " ** Clínico San Carlos",
+        "start": 687,
+        "end": 708,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " ** General de Madrid",
+          "actual_text": "** General de Madrid",
+          "confidence": 0.953517735004425,
+          "start": 575,
+          "end": 595,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos",
+          "actual_text": "** Clínico San Carlos",
+          "confidence": 0.8752411603927612,
+          "start": 687,
+          "end": 708,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " ** General de Madrid",
+          "actual_text": "** General de Madrid",
+          "confidence": 0.953517735004425,
+          "start": 575,
+          "end": 595,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos",
+          "actual_text": "** Clínico San Carlos",
+          "confidence": 0.8752411603927612,
+          "start": 687,
+          "end": 708,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "HOSPITAL": 3
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.7944223284721375,
+        "start": 578,
+        "end": 595,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9010029435157776,
+        "start": 690,
+        "end": 708,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** General de Madrid",
+        "actual_text": "** General de Madrid",
+        "confidence": 0.953517735004425,
+        "start": 575,
+        "end": 595,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos",
+        "actual_text": "** Clínico San Carlos",
+        "confidence": 0.8752411603927612,
+        "start": 687,
+        "end": 708,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.7944223284721375,
+        "start": 578,
+        "end": 595,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9010029435157776,
+        "start": 690,
+        "end": 708,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** General de Madrid",
+        "actual_text": "** General de Madrid",
+        "confidence": 0.953517735004425,
+        "start": 575,
+        "end": 595,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos",
+        "actual_text": "** Clínico San Carlos",
+        "confidence": 0.8752411603927612,
+        "start": 687,
+        "end": 708,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

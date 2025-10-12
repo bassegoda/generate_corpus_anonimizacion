@@ -1,0 +1,124 @@
+{
+  "document_id": "51812f50-4fde-4b1d-86b5-e56e5a2f6adb",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Preoperatoria Se realiza valoración preoperatoria para procedimiento quirúrgico programado. El paciente se presenta en condiciones generales aceptables para la intervención. La exploración física revela tensión arterial de 130/80 mmHg, frecuencia cardíaca de 78 lpm regular, y saturación de oxígeno del 96% en aire ambiente. Auscultación cardíaca con ritmo regular sin soplos apreciables, auscultación pulmonar con murmullo vesicular conservado bilateralmente. El equipo quirúrgico estará liderado por un XXX con amplia experiencia en este tipo de procedimientos. El XXX responsable cuenta con la titulación de XXX y está debidamente acreditado para la práctica de esta especialidad. El personal de enfermería asistencial, con titulación de XXX, completará el equipo que atenderá al paciente durante el perioperatorio. El procedimiento se llevará a cabo en el XXX, ubicado en la XXX, XXX. Para la coordinación logística se ha asignado el vehículo con placa XXX, que facilitará el transporte de material específico. El centro cuenta con todos los recursos necesarios para garantizar la seguridad del procedimiento. Para fines de documentación clínica y trazabilidad, se registran las siguientes referencias: el número de identificación del profesional sanitario principal es XXX, el número de aseguramiento del paciente es XXX, y el número de referencia del expediente clínico es XXX. Toda la documentación queda archivada según los protocolos establecidos.",
+  "text_length": 1478,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8697820901870728,
+        "word": " vehículo",
+        "start": 960,
+        "end": 968,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.8697820901870728,
+          "start": 960,
+          "end": 968,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.8697820901870728,
+          "start": 960,
+          "end": 968,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.8697820901870728,
+        "start": 960,
+        "end": 968,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.8697820901870728,
+        "start": 960,
+        "end": 968,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

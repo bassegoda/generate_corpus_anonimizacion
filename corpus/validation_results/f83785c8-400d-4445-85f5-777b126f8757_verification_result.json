@@ -1,0 +1,124 @@
+{
+  "document_id": "f83785c8-400d-4445-85f5-777b126f8757",
+  "success": true,
+  "anonymized_text": "**NOTA DE EVOLUCIÓN** A continuación se presenta la valoración de seguimiento correspondiente al XXX en el XXX. El paciente, identificado con el número de beneficio del plan de salud XXX, acude para control rutinario de su condición crónica. La exploración física actual muestra tensión arterial de 128/76 mmHg, frecuencia cardíaca de 72 lpm y saturación de oxígeno del 97%. En la auscultación cardíaca y pulmonar no se evidencian hallazgos patológicos. El abdomen es blando y depresible, sin masas ni megalias. Los resultados analíticos recientes muestran hemoglobina glicosilada de 6.8% y glucemia basal de 118 mg/dL, con función renal y hepática dentro de parámetros normales. Es importante destacar que el paciente es XXX, dato que queda registrado en su historia clínica digital accesible mediante el enlace XXX. Se recomienda encarecidamente la participación en el XXX para optimizar el manejo de su condición. Para cualquier comunicación adicional relacionada con este caso, puede utilizarse el número de beneficio XXX. La documentación complementaria se encuentra disponible en la dirección XXX. El país de residencia y atención sanitaria es XXX. Quedo a disposición para cualquier consulta a través del fax institucional XXX. Atentamente, XXX Médico Especialista",
+  "text_length": 1271,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.7233912348747253,
+        "word": " XXX Médico Especialista",
+        "start": 1248,
+        "end": 1271,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " XXX Médico Especialista",
+          "actual_text": "XXX Médico Especialista",
+          "confidence": 0.7233912348747253,
+          "start": 1248,
+          "end": 1271,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " XXX Médico Especialista",
+          "actual_text": "XXX Médico Especialista",
+          "confidence": 0.7233912348747253,
+          "start": 1248,
+          "end": 1271,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " XXX Médico Especialista",
+        "actual_text": "XXX Médico Especialista",
+        "confidence": 0.7233912348747253,
+        "start": 1248,
+        "end": 1271,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " XXX Médico Especialista",
+        "actual_text": "XXX Médico Especialista",
+        "confidence": 0.7233912348747253,
+        "start": 1248,
+        "end": 1271,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

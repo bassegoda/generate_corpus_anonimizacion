@@ -1,0 +1,174 @@
+{
+  "document_id": "c4f07251-4896-4f92-ab50-055aa1dc74e6",
+  "success": true,
+  "anonymized_text": "En el contexto de la valoración integral del paciente, se ha recabado información relevante proporcionada por su , en concreto por XXX del afectado, quien mostró una excelente disposición para colaborar en el proceso asistencial. Dicha familiar reside en XXX y mantiene un contacto frecuente con el paciente. El profesional que suscribe este informe cuenta con la titulación de XXX, formación que avala la evaluación clínica realizada. Cabe destacar que el marco competencial para el ejercicio de la profesión se desarrolla bajo la supervisión de la XXX, organismo que establece los protocolos asistenciales de referencia. En este sentido, es pertinente mencionar que la XXX desarrolla las políticas sanitarias que rigen nuestra práctica clínica diaria. Para completar la información sobre recursos sanitarios disponibles, se ha considerado de utilidad consultar el portal XXX como referencia de centros que podrían ofrecer abordajes especializados complementarios en caso de ser necesarios. En cuanto a la situación clínica actual, la exploración física revela un paciente consciente y orientado, con presión arterial de 125/80 mmHg, frecuencia cardíaca de 78 lpm y saturación de oxígeno del 97%. La auscultación cardiorrespiratoria es normofonética sin soplos ni ruidos sobreañadidos. En la analítica reciente destaca una hemoglobina de 14.2 g/dL con leucocitos dentro de rangos normales y función renal y hepática preservadas. Las pruebas de imagen realizadas muestran hallazgos inespecíficos sin evidencia de patología aguda. Se mantendrá observación y seguimiento ambulatorio según la evolución clínica.",
+  "text_length": 1608,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9766407608985901,
+        "word": " familiar",
+        "start": 236,
+        "end": 244,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9766407608985901,
+          "start": 236,
+          "end": 244,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9766407608985901,
+          "start": 236,
+          "end": 244,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8021256327629089,
+        "word": " afectado",
+        "start": 139,
+        "end": 147,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " afectado",
+          "actual_text": "afectado",
+          "confidence": 0.8021256327629089,
+          "start": 139,
+          "end": 147,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " afectado",
+          "actual_text": "afectado",
+          "confidence": 0.8021256327629089,
+          "start": 139,
+          "end": 147,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9766407608985901,
+        "start": 236,
+        "end": 244,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " afectado",
+        "actual_text": "afectado",
+        "confidence": 0.8021256327629089,
+        "start": 139,
+        "end": 147,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9766407608985901,
+        "start": 236,
+        "end": 244,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " afectado",
+        "actual_text": "afectado",
+        "confidence": 0.8021256327629089,
+        "start": 139,
+        "end": 147,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

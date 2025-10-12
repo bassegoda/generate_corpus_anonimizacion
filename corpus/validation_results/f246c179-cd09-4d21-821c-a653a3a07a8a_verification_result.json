@@ -1,0 +1,174 @@
+{
+  "document_id": "f246c179-cd09-4d21-821c-a653a3a07a8a",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE CARDIOLOGÍA** Fecha de la consulta: XXX. La paciente **XXX** acude a revisión programada en la unidad de Cardiología del ** Clínico San Carlos**. Refiere estabilidad de su sintomatología habitual, sin aparición de nuevos episodios de disnea o dolor torácico. En la exploración física actual, se constata presión arterial de 128/76 mmHg, frecuencia cardíaca de 68 lpm y ritmo regular. Auscultación cardíaca con ritmo regular, sin soplos añadidos. Auscultación pulmonar conservada. Respecto a las pruebas complementarias realizadas, el electrocardiograma muestra ritmo sinusal normal, sin alteraciones agudas. El ecocardiograma fue informado como normal, con fracción de eyección del ventrículo izquierdo preservada. El dispositivo de monitorización **XXX** no ha registrado arritmias significativas en el período de observación. Se procedió a la verificación del funcionamiento del marcapasos, cuyo número de serie **XXX** aparece registrado en el sistema. El interrogatorio del dispositivo confirma parámetros dentro de la normalidad y correcto estado de la batería. La documentación administrativa correspondiente a la emisión de este informe, así como la solicitud de recambio del dispositivo de monitorización, ha sido remitida a la **XXX** para su procesamiento. El material sanitario adicional será enviado a la dirección **XXX**. Este profesional, con **XXX** e identificado con el número **XXX**, certifica la veracidad de los datos recogidos. Para cualquier cuestión relacionada con este informe, puede contactarse a través del **XXX**. El presente documento se archiva en el historial de la paciente de acuerdo con los protocolos establecidos por el **XXX**.",
+  "text_length": 1700,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9888750910758972,
+        "word": " ** Clínico San Carlos**",
+        "start": 154,
+        "end": 177,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos**",
+          "actual_text": "** Clínico San Carlos**",
+          "confidence": 0.9888750910758972,
+          "start": 154,
+          "end": 177,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos**",
+          "actual_text": "** Clínico San Carlos**",
+          "confidence": 0.9888750910758972,
+          "start": 154,
+          "end": 177,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9627479314804077,
+        "word": " ** Clínico San Carlos",
+        "start": 154,
+        "end": 175,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos",
+          "actual_text": "** Clínico San Carlos",
+          "confidence": 0.9627479314804077,
+          "start": 154,
+          "end": 175,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos",
+          "actual_text": "** Clínico San Carlos",
+          "confidence": 0.9627479314804077,
+          "start": 154,
+          "end": 175,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "HOSPITAL": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos**",
+        "actual_text": "** Clínico San Carlos**",
+        "confidence": 0.9888750910758972,
+        "start": 154,
+        "end": 177,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos",
+        "actual_text": "** Clínico San Carlos",
+        "confidence": 0.9627479314804077,
+        "start": 154,
+        "end": 175,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos**",
+        "actual_text": "** Clínico San Carlos**",
+        "confidence": 0.9888750910758972,
+        "start": 154,
+        "end": 177,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos",
+        "actual_text": "** Clínico San Carlos",
+        "confidence": 0.9627479314804077,
+        "start": 154,
+        "end": 175,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

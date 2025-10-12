@@ -1,0 +1,175 @@
+{
+  "document_id": "0e993f8e-32fe-4a17-baa5-2330fed95a7e",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE NEUROLOGÍA** Fecha de la exploración: XXX A la atención del profesional que continúe la asistencia de la paciente, se redacta el presente informe de neurología. La paciente XXX acude a consulta para seguimiento de su cuadro. Se ha revisado la documentación previa disponible bajo el identificador XXX, así como los estudios complementarios asociados al episodio agudo. En la exploración neurológica actual se objetiva un ligero temblor postural en miembro superior derecho, con reflejos osteotendinosos simétricos y normorreflexia generalizada. La marcha es estable, sin signos de inestabilidad postural. No se evidencian otros signos parkinsonianos. Los análisis de laboratorio recientes, incluido un perfil tiroideo, se encuentran dentro de parámetros normales. La resonancia magnética craneal practicada el XXX descarta la presencia de hallazgos estructurales significativos. Se establece un plan terapéutico conservador con control periódico. Se recomienda contactar para cualquier modificación en su sintomatología a través del número de teléfono XXX. Para la coordinación con otros niveles asistenciales, la historia clínica electrónica centralizada está disponible en XXX. Se ha informado a la paciente y a su familiar de contacto, XXX, sobre las recomendaciones. Se emitirá un nuevo informe de evolución con el identificador XXX. La documentación de este informe se ajusta a los protocolos establecidos por el XXX. Para cualquier aclaración posterior, puede dirigirse a este servicio a través del XXX. El profesional responsable, con la titulación de XXX, es la XXX. La información general de la institución está disponible en la XXX. El vehículo sanitario asignado para desplazamientos programados porta la placa XXX. Este servicio se presta dentro del de XXX. Atentamente, XXX Especialista en Neurología",
+  "text_length": 1846,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.864508867263794,
+        "word": " familiar de",
+        "start": 1250,
+        "end": 1261,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de",
+          "actual_text": "familiar de",
+          "confidence": 0.864508867263794,
+          "start": 1250,
+          "end": 1261,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de",
+          "actual_text": "familiar de",
+          "confidence": 0.864508867263794,
+          "start": 1250,
+          "end": 1261,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9737914204597473,
+        "word": " historia clínica electrónica",
+        "start": 1147,
+        "end": 1175,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica electrónica",
+          "actual_text": "historia clínica electrónica",
+          "confidence": 0.9737914204597473,
+          "start": 1147,
+          "end": 1175,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica electrónica",
+          "actual_text": "historia clínica electrónica",
+          "confidence": 0.9737914204597473,
+          "start": 1147,
+          "end": 1175,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de",
+        "actual_text": "familiar de",
+        "confidence": 0.864508867263794,
+        "start": 1250,
+        "end": 1261,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica electrónica",
+        "actual_text": "historia clínica electrónica",
+        "confidence": 0.9737914204597473,
+        "start": 1147,
+        "end": 1175,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de",
+        "actual_text": "familiar de",
+        "confidence": 0.864508867263794,
+        "start": 1250,
+        "end": 1261,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica electrónica",
+        "actual_text": "historia clínica electrónica",
+        "confidence": 0.9737914204597473,
+        "start": 1147,
+        "end": 1175,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

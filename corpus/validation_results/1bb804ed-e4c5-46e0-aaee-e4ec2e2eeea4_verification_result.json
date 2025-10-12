@@ -1,0 +1,124 @@
+{
+  "document_id": "1bb804ed-e4c5-46e0-aaee-e4ec2e2eeea4",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE CARDIOLOGÍA** En la consulta externa del XXX se atiende a la paciente XXX, identificada con el número de historia clínica XXX. La paciente acude para seguimiento de su proceso cardiológico, aportando la documentación correspondiente al episodio asistencial XXX. Durante la valoración se revisaron los estudios complementarios previos, incluyendo el ecocardiograma identificado con el código XXX, que mostraba función sistólica conservada sin alteraciones valvulares significativas. Los análisis recientes, asociados al número de beneficiaria del plan de salud XXX, reflejan un perfil lipídico dentro de parámetros aceptables. Se encuentra bajo supervisión periódica según los protocolos establecidos en nuestro sistema de salud, accesibles a través de XXX. La paciente fue evaluada previamente por la especialista XXX, XXX, cuyo identificador profesional es XXX. En la intervención del XXX se utilizó material protésico con número de serie XXX, cuyo seguimiento ha resultado satisfactorio. Como documentación de referencia para el manejo de su condición, se recomienda consultar las guías clínicas disponibles en XXX. Para completar la gestión administrativa del presente informe, se registra el número de referencia XXX y el documento de identificación XXX. Se mantendrá seguimiento coordinado con los familiares sujetos de asistencia para garantizar la continuidad de cuidados.",
+  "text_length": 1412,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.943313479423523,
+        "word": " familiares sujetos",
+        "start": 1336,
+        "end": 1354,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares sujetos",
+          "actual_text": "familiares sujetos",
+          "confidence": 0.943313479423523,
+          "start": 1336,
+          "end": 1354,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares sujetos",
+          "actual_text": "familiares sujetos",
+          "confidence": 0.943313479423523,
+          "start": 1336,
+          "end": 1354,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares sujetos",
+        "actual_text": "familiares sujetos",
+        "confidence": 0.943313479423523,
+        "start": 1336,
+        "end": 1354,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares sujetos",
+        "actual_text": "familiares sujetos",
+        "confidence": 0.943313479423523,
+        "start": 1336,
+        "end": 1354,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

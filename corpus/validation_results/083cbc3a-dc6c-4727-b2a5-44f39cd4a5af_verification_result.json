@@ -1,0 +1,124 @@
+{
+  "document_id": "083cbc3a-dc6c-4727-b2a5-44f39cd4a5af",
+  "success": true,
+  "anonymized_text": "A continuación se presenta el informe de consulta externa correspondiente a la revisión anual. La paciente, de sexo XXX, acude para seguimiento de su patología crónica controlada. Refiere buena tolerancia al tratamiento actual sin efectos adversos significativos. En la exploración física actual, se constata normopeso, presión arterial 125/80 mmHg, frecuencia cardíaca 72 lpm y saturación de oxígeno del 98%. La auscultación cardiorrespiratoria resulta dentro de la normalidad, sin soplos ni ruidos sobreañadidos. El abdomen es blando y depresible, no doloroso a la palpación superficial y profunda. Respecto a los estudios complementarios realizados, la analítica completa muestra hemograma y bioquímica dentro de rangos normales. El electrocardiograma presenta ritmo sinusal normal sin alteraciones agudas. El dispositivo médico implantado, identificado con el número de serie XXX, fue interrogado y funciona dentro de sus parámetros programados, sin registrar eventos arrítmicos significativos en el último trimestre. Cabe destacar que el plan de salud con número de beneficiario XXX cubre todas las prestaciones requeridas. Asimismo, se ha verificado que la documentación con número XXX se encuentra actualizada y en regla. Todos los procedimientos se han realizado conforme a los protocolos establecidos en XXX. Se recomienda continuar con el mismo esquema terapéutico y se ha proporcionado a la paciente material educativo actualizado disponible a través de XXX para el adecuado autocuidado y seguimiento de su condición. La próxima cita de control queda programada para el XXX, manteniendo la periodicidad semestral establecida en su protocolo de seguimiento.",
+  "text_length": 1667,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7251738905906677,
+        "word": " plan",
+        "start": 1043,
+        "end": 1047,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.7251738905906677,
+          "start": 1043,
+          "end": 1047,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.7251738905906677,
+          "start": 1043,
+          "end": 1047,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.7251738905906677,
+        "start": 1043,
+        "end": 1047,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.7251738905906677,
+        "start": 1043,
+        "end": 1047,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

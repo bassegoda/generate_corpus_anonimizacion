@@ -1,0 +1,169 @@
+{
+  "document_id": "68da97a3-27e8-4d41-9a79-64d1caf3da10",
+  "success": true,
+  "anonymized_text": "**INFORME DE EVOLUCIÓN Y PLAN TERAPÉUTICO** En la revisión correspondiente al XXX, se evalúa la evolución de la paciente XXX, quien continúa bajo mi supervisión en el marco del tratamiento establecido. La exploración física actual muestra mejoría significativa en la amplitud articular, con persistencia de leve dolor residual a la palpación profunda. Los estudios de imagen complementarios realizados muestran adecuada consolidación tisular. Se ha coordinado la continuidad del tratamiento con el XXX asignado, manteniendo la frecuencia de sesiones establecida. El plan de ejercicios domiciliarios deberá ser ajustado progresivamente según tolerancia. Para cualquier gestión administrativa o consulta relacionada con este informe, pueden utilizarse los siguientes canales: la dirección en XXX, el número de fax XXX, o a través del portal web XXX. La documentación queda registrada bajo la referencia XXX. A nivel identificativo, se verifica el número de aseguramiento XXX, con documento de identificación XXX emitido en XXX. Se recomienda a los familiares sujetos de asistencia involucrados en el cuidado de la paciente mantener actualizados estos datos para agilizar trámites futuros. Atentamente, XXX",
+  "text_length": 1203,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9771411418914795,
+        "word": " familiares sujetos",
+        "start": 1046,
+        "end": 1064,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8927524089813232,
+        "word": " asistencia",
+        "start": 1068,
+        "end": 1078,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares sujetos",
+          "actual_text": "familiares sujetos",
+          "confidence": 0.9771411418914795,
+          "start": 1046,
+          "end": 1064,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " asistencia",
+          "actual_text": "asistencia",
+          "confidence": 0.8927524089813232,
+          "start": 1068,
+          "end": 1078,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares sujetos",
+          "actual_text": "familiares sujetos",
+          "confidence": 0.9771411418914795,
+          "start": 1046,
+          "end": 1064,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " asistencia",
+          "actual_text": "asistencia",
+          "confidence": 0.8927524089813232,
+          "start": 1068,
+          "end": 1078,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares sujetos",
+        "actual_text": "familiares sujetos",
+        "confidence": 0.9771411418914795,
+        "start": 1046,
+        "end": 1064,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " asistencia",
+        "actual_text": "asistencia",
+        "confidence": 0.8927524089813232,
+        "start": 1068,
+        "end": 1078,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares sujetos",
+        "actual_text": "familiares sujetos",
+        "confidence": 0.9771411418914795,
+        "start": 1046,
+        "end": 1064,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " asistencia",
+        "actual_text": "asistencia",
+        "confidence": 0.8927524089813232,
+        "start": 1068,
+        "end": 1078,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

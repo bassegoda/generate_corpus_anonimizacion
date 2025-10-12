@@ -1,0 +1,175 @@
+{
+  "document_id": "9a4aee41-04a6-4f68-961e-3c9ca6c5a65c",
+  "success": true,
+  "anonymized_text": "A la atención de la XXX, Se remite a la consulta de Endocrinología a la paciente XXX para valoración y seguimiento integral. La paciente, de sexo XXX, acude derivada para optimización de su manejo metabólico. En la documentación adjunta, identificada con el número E-2024-789012, se detalla la historia clínica previa. Durante la anamnesis, la paciente refiere haber sido evaluada previamente por la XXX, cuyo informe con referencia XXX hemos recibido. Es de especial relevancia destacar que la paciente refiere ser XXX, dato que queda registrado de forma prominente en su historial. Se ha recomendado a la paciente la incorporación al XXX, considerando los beneficios psicoeducativos que este recurso puede brindarle. A nivel de exploración física, los hallazgos más significativos fueron within normal limits, con constante de normalidad en la auscultación cardiorrespiratoria y abdomen sin masas ni visceromegalias palpables. Los resultados analíticos recientes, asociados al expediente XXX, muestran un control glucémico subóptimo que requiere ajuste terapéutico. Para cualquier comunicación o coordinación, queda a su disposición el ID de contacto asistencial XXX, así como el correo electrónico XXX. Asimismo, se sugiere a la paciente consultar la información disponible en XXX para complementar su educación sanitaria. Quedamos a la espera de sus valoraciones y propuestas de manejo. Atentamente, XXX ID de empleo del personal sanitario: XXX",
+  "text_length": 1448,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.74339359998703,
+        "word": "2024-789012",
+        "start": 267,
+        "end": 278,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "2024-789012",
+          "actual_text": "2024-789012",
+          "confidence": 0.74339359998703,
+          "start": 267,
+          "end": 278,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "2024-789012",
+          "actual_text": "2024-789012",
+          "confidence": 0.74339359998703,
+          "start": 267,
+          "end": 278,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9649111032485962,
+        "word": " E",
+        "start": 265,
+        "end": 266,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " E",
+          "actual_text": "E",
+          "confidence": 0.9649111032485962,
+          "start": 265,
+          "end": 266,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " E",
+          "actual_text": "E",
+          "confidence": 0.9649111032485962,
+          "start": 265,
+          "end": 266,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 1,
+      "NUMERO_TELEFONO": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "2024-789012",
+        "actual_text": "2024-789012",
+        "confidence": 0.74339359998703,
+        "start": 267,
+        "end": 278,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " E",
+        "actual_text": "E",
+        "confidence": 0.9649111032485962,
+        "start": 265,
+        "end": 266,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "2024-789012",
+        "actual_text": "2024-789012",
+        "confidence": 0.74339359998703,
+        "start": 267,
+        "end": 278,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " E",
+        "actual_text": "E",
+        "confidence": 0.9649111032485962,
+        "start": 265,
+        "end": 266,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

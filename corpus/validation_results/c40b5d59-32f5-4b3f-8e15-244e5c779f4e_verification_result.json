@@ -1,0 +1,124 @@
+{
+  "document_id": "c40b5d59-32f5-4b3f-8e15-244e5c779f4e",
+  "success": true,
+  "anonymized_text": "En la valoración integral del paciente, se constata una situación de dependencia moderada que requiere supervisión continua en las actividades de la vida diaria. Se ha identificado que cuenta con un XXX que se ocupa de la provisión de cuidados principales y del manejo de la medicación domiciliaria. Desde el punto de vista funcional, la exploración física revela una conservación de la fuerza en extremidades superiores e inferiores, con reflejos osteotendinosos normoactivos y simétricos. La analítica reciente no muestra alteraciones significativas en el perfil bioquímico, con una glucemia basal de 98 mg/dl y creatinina en 0.9 mg/dl. En el contexto de la coordinación asistencial, se recomienda reforzar la información sobre recursos disponibles. Para ello, se ha proporcionado al cuidador principal el acceso al portal XXX como fuente fiable de material educativo sobre el manejo de condiciones crónicas. Asimismo, para la gestión de ayudas técnicas, se ha tramitado la solicitud del dispositivo de apoyo con identificativo XXX, el cual facilitará la deambulación y transferencias del paciente, reduciendo así la carga del cuidador. La radiografía de tórax realizada no evidencia cardiomegalia ni signos de congestión pulmonar, lo que corrobora la estabilidad del estado cardiorrespiratorio. Se mantendrá la pauta terapéutica actual y se programará seguimiento para reevaluar la situación funcional y la adecuación de los soportes facilitados.",
+  "text_length": 1449,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.891503632068634,
+        "word": " cuidador principal",
+        "start": 786,
+        "end": 804,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cuidador principal",
+          "actual_text": "cuidador principal",
+          "confidence": 0.891503632068634,
+          "start": 786,
+          "end": 804,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cuidador principal",
+          "actual_text": "cuidador principal",
+          "confidence": 0.891503632068634,
+          "start": 786,
+          "end": 804,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cuidador principal",
+        "actual_text": "cuidador principal",
+        "confidence": 0.891503632068634,
+        "start": 786,
+        "end": 804,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cuidador principal",
+        "actual_text": "cuidador principal",
+        "confidence": 0.891503632068634,
+        "start": 786,
+        "end": 804,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

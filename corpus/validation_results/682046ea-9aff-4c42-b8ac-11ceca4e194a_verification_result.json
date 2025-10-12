@@ -1,0 +1,264 @@
+{
+  "document_id": "682046ea-9aff-4c42-b8ac-11ceca4e194a",
+  "success": true,
+  "anonymized_text": "Informe de Consulta de Seguimiento Paciente XXX que acude a consulta externa para control evolutivo tras su intervención quirúrgica cardíaca. La paciente se presenta en el XXX donde se realiza su seguimiento postoperatorio coordinado con el servicio de cirugía cardiovascular. En la exploración física actual, la paciente se encuentra en buen estado general, eupneica en reposo. Auscultación cardíaca con ritmo regular, sin soplos patológicos ni ruidos sobreañadidos. La herida quirúrgica presenta adecuada cicatrización sin signos de infección ni dehiscencia. Los pulsos periféricos son simétricos y presentes. Respecto a los estudios complementarios recientes, el ecocardiograma Doppler muestra función biventricular conservada con buena movilidad segmentaria. El electrocardiograma presenta ritmo sinusal normal sin alteraciones agudas de la repolarización. Los análisis de laboratorio reflejan parámetros dentro de la normalidad, con hemograma completo sin anemia y función renal adecuada. Se mantiene el plan terapéutico establecido con control periódico. Para la identificación del procedimiento se registra el código XXX. La documentación de la paciente incluye el número de beneficiario del plan de salud XXX y el identificador de aseguramiento XXX. Todo el proceso asistencial se desarrolla bajo la supervisión de la XXX, XXX con identificación profesional XXX. La atención se presta en nuestras instalaciones ubicadas en XXX, dentro del de XXX. Se programa próxima revisión en tres meses, manteniendo las recomendaciones habituales sobre estilo de vida y adherencia terapéutica. La paciente manifiesta comprensión del plan establecido y se muestra conforme con la evolución de su proceso.",
+  "text_length": 1698,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7088575959205627,
+        "word": " número de beneficiario del",
+        "start": 1172,
+        "end": 1198,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7969363927841187,
+        "word": " plan de salud XXX",
+        "start": 1199,
+        "end": 1216,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7143096923828125,
+        "word": " XXX, XXX",
+        "start": 1326,
+        "end": 1334,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 3
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 3,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " número de beneficiario del",
+          "actual_text": "número de beneficiario del",
+          "confidence": 0.7088575959205627,
+          "start": 1172,
+          "end": 1198,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de salud XXX",
+          "actual_text": "plan de salud XXX",
+          "confidence": 0.7969363927841187,
+          "start": 1199,
+          "end": 1216,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " XXX, XXX",
+          "actual_text": "XXX, XXX",
+          "confidence": 0.7143096923828125,
+          "start": 1326,
+          "end": 1334,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " número de beneficiario del",
+          "actual_text": "número de beneficiario del",
+          "confidence": 0.7088575959205627,
+          "start": 1172,
+          "end": 1198,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de salud XXX",
+          "actual_text": "plan de salud XXX",
+          "confidence": 0.7969363927841187,
+          "start": 1199,
+          "end": 1216,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " XXX, XXX",
+          "actual_text": "XXX, XXX",
+          "confidence": 0.7143096923828125,
+          "start": 1326,
+          "end": 1334,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.816473662853241,
+        "word": " plan de salud",
+        "start": 1199,
+        "end": 1212,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de salud",
+          "actual_text": "plan de salud",
+          "confidence": 0.816473662853241,
+          "start": 1199,
+          "end": 1212,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de salud",
+          "actual_text": "plan de salud",
+          "confidence": 0.816473662853241,
+          "start": 1199,
+          "end": 1212,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 4
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 3,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " número de beneficiario del",
+        "actual_text": "número de beneficiario del",
+        "confidence": 0.7088575959205627,
+        "start": 1172,
+        "end": 1198,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de salud XXX",
+        "actual_text": "plan de salud XXX",
+        "confidence": 0.7969363927841187,
+        "start": 1199,
+        "end": 1216,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " XXX, XXX",
+        "actual_text": "XXX, XXX",
+        "confidence": 0.7143096923828125,
+        "start": 1326,
+        "end": 1334,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de salud",
+        "actual_text": "plan de salud",
+        "confidence": 0.816473662853241,
+        "start": 1199,
+        "end": 1212,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " número de beneficiario del",
+        "actual_text": "número de beneficiario del",
+        "confidence": 0.7088575959205627,
+        "start": 1172,
+        "end": 1198,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de salud XXX",
+        "actual_text": "plan de salud XXX",
+        "confidence": 0.7969363927841187,
+        "start": 1199,
+        "end": 1216,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " XXX, XXX",
+        "actual_text": "XXX, XXX",
+        "confidence": 0.7143096923828125,
+        "start": 1326,
+        "end": 1334,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de salud",
+        "actual_text": "plan de salud",
+        "confidence": 0.816473662853241,
+        "start": 1199,
+        "end": 1212,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

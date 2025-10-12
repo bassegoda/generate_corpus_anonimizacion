@@ -1,0 +1,124 @@
+{
+  "document_id": "7d0fe670-fc87-4f4d-9c5a-4ecb6a322bc1",
+  "success": true,
+  "anonymized_text": "En la valoración geriátrica integral realizada en el XXX, se documenta el estado de salud del paciente que cursa con la séptima década de vida, específicamente con XXX de edad. La exploración física actual revela crepitantes basales bilaterales en la auscultación pulmonar, con buen estado de los pulsos periféricos y sin edemas en miembros inferiores. Los parámetros analíticos de control reciente muestran una función renal dentro de límites aceptables para la edad y un hemograma sin alteraciones significativas. En cuanto a la monitorización del dispositivo médico implantado, se verifica que el equipo identificado con el código XXX funciona dentro de los parámetros técnicos establecidos, sin registros de eventos arrítmicos significativos en el último periodo. Se procederá a la siguiente revisión programada del dispositivo para mantener una vigilancia adecuada de su funcionamiento. Para la continuidad asistencial y seguimiento protocolizado, toda la información queda registrada bajo el identificador clínico XXX. Se mantendrá un control periódico de la situación funcional, con especial atención a la posible progresión de los hallazgos auscultatorios actuales. La evolución clínica será reevaluada en la próxima consulta programada según los protocolos establecidos para esta condición.",
+  "text_length": 1299,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.8925279974937439,
+        "word": " séptima",
+        "start": 120,
+        "end": 127,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "EDAD_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " séptima",
+          "actual_text": "séptima",
+          "confidence": 0.8925279974937439,
+          "start": 120,
+          "end": 127,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " séptima",
+          "actual_text": "séptima",
+          "confidence": 0.8925279974937439,
+          "start": 120,
+          "end": 127,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "EDAD_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " séptima",
+        "actual_text": "séptima",
+        "confidence": 0.8925279974937439,
+        "start": 120,
+        "end": 127,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " séptima",
+        "actual_text": "séptima",
+        "confidence": 0.8925279974937439,
+        "start": 120,
+        "end": 127,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

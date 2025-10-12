@@ -1,0 +1,169 @@
+{
+  "document_id": "683d6ebc-415f-4d5a-9d0f-8c177f2724b6",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución - Consulta Externa de Psiquiatría** La paciente, de sexo XXX, acude a control evolutivo de su cuadro de ansiedad generalizada. Se identifica con el número de historia XXX y con documento nacional XXX. Refiere mejoría parcial de la sintomatología ansiosa desde la última consulta, aunque persisten episodios de inquietud psicomotriz con frecuencia semanal. A nivel exploratorio, se objetiva un estado de conciencia claro, con lenguaje coherente y fluido. No se evidencian signos de desorganización del pensamiento. La exploración física muestra constantes dentro de la normalidad, sin hallazgos relevantes. Se mantiene tratamiento farmacológico actual sin modificaciones. Se ha facilitado a la paciente información sobre el XXX, recomendándole su asistencia regular como complemento al tratamiento farmacológico. Para cualquier gestión administrativa, puede contactarse al XXX. A nivel de coordinación, queda registrado el número de teléfono XXX para comunicaciones urgentes relacionadas con su seguimiento. En el contexto de su cobertura sanitaria, se verifica el número de aseguramiento XXX, con vigencia confirmada. Para aspectos logísticos de su vehículo, se anota la identificación XXX, correspondiente al país XXX. Queda programado próximo control para el XXX. La paciente puede acceder a su historia clínica completa a través de XXX. Para comunicación no urgente, se proporciona el XXX.",
+  "text_length": 1412,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7636606693267822,
+        "word": " documento nacional",
+        "start": 197,
+        "end": 215,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7300093770027161,
+        "word": " número de aseguramiento",
+        "start": 1084,
+        "end": 1107,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional",
+          "actual_text": "documento nacional",
+          "confidence": 0.7636606693267822,
+          "start": 197,
+          "end": 215,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " número de aseguramiento",
+          "actual_text": "número de aseguramiento",
+          "confidence": 0.7300093770027161,
+          "start": 1084,
+          "end": 1107,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional",
+          "actual_text": "documento nacional",
+          "confidence": 0.7636606693267822,
+          "start": 197,
+          "end": 215,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " número de aseguramiento",
+          "actual_text": "número de aseguramiento",
+          "confidence": 0.7300093770027161,
+          "start": 1084,
+          "end": 1107,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional",
+        "actual_text": "documento nacional",
+        "confidence": 0.7636606693267822,
+        "start": 197,
+        "end": 215,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " número de aseguramiento",
+        "actual_text": "número de aseguramiento",
+        "confidence": 0.7300093770027161,
+        "start": 1084,
+        "end": 1107,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional",
+        "actual_text": "documento nacional",
+        "confidence": 0.7636606693267822,
+        "start": 197,
+        "end": 215,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " número de aseguramiento",
+        "actual_text": "número de aseguramiento",
+        "confidence": 0.7300093770027161,
+        "start": 1084,
+        "end": 1107,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

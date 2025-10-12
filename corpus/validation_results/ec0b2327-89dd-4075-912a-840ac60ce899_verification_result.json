@@ -1,0 +1,357 @@
+{
+  "document_id": "ec0b2327-89dd-4075-912a-840ac60ce899",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa A continuación se detalla la valoración realizada en consulta externa. El paciente presenta una evolución clínica estable desde la última revisión, con adecuado control sintomático y buena tolerancia al tratamiento instaurado. La exploración física actual muestra parámetros dentro de la normalidad, sin hallazgos patológicos relevantes. Los resultados analíticos recientes, con fecha de obtención del XXX, reflejan un perfil bioquímico sin alteraciones significativas y marcadores de seguimiento en rangos de normalidad. Se procedió a la verificación de la documentación clínica asociada al episodio actual, identificada con el código XXX, y se confirmó la vinculación con el expediente principal XXX. Todo el proceso asistencial se ha desarrollado en el XXX, donde se centraliza la historia clínica del paciente. Para cualquier aspecto administrativo o coordinación, queda a disposición el correo electrónico XXX. En relación con la cobertura sanitaria, se verificó la vigencia del identificador de aseguramiento XXX, así como la tarjeta sanitaria individual XXX, ambas en regla. La supervisión del presente informe y la dirección del caso corresponden a la XXX, cuyo número de identificación profesional para el ejercicio en la institución es el ID-87654321. Se mantendrá seguimiento periódico según protocolo establecido.",
+  "text_length": 1353,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8703485727310181,
+        "word": " identificador de aseguramiento",
+        "start": 1012,
+        "end": 1042,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9296886324882507,
+        "word": " tarjeta sanitaria individual",
+        "start": 1060,
+        "end": 1088,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.947525680065155,
+        "word": "8",
+        "start": 1280,
+        "end": 1281,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 2,
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 3,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identificador de aseguramiento",
+          "actual_text": "identificador de aseguramiento",
+          "confidence": 0.8703485727310181,
+          "start": 1012,
+          "end": 1042,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " tarjeta sanitaria individual",
+          "actual_text": "tarjeta sanitaria individual",
+          "confidence": 0.9296886324882507,
+          "start": 1060,
+          "end": 1088,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "8",
+          "actual_text": "8",
+          "confidence": 0.947525680065155,
+          "start": 1280,
+          "end": 1281,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identificador de aseguramiento",
+          "actual_text": "identificador de aseguramiento",
+          "confidence": 0.8703485727310181,
+          "start": 1012,
+          "end": 1042,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " tarjeta sanitaria individual",
+          "actual_text": "tarjeta sanitaria individual",
+          "confidence": 0.9296886324882507,
+          "start": 1060,
+          "end": 1088,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "8",
+          "actual_text": "8",
+          "confidence": 0.947525680065155,
+          "start": 1280,
+          "end": 1281,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.989349365234375,
+        "word": " ID",
+        "start": 1277,
+        "end": 1279,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9889594316482544,
+        "word": "-",
+        "start": 1279,
+        "end": 1280,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9895777702331543,
+        "word": "8",
+        "start": 1280,
+        "end": 1281,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 3
+      },
+      "entities_by_confidence": {
+        "high": 3,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " ID",
+          "actual_text": "ID",
+          "confidence": 0.989349365234375,
+          "start": 1277,
+          "end": 1279,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.9889594316482544,
+          "start": 1279,
+          "end": 1280,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "8",
+          "actual_text": "8",
+          "confidence": 0.9895777702331543,
+          "start": 1280,
+          "end": 1281,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " ID",
+          "actual_text": "ID",
+          "confidence": 0.989349365234375,
+          "start": 1277,
+          "end": 1279,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.9889594316482544,
+          "start": 1279,
+          "end": 1280,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "8",
+          "actual_text": "8",
+          "confidence": 0.9895777702331543,
+          "start": 1280,
+          "end": 1281,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 6,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2,
+      "ID_SUJETO_ASISTENCIA": 1,
+      "NUMERO_TELEFONO": 3
+    },
+    "entities_by_confidence": {
+      "high": 6,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identificador de aseguramiento",
+        "actual_text": "identificador de aseguramiento",
+        "confidence": 0.8703485727310181,
+        "start": 1012,
+        "end": 1042,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " tarjeta sanitaria individual",
+        "actual_text": "tarjeta sanitaria individual",
+        "confidence": 0.9296886324882507,
+        "start": 1060,
+        "end": 1088,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "8",
+        "actual_text": "8",
+        "confidence": 0.947525680065155,
+        "start": 1280,
+        "end": 1281,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " ID",
+        "actual_text": "ID",
+        "confidence": 0.989349365234375,
+        "start": 1277,
+        "end": 1279,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.9889594316482544,
+        "start": 1279,
+        "end": 1280,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "8",
+        "actual_text": "8",
+        "confidence": 0.9895777702331543,
+        "start": 1280,
+        "end": 1281,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identificador de aseguramiento",
+        "actual_text": "identificador de aseguramiento",
+        "confidence": 0.8703485727310181,
+        "start": 1012,
+        "end": 1042,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " tarjeta sanitaria individual",
+        "actual_text": "tarjeta sanitaria individual",
+        "confidence": 0.9296886324882507,
+        "start": 1060,
+        "end": 1088,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "8",
+        "actual_text": "8",
+        "confidence": 0.947525680065155,
+        "start": 1280,
+        "end": 1281,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " ID",
+        "actual_text": "ID",
+        "confidence": 0.989349365234375,
+        "start": 1277,
+        "end": 1279,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.9889594316482544,
+        "start": 1279,
+        "end": 1280,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "8",
+        "actual_text": "8",
+        "confidence": 0.9895777702331543,
+        "start": 1280,
+        "end": 1281,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 6,
+    "suspicious_detections": 6,
+    "xxxxxx_detections": 0,
+    "other_detections": 6
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

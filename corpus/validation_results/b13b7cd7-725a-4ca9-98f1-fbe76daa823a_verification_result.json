@@ -1,0 +1,220 @@
+{
+  "document_id": "b13b7cd7-725a-4ca9-98f1-fbe76daa823a",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude a revisión en el XXX para seguimiento. Se identifica con el documento XXX y figura en nuestro sistema con el número de historia clínica XXX. En la anamnesis se recoge que reside en XXX. Como parte de la evaluación del entorno familiar y social, se menciona que su XXX, con documento de identidad XXX, ha participado en proporcionar información relevante para la anamnesis. En el contexto asistencial, se registra a XXX como familiar vinculado al proceso. Exploración neurológica: Paciente consciente y orientado. Pares craneales sin alteraciones. Fuerza muscular conservada en las cuatro extremidades. Sensibilidad superficial y profunda intacta. Reflejos osteotendinosos normoactivos y simétricos. Coordinación y marcha dentro de parámetros normales. Pruebas complementarias: Se revisa el estudio de resonancia magnética cerebral identificado con el código XXX, que muestra hallazgos inespecíficos sin lesiones agudas. En el registro de equipamiento técnico, se anota la referencia XXX correspondiente al sistema de monitorización utilizado durante el estudio neurofisiológico. En la documentación administrativa adjunta figura el profesional sanitario asignado con identificación XXX. El paciente, XXX, ha proporcionado consistentemente su identificación XXX en toda la documentación clínica. Se mantiene el plan terapéutico establecido y se programará siguiente control en un plazo de seis meses, con recomendaciones habituales sobre estilo de vida y cumplimiento de la medicación prescrita.",
+  "text_length": 1541,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9788945913314819,
+        "word": " familiar",
+        "start": 471,
+        "end": 479,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9788945913314819,
+          "start": 471,
+          "end": 479,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9788945913314819,
+          "start": 471,
+          "end": 479,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8268405795097351,
+        "word": " clínica",
+        "start": 175,
+        "end": 182,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.855858325958252,
+        "word": " registro de equipamiento técnico",
+        "start": 973,
+        "end": 1005,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.8268405795097351,
+          "start": 175,
+          "end": 182,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " registro de equipamiento técnico",
+          "actual_text": "registro de equipamiento técnico",
+          "confidence": 0.855858325958252,
+          "start": 973,
+          "end": 1005,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.8268405795097351,
+          "start": 175,
+          "end": 182,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " registro de equipamiento técnico",
+          "actual_text": "registro de equipamiento técnico",
+          "confidence": 0.855858325958252,
+          "start": 973,
+          "end": 1005,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9788945913314819,
+        "start": 471,
+        "end": 479,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.8268405795097351,
+        "start": 175,
+        "end": 182,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " registro de equipamiento técnico",
+        "actual_text": "registro de equipamiento técnico",
+        "confidence": 0.855858325958252,
+        "start": 973,
+        "end": 1005,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9788945913314819,
+        "start": 471,
+        "end": 479,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.8268405795097351,
+        "start": 175,
+        "end": 182,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " registro de equipamiento técnico",
+        "actual_text": "registro de equipamiento técnico",
+        "confidence": 0.855858325958252,
+        "start": 973,
+        "end": 1005,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

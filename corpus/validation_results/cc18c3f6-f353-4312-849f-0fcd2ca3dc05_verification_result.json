@@ -1,0 +1,169 @@
+{
+  "document_id": "cc18c3f6-f353-4312-849f-0fcd2ca3dc05",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa A la consulta acude una paciente derivada para valoración y seguimiento. La exploración física revela un estado general conservado, con tensión arterial de 125/80 mmHg y frecuencia cardíaca de 78 lpm. La auscultación cardiorrespiratoria resulta dentro de la normalidad, sin soplos ni ruidos sobreañadidos. El abdomen es blando y depresible, no doloroso a la palpación. Se procede a la revisión de la analítica reciente, donde destacan parámetros dentro de rangos normales, sin alteraciones significativas en el hemograma o la bioquímica básica. En cuanto a las pruebas de imagen disponibles, la radiografía de tórax no muestra hallazgos patológicos. Este centro, el XXX, ubicado en XXX, dentro de la XXX en XXX, dispone de los recursos necesarios para el manejo del caso. El seguimiento de la paciente, de sexo XXX, se coordinará a través de la plataforma digital del sistema sanitario, accesible mediante la dirección de protocolo de internet XXX, donde se actualizarán los progresos. Para la correcta identificación en nuestros registros, se han consignado los números de referencia XXX y XXX, así como el identificador XXX. Atiende el caso la XXX, profesional con XXX y número de colegiación ID-EMPLEO-45923, cuya titulación queda acreditada con el identificador ID-TITUL-MED-78945. Se mantendrá una actitud expectante con controles periódicos, haciendo hincapié en las medidas higiénico-dietéticas habituales. Se considera que no se requieren intervenciones adicionales en este momento.",
+  "text_length": 1518,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7578554749488831,
+        "word": "EMPLEO-45923",
+        "start": 1226,
+        "end": 1238,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7127692699432373,
+        "word": "78945",
+        "start": 1307,
+        "end": 1312,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "EMPLEO-45923",
+          "actual_text": "EMPLEO-45923",
+          "confidence": 0.7578554749488831,
+          "start": 1226,
+          "end": 1238,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "78945",
+          "actual_text": "78945",
+          "confidence": 0.7127692699432373,
+          "start": 1307,
+          "end": 1312,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "EMPLEO-45923",
+          "actual_text": "EMPLEO-45923",
+          "confidence": 0.7578554749488831,
+          "start": 1226,
+          "end": 1238,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "78945",
+          "actual_text": "78945",
+          "confidence": 0.7127692699432373,
+          "start": 1307,
+          "end": 1312,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "EMPLEO-45923",
+        "actual_text": "EMPLEO-45923",
+        "confidence": 0.7578554749488831,
+        "start": 1226,
+        "end": 1238,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "78945",
+        "actual_text": "78945",
+        "confidence": 0.7127692699432373,
+        "start": 1307,
+        "end": 1312,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "EMPLEO-45923",
+        "actual_text": "EMPLEO-45923",
+        "confidence": 0.7578554749488831,
+        "start": 1226,
+        "end": 1238,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "78945",
+        "actual_text": "78945",
+        "confidence": 0.7127692699432373,
+        "start": 1307,
+        "end": 1312,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

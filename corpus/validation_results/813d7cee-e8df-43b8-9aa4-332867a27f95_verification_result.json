@@ -1,0 +1,124 @@
+{
+  "document_id": "813d7cee-e8df-43b8-9aa4-332867a27f95",
+  "success": true,
+  "anonymized_text": "A la atención de la XXX. Se remite a continuación informe de seguimiento de la paciente XXX. La paciente acude hoy para control evolutivo. Refiere adecuada adaptación a la medicación pautada, sin efectos adversos significativos. Se confirma que el estado general es satisfactorio. Como dato relevante en la anamnesis, se reitera que la paciente refiere ser XXX, información que queda registrada de forma prominente. Se ha coordinado su seguimiento con el XXX, recurso que la paciente encuentra de gran utilidad. En cuanto a la identificación, se ha verificado la documentación presentando el número de beneficiaria del plan de salud XXX y el documento de identificación XXX. El número de referencia asignado para este proceso es XXX. Para completar los registros, se ha incluido su XXX, que presenta un patrón de lazo claramente definido, XXX. El sexo de la sujeto de asistencia es XXX. La exploración física muestra una tensión arterial de 125/80 mmHg, frecuencia cardíaca de 72 lpm y saturación de oxígeno del 98%. La auscultación cardiorrespiratoria es normal y el abdomen es blando y depresible. Los resultados analíticos recientes se encuentran dentro de parámetros normales, con hemograma y bioquímica sin alteraciones significativas. Se mantiene el plan terapéutico actual. Para cualquier gestión, puede contactarse con su familiar de asistencia, XXX, en el número de teléfono XXX. Como profesional responsable, yo, XXX, con titulación de XXX, firmo este documento. Para contactos institucionales, está disponible el teléfono XXX de la XXX, organismo que actúa en coordinación con el XXX.",
+  "text_length": 1595,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9812952876091003,
+        "word": " familiar de asistencia",
+        "start": 1330,
+        "end": 1352,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de asistencia",
+          "actual_text": "familiar de asistencia",
+          "confidence": 0.9812952876091003,
+          "start": 1330,
+          "end": 1352,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de asistencia",
+          "actual_text": "familiar de asistencia",
+          "confidence": 0.9812952876091003,
+          "start": 1330,
+          "end": 1352,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de asistencia",
+        "actual_text": "familiar de asistencia",
+        "confidence": 0.9812952876091003,
+        "start": 1330,
+        "end": 1352,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de asistencia",
+        "actual_text": "familiar de asistencia",
+        "confidence": 0.9812952876091003,
+        "start": 1330,
+        "end": 1352,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "document_id": "3c1cd441-d910-46fb-97b7-6de4e6740cc0",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente de XXX que acude a revisión en el XXX por seguimiento de su patología crónica. Refiere estabilidad clínica general, sin incidencias destacables en las últimas semanas. La exploración física actual muestra tensión arterial de 125/80 mmHg, frecuencia cardíaca de 68 lpm y saturación de oxígeno del 96%. A la auscultación cardiorrespiratoria se constatan ruidos cardíacos rítmicos sin soplos, y murmullo vesicular conservado bilateralmente. El abdomen es blando y depresible, sin masas ni visceromegalias. En cuanto a pruebas complementarias recientes, la analítica realizada a través del XXX muestra perfil bioquímico dentro de parámetros normales, con glucemia basal de 98 mg/dl y creatinina de 0.9 mg/dl. La radiografía de tórax informada con número de registro XXX no evidencia hallazgos significativos. Se mantiene el tratamiento habitual y se programa seguimiento en tres meses. Para cualquier gestión administrativa relacionada con este profesional, mi identificación laboral es XXX y mi colegiación se encuentra en vigor. El domicilio profesional para notificaciones es de la Princesa 25 en XXX, aunque mi formación previa incluye estancias en XXX. Documento redactado por XXX, XXX especialista. Verificada la identificación del sujeto de asistencia con documento XXX y confirmada la identificación del vehículo institucional XXX utilizado para desplazamientos asistenciales.",
+  "text_length": 1417,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.9717042446136475,
+        "word": " la",
+        "start": 1115,
+        "end": 1117,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.8096176385879517,
+        "word": " Princesa 25",
+        "start": 1118,
+        "end": 1129,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " la",
+          "actual_text": "la",
+          "confidence": 0.9717042446136475,
+          "start": 1115,
+          "end": 1117,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Princesa 25",
+          "actual_text": "Princesa 25",
+          "confidence": 0.8096176385879517,
+          "start": 1118,
+          "end": 1129,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " la",
+          "actual_text": "la",
+          "confidence": 0.9717042446136475,
+          "start": 1115,
+          "end": 1117,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Princesa 25",
+          "actual_text": "Princesa 25",
+          "confidence": 0.8096176385879517,
+          "start": 1118,
+          "end": 1129,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.8350353240966797,
+        "word": " la Princesa 25",
+        "start": 1115,
+        "end": 1129,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " la Princesa 25",
+          "actual_text": "la Princesa 25",
+          "confidence": 0.8350353240966797,
+          "start": 1115,
+          "end": 1129,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " la Princesa 25",
+          "actual_text": "la Princesa 25",
+          "confidence": 0.8350353240966797,
+          "start": 1115,
+          "end": 1129,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CALLE": 3
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CALLE",
+        "word": " la",
+        "actual_text": "la",
+        "confidence": 0.9717042446136475,
+        "start": 1115,
+        "end": 1117,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Princesa 25",
+        "actual_text": "Princesa 25",
+        "confidence": 0.8096176385879517,
+        "start": 1118,
+        "end": 1129,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " la Princesa 25",
+        "actual_text": "la Princesa 25",
+        "confidence": 0.8350353240966797,
+        "start": 1115,
+        "end": 1129,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CALLE",
+        "word": " la",
+        "actual_text": "la",
+        "confidence": 0.9717042446136475,
+        "start": 1115,
+        "end": 1117,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Princesa 25",
+        "actual_text": "Princesa 25",
+        "confidence": 0.8096176385879517,
+        "start": 1118,
+        "end": 1129,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " la Princesa 25",
+        "actual_text": "la Princesa 25",
+        "confidence": 0.8350353240966797,
+        "start": 1115,
+        "end": 1129,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

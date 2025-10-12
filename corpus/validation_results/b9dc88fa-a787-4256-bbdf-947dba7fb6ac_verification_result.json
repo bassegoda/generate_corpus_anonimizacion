@@ -1,0 +1,124 @@
+{
+  "document_id": "b9dc88fa-a787-4256-bbdf-947dba7fb6ac",
+  "success": true,
+  "anonymized_text": "En la valoración inicial se recoge que el paciente reside en la XXX. Durante la anamnesis, refiere que su lugar de trabajo se encuentra ubicado en las proximidades de la XXX, donde permanece la mayor parte de su jornada laboral. La exploración física muestra un paciente consciente y orientado. A la auscultación cardiopulmonar se aprecia ritmo cardíaco regular sin soplos, y murmullo vesicular conservado con buena entrada de aire bilateral. El abdomen es blando y depreciable, no doloroso a la palpación superficial y profunda. En cuanto a la documentación administrativa, se verifica el código de aseguramiento XXX, que aparece activo en el sistema. Cabe mencionar que el tratamiento farmacológico prescrito se ajusta a los protocolos establecidos por el XXX para esta patología específica. Los resultados analíticos recientes muestran un hemograma dentro de parámetros normales, con leve elevación de los reactantes de fase aguda. En las pruebas de imagen realizadas se observa una adecuada evolución del cuadro, por lo que se mantiene la pauta terapéutica actual con control periódico.",
+  "text_length": 1090,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7782019972801208,
+        "word": " código de aseguramiento",
+        "start": 590,
+        "end": 613,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " código de aseguramiento",
+          "actual_text": "código de aseguramiento",
+          "confidence": 0.7782019972801208,
+          "start": 590,
+          "end": 613,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " código de aseguramiento",
+          "actual_text": "código de aseguramiento",
+          "confidence": 0.7782019972801208,
+          "start": 590,
+          "end": 613,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " código de aseguramiento",
+        "actual_text": "código de aseguramiento",
+        "confidence": 0.7782019972801208,
+        "start": 590,
+        "end": 613,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " código de aseguramiento",
+        "actual_text": "código de aseguramiento",
+        "confidence": 0.7782019972801208,
+        "start": 590,
+        "end": 613,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

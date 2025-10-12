@@ -1,0 +1,175 @@
+{
+  "document_id": "8bd596e0-a34b-41f4-80c3-04cc0233a277",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE TRAUMATOLOGÍA** Se recibe a la paciente en consulta externa para valoración y seguimiento. La paciente, XXX, acude derivada desde el XXX para valoración especializada tras el alta hospitalaria. Se revisa la documentación adjunta, incluyendo el informe de interconsulta con referencia XXX. La paciente refiere una evolución lentamente favorable del cuadro por el que fue intervenida. El XXX que realizó la intervención ha sido informado de la evolución actual. Se ha iniciado tratamiento rehabilitador de forma ambulatoria, siendo coordinado por el XXX asignado. Se recomienda continuar con el plan de ejercicios domiciliarios y asistir a todas las sesiones programadas para optimizar la recuperación funcional. En relación con la coordinación de cuidados, se ha establecido contacto con su familiar de apoyo, XXX, cuyo número de teléfono de contacto es XXX. Se ha facilitado toda la información pertinente sobre el plan terapéutico y los signos de alarma que deben motivar una consulta urgente. Para cualquier gestión administrativa o duda, pueden contactar con el centro en el número XXX. En el ámbito de la continuidad asistencial, se ha remitido un informe detallado al XXX, tal como establecen los protocolos. Todos los eventos clínicos quedan registrados bajo los números de historia clínica XXX y XXX. Para futuras comunicaciones con este servidor, la XXX, puede utilizarse la dirección de correo electrónico XXX. Se adjuntan los resultados de las pruebas de control radiológico realizadas, que muestran una correcta consolidación ósea sin signos de complicaciones. Los datos de aseguración de la paciente, XXX y XXX, están actualizados en el sistema. La próxima cita de control quedará fijada para dentro de seis semanas, coincidiendo con la fecha de la última valoración quirúrgica del XXX. La paciente tiene su domicilio en XXX.",
+  "text_length": 1870,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9874616265296936,
+        "word": " familiar de apoyo,",
+        "start": 823,
+        "end": 841,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de apoyo,",
+          "actual_text": "familiar de apoyo,",
+          "confidence": 0.9874616265296936,
+          "start": 823,
+          "end": 841,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de apoyo,",
+          "actual_text": "familiar de apoyo,",
+          "confidence": 0.9874616265296936,
+          "start": 823,
+          "end": 841,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9154788255691528,
+        "word": " historia clínica",
+        "start": 1313,
+        "end": 1329,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.9154788255691528,
+          "start": 1313,
+          "end": 1329,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.9154788255691528,
+          "start": 1313,
+          "end": 1329,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de apoyo,",
+        "actual_text": "familiar de apoyo,",
+        "confidence": 0.9874616265296936,
+        "start": 823,
+        "end": 841,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.9154788255691528,
+        "start": 1313,
+        "end": 1329,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de apoyo,",
+        "actual_text": "familiar de apoyo,",
+        "confidence": 0.9874616265296936,
+        "start": 823,
+        "end": 841,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.9154788255691528,
+        "start": 1313,
+        "end": 1329,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

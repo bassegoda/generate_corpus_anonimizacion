@@ -1,0 +1,124 @@
+{
+  "document_id": "3798b7a3-8cb5-48ab-b41f-2fa94e6f5fc1",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Geriátrica Integral Se realiza valoración geriátrica integral a la paciente que reside en XXX, dentro de la XXX. La paciente, de XXX, acude acompañada de XXX, quien se identifica como familiar directo y principal contacto asistencial. En la documentación presentada consta el identificador de aseguramiento XXX, que ha sido verificado en el sistema. La anamnesis revela que la paciente mantiene un patrón de XXX, factor de riesgo que se ha monitorizado a lo largo de las sucesivas visitas. Se ha establecido como canal de comunicación preferente el correo electrónico XXX para el envío de resultados analíticos y recordatorios de seguimiento. En la exploración física actual se objetiva tensión arterial de 135/82 mmHg, frecuencia cardíaca de 78 lpm y saturación de oxígeno del 96%. La auscultación cardiorrespiratoria muestra murmullo vesicular conservado sin sibilancias ni crepitantes, y ruidos cardíacos rítmicos sin soplos. El abdomen es blando y depresible, no doloroso a la palpación. Los estudios complementarios recientes incluyen analítica sanguínea con hemoglobina de 13.2 g/dL, glucemia basal de 102 mg/dL y función renal dentro de parámetros normales. El electrocardiograma muestra ritmo sinusal a 75 lpm sin alteraciones agudas de la repolarización. Todos estos hallazgos se han incorporado al expediente clínico con referencia XXX. Se mantendrá seguimiento periódico con énfasis en el control del hábito tabáquico y la promoción de estilos de vida saludables propios de su grupo etario. Se recomendarán actividades comunitarias disponibles en su para favorecer la integración social y el mantenimiento de la funcionalidad.",
+  "text_length": 1659,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9852524995803833,
+        "word": " familiar directo",
+        "start": 206,
+        "end": 222,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directo",
+          "actual_text": "familiar directo",
+          "confidence": 0.9852524995803833,
+          "start": 206,
+          "end": 222,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directo",
+          "actual_text": "familiar directo",
+          "confidence": 0.9852524995803833,
+          "start": 206,
+          "end": 222,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directo",
+        "actual_text": "familiar directo",
+        "confidence": 0.9852524995803833,
+        "start": 206,
+        "end": 222,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directo",
+        "actual_text": "familiar directo",
+        "confidence": 0.9852524995803833,
+        "start": 206,
+        "end": 222,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

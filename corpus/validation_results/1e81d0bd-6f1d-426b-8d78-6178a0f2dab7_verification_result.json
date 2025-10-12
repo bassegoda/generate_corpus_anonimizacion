@@ -1,0 +1,175 @@
+{
+  "document_id": "1e81d0bd-6f1d-426b-8d78-6178a0f2dab7",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE TRAUMATOLOGÍA** Paciente derivado desde el XXX para valoración especializada tras accidente de tráfico ocurrido en la XXX. Según refiere, el siniestro involucró un vehículo identificado con la placa XXX, produciéndole un esguince de tobillo grado II y contusiones múltiples. La exploración física actual muestra edema y equimosis en tobillo derecho con dolor a la palpación de ligamento lateral externo. Rango articular limitado por dolor. Se solicita resonancia magnética para descartar lesión osteocondral. Se recomienda tratamiento conservador con inmovilización funcional y rehabilitación. Para la gestión administrativa, se verifica que el número de beneficiario del plan de salud es XXX. La documentación del paciente con identificador XXX ha sido remitida al departamento correspondiente. Se ha establecido comunicación con General de Madrid para posible seguimiento si la evolución no fuera favorable. Como contacto de asistencia se ha registrado a XXX de la paciente, quien puede ser localizada en XXX. Para coordinación entre niveles asistenciales, se han incluido las direcciones de correo electrónico XXX y XXX. La comunicación complementaria puede realizarse al número de fax XXX. El profesional que suscribe el presente informe cuenta con la titulación de XXX y certifica la veracidad de los datos consignados. Se programará control en 15 días para reevaluación.",
+  "text_length": 1409,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.9866116642951965,
+        "word": " General de Madrid",
+        "start": 864,
+        "end": 881,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9866116642951965,
+          "start": 864,
+          "end": 881,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.9866116642951965,
+          "start": 864,
+          "end": 881,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.7379557490348816,
+        "word": " General de Madrid",
+        "start": 864,
+        "end": 881,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.7379557490348816,
+          "start": 864,
+          "end": 881,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.7379557490348816,
+          "start": 864,
+          "end": 881,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "HOSPITAL": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9866116642951965,
+        "start": 864,
+        "end": 881,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.7379557490348816,
+        "start": 864,
+        "end": 881,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.9866116642951965,
+        "start": 864,
+        "end": 881,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.7379557490348816,
+        "start": 864,
+        "end": 881,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

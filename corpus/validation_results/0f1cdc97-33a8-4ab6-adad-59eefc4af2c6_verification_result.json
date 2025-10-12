@@ -1,0 +1,124 @@
+{
+  "document_id": "0f1cdc97-33a8-4ab6-adad-59eefc4af2c6",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada, se procede a la verificación de identidad del paciente mediante el documento identificativo XXX, confirmando además la autenticación biométrica a través de la XXX como parte de los protocolos de seguridad establecidos en nuestra institución. El examen físico revela un estado general conservado, con auscultación cardiorrespiratoria dentro de los parámetros normales y abdomen blando y depresible sin masas palpables. Los resultados analíticos muestran un hemograma dentro de rangos normales y función hepática preservada. La radiografía de tórax realizada no evidencia hallazgos patológicos significativos. Para cualquier comunicación relacionada con este proceso asistencial, queda establecido como canal oficial el correo electrónico XXX, dirigido al profesional responsable que ejerce como XXX en este servicio. Todo el procedimiento documental ha sido supervisado y validado por la XXX, quien constata la integridad de la información recogida en este informe médico.",
+  "text_length": 1007,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7801843881607056,
+        "word": " documento",
+        "start": 103,
+        "end": 112,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento",
+          "actual_text": "documento",
+          "confidence": 0.7801843881607056,
+          "start": 103,
+          "end": 112,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento",
+          "actual_text": "documento",
+          "confidence": 0.7801843881607056,
+          "start": 103,
+          "end": 112,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento",
+        "actual_text": "documento",
+        "confidence": 0.7801843881607056,
+        "start": 103,
+        "end": 112,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento",
+        "actual_text": "documento",
+        "confidence": 0.7801843881607056,
+        "start": 103,
+        "end": 112,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

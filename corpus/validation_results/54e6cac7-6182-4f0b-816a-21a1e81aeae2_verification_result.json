@@ -1,0 +1,219 @@
+{
+  "document_id": "54e6cac7-6182-4f0b-816a-21a1e81aeae2",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE CARDIOLOGÍA** En la consulta externa de cardiología del XXX, se revisa al paciente con identificador de historia clínica XXX. Se trata de una revisión programada de seguimiento. El paciente refiere buena tolerancia a la actividad física habitual sin aparición de disnea ni dolor torácico. A la exploración física, el paciente se encuentra en buenas condiciones generales. Auscultación cardíaca: ritmo regular, sin soplos. Auscultación respiratoria: murmullo vesicular conservado, sin ruidos sobreañadidos. Tensión arterial: 126/78 mmHg. Frecuencia cardíaca: 68 lpm y regular. En relación con la medicación, se confirma que el paciente cuenta con el seguro de salud activo, cuyo número de identificación XXX está vigente. Se procedió a la verificación de su identidad mediante el documento nacional, número XXX. Respecto a los estudios complementarios, se dispone de un electrocardiograma reciente que muestra ritmo sinusal normal. La analítica realizada el XXX no presenta alteraciones significativas, con perfil lipídico dentro de objetivos. Se programó la realización de un ecocardiograma, para lo cual se ha solicitado cita a través del sistema nacional de salud, referencia XXX. Para cualquier gestión administrativa o consulta, el paciente puede contactar con la central de citas del hospital en el XXX. Toda la información complementaria sobre los servicios médicos está disponible en el portal web XXX. El profesional que emite el presente informe está debidamente acreditado con el título de XXX y colegiado con el identificador XXX. El dispositivo médico utilizado para la toma de constantes, con número de serie XXX, se encuentra en perfecto estado de calibración. Dado que el paciente tiene su residencia habitual en la XXX, se recomienda coordinación con su centro de referencia en dicha región. Se adjunta documentación necesaria para su seguimiento en el territorio. Todo el proceso asistencial se desarrolla bajo los protocolos establecidos en XXX.",
+  "text_length": 1996,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7398895621299744,
+        "word": " seguro de salud activo",
+        "start": 682,
+        "end": 704,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7616126537322998,
+        "word": " documento nacional",
+        "start": 812,
+        "end": 830,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " seguro de salud activo",
+          "actual_text": "seguro de salud activo",
+          "confidence": 0.7398895621299744,
+          "start": 682,
+          "end": 704,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional",
+          "actual_text": "documento nacional",
+          "confidence": 0.7616126537322998,
+          "start": 812,
+          "end": 830,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " seguro de salud activo",
+          "actual_text": "seguro de salud activo",
+          "confidence": 0.7398895621299744,
+          "start": 682,
+          "end": 704,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional",
+          "actual_text": "documento nacional",
+          "confidence": 0.7616126537322998,
+          "start": 812,
+          "end": 830,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7799965739250183,
+        "word": " clínica",
+        "start": 146,
+        "end": 153,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.7799965739250183,
+          "start": 146,
+          "end": 153,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.7799965739250183,
+          "start": 146,
+          "end": 153,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 3
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 3,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " seguro de salud activo",
+        "actual_text": "seguro de salud activo",
+        "confidence": 0.7398895621299744,
+        "start": 682,
+        "end": 704,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional",
+        "actual_text": "documento nacional",
+        "confidence": 0.7616126537322998,
+        "start": 812,
+        "end": 830,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.7799965739250183,
+        "start": 146,
+        "end": 153,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " seguro de salud activo",
+        "actual_text": "seguro de salud activo",
+        "confidence": 0.7398895621299744,
+        "start": 682,
+        "end": 704,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional",
+        "actual_text": "documento nacional",
+        "confidence": 0.7616126537322998,
+        "start": 812,
+        "end": 830,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.7799965739250183,
+        "start": 146,
+        "end": 153,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

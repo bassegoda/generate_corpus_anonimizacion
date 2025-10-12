@@ -1,0 +1,124 @@
+{
+  "document_id": "cd6a3f6c-ccc9-4f3e-b7db-26f22b69e460",
+  "success": true,
+  "anonymized_text": "**Informe de Valoración Clínica y Contactos Asistenciales** En la valoración clínica realizada, se documenta la situación de la paciente **XXX**, quien acude acompañada por su familiar de referencia, **XXX**. Durante la anamnesis se recopilaron los datos de contacto asistencial, quedando registrado el número de teléfono **XXX** como principal vía de comunicación para asuntos relacionados con su seguimiento clínico. Cabe destacar que el identificador único de su historia clínica es **XXX**. Para una coordinación óptima entre niveles asistenciales, se ha establecido como canal de comunicación profesional el correo electrónico **XXX**, con copia a **XXX** para garantizar la continuidad de cuidados. El presente informe ha sido elaborado por la **XXX**, facultativa especialista que posee el correspondiente **XXX** y que asume la responsabilidad de la atención al paciente. Como parte de los protocolos de coordinación sociosanitaria, se procederá a notificar la situación clínica a la **XXX**, tal como establecen los convenios de colaboración con el **XXX**. En el apartado de logística para desplazamientos médicos, se ha registrado el vehículo de asistencia con placa **XXX**, así como un segundo vehículo identificado con **XXX**, ambos autorizados para transporte medicalizado. Para urgencias o consultas inmediatas, queda operativo el número de contacto **XXX**. Exploración física: Paciente consciente y orientada. A la auscultación cardíaca, ritmo regular sin soplos audibles. Abdomen blando y depresible, no doloroso a la palpación. Extremidades sin edemas ni signos de trombosis. Analítica: Hemograma dentro de rangos normales. Bioquímica sin alteraciones significativas en función renal y hepática. Perfil lipídico con colesterol LDL en límite superior. Pruebas de imagen: Radiografía de tórax con campos pulmonares libres. Ecografía abdominal sin evidencia de patología orgánica significativa. Se mantendrá vigilancia activa y seguimiento ambulatorio según lo establecido en el plan terapéutico individualizado.",
+  "text_length": 2030,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9609416127204895,
+        "word": " familiar",
+        "start": 176,
+        "end": 184,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9609416127204895,
+          "start": 176,
+          "end": 184,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9609416127204895,
+          "start": 176,
+          "end": 184,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9609416127204895,
+        "start": 176,
+        "end": 184,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9609416127204895,
+        "start": 176,
+        "end": 184,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

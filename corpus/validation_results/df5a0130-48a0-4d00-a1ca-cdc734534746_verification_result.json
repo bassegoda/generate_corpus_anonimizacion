@@ -1,0 +1,175 @@
+{
+  "document_id": "df5a0130-48a0-4d00-a1ca-cdc734534746",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Geriátrica Integral Se realiza valoración geriátrica integral a paciente de sexo XXX que presenta XXX de edad, derivada para evaluación de su situación funcional. La paciente refiere haber sido XXX durante su etapa adulta, aunque abandonó el hábito tabáquico hace aproximadamente una década. En el contexto de su evaluación, se ha incorporado al sistema de historia clínica electrónica del XXX, accesible mediante la dirección XXX para consulta por parte de los profesionales asistenciales involucrados en su proceso. La exploración física muestra tensión arterial 135/80 mmHg, frecuencia cardíaca 72 lpm, saturación de oxígeno 96%. En la auscultación cardiorrespiratoria se identifican ruidos cardíacos rítmicos sin soplos audibles, y murmullo vesicular conservado bilateralmente. El abdomen es blando y depresible, no doloroso a la palpación superficial y profunda. La situación cognitiva evaluada mediante test de cribado muestra puntuaciones dentro de la normalidad para su grupo etario. Como parte del plan de seguimiento, se ha coordinado con su cuidador principal, quien tiene XXX y puede ser contactado en el número XXX para aspectos logísticos relacionados con las citaciones y seguimiento. Para urgencias relacionadas con la paciente, se ha facilitado el contacto XXX. El dispositivo médico de monitorización asignado a la paciente, identificado con el número XXX, ha sido configurado y se encuentra operativo para la transmisión de parámetros vitales. Los análisis complementarios realizados muestran hemograma dentro de rangos normales, perfil lipídico con colesterol LDL en 115 mg/dl, y función renal conservada. La densitometría ósea evidencia osteopenia lumbar, por lo que se recomienda suplementación con calcio y vitamina D junto con programa de ejercicio adaptado. Se programará reevaluación en seis meses para valorar evolución y ajustar intervenciones según resultados.",
+  "text_length": 1911,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9879007339477539,
+        "word": " cuidador principal",
+        "start": 1074,
+        "end": 1092,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cuidador principal",
+          "actual_text": "cuidador principal",
+          "confidence": 0.9879007339477539,
+          "start": 1074,
+          "end": 1092,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cuidador principal",
+          "actual_text": "cuidador principal",
+          "confidence": 0.9879007339477539,
+          "start": 1074,
+          "end": 1092,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8748818635940552,
+        "word": " clínica electrónica",
+        "start": 388,
+        "end": 407,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica electrónica",
+          "actual_text": "clínica electrónica",
+          "confidence": 0.8748818635940552,
+          "start": 388,
+          "end": 407,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica electrónica",
+          "actual_text": "clínica electrónica",
+          "confidence": 0.8748818635940552,
+          "start": 388,
+          "end": 407,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cuidador principal",
+        "actual_text": "cuidador principal",
+        "confidence": 0.9879007339477539,
+        "start": 1074,
+        "end": 1092,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica electrónica",
+        "actual_text": "clínica electrónica",
+        "confidence": 0.8748818635940552,
+        "start": 388,
+        "end": 407,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cuidador principal",
+        "actual_text": "cuidador principal",
+        "confidence": 0.9879007339477539,
+        "start": 1074,
+        "end": 1092,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica electrónica",
+        "actual_text": "clínica electrónica",
+        "confidence": 0.8748818635940552,
+        "start": 388,
+        "end": 407,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

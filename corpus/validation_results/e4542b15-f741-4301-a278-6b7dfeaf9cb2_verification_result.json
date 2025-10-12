@@ -1,0 +1,174 @@
+{
+  "document_id": "e4542b15-f741-4301-a278-6b7dfeaf9cb2",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución - Consulta Externa** Se reevalúa en consulta a la paciente XXX, de XXX y XXX, identificada con el número de aseguramiento XXX. Refiere mejoría parcial de su sintomatología articular tras ajuste terapéutico realizado en la visita anterior. A la exploración física actual, presenta estabilidad hemodinámica con tensión arterial de 135/80 mmHg y frecuencia cardíaca de 68 lpm. La auscultación cardiorrespiratoria resulta dentro de parámetros normales para su edad. Se confirma la correcta utilización del dispositivo de monitorización SN-982347641, cuyos registros se adjuntan a este informe. Como parte del inventario de dispositivos médicos, se registra el identificador XXX. Los estudios analíticos recientes muestran niveles séricos dentro de rangos aceptables, con perfil lipídico mejorado respecto a controles previos. En la documentación complementaria se ha registrado el contacto XXX para coordinación interdisciplinar. La paciente reside en XXX, donde cuenta con adecuadas condiciones de accesibilidad. Como parte de los recursos de apoyo al paciente, se ha proporcionado material educativo disponible a través de XXX. Se verifica que el profesional que suscribe este documento cuenta con la XXX. Para completar la documentación administrativa, se incluye el identificador del vehículo de transporte sanitario XXX utilizado para el desplazamiento de la paciente, así como su número de identificación fiscal XXX para fines de facturación. Se mantiene el plan terapéutico establecido, programando próxima revisión en tres meses con control analítico previo. La paciente manifiesta comprensión del plan y adherencia al tratamiento.",
+  "text_length": 1655,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7829970717430115,
+        "word": "-982347641",
+        "start": 554,
+        "end": 564,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "-982347641",
+          "actual_text": "-982347641",
+          "confidence": 0.7829970717430115,
+          "start": 554,
+          "end": 564,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "-982347641",
+          "actual_text": "-982347641",
+          "confidence": 0.7829970717430115,
+          "start": 554,
+          "end": 564,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7873108386993408,
+        "word": " inventario de dispositivos",
+        "start": 625,
+        "end": 651,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " inventario de dispositivos",
+          "actual_text": "inventario de dispositivos",
+          "confidence": 0.7873108386993408,
+          "start": 625,
+          "end": 651,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " inventario de dispositivos",
+          "actual_text": "inventario de dispositivos",
+          "confidence": 0.7873108386993408,
+          "start": 625,
+          "end": 651,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "-982347641",
+        "actual_text": "-982347641",
+        "confidence": 0.7829970717430115,
+        "start": 554,
+        "end": 564,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " inventario de dispositivos",
+        "actual_text": "inventario de dispositivos",
+        "confidence": 0.7873108386993408,
+        "start": 625,
+        "end": 651,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "-982347641",
+        "actual_text": "-982347641",
+        "confidence": 0.7829970717430115,
+        "start": 554,
+        "end": 564,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " inventario de dispositivos",
+        "actual_text": "inventario de dispositivos",
+        "confidence": 0.7873108386993408,
+        "start": 625,
+        "end": 651,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

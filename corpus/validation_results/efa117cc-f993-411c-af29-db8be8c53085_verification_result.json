@@ -1,0 +1,169 @@
+{
+  "document_id": "efa117cc-f993-411c-af29-db8be8c53085",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada se constata un cuadro de evolución favorable respecto al episodio agudo descrito en la consulta anterior. La exploración física actual muestra parámetros dentro de la normalidad, con tensión arterial de 125/80 mmHg, frecuencia cardíaca de 72 lpm y saturación de oxígeno del 97% en aire ambiente. Los ruidos cardíacos son rítmicos sin soplos audibles, y la auscultación pulmonar es limpia bilateralmente. Se procederá al envío de la documentación complementaria al fax XXX para su inclusión en el archivo del caso. Queda registrado que la prescripción farmacológica se ajustará según la evolución clínica, debiendo el paciente mantener la pauta actual hasta nueva revisión. Para cualquier incidencia relacionada con el tratamiento, puede contactarme directamente en el número XXX. En relación con la identificación del caso, se verifica que corresponde al documento nacional de identidad XXX. Queda así establecido el plan de seguimiento, que será coordinado bajo mi supervisión, XXX, con evaluaciones periódicas para valorar la respuesta terapéutica y ajustar las intervenciones según sea necesario.",
+  "text_length": 1134,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8255135416984558,
+        "word": " fa",
+        "start": 499,
+        "end": 501,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.902149498462677,
+        "word": " documento nacional de identidad XXX",
+        "start": 890,
+        "end": 925,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " fa",
+          "actual_text": "fa",
+          "confidence": 0.8255135416984558,
+          "start": 499,
+          "end": 501,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad XXX",
+          "actual_text": "documento nacional de identidad XXX",
+          "confidence": 0.902149498462677,
+          "start": 890,
+          "end": 925,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " fa",
+          "actual_text": "fa",
+          "confidence": 0.8255135416984558,
+          "start": 499,
+          "end": 501,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad XXX",
+          "actual_text": "documento nacional de identidad XXX",
+          "confidence": 0.902149498462677,
+          "start": 890,
+          "end": 925,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " fa",
+        "actual_text": "fa",
+        "confidence": 0.8255135416984558,
+        "start": 499,
+        "end": 501,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad XXX",
+        "actual_text": "documento nacional de identidad XXX",
+        "confidence": 0.902149498462677,
+        "start": 890,
+        "end": 925,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " fa",
+        "actual_text": "fa",
+        "confidence": 0.8255135416984558,
+        "start": 499,
+        "end": 501,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad XXX",
+        "actual_text": "documento nacional de identidad XXX",
+        "confidence": 0.902149498462677,
+        "start": 890,
+        "end": 925,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

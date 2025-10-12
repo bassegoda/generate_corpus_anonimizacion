@@ -1,0 +1,169 @@
+{
+  "document_id": "f5a736b9-502e-40bd-a344-aa451884f023",
+  "success": true,
+  "anonymized_text": "En la valoración inicial se recoge la anamnesis y exploración física del paciente. El examen revela buenos tonos cardíacos y ruidos respiratorios conservados. La analítica general muestra un perfil lipídico dentro de parámetros aceptables y una glucemia basal en rango normal. Las pruebas de imagen complementarias, concretamente la radiografía de tórax, no evidencian hallazgos patológicos significativos. Para cualquier aclaración o gestión de documentación, pueden contactarme a través del siguiente número de teléfono: XXX. Asimismo, la comunicación electrónica puede dirigirse a XXX. En caso de requerir una segunda opinión o coordinación con otro profesional, pueden ponerse en contacto con mi colega en XXX, cuya consulta se encuentra situada en XXX. La XXX de planta procederá con la monitorización de constantes según protocolo establecido. Mi formación académica, que incluye un XXX y el título de XXX, me permite confirmar que el cuadro clínico actual no reviste gravedad. La dirección para el envío de cualquier documentación física es de la Princesa 25, mientras que el punto de referencia para la recogida de muestras se sitúa en XXX.",
+  "text_length": 1148,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.9873151779174805,
+        "word": " la",
+        "start": 1051,
+        "end": 1053,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.8081717491149902,
+        "word": " Princesa 25",
+        "start": 1054,
+        "end": 1065,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " la",
+          "actual_text": "la",
+          "confidence": 0.9873151779174805,
+          "start": 1051,
+          "end": 1053,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Princesa 25",
+          "actual_text": "Princesa 25",
+          "confidence": 0.8081717491149902,
+          "start": 1054,
+          "end": 1065,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " la",
+          "actual_text": "la",
+          "confidence": 0.9873151779174805,
+          "start": 1051,
+          "end": 1053,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Princesa 25",
+          "actual_text": "Princesa 25",
+          "confidence": 0.8081717491149902,
+          "start": 1054,
+          "end": 1065,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CALLE": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CALLE",
+        "word": " la",
+        "actual_text": "la",
+        "confidence": 0.9873151779174805,
+        "start": 1051,
+        "end": 1053,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Princesa 25",
+        "actual_text": "Princesa 25",
+        "confidence": 0.8081717491149902,
+        "start": 1054,
+        "end": 1065,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CALLE",
+        "word": " la",
+        "actual_text": "la",
+        "confidence": 0.9873151779174805,
+        "start": 1051,
+        "end": 1053,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Princesa 25",
+        "actual_text": "Princesa 25",
+        "confidence": 0.8081717491149902,
+        "start": 1054,
+        "end": 1065,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

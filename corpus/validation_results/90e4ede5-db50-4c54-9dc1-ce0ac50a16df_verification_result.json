@@ -1,0 +1,124 @@
+{
+  "document_id": "90e4ede5-db50-4c54-9dc1-ce0ac50a16df",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Preoperatoria Se procede a la valoración preoperatoria integral del paciente con identificación de aseguramiento XXX. El sujeto de asistencia, identificado bajo el código XXX, se presenta para evaluación previa a la intervención quirúrgica programada. La exploración física revela un estado general aceptable para el procedimiento, con tensión arterial estabilizada y auscultación cardíaca rítmica sin soplos patológicos. Los resultados analíticos muestran un hemograma dentro de parámetros normales y función renal preservada, lo que constituye un perfil bajo riesgo anestésico. La coordinación del acto quirúrgico se ha gestionado a través de la institución del XXX, conforme a los protocolos establecidos. El procedimiento será realizado por un XXX, profesional que cuenta con la identificación de empleo personal sanitario XXX. El equipo médico asistencial ha sido notificado y se encuentra plenamente operativo para la intervención. Para aspectos de logística quirúrgica, se ha verificado la disponibilidad del dispositivo médico con número de serie XXX, el cual se encuentra calibrado y listo para su uso intraoperatorio. Toda la documentación relativa al procedimiento ha sido centralizada y puede ser consultada mediante el identificador XXX en el sistema institucional. La comunicación interdepartamental se mantendrá activa a través de los correos electrónicos XXX y XXX, garantizando la continuidad asistencial durante todo el proceso. El XXX responsable supervisará personalmente cada fase del procedimiento, asegurando el cumplimiento de los estándares de calidad asistencial. Se considera que el paciente reúne las condiciones óptimas para enfrentar la intervención con expectativas favorables.",
+  "text_length": 1730,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7000529170036316,
+        "word": " sanitario",
+        "start": 839,
+        "end": 848,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " sanitario",
+          "actual_text": "sanitario",
+          "confidence": 0.7000529170036316,
+          "start": 839,
+          "end": 848,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " sanitario",
+          "actual_text": "sanitario",
+          "confidence": 0.7000529170036316,
+          "start": 839,
+          "end": 848,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " sanitario",
+        "actual_text": "sanitario",
+        "confidence": 0.7000529170036316,
+        "start": 839,
+        "end": 848,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " sanitario",
+        "actual_text": "sanitario",
+        "confidence": 0.7000529170036316,
+        "start": 839,
+        "end": 848,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

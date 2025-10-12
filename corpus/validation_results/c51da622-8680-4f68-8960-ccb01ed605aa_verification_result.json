@@ -1,0 +1,174 @@
+{
+  "document_id": "c51da622-8680-4f68-8960-ccb01ed605aa",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Clínica Paciente que acude a consulta para valoración y seguimiento. Se identifica con el documento nacional de identidad XXX. Refiere sintomatología inespecífica que se encuentra en estudio. Se ha solicitado analítica completa y pruebas de imagen para completar el estudio. En la exploración física actual, se objetiva normotensión, eupneico en reposo y afebril. La auscultación cardiorrespiratoria resulta dentro de la normalidad, sin soplos ni ruidos sobreañadidos. El abdomen es blando y depresible, no doloroso a la palpación superficial y profunda. Los resultados de las pruebas complementarias realizadas, que incluyen hemograma y bioquímica básica, no muestran alteraciones significativas. Los hallazgos de la radiografía de tórax se consideran normales. Se ha procedido a registrar el caso con el identificador asistencial XXX. Para cualquier consulta o ampliación de información, se puede acceder al portal de documentación clínica a través de XXX. Como parte del estudio del entorno familiar, se ha contactado con la XXX, quien aporta información relevante para la anamnesis. Se ha verificado su identidad con el número de documento XXX. Se continuará con el seguimiento programado según evolución.",
+  "text_length": 1231,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8988698720932007,
+        "word": " documento nacional de identidad",
+        "start": 112,
+        "end": 143,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad",
+          "actual_text": "documento nacional de identidad",
+          "confidence": 0.8988698720932007,
+          "start": 112,
+          "end": 143,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad",
+          "actual_text": "documento nacional de identidad",
+          "confidence": 0.8988698720932007,
+          "start": 112,
+          "end": 143,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9155627489089966,
+        "word": " portal de documentación clínica",
+        "start": 932,
+        "end": 963,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " portal de documentación clínica",
+          "actual_text": "portal de documentación clínica",
+          "confidence": 0.9155627489089966,
+          "start": 932,
+          "end": 963,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " portal de documentación clínica",
+          "actual_text": "portal de documentación clínica",
+          "confidence": 0.9155627489089966,
+          "start": 932,
+          "end": 963,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad",
+        "actual_text": "documento nacional de identidad",
+        "confidence": 0.8988698720932007,
+        "start": 112,
+        "end": 143,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " portal de documentación clínica",
+        "actual_text": "portal de documentación clínica",
+        "confidence": 0.9155627489089966,
+        "start": 932,
+        "end": 963,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad",
+        "actual_text": "documento nacional de identidad",
+        "confidence": 0.8988698720932007,
+        "start": 112,
+        "end": 143,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " portal de documentación clínica",
+        "actual_text": "portal de documentación clínica",
+        "confidence": 0.9155627489089966,
+        "start": 932,
+        "end": 963,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

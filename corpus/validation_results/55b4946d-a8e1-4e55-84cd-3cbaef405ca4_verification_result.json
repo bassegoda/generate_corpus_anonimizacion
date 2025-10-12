@@ -1,0 +1,358 @@
+{
+  "document_id": "55b4946d-a8e1-4e55-84cd-3cbaef405ca4",
+  "success": true,
+  "anonymized_text": "**Informe de Valoración Geriátrica Integral** Se procede a la valoración integral de la paciente que ingresa para estudio. Se trata de una persona de **XXX**, de **sexo XXX**, cuyo seguimiento previo se ha realizado desde el **XXX**. La paciente cuenta con cobertura sanitaria a través del **XXX** y su **número de beneficiaria del plan de salud** es el **XXX**. El **identificador de aseguramiento** asignado es **XXX** y el **identificador de contacto asistencial** para su historial es **XXX**. Para garantizar la correcta identificación inequívoca de la paciente en el sistema, se ha verificado su identidad mediante la **XXX** y la **XXX**, que han sido cotejadas satisfactoriamente con los **identificadores biométricos** registrados en la base de datos. La paciente es de nacionalidad **XXX**. La documentación clínica previa ha sido recuperada a través de los siguientes **direcciones de protocolo de internet** de historias clínicas electrónicas: **XXX** y **XXX**. El actual ingreso se gestiona desde el ** Clínico San Carlos**, **institución** que pertenece a la **XXX**. Para cualquier comunicación profesional relacionada con este caso, puede utilizarse el siguiente **correo electrónico**: **XXX**. A nivel de exploración física, la paciente se presenta consciente y orientada. No se palpan masas ni adenopatías significativas en cuello. La auscultación cardíaca revela un ritmo regular sin soplos audibles, y la respiratoria es limpia, con murmullo vesicular conservado. El abdomen es blando y depresible, no doloroso a la palpación. En las extremidades inferiores no se observan edemas ni signos de trombosis. Los análisis de sangre muestran una hemoglobina de 12.8 g/dL y una función renal dentro de parámetros normales para su grupo de edad. La radiografía de tórax realizada es inespecífica, sin hallazgos de consolidación ni derrame pleural.",
+  "text_length": 1861,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9340202808380127,
+        "word": " Clínico San Carlos",
+        "start": 1017,
+        "end": 1035,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9340202808380127,
+          "start": 1017,
+          "end": 1035,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9340202808380127,
+          "start": 1017,
+          "end": 1035,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 5,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8188633918762207,
+        "word": " **XXX**",
+        "start": 150,
+        "end": 157,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7555360794067383,
+        "word": " **sexo XXX**",
+        "start": 162,
+        "end": 174,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8780423402786255,
+        "word": " **XXX**",
+        "start": 792,
+        "end": 799,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9516136646270752,
+        "word": " Clínico San Carlos",
+        "start": 1017,
+        "end": 1035,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7337954044342041,
+        "word": " electrónico",
+        "start": 1189,
+        "end": 1200,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 5,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 3,
+        "HOSPITAL": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 3,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **XXX**",
+          "actual_text": "**XXX**",
+          "confidence": 0.8188633918762207,
+          "start": 150,
+          "end": 157,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **sexo XXX**",
+          "actual_text": "**sexo XXX**",
+          "confidence": 0.7555360794067383,
+          "start": 162,
+          "end": 174,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **XXX**",
+          "actual_text": "**XXX**",
+          "confidence": 0.8780423402786255,
+          "start": 792,
+          "end": 799,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9516136646270752,
+          "start": 1017,
+          "end": 1035,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " electrónico",
+          "actual_text": "electrónico",
+          "confidence": 0.7337954044342041,
+          "start": 1189,
+          "end": 1200,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **XXX**",
+          "actual_text": "**XXX**",
+          "confidence": 0.8188633918762207,
+          "start": 150,
+          "end": 157,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **sexo XXX**",
+          "actual_text": "**sexo XXX**",
+          "confidence": 0.7555360794067383,
+          "start": 162,
+          "end": 174,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **XXX**",
+          "actual_text": "**XXX**",
+          "confidence": 0.8780423402786255,
+          "start": 792,
+          "end": 799,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9516136646270752,
+          "start": 1017,
+          "end": 1035,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " electrónico",
+          "actual_text": "electrónico",
+          "confidence": 0.7337954044342041,
+          "start": 1189,
+          "end": 1200,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 6,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "HOSPITAL": 2,
+      "ID_SUJETO_ASISTENCIA": 3,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 4,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9340202808380127,
+        "start": 1017,
+        "end": 1035,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **XXX**",
+        "actual_text": "**XXX**",
+        "confidence": 0.8188633918762207,
+        "start": 150,
+        "end": 157,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **sexo XXX**",
+        "actual_text": "**sexo XXX**",
+        "confidence": 0.7555360794067383,
+        "start": 162,
+        "end": 174,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **XXX**",
+        "actual_text": "**XXX**",
+        "confidence": 0.8780423402786255,
+        "start": 792,
+        "end": 799,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9516136646270752,
+        "start": 1017,
+        "end": 1035,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " electrónico",
+        "actual_text": "electrónico",
+        "confidence": 0.7337954044342041,
+        "start": 1189,
+        "end": 1200,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9340202808380127,
+        "start": 1017,
+        "end": 1035,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **XXX**",
+        "actual_text": "**XXX**",
+        "confidence": 0.8188633918762207,
+        "start": 150,
+        "end": 157,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **sexo XXX**",
+        "actual_text": "**sexo XXX**",
+        "confidence": 0.7555360794067383,
+        "start": 162,
+        "end": 174,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **XXX**",
+        "actual_text": "**XXX**",
+        "confidence": 0.8780423402786255,
+        "start": 792,
+        "end": 799,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9516136646270752,
+        "start": 1017,
+        "end": 1035,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " electrónico",
+        "actual_text": "electrónico",
+        "confidence": 0.7337954044342041,
+        "start": 1189,
+        "end": 1200,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 6,
+    "suspicious_detections": 6,
+    "xxxxxx_detections": 0,
+    "other_detections": 6
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

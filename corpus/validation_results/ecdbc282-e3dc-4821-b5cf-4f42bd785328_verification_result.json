@@ -1,0 +1,266 @@
+{
+  "document_id": "ecdbc282-e3dc-4821-b5cf-4f42bd785328",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude a consulta para seguimiento de su patología crónica. La señora XXX, de XXX, se presenta en el día de hoy para control y valoración. Refiere que su estado general es estable, sin cambios significativos desde la última visita. En la anamnesis por sistemas, no refiere sintomatología aguda. Como antecedentes personales de interés, se confirma que es XXX y se encuentra registrado en su historial que es XXX. La exploración física actual muestra tensión arterial de 135/80 mmHg, frecuencia cardíaca de 78 lpm y saturación de oxígeno del 96%. La auscultación cardiorrespiratoria es dentro de los límites de la normalidad, sin soplos ni ruidos sobreañadidos. Respecto a los estudios complementarios, se revisaron las analíticas realizadas el XXX, que muestran un perfil lipídico dentro de parámetros aceptables. Los resultados de la última ecografía abdominal están disponibles para su revisión a través del sistema de la XXX en el enlace XXX. Para cualquier gestión administrativa relacionada con su asistencia, el número de teléfono de contacto es el XXX. Se ha procedido a la actualización de su documentación clínica, verificando el número de identificación XXX y el número de beneficio del plan de salud XXX. Como contacto de referencia en caso de emergencia, figura su familiar XXX, cuyo número de teléfono es XXX. El dispositivo médico en uso por la paciente, con identificador XXX, funciona correctamente. Toda esta información ha sido integrada en su historia clínica digital, accesible mediante el enlace XXX. Se mantiene el tratamiento actual y se recomienda control en 6 meses, insistiendo en la importancia de la cesación tabáquica.",
+  "text_length": 1687,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9787242412567139,
+        "word": " familiar XXX",
+        "start": 1317,
+        "end": 1329,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.9787242412567139,
+          "start": 1317,
+          "end": 1329,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.9787242412567139,
+          "start": 1317,
+          "end": 1329,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7182726860046387,
+        "word": " de la XXX",
+        "start": 958,
+        "end": 967,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7159391045570374,
+        "word": " familiar XXX",
+        "start": 1317,
+        "end": 1329,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8108181953430176,
+        "word": " clínica",
+        "start": 1511,
+        "end": 1518,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 2,
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " de la XXX",
+          "actual_text": "de la XXX",
+          "confidence": 0.7182726860046387,
+          "start": 958,
+          "end": 967,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.7159391045570374,
+          "start": 1317,
+          "end": 1329,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.8108181953430176,
+          "start": 1511,
+          "end": 1518,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " de la XXX",
+          "actual_text": "de la XXX",
+          "confidence": 0.7182726860046387,
+          "start": 958,
+          "end": 967,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.7159391045570374,
+          "start": 1317,
+          "end": 1329,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.8108181953430176,
+          "start": 1511,
+          "end": 1518,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2,
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.9787242412567139,
+        "start": 1317,
+        "end": 1329,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " de la XXX",
+        "actual_text": "de la XXX",
+        "confidence": 0.7182726860046387,
+        "start": 958,
+        "end": 967,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.7159391045570374,
+        "start": 1317,
+        "end": 1329,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.8108181953430176,
+        "start": 1511,
+        "end": 1518,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.9787242412567139,
+        "start": 1317,
+        "end": 1329,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " de la XXX",
+        "actual_text": "de la XXX",
+        "confidence": 0.7182726860046387,
+        "start": 958,
+        "end": 967,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.7159391045570374,
+        "start": 1317,
+        "end": 1329,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.8108181953430176,
+        "start": 1511,
+        "end": 1518,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

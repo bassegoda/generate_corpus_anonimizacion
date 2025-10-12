@@ -1,0 +1,175 @@
+{
+  "document_id": "08c8b141-dccb-48a2-a133-28dbc7008edd",
+  "success": true,
+  "anonymized_text": "En el informe de evolución correspondiente a la consulta de seguimiento, se documenta la estabilidad del cuadro clínico actual. Los parámetros analíticos recientemente revisados se encuentran dentro de rangos aceptables, mostrando una mejoría significativa en los marcadores de inflamación. La exploración física revela un abdomen blando y depresible, sin masas palpables ni signos de irritación peritoneal. Los ruidos hidroaéreos son normales y no se evidencia hepatomegalia. Se procedió a la verificación del XXX para la correcta actualización de la historia digital. Respecto a las pruebas complementarias, la resonancia magnética abdominal programada fue realizada y sus imágenes están disponibles para su revisión en el portal de documentación clínica, accesible a través de la URL XXX. Se recomienda al paciente consultar dicho recurso para visualizar los informes radiológicos completos. Para la gestión logística de la asistencia, se ha registrado el identificador de vehículo XXX en el apartado correspondiente del sistema, conforme a los protocolos de acceso al centro. Se mantiene el plan terapéutico establecido y se citará al paciente para una nueva valoración en los plazos habituales.",
+  "text_length": 1199,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.9487344026565552,
+        "word": " portal de documentación clínica",
+        "start": 725,
+        "end": 756,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " portal de documentación clínica",
+          "actual_text": "portal de documentación clínica",
+          "confidence": 0.9487344026565552,
+          "start": 725,
+          "end": 756,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " portal de documentación clínica",
+          "actual_text": "portal de documentación clínica",
+          "confidence": 0.9487344026565552,
+          "start": 725,
+          "end": 756,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9763911366462708,
+        "word": " portal de documentación clínica",
+        "start": 725,
+        "end": 756,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " portal de documentación clínica",
+          "actual_text": "portal de documentación clínica",
+          "confidence": 0.9763911366462708,
+          "start": 725,
+          "end": 756,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " portal de documentación clínica",
+          "actual_text": "portal de documentación clínica",
+          "confidence": 0.9763911366462708,
+          "start": 725,
+          "end": 756,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " portal de documentación clínica",
+        "actual_text": "portal de documentación clínica",
+        "confidence": 0.9487344026565552,
+        "start": 725,
+        "end": 756,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " portal de documentación clínica",
+        "actual_text": "portal de documentación clínica",
+        "confidence": 0.9763911366462708,
+        "start": 725,
+        "end": 756,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " portal de documentación clínica",
+        "actual_text": "portal de documentación clínica",
+        "confidence": 0.9487344026565552,
+        "start": 725,
+        "end": 756,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " portal de documentación clínica",
+        "actual_text": "portal de documentación clínica",
+        "confidence": 0.9763911366462708,
+        "start": 725,
+        "end": 756,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

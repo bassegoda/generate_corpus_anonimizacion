@@ -1,0 +1,219 @@
+{
+  "document_id": "b49e42d6-cb86-414f-8831-51734a19d9eb",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa A la atención de la paciente XXX: Se realiza valoración en consulta externa tras estudio completo. La exploración física actual muestra buen estado general, con presión arterial de 120/75 mmHg, frecuencia cardíaca de 72 lpm y saturación de oxígeno del 98%. La auscultación cardiorrespiratoria es normofonética sin soplos ni ruidos sobreañadidos. El abdomen es blando y depresible, no doloroso a la palpación superficial ni profunda. En cuanto a pruebas complementarias, la analítica muestra hemograma dentro de parámetros normales con hemoglobina de 13.5 g/dL. La bioquímica es igualmente normal con función renal y hepática conservada. Las pruebas de imagen realizadas no muestran hallazgos significativos que requieran intervención inmediata. Se recomienda seguimiento periódico en este General de Valencia donde se coordinarán los próximos controles. Para información adicional sobre el proceso, puede consultarse la documentación disponible en XXX donde encontrará recursos educativos sobre su condición. Quedo a su disposición para cualquier aclaración posterior. Atentamente, XXX Especialista en Medicina Interna",
+  "text_length": 1146,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.7306714057922363,
+        "word": " este General de Valencia",
+        "start": 812,
+        "end": 836,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " este General de Valencia",
+          "actual_text": "este General de Valencia",
+          "confidence": 0.7306714057922363,
+          "start": 812,
+          "end": 836,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " este General de Valencia",
+          "actual_text": "este General de Valencia",
+          "confidence": 0.7306714057922363,
+          "start": 812,
+          "end": 836,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.7029995918273926,
+        "word": " este",
+        "start": 812,
+        "end": 816,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9642544388771057,
+        "word": " General de Valencia",
+        "start": 817,
+        "end": 836,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 2
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " este",
+          "actual_text": "este",
+          "confidence": 0.7029995918273926,
+          "start": 812,
+          "end": 816,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " General de Valencia",
+          "actual_text": "General de Valencia",
+          "confidence": 0.9642544388771057,
+          "start": 817,
+          "end": 836,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " este",
+          "actual_text": "este",
+          "confidence": 0.7029995918273926,
+          "start": 812,
+          "end": 816,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " General de Valencia",
+          "actual_text": "General de Valencia",
+          "confidence": 0.9642544388771057,
+          "start": 817,
+          "end": 836,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "HOSPITAL": 3
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "HOSPITAL",
+        "word": " este General de Valencia",
+        "actual_text": "este General de Valencia",
+        "confidence": 0.7306714057922363,
+        "start": 812,
+        "end": 836,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " este",
+        "actual_text": "este",
+        "confidence": 0.7029995918273926,
+        "start": 812,
+        "end": 816,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Valencia",
+        "actual_text": "General de Valencia",
+        "confidence": 0.9642544388771057,
+        "start": 817,
+        "end": 836,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "HOSPITAL",
+        "word": " este General de Valencia",
+        "actual_text": "este General de Valencia",
+        "confidence": 0.7306714057922363,
+        "start": 812,
+        "end": 836,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " este",
+        "actual_text": "este",
+        "confidence": 0.7029995918273926,
+        "start": 812,
+        "end": 816,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Valencia",
+        "actual_text": "General de Valencia",
+        "confidence": 0.9642544388771057,
+        "start": 817,
+        "end": 836,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

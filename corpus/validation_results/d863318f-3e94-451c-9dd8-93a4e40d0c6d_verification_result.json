@@ -1,0 +1,174 @@
+{
+  "document_id": "d863318f-3e94-451c-9dd8-93a4e40d0c6d",
+  "success": true,
+  "anonymized_text": "Informe de Interconsulta Se remite el presente informe a la XXX para continuar con el manejo integral del paciente. Se ha completado la evaluación inicial en nuestra consulta, observándose en la exploración física un estado general conservado, con presión arterial de 125/80 mmHg y frecuencia cardíaca de 78 lpm. La auscultación cardiorrespiratoria resulta dentro de la normalidad, sin soplos ni ruidos sobreañadidos. En cuanto a las pruebas complementarias realizadas, el perfil bioquímico no muestra alteraciones significativas y la radiografía de tórax es normoconfigurada. Para cualquier aclaración o coordinación posterior, puede contactarme a través del correo electrónico XXX. Asimismo, para el envío de documentación complementaria, queda a su disposición el número de fax XXX. Atentamente, Carlos Martínez XXX XXX",
+  "text_length": 822,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9866528511047363,
+        "word": " Carlos Martínez XXX",
+        "start": 799,
+        "end": 818,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Carlos Martínez XXX",
+          "actual_text": "Carlos Martínez XXX",
+          "confidence": 0.9866528511047363,
+          "start": 799,
+          "end": 818,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Carlos Martínez XXX",
+          "actual_text": "Carlos Martínez XXX",
+          "confidence": 0.9866528511047363,
+          "start": 799,
+          "end": 818,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9381749629974365,
+        "word": " Martínez",
+        "start": 806,
+        "end": 814,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Martínez",
+          "actual_text": "Martínez",
+          "confidence": 0.9381749629974365,
+          "start": 806,
+          "end": 814,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Martínez",
+          "actual_text": "Martínez",
+          "confidence": 0.9381749629974365,
+          "start": 806,
+          "end": 814,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NOMBRE_PERSONAL_SANITARIO": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Carlos Martínez XXX",
+        "actual_text": "Carlos Martínez XXX",
+        "confidence": 0.9866528511047363,
+        "start": 799,
+        "end": 818,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Martínez",
+        "actual_text": "Martínez",
+        "confidence": 0.9381749629974365,
+        "start": 806,
+        "end": 814,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Carlos Martínez XXX",
+        "actual_text": "Carlos Martínez XXX",
+        "confidence": 0.9866528511047363,
+        "start": 799,
+        "end": 818,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Martínez",
+        "actual_text": "Martínez",
+        "confidence": 0.9381749629974365,
+        "start": 806,
+        "end": 814,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

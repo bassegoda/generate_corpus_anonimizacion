@@ -1,0 +1,169 @@
+{
+  "document_id": "398a7741-d7c4-417e-b5ea-f54242135885",
+  "success": true,
+  "anonymized_text": "Informe de Consulta de Seguimiento Paciente que acude a consulta para control evolutivo en el XXX. La señora XXX, con identificación XXX, se presenta acompañada por su familiar de referencia para cuestiones asistenciales, XXX. La paciente es de sexo XXX y se mantiene en situación de estabilidad clínica respecto a su patología de base. En la exploración física actual se objetiva tensión arterial de 125/80 mmHg, frecuencia cardíaca de 68 lpm regular, y saturación de oxígeno del 97% en aire ambiente. La auscultación cardíaca presenta ritmo regular sin soplos audibles, y la auscultación pulmonar es limpia con murmullo vesicular conservado bilateralmente. No se evidencian edemas en miembros inferiores ni otros signos de descompensación. Respecto a los estudios complementarios realizados, el electrocardiograma muestra ritmo sinusal normal sin alteraciones agudas. En la analítica reciente se observa hemograma dentro de parámetros normales y función renal conservada. La radiografía de tórax no muestra hallazgos significativos. Para cualquier comunicación relacionada con su seguimiento, pueden contactar al número de teléfono XXX o alternativamente al XXX. Asimismo, queda registrado el correo electrónico XXX para coordinación entre niveles asistenciales. El profesional sanitario que suscribe este informe cuenta con la titulación de XXX y ejerce como XXX, bajo la supervisión general del XXX. La documentación completa del proceso asistencial queda archivada con el identificador XXX según los protocolos establecidos. Se recomienda continuar con el plan terapéutico establecido y control periódico en consultas externas. La paciente y sus familiares sujetos de asistencia han recibido información verbal y escrita sobre las recomendaciones y signos de alarma que deben motivar consulta urgente.",
+  "text_length": 1806,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9680914282798767,
+        "word": " familiar de referencia",
+        "start": 168,
+        "end": 190,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8340187072753906,
+        "word": " familiares sujetos",
+        "start": 1651,
+        "end": 1669,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de referencia",
+          "actual_text": "familiar de referencia",
+          "confidence": 0.9680914282798767,
+          "start": 168,
+          "end": 190,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares sujetos",
+          "actual_text": "familiares sujetos",
+          "confidence": 0.8340187072753906,
+          "start": 1651,
+          "end": 1669,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de referencia",
+          "actual_text": "familiar de referencia",
+          "confidence": 0.9680914282798767,
+          "start": 168,
+          "end": 190,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares sujetos",
+          "actual_text": "familiares sujetos",
+          "confidence": 0.8340187072753906,
+          "start": 1651,
+          "end": 1669,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de referencia",
+        "actual_text": "familiar de referencia",
+        "confidence": 0.9680914282798767,
+        "start": 168,
+        "end": 190,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares sujetos",
+        "actual_text": "familiares sujetos",
+        "confidence": 0.8340187072753906,
+        "start": 1651,
+        "end": 1669,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de referencia",
+        "actual_text": "familiar de referencia",
+        "confidence": 0.9680914282798767,
+        "start": 168,
+        "end": 190,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares sujetos",
+        "actual_text": "familiares sujetos",
+        "confidence": 0.8340187072753906,
+        "start": 1651,
+        "end": 1669,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

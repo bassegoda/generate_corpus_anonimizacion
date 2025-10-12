@@ -1,0 +1,124 @@
+{
+  "document_id": "c48e1329-114a-4ab7-8aa2-7545cc2d0c00",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE GERIATRÍA** Paciente de sexo **XXX** que acude a consulta externa de geriatría para valoración integral. En la actualidad cuenta con **XXX** y presenta un perfil de fragilidad que requiere seguimiento estrecho dada su situación basal. La exploración física actual muestra paciente consciente y orientada, aunque con cierta afectación de la movilidad que condiciona su autonomía para las actividades instrumentales de la vida diaria. A la auscultación cardiopulmonar se aprecia ritmo cardíaco regular sin soplos, y campos pulmonares libres con buena ventilación bilateral. En la esfera cognitiva se objetiva un leve deterioro de memoria reciente, aunque mantiene la orientación temporoespacial. Los análisis realizados muestran un perfil lipídico dentro de parámetros aceptables para su grupo de edad, con hemograma sin alteraciones significativas. Como dato de interés familiar, se ha contactado con **XXX** de la paciente, quien proporciona información adicional sobre la situación funcional en el domicilio. La paciente cuenta con el apoyo del **XXX** para el seguimiento de su medicación crónica. La resonancia magnética cerebral evidencia cambios propios de la edad con leve atrofia cortical y algunos focos de hiperintensidad en sustancia blanca periventricular, compatibles con leucoaraiosis grado I. La densitometría ósea confirma la presencia de osteopenia, no habiéndose documentado fracturas por fragilidad hasta la fecha. Para la coordinación asistencial se ha establecido comunicación con el **XXX**, donde la paciente fue valorada previamente en la unidad de geriatría. El número de identificación de aseguramiento consta como **XXX** y el identificador de atención es **XXX**. La XXX, especialista en geriatría con **XXX**, será la responsable del seguimiento de este caso. Para cualquier comunicación interconsulta, pueden utilizarse los correos electrónicos **XXX** y **XXX**. Se recomienda reevaluación en consulta externa a los **XXX** para valorar la progresión del deterioro funcional y ajustar las intervenciones terapéuticas en función de la evolución clínica.",
+  "text_length": 2115,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7565356492996216,
+        "word": " familiar",
+        "start": 902,
+        "end": 910,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.7565356492996216,
+          "start": 902,
+          "end": 910,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.7565356492996216,
+          "start": 902,
+          "end": 910,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.7565356492996216,
+        "start": 902,
+        "end": 910,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.7565356492996216,
+        "start": 902,
+        "end": 910,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

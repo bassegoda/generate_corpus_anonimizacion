@@ -1,0 +1,124 @@
+{
+  "document_id": "526daf8c-5722-4f70-ac7c-234c42f27704",
+  "success": true,
+  "anonymized_text": "Informe de Interconsulta de Neurología Paciente remitido para valoración por cefalea crónica de características mixtas que no responde de forma satisfactoria al tratamiento analgésico convencional. Refiere episodios de dolor de intensidad moderada-severa con una frecuencia de 8-10 episodios mensuales, sin aura visual definida pero con fotofobia asociada. Se ha verificado que el número de beneficiario del plan de salud actual es el XXX, correspondiente a la póliza activa. En la exploración física neurológica se objetiva: pupilas isocóricas y reactivas, pares craneales conservados, fuerza muscular 5/5 en las cuatro extremidades, reflejos osteotendinosos normoactivos y simétricos, coordinación y marcha dentro de parámetros normales. La sensibilidad superficial y profunda se encuentra preservada. Respecto a los estudios complementarios realizados, la resonancia magnética craneal fue informada como normal, sin evidencia de lesiones ocupantes de espacio ni anomalías estructurales. El estudio fue identificado bajo la referencia RAD-789456. Para la monitorización ambulatoria se ha programado el uso del equipo de electroencefalografía portátil identificado como XXX. Se ha coordinado con el servicio de neurofisiología para realizar potenciales evocados, asignando al procedimiento el código XXX. Para cualquier comunicación urgente relacionada con la evolución del caso, puede utilizarse el XXX. El equipo de polisomnografía que será utilizado para el estudio del sueño corresponde al XXX. Se ha verificado además que el neuroestimulador actualmente en uso tiene asociado el número de serie XXX. Finalmente, para la próxima intervención de infiltración se dispone del equipo de fluoroscopia con identificación XXX y se ha confirmado la autorización administrativa XXX.",
+  "text_length": 1778,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7945866584777832,
+        "word": "789456",
+        "start": 1041,
+        "end": 1047,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "789456",
+          "actual_text": "789456",
+          "confidence": 0.7945866584777832,
+          "start": 1041,
+          "end": 1047,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "789456",
+          "actual_text": "789456",
+          "confidence": 0.7945866584777832,
+          "start": 1041,
+          "end": 1047,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "789456",
+        "actual_text": "789456",
+        "confidence": 0.7945866584777832,
+        "start": 1041,
+        "end": 1047,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "789456",
+        "actual_text": "789456",
+        "confidence": 0.7945866584777832,
+        "start": 1041,
+        "end": 1047,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

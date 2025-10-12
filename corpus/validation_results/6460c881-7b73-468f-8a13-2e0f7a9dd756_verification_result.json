@@ -1,0 +1,124 @@
+{
+  "document_id": "6460c881-7b73-468f-8a13-2e0f7a9dd756",
+  "success": true,
+  "anonymized_text": "Informe de Consulta de Cirugía General Paciente que acude a consulta para valoración quirúrgica. Se trata de un individuo con antecedentes personales de XXX y alergia a penicilina documentada en su historial. La exploración física actual muestra abdomen blando y depresible, sin masas palpables ni signos de irritación peritoneal. La auscultación cardiorespiratoria es normal. En cuanto a los parámetros analíticos, el hemograma muestra leucocitosis discreta con 11.200 leucocitos, siendo el resto de valores dentro de rangos normales. La bioquímica sanguínea no presenta alteraciones significativas en función hepática y renal. La radiografía simple de tórax evidencia campos pulmonares libres sin infiltrados patológicos. Se ha coordinado la intervención con el equipo de XXX asignado, quien ha revisado la documentación completa del caso. Para cualquier comunicación adicional relacionada con el procedimiento, puede utilizarse el correo electrónico XXX. Como referencia, el paciente reside en la XXX y su identificación vehicular es XXX. Se ha contactado con su entorno familiar más próximo, específicamente con XXX, quien ha sido informada sobre el proceso y ha manifestado su disponibilidad para el acompañamiento durante el periodo asistencial. Como profesional XXX responsable, he facilitado mi contacto institucional XXX para cualquier gestión relacionada con la atención al paciente. Para información complementaria sobre los protocolos quirúrgicos aplicables, se recomienda consultar los recursos disponibles en XXX donde se encuentran detallados los procedimientos estándar. El documento de identificación del sujeto de asistencia XXX ha sido verificado en el sistema y se encuentra en regla. Se ha confirmado con otros sujeto de asistencia involucrados en el proceso la existencia de XXX para garantizar la seguridad del paciente durante todo el proceso asistencial.",
+  "text_length": 1879,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8654824495315552,
+        "word": " entorno",
+        "start": 1066,
+        "end": 1073,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " entorno",
+          "actual_text": "entorno",
+          "confidence": 0.8654824495315552,
+          "start": 1066,
+          "end": 1073,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " entorno",
+          "actual_text": "entorno",
+          "confidence": 0.8654824495315552,
+          "start": 1066,
+          "end": 1073,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " entorno",
+        "actual_text": "entorno",
+        "confidence": 0.8654824495315552,
+        "start": 1066,
+        "end": 1073,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " entorno",
+        "actual_text": "entorno",
+        "confidence": 0.8654824495315552,
+        "start": 1066,
+        "end": 1073,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

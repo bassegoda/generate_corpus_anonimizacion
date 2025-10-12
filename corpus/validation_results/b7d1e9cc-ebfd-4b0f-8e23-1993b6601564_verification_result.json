@@ -1,0 +1,169 @@
+{
+  "document_id": "b7d1e9cc-ebfd-4b0f-8e23-1993b6601564",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución Hospitalaria** Paciente **XXX** que ingresa en el **XXX** para estudio y manejo integral. Se mantiene estable hemodinámicamente durante su estancia. Al interrogatorio dirigido, refiere mejoría parcial de la sintomatología inicial. Se ha establecido contacto con su entorno familiar para coordinar los cuidados posteriores al alta, manteniendo comunicación directa con **XXX**, quien se ha mostrado muy colaboradora. Para cualquier aspecto logístico o consulta relacionada con la continuidad asistencial, queda registrado como identificador de contacto principal **XXX**. Asimismo, se ha facilitado la dirección de correo electrónico **XXX** como vía de comunicación preferente para la paciente. De forma paralela, y para asegurar una comunicación fluida con el núcleo familiar, también se ha proporcionado la dirección **XXX**. En cuanto a la situación social, se confirma que el apoyo principal lo ejerce **XXX**, quien reside de forma estable en la dirección **XXX** y estará a cargo de la paciente tras el alta. Se recomienda vigilancia domiciliaria y seguimiento estrecho en consultas externas.",
+  "text_length": 1118,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7372987866401672,
+        "word": " familiar",
+        "start": 293,
+        "end": 301,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8426538109779358,
+        "word": " familiar",
+        "start": 788,
+        "end": 796,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.7372987866401672,
+          "start": 293,
+          "end": 301,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.8426538109779358,
+          "start": 788,
+          "end": 796,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.7372987866401672,
+          "start": 293,
+          "end": 301,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.8426538109779358,
+          "start": 788,
+          "end": 796,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.7372987866401672,
+        "start": 293,
+        "end": 301,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.8426538109779358,
+        "start": 788,
+        "end": 796,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.7372987866401672,
+        "start": 293,
+        "end": 301,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.8426538109779358,
+        "start": 788,
+        "end": 796,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

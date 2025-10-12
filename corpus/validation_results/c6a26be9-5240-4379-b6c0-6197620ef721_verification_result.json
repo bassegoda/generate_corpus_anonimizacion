@@ -1,0 +1,175 @@
+{
+  "document_id": "c6a26be9-5240-4379-b6c0-6197620ef721",
+  "success": true,
+  "anonymized_text": "A la atención de quien corresponda: Se remite el presente informe de valoración geriátrica integral correspondiente a la paciente de sexo XXX, con una edad de XXX, que fue evaluada en consulta externa el día XXX. La exploración física actual revela un estado general conservado, con tensión arterial de 135/80 mmHg y frecuencia cardíaca de 68 lpm. No se evidencian signos de desnutrición ni deterioro funcional significativo en las actividades básicas de la vida diaria. Los análisis realizados muestran un perfil bioquímico dentro de parámetros aceptables, con glucemia basal de 102 mg/dL y creatinina sérica de 0.9 mg/dL. En cuanto a las pruebas de imagen complementarias, la densitometría ósea evidencia una osteopenia incipiente que requerirá seguimiento periódico. Para cualquier comunicación adicional relativa a este caso, queda a disposición el fax institucional XXX, a través del cual pueden remitirse informes complementarios. Cabe destacar que todas las recomendaciones terapéuticas establecidas se ajustan a los protocolos vigentes del XXX. El profesional que suscribe este documento es titulado universitario con el correspondiente XXX, garantizando así la adecuada cualificación para la emisión de este juicio clínico. Se recomienda control periódico en seis meses para reevaluación del estado funcional y ajuste de medidas preventivas.",
+  "text_length": 1350,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.721037745475769,
+        "word": " fa",
+        "start": 853,
+        "end": 855,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " fa",
+          "actual_text": "fa",
+          "confidence": 0.721037745475769,
+          "start": 853,
+          "end": 855,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " fa",
+          "actual_text": "fa",
+          "confidence": 0.721037745475769,
+          "start": 853,
+          "end": 855,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "PROFESION",
+        "score": 0.9132435321807861,
+        "word": " titulado universitario",
+        "start": 1099,
+        "end": 1121,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "PROFESION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "PROFESION",
+          "word": " titulado universitario",
+          "actual_text": "titulado universitario",
+          "confidence": 0.9132435321807861,
+          "start": 1099,
+          "end": 1121,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "PROFESION",
+          "word": " titulado universitario",
+          "actual_text": "titulado universitario",
+          "confidence": 0.9132435321807861,
+          "start": 1099,
+          "end": 1121,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "PROFESION": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " fa",
+        "actual_text": "fa",
+        "confidence": 0.721037745475769,
+        "start": 853,
+        "end": 855,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " titulado universitario",
+        "actual_text": "titulado universitario",
+        "confidence": 0.9132435321807861,
+        "start": 1099,
+        "end": 1121,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " fa",
+        "actual_text": "fa",
+        "confidence": 0.721037745475769,
+        "start": 853,
+        "end": 855,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " titulado universitario",
+        "actual_text": "titulado universitario",
+        "confidence": 0.9132435321807861,
+        "start": 1099,
+        "end": 1121,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

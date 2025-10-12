@@ -1,0 +1,266 @@
+{
+  "document_id": "c53b69bd-8a74-41c4-95eb-63184bbc5ac9",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución Hospitalaria** A fecha de XXX, se procede a la reevaluación del paciente que ingresó en este centro. Se trata de un individuo de XXX, cuyo proceso asistencial queda registrado bajo el código XXX. Cabe destacar que el paciente refiere que su cónyuge, de XXX, se encuentra en adecuadas condiciones de salud en el domicilio. La situación clínica actual muestra una notable mejoría respecto a su estado al ingreso. La exploración física revela un abdomen blando y depresible, sin masas palpables ni signos de irritación peritoneal. Los ruidos hidroaéreos están presentes de forma normoactiva. En la auscultación cardíaca, se perciben ruidos rítmicos sin soplos añadidos, y la auscultación pulmonar es limpia, con buen murmullo vesicular bilateralmente. Los resultados analíticos recibidos hoy muestran un hemograma dentro de parámetros normales y una función renal con creatinina en 1.1 mg/dL. La placa de tórax practicada no evidencia infiltrados ni derrame pleural. El manejo integral del caso se ha llevado a cabo conforme a los protocolos establecidos en el XXX. Para la continuidad de la atención y posibles consultas, se recomienda consultar la información disponible en el portal XXX. Toda la documentación relacionada con este episodio queda vinculada a la referencia interna XXX. Se considera que el paciente ha alcanzado los criterios de estabilidad clínica necesarios para plantear el alta hospitalaria en las próximas 24-48 horas, pendiente de la valoración final por parte del equipo de enfermería.",
+  "text_length": 1527,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9372256994247437,
+        "word": " cónyuge,",
+        "start": 261,
+        "end": 269,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cónyuge,",
+          "actual_text": "cónyuge,",
+          "confidence": 0.9372256994247437,
+          "start": 261,
+          "end": 269,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cónyuge,",
+          "actual_text": "cónyuge,",
+          "confidence": 0.9372256994247437,
+          "start": 261,
+          "end": 269,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.8479630947113037,
+        "word": " individuo",
+        "start": 136,
+        "end": 145,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7545269727706909,
+        "word": " cónyuge,",
+        "start": 261,
+        "end": 269,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8636171817779541,
+        "word": ",",
+        "start": 276,
+        "end": 277,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "SEXO_SUJETO_ASISTENCIA": 1,
+        "FAMILIARES_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " individuo",
+          "actual_text": "individuo",
+          "confidence": 0.8479630947113037,
+          "start": 136,
+          "end": 145,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cónyuge,",
+          "actual_text": "cónyuge,",
+          "confidence": 0.7545269727706909,
+          "start": 261,
+          "end": 269,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": ",",
+          "actual_text": ",",
+          "confidence": 0.8636171817779541,
+          "start": 276,
+          "end": 277,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " individuo",
+          "actual_text": "individuo",
+          "confidence": 0.8479630947113037,
+          "start": 136,
+          "end": 145,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cónyuge,",
+          "actual_text": "cónyuge,",
+          "confidence": 0.7545269727706909,
+          "start": 261,
+          "end": 269,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": ",",
+          "actual_text": ",",
+          "confidence": 0.8636171817779541,
+          "start": 276,
+          "end": 277,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 3,
+      "SEXO_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cónyuge,",
+        "actual_text": "cónyuge,",
+        "confidence": 0.9372256994247437,
+        "start": 261,
+        "end": 269,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " individuo",
+        "actual_text": "individuo",
+        "confidence": 0.8479630947113037,
+        "start": 136,
+        "end": 145,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cónyuge,",
+        "actual_text": "cónyuge,",
+        "confidence": 0.7545269727706909,
+        "start": 261,
+        "end": 269,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": ",",
+        "actual_text": ",",
+        "confidence": 0.8636171817779541,
+        "start": 276,
+        "end": 277,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cónyuge,",
+        "actual_text": "cónyuge,",
+        "confidence": 0.9372256994247437,
+        "start": 261,
+        "end": 269,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " individuo",
+        "actual_text": "individuo",
+        "confidence": 0.8479630947113037,
+        "start": 136,
+        "end": 145,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cónyuge,",
+        "actual_text": "cónyuge,",
+        "confidence": 0.7545269727706909,
+        "start": 261,
+        "end": 269,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": ",",
+        "actual_text": ",",
+        "confidence": 0.8636171817779541,
+        "start": 276,
+        "end": 277,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

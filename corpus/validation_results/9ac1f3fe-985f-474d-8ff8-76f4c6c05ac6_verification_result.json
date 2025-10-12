@@ -1,0 +1,174 @@
+{
+  "document_id": "9ac1f3fe-985f-474d-8ff8-76f4c6c05ac6",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Quirúrgica Paciente evaluada en consulta externa para valoración de patología benigna de la pared abdominal. La señora XXX acude remitida desde atención primaria para seguimiento especializado. Refiere mejoría parcial del cuadro con el tratamiento conservador instaurado, aunque persisten algunas molestias que requieren valoración por parte del XXX. En cuanto a los antecedentes personales, destaca que la paciente reside en XXX y que toda su trayectoria asistencial se ha desarrollado dentro del sistema sanitario de XXX. Durante la anamnesis, se contactó con su familiar directa, XXX, quien aportó información adicional relevante sobre la evolución del cuadro. La exploración física muestra abdomen blando y depresible, con dolor a la palpación en fosa ilíaca derecha sin signos de irritación peritoneal. No se palpan masas ni visceromegalias. Los ruidos hidroaéreos son normales. Se ha coordinado la derivación con la XXX para el seguimiento conjunto del caso, manteniendo también comunicación con la XXX para aspectos organizativos. Para cualquier comunicación adicional, queda establecido el contacto a través del número XXX. Los estudios complementarios previos están disponibles en la plataforma digital del centro a través de los enlaces XXX, XXX y XXX. La documentación completa ha sido revisada por el equipo de XXX donde se realizará el posible procedimiento. Queda pendiente la valoración por parte de la profesional XXX para completar el estudio preoperatorio. Se mantendrá en seguimiento ambulatorio con control en consultas en un mes, considerando la intervención quirúrgica si no hay mejoría significativa con el tratamiento médico actual.",
+  "text_length": 1678,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9257230162620544,
+        "word": " familiar directa,",
+        "start": 587,
+        "end": 604,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directa,",
+          "actual_text": "familiar directa,",
+          "confidence": 0.9257230162620544,
+          "start": 587,
+          "end": 604,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directa,",
+          "actual_text": "familiar directa,",
+          "confidence": 0.9257230162620544,
+          "start": 587,
+          "end": 604,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9344382882118225,
+        "word": " familiar directa,",
+        "start": 587,
+        "end": 604,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directa,",
+          "actual_text": "familiar directa,",
+          "confidence": 0.9344382882118225,
+          "start": 587,
+          "end": 604,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directa,",
+          "actual_text": "familiar directa,",
+          "confidence": 0.9344382882118225,
+          "start": 587,
+          "end": 604,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directa,",
+        "actual_text": "familiar directa,",
+        "confidence": 0.9257230162620544,
+        "start": 587,
+        "end": 604,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directa,",
+        "actual_text": "familiar directa,",
+        "confidence": 0.9344382882118225,
+        "start": 587,
+        "end": 604,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directa,",
+        "actual_text": "familiar directa,",
+        "confidence": 0.9257230162620544,
+        "start": 587,
+        "end": 604,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directa,",
+        "actual_text": "familiar directa,",
+        "confidence": 0.9344382882118225,
+        "start": 587,
+        "end": 604,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

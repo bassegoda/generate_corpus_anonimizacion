@@ -1,0 +1,358 @@
+{
+  "document_id": "760de102-b468-45b2-9546-30905b7a9869",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Se evalúa en consulta a la paciente **XXX**, con identificación **XXX**, quien acude para seguimiento. La paciente es de **sexo XXX** y su nacionalidad es **XXX**. En la exploración física realizada, se procedió a la verificación de identidad mediante el registro de la **XXX**, que fue cotejada satisfactoriamente con los registros del sistema. El examen físico revela hallazgos dentro de la normalidad, sin signos de focalidad neurológica. Los resultados analíticos recientes, asociados al número de muestra **XXX**, muestran un perfil bioquímico sin alteraciones significativas. Asimismo, se dispone de un estudio de imagen con el identificador **XXX** que confirma la normalidad de las estructuras evaluadas. Se actualizan los datos de contacto en el sistema, designando a **XXX** como su principal contacto en el apartado de **familiares sujeto asistencia**. Para cualquier gestión o comunicación clínica, queda establecido el correo electrónico **XXX** como principal y **XXX** como contacto secundario. El episodio actual, con fecha de inicio referida el **XXX**, se encuentra estabilizado. El plan terapéutico se ha revisado y se considera adecuado. La paciente es dada de alta de este proceso asistencial, identificado con la referencia interna **XXX**. Su número de beneficiaria del plan de salud es **-98247631** y se adjunta a la documentación el ** XXX**. El profesional sanitario que firma el presente informe queda identificado con el ** C-8842**.",
+  "text_length": 1490,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9844523668289185,
+        "word": "familiares",
+        "start": 860,
+        "end": 870,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8075348734855652,
+        "word": "247631",
+        "start": 1343,
+        "end": 1349,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1,
+        "NUMERO_TELEFONO": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": "familiares",
+          "actual_text": "familiares",
+          "confidence": 0.9844523668289185,
+          "start": 860,
+          "end": 870,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "247631",
+          "actual_text": "247631",
+          "confidence": 0.8075348734855652,
+          "start": 1343,
+          "end": 1349,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": "familiares",
+          "actual_text": "familiares",
+          "confidence": 0.9844523668289185,
+          "start": 860,
+          "end": 870,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "247631",
+          "actual_text": "247631",
+          "confidence": 0.8075348734855652,
+          "start": 1343,
+          "end": 1349,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 4,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8093376159667969,
+        "word": " **sexo XXX**",
+        "start": 149,
+        "end": 161,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8636566996574402,
+        "word": " **XXX**",
+        "start": 183,
+        "end": 190,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9883605241775513,
+        "word": " **",
+        "start": 1338,
+        "end": 1340,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7631678581237793,
+        "word": "98247631",
+        "start": 1341,
+        "end": 1349,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 4,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 2,
+        "NUMERO_TELEFONO": 2
+      },
+      "entities_by_confidence": {
+        "high": 3,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **sexo XXX**",
+          "actual_text": "**sexo XXX**",
+          "confidence": 0.8093376159667969,
+          "start": 149,
+          "end": 161,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **XXX**",
+          "actual_text": "**XXX**",
+          "confidence": 0.8636566996574402,
+          "start": 183,
+          "end": 190,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9883605241775513,
+          "start": 1338,
+          "end": 1340,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "98247631",
+          "actual_text": "98247631",
+          "confidence": 0.7631678581237793,
+          "start": 1341,
+          "end": 1349,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **sexo XXX**",
+          "actual_text": "**sexo XXX**",
+          "confidence": 0.8093376159667969,
+          "start": 149,
+          "end": 161,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **XXX**",
+          "actual_text": "**XXX**",
+          "confidence": 0.8636566996574402,
+          "start": 183,
+          "end": 190,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9883605241775513,
+          "start": 1338,
+          "end": 1340,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "98247631",
+          "actual_text": "98247631",
+          "confidence": 0.7631678581237793,
+          "start": 1341,
+          "end": 1349,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 6,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "NUMERO_TELEFONO": 3,
+      "ID_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 5,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": "familiares",
+        "actual_text": "familiares",
+        "confidence": 0.9844523668289185,
+        "start": 860,
+        "end": 870,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "247631",
+        "actual_text": "247631",
+        "confidence": 0.8075348734855652,
+        "start": 1343,
+        "end": 1349,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **sexo XXX**",
+        "actual_text": "**sexo XXX**",
+        "confidence": 0.8093376159667969,
+        "start": 149,
+        "end": 161,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **XXX**",
+        "actual_text": "**XXX**",
+        "confidence": 0.8636566996574402,
+        "start": 183,
+        "end": 190,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9883605241775513,
+        "start": 1338,
+        "end": 1340,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "98247631",
+        "actual_text": "98247631",
+        "confidence": 0.7631678581237793,
+        "start": 1341,
+        "end": 1349,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": "familiares",
+        "actual_text": "familiares",
+        "confidence": 0.9844523668289185,
+        "start": 860,
+        "end": 870,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "247631",
+        "actual_text": "247631",
+        "confidence": 0.8075348734855652,
+        "start": 1343,
+        "end": 1349,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **sexo XXX**",
+        "actual_text": "**sexo XXX**",
+        "confidence": 0.8093376159667969,
+        "start": 149,
+        "end": 161,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **XXX**",
+        "actual_text": "**XXX**",
+        "confidence": 0.8636566996574402,
+        "start": 183,
+        "end": 190,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9883605241775513,
+        "start": 1338,
+        "end": 1340,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "98247631",
+        "actual_text": "98247631",
+        "confidence": 0.7631678581237793,
+        "start": 1341,
+        "end": 1349,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 6,
+    "suspicious_detections": 6,
+    "xxxxxx_detections": 0,
+    "other_detections": 6
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

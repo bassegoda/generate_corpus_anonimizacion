@@ -1,0 +1,174 @@
+{
+  "document_id": "bd2fbaaa-fcb7-47bc-bfbf-f1892f93490a",
+  "success": true,
+  "anonymized_text": "**Informe de Consulta Externa** En la valoración realizada a la paciente XXX, identificada con el número de historia XXX y cuyo número de beneficiaria del plan de salud es XXX, se procede a la actualización de su documentación clínica. Durante la exploración física de rutina, se ha registrado la XXX, que presenta un patrón de lazo bien definido. Este dato biométrico ha sido incorporado a su expediente digital para fines de identificación unívoca. Como parte de los identificadores biométricos del paciente, se documenta: XXX. En relación con los estudios complementarios, se ha programado la realización de una resonancia magnética. El equipo asignado para dicha prueba, identificado con el número de serie XXX, se encuentra operativo y calibrado en el servicio de radiodiagnóstico de este General de Madrid. Para completar la información del proceso asistencial, se indica que el parte de interconsulta fue emitido desde la XXX. Se recomienda a la paciente que, para cualquier consulta sobre procedimientos o información general, acceda a la página web de referencia XXX donde podrá encontrar material divulgativo fiable.",
+  "text_length": 1126,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.8494301438331604,
+        "word": " este General de Madrid",
+        "start": 789,
+        "end": 811,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " este General de Madrid",
+          "actual_text": "este General de Madrid",
+          "confidence": 0.8494301438331604,
+          "start": 789,
+          "end": 811,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " este General de Madrid",
+          "actual_text": "este General de Madrid",
+          "confidence": 0.8494301438331604,
+          "start": 789,
+          "end": 811,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9519339799880981,
+        "word": " este General de Madrid",
+        "start": 789,
+        "end": 811,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " este General de Madrid",
+          "actual_text": "este General de Madrid",
+          "confidence": 0.9519339799880981,
+          "start": 789,
+          "end": 811,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " este General de Madrid",
+          "actual_text": "este General de Madrid",
+          "confidence": 0.9519339799880981,
+          "start": 789,
+          "end": 811,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "HOSPITAL": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "HOSPITAL",
+        "word": " este General de Madrid",
+        "actual_text": "este General de Madrid",
+        "confidence": 0.8494301438331604,
+        "start": 789,
+        "end": 811,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " este General de Madrid",
+        "actual_text": "este General de Madrid",
+        "confidence": 0.9519339799880981,
+        "start": 789,
+        "end": 811,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "HOSPITAL",
+        "word": " este General de Madrid",
+        "actual_text": "este General de Madrid",
+        "confidence": 0.8494301438331604,
+        "start": 789,
+        "end": 811,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " este General de Madrid",
+        "actual_text": "este General de Madrid",
+        "confidence": 0.9519339799880981,
+        "start": 789,
+        "end": 811,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "document_id": "22ea2e50-e6c1-4937-87bf-e899722bd5c2",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude para seguimiento y valoración de su cuadro clínico. En la revisión de documentación asociada al sujeto de asistencia identificado con el código XXX, se verifica que el número de beneficiario del plan de salud activo es XXX. En cuanto a la situación actual, el paciente refiere mejoría parcial de la sintomatología previamente descrita. A la exploración física, se observa buen estado general, consciente y orientado. Auscultación cardiorrespiratoria sin hallazgos patológicos, abdomen blando y depresible sin masas palpables, y extremidades sin edemas ni signos de trombosis. Respecto a los resultados complementarios, las analíticas recientes muestran un perfil bioquímico dentro de parámetros normales, con leve elevación de las transaminasas que requerirá control evolutivo. En la resonancia magnética abdominal se identifica el dispositivo con número de serie XXX, que corresponde a un stent colocado previamente, que aparece en posición correcta sin signos de migración. El estudio serológico muestra inmunidad adquirida para el antígeno en cuestión. Para cualquier comunicación relacionada con este informe, puede contactarse a través de la dirección de correo electrónico XXX. Queda constancia de que el profesional sanitario responsable de esta valoración posee la titulación universitaria oficial de XXX, con identificación de titulación XXX. La documentación física complementaria puede ser remitida a la dirección de la Princesa 25 para su incorporación al expediente clínico. Se mantiene el plan terapéutico establecido y se programa reevaluación en un plazo de tres meses, con los controles analíticos intermedios correspondientes. El paciente identificado con el número de sujeto de asistencia XXX manifiesta comprensión del plan establecido y acuerdo con las recomendaciones proporcionadas.",
+  "text_length": 1852,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7133641839027405,
+        "word": " la Princesa 25",
+        "start": 1475,
+        "end": 1489,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " la Princesa 25",
+          "actual_text": "la Princesa 25",
+          "confidence": 0.7133641839027405,
+          "start": 1475,
+          "end": 1489,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " la Princesa 25",
+          "actual_text": "la Princesa 25",
+          "confidence": 0.7133641839027405,
+          "start": 1475,
+          "end": 1489,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.8866111040115356,
+        "word": " de la Princesa 25",
+        "start": 1472,
+        "end": 1489,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " de la Princesa 25",
+          "actual_text": "de la Princesa 25",
+          "confidence": 0.8866111040115356,
+          "start": 1472,
+          "end": 1489,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " de la Princesa 25",
+          "actual_text": "de la Princesa 25",
+          "confidence": 0.8866111040115356,
+          "start": 1472,
+          "end": 1489,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "CALLE": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " la Princesa 25",
+        "actual_text": "la Princesa 25",
+        "confidence": 0.7133641839027405,
+        "start": 1475,
+        "end": 1489,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " de la Princesa 25",
+        "actual_text": "de la Princesa 25",
+        "confidence": 0.8866111040115356,
+        "start": 1472,
+        "end": 1489,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " la Princesa 25",
+        "actual_text": "la Princesa 25",
+        "confidence": 0.7133641839027405,
+        "start": 1475,
+        "end": 1489,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " de la Princesa 25",
+        "actual_text": "de la Princesa 25",
+        "confidence": 0.8866111040115356,
+        "start": 1472,
+        "end": 1489,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

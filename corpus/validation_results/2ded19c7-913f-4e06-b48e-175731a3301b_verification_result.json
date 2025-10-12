@@ -1,0 +1,174 @@
+{
+  "document_id": "2ded19c7-913f-4e06-b48e-175731a3301b",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución - Consulta de Seguimiento** La paciente, de sexo XXX, acude a consulta para seguimiento de su cuadro de ansiedad generalizada. Se encuentra identificada con el número de historia clínica XXX y el número de identificación XXX. Durante la sesión, se observa mejoría en la gestión de los síntomas tras su incorporación al XXX, que parece estar resultando beneficioso para su evolución. En cuanto a su situación laboral, desempeña la profesión de XXX, factor que se considera como posible elemento estresante contribuyente. La exploración física actual muestra constantes dentro de la normalidad, sin hallazgos patológicos relevantes en la auscultación cardiorrespiratoria ni en el examen abdominal. Se verifica en el sistema que cuenta con el número de seguro XXX y el número de beneficiario del plan de salud XXX. Como dato de especial relevancia para la seguridad de la asistencia, consta en todos los registros que la paciente presenta un perfil XXX, información que ha sido confirmada nuevamente con la interesada. Para la gestión de dispositivos médicos, se registran los números de serie SN-98237645, XXX y XXX correspondientes a equipos de monitorización asignados. La documentación adicional de este proceso queda asociada al número de referencia XXX. La institución responsable de la coordinación de esta asistencia es el XXX, según los protocolos establecidos. Como recurso complementario para la paciente, se le ha proporcionado el acceso al portal web XXX donde podrá encontrar material educativo adicional sobre el manejo de su condición. Para cualquier gestión administrativa relacionada, dispone del número de identificación adicional XXX. Se mantiene el plan terapéutico actual y se programa reevaluación en un mes, con especial atención a la evolución de los síntomas ansiosos en el contexto de su actividad profesional.",
+  "text_length": 1854,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7748696804046631,
+        "word": "-98237645",
+        "start": 1113,
+        "end": 1122,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "-98237645",
+          "actual_text": "-98237645",
+          "confidence": 0.7748696804046631,
+          "start": 1113,
+          "end": 1122,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "-98237645",
+          "actual_text": "-98237645",
+          "confidence": 0.7748696804046631,
+          "start": 1113,
+          "end": 1122,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7534021735191345,
+        "word": " clínica",
+        "start": 199,
+        "end": 206,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.7534021735191345,
+          "start": 199,
+          "end": 206,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.7534021735191345,
+          "start": 199,
+          "end": 206,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "-98237645",
+        "actual_text": "-98237645",
+        "confidence": 0.7748696804046631,
+        "start": 1113,
+        "end": 1122,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.7534021735191345,
+        "start": 199,
+        "end": 206,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "-98237645",
+        "actual_text": "-98237645",
+        "confidence": 0.7748696804046631,
+        "start": 1113,
+        "end": 1122,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.7534021735191345,
+        "start": 199,
+        "end": 206,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

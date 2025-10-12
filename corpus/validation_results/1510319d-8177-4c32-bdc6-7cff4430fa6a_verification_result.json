@@ -1,0 +1,174 @@
+{
+  "document_id": "1510319d-8177-4c32-bdc6-7cff4430fa6a",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada en el XXX, se documenta el caso de la paciente XXX, quien presenta un cuadro compatible con infección respiratoria alta de probable etiología viral. La exploración física muestra mucosas orales húmedas, faringe eritematosa sin exudados y auscultación respiratoria conservada. Se ha procedido a la solicitud de analítica básica que evidencia leucocitosis discreta con linfoctosis relativa, siendo el resto de parámetros bioquímicos dentro de la normalidad. Para el correcto seguimiento del proceso, se ha asignado el número de beneficiario del plan de salud XXX, que quedará vinculado a nuestro registro clínico electrónico bajo la referencia interna XXX. Adicionalmente, se ha generado el identificador XXX para la documentación complementaria del episodio actual. Como parte de los recursos de apoyo al paciente, se ha proporcionado información sobre la plataforma digital de consulta disponible a través de XXX, donde podrá acceder a material educativo sobre el manejo sintomático de procesos respiratorios leves. Toda esta documentación queda registrada bajo la referencia XXX en nuestro sistema de archivo institucional.",
+  "text_length": 1159,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7465018033981323,
+        "word": " plan",
+        "start": 578,
+        "end": 582,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.7465018033981323,
+          "start": 578,
+          "end": 582,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.7465018033981323,
+          "start": 578,
+          "end": 582,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9384011030197144,
+        "word": " clínico electrónico",
+        "start": 638,
+        "end": 657,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínico electrónico",
+          "actual_text": "clínico electrónico",
+          "confidence": 0.9384011030197144,
+          "start": 638,
+          "end": 657,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínico electrónico",
+          "actual_text": "clínico electrónico",
+          "confidence": 0.9384011030197144,
+          "start": 638,
+          "end": 657,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.7465018033981323,
+        "start": 578,
+        "end": 582,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínico electrónico",
+        "actual_text": "clínico electrónico",
+        "confidence": 0.9384011030197144,
+        "start": 638,
+        "end": 657,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.7465018033981323,
+        "start": 578,
+        "end": 582,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínico electrónico",
+        "actual_text": "clínico electrónico",
+        "confidence": 0.9384011030197144,
+        "start": 638,
+        "end": 657,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

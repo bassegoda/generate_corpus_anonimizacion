@@ -1,0 +1,124 @@
+{
+  "document_id": "3ca66106-4186-4234-b7b1-8e3c2525ca14",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución Hospitalaria** Paciente que ingresa para valoración y manejo integral de su cuadro clínico. Se trata de una persona de XXX que se presenta con un deterioro funcional progresivo. A la exploración física, se objetiva un paciente consciente y orientado, con buena coloración de piel y mucosas. La auscultación cardíaca revela un ritmo regular sin soplos audibles, y la auscultación pulmonar es limpia, con murmullo vesicular conservado bilateralmente. En el abdomen, blando y depresible, no se palpan masas ni se detecta hepatomegalia. Los ruidos hidroaéreos están presentes. Se ha establecido un plan de cuidados enfocado en la estabilización y se ha facilitado a los responsables del seguimiento ambulatorio el número de teléfono XXX para la coordinación de citas y resolución de dudas. Para cualquier consulta urgente durante el manejo ambulatorio, también se puede contactar al XXX. La dirección para el envío de cualquier documentación complementaria o informe adicional es XXX. Todo el proceso asistencial ha sido supervisado por la XXX, quien ha establecido los objetivos terapéuticos principales. Se recomienda al paciente y a sus cuidadores consultar el portal de recursos sanitarios en XXX donde podrán encontrar información educativa complementaria sobre el manejo de su condición. Se programará un seguimiento estrecho para monitorizar la evolución.",
+  "text_length": 1378,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8228336572647095,
+        "word": " cuidadores",
+        "start": 1156,
+        "end": 1166,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cuidadores",
+          "actual_text": "cuidadores",
+          "confidence": 0.8228336572647095,
+          "start": 1156,
+          "end": 1166,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cuidadores",
+          "actual_text": "cuidadores",
+          "confidence": 0.8228336572647095,
+          "start": 1156,
+          "end": 1166,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cuidadores",
+        "actual_text": "cuidadores",
+        "confidence": 0.8228336572647095,
+        "start": 1156,
+        "end": 1166,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cuidadores",
+        "actual_text": "cuidadores",
+        "confidence": 0.8228336572647095,
+        "start": 1156,
+        "end": 1166,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

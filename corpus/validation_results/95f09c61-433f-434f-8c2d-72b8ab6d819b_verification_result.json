@@ -1,0 +1,124 @@
+{
+  "document_id": "95f09c61-433f-434f-8c2d-72b8ab6d819b",
+  "success": true,
+  "anonymized_text": "Estimada colega: Le remito a la paciente para continuidad de asistencia y seguimiento en su consulta. Se trata de una persona con un cuadro de ansiedad de características mixtas que ha mostrado una evolución fluctuante en los últimos meses. A nivel exploratorio, se objetiva un estado general conservado, con tensión arterial de 125/80 mmHg y frecuencia cardíaca de 78 lpm en reposo, que se eleva a 105 lpm al abordar temas específicos de su preocupación. La auscultación cardiorrespiratoria es anodina y el examen neurológico no revela hallazgos focales. Se ha procedido a la realización de analítica completa, cuyos parámetros bioquímicos y hemograma se encuentran dentro de la normalidad, así como un electrocardiograma que muestra un ritmo sinusal sin alteraciones significativas. Se ha considerado oportuno derivarla al XXX para complementar el abordaje terapéutico. Para cualquier gestión administrativa o coordinación, puede utilizarse el número de teléfono XXX o, en su defecto, el XXX. La dirección de correo electrónico XXX también está a su disposición para contacto profesional. Respecto a su identificación, presenta el documento nacional con el número XXX y el número de historia clínica asignado en nuestro centro es XXX. Su sexo es XXX. Para la solicitud de próximas citas, se le ha indicado que utilice el portal web XXX. Su número de afiliación al plan de salud es el XXX y el código de referencia para este episodio asistencial es XXX. Los datos de localización postal registrados son XXX, con país de residencia en XXX. Queda a su disposición para cualquier aclaración complementaria. Atentamente, Servicio de Psiquiatría.",
+  "text_length": 1642,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7546972036361694,
+        "word": " documento nacional",
+        "start": 1133,
+        "end": 1151,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional",
+          "actual_text": "documento nacional",
+          "confidence": 0.7546972036361694,
+          "start": 1133,
+          "end": 1151,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional",
+          "actual_text": "documento nacional",
+          "confidence": 0.7546972036361694,
+          "start": 1133,
+          "end": 1151,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional",
+        "actual_text": "documento nacional",
+        "confidence": 0.7546972036361694,
+        "start": 1133,
+        "end": 1151,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional",
+        "actual_text": "documento nacional",
+        "confidence": 0.7546972036361694,
+        "start": 1133,
+        "end": 1151,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

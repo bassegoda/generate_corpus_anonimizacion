@@ -1,0 +1,124 @@
+{
+  "document_id": "8661443f-e0e5-4534-9665-9bc856defdd0",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa A la atención del equipo médico del XXX. Se presenta el siguiente resumen de la valoración clínica realizada en consulta. El sujeto de asistencia, identificado con el número XXX, acude para seguimiento y control evolutivo. Durante la anamnesis se recogen los datos de contacto, incluyendo el número de teléfono XXX para comunicación prioritaria, así como el XXX para coordinación con otros niveles asistenciales si fuera necesario. La exploración física actual revela un estado general conservado, con presión arterial de 125/80 mmHg, frecuencia cardíaca de 78 lpm y saturación de oxígeno del 97%. En la auscultación cardiorrespiratoria no se detectan soplos ni ruidos sobreañadidos. El abdomen es blando y depresible, sin masas palpables ni dolor a la presión. Los resultados analíticos recientes muestran un perfil lipídico dentro de parámetros normales y glucemia basal de 98 mg/dL. La radiografía de tórax realizada no evidencia hallazgos patológicos significativos. Para completar la identificación administrativa del caso, se verifica el documento de identidad XXX emitido en XXX, junto con el número de identificación personal XXX. Toda la documentación clínica queda bajo mi supervisión, XXX, quien se responsabiliza del manejo integral del sujeto de asistencia y de la coordinación con los recursos sanitarios disponibles. Se mantendrá vigilancia activa según la evolución clínica descrita.",
+  "text_length": 1427,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.723583996295929,
+        "word": " documento de identidad",
+        "start": 1072,
+        "end": 1094,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento de identidad",
+          "actual_text": "documento de identidad",
+          "confidence": 0.723583996295929,
+          "start": 1072,
+          "end": 1094,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento de identidad",
+          "actual_text": "documento de identidad",
+          "confidence": 0.723583996295929,
+          "start": 1072,
+          "end": 1094,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento de identidad",
+        "actual_text": "documento de identidad",
+        "confidence": 0.723583996295929,
+        "start": 1072,
+        "end": 1094,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento de identidad",
+        "actual_text": "documento de identidad",
+        "confidence": 0.723583996295929,
+        "start": 1072,
+        "end": 1094,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

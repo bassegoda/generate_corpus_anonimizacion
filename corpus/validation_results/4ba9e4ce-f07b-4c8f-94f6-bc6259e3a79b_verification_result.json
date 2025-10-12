@@ -1,0 +1,311 @@
+{
+  "document_id": "4ba9e4ce-f07b-4c8f-94f6-bc6259e3a79b",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución Hospitalaria** A doce de julio de dos mil veintitrés, se procede a la valoración integral de la paciente en la unidad de hospitalización. La paciente, de **sexo XXX**, presenta una evolución favorable del cuadro agudo por el que ingresó el XXX. A la exploración física actual, se constata normotermia, presión arterial dentro de rangos normales y auscultación cardiorrespiratoria sin ruidos sobreañadidos. Los análisis de control muestran una mejoría significativa de los parámetros inflamatorios, con leucocitosis residual que se vigilará de forma ambulatoria. La prueba de imagen realizada confirma la resolución del proceso. Se establece plan de alta hospitalaria con seguimiento estrecho en consultas externas. Se ha facilitado a la paciente el **** **XXX** para la coordinación de su continuidad asistencial. Se recomienda reposo relativo y se ajusta la pauta de medicación. Para cualquier gestión o consulta no urgente, queda a su disposición el **** **XXX**. Asimismo, se le ha indicado que puede encontrar información complementaria y recursos de educación para la salud en la **** **XXX**. Para el desplazamiento al domicilio, se ha registrado el vehículo XXX. Atentamente, La **** **XXX** adjunto de la unidad, **** **XXX**",
+  "text_length": 1253,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FECHAS",
+        "score": 0.921760618686676,
+        "word": " doce",
+        "start": 37,
+        "end": 41,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FECHAS",
+        "score": 0.7537426352500916,
+        "word": " julio de dos",
+        "start": 45,
+        "end": 57,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FECHAS": 2
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FECHAS",
+          "word": " doce",
+          "actual_text": "doce",
+          "confidence": 0.921760618686676,
+          "start": 37,
+          "end": 41,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " julio de dos",
+          "actual_text": "julio de dos",
+          "confidence": 0.7537426352500916,
+          "start": 45,
+          "end": 57,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FECHAS",
+          "word": " doce",
+          "actual_text": "doce",
+          "confidence": 0.921760618686676,
+          "start": 37,
+          "end": 41,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " julio de dos",
+          "actual_text": "julio de dos",
+          "confidence": 0.7537426352500916,
+          "start": 45,
+          "end": 57,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9361463189125061,
+        "word": " doce de julio de dos mil",
+        "start": 37,
+        "end": 61,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.9311097264289856,
+        "word": " **",
+        "start": 174,
+        "end": 176,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7751423716545105,
+        "word": "sexo XXX**",
+        "start": 176,
+        "end": 186,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FECHAS": 1,
+        "ID_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FECHAS",
+          "word": " doce de julio de dos mil",
+          "actual_text": "doce de julio de dos mil",
+          "confidence": 0.9361463189125061,
+          "start": 37,
+          "end": 61,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9311097264289856,
+          "start": 174,
+          "end": 176,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "sexo XXX**",
+          "actual_text": "sexo XXX**",
+          "confidence": 0.7751423716545105,
+          "start": 176,
+          "end": 186,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FECHAS",
+          "word": " doce de julio de dos mil",
+          "actual_text": "doce de julio de dos mil",
+          "confidence": 0.9361463189125061,
+          "start": 37,
+          "end": 61,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9311097264289856,
+          "start": 174,
+          "end": 176,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "sexo XXX**",
+          "actual_text": "sexo XXX**",
+          "confidence": 0.7751423716545105,
+          "start": 176,
+          "end": 186,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 5,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FECHAS": 3,
+      "ID_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FECHAS",
+        "word": " doce",
+        "actual_text": "doce",
+        "confidence": 0.921760618686676,
+        "start": 37,
+        "end": 41,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " julio de dos",
+        "actual_text": "julio de dos",
+        "confidence": 0.7537426352500916,
+        "start": 45,
+        "end": 57,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " doce de julio de dos mil",
+        "actual_text": "doce de julio de dos mil",
+        "confidence": 0.9361463189125061,
+        "start": 37,
+        "end": 61,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9311097264289856,
+        "start": 174,
+        "end": 176,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "sexo XXX**",
+        "actual_text": "sexo XXX**",
+        "confidence": 0.7751423716545105,
+        "start": 176,
+        "end": 186,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FECHAS",
+        "word": " doce",
+        "actual_text": "doce",
+        "confidence": 0.921760618686676,
+        "start": 37,
+        "end": 41,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " julio de dos",
+        "actual_text": "julio de dos",
+        "confidence": 0.7537426352500916,
+        "start": 45,
+        "end": 57,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " doce de julio de dos mil",
+        "actual_text": "doce de julio de dos mil",
+        "confidence": 0.9361463189125061,
+        "start": 37,
+        "end": 61,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9311097264289856,
+        "start": 174,
+        "end": 176,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "sexo XXX**",
+        "actual_text": "sexo XXX**",
+        "confidence": 0.7751423716545105,
+        "start": 176,
+        "end": 186,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 5,
+    "suspicious_detections": 5,
+    "xxxxxx_detections": 0,
+    "other_detections": 5
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

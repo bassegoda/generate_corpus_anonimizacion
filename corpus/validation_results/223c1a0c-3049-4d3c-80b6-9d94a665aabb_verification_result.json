@@ -1,0 +1,124 @@
+{
+  "document_id": "223c1a0c-3049-4d3c-80b6-9d94a665aabb",
+  "success": true,
+  "anonymized_text": "En el informe de valoración inicial, se recoge la anamnesis y exploración del paciente que acude para seguimiento de su patología crónica. Como parte del protocolo de documentación clínica, se ha registrado el número de beneficiario del plan de salud XXX para todos los trámites administrativos correspondientes. A este respecto, cabe indicar que según la política del centro, debe verificarse también la vigencia de la cobertura paralela con el código XXX en el sistema centralizado. La exploración física revela un estado general conservado, con constantes vitales dentro de la normalidad. La auscultación cardiorrespiratoria no presenta soplos ni ruidos sobreañadidos, y el abdomen es blando y depresible sin masas palpables. En la valoración complementaria, se confirma que los dispositivos médicos implantados, específicamente aquellos con identificación XXX, mantienen un funcionamiento óptimo según el último chequeo técnico. Respecto a los estudios de imagen pendientes de revisión, las radiografías simples identificadas con el código XXX no muestran hallazgos significativos que modifiquen nuestro abordaje terapéutico inicial. Se recomienda al paciente acceder al portal de recursos educativos disponible en XXX para complementar la información sobre el manejo de su condición. Allí encontrará material fiable sobre medidas de autocuidado y seguimiento ambulatorio.",
+  "text_length": 1376,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7743913531303406,
+        "word": " plan",
+        "start": 237,
+        "end": 241,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.7743913531303406,
+          "start": 237,
+          "end": 241,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.7743913531303406,
+          "start": 237,
+          "end": 241,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.7743913531303406,
+        "start": 237,
+        "end": 241,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.7743913531303406,
+        "start": 237,
+        "end": 241,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

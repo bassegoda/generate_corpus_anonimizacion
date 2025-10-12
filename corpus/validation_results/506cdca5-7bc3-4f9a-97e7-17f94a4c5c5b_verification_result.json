@@ -1,0 +1,491 @@
+{
+  "document_id": "506cdca5-7bc3-4f9a-97e7-17f94a4c5c5b",
+  "success": true,
+  "anonymized_text": "**Informe de Consulta Externa de Neumología** Paciente de sexo **XXX** y nacionalidad **Española**, que acude para valoración neumológica tras estudio inicial en el **XXX**. Refiere hábito **XXX**. La exploración física actual muestra murmullo vesicular conservado sin sibilancias ni crepitantes. La radiografía de tórax informada es normal. Se programarán espirometrías para control evolutivo. En el contexto del estudio, es relevante consignar los siguientes antecedentes familiares de la paciente en relación con el ****: - **XXX** de la paciente, fue atendida en esta institución con el identificador **XXX**. - **XXX** de la paciente, con nombre completo **XXX** y documento de identificación **XXX**, fue evaluada en el **XXX** bajo el número de historia **XXX**. Dicha familiar, **XXX**, reside en la dirección **XXX** y puede ser contactada en el **XXX**. Su estado de salud es estable. El vehículo familiar asociado a los traslados tiene la placa **XXX**. La paciente cuenta con el número de beneficio del plan de salud **XXX** y su nacionalidad es **Española**, procedente de **XXX**. Se procederá a la coordinación de la prueba de TAC torácico solicitada, cuya fecha de realización fue el **XXX**. Se mantendrá seguimiento estrecho en consultas externas.",
+  "text_length": 1265,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 4,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7140401601791382,
+        "word": "pañola",
+        "start": 90,
+        "end": 96,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9773814678192139,
+        "word": " familiar",
+        "start": 776,
+        "end": 784,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8014445304870605,
+        "word": "Es",
+        "start": 1060,
+        "end": 1062,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7171604633331299,
+        "word": "pañ",
+        "start": 1062,
+        "end": 1065,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 4,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 3,
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "pañola",
+          "actual_text": "pañola",
+          "confidence": 0.7140401601791382,
+          "start": 90,
+          "end": 96,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9773814678192139,
+          "start": 776,
+          "end": 784,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "Es",
+          "actual_text": "Es",
+          "confidence": 0.8014445304870605,
+          "start": 1060,
+          "end": 1062,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "pañ",
+          "actual_text": "pañ",
+          "confidence": 0.7171604633331299,
+          "start": 1062,
+          "end": 1065,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "pañola",
+          "actual_text": "pañola",
+          "confidence": 0.7140401601791382,
+          "start": 90,
+          "end": 96,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9773814678192139,
+          "start": 776,
+          "end": 784,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "Es",
+          "actual_text": "Es",
+          "confidence": 0.8014445304870605,
+          "start": 1060,
+          "end": 1062,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "pañ",
+          "actual_text": "pañ",
+          "confidence": 0.7171604633331299,
+          "start": 1062,
+          "end": 1065,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 5,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8358045220375061,
+        "word": " **",
+        "start": 63,
+        "end": 65,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7366046905517578,
+        "word": " **",
+        "start": 86,
+        "end": 88,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8680033683776855,
+        "word": "Española**",
+        "start": 88,
+        "end": 98,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.965025007724762,
+        "word": " **",
+        "start": 1058,
+        "end": 1060,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.9466193914413452,
+        "word": "Española**",
+        "start": 1060,
+        "end": 1070,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 5,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 5
+      },
+      "entities_by_confidence": {
+        "high": 4,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.8358045220375061,
+          "start": 63,
+          "end": 65,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.7366046905517578,
+          "start": 86,
+          "end": 88,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "Española**",
+          "actual_text": "Española**",
+          "confidence": 0.8680033683776855,
+          "start": 88,
+          "end": 98,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.965025007724762,
+          "start": 1058,
+          "end": 1060,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "Española**",
+          "actual_text": "Española**",
+          "confidence": 0.9466193914413452,
+          "start": 1060,
+          "end": 1070,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.8358045220375061,
+          "start": 63,
+          "end": 65,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.7366046905517578,
+          "start": 86,
+          "end": 88,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "Española**",
+          "actual_text": "Española**",
+          "confidence": 0.8680033683776855,
+          "start": 88,
+          "end": 98,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.965025007724762,
+          "start": 1058,
+          "end": 1060,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "Española**",
+          "actual_text": "Española**",
+          "confidence": 0.9466193914413452,
+          "start": 1060,
+          "end": 1070,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 9,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 8,
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 6,
+      "medium": 3,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "pañola",
+        "actual_text": "pañola",
+        "confidence": 0.7140401601791382,
+        "start": 90,
+        "end": 96,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9773814678192139,
+        "start": 776,
+        "end": 784,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "Es",
+        "actual_text": "Es",
+        "confidence": 0.8014445304870605,
+        "start": 1060,
+        "end": 1062,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "pañ",
+        "actual_text": "pañ",
+        "confidence": 0.7171604633331299,
+        "start": 1062,
+        "end": 1065,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.8358045220375061,
+        "start": 63,
+        "end": 65,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.7366046905517578,
+        "start": 86,
+        "end": 88,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "Española**",
+        "actual_text": "Española**",
+        "confidence": 0.8680033683776855,
+        "start": 88,
+        "end": 98,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.965025007724762,
+        "start": 1058,
+        "end": 1060,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "Española**",
+        "actual_text": "Española**",
+        "confidence": 0.9466193914413452,
+        "start": 1060,
+        "end": 1070,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "pañola",
+        "actual_text": "pañola",
+        "confidence": 0.7140401601791382,
+        "start": 90,
+        "end": 96,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9773814678192139,
+        "start": 776,
+        "end": 784,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "Es",
+        "actual_text": "Es",
+        "confidence": 0.8014445304870605,
+        "start": 1060,
+        "end": 1062,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "pañ",
+        "actual_text": "pañ",
+        "confidence": 0.7171604633331299,
+        "start": 1062,
+        "end": 1065,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.8358045220375061,
+        "start": 63,
+        "end": 65,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.7366046905517578,
+        "start": 86,
+        "end": 88,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "Española**",
+        "actual_text": "Española**",
+        "confidence": 0.8680033683776855,
+        "start": 88,
+        "end": 98,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.965025007724762,
+        "start": 1058,
+        "end": 1060,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "Española**",
+        "actual_text": "Española**",
+        "confidence": 0.9466193914413452,
+        "start": 1060,
+        "end": 1070,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 9,
+    "suspicious_detections": 9,
+    "xxxxxx_detections": 0,
+    "other_detections": 9
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

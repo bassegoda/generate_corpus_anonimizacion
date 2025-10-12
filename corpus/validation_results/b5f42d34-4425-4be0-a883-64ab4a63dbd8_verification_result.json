@@ -1,0 +1,124 @@
+{
+  "document_id": "b5f42d34-4425-4be0-a883-64ab4a63dbd8",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Clínica Paciente valorada en consultas externas de neurología para seguimiento de su proceso. Durante la exploración física se constata una adecuada coordinación y motricidad global, aunque se documenta de forma protocolizada la XXX para el sistema de verificación biométrica de la medicación controlada. La situación clínica actual fue debidamente explicada a la familiar acompañante, XXX de la paciente, quien mostró adecuada comprensión de las recomendaciones terapéuticas y se comprometió a supervisar el cumplimiento del tratamiento. Se destaca la buena coordinación con el XXX de la paciente, quien ha sido informado de nuestra valoración mediante correo electrónico dirigido a XXX. En cuanto a la documentación complementaria, se adjunta en el sistema el informe de resonancia magnética con número de referencia XXX. Todos los protocolos aplicados siguen las directrices establecidas por el XXX para este tipo de patologías. La paciente, XXX, continuará su control en el XXX, donde se realizará el próximo estudio de seguimiento. Para información adicional sobre recursos educativos relacionados con su condición, se le ha proporcionado el enlace a la página web XXX donde podrá encontrar material de apoyo avalado científicamente. Se mantendrá la actual pauta farmacológica y se reevaluará en próxima consulta programada.",
+  "text_length": 1351,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9129204750061035,
+        "word": " familiar acompañante,",
+        "start": 386,
+        "end": 407,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar acompañante,",
+          "actual_text": "familiar acompañante,",
+          "confidence": 0.9129204750061035,
+          "start": 386,
+          "end": 407,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar acompañante,",
+          "actual_text": "familiar acompañante,",
+          "confidence": 0.9129204750061035,
+          "start": 386,
+          "end": 407,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar acompañante,",
+        "actual_text": "familiar acompañante,",
+        "confidence": 0.9129204750061035,
+        "start": 386,
+        "end": 407,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar acompañante,",
+        "actual_text": "familiar acompañante,",
+        "confidence": 0.9129204750061035,
+        "start": 386,
+        "end": 407,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

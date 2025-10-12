@@ -1,0 +1,174 @@
+{
+  "document_id": "3d213fb0-f8eb-4b77-86b9-36fd5541af3d",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Biométrica para Procedimiento Quirúrgico Se realiza valoración preoperatoria estándar con registro de identificadores biométricos para el paciente con documento de identidad XXX. Durante la exploración física, se ha procedido a la captura de la XXX como parte del protocolo de seguridad establecido. El paciente se presenta en condiciones estables para la intervención programada. Como parte del proceso de verificación, se ha confirmado la identidad de la representante legal, doña XXX, quien ha firmado el consentimiento informado correspondiente. La documentación ha sido validada mediante el número de identificación XXX. El procedimiento será realizado por un XXX de reconocida experiencia en el ámbito. Para cualquier comunicación relacionada con este procedimiento, puede utilizarse la dirección de correo electrónico XXX. La documentación complementaria ha sido remitida a la XXX para su registro y archivo, según los protocolos interterritoriales establecidos con la XXX. Se verifica además que el vehículo asignado para el transporte sanitario cuenta con la placa XXX, estacionado en las inmediaciones de XXX. Todos los aspectos logísticos y de identificación se encuentran en orden para proceder con la intervención programada.",
+  "text_length": 1260,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.980516791343689,
+        "word": " representante legal",
+        "start": 479,
+        "end": 498,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " representante legal",
+          "actual_text": "representante legal",
+          "confidence": 0.980516791343689,
+          "start": 479,
+          "end": 498,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " representante legal",
+          "actual_text": "representante legal",
+          "confidence": 0.980516791343689,
+          "start": 479,
+          "end": 498,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.977213978767395,
+        "word": " legal",
+        "start": 493,
+        "end": 498,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " legal",
+          "actual_text": "legal",
+          "confidence": 0.977213978767395,
+          "start": 493,
+          "end": 498,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " legal",
+          "actual_text": "legal",
+          "confidence": 0.977213978767395,
+          "start": 493,
+          "end": 498,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " representante legal",
+        "actual_text": "representante legal",
+        "confidence": 0.980516791343689,
+        "start": 479,
+        "end": 498,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " legal",
+        "actual_text": "legal",
+        "confidence": 0.977213978767395,
+        "start": 493,
+        "end": 498,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " representante legal",
+        "actual_text": "representante legal",
+        "confidence": 0.980516791343689,
+        "start": 479,
+        "end": 498,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " legal",
+        "actual_text": "legal",
+        "confidence": 0.977213978767395,
+        "start": 493,
+        "end": 498,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

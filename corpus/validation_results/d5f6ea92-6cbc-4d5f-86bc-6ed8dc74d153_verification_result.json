@@ -1,0 +1,222 @@
+{
+  "document_id": "d5f6ea92-6cbc-4d5f-86bc-6ed8dc74d153",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución Hospitalaria** A las 09:30 horas del día de hoy, se reevalúa a la paciente en la habitación. Se trata de una persona de **XXX** de edad, del sexo **XXX**, que ingresó para estudio y manejo de su cuadro actual. Refiere mejoría parcial de la sintomatología digestiva que motivó su ingreso. Permanece hemodinámicamente estable y afebril. En cuanto a los antecedentes de interés, se ha contactado con **XXX**, a través del **XXX** para actualizar la situación y recabar información adicional sobre antecedentes familiares. Se ha procedido a la verificación de su identificación en el sistema, con el número de beneficiaria **XXX** y el documento de identidad **XXX**. Su número de teléfono de contacto directo es el **XXX**. El dispositivo de monitorización continua asignado a la paciente, con identificador **XXX**, y el sensor **XXX** funcionan dentro de los parámetros normales, sin registrar eventos de alarma. La analítica realizada a su llegada, con código **XXX**, fue procesada el **XXX** y mostró una ligera leucocitosis que se está controlando. El profesional que firma esta nota es Licenciado en **XXX**, con número de colegiado **ID-987654**. A la exploración física actual, la paciente se encuentra consciente y orientada. Abdomen blando y depresible, menos doloroso a la palpación que en la exploración anterior. Se continuará con el plan terapéutico establecido y se reevaluará mañana.",
+  "text_length": 1417,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7661818861961365,
+        "word": "987654",
+        "start": 1162,
+        "end": 1168,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "987654",
+          "actual_text": "987654",
+          "confidence": 0.7661818861961365,
+          "start": 1162,
+          "end": 1168,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "987654",
+          "actual_text": "987654",
+          "confidence": 0.7661818861961365,
+          "start": 1162,
+          "end": 1168,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "PROFESION",
+        "score": 0.9311138987541199,
+        "word": " Licenciado en **XXX**",
+        "start": 1110,
+        "end": 1131,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9622684717178345,
+        "word": " **",
+        "start": 1157,
+        "end": 1159,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "PROFESION": 1,
+        "NUMERO_TELEFONO": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "PROFESION",
+          "word": " Licenciado en **XXX**",
+          "actual_text": "Licenciado en **XXX**",
+          "confidence": 0.9311138987541199,
+          "start": 1110,
+          "end": 1131,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9622684717178345,
+          "start": 1157,
+          "end": 1159,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "PROFESION",
+          "word": " Licenciado en **XXX**",
+          "actual_text": "Licenciado en **XXX**",
+          "confidence": 0.9311138987541199,
+          "start": 1110,
+          "end": 1131,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9622684717178345,
+          "start": 1157,
+          "end": 1159,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 1,
+      "PROFESION": 1,
+      "NUMERO_TELEFONO": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "987654",
+        "actual_text": "987654",
+        "confidence": 0.7661818861961365,
+        "start": 1162,
+        "end": 1168,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " Licenciado en **XXX**",
+        "actual_text": "Licenciado en **XXX**",
+        "confidence": 0.9311138987541199,
+        "start": 1110,
+        "end": 1131,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9622684717178345,
+        "start": 1157,
+        "end": 1159,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "987654",
+        "actual_text": "987654",
+        "confidence": 0.7661818861961365,
+        "start": 1162,
+        "end": 1168,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " Licenciado en **XXX**",
+        "actual_text": "Licenciado en **XXX**",
+        "confidence": 0.9311138987541199,
+        "start": 1110,
+        "end": 1131,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9622684717178345,
+        "start": 1157,
+        "end": 1159,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

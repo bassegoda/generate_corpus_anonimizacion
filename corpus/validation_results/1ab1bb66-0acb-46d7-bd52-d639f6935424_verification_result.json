@@ -1,0 +1,124 @@
+{
+  "document_id": "1ab1bb66-0acb-46d7-bd52-d639f6935424",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada, se procede a la actualización de la documentación asistencial correspondiente. La exploración física muestra un estado general conservado, con constantes vitales dentro de los parámetros de normalidad. La auscultación cardiorrespiratoria es rítmica y sin soplos, con murmullo vesicular conservado bilateralmente. El abdomen es blando y depresible, sin masas ni visceromegalias palpables. En relación con la gestión administrativa del proceso, se ha registrado el número de beneficio del plan de salud XXX para todas las gestiones de cobertura asistencial que pudieran derivarse de este seguimiento. Asimismo, se ha asignado el identificador clínico XXX como referencia única para la historia clínica del presente episodio. Como parte de los recursos de apoyo al paciente, se ha proporcionado acceso al portal de información médica acreditada disponible a través de XXX donde podrá consultar material educativo sobre su condición. Los análisis de laboratorio recientes muestran un hemograma dentro de rangos normales y una bioquímica hepática y renal sin alteraciones significativas. La radiografía de tórax realizada no evidencia hallazgos patológicos agudos. Se mantendrá seguimiento ambulatorio según evolución.",
+  "text_length": 1249,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.747387707233429,
+        "word": " plan",
+        "start": 523,
+        "end": 527,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.747387707233429,
+          "start": 523,
+          "end": 527,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.747387707233429,
+          "start": 523,
+          "end": 527,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.747387707233429,
+        "start": 523,
+        "end": 527,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.747387707233429,
+        "start": 523,
+        "end": 527,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

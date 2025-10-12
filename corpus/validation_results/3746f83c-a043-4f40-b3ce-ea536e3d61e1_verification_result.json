@@ -1,0 +1,124 @@
+{
+  "document_id": "3746f83c-a043-4f40-b3ce-ea536e3d61e1",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE GERIATRÍA** Fecha de la consulta: XXX Se evalúa en consulta externa a paciente de XXX, de XXX, identificada en nuestro sistema con XXX. La paciente, natural de la XXX, acude acompañada de su hija, XXX, quien aporta documentación complementaria. Como familiar de referencia para la asistencia, se designa a XXX. La valoración geriátrica integral evidencia un cuadro de fragilidad moderada con afectación predominante del dominio físico. En la exploración física se objetiva presión arterial de 135/80 mmHg, frecuencia cardíaca de 68 lpm y saturación de oxígeno del 96%. Los análisis realizados muestran hemoglobina de 12.8 g/dL y función renal dentro de parámetros normales para su grupo etario. La radiografía de tórax informa cardiomegalia leve sin otros hallazgos significativos. Se procede a la coordinación con el XXX para continuidad asistencial, habiéndose utilizado para el intercambio de información clínica el identificador XXX. Cabe destacar que el XXX participa igualmente en el seguimiento multidisciplinar, en el marco de colaboración establecido entre la XXX y el XXX. El manejo terapéutico se orienta hacia la optimización del tratamiento base con especial atención a la prevención de complicaciones, considerando las particularidades del de residencia de la paciente. Se programará reevaluación en tres meses con actualización de parámetros analíticos y funcionales.",
+  "text_length": 1415,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8759585618972778,
+        "word": " hija,",
+        "start": 224,
+        "end": 229,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " hija,",
+          "actual_text": "hija,",
+          "confidence": 0.8759585618972778,
+          "start": 224,
+          "end": 229,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " hija,",
+          "actual_text": "hija,",
+          "confidence": 0.8759585618972778,
+          "start": 224,
+          "end": 229,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " hija,",
+        "actual_text": "hija,",
+        "confidence": 0.8759585618972778,
+        "start": 224,
+        "end": 229,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " hija,",
+        "actual_text": "hija,",
+        "confidence": 0.8759585618972778,
+        "start": 224,
+        "end": 229,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

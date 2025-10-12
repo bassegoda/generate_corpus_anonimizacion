@@ -1,0 +1,221 @@
+{
+  "document_id": "2286b5bd-36e1-4fbf-8070-34a887c1dd7c",
+  "success": true,
+  "anonymized_text": "**NOTA DE EVOLUCIÓN – CONSULTA EXTERNA DE NEUMOLOGÍA** Paciente de XXX que acude para seguimiento en consultas externas de neumología. Refiere historia de XXX, habiendo abandonado el hábito tabáquico de forma definitiva en la última visita. En la exploración física actual, se auscultan crepitantes basales derechos, siendo el resto de la exploración respiratoria anodina. Se revisa la analítica realizada el XXX, que muestra una bioquímica hemática dentro de parámetros aceptables. La radiografía de tórax informa de mínimas secuelas fibrosas en lóbulo inferior derecho, sin signos de infección activa. Es imperativo registrar de forma prominente en la historia clínica que el paciente es XXX, para evitar prescripciones futuras que puedan desencadenar una reacción adversa. Se programa una espirometría de control para dentro de seis meses. Para la coordinación de la atención, se ha solicitado interconsulta con el servicio de cardiología del XXX, asignando la referencia XXX. Cabe mencionar que parte de su seguimiento anterior se realizó en General de Madrid. El acceso a su documentación clínica completa está disponible a través del siguiente enlace seguro: XXX. A efectos administrativos, se verifican los siguientes identificadores: número de historia XXX, documento nacional de identidad XXX, y número de seguro XXX. Para la confirmación de citas o resolución de dudas administrativas, queda registrado el teléfono de contacto XXX. Se da por concluida la visita.",
+  "text_length": 1472,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.9036970734596252,
+        "word": " General",
+        "start": 1046,
+        "end": 1053,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "TERRITORIO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "TERRITORIO",
+          "word": " General",
+          "actual_text": "General",
+          "confidence": 0.9036970734596252,
+          "start": 1046,
+          "end": 1053,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "TERRITORIO",
+          "word": " General",
+          "actual_text": "General",
+          "confidence": 0.9036970734596252,
+          "start": 1046,
+          "end": 1053,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.8360511660575867,
+        "word": " General de Madrid",
+        "start": 1046,
+        "end": 1063,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7447527050971985,
+        "word": " nacional",
+        "start": 1276,
+        "end": 1284,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "TERRITORIO": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "TERRITORIO",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.8360511660575867,
+          "start": 1046,
+          "end": 1063,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " nacional",
+          "actual_text": "nacional",
+          "confidence": 0.7447527050971985,
+          "start": 1276,
+          "end": 1284,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "TERRITORIO",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.8360511660575867,
+          "start": 1046,
+          "end": 1063,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " nacional",
+          "actual_text": "nacional",
+          "confidence": 0.7447527050971985,
+          "start": 1276,
+          "end": 1284,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "TERRITORIO": 2,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "TERRITORIO",
+        "word": " General",
+        "actual_text": "General",
+        "confidence": 0.9036970734596252,
+        "start": 1046,
+        "end": 1053,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.8360511660575867,
+        "start": 1046,
+        "end": 1063,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " nacional",
+        "actual_text": "nacional",
+        "confidence": 0.7447527050971985,
+        "start": 1276,
+        "end": 1284,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "TERRITORIO",
+        "word": " General",
+        "actual_text": "General",
+        "confidence": 0.9036970734596252,
+        "start": 1046,
+        "end": 1053,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.8360511660575867,
+        "start": 1046,
+        "end": 1063,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " nacional",
+        "actual_text": "nacional",
+        "confidence": 0.7447527050971985,
+        "start": 1276,
+        "end": 1284,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

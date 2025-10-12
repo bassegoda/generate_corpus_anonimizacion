@@ -1,0 +1,220 @@
+{
+  "document_id": "5d3601cf-f86f-48ef-841f-11284b387f4b",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude a revisión por presentar cuadro de lumbalgia mecánica de características crónicas. Refiere episodios recurrentes en los últimos meses, sin irradiación definida a miembros inferiores. La exploración física muestra ligera limitación en la flexión anterior del tronco, con dolor a la palpación de la región lumbar baja. Resto de la exploración neurológica dentro de la normalidad, con fuerza conservada y reflejos osteotendinosos presentes y simétricos. Se ha coordinado la atención con el XXX para continuar con el programa de rehabilitación establecido. El tratamiento actual incluye analgesia convencional y ejercicios de fortalecimiento de la musculatura paravertebral. Para seguimiento y coordinación de resultados, se recuerda la disponibilidad del portal XXX donde podrá acceder a informes y pruebas complementarias. Asimismo, la historia clínica electrónica completa se encuentra disponible en XXX La documentación correspondiente ha sido remitida a la dirección XXX donde residen sus familiares sujetos asistencia para su conocimiento y seguimiento de las recomendaciones, identificándose como familiar responsable a XXX. El número de identificación de aseguramiento XXX queda registrado para todos los trámites administrativos pertinentes. El presente informe ha sido elaborado por profesional con XXX, conforme a los protocolos establecidos en el país XXX. Se recomienda control evolutivo en consultas externas en un plazo de tres meses, valorando en función de la evolución la necesidad de realizar nuevas pruebas de imagen.",
+  "text_length": 1580,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7554370760917664,
+        "word": " familiares sujetos asistencia",
+        "start": 1037,
+        "end": 1066,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9634761810302734,
+        "word": " familiar responsable",
+        "start": 1147,
+        "end": 1167,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares sujetos asistencia",
+          "actual_text": "familiares sujetos asistencia",
+          "confidence": 0.7554370760917664,
+          "start": 1037,
+          "end": 1066,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar responsable",
+          "actual_text": "familiar responsable",
+          "confidence": 0.9634761810302734,
+          "start": 1147,
+          "end": 1167,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares sujetos asistencia",
+          "actual_text": "familiares sujetos asistencia",
+          "confidence": 0.7554370760917664,
+          "start": 1037,
+          "end": 1066,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar responsable",
+          "actual_text": "familiar responsable",
+          "confidence": 0.9634761810302734,
+          "start": 1147,
+          "end": 1167,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7679072618484497,
+        "word": " clínica",
+        "start": 890,
+        "end": 897,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.7679072618484497,
+          "start": 890,
+          "end": 897,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.7679072618484497,
+          "start": 890,
+          "end": 897,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares sujetos asistencia",
+        "actual_text": "familiares sujetos asistencia",
+        "confidence": 0.7554370760917664,
+        "start": 1037,
+        "end": 1066,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar responsable",
+        "actual_text": "familiar responsable",
+        "confidence": 0.9634761810302734,
+        "start": 1147,
+        "end": 1167,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.7679072618484497,
+        "start": 890,
+        "end": 897,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares sujetos asistencia",
+        "actual_text": "familiares sujetos asistencia",
+        "confidence": 0.7554370760917664,
+        "start": 1037,
+        "end": 1066,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar responsable",
+        "actual_text": "familiar responsable",
+        "confidence": 0.9634761810302734,
+        "start": 1147,
+        "end": 1167,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.7679072618484497,
+        "start": 890,
+        "end": 897,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

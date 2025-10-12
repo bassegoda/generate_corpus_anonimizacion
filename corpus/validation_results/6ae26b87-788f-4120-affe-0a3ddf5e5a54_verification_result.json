@@ -1,0 +1,169 @@
+{
+  "document_id": "6ae26b87-788f-4120-affe-0a3ddf5e5a54",
+  "success": true,
+  "anonymized_text": "Paciente de sexo XXX, de XXX de edad, que acude a consulta para seguimiento. La exploración física actual muestra presión arterial de 135/80 mmHg, frecuencia cardíaca de 78 lpm, y auscultación cardiorrespiratoria sin hallazgos patológicos significativos. Se identifica con el documento nacional XXX. En cuanto a los recursos de apoyo disponibles, se ha informado a la paciente sobre la existencia del XXX, cuyas sesiones podrían resultarle beneficiosas. Para facilitar el acceso a información sanitaria complementaria, se le ha proporcionado la URL XXX donde podrá consultar material educativo sobre su condición. La gestión de su asistencia se encuentra bajo la cobertura de la XXX, con número de identificación de aseguramiento XXX. A nivel nacional, esta cobertura está registrada ante el XXX del país XXX. Cabe mencionar que la paciente tiene procedencia anterior de la XXX. Para comunicación institucional, este centro dispone del número de fax XXX. En el contexto de su movilidad, se ha registrado el vehículo con matrícula XXX, cuyo número de bastidor corresponde a XXX. Todos estos datos quedan incorporados a su historial para completar el perfil asistencial.",
+  "text_length": 1168,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.873931348323822,
+        "word": " documento nacional",
+        "start": 276,
+        "end": 294,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.706497848033905,
+        "word": " identificación de aseguramiento",
+        "start": 698,
+        "end": 729,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional",
+          "actual_text": "documento nacional",
+          "confidence": 0.873931348323822,
+          "start": 276,
+          "end": 294,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identificación de aseguramiento",
+          "actual_text": "identificación de aseguramiento",
+          "confidence": 0.706497848033905,
+          "start": 698,
+          "end": 729,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional",
+          "actual_text": "documento nacional",
+          "confidence": 0.873931348323822,
+          "start": 276,
+          "end": 294,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identificación de aseguramiento",
+          "actual_text": "identificación de aseguramiento",
+          "confidence": 0.706497848033905,
+          "start": 698,
+          "end": 729,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional",
+        "actual_text": "documento nacional",
+        "confidence": 0.873931348323822,
+        "start": 276,
+        "end": 294,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identificación de aseguramiento",
+        "actual_text": "identificación de aseguramiento",
+        "confidence": 0.706497848033905,
+        "start": 698,
+        "end": 729,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional",
+        "actual_text": "documento nacional",
+        "confidence": 0.873931348323822,
+        "start": 276,
+        "end": 294,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identificación de aseguramiento",
+        "actual_text": "identificación de aseguramiento",
+        "confidence": 0.706497848033905,
+        "start": 698,
+        "end": 729,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

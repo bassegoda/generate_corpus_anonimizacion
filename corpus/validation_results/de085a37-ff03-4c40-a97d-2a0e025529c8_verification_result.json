@@ -1,0 +1,124 @@
+{
+  "document_id": "de085a37-ff03-4c40-a97d-2a0e025529c8",
+  "success": true,
+  "anonymized_text": "A continuación se presenta el informe de consulta externa de seguimiento. La paciente, de sexo XXX, acude para control evolutivo de su patología de base. Se identifica con el número de historia XXX y con documento nacional XXX. Refiere mejoría sintomática parcial desde la última visita del XXX, aunque persisten algunos episodios leves que no limitan sus actividades habituales. En la exploración física actual, se observa buen estado general, consciente y orientada. A la auscultación cardiorespiratoria, ritmo cardíaco regular sin soplos, murmullo vesicular conservado bilateralmente. Abdomen blando y depresible, no doloroso a la palpación. Los resultados analíticos recientes asociados al identificador XXX muestran un perfil bioquímico dentro de parámetros normales, con leve mejoría en los marcadores de inflamación respecto a controles previos. La resonancia magnética realizada bajo el código XXX descarta complicaciones agudas y muestra estabilidad de los hallazgos crónicos conocidos. Se ha contactado con la señora XXX para coordinar la próxima cita de revisión, quedando a disposición a través del teléfono XXX para cualquier incidencia. Se mantiene el tratamiento establecido y se recomienda seguimiento en consultas según evolución. El profesional sanitario responsable de la valoración queda registrado con el identificador XXX.",
+  "text_length": 1344,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7215847969055176,
+        "word": " señora",
+        "start": 1020,
+        "end": 1026,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " señora",
+          "actual_text": "señora",
+          "confidence": 0.7215847969055176,
+          "start": 1020,
+          "end": 1026,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " señora",
+          "actual_text": "señora",
+          "confidence": 0.7215847969055176,
+          "start": 1020,
+          "end": 1026,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " señora",
+        "actual_text": "señora",
+        "confidence": 0.7215847969055176,
+        "start": 1020,
+        "end": 1026,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " señora",
+        "actual_text": "señora",
+        "confidence": 0.7215847969055176,
+        "start": 1020,
+        "end": 1026,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

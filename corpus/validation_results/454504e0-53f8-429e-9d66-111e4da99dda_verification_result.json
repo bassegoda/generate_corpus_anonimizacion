@@ -1,0 +1,174 @@
+{
+  "document_id": "454504e0-53f8-429e-9d66-111e4da99dda",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada hoy, se procede a la actualización de los datos de identificación y aseguramiento del paciente. El sujeto de asistencia, que cuenta con XXX de edad, tiene asignado el identificador XXX en nuestro sistema. Cabe mencionar que en el expediente figura también el identificador histórico XXX, aunque el vigente es el anteriormente citado. Como documentación identificativa principal se registra el documento nacional de identidad XXX. Respecto a los datos de localización, consta como domicilio particular la XXX. El país de origen y residencia es XXX. Para posibles contactos de asistencia, se ha verificado el número de teléfono XXX, que permanece activo. El número de historia clínica que debe utilizarse para toda la documentación es XXX. En lo concerniente al aseguramiento sanitario, el paciente está cubierto por el plan de salud proporcionado por el XXX, con número de beneficiario XXX. Adicionalmente, se registra el identificador de aseguramiento XXX para fines de gestión interna, así como XXX. La verificación biométrica realizada incluye la XXX, que presenta un patrón de arco definido, registrada con el código identificativo B-45872315. Como parte del protocolo de seguridad y siguiendo los estándares , también se ha registrado la XXX con código XXX. La evaluación clínica actual fue realizada por la XXX, profesional cuya profesión es XXX. Durante la anamnesis, se recogió información relevante sobre los antecedentes personales, destacando que el cónyuge, quien también es sujeto de asistencia en nuestra institución con XXX de edad, acompañó al paciente durante la consulta. La exploración física mostró hallazgos compatibles con el proceso crónico que presenta el paciente, siendo normales los reflejos osteotendinosos y la sensibilidad superficial. Los parámetros analíticos recientes se mantienen dentro de rangos aceptables, y la radiografía de tórax no evidencia cambios significativos respecto a estudios previos. Se mantendrá la pauta terapéutica establecida con seguimiento en consultas externas.",
+  "text_length": 2053,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7563689947128296,
+        "word": " cónyuge,",
+        "start": 1495,
+        "end": 1503,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cónyuge,",
+          "actual_text": "cónyuge,",
+          "confidence": 0.7563689947128296,
+          "start": 1495,
+          "end": 1503,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cónyuge,",
+          "actual_text": "cónyuge,",
+          "confidence": 0.7563689947128296,
+          "start": 1495,
+          "end": 1503,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9026281833648682,
+        "word": " cónyuge,",
+        "start": 1495,
+        "end": 1503,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cónyuge,",
+          "actual_text": "cónyuge,",
+          "confidence": 0.9026281833648682,
+          "start": 1495,
+          "end": 1503,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cónyuge,",
+          "actual_text": "cónyuge,",
+          "confidence": 0.9026281833648682,
+          "start": 1495,
+          "end": 1503,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cónyuge,",
+        "actual_text": "cónyuge,",
+        "confidence": 0.7563689947128296,
+        "start": 1495,
+        "end": 1503,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cónyuge,",
+        "actual_text": "cónyuge,",
+        "confidence": 0.9026281833648682,
+        "start": 1495,
+        "end": 1503,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cónyuge,",
+        "actual_text": "cónyuge,",
+        "confidence": 0.7563689947128296,
+        "start": 1495,
+        "end": 1503,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cónyuge,",
+        "actual_text": "cónyuge,",
+        "confidence": 0.9026281833648682,
+        "start": 1495,
+        "end": 1503,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

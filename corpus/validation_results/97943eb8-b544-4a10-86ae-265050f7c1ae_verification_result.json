@@ -1,0 +1,124 @@
+{
+  "document_id": "97943eb8-b544-4a10-86ae-265050f7c1ae",
+  "success": true,
+  "anonymized_text": "A la atención de la XXX, Se presenta a valoración paciente de sexo XXX para seguimiento. Refiere mejoría parcial de la sintomatología previamente descrita, aunque persiste cierto grado de malestar. En la exploración física actual, se observa buen estado general, afebril, con constantes hemodinámicas dentro de la normalidad. La auscultación cardiorrespiratoria resulta sin hallazgos patológicos y el abdomen es blando y depresible, no doloroso a la palpación superficial y profunda. Los resultados analíticos recibidos, con fecha de informe del XXX, muestran un perfil dentro de parámetros normales, sin alteraciones significativas que destacar. Asimismo, se adjunta informe de la ecografía abdominal que descarta la presencia de hallazgos orgánicos relevantes. Se recomienda continuar con la pauta sintomática establecida y se programará nueva visita de control. Para cualquier gestión o envío de documentación complementaria, puede utilizarse la dirección de correo electrónico XXX. Se recuerda que para el acceso al parking reservado es necesario registrar la identificación del vehículo XXX en el sistema.",
+  "text_length": 1110,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7005569338798523,
+        "word": " sexo",
+        "start": 62,
+        "end": 66,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.7005569338798523,
+          "start": 62,
+          "end": 66,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.7005569338798523,
+          "start": 62,
+          "end": 66,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.7005569338798523,
+        "start": 62,
+        "end": 66,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.7005569338798523,
+        "start": 62,
+        "end": 66,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

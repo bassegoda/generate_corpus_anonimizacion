@@ -1,0 +1,171 @@
+{
+  "document_id": "3dc6c2ed-deb2-420a-bcee-58850c2ff8fe",
+  "success": true,
+  "anonymized_text": "En la evolución clínica del paciente con documento XXX se mantiene el plan terapéutico establecido. El estado general es satisfactorio, con constantes dentro de la normalidad y buena tolerancia a la medicación pautada. Se recomienda continuar con el seguimiento en el XXX donde fue valorado inicialmente. Para cualquier gestión administrativa o consulta no urgente, pueden contactar a través del número de teléfono XXX o del fax XXX. También está disponible el correo electrónico XXX para coordinación entre niveles asistenciales. El número de beneficiario del plan de salud XXX queda registrado en nuestra base de datos. En cuanto al entorno familiar, se confirma que su XXX, cuya profesión es XXX, participa activamente en su cuidado. El personal de XXX asignado al caso realizará visitas domiciliarias periódicas a la dirección XXX para supervisar la correcta administración de la medicación y el estado general del paciente. Como recursos adicionales de apoyo, se han proporcionado al familiar responsable las direcciones web XXX y XXX donde podrá encontrar información fiable sobre el manejo de la condición de salud. El ID de empleo del personal sanitario de referencia ha sido debidamente verificado en el sistema. La exploración física actual muestra buenos tonos hidroelectrolíticos, auscultación cardiorrespiratoria sin hallazgos patológicos y estado neurológico conservado. Los últimos análisis de control reflejan parámetros dentro de rangos aceptables, manteniéndose estable la función hepática y renal. La radiografía de tórax realizada no muestra cambios significativos respecto a estudios previos.",
+  "text_length": 1613,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7111014127731323,
+        "word": " plan",
+        "start": 561,
+        "end": 565,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9840953946113586,
+        "word": " familiar responsable",
+        "start": 989,
+        "end": 1009,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.7111014127731323,
+          "start": 561,
+          "end": 565,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar responsable",
+          "actual_text": "familiar responsable",
+          "confidence": 0.9840953946113586,
+          "start": 989,
+          "end": 1009,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.7111014127731323,
+          "start": 561,
+          "end": 565,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar responsable",
+          "actual_text": "familiar responsable",
+          "confidence": 0.9840953946113586,
+          "start": 989,
+          "end": 1009,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.7111014127731323,
+        "start": 561,
+        "end": 565,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar responsable",
+        "actual_text": "familiar responsable",
+        "confidence": 0.9840953946113586,
+        "start": 989,
+        "end": 1009,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.7111014127731323,
+        "start": 561,
+        "end": 565,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar responsable",
+        "actual_text": "familiar responsable",
+        "confidence": 0.9840953946113586,
+        "start": 989,
+        "end": 1009,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

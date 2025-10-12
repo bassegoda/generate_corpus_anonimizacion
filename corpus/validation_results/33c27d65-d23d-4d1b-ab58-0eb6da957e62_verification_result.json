@@ -1,0 +1,124 @@
+{
+  "document_id": "33c27d65-d23d-4d1b-ab58-0eb6da957e62",
+  "success": true,
+  "anonymized_text": "En la evolución correspondiente al día XXX, se procede a la actualización del cuadro clínico. La paciente, XXX, se presenta en consulta para seguimiento de su proceso. Durante la exploración física, se constata un estado general conservado, con tensión arterial de 125/80 mmHg y frecuencia cardíaca de 72 lpm. La auscultación cardiorrespiratoria resulta dentro de la normalidad, sin soplos ni ruidos sobreañadidos. En cuanto a las pruebas complementarias solicitadas en la visita previa, la analítica general muestra un hemograma dentro de rangos normales y una glucemia basal de 98 mg/dl. La ecografía abdominal realizada no evidencia hallazgos patológicos significativos. Este informe queda registrado bajo la referencia XXX y es emitido desde el XXX, ubicado en la XXX. Se recomienda continuar con el plan terapéutico establecido y se programará una nueva visita de control. Para cualquier gestión o aclaración, puede contactarse a través del correo electrónico XXX. Se ha informado a la paciente y a sus familiares sujetos de asistencia sobre las recomendaciones y el pronóstico, mostrando buena comprensión del proceso.",
+  "text_length": 1124,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9868704676628113,
+        "word": " familiares sujetos de asistencia",
+        "start": 1008,
+        "end": 1040,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares sujetos de asistencia",
+          "actual_text": "familiares sujetos de asistencia",
+          "confidence": 0.9868704676628113,
+          "start": 1008,
+          "end": 1040,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares sujetos de asistencia",
+          "actual_text": "familiares sujetos de asistencia",
+          "confidence": 0.9868704676628113,
+          "start": 1008,
+          "end": 1040,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares sujetos de asistencia",
+        "actual_text": "familiares sujetos de asistencia",
+        "confidence": 0.9868704676628113,
+        "start": 1008,
+        "end": 1040,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares sujetos de asistencia",
+        "actual_text": "familiares sujetos de asistencia",
+        "confidence": 0.9868704676628113,
+        "start": 1008,
+        "end": 1040,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

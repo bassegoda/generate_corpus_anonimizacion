@@ -1,0 +1,221 @@
+{
+  "document_id": "4345cf37-d929-4b33-a641-c22d9e114446",
+  "success": true,
+  "anonymized_text": "A continuación se presenta el informe de consulta externa correspondiente a la paciente XXX, con número de identificación XXX, atendida en esta institución. La paciente, de sexo XXX, acudió a revisión en el XXX el día XXX para seguimiento de su cuadro clínico. En la exploración física actual se constata buen estado general, con tensión arterial 125/80 mmHg, frecuencia cardíaca 72 lpm y saturación de oxígeno del 98%. La auscultación cardiorrespiratoria resulta dentro de la normalidad, y el abdomen es blando y depresible sin masas palpables. Los resultados analíticos recientes muestran hemograma y bioquímica básica dentro de rangos normales, pendientes de alguna determinación especializada que se realizará en próximas semanas. Se procedió a la verificación del dispositivo médico con identificador XXX, que funciona dentro de sus parámetros técnicos establecidos. Queda registrado el número de teléfono XXX para contactos futuros relacionados con el seguimiento. Cabe mencionar que toda la documentación clínica se gestiona según los protocolos del XXX del país XXX, donde reside la paciente. Para completar la información del proceso asistencial, se ha consignado el número XXX en el sistema de registro clínico electrónico. Como parte de los recursos de apoyo al paciente, se ha proporcionado la dirección web XXX donde puede encontrar material educativo sobre su condición. Finalmente, se actualizaron los datos de contacto de la representante legal XXX, quien figura como persona de confianza en el expediente con el número de beneficiaria XXX.",
+  "text_length": 1556,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9371415972709656,
+        "word": " representante legal",
+        "start": 1441,
+        "end": 1460,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " representante legal",
+          "actual_text": "representante legal",
+          "confidence": 0.9371415972709656,
+          "start": 1441,
+          "end": 1460,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " representante legal",
+          "actual_text": "representante legal",
+          "confidence": 0.9371415972709656,
+          "start": 1441,
+          "end": 1460,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7216672897338867,
+        "word": " sexo",
+        "start": 173,
+        "end": 177,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8514868021011353,
+        "word": " representante legal",
+        "start": 1441,
+        "end": 1460,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1,
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.7216672897338867,
+          "start": 173,
+          "end": 177,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " representante legal",
+          "actual_text": "representante legal",
+          "confidence": 0.8514868021011353,
+          "start": 1441,
+          "end": 1460,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.7216672897338867,
+          "start": 173,
+          "end": 177,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " representante legal",
+          "actual_text": "representante legal",
+          "confidence": 0.8514868021011353,
+          "start": 1441,
+          "end": 1460,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2,
+      "ID_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " representante legal",
+        "actual_text": "representante legal",
+        "confidence": 0.9371415972709656,
+        "start": 1441,
+        "end": 1460,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.7216672897338867,
+        "start": 173,
+        "end": 177,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " representante legal",
+        "actual_text": "representante legal",
+        "confidence": 0.8514868021011353,
+        "start": 1441,
+        "end": 1460,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " representante legal",
+        "actual_text": "representante legal",
+        "confidence": 0.9371415972709656,
+        "start": 1441,
+        "end": 1460,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.7216672897338867,
+        "start": 173,
+        "end": 177,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " representante legal",
+        "actual_text": "representante legal",
+        "confidence": 0.8514868021011353,
+        "start": 1441,
+        "end": 1460,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

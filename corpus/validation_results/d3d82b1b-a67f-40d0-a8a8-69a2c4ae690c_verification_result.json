@@ -1,0 +1,222 @@
+{
+  "document_id": "d3d82b1b-a67f-40d0-a8a8-69a2c4ae690c",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE CARDIOLOGÍA** Paciente de **XXX** que acude a consulta externa para seguimiento de su cardiopatía hipertensiva. La paciente, **XXX**, refiere estabilidad clínica con buen cumplimiento terapéutico. En la exploración física actual, se objetiva tensión arterial de 135/80 mmHg en ambos brazos, frecuencia cardíaca regular a 68 lpm, sin soplos cardíacos apreciables. Los pulsos periféricos son simétricos y no se evidencian edemas en miembros inferiores. Respecto a las pruebas complementarias realizadas, el electrocardiograma muestra ritmo sinusal normal sin alteraciones agudas. El ecocardiograma transportácico fue informado como normal con fracción de eyección del ventrículo izquierdo preservada. Todos los estudios fueron realizados con el equipo de ecocardiografía identificado con el número de serie **XXX**. La analítica reciente muestra perfil lipídico dentro de objetivos terapéuticos y función renal estable. El número de identificación de aseguramiento que figura en la documentación es **XXX**. Se mantiene tratamiento actual y se programa seguimiento en seis meses. Se recomienda continuar con el control periódico en su **XXX** de referencia. Se ha facilitado el número de contacto **XXX** para cualquier incidencia relacionada con su medicación. Para consultas de mayor urgencia, se puede contactar con el ** General de Madrid** donde fue valorada previamente por el **XXX** vascular. Cabe destacar que la coordinación entre los diferentes niveles asistenciales dentro de la **XXX** ha sido adecuada. Se recuerda que para trámites administrativos puede utilizarse el teléfono **XXX** del **XXX**. Se ha verificado que los dispositivos médicos utilizados en su domicilio, registrados bajo el código **** correspondiente, se encuentran en perfecto estado de funcionamiento.",
+  "text_length": 1818,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.883570671081543,
+        "word": " General de Madrid",
+        "start": 1356,
+        "end": 1373,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.883570671081543,
+          "start": 1356,
+          "end": 1373,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.883570671081543,
+          "start": 1356,
+          "end": 1373,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8979958295822144,
+        "word": " de aseguramiento",
+        "start": 979,
+        "end": 995,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.84743732213974,
+        "word": " ** General de Madrid",
+        "start": 1353,
+        "end": 1373,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " de aseguramiento",
+          "actual_text": "de aseguramiento",
+          "confidence": 0.8979958295822144,
+          "start": 979,
+          "end": 995,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " ** General de Madrid",
+          "actual_text": "** General de Madrid",
+          "confidence": 0.84743732213974,
+          "start": 1353,
+          "end": 1373,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " de aseguramiento",
+          "actual_text": "de aseguramiento",
+          "confidence": 0.8979958295822144,
+          "start": 979,
+          "end": 995,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " ** General de Madrid",
+          "actual_text": "** General de Madrid",
+          "confidence": 0.84743732213974,
+          "start": 1353,
+          "end": 1373,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "HOSPITAL": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.883570671081543,
+        "start": 1356,
+        "end": 1373,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " de aseguramiento",
+        "actual_text": "de aseguramiento",
+        "confidence": 0.8979958295822144,
+        "start": 979,
+        "end": 995,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** General de Madrid",
+        "actual_text": "** General de Madrid",
+        "confidence": 0.84743732213974,
+        "start": 1353,
+        "end": 1373,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.883570671081543,
+        "start": 1356,
+        "end": 1373,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " de aseguramiento",
+        "actual_text": "de aseguramiento",
+        "confidence": 0.8979958295822144,
+        "start": 979,
+        "end": 995,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** General de Madrid",
+        "actual_text": "** General de Madrid",
+        "confidence": 0.84743732213974,
+        "start": 1353,
+        "end": 1373,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

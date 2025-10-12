@@ -1,0 +1,219 @@
+{
+  "document_id": "99b4e5ed-1c68-4993-bc04-d725cc8636aa",
+  "success": true,
+  "anonymized_text": "Paciente que acude a consulta para seguimiento de su proceso crónico. Refiere estabilidad clínica general, sin cambios significativos en su sintomatología habitual. En la exploración física actual, presenta presión arterial de 132/78 mmHg, frecuencia cardíaca de 68 lpm regular, y saturación de oxígeno del 96% en aire ambiente. La auscultación cardiorrespiratoria resulta dentro de la normalidad, sin soplos ni ruidos sobreañadidos. En cuanto a su situación domiciliaria, cabe señalar que recientemente ha cambiado su residencia a de la Alameda 12, tras muchos años viviendo en XXX. Se revisan las pruebas complementarias realizadas, mostrando una analítica con perfil lipídico dentro de objetivos terapéuticos y función renal estable. El electrocardiograma muestra ritmo sinusal normal sin alteraciones agudas. Considerando la de XXX, se enfatiza la importancia del cumplimiento terapéutico y los controles periódicos. Para cualquier actualización de protocolos o consulta de recursos clínicos, se recomienda consultar la documentación disponible a través de XXX, donde también puede accederse a información complementaria en XXX. El profesional responsable de esta valoración queda identificado con el código XXX, mientras que el número de episodio asignado a esta consulta es XXX. Se mantiene el plan terapéutico establecido, programando próxima revisión para control evolutivo. Se instruye al paciente sobre los signos de alarma que deberían motivar consulta anticipada.",
+  "text_length": 1475,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.8763744235038757,
+        "word": " de",
+        "start": 532,
+        "end": 534,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9883748888969421,
+        "word": " la Alameda 12",
+        "start": 535,
+        "end": 548,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " de",
+          "actual_text": "de",
+          "confidence": 0.8763744235038757,
+          "start": 532,
+          "end": 534,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " la Alameda 12",
+          "actual_text": "la Alameda 12",
+          "confidence": 0.9883748888969421,
+          "start": 535,
+          "end": 548,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " de",
+          "actual_text": "de",
+          "confidence": 0.8763744235038757,
+          "start": 532,
+          "end": 534,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " la Alameda 12",
+          "actual_text": "la Alameda 12",
+          "confidence": 0.9883748888969421,
+          "start": 535,
+          "end": 548,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.9800971746444702,
+        "word": " Alameda 12",
+        "start": 538,
+        "end": 548,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " Alameda 12",
+          "actual_text": "Alameda 12",
+          "confidence": 0.9800971746444702,
+          "start": 538,
+          "end": 548,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " Alameda 12",
+          "actual_text": "Alameda 12",
+          "confidence": 0.9800971746444702,
+          "start": 538,
+          "end": 548,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CALLE": 3
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CALLE",
+        "word": " de",
+        "actual_text": "de",
+        "confidence": 0.8763744235038757,
+        "start": 532,
+        "end": 534,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " la Alameda 12",
+        "actual_text": "la Alameda 12",
+        "confidence": 0.9883748888969421,
+        "start": 535,
+        "end": 548,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Alameda 12",
+        "actual_text": "Alameda 12",
+        "confidence": 0.9800971746444702,
+        "start": 538,
+        "end": 548,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CALLE",
+        "word": " de",
+        "actual_text": "de",
+        "confidence": 0.8763744235038757,
+        "start": 532,
+        "end": 534,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " la Alameda 12",
+        "actual_text": "la Alameda 12",
+        "confidence": 0.9883748888969421,
+        "start": 535,
+        "end": 548,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Alameda 12",
+        "actual_text": "Alameda 12",
+        "confidence": 0.9800971746444702,
+        "start": 538,
+        "end": 548,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

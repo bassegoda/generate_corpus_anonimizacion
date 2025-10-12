@@ -1,0 +1,175 @@
+{
+  "document_id": "633f5706-299b-438a-a785-93d05b025d53",
+  "success": true,
+  "anonymized_text": "A la atención del profesional de medicina de familia del XXX. Se remite este informe de interconsulta tras la valoración de la paciente en nuestra unidad. La exploración física actual revela un estado general conservado, con constantes vitales dentro de la normalidad. La auscultación cardiopulmonar es rítmica y sin soplos, con murmullo vesicular conservado bilateralmente. En la palpación abdominal no se identifican masas ni visceromegalias. Los resultados analíticos recientes muestran un hemograma dentro de rangos normales y una bioquímica básica sin alteraciones significativas. Las pruebas de imagen realizadas, concretamente una ecografía abdominal, no evidencian hallazgos patológicos relevantes. Para cualquier gestión o aclaración adicional, puede contactarse con esta unidad a través del número de teléfono XXX o bien vía fax al XXX. Asimismo, queda a su disposición la dirección de correo electrónico XXX para el envío de documentación complementaria. Toda la información relativa a nuestros protocolos asistenciales se encuentra disponible en nuestro portal web XXX. Cabe destacar que, según consta en el expediente XXX, se ha registrado como persona de contacto para asuntos relacionados con la asistencia a la familiar XXX de la paciente, cuyo número de contacto es el XXX. Este dato ha sido verificado y queda incorporado al registro XXX. El sexo de la sujeto de asistencia es XXX. Se recomienda mantener la coordinación con su centro de referencia, el XXX, para garantizar la continuidad asistencial.",
+  "text_length": 1519,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9316539764404297,
+        "word": " familiar XXX",
+        "start": 1227,
+        "end": 1239,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.9316539764404297,
+          "start": 1227,
+          "end": 1239,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar XXX",
+          "actual_text": "familiar XXX",
+          "confidence": 0.9316539764404297,
+          "start": 1227,
+          "end": 1239,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9350419044494629,
+        "word": " expediente XXX",
+        "start": 1120,
+        "end": 1134,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " expediente XXX",
+          "actual_text": "expediente XXX",
+          "confidence": 0.9350419044494629,
+          "start": 1120,
+          "end": 1134,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " expediente XXX",
+          "actual_text": "expediente XXX",
+          "confidence": 0.9350419044494629,
+          "start": 1120,
+          "end": 1134,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.9316539764404297,
+        "start": 1227,
+        "end": 1239,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " expediente XXX",
+        "actual_text": "expediente XXX",
+        "confidence": 0.9350419044494629,
+        "start": 1120,
+        "end": 1134,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar XXX",
+        "actual_text": "familiar XXX",
+        "confidence": 0.9316539764404297,
+        "start": 1227,
+        "end": 1239,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " expediente XXX",
+        "actual_text": "expediente XXX",
+        "confidence": 0.9350419044494629,
+        "start": 1120,
+        "end": 1134,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

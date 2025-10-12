@@ -1,0 +1,266 @@
+{
+  "document_id": "d537b046-194c-4359-a6e2-005a95798cda",
+  "success": true,
+  "anonymized_text": "**NOTA DE EVOLUCIÓN** Paciente que ingresa para valoración y manejo de su cuadro clínico actual. Se trata de una persona de XXX, con antecedentes de hipertensión arterial y artrosis, que acude por un cuadro de astenia y disnea de moderados esfuerzos de varias semanas de evolución. En la exploración física, el paciente se encuentra consciente y orientado, con presión arterial de 145/85 mmHg, frecuencia cardíaca de 78 lpm y saturación periférica de oxígeno del 92% en aire ambiente. La auscultación cardíaca es rítmica sin soplos, mientras que la auscultación pulmonar revela crepitantes basales bilaterales. En el abdomen, blando y depresible, no se palpan masas. Se observa edema +/4+ en miembros inferiores. Se procede a la realización de un electrocardiograma que muestra ritmo sinusal a 80 lpm sin alteraciones agudas de la repolarización. En la analítica destaca una ligera elevación de la creatinina a 1.4 mg/dl. La radiografía de tórax evidencia cardiomegalia y signos de redistribución vascular compatibles con edema pulmonar. Se inicia tratamiento diurético con buena respuesta inicial, observándose mejoría de la disnea y reducción del edema periférico. El dispositivo de monitorización continua conectado al sistema XXX registra parámetros estables durante las últimas 24 horas. El manejo del caso ha sido supervisado por el facultativo con identificación profesional XXX. Cabe destacar que el paciente refiere que su cónyuge, de XXX, presenta buen estado de salud general. El informe queda registrado en el sistema sanitario correspondiente a la XXX, integrado en el XXX, para continuar con el seguimiento protocolizado.",
+  "text_length": 1635,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.943805992603302,
+        "word": " cónyuge, de",
+        "start": 1432,
+        "end": 1443,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cónyuge, de",
+          "actual_text": "cónyuge, de",
+          "confidence": 0.943805992603302,
+          "start": 1432,
+          "end": 1443,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cónyuge, de",
+          "actual_text": "cónyuge, de",
+          "confidence": 0.943805992603302,
+          "start": 1432,
+          "end": 1443,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.8028345108032227,
+        "word": ",",
+        "start": 127,
+        "end": 128,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.978093147277832,
+        "word": " cónyuge,",
+        "start": 1432,
+        "end": 1440,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7779744863510132,
+        "word": " XXX,",
+        "start": 1444,
+        "end": 1448,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "EDAD_SUJETO_ASISTENCIA": 1,
+        "FAMILIARES_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": ",",
+          "actual_text": ",",
+          "confidence": 0.8028345108032227,
+          "start": 127,
+          "end": 128,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cónyuge,",
+          "actual_text": "cónyuge,",
+          "confidence": 0.978093147277832,
+          "start": 1432,
+          "end": 1440,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " XXX,",
+          "actual_text": "XXX,",
+          "confidence": 0.7779744863510132,
+          "start": 1444,
+          "end": 1448,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": ",",
+          "actual_text": ",",
+          "confidence": 0.8028345108032227,
+          "start": 127,
+          "end": 128,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cónyuge,",
+          "actual_text": "cónyuge,",
+          "confidence": 0.978093147277832,
+          "start": 1432,
+          "end": 1440,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " XXX,",
+          "actual_text": "XXX,",
+          "confidence": 0.7779744863510132,
+          "start": 1444,
+          "end": 1448,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 3,
+      "EDAD_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cónyuge, de",
+        "actual_text": "cónyuge, de",
+        "confidence": 0.943805992603302,
+        "start": 1432,
+        "end": 1443,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": ",",
+        "actual_text": ",",
+        "confidence": 0.8028345108032227,
+        "start": 127,
+        "end": 128,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cónyuge,",
+        "actual_text": "cónyuge,",
+        "confidence": 0.978093147277832,
+        "start": 1432,
+        "end": 1440,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " XXX,",
+        "actual_text": "XXX,",
+        "confidence": 0.7779744863510132,
+        "start": 1444,
+        "end": 1448,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cónyuge, de",
+        "actual_text": "cónyuge, de",
+        "confidence": 0.943805992603302,
+        "start": 1432,
+        "end": 1443,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": ",",
+        "actual_text": ",",
+        "confidence": 0.8028345108032227,
+        "start": 127,
+        "end": 128,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cónyuge,",
+        "actual_text": "cónyuge,",
+        "confidence": 0.978093147277832,
+        "start": 1432,
+        "end": 1440,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " XXX,",
+        "actual_text": "XXX,",
+        "confidence": 0.7779744863510132,
+        "start": 1444,
+        "end": 1448,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "document_id": "01b17b9e-e8dd-4488-a760-64427b23d4cf",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente: XXX que acude a consulta para seguimiento en nuestro XXX. La paciente, de XXX, se presenta con documentación de identificación vehicular XXX y número de identificación de aseguramiento XXX vigente. Se verifica que la dirección de correspondencia es XXX. En relación con los estudios complementarios solicitados en la consulta anterior, se han recibido los resultados de laboratorio que muestran parámetros dentro de la normalidad. Los hallazgos de la resonancia magnética realizada son compatibles con los esperados para la evolución clínica. La paciente puede consultar sus resultados completos a través de nuestro XXX. Se procede a la actualización de datos de contacto, registrando el XXX para envío de información clínica. Queda identificado el profesional responsable con XXX y XXX, cuyo correo institucional es XXX. Para comunicación institucional se dispone del XXX. La documentación administrativa incluye el expediente clínico XXX y el código de identificación europeo XXX. La atención se coordina con la XXX según protocolos establecidos. La dirección del centro asistencial es de la Alameda 12. Exploración física: Consciente y orientada. Estado general aceptable. Tensiones arteriales dentro de parámetros normales. Auscultación cardiorrespiratoria sin hallazgos significativos. Abdomen blando y depresible sin masas palpables. Extremidades sin edemas. Se mantiene el plan terapéutico establecido y se programa seguimiento en consultas externas. Se recomienda continuar con las medidas generales y se entregó material educativo sobre el manejo de su condición.",
+  "text_length": 1610,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 4,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8601383566856384,
+        "word": " vehicular",
+        "start": 165,
+        "end": 174,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8232495188713074,
+        "word": " número de identificación de aseguramiento XXX",
+        "start": 181,
+        "end": 226,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7679619193077087,
+        "word": " código de identificación europeo",
+        "start": 983,
+        "end": 1015,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9382681846618652,
+        "word": " la Alameda 12",
+        "start": 1129,
+        "end": 1142,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 4,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 3,
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 3,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehicular",
+          "actual_text": "vehicular",
+          "confidence": 0.8601383566856384,
+          "start": 165,
+          "end": 174,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " número de identificación de aseguramiento XXX",
+          "actual_text": "número de identificación de aseguramiento XXX",
+          "confidence": 0.8232495188713074,
+          "start": 181,
+          "end": 226,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " código de identificación europeo",
+          "actual_text": "código de identificación europeo",
+          "confidence": 0.7679619193077087,
+          "start": 983,
+          "end": 1015,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " la Alameda 12",
+          "actual_text": "la Alameda 12",
+          "confidence": 0.9382681846618652,
+          "start": 1129,
+          "end": 1142,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehicular",
+          "actual_text": "vehicular",
+          "confidence": 0.8601383566856384,
+          "start": 165,
+          "end": 174,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " número de identificación de aseguramiento XXX",
+          "actual_text": "número de identificación de aseguramiento XXX",
+          "confidence": 0.8232495188713074,
+          "start": 181,
+          "end": 226,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " código de identificación europeo",
+          "actual_text": "código de identificación europeo",
+          "confidence": 0.7679619193077087,
+          "start": 983,
+          "end": 1015,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " la Alameda 12",
+          "actual_text": "la Alameda 12",
+          "confidence": 0.9382681846618652,
+          "start": 1129,
+          "end": 1142,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.9885967969894409,
+        "word": " Alameda 12",
+        "start": 1132,
+        "end": 1142,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " Alameda 12",
+          "actual_text": "Alameda 12",
+          "confidence": 0.9885967969894409,
+          "start": 1132,
+          "end": 1142,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " Alameda 12",
+          "actual_text": "Alameda 12",
+          "confidence": 0.9885967969894409,
+          "start": 1132,
+          "end": 1142,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 5,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 3,
+      "CALLE": 2
+    },
+    "entities_by_confidence": {
+      "high": 4,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehicular",
+        "actual_text": "vehicular",
+        "confidence": 0.8601383566856384,
+        "start": 165,
+        "end": 174,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " número de identificación de aseguramiento XXX",
+        "actual_text": "número de identificación de aseguramiento XXX",
+        "confidence": 0.8232495188713074,
+        "start": 181,
+        "end": 226,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " código de identificación europeo",
+        "actual_text": "código de identificación europeo",
+        "confidence": 0.7679619193077087,
+        "start": 983,
+        "end": 1015,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " la Alameda 12",
+        "actual_text": "la Alameda 12",
+        "confidence": 0.9382681846618652,
+        "start": 1129,
+        "end": 1142,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Alameda 12",
+        "actual_text": "Alameda 12",
+        "confidence": 0.9885967969894409,
+        "start": 1132,
+        "end": 1142,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehicular",
+        "actual_text": "vehicular",
+        "confidence": 0.8601383566856384,
+        "start": 165,
+        "end": 174,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " número de identificación de aseguramiento XXX",
+        "actual_text": "número de identificación de aseguramiento XXX",
+        "confidence": 0.8232495188713074,
+        "start": 181,
+        "end": 226,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " código de identificación europeo",
+        "actual_text": "código de identificación europeo",
+        "confidence": 0.7679619193077087,
+        "start": 983,
+        "end": 1015,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " la Alameda 12",
+        "actual_text": "la Alameda 12",
+        "confidence": 0.9382681846618652,
+        "start": 1129,
+        "end": 1142,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Alameda 12",
+        "actual_text": "Alameda 12",
+        "confidence": 0.9885967969894409,
+        "start": 1132,
+        "end": 1142,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 5,
+    "suspicious_detections": 5,
+    "xxxxxx_detections": 0,
+    "other_detections": 5
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

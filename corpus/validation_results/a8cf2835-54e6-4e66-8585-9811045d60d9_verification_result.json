@@ -1,0 +1,124 @@
+{
+  "document_id": "a8cf2835-54e6-4e66-8585-9811045d60d9",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Geriátrica Integral Se realiza valoración geriátrica integral a paciente de XXX que acude acompañado por su XXX. La identificación del sujeto de asistencia corresponde al número XXX, con número de beneficiario del plan de salud XXX. Como documentación adicional presenta el documento de identificación XXX y el código de referencia XXX. En la exploración física se observa paciente consciente y orientado, con buen estado general. La auscultación cardiopulmonar es rítmica sin soplos, con murmullo vesicular conservado. El abdomen es blando y depresible, no doloroso a la palpación. En las extremidades inferiores se aprecia edema ++/4+ que mejora con la elevación de miembros. Los resultados analíticos recientes muestran hemoglobina de 12.8 g/dL y creatinina de 1.2 mg/dL. La radiografía de tórax realizada bajo el identificador XXX no muestra hallazgos significativos. Para la gestión administrativa, se registra el país de origen XXX y el número de identificación de aseguramiento XXX. El contacto asistencial principal queda establecido con la XXX, quien puede ser contactada a través del correo electrónico XXX. Como documentación complementaria se adjunta el identificador de vehículo XXX y el número de identificación adicional XXX para completar el registro clínico. Se establece plan de seguimiento ambulatorio con control mensual y recomendaciones sobre modificación de pauta diurética según evolución del edema periférico.",
+  "text_length": 1456,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7137303352355957,
+        "word": " número",
+        "start": 965,
+        "end": 971,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " número",
+          "actual_text": "número",
+          "confidence": 0.7137303352355957,
+          "start": 965,
+          "end": 971,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " número",
+          "actual_text": "número",
+          "confidence": 0.7137303352355957,
+          "start": 965,
+          "end": 971,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " número",
+        "actual_text": "número",
+        "confidence": 0.7137303352355957,
+        "start": 965,
+        "end": 971,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " número",
+        "actual_text": "número",
+        "confidence": 0.7137303352355957,
+        "start": 965,
+        "end": 971,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

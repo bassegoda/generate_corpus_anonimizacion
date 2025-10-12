@@ -1,0 +1,124 @@
+{
+  "document_id": "6035a8f1-7bb5-47ad-922e-1aecd9538f8f",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA** Paciente de **** XXX que acude a revisión por patología crónica. Refiere evolución estable de su cuadro base, sin modificaciones significativas en su sintomatología habitual desde la última visita del **XXX**. A la exploración física actual se objetiva: tensión arterial 135/80 mmHg, frecuencia cardíaca 72 lpm, saturación de oxígeno 96%. Auscultación cardiorrespiratoria sin soplos ni crepitantes. Abdomen blando y depresible sin masas palpables. Extremidades sin edemas. En relación a los antecedentes personales, destaca la **XXX** documentada en su historial, por lo que se debe mantener la contraindicación absoluta de betalactámicos. El tratamiento actual se mantiene sin modificaciones. Los resultados analíticos recientes muestran perfil lipídico dentro de rangos aceptables y función renal conservada. Se programará siguiente control en 6 meses. **DATOS ADMINISTRATIVOS** Identificación de aseguramiento: **** XXX Número de teléfono de contacto: **** XXX Tarjeta sanitaria: **** XXX ****: XXX El profesional que suscribe cuenta con **** XXX y está registrado en el colegio de médicos del **** XXX con **** XXX. Se adjunta solicitud de pruebas complementarias para control evolutivo.",
+  "text_length": 1223,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.9826273918151855,
+        "word": " colegio de médicos",
+        "start": 1106,
+        "end": 1124,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " colegio de médicos",
+          "actual_text": "colegio de médicos",
+          "confidence": 0.9826273918151855,
+          "start": 1106,
+          "end": 1124,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " colegio de médicos",
+          "actual_text": "colegio de médicos",
+          "confidence": 0.9826273918151855,
+          "start": 1106,
+          "end": 1124,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " colegio de médicos",
+        "actual_text": "colegio de médicos",
+        "confidence": 0.9826273918151855,
+        "start": 1106,
+        "end": 1124,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " colegio de médicos",
+        "actual_text": "colegio de médicos",
+        "confidence": 0.9826273918151855,
+        "start": 1106,
+        "end": 1124,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

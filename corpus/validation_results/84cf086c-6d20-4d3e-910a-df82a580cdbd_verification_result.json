@@ -1,0 +1,124 @@
+{
+  "document_id": "84cf086c-6d20-4d3e-910a-df82a580cdbd",
+  "success": true,
+  "anonymized_text": "En relación con el documento de referencia XXX, se procede a completar la información asistencial correspondiente a la historia clínica XXX. El cuadro clínico actual fue evaluado por el especialista en cirugía, quien determinó la necesidad de seguimiento estrecho. La exploración física muestra abdomen blando y depresible, sin signos de irritación peritoneal. Los ruidos hidroaéreos están presentes en los cuatro cuadrantes. No se palpan masas ni visceromegalias. La analítica realizada muestra hemograma dentro de parámetros normales, con leucocitosis discreta de 11.200/mm³. La bioquímica sanguínea no revela alteraciones significativas en función hepática o renal. Para la coordinación de la asistencia, se ha facilitado el contacto XXX al familiar responsable, XXX. La resonancia magnética abdominal evidencia hallazgos compatibles con proceso inflamatorio subagudo, sin colecciones susceptibles de drenaje. El profesional sanitario asignado, XXX, cuenta con la identificación XXX para cualquier gestión administrativa relacionada. El país de residencia permanente del paciente es XXX, circunstancia que facilita la continuidad asistencial. La evolución posterior será monitorizada según protocolos establecidos para esta patología.",
+  "text_length": 1237,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9802207946777344,
+        "word": " familiar responsable",
+        "start": 744,
+        "end": 764,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar responsable",
+          "actual_text": "familiar responsable",
+          "confidence": 0.9802207946777344,
+          "start": 744,
+          "end": 764,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar responsable",
+          "actual_text": "familiar responsable",
+          "confidence": 0.9802207946777344,
+          "start": 744,
+          "end": 764,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar responsable",
+        "actual_text": "familiar responsable",
+        "confidence": 0.9802207946777344,
+        "start": 744,
+        "end": 764,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar responsable",
+        "actual_text": "familiar responsable",
+        "confidence": 0.9802207946777344,
+        "start": 744,
+        "end": 764,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "document_id": "acd5b227-dba8-4e05-ae77-7068f2c21176",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución - Consulta Externa** Se revisa el caso clínico correspondiente al XXX en consulta de seguimiento. El paciente se encuentra en situación de estabilidad clínica respecto a la última valoración. Se ha contactado con la XXX, para actualizar aspectos del historial familiar que resultan de interés para el manejo integral del caso. En relación con los estudios complementarios solicitados en la visita previa, se confirma la recepción de los resultados de laboratorio a través del portal XXX, cuyos parámetros se encuentran dentro de rangos de normalidad. Para una segunda opinión sobre un aspecto específico de la resonancia, se ha remitido el estudio por vía telemática a la XXX, dado su reconocido expertise en la materia. Se procedió a la verificación del del equipo de monitorización domiciliaria, registrado bajo el código XXX, que funciona dentro de sus parámetros técnicos normativos. Cualquier incidencia relacionada con este dispositivo puede ser comunicada al XXX. Este centro mantiene una estrecha colaboración con la XXX para la coordinación de recursos, así como con el organismo nacional XXX en lo referente a protocolos de actuación. Para gestiones administrativas o coordinación interconsultas, queda a disposición el XXX de la secretaría clínica. La documentación completa del expediente principal, identificado como XXX, ha sido consolidada. El del paciente, XXX, así como los números de expediente XXX y XXX, figuran correctamente registrados en el sistema. Firmado: XXX. Identificación profesional XXX.",
+  "text_length": 1538,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7157158851623535,
+        "word": " nacional",
+        "start": 1109,
+        "end": 1117,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " nacional",
+          "actual_text": "nacional",
+          "confidence": 0.7157158851623535,
+          "start": 1109,
+          "end": 1117,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " nacional",
+          "actual_text": "nacional",
+          "confidence": 0.7157158851623535,
+          "start": 1109,
+          "end": 1117,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " nacional",
+        "actual_text": "nacional",
+        "confidence": 0.7157158851623535,
+        "start": 1109,
+        "end": 1117,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " nacional",
+        "actual_text": "nacional",
+        "confidence": 0.7157158851623535,
+        "start": 1109,
+        "end": 1117,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

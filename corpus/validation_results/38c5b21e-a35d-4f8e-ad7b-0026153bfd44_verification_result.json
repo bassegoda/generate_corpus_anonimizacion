@@ -1,0 +1,124 @@
+{
+  "document_id": "38c5b21e-a35d-4f8e-ad7b-0026153bfd44",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA** Paciente que se presenta para seguimiento en consulta externa. Se procede a la actualización de su situación clínica y datos de contacto. La exploración física actual muestra un estado general conservado. A la auscultación cardiorrespiratoria, ritmo cardíaco regular sin soplos, murmullo vesicular conservado con buena entrada de aire bilateralmente. El abdomen es blando y depresible, no doloroso a la palpación. Extremidades sin edemas ni signos de trombosis. En cuanto a los datos administrativos, el identificador principal del sujeto de asistencia es XXX, con número de identificación personal XXX. El contacto asistencial activo queda registrado bajo el identificador XXX. Para cualquier gestión o comunicación, el centro de referencia es el XXX, ubicado en la XXX, XXX. El profesional sanitario responsable del caso es la XXX. Se ha verificado y actualizado la información de contacto. El número de teléfono de contacto registrado es XXX, correspondiente a XXX, quien figura como familiar del sujeto de asistencia. Para comunicación por vía electrónica, se dispone de la dirección XXX. Cabe mencionar que recientemente se coordinó una interconsulta con un servicio especializado en XXX, manteniendo el mismo país de asistencia, XXX. Se mantiene el plan terapéutico establecido y se programará próxima revisión según evolución.",
+  "text_length": 1365,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8255862593650818,
+        "word": " familiar",
+        "start": 1019,
+        "end": 1027,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.8255862593650818,
+          "start": 1019,
+          "end": 1027,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.8255862593650818,
+          "start": 1019,
+          "end": 1027,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.8255862593650818,
+        "start": 1019,
+        "end": 1027,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.8255862593650818,
+        "start": 1019,
+        "end": 1027,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

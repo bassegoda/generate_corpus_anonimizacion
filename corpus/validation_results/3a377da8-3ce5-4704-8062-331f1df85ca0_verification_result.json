@@ -1,0 +1,169 @@
+{
+  "document_id": "3a377da8-3ce5-4704-8062-331f1df85ca0",
+  "success": true,
+  "anonymized_text": "A la exploración física actual, el paciente se presenta consciente y orientado, en aceptable estado general. La auscultación cardiopulmonar es rítmica y sin soplos, con murmullo vesicular conservado y sin ruidos sobreañadidos. En la palpación abdominal no se identifican masas ni visceromegalias, siendo blando y depreciable. Los resultados analíticos recientes, recibidos desde el XXX, muestran un perfil lipídico dentro de parámetros normales y una glucemia basal en ayunas de 102 mg/dL. Se ha mantenido contacto con su entorno familiar para ampliar antecedentes de interés, destacando que XXX y XXX, como principales familiares sujeto asistencia, no refieren conocimiento de patologías hereditarias relevantes. Se proseguirá con el plan terapéutico establecido, recomendando control analítico en seis meses. Para cualquier gestión o aclaración, queda a disposición la dirección de correo electrónico XXX. El profesional que suscribe cuenta con la titulación de XXX, avalando la emisión del presente informe.",
+  "text_length": 1010,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7679643034934998,
+        "word": " entorno",
+        "start": 522,
+        "end": 529,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8416060209274292,
+        "word": " familiar",
+        "start": 530,
+        "end": 538,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " entorno",
+          "actual_text": "entorno",
+          "confidence": 0.7679643034934998,
+          "start": 522,
+          "end": 529,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.8416060209274292,
+          "start": 530,
+          "end": 538,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " entorno",
+          "actual_text": "entorno",
+          "confidence": 0.7679643034934998,
+          "start": 522,
+          "end": 529,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.8416060209274292,
+          "start": 530,
+          "end": 538,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " entorno",
+        "actual_text": "entorno",
+        "confidence": 0.7679643034934998,
+        "start": 522,
+        "end": 529,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.8416060209274292,
+        "start": 530,
+        "end": 538,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " entorno",
+        "actual_text": "entorno",
+        "confidence": 0.7679643034934998,
+        "start": 522,
+        "end": 529,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.8416060209274292,
+        "start": 530,
+        "end": 538,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

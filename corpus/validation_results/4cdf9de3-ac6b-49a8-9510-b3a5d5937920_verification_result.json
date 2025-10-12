@@ -1,0 +1,124 @@
+{
+  "document_id": "4cdf9de3-ac6b-49a8-9510-b3a5d5937920",
+  "success": true,
+  "anonymized_text": "En la valoración geriátrica integral realizada en el XXX, se documenta que la persona asistida cuenta con sesenta y siete años de edad. La edad del sujeto de asistencia es XXX. Durante la anamnesis, se ha recabado información relevante a través de XXX, quien aporta detalles significativos sobre el entorno y antecedentes. La exploración física actual muestra un estado general conservado, con presión arterial de 135/80 mmHg y frecuencia cardíaca de 68 lpm. Los ruidos cardíacos son rítmicos sin soplos audibles, y la auscultación pulmonar es limpia. En la esfera cognitiva, se observa orientación temporo-espacial preservada. Los análisis de laboratorio recientes, gestionados a través de la XXX, reflejan un perfil lipídico dentro de parámetros aceptables. La resonancia magnética cerebral evidencia cambios propios de la edad sin hallazgos agudos. Para la coordinación de servicios sociales y seguimiento, se ha activado el protocolo establecido por la XXX. El vehículo asignado para el transporte sanitario programado porta la placa XXX. El número de identificación del paciente es XXX y su tarjeta de aseguramiento es la XXX, documentos que han sido verificados para la continuidad asistencial.",
+  "text_length": 1200,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.9370173811912537,
+        "word": " sesenta y siete años",
+        "start": 106,
+        "end": 126,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "EDAD_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " sesenta y siete años",
+          "actual_text": "sesenta y siete años",
+          "confidence": 0.9370173811912537,
+          "start": 106,
+          "end": 126,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " sesenta y siete años",
+          "actual_text": "sesenta y siete años",
+          "confidence": 0.9370173811912537,
+          "start": 106,
+          "end": 126,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "EDAD_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " sesenta y siete años",
+        "actual_text": "sesenta y siete años",
+        "confidence": 0.9370173811912537,
+        "start": 106,
+        "end": 126,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " sesenta y siete años",
+        "actual_text": "sesenta y siete años",
+        "confidence": 0.9370173811912537,
+        "start": 106,
+        "end": 126,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "document_id": "0ed66d40-81cc-4527-92e7-e9a7845be6de",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente de XXX que acude a revisión por presentar cuadro de artralgias generalizadas de varios meses de evolución, con afectación predominante en grandes articulaciones. Al interrogatorio refiere mejoría parcial con analgesia convencional, pero persiste con limitación funcional moderada para actividades cotidianas. En la exploración física actual se objetiva crepitación en rodillas sin derrame articular, con rango de movilidad conservado pero doloroso a la movilización forzada. Resto de exploración por aparatos dentro de la normalidad. Respecto a estudios complementarios, se dispone de analítica reciente que muestra VSG elevada a 35 mm/h, con perfil bioquímico y hemograma dentro de parámetros normales. Las radiografías simples de rodillas evidencian pinzamiento moderado del espacio articular y osteofitosis marginal, compatibles con artrosis grado III de Kellgren-Lawrence. Se ha facilitado al paciente el acceso a la plataforma digital XXX para seguimiento de futuros resultados analíticos, así como al portal XXX donde podrá consultar la evolución de su documentación clínica. Para cualquier gestión administrativa o consulta relacionada con su proceso, puede utilizarse el identificador XXX y el código XXX. El número de beneficio del plan de salud activo es XXX. Los datos de localización del paciente corresponden a XXX, y para comunicación telefónica directa dispone del XXX. Se instaura pauta de tratamiento sintomático y se programa control evolutivo en 3 meses. Queda a disposición del paciente para cualquier aclaración a través del correo electrónico XXX. Atentamente, XXX Médico especialista con XXX Número de colegiado: 28463719",
+  "text_length": 1681,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9392687082290649,
+        "word": " 28463719",
+        "start": 1673,
+        "end": 1681,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 28463719",
+          "actual_text": "28463719",
+          "confidence": 0.9392687082290649,
+          "start": 1673,
+          "end": 1681,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 28463719",
+          "actual_text": "28463719",
+          "confidence": 0.9392687082290649,
+          "start": 1673,
+          "end": 1681,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7416543960571289,
+        "word": " 28463719",
+        "start": 1673,
+        "end": 1681,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 28463719",
+          "actual_text": "28463719",
+          "confidence": 0.7416543960571289,
+          "start": 1673,
+          "end": 1681,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 28463719",
+          "actual_text": "28463719",
+          "confidence": 0.7416543960571289,
+          "start": 1673,
+          "end": 1681,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NUMERO_TELEFONO": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 28463719",
+        "actual_text": "28463719",
+        "confidence": 0.9392687082290649,
+        "start": 1673,
+        "end": 1681,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 28463719",
+        "actual_text": "28463719",
+        "confidence": 0.7416543960571289,
+        "start": 1673,
+        "end": 1681,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 28463719",
+        "actual_text": "28463719",
+        "confidence": 0.9392687082290649,
+        "start": 1673,
+        "end": 1681,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 28463719",
+        "actual_text": "28463719",
+        "confidence": 0.7416543960571289,
+        "start": 1673,
+        "end": 1681,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

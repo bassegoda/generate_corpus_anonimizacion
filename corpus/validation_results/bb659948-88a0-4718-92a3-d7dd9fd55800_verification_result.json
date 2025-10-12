@@ -1,0 +1,268 @@
+{
+  "document_id": "bb659948-88a0-4718-92a3-d7dd9fd55800",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE CARDIOLOGÍA** Durante la valoración en consultas externas se revisa la documentación clínica previa del paciente. Cabe destacar el informe de ecocardiograma realizado en General de Madrid que muestra una fracción de eyección del 55% sin alteraciones significativas en la contractilidad segmentaria. Asimismo, se ha tenido acceso a los estudios analíticos completos disponibles a través de XXX donde se observa un perfil lipídico dentro de parámetros normales. La exploración física actual revela ruidos cardíacos rítmicos sin soplos audibles, presión arterial bien controlada y ausencia de edemas en miembros inferiores. Se mantiene la medicación actual y se recomienda control periódico en el XXX donde la XXX podrá realizar el seguimiento clínico estrecho. Para cualquier interconsulta o coordinación con el servicio de cardiología del XXX, queda a disposición la XXX. Se registrará este informe en la historia clínica electrónica accesible mediante XXX y se notificará al dispositivo con número de serie XXX para su correcta archivación. El paciente tiene programada su próxima revisión en la consulta situada de la Alameda 12. Se remitirá copia del presente documento a los servicios sanitarios de la XXX para su conocimiento y archivo.",
+  "text_length": 1273,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.9651574492454529,
+        "word": " Alameda 12",
+        "start": 1152,
+        "end": 1162,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " Alameda 12",
+          "actual_text": "Alameda 12",
+          "confidence": 0.9651574492454529,
+          "start": 1152,
+          "end": 1162,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " Alameda 12",
+          "actual_text": "Alameda 12",
+          "confidence": 0.9651574492454529,
+          "start": 1152,
+          "end": 1162,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.8562064170837402,
+        "word": " General de Madrid",
+        "start": 203,
+        "end": 220,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7943667769432068,
+        "word": " clínica",
+        "start": 946,
+        "end": 953,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9564501047134399,
+        "word": " la Alameda 12",
+        "start": 1149,
+        "end": 1162,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.8562064170837402,
+          "start": 203,
+          "end": 220,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.7943667769432068,
+          "start": 946,
+          "end": 953,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " la Alameda 12",
+          "actual_text": "la Alameda 12",
+          "confidence": 0.9564501047134399,
+          "start": 1149,
+          "end": 1162,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.8562064170837402,
+          "start": 203,
+          "end": 220,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.7943667769432068,
+          "start": 946,
+          "end": 953,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " la Alameda 12",
+          "actual_text": "la Alameda 12",
+          "confidence": 0.9564501047134399,
+          "start": 1149,
+          "end": 1162,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CALLE": 2,
+      "HOSPITAL": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CALLE",
+        "word": " Alameda 12",
+        "actual_text": "Alameda 12",
+        "confidence": 0.9651574492454529,
+        "start": 1152,
+        "end": 1162,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.8562064170837402,
+        "start": 203,
+        "end": 220,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.7943667769432068,
+        "start": 946,
+        "end": 953,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " la Alameda 12",
+        "actual_text": "la Alameda 12",
+        "confidence": 0.9564501047134399,
+        "start": 1149,
+        "end": 1162,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CALLE",
+        "word": " Alameda 12",
+        "actual_text": "Alameda 12",
+        "confidence": 0.9651574492454529,
+        "start": 1152,
+        "end": 1162,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.8562064170837402,
+        "start": 203,
+        "end": 220,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.7943667769432068,
+        "start": 946,
+        "end": 953,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " la Alameda 12",
+        "actual_text": "la Alameda 12",
+        "confidence": 0.9564501047134399,
+        "start": 1149,
+        "end": 1162,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

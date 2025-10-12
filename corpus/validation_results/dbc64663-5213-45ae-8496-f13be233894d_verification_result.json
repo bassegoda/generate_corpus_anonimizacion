@@ -1,0 +1,175 @@
+{
+  "document_id": "dbc64663-5213-45ae-8496-f13be233894d",
+  "success": true,
+  "anonymized_text": "**NOTA DE EVOLUCIÓN - CONSULTA EXTERNA DE CARDIOLOGÍA** Paciente que acude a consulta para seguimiento postoperatorio. Refiere mejoría progresiva de su capacidad funcional, con tolerancia actual a la marcha en terreno llano sin aparición de disnea. No refiere dolor torácico, palpitaciones ni síncope. En la exploración física actual, se constata ritmo cardíaco regular a 78 lpm, presión arterial 126/74 mmHg, saturación de oxígeno del 97% en aire ambiente. Auscultación cardíaca con ritmo regular, sin soplos significativos. Auscultación pulmonar conservada con murmullo vesicular presente bilateralmente. Se revisa la documentación clínica asociada al identificador XXX, así como los estudios complementarios vinculados a XXX. Los hallazgos ecocardiográficos muestran adecuada función ventricular izquierda con fracción de eyección preservada. El electrocardiograma muestra ritmo sinusal normal sin alteraciones agudas de la repolarización. La paciente XXX porta identificación de aseguramiento XXX y presenta el documento identificativo XXX. Se verifica que la tarjeta sanitaria con número XXX se encuentra en vigor. Como profesional responsable, yo, la XXX, especialista en cirugía cardiovascular, superviso su evolución. Mi profesión como XXX me permite evaluar adecuadamente la evolución postoperatoria del caso. Se recomienda continuar con el plan terapéutico establecido y actividad física progresiva. Para información complementaria sobre su condition, se sugiere consultar los recursos disponibles en XXX donde encontrará material educativo sobre su proceso. Se registrará esta información en el sistema con el código XXX correspondiente a este episodio asistencial.",
+  "text_length": 1676,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.732075035572052,
+        "word": " identificación",
+        "start": 965,
+        "end": 979,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identificación",
+          "actual_text": "identificación",
+          "confidence": 0.732075035572052,
+          "start": 965,
+          "end": 979,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identificación",
+          "actual_text": "identificación",
+          "confidence": 0.732075035572052,
+          "start": 965,
+          "end": 979,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "PROFESION",
+        "score": 0.9487379193305969,
+        "word": " especialista en cirugía",
+        "start": 1162,
+        "end": 1185,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "PROFESION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "PROFESION",
+          "word": " especialista en cirugía",
+          "actual_text": "especialista en cirugía",
+          "confidence": 0.9487379193305969,
+          "start": 1162,
+          "end": 1185,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "PROFESION",
+          "word": " especialista en cirugía",
+          "actual_text": "especialista en cirugía",
+          "confidence": 0.9487379193305969,
+          "start": 1162,
+          "end": 1185,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "PROFESION": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identificación",
+        "actual_text": "identificación",
+        "confidence": 0.732075035572052,
+        "start": 965,
+        "end": 979,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " especialista en cirugía",
+        "actual_text": "especialista en cirugía",
+        "confidence": 0.9487379193305969,
+        "start": 1162,
+        "end": 1185,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identificación",
+        "actual_text": "identificación",
+        "confidence": 0.732075035572052,
+        "start": 965,
+        "end": 979,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " especialista en cirugía",
+        "actual_text": "especialista en cirugía",
+        "confidence": 0.9487379193305969,
+        "start": 1162,
+        "end": 1185,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

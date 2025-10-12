@@ -1,0 +1,124 @@
+{
+  "document_id": "c1efc6ff-1d69-408a-a4f5-d29789f443cb",
+  "success": true,
+  "anonymized_text": "En el informe de valoración clínica correspondiente al día XXX, se procede a la documentación de los hallazgos. La paciente, identificada como XXX, acude para seguimiento de su condición. Se ha verificado su identidad mediante el registro de su XXX, como parte de los protocolos de seguridad establecidos. En relación con los sistemas de identificación y aseguramiento, se confirma que el número de afiliación XXX se encuentra activo. Para cualquier gestión o comunicación urgente relacionada con este caso, queda registrado el contacto XXX bajo la categoría de familiares sujeto asistencia. Adicionalmente, en la documentación administrativa figuran las referencias XXX y XXX, que corresponden a procesos administrativos previos. El código XXX completa los registros identificativos del expediente. El presente documento ha sido redactado y verificado por la XXX, quien se responsabiliza del contenido clínico aquí descrito. La exploración física realizada no mostró hallazgos significativos y se programará un nuevo control según la evolución.",
+  "text_length": 1045,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.985475480556488,
+        "word": " familiares",
+        "start": 562,
+        "end": 572,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares",
+          "actual_text": "familiares",
+          "confidence": 0.985475480556488,
+          "start": 562,
+          "end": 572,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares",
+          "actual_text": "familiares",
+          "confidence": 0.985475480556488,
+          "start": 562,
+          "end": 572,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares",
+        "actual_text": "familiares",
+        "confidence": 0.985475480556488,
+        "start": 562,
+        "end": 572,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares",
+        "actual_text": "familiares",
+        "confidence": 0.985475480556488,
+        "start": 562,
+        "end": 572,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

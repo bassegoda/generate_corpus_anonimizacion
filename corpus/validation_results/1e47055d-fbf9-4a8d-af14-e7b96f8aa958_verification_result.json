@@ -1,0 +1,169 @@
+{
+  "document_id": "1e47055d-fbf9-4a8d-af14-e7b96f8aa958",
+  "success": true,
+  "anonymized_text": "**NOTA DE EVOLUCIÓN** Se realiza seguimiento de la paciente identificada con el número de historia clínica XXX en consulta externa. La paciente, de sexo XXX, fue valorada inicialmente el XXX por cuadro que en su momento fue adecuadamente documentado. En la actualidad se mantiene estable, con buen control sintomático. En relación con los dispositivos médicos implantados, se verifica el correcto funcionamiento del marcapasos con número de serie XXX y del monitor de glucosa continuo identificado como XXX. Ambos dispositivos muestran parámetros dentro de los rangos esperados según los últimos registros descargados. Los estudios complementarios realizados muestran hemograma y bioquímica dentro de límites normales. El electrocardiograma evidencia ritmo sinusal regular con adecuado captura del dispositivo. La radiografía de tórax control no muestra cambios significativos respecto a estudios previos. La paciente cuenta con número de beneficiaria del plan de salud XXX y documento de identidad XXX, ambos vigentes. Se ha coordinado su próxima revisión a través del XXX, donde continuará su seguimiento habitual. Como parte de la educación sanitaria proporcionada, se le ha recomendado consultar los recursos disponibles en el portal XXX para complementar la información sobre el manejo de su condición. Se mantiene el plan terapéutico actual y se citará para control en seis meses, o antes si presenta cualquier cambio en su situación clínica.",
+  "text_length": 1448,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.817914605140686,
+        "word": " plan",
+        "start": 956,
+        "end": 960,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.705903172492981,
+        "word": " documento",
+        "start": 976,
+        "end": 985,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.817914605140686,
+          "start": 956,
+          "end": 960,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento",
+          "actual_text": "documento",
+          "confidence": 0.705903172492981,
+          "start": 976,
+          "end": 985,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan",
+          "actual_text": "plan",
+          "confidence": 0.817914605140686,
+          "start": 956,
+          "end": 960,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento",
+          "actual_text": "documento",
+          "confidence": 0.705903172492981,
+          "start": 976,
+          "end": 985,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.817914605140686,
+        "start": 956,
+        "end": 960,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento",
+        "actual_text": "documento",
+        "confidence": 0.705903172492981,
+        "start": 976,
+        "end": 985,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan",
+        "actual_text": "plan",
+        "confidence": 0.817914605140686,
+        "start": 956,
+        "end": 960,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento",
+        "actual_text": "documento",
+        "confidence": 0.705903172492981,
+        "start": 976,
+        "end": 985,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

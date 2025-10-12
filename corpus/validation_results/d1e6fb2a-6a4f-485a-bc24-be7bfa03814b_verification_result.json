@@ -1,0 +1,124 @@
+{
+  "document_id": "d1e6fb2a-6a4f-485a-bc24-be7bfa03814b",
+  "success": true,
+  "anonymized_text": "En la valoración inicial de la nueva paciente, se procede a la verificación de su identidad mediante el documento nacional de identidad XXX, que queda registrado como identificador principal del sujeto de asistencia. La paciente es de sexo XXX, según consta en su documentación. Como parte de los protocolos de seguridad biométrica implementados, se ha capturado la XXX para su incorporación al sistema de identificación. El análisis del patrón dactilar confirma que se trata de una XXX, que ha sido debidamente registrada en nuestros sistemas de identificación biométrica. En lo referente a su cobertura sanitaria, la paciente presenta el número de beneficiario del plan de salud XXX, emitido bajo la responsabilidad de la XXX. Este número de beneficio del plan de salud se encuentra activo y en vigor. Para la gestión asistencial, se ha asignado el identificador de aseguramiento XXX, así como el número de historia clínica XXX, que será el de referencia para toda la documentación clínica futura. Dentro de nuestros sistemas institucionales, el identificador de contacto asistencial asignado es XXX, mientras que el código de sujeto de asistencia corresponde a XXX. Todos estos datos han sido verificados contra los registros centrales de la institución. Se recomienda a la paciente que para cualquier consulta sobre procedimientos o información general médica, consulte el portal web oficial disponible en XXX, donde encontrará recursos avalados por nuestra institución.",
+  "text_length": 1474,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7685776352882385,
+        "word": " plan de salud",
+        "start": 667,
+        "end": 680,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de salud",
+          "actual_text": "plan de salud",
+          "confidence": 0.7685776352882385,
+          "start": 667,
+          "end": 680,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de salud",
+          "actual_text": "plan de salud",
+          "confidence": 0.7685776352882385,
+          "start": 667,
+          "end": 680,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de salud",
+        "actual_text": "plan de salud",
+        "confidence": 0.7685776352882385,
+        "start": 667,
+        "end": 680,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de salud",
+        "actual_text": "plan de salud",
+        "confidence": 0.7685776352882385,
+        "start": 667,
+        "end": 680,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "document_id": "4a47322d-bec8-47a6-9c3f-24753224a39c",
+  "success": true,
+  "anonymized_text": "Informe de Interconsulta Fecha de la consulta: XXX. Estimada colega: Le remito el presente informe tras la valoración de la paciente en consultas externas. Se trata de una persona de sexo XXX, XXX, que fue derivada a este servicio para valoración quirúrgica. La exploración física realizada fue completa, observándose a la auscultación cardíaca un soplo sistólico II/VI, sin otras alteraciones significativas. La analítica general muestra una discreta leucocitosis, con el resto de parámetros dentro de rangos normales. La ecografía abdominal practicada revela hallazgos compatibles con el diagnóstico de presunción. Se ha coordinado con el Servicio de Cirugía, cuyo XXX de referencia ha revisado el caso y está de acuerdo con la propuesta de intervención. Todos los trámites administrativos se han gestionado a través del XXX, dependiente de la XXX. El número de identificación del dispositivo médico a utilizar durante el procedimiento es XXX. Para cualquier cuestión relacionada con este informe, puede contactarme a través del siguiente correo electrónico: XXX. Queda registrado el número de beneficiaria del plan de salud XXX, así como el documento nacional de identidad XXX, emitido en XXX. La profesional que realizará el acto quirúrgico será la XXX, tal como se ha planificado. Atentamente, XXX Especialista en Cirugía General",
+  "text_length": 1334,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7525591850280762,
+        "word": " plan de",
+        "start": 1113,
+        "end": 1120,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de",
+          "actual_text": "plan de",
+          "confidence": 0.7525591850280762,
+          "start": 1113,
+          "end": 1120,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de",
+          "actual_text": "plan de",
+          "confidence": 0.7525591850280762,
+          "start": 1113,
+          "end": 1120,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de",
+        "actual_text": "plan de",
+        "confidence": 0.7525591850280762,
+        "start": 1113,
+        "end": 1120,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de",
+        "actual_text": "plan de",
+        "confidence": 0.7525591850280762,
+        "start": 1113,
+        "end": 1120,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

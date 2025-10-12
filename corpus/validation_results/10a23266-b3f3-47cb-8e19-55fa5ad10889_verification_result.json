@@ -1,0 +1,174 @@
+{
+  "document_id": "10a23266-b3f3-47cb-8e19-55fa5ad10889",
+  "success": true,
+  "anonymized_text": "En la valoración geriátrica integral se recoge que se trata de una persona de **XXX** que presenta un cuadro de deterioro funcional progresivo. Durante la anamnesis se verifica que el **número de beneficiario del plan de salud** **XXX** se encuentra activo y vigente. La exploración física muestra una marcha inestable con necesidad de apoyo intermitente para la deambulación. En la revisión por sistemas, se constata normoglucemia según los controles realizados con el glucómetro cuyo **identificador de dispositivo** es **XXX**. Asimismo, se documenta que el **otro número de identificación** **XXX** corresponde al sensor de monitorización continua que porta el paciente. Los últimos registros del holter de eventos, con **identificador de dispositivo** **XXX**, muestran un ritmo sinusal estable sin arritmias significativas. Para la coordinación de la asistencia, queda registrado que mi **identificación de titulación personal sanitario** **XXX** acredita el **XXX** y que pueden contactarme para cualquier cuestión clínica a través del **correo electrónico** **XXX**. Respecto a la **identificación de aseguramiento** **XXX**, se confirma que la cobertura incluye los servicios de fisioterapia prescritos. Se recomienda seguimiento estrecho en consultas externas y valoración por trabajo social para optimizar los apoyos domiciliarios. El plan terapéutico se centrará en la recuperación funcional y la prevención de complicaciones.",
+  "text_length": 1438,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7396799921989441,
+        "word": " sanitario",
+        "start": 933,
+        "end": 942,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " sanitario",
+          "actual_text": "sanitario",
+          "confidence": 0.7396799921989441,
+          "start": 933,
+          "end": 942,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " sanitario",
+          "actual_text": "sanitario",
+          "confidence": 0.7396799921989441,
+          "start": 933,
+          "end": 942,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8705315589904785,
+        "word": " personal sanitario",
+        "start": 924,
+        "end": 942,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " personal sanitario",
+          "actual_text": "personal sanitario",
+          "confidence": 0.8705315589904785,
+          "start": 924,
+          "end": 942,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " personal sanitario",
+          "actual_text": "personal sanitario",
+          "confidence": 0.8705315589904785,
+          "start": 924,
+          "end": 942,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " sanitario",
+        "actual_text": "sanitario",
+        "confidence": 0.7396799921989441,
+        "start": 933,
+        "end": 942,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " personal sanitario",
+        "actual_text": "personal sanitario",
+        "confidence": 0.8705315589904785,
+        "start": 924,
+        "end": 942,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " sanitario",
+        "actual_text": "sanitario",
+        "confidence": 0.7396799921989441,
+        "start": 933,
+        "end": 942,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " personal sanitario",
+        "actual_text": "personal sanitario",
+        "confidence": 0.8705315589904785,
+        "start": 924,
+        "end": 942,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

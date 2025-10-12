@@ -1,0 +1,174 @@
+{
+  "document_id": "c643add7-7779-44c7-badd-055e9f54ba6a",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada, se documenta la evolución del paciente identificado con el número de beneficio del plan de salud XXX. El profesional que lidera el equipo asistencial tiene la de XXX y cuenta con el identificador de empleo personal sanitario XXX. Para cualquier gestión relacionada con la atención proporcionada, puede utilizarse el XXX. Los hallazgos de la exploración física actual revelan un abdomen blando y depresible, sin masas palpables ni signos de irritación peritoneal. La analítica completa muestra un hemograma dentro de parámetros normales y una función renal conservada. En cuanto a las pruebas de imagen, la ecografía abdominal realizada es informada como sin hallazgos significativos. El del paciente es XXX. Toda la documentación clínica se archiva bajo el número XXX y el identificador de acto sanitario XXX. La responsable de la atención es el XXX, con domicilio de la Luna 42. Para información general sobre los servicios disponibles, se pueden consultar los XXX y XXX. Asimismo, el acceso a la historia clínica digital completa del paciente está disponible a través de la XXX, donde se encuentra toda la información actualizada del proceso asistencial.",
+  "text_length": 1192,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.716584324836731,
+        "word": " Luna 42",
+        "start": 907,
+        "end": 914,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " Luna 42",
+          "actual_text": "Luna 42",
+          "confidence": 0.716584324836731,
+          "start": 907,
+          "end": 914,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " Luna 42",
+          "actual_text": "Luna 42",
+          "confidence": 0.716584324836731,
+          "start": 907,
+          "end": 914,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.8063786625862122,
+        "word": " la Luna 42",
+        "start": 904,
+        "end": 914,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " la Luna 42",
+          "actual_text": "la Luna 42",
+          "confidence": 0.8063786625862122,
+          "start": 904,
+          "end": 914,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " la Luna 42",
+          "actual_text": "la Luna 42",
+          "confidence": 0.8063786625862122,
+          "start": 904,
+          "end": 914,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CALLE": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CALLE",
+        "word": " Luna 42",
+        "actual_text": "Luna 42",
+        "confidence": 0.716584324836731,
+        "start": 907,
+        "end": 914,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " la Luna 42",
+        "actual_text": "la Luna 42",
+        "confidence": 0.8063786625862122,
+        "start": 904,
+        "end": 914,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CALLE",
+        "word": " Luna 42",
+        "actual_text": "Luna 42",
+        "confidence": 0.716584324836731,
+        "start": 907,
+        "end": 914,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " la Luna 42",
+        "actual_text": "la Luna 42",
+        "confidence": 0.8063786625862122,
+        "start": 904,
+        "end": 914,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

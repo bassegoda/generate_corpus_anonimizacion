@@ -1,0 +1,175 @@
+{
+  "document_id": "80339018-b3bd-48b1-a22f-00535161a3c5",
+  "success": true,
+  "anonymized_text": "En la documentación clínica del paciente con identificador XXX se procede a registrar los siguientes elementos de identificación biométrica verificados durante la consulta. Se ha obtenido la XXX, así como la XXX, ambas con calidad de captura suficiente para su incorporación al sistema. Como parte del protocolo de seguridad biométrica, también se ha registrado la XXX. Estos registros forman parte del protocolo de seguridad establecido. El profesional que atendió al paciente es un XXX con consulta en XXX, en la XXX. Para cualquier gestión o coordinación asistencial, queda registrado el número de contacto XXX. El identificador principal del sujeto de asistencia es XXX, asociado al número de serie del dispositivo clínico XXX utilizado durante la evaluación. Como parte de los recursos de información disponibles, se recomienda consultar el portal médico XXX donde podrá encontrar material de apoyo para el paciente. La historia clínica electrónica completa está disponible a través de la dirección XXX donde se mantendrá actualizada la evolución del caso. En la exploración física realizada se constata normotensión arterial, auscultación cardiorrespiratoria sin hallazgos patológicos y abdomen blando y depresible. Las pruebas analíticas muestran un hemograma dentro de parámetros normales y función hepática preservada. La radiografía de tórax no evidencia alteraciones pleuropulmonares significativas. Se mantendrá vigilancia activa según protocolo establecido.",
+  "text_length": 1470,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.8776860237121582,
+        "word": " portal médico",
+        "start": 846,
+        "end": 859,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " portal médico",
+          "actual_text": "portal médico",
+          "confidence": 0.8776860237121582,
+          "start": 846,
+          "end": 859,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " portal médico",
+          "actual_text": "portal médico",
+          "confidence": 0.8776860237121582,
+          "start": 846,
+          "end": 859,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8168729543685913,
+        "word": " clínica electrónica",
+        "start": 934,
+        "end": 953,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica electrónica",
+          "actual_text": "clínica electrónica",
+          "confidence": 0.8168729543685913,
+          "start": 934,
+          "end": 953,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica electrónica",
+          "actual_text": "clínica electrónica",
+          "confidence": 0.8168729543685913,
+          "start": 934,
+          "end": 953,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " portal médico",
+        "actual_text": "portal médico",
+        "confidence": 0.8776860237121582,
+        "start": 846,
+        "end": 859,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica electrónica",
+        "actual_text": "clínica electrónica",
+        "confidence": 0.8168729543685913,
+        "start": 934,
+        "end": 953,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " portal médico",
+        "actual_text": "portal médico",
+        "confidence": 0.8776860237121582,
+        "start": 846,
+        "end": 859,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica electrónica",
+        "actual_text": "clínica electrónica",
+        "confidence": 0.8168729543685913,
+        "start": 934,
+        "end": 953,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

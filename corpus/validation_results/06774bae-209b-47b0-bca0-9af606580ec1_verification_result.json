@@ -1,0 +1,124 @@
+{
+  "document_id": "06774bae-209b-47b0-bca0-9af606580ec1",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Preoperatoria Se realiza valoración preoperatoria completa del paciente que será intervenido de hernia inguinal derecha. El estado general del paciente es satisfactorio, sin contraindicaciones para procedimiento anestésico general. En la exploración física se constata tensión arterial de 128/76 mmHg, frecuencia cardíaca de 72 lpm y saturación de oxígeno del 96%. El examen abdominal revela presencia de tumoración inguinal derecha reductible, sin signos de incarceración. Los ruidos hidroaéreos son normales y no se palpan masas abdominales patológicas. Los estudios complementarios incluyen analítica completa con hemograma, coagulación y bioquímica dentro de parámetros normales. El electrocardiograma muestra ritmo sinusal a 68 lpm sin alteraciones de la repolarización. La radiografía de tórax es normal, con campos pulmonares libres y silueta cardíaca conservada. La intervención quirúrgica será realizada por la XXX, XXX con amplia experiencia en este tipo de procedimientos. Durante la consulta, la doctora explicó detalladamente la técnica de herniorrafia que se llevará a cabo, así como los riesgos y beneficios esperados. Se verificó que el dispositivo XXX a utilizar cuenta con identificación XXX y se encuentra en perfectas condiciones de esterilidad. El paciente acudirá a la consulta postoperatoria en el consultorio ubicado en XXX, donde se realizará el seguimiento habitual. Como XXX responsable de la valoración, considero que el paciente presenta condiciones óptimas para el procedimiento planificado y comprende perfectamente las indicaciones pre y postoperatorias. No se identificaron factores de riesgo adicionales que contraindiquen la intervención programada.",
+  "text_length": 1706,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.8968403339385986,
+        "word": " XXX,",
+        "start": 942,
+        "end": 946,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " XXX,",
+          "actual_text": "XXX,",
+          "confidence": 0.8968403339385986,
+          "start": 942,
+          "end": 946,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " XXX,",
+          "actual_text": "XXX,",
+          "confidence": 0.8968403339385986,
+          "start": 942,
+          "end": 946,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " XXX,",
+        "actual_text": "XXX,",
+        "confidence": 0.8968403339385986,
+        "start": 942,
+        "end": 946,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " XXX,",
+        "actual_text": "XXX,",
+        "confidence": 0.8968403339385986,
+        "start": 942,
+        "end": 946,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

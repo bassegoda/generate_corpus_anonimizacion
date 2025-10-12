@@ -1,0 +1,221 @@
+{
+  "document_id": "072435e7-b8ff-4fe2-a8b8-d7383932f3dd",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Clínica La paciente XXX acude a consulta para valoración quirúrgica programada. Se identifica en el sistema mediante el documento nacional de identidad XXX y se verifica su identidad biométrica mediante XXX, con concordancia satisfactoria en nuestro registro. La exploración física muestra buen estado general, con constantes vitales dentro de la normalidad. Los análisis preoperatorios evidencian un hemograma completo sin alteraciones significativas y función hepatorrenal conservada. La ecografía abdominal realizada no muestra hallazgos patológicos relevantes. El procedimiento quirúrgico indicado será realizado por el XXX del XXX, donde consta el expediente clínico completo de la paciente. El dispositivo médico a utilizar para la intervención, identificado con número de serie XXX, se encuentra en óptimas condiciones de esterilización y funcionamiento. La documentación de aseguramiento sanitario corresponde a la cobertura proporcionada por el XXX de XXX, con número de identificación XXX. Como contacto principal para aspectos relacionados con la asistencia se ha designado a XXX, familiar directo de la paciente. Para cualquier comunicación administrativa posterior al procedimiento, la institución mantiene disponible el número de fax XXX, ubicado en XXX. Se procederá con la programación quirúrgica una vez completados todos los requisitos preoperatorios establecidos en el protocolo.",
+  "text_length": 1420,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9415732622146606,
+        "word": " documento nacional de identidad",
+        "start": 142,
+        "end": 173,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9719067811965942,
+        "word": " familiar directo",
+        "start": 1114,
+        "end": 1130,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad",
+          "actual_text": "documento nacional de identidad",
+          "confidence": 0.9415732622146606,
+          "start": 142,
+          "end": 173,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directo",
+          "actual_text": "familiar directo",
+          "confidence": 0.9719067811965942,
+          "start": 1114,
+          "end": 1130,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad",
+          "actual_text": "documento nacional de identidad",
+          "confidence": 0.9415732622146606,
+          "start": 142,
+          "end": 173,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directo",
+          "actual_text": "familiar directo",
+          "confidence": 0.9719067811965942,
+          "start": 1114,
+          "end": 1130,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7492209076881409,
+        "word": " familiar directo de",
+        "start": 1114,
+        "end": 1133,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directo de",
+          "actual_text": "familiar directo de",
+          "confidence": 0.7492209076881409,
+          "start": 1114,
+          "end": 1133,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar directo de",
+          "actual_text": "familiar directo de",
+          "confidence": 0.7492209076881409,
+          "start": 1114,
+          "end": 1133,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "FAMILIARES_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad",
+        "actual_text": "documento nacional de identidad",
+        "confidence": 0.9415732622146606,
+        "start": 142,
+        "end": 173,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directo",
+        "actual_text": "familiar directo",
+        "confidence": 0.9719067811965942,
+        "start": 1114,
+        "end": 1130,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directo de",
+        "actual_text": "familiar directo de",
+        "confidence": 0.7492209076881409,
+        "start": 1114,
+        "end": 1133,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad",
+        "actual_text": "documento nacional de identidad",
+        "confidence": 0.9415732622146606,
+        "start": 142,
+        "end": 173,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directo",
+        "actual_text": "familiar directo",
+        "confidence": 0.9719067811965942,
+        "start": 1114,
+        "end": 1130,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar directo de",
+        "actual_text": "familiar directo de",
+        "confidence": 0.7492209076881409,
+        "start": 1114,
+        "end": 1133,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

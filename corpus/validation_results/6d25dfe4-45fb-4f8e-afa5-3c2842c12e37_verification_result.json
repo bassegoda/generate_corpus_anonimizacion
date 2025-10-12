@@ -1,0 +1,174 @@
+{
+  "document_id": "6d25dfe4-45fb-4f8e-afa5-3c2842c12e37",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude a consulta para seguimiento. Se confirma su identidad al inicio de la sesión, correspondiendo a una persona de sexo XXX. La identificación principal se realiza mediante el documento nacional de salud XXX, verificándose también la identidad con el número de beneficiaria del plan de salud XXX y el número de identificación asistencial XXX. Como medida adicional de seguridad biométrica, se registra la huella dactilar derecha índice, que presenta un patrón de lazo característico, confirmándose así los identificadores biométricos correspondientes a XXX. La paciente fue valorada previamente en el XXX y derivada a este servicio de especialidades para evaluación complementaria. Durante la exploración física actual se objetiva buen estado general, con constantes dentro de la normalidad y exploración abdominal sin hallazgos relevantes. Los estudios analíticos realizados muestran parámetros bioquímicos dentro de rangos normales. La ecografía abdominal programada evidencia morfología y ecogenicidad hepática conservada, sin evidenciar lesiones focales. Se establece plan de seguimiento con controles periódicos. Toda la documentación clínica queda registrada en el sistema electrónico del XXX, accesible mediante la dirección de protocolo de internet XXX para consultas futuras. La gestión asistencial se coordina entre el propio hospital y la XXX, en cumplimiento de los protocolos establecidos por el XXX. Para cualquier comunicación relacionada con su proceso asistencial, se dispone del correo electrónico XXX como contacto principal, con copia a XXX para garantizar la continuidad asistencial. La identificación completa de la paciente en nuestro sistema corresponde a XXX, con número de identificación asistencial XXX. Para trámites administrativos puede utilizarse el fax XXX.",
+  "text_length": 1832,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8829995393753052,
+        "word": " documento nacional de salud XXX",
+        "start": 219,
+        "end": 250,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de salud XXX",
+          "actual_text": "documento nacional de salud XXX",
+          "confidence": 0.8829995393753052,
+          "start": 219,
+          "end": 250,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de salud XXX",
+          "actual_text": "documento nacional de salud XXX",
+          "confidence": 0.8829995393753052,
+          "start": 219,
+          "end": 250,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.855787456035614,
+        "word": " documento nacional de salud XXX",
+        "start": 219,
+        "end": 250,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de salud XXX",
+          "actual_text": "documento nacional de salud XXX",
+          "confidence": 0.855787456035614,
+          "start": 219,
+          "end": 250,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de salud XXX",
+          "actual_text": "documento nacional de salud XXX",
+          "confidence": 0.855787456035614,
+          "start": 219,
+          "end": 250,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de salud XXX",
+        "actual_text": "documento nacional de salud XXX",
+        "confidence": 0.8829995393753052,
+        "start": 219,
+        "end": 250,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de salud XXX",
+        "actual_text": "documento nacional de salud XXX",
+        "confidence": 0.855787456035614,
+        "start": 219,
+        "end": 250,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de salud XXX",
+        "actual_text": "documento nacional de salud XXX",
+        "confidence": 0.8829995393753052,
+        "start": 219,
+        "end": 250,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de salud XXX",
+        "actual_text": "documento nacional de salud XXX",
+        "confidence": 0.855787456035614,
+        "start": 219,
+        "end": 250,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

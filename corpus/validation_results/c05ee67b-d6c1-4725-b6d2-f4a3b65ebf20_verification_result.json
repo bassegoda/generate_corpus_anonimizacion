@@ -1,0 +1,124 @@
+{
+  "document_id": "c05ee67b-d6c1-4725-b6d2-f4a3b65ebf20",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA** Paciente que acude para seguimiento y valoración de su proceso. Refiere mejoría parcial de la sintomatología referida en la última consulta. Se mantiene asintomática desde el punto de vista cardiovascular. La exploración física actual muestra tonos cardíacos rítmicos sin soplos, y auscultación pulmonar limpia con buena entrada de aire bilateralmente. En relación a los contactos para la coordinación asistencial, se ha utilizado el ** XXX** para confirmar la cita de seguimiento. Para la remisión de documentación complementaria al especialista de referencia, se ha empleado la dirección de ** XXX**. Asimismo, se ha facilitado a la paciente el ** XXX** como vía alternativa para la recepción de informes. Como persona de apoyo y contacto principal se ha registrado a ** XXX**, quien puede ser localizada a través del mismo ** XXX** que la paciente ha autorizado para comunicaciones clínicas. Se registra además como familiar de apoyo a XXX para la coordinación de aspectos asistenciales. La residencia actual se sitúa en ** XXX**, ** XXX**. En el contexto de la documentación del caso, se actualiza el ** XXX** correspondiente al registro principal. La última revisión del cuadro clínico data del ** XXX**. Se anota para los registros pertinentes el ** XXX**. En relación al dispositivo médico de monitorización domiciliaria en uso, se verifica el ** XXX** que aparece en el equipo. Los análisis recientes muestran un perfil lipídico dentro de rangos aceptables y función tiroidea normal. La ecografía abdominal de control no evidencia hallazgos significativos. Se recomienda continuar con el plan terapéutico establecido y reevaluar en 6 meses.",
+  "text_length": 1680,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9784309267997742,
+        "word": " familiar de apoyo",
+        "start": 951,
+        "end": 968,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de apoyo",
+          "actual_text": "familiar de apoyo",
+          "confidence": 0.9784309267997742,
+          "start": 951,
+          "end": 968,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar de apoyo",
+          "actual_text": "familiar de apoyo",
+          "confidence": 0.9784309267997742,
+          "start": 951,
+          "end": 968,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de apoyo",
+        "actual_text": "familiar de apoyo",
+        "confidence": 0.9784309267997742,
+        "start": 951,
+        "end": 968,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar de apoyo",
+        "actual_text": "familiar de apoyo",
+        "confidence": 0.9784309267997742,
+        "start": 951,
+        "end": 968,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "document_id": "03b1f7bf-a436-4476-b296-6c4661fcd823",
+  "success": true,
+  "anonymized_text": "**Nota de Interconsulta - Endocrinología** Se remite a la paciente **XXX** para valoración y seguimiento especializado de su diabetes mellitus tipo 2. La paciente ha sido manejada de forma consecutiva desde el **XXX** y posteriormente desde el **XXX**, donde se identificó la necesidad de un abordaje multidisciplinar más intensivo. En la última analítica de control, se observa una hemoglobina glicosilada de 8.5%, con perfil lipídico dentro de rangos aceptables y función renal conservada. La exploración física actual es anodina, sin signos de neuropatía periférica ni pie diabético. No obstante, se considera beneficioso integrarla en el **XXX** que coordina nuestro servicio para optimizar su educación terapéutica y adherencia al tratamiento. Para la gestión documental, su identificación de aseguramiento es **XXX** y el número de contacto asistencial asignado para este proceso es **ID-2024-789123**, registrado en el sistema como **XXX**. Toda la información relevante para el paciente está disponible a través del portal **XXX**, recurso avalado por el **XXX** y que se le ha recomendado consultar. Se solicita coordinación con el ** Clínico San Carlos** para cualquier eventualidad que requiera atención hospitalaria. La historia clínica digital unificada puede consultarse en la plataforma **XXX**. Para contactos urgentes, se dispone del número de teléfono **XXX**. La paciente ha manifestado interés en recursos formativos, mencionando su condición de **XXX**, lo que facilita una comprensión más profunda de su patología. Se adjuntan los informes de evolución con códigos **XXX** y **XXX** para su completa evaluación.",
+  "text_length": 1633,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7312706112861633,
+        "word": "2024-789123",
+        "start": 894,
+        "end": 905,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9482946991920471,
+        "word": " Clínico San Carlos",
+        "start": 1144,
+        "end": 1162,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 1,
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "2024-789123",
+          "actual_text": "2024-789123",
+          "confidence": 0.7312706112861633,
+          "start": 894,
+          "end": 905,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9482946991920471,
+          "start": 1144,
+          "end": 1162,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "2024-789123",
+          "actual_text": "2024-789123",
+          "confidence": 0.7312706112861633,
+          "start": 894,
+          "end": 905,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9482946991920471,
+          "start": 1144,
+          "end": 1162,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 4,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9360144138336182,
+        "word": " **",
+        "start": 889,
+        "end": 891,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8885167837142944,
+        "word": "ID",
+        "start": 891,
+        "end": 893,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7042504549026489,
+        "word": "-",
+        "start": 893,
+        "end": 894,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9308905601501465,
+        "word": " ** Clínico San Carlos",
+        "start": 1141,
+        "end": 1162,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 4,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 3,
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 3,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9360144138336182,
+          "start": 889,
+          "end": 891,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "ID",
+          "actual_text": "ID",
+          "confidence": 0.8885167837142944,
+          "start": 891,
+          "end": 893,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.7042504549026489,
+          "start": 893,
+          "end": 894,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos",
+          "actual_text": "** Clínico San Carlos",
+          "confidence": 0.9308905601501465,
+          "start": 1141,
+          "end": 1162,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9360144138336182,
+          "start": 889,
+          "end": 891,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "ID",
+          "actual_text": "ID",
+          "confidence": 0.8885167837142944,
+          "start": 891,
+          "end": 893,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.7042504549026489,
+          "start": 893,
+          "end": 894,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " ** Clínico San Carlos",
+          "actual_text": "** Clínico San Carlos",
+          "confidence": 0.9308905601501465,
+          "start": 1141,
+          "end": 1162,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 6,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NUMERO_TELEFONO": 4,
+      "HOSPITAL": 2
+    },
+    "entities_by_confidence": {
+      "high": 4,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "2024-789123",
+        "actual_text": "2024-789123",
+        "confidence": 0.7312706112861633,
+        "start": 894,
+        "end": 905,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9482946991920471,
+        "start": 1144,
+        "end": 1162,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9360144138336182,
+        "start": 889,
+        "end": 891,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "ID",
+        "actual_text": "ID",
+        "confidence": 0.8885167837142944,
+        "start": 891,
+        "end": 893,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.7042504549026489,
+        "start": 893,
+        "end": 894,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos",
+        "actual_text": "** Clínico San Carlos",
+        "confidence": 0.9308905601501465,
+        "start": 1141,
+        "end": 1162,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "2024-789123",
+        "actual_text": "2024-789123",
+        "confidence": 0.7312706112861633,
+        "start": 894,
+        "end": 905,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9482946991920471,
+        "start": 1144,
+        "end": 1162,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9360144138336182,
+        "start": 889,
+        "end": 891,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "ID",
+        "actual_text": "ID",
+        "confidence": 0.8885167837142944,
+        "start": 891,
+        "end": 893,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.7042504549026489,
+        "start": 893,
+        "end": 894,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " ** Clínico San Carlos",
+        "actual_text": "** Clínico San Carlos",
+        "confidence": 0.9308905601501465,
+        "start": 1141,
+        "end": 1162,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 6,
+    "suspicious_detections": 6,
+    "xxxxxx_detections": 0,
+    "other_detections": 6
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

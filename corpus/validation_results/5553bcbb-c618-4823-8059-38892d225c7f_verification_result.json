@@ -1,0 +1,124 @@
+{
+  "document_id": "5553bcbb-c618-4823-8059-38892d225c7f",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE CARDIOLOGÍA** En la consulta de seguimiento se reevalúa al paciente para valorar evolución de su patología cardiovascular de base. El paciente refiere haber mantenido contacto telefónico con el **XXX**, lo cual considera de gran utilidad para el manejo de su condición. Se encuentra actualmente como **XXX** de un pariente con dependencia funcional, situación que genera cierto nivel de estrés. La exploración física actual muestra presión arterial de 128/78 mmHg, frecuencia cardíaca de 68 lpm regular. Resto de exploración por sistemas dentro de límites normales. Se revisan las pruebas complementarias realizadas el **XXX**, mostrando mejoría en los parámetros metabólicos respecto a controles previos. Se procede a la actualización de datos de contacto en el sistema, registrando el domicilio en **XXX** y el ** XXX** para futuras comunicaciones. El **** del paciente es **XXX** y se verifica que su historia clínica **XXX** se encuentra correctamente vinculada. El **** del monitor de presión arterial que utiliza en domicilio es **XXX**. Dada la complejidad del caso, se ha derivado para valoración al **XXX** de referencia, cuyo **** acredita su **XXX** y especialización. El **** de dicho especialista es **XXX**. Todo el seguimiento se coordina desde el **XXX**, donde se realizarán los próximos controles programados. Se mantiene el plan terapéutico actual y se cita para reevaluación en 3 meses, con recomendación de continuar la participación activa en las sesiones de apoyo psicoeducativo.",
+  "text_length": 1535,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9864146113395691,
+        "word": " pariente",
+        "start": 347,
+        "end": 355,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " pariente",
+          "actual_text": "pariente",
+          "confidence": 0.9864146113395691,
+          "start": 347,
+          "end": 355,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " pariente",
+          "actual_text": "pariente",
+          "confidence": 0.9864146113395691,
+          "start": 347,
+          "end": 355,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " pariente",
+        "actual_text": "pariente",
+        "confidence": 0.9864146113395691,
+        "start": 347,
+        "end": 355,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " pariente",
+        "actual_text": "pariente",
+        "confidence": 0.9864146113395691,
+        "start": 347,
+        "end": 355,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

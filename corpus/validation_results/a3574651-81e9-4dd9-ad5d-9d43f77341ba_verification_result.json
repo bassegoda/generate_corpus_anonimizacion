@@ -1,0 +1,124 @@
+{
+  "document_id": "a3574651-81e9-4dd9-ad5d-9d43f77341ba",
+  "success": true,
+  "anonymized_text": "Informe de Interconsulta Se remite a la paciente con identificador asistencial XXX para valoración por el servicio de cirugía. La paciente, de sexo XXX, se presenta acompañada por la XXX, quien reside en XXX y ha facilitado su número de contacto para cualquier gestión relacionada con la asistencia. La exploración física actual revela abdomen blando y depresible, sin signos de irritación peritoneal. Los ruidos hidroaéreos están presentes en los cuatro cuadrantes. Las constantes vitales se mantienen dentro de parámetros normales. En los estudios complementarios realizados, la analítica muestra una discreta leucocitosis sin desviación izquierda, y la ecografía abdominal no evidencia colecciones ni hallazgos significativos. El profesional que asume la responsabilidad del caso es el XXX del XXX, centro donde se realizará el seguimiento. Para la coordinación de la asistencia, puede utilizarse el número de fax XXX, ubicado en las instalaciones del XXX. Queda registrado el documento de identidad XXX y el identificador de aseguramiento XXX, correspondientes al país XXX. Como dato administrativo adicional, consta en nuestro sistema el identificador XXX para todos los trámites asistenciales internos. Se recomienda monitorización estrecha y nueva valoración en 24-48 horas para decidir conducta terapéutica definitiva. Quedamos a su disposición para cualquier aclaración complementaria.",
+  "text_length": 1394,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7944796681404114,
+        "word": " identificador de aseguramiento XXX",
+        "start": 1012,
+        "end": 1046,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identificador de aseguramiento XXX",
+          "actual_text": "identificador de aseguramiento XXX",
+          "confidence": 0.7944796681404114,
+          "start": 1012,
+          "end": 1046,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " identificador de aseguramiento XXX",
+          "actual_text": "identificador de aseguramiento XXX",
+          "confidence": 0.7944796681404114,
+          "start": 1012,
+          "end": 1046,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identificador de aseguramiento XXX",
+        "actual_text": "identificador de aseguramiento XXX",
+        "confidence": 0.7944796681404114,
+        "start": 1012,
+        "end": 1046,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " identificador de aseguramiento XXX",
+        "actual_text": "identificador de aseguramiento XXX",
+        "confidence": 0.7944796681404114,
+        "start": 1012,
+        "end": 1046,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

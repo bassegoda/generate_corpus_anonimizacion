@@ -1,0 +1,174 @@
+{
+  "document_id": "49fe94f8-35a2-49ac-b426-4d114db6f262",
+  "success": true,
+  "anonymized_text": "Informe de Consulta de Geriatría Paciente que acude a revisión de seguimiento por su proceso crónico. A la anamnesis refiere estabilidad clínica general, manteniendo la autonomía para las actividades básicas de la vida diaria. La exploración física actual muestra tensión arterial de 135/80 mmHg, frecuencia cardíaca de 68 lpm y saturación de oxígeno del 96%. En la auscultación cardiorrespiratoria no se evidencian soplos ni ruidos sobreañadidos. El abdomen es blando y depreciable, sin masas ni visceromegalias. Se revisan las pruebas complementarias realizadas el mes pasado, donde la analítica muestra un perfil lipídico dentro de objetivos terapéuticos y función renal conservada. La densitometría ósea evidencia osteopenia estable en columna lumbar, por lo que se recomienda mantener suplementación de calcio y vitamina D. En cuanto a su situación social, cabe destacar que cuenta con el apoyo de su XXX, quien se muestra muy colaboradora en el seguimiento del tratamiento. Durante la consulta se ha coordinado la próxima revisión con la XXX para evaluar la evolución de su patología osteoarticular. La XXX ha indicado que mantendremos la misma pauta de analgesia de fondo. El estado general de la paciente XXX, de XXX, se considera satisfactorio. Se programará control analítico para dentro de seis meses y se citará para próxima consulta de geriatría. Queda registrado en su historia clínica con referencia XXX. Cabe mencionar que en el entorno familiar, su XXX de XXX también está bajo nuestro seguimiento en el servicio, aunque con diferentes patologías asociadas a su edad. Se mantiene el plan terapéutico actual y se enfatiza en la importancia de la adherencia farmacológica y la realización de ejercicio físico adaptado a sus capacidades. El pronóstico funcional se considera favorable dentro de la cronicidad de sus procesos.",
+  "text_length": 1839,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.885690450668335,
+        "word": " familiar",
+        "start": 1453,
+        "end": 1461,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.885690450668335,
+          "start": 1453,
+          "end": 1461,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.885690450668335,
+          "start": 1453,
+          "end": 1461,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8012633919715881,
+        "word": " XXX de XXX",
+        "start": 1466,
+        "end": 1476,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " XXX de XXX",
+          "actual_text": "XXX de XXX",
+          "confidence": 0.8012633919715881,
+          "start": 1466,
+          "end": 1476,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " XXX de XXX",
+          "actual_text": "XXX de XXX",
+          "confidence": 0.8012633919715881,
+          "start": 1466,
+          "end": 1476,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.885690450668335,
+        "start": 1453,
+        "end": 1461,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " XXX de XXX",
+        "actual_text": "XXX de XXX",
+        "confidence": 0.8012633919715881,
+        "start": 1466,
+        "end": 1476,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.885690450668335,
+        "start": 1453,
+        "end": 1461,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " XXX de XXX",
+        "actual_text": "XXX de XXX",
+        "confidence": 0.8012633919715881,
+        "start": 1466,
+        "end": 1476,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

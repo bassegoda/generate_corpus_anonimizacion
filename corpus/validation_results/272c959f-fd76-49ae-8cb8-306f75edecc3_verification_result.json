@@ -1,0 +1,174 @@
+{
+  "document_id": "272c959f-fd76-49ae-8cb8-306f75edecc3",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Geriátrica Integral Paciente de XXX que acude a consulta programada para valoración geriátrica en el XXX. La asistencia se enmarca dentro del programa de atención a pacientes crónicos complejos establecido en la XXX. En la exploración física se constata estado general aceptable, manteniendo autonomía para las actividades básicas de la vida diaria. Como parte del protocolo de identificación biométrica del paciente, se verifica la XXX, que coincide con los registros del sistema. Cabe destacar que la XXX presenta características normales para la edad del paciente. El paciente refiere que su vehículo, identificado con la placa XXX, le facilita el acceso a los servicios sanitarios. Se confirma que su número de teléfono de contacto actual es el XXX para cualquier comunicación relacionada con su seguimiento clínico. En cuanto a la documentación administrativa, se verifica que su tarjeta sanitaria individual corresponde al código XXX, y el número de identificación de aseguramiento es XXX. El profesional sanitario que realiza la valoración utiliza su identificación de empleo personal sanitario para el registro en la historia clínica electrónica. Los estudios complementarios realizados muestran parámetros analíticos dentro de la normalidad para su grupo etario, con perfil lipídico aceptable y función renal conservada. La radiografía de tórax no evidencia hallazgos significativos. Se programará seguimiento en consultas externas según protocolo establecido en nuestro territorio.",
+  "text_length": 1513,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7247894406318665,
+        "word": " personal sanitario",
+        "start": 1105,
+        "end": 1123,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " personal sanitario",
+          "actual_text": "personal sanitario",
+          "confidence": 0.7247894406318665,
+          "start": 1105,
+          "end": 1123,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " personal sanitario",
+          "actual_text": "personal sanitario",
+          "confidence": 0.7247894406318665,
+          "start": 1105,
+          "end": 1123,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8295302391052246,
+        "word": " historia clínica electrónica",
+        "start": 1147,
+        "end": 1175,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica electrónica",
+          "actual_text": "historia clínica electrónica",
+          "confidence": 0.8295302391052246,
+          "start": 1147,
+          "end": 1175,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica electrónica",
+          "actual_text": "historia clínica electrónica",
+          "confidence": 0.8295302391052246,
+          "start": 1147,
+          "end": 1175,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " personal sanitario",
+        "actual_text": "personal sanitario",
+        "confidence": 0.7247894406318665,
+        "start": 1105,
+        "end": 1123,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica electrónica",
+        "actual_text": "historia clínica electrónica",
+        "confidence": 0.8295302391052246,
+        "start": 1147,
+        "end": 1175,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " personal sanitario",
+        "actual_text": "personal sanitario",
+        "confidence": 0.7247894406318665,
+        "start": 1105,
+        "end": 1123,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica electrónica",
+        "actual_text": "historia clínica electrónica",
+        "confidence": 0.8295302391052246,
+        "start": 1147,
+        "end": 1175,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

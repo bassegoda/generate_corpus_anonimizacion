@@ -1,0 +1,174 @@
+{
+  "document_id": "ca22c062-42b3-4eeb-8aa8-d29eb8416804",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA** En la consulta del día XXX se atiende al paciente para seguimiento de su patología crónica. El sujeto de asistencia, identificado con el número XXX, se encuentra en situación de estabilidad clínica. Como dato anamnésico relevante, se confirma que el paciente es XXX, información que queda registrada de forma prominente en su historia digital. Para una identificación inequívoca, se ha procedido a la verificación biométrica mediante la XXX, asociada al identificador XXX. El número de beneficiario del plan de salud activo es el XXX. En relación con la documentación administrativa, se verifica la tarjeta de aseguramiento con código XXX y el documento de identidad XXX. Para posibles comunicaciones clínicas, se dispone del correo_electronico XXX. En el apartado de otros datos de asistencia, se anota la referencia XXX correspondiente al sistema de gestión de episodios. El profesional que suscribe el presente informe está acreditado con el XXX. La exploración física realizada muestra parámetros dentro de la normalidad, con tensión arterial 125/80 mmHg y frecuencia cardíaca 72 lpm. Los resultados analíticos recientes no presentan hallazgos significativos y la radiografía de tórax informa de campos pulmonares libres. Se mantiene el tratamiento habitual y se cita para control en tres meses.",
+  "text_length": 1331,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7747023105621338,
+        "word": " tarjeta de aseguramiento",
+        "start": 631,
+        "end": 655,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " tarjeta de aseguramiento",
+          "actual_text": "tarjeta de aseguramiento",
+          "confidence": 0.7747023105621338,
+          "start": 631,
+          "end": 655,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " tarjeta de aseguramiento",
+          "actual_text": "tarjeta de aseguramiento",
+          "confidence": 0.7747023105621338,
+          "start": 631,
+          "end": 655,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9375301599502563,
+        "word": " gestión de",
+        "start": 884,
+        "end": 894,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " gestión de",
+          "actual_text": "gestión de",
+          "confidence": 0.9375301599502563,
+          "start": 884,
+          "end": 894,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " gestión de",
+          "actual_text": "gestión de",
+          "confidence": 0.9375301599502563,
+          "start": 884,
+          "end": 894,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " tarjeta de aseguramiento",
+        "actual_text": "tarjeta de aseguramiento",
+        "confidence": 0.7747023105621338,
+        "start": 631,
+        "end": 655,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " gestión de",
+        "actual_text": "gestión de",
+        "confidence": 0.9375301599502563,
+        "start": 884,
+        "end": 894,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " tarjeta de aseguramiento",
+        "actual_text": "tarjeta de aseguramiento",
+        "confidence": 0.7747023105621338,
+        "start": 631,
+        "end": 655,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " gestión de",
+        "actual_text": "gestión de",
+        "confidence": 0.9375301599502563,
+        "start": 884,
+        "end": 894,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

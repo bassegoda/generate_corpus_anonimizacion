@@ -1,0 +1,124 @@
+{
+  "document_id": "f16998cf-5a40-4a5e-ae64-7aca275c3d0e",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE ATENCIÓN PRIMARIA** Paciente que acude a consulta procedente del XXX para seguimiento. Se identifica con el documento de aseguramiento XXX. Durante la anamnesis se recoge que reside en XXX y que su nacionalidad es XXX. El sexo del sujeto de asistencia es XXX. En la exploración física actual se objetiva buen estado general, normohidratada. Auscultación cardiorrespiratoria rítmica sin soplos, con murmullo vesicular conservado. Abdomen blando y depresible sin masas palpables. Extremidades sin edemas. Respecto a los antecedentes complementarios, se verifica en el sistema el identificador del sujeto de asistencia XXX. Como parte del protocolo de seguridad, se confirman los números de serie de dispositivos médicos registrados bajo los códigos XXX y XXX, que se encuentran en correcto estado de funcionamiento. Para completar la valoración, se recomienda consultar los protocolos actualizados disponibles en nuestro portal institucional XXX. Se ha facilitado al sujeto asistencial el canal de comunicación corporativo XXX para resolver posibles dudas. Cabe mencionar que en el proceso de acompañamiento participa el XXX, quien se muestra colaborador en las indicaciones terapéuticas. Se mantiene seguimiento ambulatorio con control en un mes, considerando la estabilidad clínica actual y la adecuada adherencia al tratamiento establecido.",
+  "text_length": 1374,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9038771986961365,
+        "word": " documento de aseguramiento",
+        "start": 141,
+        "end": 167,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento de aseguramiento",
+          "actual_text": "documento de aseguramiento",
+          "confidence": 0.9038771986961365,
+          "start": 141,
+          "end": 167,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento de aseguramiento",
+          "actual_text": "documento de aseguramiento",
+          "confidence": 0.9038771986961365,
+          "start": 141,
+          "end": 167,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento de aseguramiento",
+        "actual_text": "documento de aseguramiento",
+        "confidence": 0.9038771986961365,
+        "start": 141,
+        "end": 167,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento de aseguramiento",
+        "actual_text": "documento de aseguramiento",
+        "confidence": 0.9038771986961365,
+        "start": 141,
+        "end": 167,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

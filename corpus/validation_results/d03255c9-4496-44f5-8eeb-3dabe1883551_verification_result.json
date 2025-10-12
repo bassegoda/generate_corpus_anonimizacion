@@ -1,0 +1,169 @@
+{
+  "document_id": "d03255c9-4496-44f5-8eeb-3dabe1883551",
+  "success": true,
+  "anonymized_text": "En la valoración geriátrica integral se recoge que el sujeto de asistencia, con una de XXX, presenta un buen soporte social y participa activamente en un XXX. Se ha verificado que el dispositivo de monitorización continua de glucosa, con XXX, se encuentra correctamente calibrado y transmitiendo datos al sistema. El cuidador principal, de XXX y con XXX, ha recibido formación específica sobre el manejo de la medicación. Dicho profesional cuenta con la titulación de XXX y puede ser localizado en el XXX para cualquier consulta relacionada con la evolución. Respecto a la movilidad, se ha recomendado el uso del vehículo adaptado con XXX para los desplazamientos a consultas externas. El sujeto reside en la dirección XXX, donde se han implementado las adaptaciones necesarias para la seguridad en las actividades de la vida diaria. Para seguimiento telemático, se ha proporcionado al cuidador la XXX donde podrá acceder a los recursos educativos sobre el manejo de la patología crónica. El plan terapéutico incluye fisioterapia respiratoria y se ha gestionado el número de beneficio del plan de salud XXX. Como se registra que el paciente mantiene autonomía preservada para las actividades instrumentales y muestra buena adherencia terapéutica. El documento de identificación XXX ha sido verificado para los trámites administrativos correspondientes. En la esfera cognitiva, se objetiva preservación de las funciones ejecutivas a pesar de los XXX de evolución de la patología de base.",
+  "text_length": 1486,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9468601942062378,
+        "word": " cuidador principal",
+        "start": 317,
+        "end": 335,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9832773208618164,
+        "word": " cuidador",
+        "start": 886,
+        "end": 894,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cuidador principal",
+          "actual_text": "cuidador principal",
+          "confidence": 0.9468601942062378,
+          "start": 317,
+          "end": 335,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cuidador",
+          "actual_text": "cuidador",
+          "confidence": 0.9832773208618164,
+          "start": 886,
+          "end": 894,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cuidador principal",
+          "actual_text": "cuidador principal",
+          "confidence": 0.9468601942062378,
+          "start": 317,
+          "end": 335,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " cuidador",
+          "actual_text": "cuidador",
+          "confidence": 0.9832773208618164,
+          "start": 886,
+          "end": 894,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cuidador principal",
+        "actual_text": "cuidador principal",
+        "confidence": 0.9468601942062378,
+        "start": 317,
+        "end": 335,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cuidador",
+        "actual_text": "cuidador",
+        "confidence": 0.9832773208618164,
+        "start": 886,
+        "end": 894,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cuidador principal",
+        "actual_text": "cuidador principal",
+        "confidence": 0.9468601942062378,
+        "start": 317,
+        "end": 335,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " cuidador",
+        "actual_text": "cuidador",
+        "confidence": 0.9832773208618164,
+        "start": 886,
+        "end": 894,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

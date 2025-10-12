@@ -1,0 +1,175 @@
+{
+  "document_id": "2a726bf5-8a37-4624-94ab-a89a83f8f5a9",
+  "success": true,
+  "anonymized_text": "**NOTA DE EVOLUCIÓN** A fecha de XXX, se reevalúa en consulta externa a la paciente XXX. La paciente, de sexo XXX, se identifica con el documento nacional de identidad número XXX y con el número de beneficiaria del plan de salud XXX. Refiere mejoría parcial de la sintomatología que motivó su consulta inicial. La exploración física actual muestra hallazgos dentro de la normalidad, con buen estado general. Los análisis de control solicitados en la visita anterior muestran parámetros bioquímicos y hematimétricos dentro de rangos normales. Se ha contactado con la paciente a través del número de teléfono XXX para comunicarle estos resultados y confirmar la presente cita de seguimiento. Se mantiene el plan terapéutico establecido, con las recomendaciones habituales del XXX para su condición. Se programará nueva visita para control evolutivo en un plazo de tres meses.",
+  "text_length": 873,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8852447867393494,
+        "word": " documento nacional de identidad número XXX",
+        "start": 136,
+        "end": 178,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad número XXX",
+          "actual_text": "documento nacional de identidad número XXX",
+          "confidence": 0.8852447867393494,
+          "start": 136,
+          "end": 178,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional de identidad número XXX",
+          "actual_text": "documento nacional de identidad número XXX",
+          "confidence": 0.8852447867393494,
+          "start": 136,
+          "end": 178,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7864826321601868,
+        "word": " sexo",
+        "start": 105,
+        "end": 109,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.7864826321601868,
+          "start": 105,
+          "end": 109,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.7864826321601868,
+          "start": 105,
+          "end": 109,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "ID_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad número XXX",
+        "actual_text": "documento nacional de identidad número XXX",
+        "confidence": 0.8852447867393494,
+        "start": 136,
+        "end": 178,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.7864826321601868,
+        "start": 105,
+        "end": 109,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional de identidad número XXX",
+        "actual_text": "documento nacional de identidad número XXX",
+        "confidence": 0.8852447867393494,
+        "start": 136,
+        "end": 178,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.7864826321601868,
+        "start": 105,
+        "end": 109,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

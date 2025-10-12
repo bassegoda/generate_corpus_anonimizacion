@@ -1,0 +1,222 @@
+{
+  "document_id": "74801865-9aae-493e-9534-fe53e482f697",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Preoperatoria A continuación se presenta el informe de valoración preoperatoria de la paciente XXX, quien ingresa para intervención quirúrgica programada. La paciente, de XXX, se encuentra identificada en nuestro sistema con el número de historia clínica XXX y con el número de beneficiario del plan de salud XXX. Su documento de identidad es el XXX. El es XXX. La exploración física general muestra un estado de conservación acorde a su edad. Como antecedente personal de interés, cabe destacar que refiere ser XXX. En cuanto a la identificación biométrica, se ha registrado para verificación la XXX, así como una segunda verificación de la misma huella dactilar derecha índice que muestra un patrón de lazo. Adicionalmente, se ha confirmado la XXX como método de identificación biométrica principal. Este procedimiento de seguridad es estándar para todos los ingresos en General de Madrid. La paciente ejerce la profesión de XXX. Para la elaboración de este documento, el facultativo responsable acredita su titulación con el XXX y su colegiación XXX. El presente informe queda incorporado a la historia digital de la paciente bajo la referencia de contacto asistencial XXX. Se procederá con el protocolo prequirúrgico establecido.",
+  "text_length": 1255,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.9617531299591064,
+        "word": " Madrid",
+        "start": 906,
+        "end": 912,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "TERRITORIO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "TERRITORIO",
+          "word": " Madrid",
+          "actual_text": "Madrid",
+          "confidence": 0.9617531299591064,
+          "start": 906,
+          "end": 912,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "TERRITORIO",
+          "word": " Madrid",
+          "actual_text": "Madrid",
+          "confidence": 0.9617531299591064,
+          "start": 906,
+          "end": 912,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7250592112541199,
+        "word": " historia clínica",
+        "start": 260,
+        "end": 276,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.8147182464599609,
+        "word": " General de Madrid",
+        "start": 895,
+        "end": 912,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.7250592112541199,
+          "start": 260,
+          "end": 276,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.8147182464599609,
+          "start": 895,
+          "end": 912,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.7250592112541199,
+          "start": 260,
+          "end": 276,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.8147182464599609,
+          "start": 895,
+          "end": 912,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "TERRITORIO": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "HOSPITAL": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "TERRITORIO",
+        "word": " Madrid",
+        "actual_text": "Madrid",
+        "confidence": 0.9617531299591064,
+        "start": 906,
+        "end": 912,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.7250592112541199,
+        "start": 260,
+        "end": 276,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.8147182464599609,
+        "start": 895,
+        "end": 912,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "TERRITORIO",
+        "word": " Madrid",
+        "actual_text": "Madrid",
+        "confidence": 0.9617531299591064,
+        "start": 906,
+        "end": 912,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.7250592112541199,
+        "start": 260,
+        "end": 276,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.8147182464599609,
+        "start": 895,
+        "end": 912,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

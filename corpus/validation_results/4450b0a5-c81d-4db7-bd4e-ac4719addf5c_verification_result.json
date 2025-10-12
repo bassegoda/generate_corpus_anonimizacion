@@ -1,0 +1,220 @@
+{
+  "document_id": "4450b0a5-c81d-4db7-bd4e-ac4719addf5c",
+  "success": true,
+  "anonymized_text": "Informe de Alta y Seguimiento Se procede al alta de la paciente **XXX** tras la finalización satisfactoria del tratamiento instaurado para su proceso actual. La evolución ha sido favorable, con mejoría clínica objetiva y analítica. Se establece plan de seguimiento ambulatorio. En relación a la medicación pautada, se recuerda que la paciente **XXX** refiere ser **XXX**, por lo que se ha seleccionado un esquema antibiótico alternativo con clindamicina, que ha sido bien tolerado. Se insiste en la importancia de incluir esta alergia en toda su documentación sanitaria. Se ha proporcionado a la paciente material educativo y de autocuidados, cuyos contenidos están avalados por el **XXX** y disponibles para su consulta en la **URL XXX**. Asimismo, se le ha informado de los recursos de apoyo disponibles a través de la **XXX**. Para la gestión administrativa del presente episodio, se han registrado los siguientes números de identificación: el número de beneficio del plan de salud **XXX**, el identificador de aseguramiento **XXX** y el número de serie del dispositivo de monitorización domiciliaria asignado **XXX**. Se programa próxima consulta de control para el **XXX**. Se recomienda a la paciente que acuda acompañada por un familiar para reforzar las pautas dadas. En este sentido, se ha registrado como **XXX** en el apartado de ****. El parte médico y la solicitud de pruebas complementarias han sido validados por la Dra. **XXX**, cuyo **XXX** y número de identificación de titulación **XXX** obran en el archivo del servicio. La supervisión del caso ha corrido a cargo de la Dra. **XXX**, con ID de titulación **XXX**, a quien se ha remitido copia de este informe para su conocimiento. La correspondencia relacionada con este proceso puede dirigirse a la dirección **XXX** o, alternativamente, a la dirección **XXX**. Para cualquier duda, pueden contactar a través del ** XXX**.",
+  "text_length": 1893,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9896915555000305,
+        "word": " familiar",
+        "start": 1235,
+        "end": 1243,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9896915555000305,
+          "start": 1235,
+          "end": 1243,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9896915555000305,
+          "start": 1235,
+          "end": 1243,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8493292927742004,
+        "word": " **",
+        "start": 452,
+        "end": 454,
+        "chunk_id": 1,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8389040231704712,
+        "word": " **",
+        "start": 496,
+        "end": 498,
+        "chunk_id": 1,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 2
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "a,",
+          "confidence": 0.8493292927742004,
+          "start": 452,
+          "end": 454,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "la",
+          "confidence": 0.8389040231704712,
+          "start": 496,
+          "end": 498,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "a,",
+          "confidence": 0.8493292927742004,
+          "start": 452,
+          "end": 454,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "la",
+          "confidence": 0.8389040231704712,
+          "start": 496,
+          "end": 498,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "NUMERO_TELEFONO": 2
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9896915555000305,
+        "start": 1235,
+        "end": 1243,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "a,",
+        "confidence": 0.8493292927742004,
+        "start": 452,
+        "end": 454,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "la",
+        "confidence": 0.8389040231704712,
+        "start": 496,
+        "end": 498,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9896915555000305,
+        "start": 1235,
+        "end": 1243,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "a,",
+        "confidence": 0.8493292927742004,
+        "start": 452,
+        "end": 454,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "la",
+        "confidence": 0.8389040231704712,
+        "start": 496,
+        "end": 498,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

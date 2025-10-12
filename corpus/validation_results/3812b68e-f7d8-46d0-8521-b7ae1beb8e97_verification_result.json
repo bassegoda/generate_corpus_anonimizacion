@@ -1,0 +1,222 @@
+{
+  "document_id": "3812b68e-f7d8-46d0-8521-b7ae1beb8e97",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA** Se remite a la consulta de especialidad a la paciente XXX para valoración y seguimiento de su proceso. La paciente fue valorada previamente en General de Madrid, donde se inició el estudio. Actualmente acude desde su centro de referencia, el XXX, para continuidad asistencial, donde la Dra. XXX coordina su atención primaria. En relación con la situación clínica actual, se mantiene el plan terapéutico establecido. Los últimos controles analíticos realizados en nuestro servicio muestran una estabilidad en los parámetros hepáticos, con función renal dentro de la normalidad. La resonancia magnética abdominal evidencia hallazgos estables en comparación con el estudio previo, sin signos de progresión. Se recomienda continuar con la misma pauta de medicación y control clínico estrecho. Para cualquier gestión o comunicación relacionada con este episodio asistencial, queda registrado el XXX. Asimismo, como profesional responsable de este informe, mi ID de empleo es XXX y mi titulación es XXX. A los efectos de coordinación con otros niveles asistenciales, se incluye en el historial el XXX y el XXX de la paciente. Se ha facilitado a los profesionales la información relevante sobre el plan de seguimiento. Para cualquier aclaración o nuevo episodio, pueden contactar con la consulta a través del XXX o del XXX. Atentamente, XXX Especialista en Medicina Interna XXX XXX",
+  "text_length": 1406,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.9688520431518555,
+        "word": " Madrid",
+        "start": 186,
+        "end": 192,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "TERRITORIO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "TERRITORIO",
+          "word": " Madrid",
+          "actual_text": "Madrid",
+          "confidence": 0.9688520431518555,
+          "start": 186,
+          "end": 192,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "TERRITORIO",
+          "word": " Madrid",
+          "actual_text": "Madrid",
+          "confidence": 0.9688520431518555,
+          "start": 186,
+          "end": 192,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.8956664204597473,
+        "word": " General de Madrid",
+        "start": 175,
+        "end": 192,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PROFESION",
+        "score": 0.9539044499397278,
+        "word": " en",
+        "start": 1379,
+        "end": 1381,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1,
+        "PROFESION": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.8956664204597473,
+          "start": 175,
+          "end": 192,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " en",
+          "actual_text": "en",
+          "confidence": 0.9539044499397278,
+          "start": 1379,
+          "end": 1381,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " General de Madrid",
+          "actual_text": "General de Madrid",
+          "confidence": 0.8956664204597473,
+          "start": 175,
+          "end": 192,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " en",
+          "actual_text": "en",
+          "confidence": 0.9539044499397278,
+          "start": 1379,
+          "end": 1381,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "TERRITORIO": 1,
+      "HOSPITAL": 1,
+      "PROFESION": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "TERRITORIO",
+        "word": " Madrid",
+        "actual_text": "Madrid",
+        "confidence": 0.9688520431518555,
+        "start": 186,
+        "end": 192,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.8956664204597473,
+        "start": 175,
+        "end": 192,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " en",
+        "actual_text": "en",
+        "confidence": 0.9539044499397278,
+        "start": 1379,
+        "end": 1381,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "TERRITORIO",
+        "word": " Madrid",
+        "actual_text": "Madrid",
+        "confidence": 0.9688520431518555,
+        "start": 186,
+        "end": 192,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " General de Madrid",
+        "actual_text": "General de Madrid",
+        "confidence": 0.8956664204597473,
+        "start": 175,
+        "end": 192,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " en",
+        "actual_text": "en",
+        "confidence": 0.9539044499397278,
+        "start": 1379,
+        "end": 1381,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

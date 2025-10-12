@@ -1,0 +1,124 @@
+{
+  "document_id": "95eb4673-bd6d-4c24-ab1b-6e0075b10711",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada se constata un cuadro de infección respiratoria alta de características leves. La exploración física muestra faringe levemente eritematosa sin exudados, auscultación cardiopulmonar dentro de la normalidad y temperatura afebril. Se ha indicado tratamiento sintomático con analgesia y recomendaciones generales de hidratación. Se procedió a la verificación del equipo de pulsioximetría utilizado durante la evaluación, cuyo número de serie XXX fue registrado en la documentación clínica correspondiente. Los valores obtenidos con este dispositivo se encuentran dentro de parámetros normales. Para completar la gestión asistencial, se ha vinculado la atención proporcionada al código XXX que identifica este episodio en nuestro sistema. Cabe mencionar que durante la consulta estuvieron presentes varios familiares del sujeto de asistencia, quienes recibieron las indicaciones pertinentes sobre el manejo domiciliario del cuadro. La documentación generada en esta intervención queda incorporada al historial del XXX, donde se realizará el seguimiento correspondiente según evolución. Se mantendrá la coordinación con el personal sanitario asignado para garantizar la continuidad asistencial de la paciente XXX.",
+  "text_length": 1242,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9875433444976807,
+        "word": " familiares",
+        "start": 836,
+        "end": 846,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares",
+          "actual_text": "familiares",
+          "confidence": 0.9875433444976807,
+          "start": 836,
+          "end": 846,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares",
+          "actual_text": "familiares",
+          "confidence": 0.9875433444976807,
+          "start": 836,
+          "end": 846,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares",
+        "actual_text": "familiares",
+        "confidence": 0.9875433444976807,
+        "start": 836,
+        "end": 846,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares",
+        "actual_text": "familiares",
+        "confidence": 0.9875433444976807,
+        "start": 836,
+        "end": 846,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

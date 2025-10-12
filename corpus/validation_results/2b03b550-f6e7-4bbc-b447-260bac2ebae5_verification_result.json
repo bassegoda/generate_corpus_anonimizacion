@@ -1,0 +1,268 @@
+{
+  "document_id": "2b03b550-f6e7-4bbc-b447-260bac2ebae5",
+  "success": true,
+  "anonymized_text": "Informe de Interconsulta de Cirugía Se remite a la paciente para valoración y seguimiento por parte del servicio de Cirugía. La paciente, de sexo XXX, se presenta con un cuadro que requiere evaluación especializada para determinar la actitud terapéutica más adecuada. La exploración física revela un abdomen blando y depresible, sin signos de irritación peritoneal. Los ruidos hidroaéreos están presentes en los cuatro cuadrantes. No se palpan masas ni visceromegalias. Las constantes vitales se mantienen dentro de los parámetros de normalidad. En cuanto a las pruebas complementarias realizadas, la analítica muestra una leve leucocitosis con desviación izquierda, siendo el resto de parámetros bioquímicos normales. La ecografía abdominal evidencia hallazgos compatibles con el diagnóstico de presunción. El seguimiento del caso será realizado por el XXX asignado al servicio, quien determinará la evolución y tratamiento más adecuado. Para cualquier comunicación adicional, puede localizarme a través del correo electrónico XXX. Queda registrada bajo la referencia interna XXX correspondiente a mi identificación profesional en esta institución. Atentamente, XXX Cirujano Clínico San Carlos Documento emitido desde la sede del XXX ubicada en XXX. Para trámites administrativos, utilizar el número de referencia XXX. En la coordinación de este caso también participa la XXX.",
+  "text_length": 1377,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.8559747934341431,
+        "word": " XXX Cirujano",
+        "start": 1163,
+        "end": 1175,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9570420384407043,
+        "word": " Clínico San Carlos",
+        "start": 1176,
+        "end": 1194,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "INSTITUCION": 1,
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "INSTITUCION",
+          "word": " XXX Cirujano",
+          "actual_text": "XXX Cirujano",
+          "confidence": 0.8559747934341431,
+          "start": 1163,
+          "end": 1175,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9570420384407043,
+          "start": 1176,
+          "end": 1194,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "INSTITUCION",
+          "word": " XXX Cirujano",
+          "actual_text": "XXX Cirujano",
+          "confidence": 0.8559747934341431,
+          "start": 1163,
+          "end": 1175,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Clínico San Carlos",
+          "actual_text": "Clínico San Carlos",
+          "confidence": 0.9570420384407043,
+          "start": 1176,
+          "end": 1194,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7798672914505005,
+        "word": " sexo",
+        "start": 141,
+        "end": 145,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.937333881855011,
+        "word": " Cirujano Clínico San Carlos",
+        "start": 1167,
+        "end": 1194,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1,
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.7798672914505005,
+          "start": 141,
+          "end": 145,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Cirujano Clínico San Carlos",
+          "actual_text": "Cirujano Clínico San Carlos",
+          "confidence": 0.937333881855011,
+          "start": 1167,
+          "end": 1194,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.7798672914505005,
+          "start": 141,
+          "end": 145,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Cirujano Clínico San Carlos",
+          "actual_text": "Cirujano Clínico San Carlos",
+          "confidence": 0.937333881855011,
+          "start": 1167,
+          "end": 1194,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "INSTITUCION": 1,
+      "HOSPITAL": 2,
+      "ID_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "INSTITUCION",
+        "word": " XXX Cirujano",
+        "actual_text": "XXX Cirujano",
+        "confidence": 0.8559747934341431,
+        "start": 1163,
+        "end": 1175,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9570420384407043,
+        "start": 1176,
+        "end": 1194,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.7798672914505005,
+        "start": 141,
+        "end": 145,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Cirujano Clínico San Carlos",
+        "actual_text": "Cirujano Clínico San Carlos",
+        "confidence": 0.937333881855011,
+        "start": 1167,
+        "end": 1194,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "INSTITUCION",
+        "word": " XXX Cirujano",
+        "actual_text": "XXX Cirujano",
+        "confidence": 0.8559747934341431,
+        "start": 1163,
+        "end": 1175,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Clínico San Carlos",
+        "actual_text": "Clínico San Carlos",
+        "confidence": 0.9570420384407043,
+        "start": 1176,
+        "end": 1194,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.7798672914505005,
+        "start": 141,
+        "end": 145,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Cirujano Clínico San Carlos",
+        "actual_text": "Cirujano Clínico San Carlos",
+        "confidence": 0.937333881855011,
+        "start": 1167,
+        "end": 1194,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

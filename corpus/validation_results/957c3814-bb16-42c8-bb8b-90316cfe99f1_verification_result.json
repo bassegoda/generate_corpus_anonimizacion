@@ -1,0 +1,174 @@
+{
+  "document_id": "957c3814-bb16-42c8-bb8b-90316cfe99f1",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución - Consulta Externa** Paciente que acude para seguimiento de su patología crónica. Refiere estabilidad clínica general, sin cambios significativos en su sintomatología basal. Se mantiene con tratamiento habitual sin modificaciones recientes. En la exploración física actual, se objetiva tensión arterial de 128/76 mmHg, frecuencia cardíaca de 68 lpm y saturación de oxígeno del 96% en aire ambiente. La auscultación cardiorrespiratoria resulta dentro de la normalidad, sin soplos ni ruidos sobreañadidos. El abdomen es blando y depresible, no doloroso a la palpación. Respecto a los estudios complementarios pendientes de revisión, se confirma la identificación del sujeto de asistencia con el código XXX y documento nacional XXX. Los estudios de imagen más recientes, registrados bajo los números XXX y XXX, muestran hallazgos estables en comparación con pruebas previas, sin evidencia de progresión de lesiones conocidas. La analítica realizada muestra parámetros dentro de rangos aceptables para su situación, con perfil hepático y renal sin alteraciones significativas. Queda registrado en el sistema con el identificador de historia clínica XXX. Para cualquier gestión o comunicación, puede contactarse al número de teléfono XXX. El paciente tiene su residencia en XXX, en XXX. Se recuerda que la documentación clínica se gestiona conforme a los protocolos establecidos por el XXX y la XXX, garantizando en todo momento la confidencialidad de la información. Se programa próxima revisión en plazo estándar, manteniéndose las recomendaciones generales adaptadas a su edad de XXX. El profesional sanitario que suscribe queda identificado en el sistema con el código de empleo correspondiente para constancia en el registro.",
+  "text_length": 1745,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7694080471992493,
+        "word": " documento nacional XXX",
+        "start": 726,
+        "end": 748,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional XXX",
+          "actual_text": "documento nacional XXX",
+          "confidence": 0.7694080471992493,
+          "start": 726,
+          "end": 748,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento nacional XXX",
+          "actual_text": "documento nacional XXX",
+          "confidence": 0.7694080471992493,
+          "start": 726,
+          "end": 748,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7970479130744934,
+        "word": "ador de historia clínica",
+        "start": 1140,
+        "end": 1164,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "ador de historia clínica",
+          "actual_text": "ador de historia clínica",
+          "confidence": 0.7970479130744934,
+          "start": 1140,
+          "end": 1164,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "ador de historia clínica",
+          "actual_text": "ador de historia clínica",
+          "confidence": 0.7970479130744934,
+          "start": 1140,
+          "end": 1164,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional XXX",
+        "actual_text": "documento nacional XXX",
+        "confidence": 0.7694080471992493,
+        "start": 726,
+        "end": 748,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "ador de historia clínica",
+        "actual_text": "ador de historia clínica",
+        "confidence": 0.7970479130744934,
+        "start": 1140,
+        "end": 1164,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento nacional XXX",
+        "actual_text": "documento nacional XXX",
+        "confidence": 0.7694080471992493,
+        "start": 726,
+        "end": 748,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "ador de historia clínica",
+        "actual_text": "ador de historia clínica",
+        "confidence": 0.7970479130744934,
+        "start": 1140,
+        "end": 1164,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "xxxxxx_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

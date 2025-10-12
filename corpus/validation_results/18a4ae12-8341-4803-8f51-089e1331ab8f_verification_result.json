@@ -1,0 +1,222 @@
+{
+  "document_id": "18a4ae12-8341-4803-8f51-089e1331ab8f",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa A fecha de XXX, se procede a la evaluación de la paciente en la consulta. Se trata de una persona de **XXX** de edad, de **sexo XXX**, cuya residencia se encuentra en la **XXX**. La exploración física actual revela una tensión arterial de 135/80 mmHg, frecuencia cardíaca de 68 lpm y saturación de oxígeno del 96%. La auscultación cardiorrespiratoria es dentro de los límites de la normalidad para su edad, sin soplos ni crepitantes. Se constata un buen estado general. En relación con los sistemas de verificación, se ha registrado el vehículo con placa **XXX** para el acceso al aparcamiento reservado del centro. Para la firma digital del presente informe y el acceso a su historia clínica electrónica, se ha utilizado la **XXX** de la paciente, conforme a los protocolos de seguridad del **XXX**. Los hallazgos analíticos recientes, recibidos y revisados en esta misma fecha, muestran un perfil lipídico dentro de rangos aceptables y una glucemia basal de 102 mg/dl. Se recomienda seguimiento en consultas externas de este mismo centro. Para cualquier comunicación derivada de este informe, puede utilizarse el siguiente canal oficial: **XXX**. Se considera que la situación clínica actual es estable, programándose próxima revisión para control evolutivo.",
+  "text_length": 1288,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8301447629928589,
+        "word": " vehículo",
+        "start": 564,
+        "end": 572,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.8301447629928589,
+          "start": 564,
+          "end": 572,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " vehículo",
+          "actual_text": "vehículo",
+          "confidence": 0.8301447629928589,
+          "start": 564,
+          "end": 572,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.743953287601471,
+        "word": "XXX**",
+        "start": 131,
+        "end": 136,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.928364634513855,
+        "word": " **",
+        "start": 149,
+        "end": 151,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "EDAD_SUJETO_ASISTENCIA": 1,
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": "XXX**",
+          "actual_text": "XXX**",
+          "confidence": 0.743953287601471,
+          "start": 131,
+          "end": 136,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.928364634513855,
+          "start": 149,
+          "end": 151,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": "XXX**",
+          "actual_text": "XXX**",
+          "confidence": 0.743953287601471,
+          "start": 131,
+          "end": 136,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.928364634513855,
+          "start": 149,
+          "end": 151,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 3,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "EDAD_SUJETO_ASISTENCIA": 1,
+      "ID_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.8301447629928589,
+        "start": 564,
+        "end": 572,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": "XXX**",
+        "actual_text": "XXX**",
+        "confidence": 0.743953287601471,
+        "start": 131,
+        "end": 136,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.928364634513855,
+        "start": 149,
+        "end": 151,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " vehículo",
+        "actual_text": "vehículo",
+        "confidence": 0.8301447629928589,
+        "start": 564,
+        "end": 572,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": "XXX**",
+        "actual_text": "XXX**",
+        "confidence": 0.743953287601471,
+        "start": 131,
+        "end": 136,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.928364634513855,
+        "start": 149,
+        "end": 151,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 3,
+    "suspicious_detections": 3,
+    "xxxxxx_detections": 0,
+    "other_detections": 3
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

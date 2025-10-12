@@ -1,0 +1,266 @@
+{
+  "document_id": "0e4bed92-3179-4e90-a450-452d4f065d12",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA DE CARDIOCIRUGÍA** Paciente XXX, que cuenta con XXX de edad, se presenta para valoración preoperatoria en consultas externas del XXX. La paciente fue derivada para evaluación por parte del servicio de cirugía cardiovascular tras detectarse hallazgos ecocardiográficos que requieren intervención quirúrgica programada. Durante la exploración física se constata un soplo sistólico grado III/VI en foco aórtico, con buenos pulsos periféricos y presión arterial bien controlada. Los estudios complementarios realizados incluyen ecocardiograma transesofágico que muestra estenosis aórtica severa con gradiente medio de 48 mmHg, y coronariografía que descubre enfermedad coronaria no significativa. Las analíticas recientes presentan función renal conservada y hemograma dentro de parámetros normales. Se ha coordinado con el XXX de guardia para programar el procedimiento en las próximas semanas. El identificador del sujeto de asistencia asignado para el seguimiento es XXX, correspondiente al documento de identidad XXX. Cabe mencionar que la paciente refiere que su esposo, de XXX, será quien la acompañe durante el proceso hospitalario y puede ser contactado a través del número de teléfono XXX. Para la identificación de dispositivos médicos durante la hospitalización, se registrarán los números de serie XXX y XXX correspondientes a monitorización hemodinámica. Asimismo, el vehículo que utilizarán para los desplazamientos al centro hospitalario tiene asignadas las placas XXX. La XXX, específicamente la XXX, será la cirujana responsable del procedimiento y supervisará el postoperatorio inmediato. La documentación clínica completa se encuentra disponible a través del sistema nacional de salud con el identificador XXX. Toda la asistencia se presta dentro del ámbito de la XXX, siguiendo los protocolos establecidos por esta institución. Se recomienda a la paciente consultar los recursos educativos disponibles en el portal XXX para prepararse adecuadamente para la intervención y el periodo de recuperación. Se programa nueva visita en dos semanas para ultimar detalles prequirúrgicos.",
+  "text_length": 2115,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9867987632751465,
+        "word": " esposo,",
+        "start": 1086,
+        "end": 1093,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " esposo,",
+          "actual_text": "esposo,",
+          "confidence": 0.9867987632751465,
+          "start": 1086,
+          "end": 1093,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " esposo,",
+          "actual_text": "esposo,",
+          "confidence": 0.9867987632751465,
+          "start": 1086,
+          "end": 1093,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.844282865524292,
+        "word": " esposo,",
+        "start": 1086,
+        "end": 1093,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9742723703384399,
+        "word": ",",
+        "start": 1100,
+        "end": 1101,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8830044865608215,
+        "word": " nacional de salud",
+        "start": 1704,
+        "end": 1721,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 2,
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 3,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " esposo,",
+          "actual_text": "esposo,",
+          "confidence": 0.844282865524292,
+          "start": 1086,
+          "end": 1093,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": ",",
+          "actual_text": ",",
+          "confidence": 0.9742723703384399,
+          "start": 1100,
+          "end": 1101,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " nacional de salud",
+          "actual_text": "nacional de salud",
+          "confidence": 0.8830044865608215,
+          "start": 1704,
+          "end": 1721,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " esposo,",
+          "actual_text": "esposo,",
+          "confidence": 0.844282865524292,
+          "start": 1086,
+          "end": 1093,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": ",",
+          "actual_text": ",",
+          "confidence": 0.9742723703384399,
+          "start": 1100,
+          "end": 1101,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " nacional de salud",
+          "actual_text": "nacional de salud",
+          "confidence": 0.8830044865608215,
+          "start": 1704,
+          "end": 1721,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 3,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 4,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " esposo,",
+        "actual_text": "esposo,",
+        "confidence": 0.9867987632751465,
+        "start": 1086,
+        "end": 1093,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " esposo,",
+        "actual_text": "esposo,",
+        "confidence": 0.844282865524292,
+        "start": 1086,
+        "end": 1093,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": ",",
+        "actual_text": ",",
+        "confidence": 0.9742723703384399,
+        "start": 1100,
+        "end": 1101,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " nacional de salud",
+        "actual_text": "nacional de salud",
+        "confidence": 0.8830044865608215,
+        "start": 1704,
+        "end": 1721,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " esposo,",
+        "actual_text": "esposo,",
+        "confidence": 0.9867987632751465,
+        "start": 1086,
+        "end": 1093,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " esposo,",
+        "actual_text": "esposo,",
+        "confidence": 0.844282865524292,
+        "start": 1086,
+        "end": 1093,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": ",",
+        "actual_text": ",",
+        "confidence": 0.9742723703384399,
+        "start": 1100,
+        "end": 1101,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " nacional de salud",
+        "actual_text": "nacional de salud",
+        "confidence": 0.8830044865608215,
+        "start": 1704,
+        "end": 1721,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

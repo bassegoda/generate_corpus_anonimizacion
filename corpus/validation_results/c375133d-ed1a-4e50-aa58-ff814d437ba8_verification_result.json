@@ -1,0 +1,124 @@
+{
+  "document_id": "c375133d-ed1a-4e50-aa58-ff814d437ba8",
+  "success": true,
+  "anonymized_text": "**NOTA DE EVOLUCIÓN – CONSULTA EXTERNA DE MEDICINA INTERNA** En la consulta de seguimiento se reevalúa a la paciente XXX, quien acude acompañada en esta ocasión por su familiar de apoyo, **XXX**. Durante la anamnesis, se recaban detalles adicionales sobre la evolución del cuadro y se actualizan los datos de contacto. Se confirma que el número de teléfono de contacto principal para cualquier comunicación relacionada con su asistencia es el **XXX**. En cuanto a la situación administrativa, se verifica que el número de beneficiaria del plan de salud vigente es el **XXX** y que el identificador único de su contacto asistencial asignado por este centro es **XXX**. Todo el proceso se enmarca en la cobertura proporcionada por el **XXX**. La exploración física realizada en la fecha de hoy, **XXX**, muestra una estabilización de los parámetros clínicos respecto a la última visita. Los resultados analíticos recientes, cuyos informes se adjuntan al expediente con referencia **XXX**, muestran un perfil lipídico dentro de rangos aceptables y una función renal conservada. La resonancia magnética programada confirma los hallazgos previos sin evidencia de progresión de la patología de base. Se mantiene el plan terapéutico establecido y se programa próxima revisión para dentro de seis meses. Se instruye a la paciente y a **XXX** sobre los signos de alarma que deben motivar una consulta anticipada. Para la coordinación de cualquier gestión administrativa o cita, el personal sanitario a cargo puede ser localizado a través del identificador **ID-EMP-7942**.",
+  "text_length": 1563,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9767091274261475,
+        "word": " familiar",
+        "start": 168,
+        "end": 176,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9767091274261475,
+          "start": 168,
+          "end": 176,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiar",
+          "actual_text": "familiar",
+          "confidence": 0.9767091274261475,
+          "start": 168,
+          "end": 176,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "filtered_x_entities": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "xxxxxx_detections": [],
+      "other_detections": [],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9767091274261475,
+        "start": 168,
+        "end": 176,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiar",
+        "actual_text": "familiar",
+        "confidence": 0.9767091274261475,
+        "start": 168,
+        "end": 176,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "xxxxxx_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}
