@@ -171,13 +171,6 @@ Las siguientes métricas muestran la evolución de la detección de entidades de
 - **Recall**: 95.2% (0.952)
 - **F1-Score**: 97.6% (0.976)
 
-#### **📈 Evolución del Pipeline:**
-- **Precisión**: 76.6% → **100%** → 100% (perfección tras Step 4)
-- **Recall**: 62.4% → **100%** → 95.2% (perfección en documentos válidos)
-- **F1-Score**: 68.8% → **100%** → 97.6% (perfección intermedia)
-- **Falsos Positivos**: 16.0% → **0%** → 0% (eliminados en Step 4)
-- **Falsos Negativos**: 31.6% → **0%** → 5.0% (Step 4 encuentra todo; Step 6 filtra calidad)
-
 ## 🏷️ Entidades Detectadas
 
 El sistema identifica y anonimiza información de salud protegida (PHI) siguiendo los estándares de MEDDOCAN y CARMEN-I. Las categorías específicas de entidades están definidas en el archivo `etiquetas_anonimizacion_meddocan_carmenI.csv`, que contiene el mapeo completo entre ambos sistemas de etiquetado.
