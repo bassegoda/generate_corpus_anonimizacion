@@ -150,28 +150,28 @@ Las siguientes métricas muestran la evolución de la detección de entidades de
 #### **🎯 Estado Inicial (Post-generación DeepSeek):**
 | Métrica | Porcentaje | Descripción |
 |---------|------------|-------------|
-| **TP** | 78.5% (32,853) | Entidades reales correctamente detectadas |
-| **FP** | 16.0% (6,257) | Entidades en etiquetas pero no en texto real |
+| **TP** | 52.4% (21,915) | Entidades reales correctamente detectadas |
+| **FP** | 16.0% (6,700) | Entidades en etiquetas pero no en texto real |
 | **TN** | 0% (0) | No aplicable en este contexto |
-| **FN** | 6.5% (2,721) | Entidades reales no detectadas inicialmente |
+| **FN** | 31.6% (13,216) | Entidades reales no detectadas (eliminadas en Step 6) |
 
 **Métricas Derivadas:**
-- **Precisión**: 84.0% (0.840)
-- **Recall**: 92.4% (0.924)
-- **F1-Score**: 88.0% (0.880)
+- **Precisión**: 76.6% (0.766)
+- **Recall**: 62.4% (0.624)
+- **F1-Score**: 68.8% (0.688)
 
 #### **🔧 Post-Step 4 (Corrección Iterativa):**
 | Métrica | Porcentaje | Descripción |
 |---------|------------|-------------|
-| **TP** | 82.0% (34,173) | Entidades correctas (se añadieron 1,320) |
-| **FP** | 15.0% (6,257) | Falsos positivos sin corregir aún |
+| **TP** | 55.0% (23,235) | Entidades correctas (se añadieron 1,320) |
+| **FP** | 16.0% (6,700) | Falsos positivos sin corregir aún |
 | **TN** | 0% (0) | No aplicable |
-| **FN** | 3.0% (1,401) | Entidades faltantes reducidas |
+| **FN** | 29.0% (11,896) | Entidades faltantes (aún serán eliminadas en Step 6) |
 
 **Métricas Derivadas:**
-- **Precisión**: 84.5% (0.845)
-- **Recall**: 96.1% (0.961)
-- **F1-Score**: 89.9% (0.899)
+- **Precisión**: 77.6% (0.776)
+- **Recall**: 66.1% (0.661)
+- **F1-Score**: 71.4% (0.714)
 
 #### **✅ Estado Final (Post-Step 6 - Validación):**
 | Métrica | Porcentaje | Descripción |
@@ -187,11 +187,11 @@ Las siguientes métricas muestran la evolución de la detección de entidades de
 - **F1-Score**: 97.6% (0.976)
 
 #### **📈 Evolución del Pipeline:**
-- **Precisión**: 84.0% → 84.5% → **100%** (eliminación total de FP)
-- **Recall**: 92.4% → 96.1% → 95.2% (mantenido alto)
-- **F1-Score**: 88.0% → 89.9% → **97.6%** (excelencia final)
-- **Falsos Positivos**: 16.0% → 15.0% → **0%** (eliminados completamente)
-- **Falsos Negativos**: 6.5% → 3.0% → **5.0%** (objetivo de validación humana)
+- **Precisión**: 76.6% → 77.6% → **100%** (eliminación total de FP)
+- **Recall**: 62.4% → 66.1% → 95.2% (mejora dramática tras eliminación)
+- **F1-Score**: 68.8% → 71.4% → **97.6%** (excelencia final)
+- **Falsos Positivos**: 16.0% → 16.0% → **0%** (eliminados completamente)
+- **Falsos Negativos**: 31.6% → 29.0% → **5.0%** (reducción drástica tras filtrado)
 
 ## 🏷️ Entidades Detectadas
 
