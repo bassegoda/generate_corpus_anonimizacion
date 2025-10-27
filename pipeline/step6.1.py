@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-PASO 4 DEL PIPELINE: Verificación de anonimización con modelos BSC
-Ejecuta los modelos bsc-bio-ehr-es-meddocan y bsc-bio-ehr-es-carmen-anon
-sobre los documentos anonimizados para verificar que no detecten entidades.
+PASO 6 DEL PIPELINE: Verificación de anonimización
+Verifica documentos anonimizados detectando tokens de anonimización JJJ.
+Opcionalmente puede usar modelos NER (MEDDOCAN y CARMEN) con --use-models.
 """
 
 import os
@@ -12,11 +12,13 @@ import argparse
 import re
 from pathlib import Path
 from typing import List, Dict, Tuple
-from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
-import torch
 import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import threading
+from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline as hf_pipeline
+import torch
+
+ANON_TOKEN = "JJJ"
 
 def debug_print(message: str, level: str = "INFO"):
     """Función para imprimir mensajes de debug con timestamp"""
@@ -33,8 +35,8 @@ def setup_models():
     debug_print("Cargando modelos BSC para verificación...", "INFO")
     
     # Configurar device
-    device = 0 if torch.cuda.is_available() else -1
-    debug_print(f"Device set to use {'cuda' if torch.cuda.is_available() else 'cpu'}", "INFO")
+    device = 0 if torch and torch.cuda.is_available() else -1
+    debug_print(f"Device set to use {'cuda' if torch and torch.cuda.is_available() else 'cpu'}", "INFO")
     
     # Modelo MEDDOCAN
     debug_print("  - Cargando bsc-bio-ehr-es-meddocan...", "DEBUG")
@@ -46,7 +48,7 @@ def setup_models():
         # Cargar modelo con configuración específica para evitar meta tensors
         meddocan_model = AutoModelForTokenClassification.from_pretrained(
             meddocan_model_path,
-            torch_dtype=torch.float32,
+            dtype=torch.float32,
             low_cpu_mem_usage=False,
             device_map=None,  # No usar device_map automático
             trust_remote_code=False
@@ -57,7 +59,7 @@ def setup_models():
             debug_print(f"      Modelo MEDDOCAN cargado: {meddocan_model.config.model_type}", "DEBUG")
         
         # Crear pipeline sin especificar device en el modelo
-        pipeline_meddocan = pipeline(
+        pipeline_meddocan = hf_pipeline(
             "ner",
             model=meddocan_model,
             tokenizer=meddocan_tokenizer,
@@ -78,7 +80,7 @@ def setup_models():
         # Cargar modelo con configuración específica para evitar meta tensors
         carmen_model = AutoModelForTokenClassification.from_pretrained(
             carmen_model_path,
-            torch_dtype=torch.float32,
+            dtype=torch.float32,
             low_cpu_mem_usage=False,
             device_map=None,  # No usar device_map automático
             trust_remote_code=False
@@ -89,7 +91,7 @@ def setup_models():
             debug_print(f"      Modelo CARMEN cargado: {carmen_model.config.model_type}", "DEBUG")
         
         # Crear pipeline sin especificar device en el modelo
-        pipeline_carmen = pipeline(
+        pipeline_carmen = hf_pipeline(
             "ner",
             model=carmen_model,
             tokenizer=carmen_tokenizer,
@@ -119,26 +121,57 @@ def extract_entities_with_model(text: str, pipeline_model, model_name: str, conf
     debug_print(f"    Analizando con {model_name}...", "DEBUG")
     
     try:
-        # Procesar el texto en chunks si es muy largo
-        max_length = 512  # Longitud máxima típica para modelos BERT
-        chunks = []
+        # Obtener tokenizer del pipeline
+        tokenizer = pipeline_model.tokenizer
+        model_max_length = getattr(tokenizer, 'model_max_length', 512)
         
-        if len(text) > max_length:
-            # Dividir en chunks con overlap
-            words = text.split()
-            chunk_size = max_length // 2  # Aproximadamente
-            
-            for i in range(0, len(words), chunk_size):
-                chunk = " ".join(words[i:i + chunk_size + 50])  # Overlap de 50 palabras
-                chunks.append(chunk)
+        # Usar token-aligned chunking para mantener consistencia con offsets del modelo
+        token_chunk_size = min(model_max_length - 20, 512)  # Dejar espacio para tokens especiales
+        token_overlap = 50
+        
+        # Tokenizar todo el texto para obtener offsets
+        encoding = tokenizer(
+            text,
+            return_offsets_mapping=True,
+            add_special_tokens=False,
+            truncation=False
+        )
+        
+        tokens = encoding['input_ids']
+        offsets = encoding['offset_mapping']
+        
+        # Crear chunks basados en tokens
+        chunks = []
+        chunk_global_offsets = []
+        
+        if len(tokens) <= token_chunk_size:
+            # Texto corto, procesar completo
+            chunks.append(text)
+            chunk_global_offsets.append(0)
         else:
-            chunks = [text]
+            # Dividir en chunks con overlap
+            for i in range(0, len(tokens), token_chunk_size - token_overlap):
+                chunk_tokens = tokens[i:i + token_chunk_size]
+                
+                if not chunk_tokens:
+                    break
+                
+                # Obtener offsets del primer y último token del chunk
+                start_char = offsets[i][0]
+                end_idx = min(i + len(chunk_tokens) - 1, len(offsets) - 1)
+                end_char = offsets[end_idx][1]
+                
+                # Extraer texto del chunk
+                chunk_text = text[start_char:end_char]
+                chunks.append(chunk_text)
+                chunk_global_offsets.append(start_char)
+        
+        debug_print(f"      Texto dividido en {len(chunks)} chunks (token-aligned)", "DEBUG")
         
         all_entities = []
-        offset = 0
         
-        for i, chunk in enumerate(chunks):
-            debug_print(f"      Procesando chunk {i+1}/{len(chunks)}...", "DEBUG")
+        for i, (chunk, global_offset) in enumerate(zip(chunks, chunk_global_offsets)):
+            debug_print(f"      Procesando chunk {i+1}/{len(chunks)} (offset global: {global_offset})...", "DEBUG")
             
             # Extraer entidades del chunk
             try:
@@ -152,49 +185,59 @@ def extract_entities_with_model(text: str, pipeline_model, model_name: str, conf
                 debug_print(f"        WARNING: {model_name} devolvió resultado inválido: {type(entities)}", "WARN")
                 continue
             
-            # Filtrar por confianza y caracteres X, ajustar posiciones
+            debug_print(f"        Chunk devolvió {len(entities)} detecciones brutas", "DEBUG")
+            
+            # Ajustar posiciones y filtrar
             for entity in entities:
                 try:
                     confidence = float(entity.get('score', 0.0))
                     word = entity.get('word', '')
-                    start_pos = int(entity.get('start', 0)) + offset
-                    end_pos = int(entity.get('end', 0)) + offset
+                    # Ajustar offsets del chunk al texto global
+                    start_pos = int(entity.get('start', 0)) + global_offset
+                    end_pos = int(entity.get('end', 0)) + global_offset
                 except (ValueError, TypeError) as parse_error:
                     debug_print(f"        ERROR parseando entidad: {parse_error}", "ERROR")
                     continue
                 
-                # Extraer texto real para verificar si es solo X
+                # Extraer texto real para verificar
                 try:
                     actual_text = text[start_pos:end_pos] if start_pos < len(text) and end_pos <= len(text) else word
                 except:
                     actual_text = word
                 
-                # Filtrar si es solo caracteres X o no cumple umbral de confianza
-                if confidence >= confidence_threshold and not is_only_x_characters(actual_text) and not is_only_x_characters(word):
-                    entity['start'] = start_pos
-                    entity['end'] = end_pos
-                    entity['score'] = confidence
-                    entity['chunk_id'] = i
-                    entity['model'] = model_name
-                    all_entities.append(entity)
-                else:
-                    if is_only_x_characters(actual_text) or is_only_x_characters(word):
-                        debug_print(f"        Filtrada detección solo-X: '{actual_text}' / '{word}' (confianza: {confidence:.2f})", "DEBUG")
-            
-            # Actualizar offset para el siguiente chunk
-            offset += len(chunk.split())
+                # Verificar si es solo caracteres J (token de anonimización)
+                is_j_only = is_only_j_characters(actual_text) or is_only_j_characters(word)
+                
+                # Filtrar por confianza Y excluir detecciones JJJ (son esperadas, no errores)
+                if confidence >= confidence_threshold:
+                    if is_j_only:
+                        # Detectó un token de anonimización - esto es esperado, NO reportar
+                        debug_print(f"        Filtrada detección JJJ (esperada): '{actual_text}' (confianza: {confidence:.2f})", "DEBUG")
+                    else:
+                        # Detección de algo que NO es JJJ - esto es sospechoso
+                        entity['start'] = start_pos
+                        entity['end'] = end_pos
+                        entity['score'] = confidence
+                        entity['chunk_id'] = i
+                        entity['model'] = model_name
+                        entity['actual_text'] = actual_text
+                        entity['is_j_only'] = False
+                        all_entities.append(entity)
+                        debug_print(f"        Detección sospechosa: '{actual_text}' (confianza: {confidence:.2f})", "WARN")
         
         debug_print(f"      {model_name}: {len(all_entities)} entidades detectadas (confianza >= {confidence_threshold})", "INFO")
         return all_entities
         
     except Exception as e:
         debug_print(f"      ERROR al procesar con {model_name}: {e}", "ERROR")
+        import traceback
+        debug_print(f"      Traceback: {traceback.format_exc()}", "ERROR")
         return []
 
-def is_only_x_characters(text: str) -> bool:
+def is_only_j_characters(text: str) -> bool:
     """
-    Verifica si un texto contiene solo caracteres 'X' y espacios.
-    
+    Verifica si un texto contiene solo caracteres 'J' y espacios.
+
     Args:
         text (str): Texto a verificar
         
@@ -204,71 +247,14 @@ def is_only_x_characters(text: str) -> bool:
     if not text:
         return False
     
-    # Remover espacios y verificar si solo quedan X's
+    # Remover espacios y verificar si solo quedan J's
     cleaned_text = text.strip().replace(' ', '')
-    return len(cleaned_text) > 0 and all(c == 'X' for c in cleaned_text)
-
-def scan_pii_regex(text: str) -> List[Dict]:
-    """
-    Escanea el texto en busca de PII residual usando expresiones regulares.
-    Busca PII FUERA de marcadores [...] y XXX[ETIQUETA].
-    
-    Args:
-        text (str): Texto a escanear
-        
-    Returns:
-        List[Dict]: Lista de PII detectados con tipo, texto y posición
-    """
-    # Primero, identificar las zonas protegidas (dentro de marcadores)
-    protected_zones = []
-    
-    # Patrón para [...] 
-    for match in re.finditer(r'\[([^\]]+)\]', text):
-        protected_zones.append((match.start(), match.end()))
-    
-    # Patrón para XXX...XXX y XXXXXX
-    for match in re.finditer(r'X{3,}', text):
-        protected_zones.append((match.start(), match.end()))
-    
-    def is_in_protected_zone(start: int, end: int) -> bool:
-        """Verifica si una posición está dentro de una zona protegida"""
-        for pz_start, pz_end in protected_zones:
-            if (start >= pz_start and start < pz_end) or (end > pz_start and end <= pz_end):
-                return True
-        return False
-    
-    pii_patterns = {
-        'EMAIL': r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b',
-        'TELEFONO': r'\b(?:\+34|0034)?[6-9]\d{8}\b',
-        'DNI': r'\b\d{8}[A-Z]\b',
-        'NIE': r'\b[XYZ]\d{7}[A-Z]\b',
-        'FECHA_COMPLETA': r'\b\d{1,2}[/-]\d{1,2}[/-]\d{2,4}\b',
-        'NUMERO_HISTORIA': r'\b(?:NH|HC|HCN)[:\s-]*\d{6,}\b',
-        'NUMERO_SEGURIDAD_SOCIAL': r'\b\d{2}[\s-]?\d{10}\b',
-    }
-    
-    detected_pii = []
-    
-    for pii_type, pattern in pii_patterns.items():
-        for match in re.finditer(pattern, text, re.IGNORECASE):
-            start, end = match.start(), match.end()
-            
-            # Verificar que NO esté en zona protegida
-            if not is_in_protected_zone(start, end):
-                detected_pii.append({
-                    'type': pii_type,
-                    'text': match.group(),
-                    'start': start,
-                    'end': end,
-                    'confidence': 1.0  # Regex es determinístico
-                })
-    
-    return detected_pii
+    return len(cleaned_text) > 0 and all(c == 'J' for c in cleaned_text)
 
 def analyze_detected_entities(entities: List[Dict], text: str) -> Dict:
     """
     Analiza las entidades detectadas para clasificarlas.
-    Filtra las detecciones que solo contengan caracteres 'X'.
+    NO filtra, solo clasifica las detecciones según sean JJJ o no.
     
     Args:
         entities (List[Dict]): Entidades detectadas
@@ -277,53 +263,53 @@ def analyze_detected_entities(entities: List[Dict], text: str) -> Dict:
     Returns:
         Dict: Análisis de las entidades
     """
-    # Filtrar entidades que solo contengan caracteres X
-    filtered_entities = []
-    x_only_entities = []
+    # Clasificar entidades (NO filtrar)
+    j_only_entities = []
+    non_j_entities = []
     
     for entity in entities:
-        word = entity.get('word', '')
-        start = entity.get('start', 0)
-        end = entity.get('end', 0)
+        # Usar el campo is_j_only si ya fue calculado en extract_entities_with_model
+        is_j = entity.get('is_j_only', False)
+        if not is_j:
+            # Fallback: calcular si no está presente
+            word = entity.get('word', '')
+            start = entity.get('start', 0)
+            end = entity.get('end', 0)
+            try:
+                actual_text = text[start:end] if start < len(text) and end <= len(text) else word
+            except:
+                actual_text = word
+            is_j = is_only_j_characters(actual_text) or is_only_j_characters(word)
         
-        # Extraer el texto real de la posición
-        try:
-            actual_text = text[start:end] if start < len(text) and end <= len(text) else word
-        except:
-            actual_text = word
-        
-        # Verificar si es solo caracteres X
-        if is_only_x_characters(actual_text) or is_only_x_characters(word):
-            x_only_entities.append(entity)
-            debug_print(f"      Filtrada detección solo-X: '{actual_text}' / '{word}'", "DEBUG")
+        if is_j:
+            j_only_entities.append(entity)
         else:
-            filtered_entities.append(entity)
+            non_j_entities.append(entity)
     
-    debug_print(f"      Entidades filtradas (solo-X): {len(x_only_entities)}", "DEBUG")
-    debug_print(f"      Entidades válidas restantes: {len(filtered_entities)}", "DEBUG")
-    
-    # NUEVA: Detección de PII residual con regex
-    pii_residual = scan_pii_regex(text)
+    debug_print(f"      Clasificación: {len(j_only_entities)} detecciones JJJ, {len(non_j_entities)} otras", "DEBUG")
     
     analysis = {
-        'total_entities': len(filtered_entities),
-        'filtered_x_entities': len(x_only_entities),
+        'total_entities': len(entities),  # Total sin filtrar
+        'j_only_count': len(j_only_entities),
+        'non_j_count': len(non_j_entities),
         'entities_by_label': {},
         'entities_by_confidence': {'high': 0, 'medium': 0, 'low': 0},
-        'suspicious_entities': [],  # Entidades que no deberían estar ahí
-        'xxxxxx_detections': [],   # Detecciones sobre "XXXXXX"
-        'other_detections': [],    # Otras detecciones
-        'x_only_filtered': x_only_entities,
-        'pii_residual': pii_residual,  # NUEVO
-        'pii_residual_count': len(pii_residual)  # NUEVO
+        'suspicious_entities': [],  # Solo entidades no-JJJ (potencialmente problemáticas)
+        'xxxxxx_detections': [],   # (compat) Detecciones sobre caracteres 'J'
+        'anon_token_detections': [],  # Detecciones sobre el token de anonimización (JJJ)
+        'other_detections': [],    # Otras detecciones (no JJJ)
+        'j_only_entities': j_only_entities,  # Todas las detecciones JJJ
+        'filtered_x_entities': len(j_only_entities)  # Compat: cuántas son JJJ
     }
     
-    for entity in filtered_entities:
+    # Analizar TODAS las entidades (incluyendo JJJ)
+    for entity in entities:
         label = entity.get('entity_group', entity.get('label', 'UNKNOWN'))
         confidence = entity.get('score', 0.0)
         word = entity.get('word', '')
         start = entity.get('start', 0)
         end = entity.get('end', 0)
+        is_j = entity.get('is_j_only', False)
         
         # Contar por etiqueta
         if label not in analysis['entities_by_label']:
@@ -340,7 +326,7 @@ def analyze_detected_entities(entities: List[Dict], text: str) -> Dict:
         
         # Extraer el texto real de la posición
         try:
-            actual_text = text[start:end] if start < len(text) and end <= len(text) else word
+            actual_text = entity.get('actual_text', text[start:end] if start < len(text) and end <= len(text) else word)
         except:
             actual_text = word
         
@@ -351,18 +337,34 @@ def analyze_detected_entities(entities: List[Dict], text: str) -> Dict:
             'confidence': confidence,
             'start': start,
             'end': end,
-            'model': entity.get('model', 'unknown')
+            'model': entity.get('model', 'unknown'),
+            'is_j_only': is_j
         }
         
         # Clasificar la detección
-        if 'XXXXXX' in actual_text or 'XXXXXX' in word:
-            analysis['xxxxxx_detections'].append(entity_info)
+        if is_j or (ANON_TOKEN and (ANON_TOKEN in actual_text or ANON_TOKEN in word)):
+            analysis['anon_token_detections'].append(entity_info)
+            analysis['xxxxxx_detections'].append(entity_info)  # compat
         else:
             analysis['other_detections'].append(entity_info)
-            # Si no es XXXXXX, es sospechoso (no debería haber entidades reales)
+            # Si no es JJJ, es sospechoso (no debería haber entidades reales en texto anonimizado)
             analysis['suspicious_entities'].append(entity_info)
     
     return analysis
+
+
+def count_anon_markers(text: str) -> int:
+    """
+    Cuenta las apariciones del token de anonimización (ANON_TOKEN).
+    """
+    if not text:
+        return 0
+
+    count = 0
+    if ANON_TOKEN:
+        count += len(re.findall(re.escape(ANON_TOKEN), text))
+
+    return count
 
 def process_documents_batch(docs_batch: List[str], input_dir: str, output_dir: str, 
                            confidence_threshold: float = 0.7) -> List[Dict]:
@@ -406,10 +408,13 @@ def process_single_document(doc_id: str, input_dir: str, pipeline_meddocan, pipe
     """
     debug_print(f"Verificando anonimización: {doc_id}", "INFO")
     
-    # Leer documento anonimizado
-    doc_file = os.path.join(input_dir, f"{doc_id}.txt")
+    # Leer documento anonimizado - intentar con diferentes extensiones
+    doc_file = os.path.join(input_dir, f"{doc_id}.txt.txt")
     if not os.path.exists(doc_file):
-        debug_print(f"No se encontró el documento: {doc_file}", "ERROR")
+        doc_file = os.path.join(input_dir, f"{doc_id}.txt")
+    
+    if not os.path.exists(doc_file):
+        debug_print(f"No se encontró el documento: {doc_id}", "ERROR")
         return {
             "document_id": doc_id,
             "success": False,
@@ -428,7 +433,7 @@ def process_single_document(doc_id: str, input_dir: str, pipeline_meddocan, pipe
         }
     
     debug_print(f"  Texto anonimizado: {len(anonymized_text)} caracteres", "DEBUG")
-    debug_print(f"  Conteo de XXXXXX: {anonymized_text.count('XXXXXX')}", "DEBUG")
+    debug_print(f"  Conteo de marcas de anonimización ({ANON_TOKEN}): {count_anon_markers(anonymized_text)}", "DEBUG")
     
     # Analizar con MEDDOCAN
     meddocan_entities = extract_entities_with_model(
@@ -471,7 +476,7 @@ def process_single_document(doc_id: str, input_dir: str, pipeline_meddocan, pipe
         "success": True,
         "anonymized_text": anonymized_text,
         "text_length": len(anonymized_text),
-        "xxxxxx_count": anonymized_text.count('XXXXXX'),
+        "anonymized_count": count_anon_markers(anonymized_text),
         "confidence_threshold": confidence_threshold,
         "meddocan_results": {
             "entities_detected": len(meddocan_entities),
@@ -488,7 +493,8 @@ def process_single_document(doc_id: str, input_dir: str, pipeline_meddocan, pipe
             "success": anonymization_success,
             "total_detections": len(all_entities),
             "suspicious_detections": len(combined_analysis['suspicious_entities']),
-            "xxxxxx_detections": len(combined_analysis['xxxxxx_detections']),
+            "xxxxxx_detections": len(combined_analysis.get('xxxxxx_detections', [])),
+            "anon_token_detections": len(combined_analysis.get('anon_token_detections', [])),
             "other_detections": len(combined_analysis['other_detections'])
         },
         "high_confidence_check": {
@@ -548,6 +554,7 @@ def create_verification_summary(results: List[Dict], output_dir: str):
     total_carmen_detections = sum([r.get("carmen_results", {}).get("entities_detected", 0) for r in successful_results])
     total_suspicious = sum([r.get("anonymization_verification", {}).get("suspicious_detections", 0) for r in successful_results])
     total_xxxxxx_detections = sum([r.get("anonymization_verification", {}).get("xxxxxx_detections", 0) for r in successful_results])
+    total_anon_token_detections = sum([r.get("anonymization_verification", {}).get("anon_token_detections", 0) for r in successful_results])
     
     perfect_anonymizations = len([r for r in successful_results 
                                  if r.get("anonymization_verification", {}).get("success", False)])
@@ -571,6 +578,7 @@ def create_verification_summary(results: List[Dict], output_dir: str):
             "total_carmen_detections": total_carmen_detections,
             "total_suspicious_detections": total_suspicious,
             "total_xxxxxx_detections": total_xxxxxx_detections,
+            "total_anon_token_detections": total_anon_token_detections,
             "anonymization_success_rate": (perfect_anonymizations / len(successful_results) * 100) if successful_results else 0
         },
         "high_confidence_statistics": {
@@ -602,7 +610,7 @@ def create_verification_summary(results: List[Dict], output_dir: str):
     print(f"  - MEDDOCAN detectó: {summary['global_statistics']['total_meddocan_detections']} entidades")
     print(f"  - CARMEN detectó: {summary['global_statistics']['total_carmen_detections']} entidades")
     print(f"  - Detecciones sospechosas: {summary['global_statistics']['total_suspicious_detections']}")
-    print(f"  - Detecciones sobre XXXXXX: {summary['global_statistics']['total_xxxxxx_detections']}")
+    print(f"  - Detecciones sobre marcas de anonimización ({ANON_TOKEN}): {summary['global_statistics'].get('total_anon_token_detections', summary['global_statistics'].get('total_xxxxxx_detections', 0))}")
     
     if summary['imperfect_anonymizations'] > 0:
         print(f"\nDOCUMENTOS CON DETECCIONES SOSPECHOSAS:")
@@ -712,87 +720,6 @@ def create_detailed_detections_report(results: List[Dict], output_dir: str):
     return detections_list
 
 
-def process_single_document_light(doc_id: str, input_dir: str, output_dir: str) -> Dict:
-    """
-    Procesa un documento en modo ligero (regex-only).
-    No carga modelos, busca marcadores [**...**], secuencias de X y PII por regex.
-    """
-    debug_print(f"Verificando (light) anonimización: {doc_id}", "INFO")
-
-    doc_file = os.path.join(input_dir, f"{doc_id}.txt")
-    if not os.path.exists(doc_file):
-        debug_print(f"No se encontró el documento: {doc_file}", "ERROR")
-        return {"document_id": doc_id, "success": False, "error": "Documento no encontrado"}
-
-    try:
-        with open(doc_file, 'r', encoding='utf-8') as f:
-            text = f.read()
-    except Exception as e:
-        debug_print(f"Error leyendo documento {doc_id}: {e}", "ERROR")
-        return {"document_id": doc_id, "success": False, "error": str(e)}
-
-    # Detectar marcadores [**...**]
-    bracketed_pattern = re.compile(r"\[\*\*(.*?)\*\*\]", flags=re.DOTALL)
-    bracketed_matches = [m for m in bracketed_pattern.finditer(text)]
-    bracketed_count = len(bracketed_matches)
-
-    # Detectar secuencias largas de X
-    x_matches = [m for m in re.finditer(r'X{3,}', text)]
-    x_count = len(x_matches)
-
-    # Detectar PII residual con regex
-    pii_list = scan_pii_regex(text)
-
-    # Construir un resultado compatible con el reporting existente
-    combined_analysis = {
-        'total_entities': 0,
-        'filtered_x_entities': x_count,
-        'entities_by_label': {},
-        'entities_by_confidence': {'high': 0, 'medium': 0, 'low': 0},
-        'suspicious_entities': [],
-        'xxxxxx_detections': [{'text': m.group(), 'start': m.start(), 'end': m.end()} for m in x_matches],
-        'other_detections': [],
-        'x_only_filtered': [],
-        'pii_residual': pii_list,
-        'pii_residual_count': len(pii_list)
-    }
-
-    anonymization_verification = {
-        'success': (bracketed_count == 0 and len(pii_list) == 0),
-        'total_detections': bracketed_count + len(pii_list) + x_count,
-        'suspicious_detections': len(pii_list),
-        'xxxxxx_detections': len(x_matches),
-        'other_detections': 0
-    }
-
-    result = {
-        'document_id': doc_id,
-        'success': True,
-        'anonymized_text': text,
-        'text_length': len(text),
-        'xxxxxx_count': x_count,
-        'confidence_threshold': None,
-        'meddocan_results': {'entities_detected': 0, 'entities': [], 'analysis': {}},
-        'carmen_results': {'entities_detected': 0, 'entities': [], 'analysis': {}},
-        'combined_analysis': combined_analysis,
-        'anonymization_verification': anonymization_verification,
-        'high_confidence_check': {'should_delete': False, 'high_confidence_entities': [], 'count': 0}
-    }
-
-    # Guardar resultado detallado en JSON
-    result_file = os.path.join(output_dir, f"{doc_id}_verification_result.json")
-    try:
-        with open(result_file, 'w', encoding='utf-8') as f:
-            json.dump(result, f, indent=2, ensure_ascii=False)
-        debug_print(f"  Resultado (light) guardado: {result_file}", "DEBUG")
-    except Exception as e:
-        debug_print(f"  ERROR al guardar resultado (light): {e}", "WARN")
-
-    # Mostrar un pequeño resumen
-    debug_print(f"  (light) bracketed_count={bracketed_count}, pii_residual={len(pii_list)}, x_count={x_count}", "INFO")
-
-    return result
-
 def create_per_document_csv(results: List[Dict], output_dir: str):
     """
     Crea un CSV con métricas detalladas por documento.
@@ -824,7 +751,6 @@ def create_per_document_csv(results: List[Dict], output_dir: str):
             "total_detections": verification.get("total_detections", 0),
             "suspicious_detections": verification.get("suspicious_detections", 0),
             "xxxxxx_detections": verification.get("xxxxxx_detections", 0),
-            "pii_residual_count": combined.get("pii_residual_count", 0),
             "high_confidence_entities": high_conf.get("count", 0),
             "should_delete": high_conf.get("should_delete", False),
             "meddocan_detections": meddocan.get("total_entities", 0),
@@ -898,9 +824,7 @@ def create_markdown_summary(results: List[Dict], output_dir: str, confidence_thr
                                  if r.get("anonymization_verification", {}).get("success", False)])
     high_confidence_docs = [r for r in successful_results 
                            if r.get("high_confidence_check", {}).get("should_delete", False)]
-    
-    total_pii_residual = sum([r.get("combined_analysis", {}).get("pii_residual_count", 0) 
-                              for r in successful_results])
+
     
     with open(md_file, 'w', encoding='utf-8') as f:
         f.write("#  Resumen de Validación de Anonimización\n\n")
@@ -913,7 +837,6 @@ def create_markdown_summary(results: List[Dict], output_dir: str, confidence_thr
         percent_perfect = (perfect_anonymizations/len(successful_results)*100) if successful_results else 0.0
         f.write(f"- **Anonimizaciones perfectas**: {perfect_anonymizations} ({percent_perfect:.1f}%)\n")
         f.write(f"- **Documentos con alta confianza (>0.99)**: {len(high_confidence_docs)}\n")
-        f.write(f"- **PII residual detectado**: {total_pii_residual} instancias\n\n")
         
         if high_confidence_docs:
             f.write("##  Documentos Marcados para Eliminación\n\n")
@@ -927,17 +850,6 @@ def create_markdown_summary(results: List[Dict], output_dir: str, confidence_thr
                 f.write(f"| {doc_id} | {count} | {models} |\n")
             f.write("\n")
         
-        if total_pii_residual > 0:
-            f.write("## PII Residual Detectado\n\n")
-            f.write("Documentos con PII fuera de marcadores:\n\n")
-            for result in successful_results:
-                pii_list = result.get("combined_analysis", {}).get("pii_residual", [])
-                if pii_list:
-                    doc_id = result["document_id"]
-                    f.write(f"### {doc_id}\n\n")
-                    for pii in pii_list:
-                        f.write(f"- **{pii['type']}**: `{pii['text']}` (pos: {pii['start']}-{pii['end']})\n")
-                    f.write("\n")
         
         f.write("## Archivos Generados\n\n")
         f.write("- `per_doc.csv`: Métricas detalladas por documento\n")
@@ -1041,7 +953,7 @@ def delete_high_confidence_documents(results: List[Dict], jsonl_file: str, repor
             with open(jsonl_file, 'w', encoding='utf-8') as f:
                 f.writelines(kept_lines)
             
-            debug_print(f"   [OK] JSONL actualizado: {removed_count} entradas eliminadas", "INFO")
+            debug_print(f"    [OK] JSONL actualizado: {removed_count} entradas eliminadas", "INFO")
             
         except Exception as e:
             error_msg = f"Error actualizando JSONL: {e}"
@@ -1062,29 +974,25 @@ def delete_high_confidence_documents(results: List[Dict], jsonl_file: str, repor
     }
 
 def main():
-    parser = argparse.ArgumentParser(description="PASO 4: Verificar anonimización con modelos BSC")
+    parser = argparse.ArgumentParser(description="PASO 6: Verificar anonimización con modelos BSC")
     parser.add_argument("--input-dir", default="step5_anonymized_documents",
-                       help="Directorio con documentos anonimizados del paso 3")
+                       help="Directorio con documentos anonimizados del paso 5")
     parser.add_argument("--output-dir", default="step6_validation_results",
                        help="Directorio de salida para resultados de verificación")
     parser.add_argument("--confidence-threshold", type=float, default=0.99,
-                       help="Umbral mínimo de confianza para considerar detecciones (default: 0.99 = 99%)")
+                       help="Umbral mínimo de confianza para considerar detecciones (default: 0.99 = 99%%)")
     parser.add_argument("--jsonl-file", default="examples/jsonl_data/medical_annotations_fixed.jsonl",
                        help="Archivo JSONL con anotaciones")
     parser.add_argument("--max-docs", type=int, default=None,
                        help="Máximo número de documentos a procesar")
-    parser.add_argument("--report-only", action="store_true",
-                       help="Solo generar reportes sin eliminar archivos (deprecated - use --delete)")
     parser.add_argument("--delete", action="store_true",
                        help="Si está presente, elimina archivos marcados; por defecto NO borra")
-    parser.add_argument("--light", action="store_true",
-                       help="Modo ligero: NO carga modelos, usa solo regex para detectar PII residual y marcadores. Útil para validar los archivos de step5 rápidamente.")
     parser.add_argument("--strict", action="store_true",
                        help="Modo estricto: exit code diferente si hay documentos dudosos")
     
     args = parser.parse_args()
     
-    debug_print("=== PASO 4: VERIFICACIÓN DE ANONIMIZACIÓN CON MODELOS BSC ===", "INFO")
+    debug_print("=== PASO 6: VERIFICACIÓN DE ANONIMIZACIÓN CON MODELOS BSC ===", "INFO")
     debug_print(f"Directorio de entrada: {args.input_dir}", "INFO")
     debug_print(f"Directorio de salida: {args.output_dir}", "INFO")
     debug_print(f"Umbral de confianza: {args.confidence_threshold}", "INFO")
@@ -1104,7 +1012,15 @@ def main():
     # Filtrar solo documentos (excluyendo archivos de reporte)
     valid_documents = []
     for doc in documents:
-        doc_id = doc.stem
+        # Manejar archivos con doble extensión .txt.txt
+        doc_name = doc.name
+        if doc_name.endswith('.txt.txt'):
+            doc_id = doc_name[:-8]  # Quitar ambos .txt
+        elif doc_name.endswith('.txt'):
+            doc_id = doc_name[:-4]  # Quitar .txt
+        else:
+            doc_id = doc.stem
+        
         if not doc_id.endswith('_summary') and not doc_id.endswith('_report'):
             valid_documents.append(doc_id)
     
@@ -1117,8 +1033,13 @@ def main():
         print("ERROR: No se encontraron documentos válidos para procesar")
         return
     
+    
+    # Procesar documentos con modelos NER
+    results = []
+    
+    debug_print("Cargando modelos NER...", "INFO")
     # Configurar paralelización (1 worker para evitar problemas con meta tensors)
-    num_workers = 1  # Sin paralelización para evitar problemas de carga del modelo
+    num_workers = 1# Sin paralelización para evitar problemas de carga del modelo
     debug_print(f"Verificación secuencial con {num_workers} worker", "INFO")
     
     # Dividir documentos en lotes
@@ -1128,44 +1049,31 @@ def main():
     debug_print(f"Dividido en {len(doc_batches)} lotes de ~{batch_size} documentos cada uno", "INFO")
     
     # Procesar documentos en paralelo
-    debug_print("Iniciando verificación paralela...", "INFO")
-    results = []
+    debug_print("Iniciando verificación con modelos NER...", "INFO")
     
-    if args.light:
-        # Modo ligero: no cargar modelos, procesar secuencialmente con regex
-        debug_print("Modo LIGHT activado: procesando sin cargar modelos (regex-only)", "INFO")
-        for batch in doc_batches:
-            for doc_id in batch:
-                try:
-                    res = process_single_document_light(doc_id, args.input_dir, args.output_dir)
-                    results.append(res)
-                except Exception as e:
-                    debug_print(f"Error procesando {doc_id} en modo light: {e}", "ERROR")
-    else:
-        with ThreadPoolExecutor(max_workers=num_workers) as executor:
-            # Enviar lotes a workers
-            future_to_batch = {
-                executor.submit(process_documents_batch, batch, args.input_dir, args.output_dir, args.confidence_threshold): i 
-                for i, batch in enumerate(doc_batches)
-            }
-            
-            # Recopilar resultados
-            completed_batches = 0
-            for future in as_completed(future_to_batch):
-                batch_idx = future_to_batch[future]
-                try:
-                    batch_results = future.result()
-                    results.extend(batch_results)
-                    completed_batches += 1
-                    
-                    successful = len([r for r in batch_results if r.get("success", False)])
-                    perfect = len([r for r in batch_results if r.get("success", False) and 
-                                  r.get("anonymization_verification", {}).get("success", False)])
-                    debug_print(f"  Lote {batch_idx + 1}/{len(doc_batches)} completado: {successful}/{len(batch_results)} exitosos, {perfect} perfectos", "INFO")
-                    
-                except Exception as e:
-                    debug_print(f"Error procesando lote {batch_idx}: {e}", "ERROR")
-
+    with ThreadPoolExecutor(max_workers=num_workers) as executor:
+        # Enviar lotes a workers
+        future_to_batch = {
+            executor.submit(process_documents_batch, batch, args.input_dir, args.output_dir, args.confidence_threshold): i 
+            for i, batch in enumerate(doc_batches)
+        }
+        
+        # Recopilar resultados
+        completed_batches = 0
+        for future in as_completed(future_to_batch):
+            batch_idx = future_to_batch[future]
+            try:
+                batch_results = future.result()
+                results.extend(batch_results)
+                completed_batches += 1
+                
+                successful = len([r for r in batch_results if r.get("success", False)])
+                perfect = len([r for r in batch_results if r.get("success", False) and 
+                              r.get("anonymization_verification", {}).get("success", False)])
+                debug_print(f"  Lote {batch_idx + 1}/{len(doc_batches)} completado: {successful}/{len(batch_results)} exitosos, {perfect} perfectos", "INFO")
+                
+            except Exception as e:
+                debug_print(f"Error procesando lote {batch_idx}: {e}", "ERROR")
     
     # Crear reporte resumen
     create_verification_summary(results, args.output_dir)
@@ -1206,4 +1114,4 @@ def main():
     return 0
 
 if __name__ == "__main__":
-    exit(main())
+    main()

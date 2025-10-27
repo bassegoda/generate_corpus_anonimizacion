@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 STEP 5: Anonimización simple (versión corregida)
-Lee archivos .txt y reemplaza cualquier texto marcado como [** ... **] por un token (por defecto "(JJJ)").
+Lee archivos .txt y reemplaza cualquier texto marcado como [** ... **] por un token (por defecto "JJJ").
 Genera un resumen con el número de archivos procesados y reemplazos realizados.
 No lee CSV ni JSON.
 """
@@ -23,7 +23,7 @@ def debug_print(msg: str, level: str = "INFO"):
 BRACKETED_RE = re.compile(r"\[\*\*(.*?)\*\*\]", flags=re.DOTALL)
 
 
-def anonymize_text_remove_bracketed(text: str, token: str = "(JJJ)") -> Tuple[str, int]:
+def anonymize_text_remove_bracketed(text: str, token: str = "JJJ") -> Tuple[str, int]:
     """
     Reemplaza todas las ocurrencias de [** ... **] por `token`.
     Devuelve (texto_anonimizado, numero_reemplazos).
@@ -72,7 +72,7 @@ def main():
     parser = argparse.ArgumentParser(description="Anonimizar marcas [** ... **] en .txt")
     parser.add_argument("--input-dir", "-i", default="step4_5_cleaned_documents", help="Directorio con .txt")
     parser.add_argument("--output-dir", "-o", default="step5_anonymized_documents", help="Directorio de salida")
-    parser.add_argument("--token", "-t", default="(JJJ)", help="Token de reemplazo (por defecto (JJJ))")
+    parser.add_argument("--token", "-t", default="JJJ", help="Token de reemplazo (por defecto JJJ)")
     parser.add_argument("--max-files", type=int, default=None, help="Máximo de archivos a procesar")
     args = parser.parse_args()
 
