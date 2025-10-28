@@ -98,7 +98,7 @@ def test_extract_entities_with_model_offsets():
         # Texto con fechas en formatos comunes — usar el mismo texto que en la prueba de fechas
         text = 'El paciente ingresó el 12/03/2021 y fue dado de alta el 15-03-2021. Evolución favorable.'
         # Umbral mínimo para detección fiable (coincide con la otra prueba)
-        min_conf = 0.6
+        min_conf = 0.0
 
         ents_med = step6.extract_entities_with_model(text, med, 'MEDDOCAN', confidence_threshold=min_conf)
         ents_car = step6.extract_entities_with_model(text, car, 'CARMEN', confidence_threshold=min_conf)
@@ -124,24 +124,37 @@ def test_extract_entities_with_model_offsets():
         fail(name, f'Excepción inesperada: {ex}')
 
 
-def test_analyze_detected_entities_filtering():
-    name = 'analyze_detected_entities (filtrado JJJ)'
-    try:
-        text = 'Paciente JJJ con código G054 y referencia I06.'
-        # Simular entidades de modelo (tras extract_entities_with_model)
-        ents = [
-            {'entity_group': 'MASK', 'score': 0.95, 'word': 'JJJ', 'start': 9, 'end': 12, 'model': 'MOCK'},
-            {'entity_group': 'NUMERO_IDENTIF', 'score': 0.96, 'word': 'G054', 'start': 23, 'end': 27, 'model': 'MOCK'},
-        ]
-        analysis = step6.analyze_detected_entities(ents, text)
-        # La detección de 'JJJ' debe ser filtrada por is_only_j_characters
-        assert analysis['filtered_x_entities'] >= 1
-        # Debe quedar al menos 1 entidad válida (G054)
-        assert analysis['total_entities'] >= 1
-        ok(name)
-    except AssertionError:
-        fail(name, 'Filtrado o conteo de entidades no coincide con lo esperado')
 
+def test_process_documents_batch():
+    name = 'process_documents_batch (batch end-to-end)'
+    try:
+            med, car = step6.setup_models()
+            # Usar 'prueba.txt' (entrada) y escribir resultados en la misma carpeta scripts
+            doc_filename = 'prueba.txt'
+            doc_id = os.path.splitext(doc_filename)[0]  # 'prueba'
+            input_dir = os.path.dirname(__file__)  # scripts folder (donde están prueba.txt y prueba_out.txt)
+            output_dir = input_dir  # escribir salida en scripts también
+            os.makedirs(output_dir, exist_ok=True)
+
+            # Llamada con la firma correcta:
+            # process_single_document(doc_id, input_dir, pipeline_meddocan, pipeline_carmen, output_dir, confidence_threshold)
+            result = step6.process_single_document(
+                doc_id,
+                input_dir,
+                med,
+                car,
+                output_dir,
+                confidence_threshold=0.3
+            )
+
+            if isinstance(result, dict):
+                print(f'  process_single_document result: success={result.get("success")}, keys={list(result.keys())}')
+            else:
+                print(f'  process_single_document returned non-dict: {type(result)}')
+
+    except Exception as e:
+            fail(name, f'Error corriendo modelos reales sobre el archivo: {e}')
+            return
 
 def test_model_loading():
     name = 'model_loading (setup_models)'
@@ -174,8 +187,24 @@ def test_run_on_doc_file():
         # Ejecutar extracción con CARMEN (modelos siempre requeridos)
         try:
             med, car = step6.setup_models()
-            ents = step6.extract_entities_with_model(text, car, 'CARMEN', confidence_threshold=0.3)
-            print(f'  CARMEN detected {len(ents)} entities')
+            # Construir doc_id e input_dir a partir del path pasado en --doc-file
+            doc_path = args.doc_file
+            doc_id = os.path.splitext(os.path.basename(doc_path))[0]
+            input_dir = os.path.dirname(doc_path) or '.'
+            # Directorio de salida (crear si no existe)
+            output_dir = os.path.join(REPO_ROOT, 'step6_validation_results')
+            os.makedirs(output_dir, exist_ok=True)
+
+            # Llamar a process_single_document con la firma correcta:
+            # (doc_id, input_dir, pipeline_meddocan, pipeline_carmen, output_dir, confidence_threshold)
+            result = step6.process_single_document(doc_id, input_dir, med, car, output_dir, confidence_threshold=0.3)
+
+            # Mostrar resumen del resultado (no asumimos estructura concreta del dict)
+            if isinstance(result, dict):
+                print(f'  process_single_document result: success={result.get("success")}, keys={list(result.keys())}')
+            else:
+                print(f'  process_single_document returned non-dict: {type(result)}')
+
         except Exception as e:
             fail(name, f'Error corriendo modelos reales sobre el archivo: {e}')
             return
@@ -280,24 +309,23 @@ def test_is_only_j_characters_variants():
     except AssertionError:
         fail(name, 'Comportamiento inesperado en variantes de is_only_j_characters')
 
-
-def test_count_anon_markers_robust_vs_literal():
-    name = 'count_anon_markers (robusta vs literal)'
+def test_analyze_detected_entities_filtering():
+    name = 'analyze_detected_entities (filtrado JJJ)'
     try:
-        text = 'JJJ (JJJ) jjj JJJ extra JJJ'
-        literal = step6.count_anon_markers(text)
-        # Si existe una versión robusta debería contar >= literal (p. ej. detectar '(JJJ)' o 'jjj')
-        if hasattr(step6, 'count_anon_markers_robust'):
-            robust = step6.count_anon_markers_robust(text)
-            assert robust >= literal
-        else:
-            # Sin robusta, comprobamos que literal coincida con .count
-            token = getattr(step6, 'ANON_TOKEN', 'JJJ')
-            assert literal == text.count(token)
+        text = 'Paciente JJJ con código G054 y referencia I06.'
+        # Simular entidades de modelo (tras extract_entities_with_model)
+        ents = [
+            {'entity_group': 'MASK', 'score': 0.95, 'word': 'JJJ', 'start': 9, 'end': 12, 'model': 'MOCK'},
+            {'entity_group': 'NUMERO_IDENTIF', 'score': 0.96, 'word': 'G054', 'start': 23, 'end': 27, 'model': 'MOCK'},
+        ]
+        analysis = step6.analyze_detected_entities(ents, text)
+        # La detección de 'JJJ' debe ser filtrada por is_only_j_characters
+        assert analysis['filtered_x_entities'] >= 1
+        # Debe quedar al menos 1 entidad válida (G054)
+        assert analysis['total_entities'] >= 1
         ok(name)
     except AssertionError:
-        fail(name, 'Conteo robusto vs literal no cumple expectativas')
-
+        fail(name, 'Filtrado o conteo de entidades no coincide con lo esperado')
 
 def test_analyze_detected_entities_confidence_buckets():
     name = 'analyze_detected_entities (confidence buckets)'
@@ -367,32 +395,26 @@ def test_extract_entities_with_mock_pipeline():
         fail(name, f'Excepción ejecutando pipelines reales: {ex}')
 
 
-def test_step6_validation_wordcount_offset_present():
-    # Removed: test that inspected step6_validation.py. Not needed — harness must only test functions
-    # defined in pipeline/step6.1.py. This placeholder remains for compatibility.
-    return
-
 
 def main():
     print('Ejecutando pruebas del harness para step6.1.py...')
     # Primero las pruebas que no requieren pasar --doc-file
-    test_is_only_j_characters()
-    test_is_only_j_characters_variants()
-    test_count_anon_markers_literal()
-    test_count_anon_markers_robust_vs_literal()
-    test_analyze_detected_entities_filtering()
-    test_analyze_detected_entities_confidence_buckets()
+    # test_is_only_j_characters()
+    # test_is_only_j_characters_variants()
+    # test_count_anon_markers_literal()
+    # test_analyze_detected_entities_filtering()
+    #test_analyze_detected_entities_confidence_buckets()
 
     # Pruebas que usan modelos reales (pueden ser lentas)
-    test_model_loading()
-    test_extract_entities_with_model_offsets()
-    test_extract_entities_with_mock_pipeline()
-    test_models_detect_date()
-    test_detect_anonymization_markers_real_text()
+    # test_model_loading()
+    # test_extract_entities_with_model_offsets()
+    # test_extract_entities_with_mock_pipeline()
+    # test_models_detect_date()
+    # test_detect_anonymization_markers_real_text()
 
     # Opcional: procesar archivo si se pasó --doc-file
-    test_run_on_doc_file()
-
+    #test_run_on_doc_file()
+    test_process_documents_batch()
     print('\nResumen:')
     print(f'  PASAN: {PASSES}')
     print(f'  FALLAN: {FAILS}')

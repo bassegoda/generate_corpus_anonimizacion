@@ -302,7 +302,7 @@ def analyze_detected_entities(entities: List[Dict], text: str) -> Dict:
         'filtered_x_entities': len(j_only_entities)  # Compat: cuántas son JJJ
     }
     
-    # Analizar TODAS las entidades (incluyendo JJJ)
+    
     for entity in entities:
         label = entity.get('entity_group', entity.get('label', 'UNKNOWN'))
         confidence = entity.get('score', 0.0)
@@ -1039,7 +1039,7 @@ def main():
     
     debug_print("Cargando modelos NER...", "INFO")
     # Configurar paralelización (1 worker para evitar problemas con meta tensors)
-    num_workers = 1# Sin paralelización para evitar problemas de carga del modelo
+    num_workers = 1 # Sin paralelización para evitar problemas de carga del modelo
     debug_print(f"Verificación secuencial con {num_workers} worker", "INFO")
     
     # Dividir documentos en lotes
